@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-07-25 11:24-0700\n"
+"POT-Creation-Date: 2017-08-02 13:30-0700\n"
 "PO-Revision-Date: 2017-07-26 09:10+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -56,8 +56,8 @@ msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
 msgstr ""
-"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">A Tumblebeast-et</a> Matthew Inman készítette a <a href=\"http://theoatmeal.com\" "
-"rel=\"nofollow\">The Oatmeal-tól</a></small></p>"
+"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">A Tumblebeast-et</a> Matthew Inman készítette a <a href=\"http://theoatmeal.com\" rel="
+"\"nofollow\">The Oatmeal-tól</a></small></p>"
 
 # 100%
 #: jinja2/404.html:6
@@ -76,7 +76,9 @@ msgstr "Megpróbálhat egy keresést, vagy újrakezdheti a <a href=\"%(homepage_
 #: jinja2/404.html:28
 #, python-format
 msgid "If you were following a documentation link, you can sign in and create the page. Otherwise, please <a href=\"%(bug_form_url)s\" rel=\"nofollow\">file a bug</a>. Thanks!"
-msgstr "Ha egy dokumentációs hivatkozást követett, akkor bejelentkezhet és létrehozhatja az oldalt. Ellenkező esetben, kérjük <a href=\"%(bug_form_url)s\" rel=\"nofollow\">jelentse be a hibát</a>. Köszönjük!"
+msgstr ""
+"Ha egy dokumentációs hivatkozást követett, akkor bejelentkezhet és létrehozhatja az oldalt. Ellenkező esetben, kérjük <a href=\"%(bug_form_url)s\" rel=\"nofollow\">jelentse be a hibát</a>. "
+"Köszönjük!"
 
 #: jinja2/404.html:35
 msgid "This user's profile has been banned."
@@ -93,250 +95,227 @@ msgid "Internal Server Error"
 msgstr "Belső kiszolgálóhiba"
 
 # 100%
-#: jinja2/base.html:13 jinja2/base.html:47 jinja2/base.html:52 jinja2/base.html:127 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:13 jinja2/base.html:43 jinja2/base.html:48 kuma/search/jinja2/search/plugin.html:3
 msgid "Mozilla Developer Network"
 msgstr "Mozilla Developer Network"
 
-#: jinja2/base.html:98
+#: jinja2/base.html:90
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "Az MDN jelenleg csak olvasható, karbantartási módban van."
 
-#: jinja2/base.html:99
+#: jinja2/base.html:91
 msgid "Learn more"
 msgstr "Tudjon meg többet"
 
-#: jinja2/base.html:109
+#: jinja2/base.html:101
 msgid "Skip to main content"
 msgstr "Ugrás a főtartalomra"
 
-#: jinja2/base.html:111
+#: jinja2/base.html:103
 msgid "Select language"
 msgstr "Válasszon nyelvet"
 
-#: jinja2/base.html:112
+#: jinja2/base.html:104
 msgid "Skip to search"
 msgstr "Ugrás a kereséshez"
 
-#: jinja2/base.html:119 jinja2/base.html:257
+#: jinja2/base.html:110 jinja2/base.html:200
 msgid "MDN Web Docs"
 msgstr "MDN webes dokumentáció"
 
-#: jinja2/base.html:136 kuma/core/translations/search/filter/tools/name.py:4
+#: jinja2/base.html:116 kuma/core/translations/search/filter/tools/name.py:4
 msgid "Tools"
 msgstr "Eszközök"
 
-#: jinja2/base.html:139
+#: jinja2/base.html:119
 msgid "Contribute to MDN"
 msgstr "Közreműködés az MDN-ben"
 
-#: jinja2/base.html:141
+#: jinja2/base.html:121
 msgid "Get started"
 msgstr "Első lépések"
 
-#: jinja2/base.html:142
+#: jinja2/base.html:122
 msgid "Review or localize docs"
 msgstr "Dokumentáció átnézése vagy honosítása"
 
-#: jinja2/base.html:145
+#: jinja2/base.html:125
 msgid "Site Tools"
 msgstr "Eszközök"
 
-#: jinja2/base.html:147
+#: jinja2/base.html:127
 msgid "Revision dashboard"
 msgstr "Verziók irányítópultja"
 
-#: jinja2/base.html:148
+#: jinja2/base.html:128
 msgid "Documentation status"
 msgstr "Dokumentáció állapota"
 
-#: jinja2/base.html:157 jinja2/base.html:187
+#: jinja2/base.html:137
 msgid "Technologies"
 msgstr "Technológiák"
 
 # 100%
-#: jinja2/base.html:161 jinja2/base.html:189 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/homepage.html:91 kuma/landing/jinja2/landing/promote_buttons.html:105
+#: jinja2/base.html:141 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
 msgid "HTML"
 msgstr "HTML"
 
 # 100%
-#: jinja2/base.html:162 jinja2/base.html:190 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/homepage.html:92 kuma/landing/jinja2/landing/promote_buttons.html:99
+#: jinja2/base.html:142 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
 msgid "CSS"
 msgstr "CSS"
 
 # 100%
-#: jinja2/base.html:163 jinja2/base.html:191 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/promote_buttons.html:111
+#: jinja2/base.html:143 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: jinja2/base.html:164 jinja2/base.html:192
+#: jinja2/base.html:144
 msgid "Graphics"
 msgstr "Grafika"
 
-#: jinja2/base.html:165 jinja2/base.html:193
+#: jinja2/base.html:145
 msgid "HTTP"
 msgstr "HTTP"
 
-#: jinja2/base.html:166 jinja2/base.html:194
+#: jinja2/base.html:146
 msgid "APIs / DOM"
 msgstr "API-k / DOM"
 
-#: jinja2/base.html:167 jinja2/base.html:195
+#: jinja2/base.html:147
 msgid "WebExtensions"
 msgstr "WebExtensionök"
 
-#: jinja2/base.html:168 jinja2/base.html:196 kuma/core/translations/search/filter/mathml/name.py:4
+#: jinja2/base.html:148 kuma/core/translations/search/filter/mathml/name.py:4
 msgid "MathML"
 msgstr "MathML"
 
-#: jinja2/base.html:170 jinja2/base.html:199
+#: jinja2/base.html:150
 msgid "References & Guides"
 msgstr "Referenciák és útmutatók"
 
-#: jinja2/base.html:174 jinja2/base.html:201 kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/homepage.html:100
+#: jinja2/base.html:154 kuma/landing/jinja2/landing/homepage.html:71
 msgid "Learn web development"
 msgstr "Tanuljon a webfejlesztésről"
 
-#: jinja2/base.html:175 jinja2/base.html:202
+#: jinja2/base.html:155
 msgid "Tutorials"
 msgstr "Ismertetők"
 
-#: jinja2/base.html:176 jinja2/base.html:203
+#: jinja2/base.html:156
 msgid "References"
 msgstr "Referenciák"
 
-#: jinja2/base.html:177 jinja2/base.html:204
+#: jinja2/base.html:157
 msgid "Developer Guides"
 msgstr "Fejlesztői útmutatók"
 
-#: jinja2/base.html:178 jinja2/base.html:205
+#: jinja2/base.html:158
 msgid "Accessibility"
 msgstr "Akadálymentesítés"
 
-#: jinja2/base.html:179 jinja2/base.html:206
+#: jinja2/base.html:159
 msgid "Game development"
 msgstr "Játékfejlesztés"
 
-#: jinja2/base.html:180 jinja2/base.html:207
+#: jinja2/base.html:160
 msgid "...more docs"
 msgstr "…további dokumentáció"
 
-#: jinja2/base.html:184 jinja2/base.html:261 kuma/landing/jinja2/landing/homepage.html:79 kuma/landing/jinja2/landing/homepage.html:85
-msgid "Web Technologies"
-msgstr "Webes technológiák"
-
 # 100%
-#: jinja2/base.html:211
-msgid "Mozilla Docs"
-msgstr "Mozilla dokumentációk"
-
-# 100%
-#: jinja2/base.html:215 kuma/core/sections.py:6
-msgid "Add-ons"
-msgstr "Kiegészítők"
-
-# 100%
-#: jinja2/base.html:216 kuma/core/translations/search/filter/firefox/name.py:4
-msgid "Firefox"
-msgstr "Firefox"
-
-#: jinja2/base.html:220 kuma/landing/jinja2/landing/homepage.html:81
-msgid "Developer Tools"
-msgstr "Fejlesztői eszközök"
-
-# 100%
-#: jinja2/base.html:220 jinja2/base.html:264
+#: jinja2/base.html:164 jinja2/base.html:207
 msgid "Feedback"
 msgstr "Visszajelzés"
 
 # 100%
-#: jinja2/base.html:224
+#: jinja2/base.html:168
 msgid "Get Firefox help"
 msgstr "Segítség a Firefoxhoz"
 
-#: jinja2/base.html:225
+#: jinja2/base.html:169
 msgid "Get web development help"
 msgstr "Segítség webfejlesztéshez"
 
-#: jinja2/base.html:228
+#: jinja2/base.html:172
 msgid "Join the MDN community"
 msgstr "Csatlakozás az MDN közösséghez"
 
-#: jinja2/base.html:229
+#: jinja2/base.html:173
 msgid "Report a content problem"
 msgstr "Tartalmi hiba jelentése"
 
-#: jinja2/base.html:230
+#: jinja2/base.html:174
 msgid "Report a bug"
 msgstr "Hiba jelentése"
 
 # 100%
-#: jinja2/base.html:236 jinja2/base.html:237 jinja2/base.html:239 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:47
-#: kuma/landing/jinja2/landing/homepage.html:57 kuma/landing/jinja2/landing/homepage.html:64 kuma/landing/jinja2/landing/homepage.html:69 kuma/search/jinja2/search/base.html:2
+#: jinja2/base.html:180 jinja2/base.html:181 jinja2/base.html:183 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:39
+#: kuma/landing/jinja2/landing/homepage.html:49 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/homepage.html:61 kuma/search/jinja2/search/base.html:2
 #: kuma/search/jinja2/search/results.html:15 kuma/search/jinja2/search/results.html:52 kuma/search/jinja2/search/results.html:55 kuma/search/jinja2/search/results.html:60
 msgid "Search"
 msgstr "Keresés"
 
-#: jinja2/base.html:262 kuma/landing/jinja2/landing/homepage.html:155 kuma/landing/jinja2/landing/homepage.html:176
+#: jinja2/base.html:204 kuma/landing/jinja2/landing/homepage.html:70
+msgid "Web Technologies"
+msgstr "Webes technológiák"
+
+#: jinja2/base.html:205 kuma/landing/jinja2/landing/homepage.html:102
 msgid "Learn Web Development"
 msgstr "Tanuljon a webfejlesztésről"
 
-#: jinja2/base.html:263 jinja2/base.html:312
+#: jinja2/base.html:206
 msgid "About MDN"
 msgstr "Az MDN-ről"
 
 # 100%
-#: jinja2/base.html:265 jinja2/base.html:277 kuma/users/forms.py:60 kuma/users/models.py:156 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:208 jinja2/base.html:220 kuma/users/forms.py:60 kuma/users/models.py:156 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/base.html:266 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:209 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/base.html:270 kuma/core/sections.py:13
+#: jinja2/base.html:213 kuma/core/sections.py:13
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: jinja2/base.html:274
+#: jinja2/base.html:217
 msgid "About"
 msgstr "Névjegy"
 
-#: jinja2/base.html:275
+#: jinja2/base.html:218
 msgid "Contact Us"
 msgstr "Kapcsolat"
 
-#: jinja2/base.html:276
+#: jinja2/base.html:219
 msgid "Donate"
 msgstr "Adományozás"
 
-#: jinja2/base.html:278 kuma/users/forms.py:105 kuma/users/models.py:166 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:221 kuma/users/forms.py:105 kuma/users/models.py:166 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr "Facebook"
 
-#: jinja2/base.html:279
+#: jinja2/base.html:222
 msgid "Instagram"
 msgstr "Instagram"
 
-#: jinja2/base.html:287 jinja2/base.html:313
+#: jinja2/base.html:234
 msgid "Terms"
 msgstr "Feltételek"
 
-#: jinja2/base.html:288 jinja2/base.html:314
+#: jinja2/base.html:235
 msgid "Privacy"
 msgstr "Magánszféra"
 
-#: jinja2/base.html:289 jinja2/base.html:315
+#: jinja2/base.html:236
 msgid "Cookies"
 msgstr "Sütik"
 
-#: jinja2/base.html:294 jinja2/base.html:307
+#: jinja2/base.html:240
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla Developer Network and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla Developer Network és egyéni hozzájárulók.</p> <p>A tartalom <a href=\"%(copyright_url)s\">ezen licencek</a> alatt érhető el.</p>"
-
-#: jinja2/base.html:316
-msgid "Contribute to the code"
-msgstr "Közreműködés a kódban"
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -356,19 +335,19 @@ msgstr "Más nyelvek:"
 msgid "Go"
 msgstr "Ugrás"
 
-#: jinja2/includes/login.html:9 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:7 kuma/users/jinja2/users/user_edit.html:40
 msgid "View profile"
 msgstr "Profil megjelenítése"
 
-#: jinja2/includes/login.html:10 kuma/users/jinja2/account/email.html:60
+#: jinja2/includes/login.html:8 kuma/users/jinja2/account/email.html:60
 msgid "Edit profile"
 msgstr "Profil szerkesztése"
 
-#: jinja2/includes/login.html:14 jinja2/includes/login.html:24
+#: jinja2/includes/login.html:12
 msgid "Sign out"
 msgstr "Kijelentkezés"
 
-#: jinja2/includes/login.html:30
+#: jinja2/includes/login.html:20
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
@@ -424,70 +403,11 @@ msgstr "Előző"
 msgid "Next"
 msgstr "Tovább"
 
-#: jinja2/includes/redesign_notice.html:4
-msgid "Under Construction"
-msgstr "Átalakítás alatt"
-
-#: jinja2/includes/redesign_notice.html:6
-#, python-format
-msgid "Thanks for helping us test the <a href=\"%(blog_url)s\">new MDN look</a>. Find anything wrong? Please <a href=\"%(bug_url)s\">file a bug</a>."
-msgstr "Köszönjük, hogy segít tesztelni az <a href=\"%(blog_url)s\">MDN új kinézetét</a>. Valami hibát talált? Kérjük <a href=\"%(bug_url)s\">jelentse a hibát</a>."
-
-#: jinja2/includes/redesign_notice.html:14
-msgid "Hello Beta Tester!"
-msgstr "Üdv, béta tesztelő!"
-
-#: jinja2/includes/redesign_notice.html:15
-msgid ""
-"We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first to "
-"see the new look, and we’d love to hear what you think."
-msgstr ""
-"Frissítjük az MDN kinézetét és a navigációját, hogy még jobban tükrözze az elkötelezettségünk, hogy a világ legjobb (és leginkább platformfüggetlen) webes dokumentációja legyen. Béta tesztelőként, "
-"Ön az első, aki látja az új kinézetet, és szeretnénk hallani, mit gondol."
-
-#: jinja2/includes/redesign_notice.html:18
-#, python-format
-msgid ""
-"You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on <a href=\"%(profile_url)s\">your "
-"profile page</a>."
-msgstr ""
-"Az új kinézetünk előzetesét látja. Ha bármi rosszat tapasztal, akkor jelentse be hibaként (a hivatkozás a láblécben), és ki is léphet a béta tesztelésből a <a href=\"%(profile_url)s\">profil "
-"oldalán</a>."
-
-#: jinja2/includes/redesign_notice.html:22
-msgid "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on your profile page."
-msgstr "Az új kinézetünk előzetesét látja. Ha bármi rosszat tapasztal, akkor jelentse be hibaként (a hivatkozás a láblécben), és ki is léphet a béta tesztelésből a saját profil oldalán."
-
-#: jinja2/includes/redesign_notice.html:25
-msgid "The changes will roll out to you (as a beta tester) over the next couple weeks, and to the world in mid-July."
-msgstr "A változásokat néhány héten belül érnek el Önhöz (béta tesztelőként), a világhoz pedig július közepén."
-
-#: jinja2/includes/redesign_notice.html:26
-msgid "We hope you love it and find it useful!"
-msgstr "Reméljük tetszik, és hasznosnak találja!"
-
-#: jinja2/includes/redesign_notice.html:28 jinja2/includes/redesign_notice.html:42
-#, python-format
-msgid "<a href=\"%(blog_url)s\">Read more about the redesign</a> in our blog post."
-msgstr "<a href=\"%(blog_url)s\">Tudjon meg többet az átalakításról</a> a blogbejegyzésünkből."
-
-#: jinja2/includes/redesign_notice.html:32 jinja2/includes/redesign_notice.html:45
-msgid "Thanks for using MDN!"
-msgstr "Köszönjük, hogy használja az MDN-t!"
-
-#: jinja2/includes/redesign_notice.html:32
-msgid "The MDN Web Docs Team"
-msgstr "Az MDN webes dokumentáció csapata"
-
-#: jinja2/includes/redesign_notice.html:33 jinja2/includes/redesign_notice.html:47
-msgid "Hide redesign announcement"
-msgstr "Az újratervezési bejelentés elrejtése"
-
-#: jinja2/includes/redesign_notice.html:37
+#: jinja2/includes/redesign_notice.html:3
 msgid "Why does MDN look different?"
 msgstr "Miért néz ki másképp az MDN?"
 
-#: jinja2/includes/redesign_notice.html:38
+#: jinja2/includes/redesign_notice.html:4
 msgid ""
 "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find the "
 "web technology docs you’re looking for."
@@ -495,9 +415,22 @@ msgstr ""
 "Az MDN megváltozik, hogy a hangsúly csak a webes technológiák dokumentálása legyen. Ugyanakkor a nagyszerű tartalom még mindig itt van; csak megváltozik néhány vizuális elem, és a navigáció, ami "
 "segít gyorsabban megtalálni azt a webes technológiai dokumentációt, amit keres."
 
-#: jinja2/includes/redesign_notice.html:39
+#: jinja2/includes/redesign_notice.html:5
 msgid "But don’t worry, MDN and Mozilla are still together! In fact, we're updating MDN’s look to reflect Mozilla's new logo and colors."
 msgstr "De ne aggódjon, az MDN és a Mozilla továbbra is együtt van! Valójában úgy frissítjük az MDN kinézetét, hogy kövesse a Mozilla új logóját és színeit."
+
+#: jinja2/includes/redesign_notice.html:8
+#, python-format
+msgid "<a href=\"%(blog_url)s\">Read more about the redesign</a> in our blog post."
+msgstr "<a href=\"%(blog_url)s\">Tudjon meg többet az átalakításról</a> a blogbejegyzésünkből."
+
+#: jinja2/includes/redesign_notice.html:11
+msgid "Thanks for using MDN!"
+msgstr "Köszönjük, hogy használja az MDN-t!"
+
+#: jinja2/includes/redesign_notice.html:13
+msgid "Hide redesign announcement"
+msgstr "Az újratervezési bejelentés elrejtése"
 
 #: jinja2/includes/translate_locales.html:3
 msgid "Afrikaans"
@@ -993,8 +926,8 @@ msgstr "Különleges engedélyre van szüksége az API kulcsok használatához. 
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 "<p>Írja le alább a kulcs tervezett felhasználási célját. <p><strong>Megjegyzés:</strong> A kulcs létrehozásának időpontján és dátumán kívül csak ez a leírás fog segíteni később a kulcs "
 "azonosításában. Emiatt legyen olyan egyértelmű, amennyire csak lehet.</p>"
@@ -1034,6 +967,11 @@ msgstr "Győződjön meg róla, hogy ez az érték legalább %(limit_value)s kar
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Győződjön meg róla, hogy ez az érték legfeljebb %(limit_value)s karakter hosszú (jelenlegi mérete: %(show_value)s)."
 
+# 100%
+#: kuma/core/sections.py:6
+msgid "Add-ons"
+msgstr "Kiegészítők"
+
 #: kuma/core/sections.py:20
 msgid "Apps"
 msgstr "Appok"
@@ -1057,11 +995,11 @@ msgstr "Moz Hacks"
 msgid "Today at %s"
 msgstr "Ma ekkor: %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:88 kuma/scrape/sources/revision.py:156 kuma/wiki/jinja2/wiki/document.html:308
+#: kuma/core/templatetags/jinja_helpers.py:88 kuma/scrape/sources/revision.py:156 kuma/wiki/jinja2/wiki/document.html:294
 msgid "Yes"
 msgstr "Igen"
 
-#: kuma/core/templatetags/jinja_helpers.py:88 kuma/wiki/jinja2/wiki/document.html:312
+#: kuma/core/templatetags/jinja_helpers.py:88 kuma/wiki/jinja2/wiki/document.html:298
 msgid "No"
 msgstr "Nem"
 
@@ -1097,6 +1035,11 @@ msgstr "Vászon"
 #: kuma/core/translations/search/filter/code/name.py:4
 msgid "Code Samples"
 msgstr "Kód példák"
+
+# 100%
+#: kuma/core/translations/search/filter/firefox/name.py:4
+msgid "Firefox"
+msgstr "Firefox"
 
 #: kuma/core/translations/search/filter/firefox-desktop/name.py:4
 msgid "Firefox for Desktop"
@@ -1385,161 +1328,104 @@ msgstr "Kapjon e-mailt amikor magyar véleményezések várakoznak"
 msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
 msgstr "A Mozilla fejlesztő hálózat (MDN) Ösztöndíj programja világszínvonalú webfejlesztőket hív meg, hogy megváltoztassák a világot a Mozillával."
 
-#: kuma/landing/jinja2/landing/homepage.html:19
+#: kuma/landing/jinja2/landing/homepage.html:15
 msgid ""
-"The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox"
-" OS."
+"The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like "
+"Firefox OS."
 msgstr ""
 "A Mozilla fejlesztői hálózat (MDN) információkkal szolgál a nyílt webes technológiákról beleértve a HTML-t, CSS-t, és az alkalmazásinterfészeket weboldalakhoz és HTML5 alkalmazásokhoz. Az MDN a "
 "Mozilla termékekről is tartalmaz dokumentációkat, mint például a Firefox OS."
 
-#: kuma/landing/jinja2/landing/homepage.html:38
+#: kuma/landing/jinja2/landing/homepage.html:33
 msgid "Resources for developers, by developers."
 msgstr "Erőforrások fejlesztőknek, fejlesztőktől."
 
-#: kuma/landing/jinja2/landing/homepage.html:40
-msgid "Shared knowledge <span>for the Open Web</span>"
-msgstr "Megosztott tudás a <span>nyílt internetnek</span>"
-
-#: kuma/landing/jinja2/landing/homepage.html:51 kuma/landing/jinja2/landing/homepage.html:68 kuma/search/jinja2/search/results.html:59
+#: kuma/landing/jinja2/landing/homepage.html:43 kuma/landing/jinja2/landing/homepage.html:60 kuma/search/jinja2/search/results.html:59
 msgid "Search the docs"
 msgstr "Keresés a dokumentációkban"
 
-#: kuma/landing/jinja2/landing/homepage.html:54
+#: kuma/landing/jinja2/landing/homepage.html:46
 msgid "Show topics"
 msgstr "Témák megjelenítése"
 
-#: kuma/landing/jinja2/landing/homepage.html:88
-msgid "Web<br />Technologies"
-msgstr "Webes<br /> technológiák"
+#: kuma/landing/jinja2/landing/homepage.html:72
+msgid "Developer Tools"
+msgstr "Fejlesztői eszközök"
 
-#: kuma/landing/jinja2/landing/homepage.html:90
-msgid "Web APIs &amp; DOM"
-msgstr "Webes API-k és DOM"
-
-#: kuma/landing/jinja2/landing/homepage.html:94 kuma/landing/jinja2/landing/homepage.html:114
-msgid "more..."
-msgstr "tovább…"
-
-#: kuma/landing/jinja2/landing/homepage.html:98
-msgid "Learn"
-msgstr "Tanulás"
-
-#: kuma/landing/jinja2/landing/homepage.html:101
-msgid "Getting started with the Web"
-msgstr "Első lépések a Webbel"
-
-#: kuma/landing/jinja2/landing/homepage.html:102
-msgid "Learn HTML"
-msgstr "HTML tanulása"
-
-#: kuma/landing/jinja2/landing/homepage.html:103
-msgid "Learn CSS"
-msgstr "CSS tanulása"
-
-# 100%
-#: kuma/landing/jinja2/landing/homepage.html:104
-msgid "Learn JavaScript"
-msgstr "JavaScript tanulása"
-
-#: kuma/landing/jinja2/landing/homepage.html:108
-msgid "Developer<br />Tools"
-msgstr "Fejlesztő<br />eszközök"
-
-#: kuma/landing/jinja2/landing/homepage.html:110
-msgid "Page Inspector"
-msgstr "Vizsgáló"
-
-#: kuma/landing/jinja2/landing/homepage.html:111
-msgid "Web Console"
-msgstr "Webkonzol"
-
-#: kuma/landing/jinja2/landing/homepage.html:112
-msgid "JavaScript Debugger"
-msgstr "JavaScript hibakereső"
-
-#: kuma/landing/jinja2/landing/homepage.html:113
-msgid "Performance Tools"
-msgstr "Teljesítmény eszközök"
-
-#: kuma/landing/jinja2/landing/homepage.html:131
+#: kuma/landing/jinja2/landing/homepage.html:78
 msgid "Featured"
 msgstr "Kiemelt"
 
-#: kuma/landing/jinja2/landing/homepage.html:136 kuma/landing/jinja2/landing/homepage.html:181
+#: kuma/landing/jinja2/landing/homepage.html:83
 msgid "Proudly non-profit."
 msgstr "Büszkén nonprofit."
 
-#: kuma/landing/jinja2/landing/homepage.html:136 kuma/landing/jinja2/landing/homepage.html:181
+#: kuma/landing/jinja2/landing/homepage.html:83
 msgid "Donate before Dec 31."
 msgstr "Adományozzon dec. 31 előtt."
 
-#: kuma/landing/jinja2/landing/homepage.html:136 kuma/landing/jinja2/landing/homepage.html:181
+#: kuma/landing/jinja2/landing/homepage.html:83
 msgid "Donate Now"
 msgstr "Adományozzon most"
 
-#: kuma/landing/jinja2/landing/homepage.html:143 kuma/landing/jinja2/landing/homepage.html:170
+#: kuma/landing/jinja2/landing/homepage.html:90
 msgid "Test in Firefox and over 800 browser/OS combos with Mozilla and Sauce Labs"
 msgstr "Teszteljen a Firefoxban és több mint 800 böngésző/operációs rendszer kombináción a Mozilla és a Sauce Labs segítségével"
 
-#: kuma/landing/jinja2/landing/homepage.html:144 kuma/landing/jinja2/landing/homepage.html:171
+#: kuma/landing/jinja2/landing/homepage.html:91
 msgid "Test on Sauce Labs"
 msgstr "Tesztelés a Sauce Labson"
 
-#: kuma/landing/jinja2/landing/homepage.html:158 kuma/landing/jinja2/landing/homepage.html:186
+#: kuma/landing/jinja2/landing/homepage.html:105
 msgid "Get The Browser For Developers Like You"
 msgstr "Szerezze be az Önhöz hasonló fejlesztőknek készült böngészőt"
 
-#: kuma/landing/jinja2/landing/homepage.html:165
-msgid "Open Web and Mobile"
-msgstr "Nyílt web és mobil"
-
-#: kuma/landing/jinja2/landing/homepage.html:196
+#: kuma/landing/jinja2/landing/homepage.html:114
 msgid "<a href=\"http://hacks.mozilla.org\">read more at hacks.mozilla.org <i aria-hidden=\"true\" class=\"icon-arrow-right\"></i></a></span>"
 msgstr "<a href=\"http://hacks.mozilla.org\">bővebben itt: hacks.mozilla.org<i aria-hidden=\"true\" class=\"icon-arrow-right\"></i></a></span>"
 
-#: kuma/landing/jinja2/landing/homepage.html:201
+#: kuma/landing/jinja2/landing/homepage.html:119
 msgid "Get Involved"
 msgstr "Közreműködés"
 
-#: kuma/landing/jinja2/landing/homepage.html:203
+#: kuma/landing/jinja2/landing/homepage.html:121
 #, python-format
 msgid ""
 "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 "locales</span> <span class=\"row3\">around the world.</span> </p>"
 msgstr ""
-"<p class=\"numbers\"> <span class=\"row1\">Csatlakozzon <span class=\"number\">%(contributors)s</span> közreműködőhöz</span> <span class=\"row2\"><span class=\"number\">%(locales)s</span> "
-"nyelven</span> <span class=\"row3\">a világ minden tájáról.</span> </p>"
+"<p class=\"numbers\"> <span class=\"row1\">Csatlakozzon <span class=\"number\">%(contributors)s</span> közreműködőhöz</span> <span class=\"row2\"><span class=\"number\">%(locales)s</span> nyelven</"
+"span> <span class=\"row3\">a világ minden tájáról.</span> </p>"
 
-#: kuma/landing/jinja2/landing/homepage.html:210 kuma/landing/jinja2/landing/homepage.html:217
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/homepage.html:135
 msgid "Help improve MDN"
 msgstr "Segítsen az MDN tökéletesítésében"
 
-#: kuma/landing/jinja2/landing/homepage.html:221
+#: kuma/landing/jinja2/landing/homepage.html:139
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Az MDN minden részét (a dokumentációkat és az oldat magát is) egy fejlesztőkből álló nyílt közösség hozza létre. Kérjük csatlakozzon hozzánk! Válasszon egyet ezek közül, hogy segítsen:"
 
-#: kuma/landing/jinja2/landing/homepage.html:227
+#: kuma/landing/jinja2/landing/homepage.html:145
 msgid "Getting started"
 msgstr "Első lépések"
 
-#: kuma/landing/jinja2/landing/homepage.html:228
+#: kuma/landing/jinja2/landing/homepage.html:146
 msgid "Editorial review"
 msgstr "Szerkesztői felülvizsgálat"
 
-#: kuma/landing/jinja2/landing/homepage.html:229
+#: kuma/landing/jinja2/landing/homepage.html:147
 msgid "Technical review"
 msgstr "Műszaki felülvizsgálat"
 
-#: kuma/landing/jinja2/landing/homepage.html:234
+#: kuma/landing/jinja2/landing/homepage.html:152
 msgid "Translating"
 msgstr "Fordítás"
 
-#: kuma/landing/jinja2/landing/homepage.html:235
+#: kuma/landing/jinja2/landing/homepage.html:153
 msgid "Promoting MDN"
 msgstr "Az MDN népszerűsítése"
 
-#: kuma/landing/jinja2/landing/homepage.html:236
+#: kuma/landing/jinja2/landing/homepage.html:154
 msgid "Contributing to the MDN codebase"
 msgstr "Hozzájárulás az MDN kódbázisához"
 
@@ -1591,12 +1477,12 @@ msgstr "Fejlesztői szeretet terjesztése."
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
-"<ol><li><strong>Gombok létrehozása:</strong> Az alábbi egyszerű űrlap segítségével hozzon létre egy egyéni gombot és forráskódot az MDN népszerűsítésére honlapján vagy "
-"blogján.</li><li><strong>Gombok közzététele:</strong> Másolja a forráskódot és illessze be bárhova honlapján vagy blogján, hogy mások könnyen rátaláljanak az MDN-re.</li><li><strong>Érezze jól "
-"magát:</strong> Legyen büszke rá, hogy az MDN megosztásával a fejlesztők életét kissé jobbá teszi."
+"<ol><li><strong>Gombok létrehozása:</strong> Az alábbi egyszerű űrlap segítségével hozzon létre egy egyéni gombot és forráskódot az MDN népszerűsítésére honlapján vagy blogján.</"
+"li><li><strong>Gombok közzététele:</strong> Másolja a forráskódot és illessze be bárhova honlapján vagy blogján, hogy mások könnyen rátaláljanak az MDN-re.</li><li><strong>Érezze jól magát:</"
+"strong> Legyen büszke rá, hogy az MDN megosztásával a fejlesztők életét kissé jobbá teszi."
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:31
 msgid "Preview"
@@ -1896,11 +1782,11 @@ msgstr "típus"
 #: kuma/users/adapters.py:17
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
-"Sajnáljuk, legalább egy hozzárendelt fiókjának kell lennie hogy bejelentkezhessen. A fiók szétkapcsolása előtt először hozzá kell rendelnie egy másikat. Az MDN profilja törléséhez kérjük <a "
-"href=\"%(bug_form_url)s\" rel=\"nofollow\">adjon fel egy jegyet</a>."
+"Sajnáljuk, legalább egy hozzárendelt fiókjának kell lennie hogy bejelentkezhessen. A fiók szétkapcsolása előtt először hozzá kell rendelnie egy másikat. Az MDN profilja törléséhez kérjük <a href="
+"\"%(bug_form_url)s\" rel=\"nofollow\">adjon fel egy jegyet</a>."
 
 #: kuma/users/adapters.py:21
 msgid "An email address cannot be used as a username."
@@ -2368,11 +2254,11 @@ msgstr "Nincs ellenőrizve"
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
-"Mely e-mail címet használjuk MDN-nel kapcsolatos üzenetek és értesítések küldésére? Ez a cím <strong>nem</strong> jelenik meg az MDN-en, és az <a href=\"%(privacy_url)s\">adatvédelem nyilatkozat</a>"
-" alapján lesz felhasználva."
+"Mely e-mail címet használjuk MDN-nel kapcsolatos üzenetek és értesítések küldésére? Ez a cím <strong>nem</strong> jelenik meg az MDN-en, és az <a href=\"%(privacy_url)s\">adatvédelem nyilatkozat</"
+"a> alapján lesz felhasználva."
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
 msgid "Terms and Privacy"
@@ -2642,7 +2528,7 @@ msgstr "Oldal"
 msgid "Date"
 msgstr "Dátum"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:393
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:373
 msgid "Edit page"
 msgstr "Lap szerkesztése"
 
@@ -2650,7 +2536,7 @@ msgstr "Lap szerkesztése"
 msgid "View complete diff"
 msgstr "Teljes diff megtekintése"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:394
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:374
 msgid "View page history"
 msgstr "Oldal előzményeinek megtekintése"
 
@@ -2735,8 +2621,8 @@ msgid ""
 "You are receiving this e-mail because you or someone else has requested access to your user account %(username)s at %(domain)s. It can be safely ignored if you did not make this request. Click the "
 "link below to access your account:"
 msgstr ""
-"Azért kapja ezt az e-mailt, mert Ön vagy valaki más hozzáférést kért a(z) %(username)s felhasználói fiókjához, itt: %(domain)s. Biztonságosan figyelmen kívül hagyhatja, ha nem Ön kérte. Kattintson a"
-" lenti hivatkozásra a fiókja eléréséhez:"
+"Azért kapja ezt az e-mailt, mert Ön vagy valaki más hozzáférést kért a(z) %(username)s felhasználói fiókjához, itt: %(domain)s. Biztonságosan figyelmen kívül hagyhatja, ha nem Ön kérte. Kattintson "
+"a lenti hivatkozásra a fiókja eléréséhez:"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
 msgid "Thank you for using MDN!"
@@ -3339,8 +3225,8 @@ msgstr "Új oldalt próbál létrehozni."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 "Új oldal létrehozása korlátozott. Új oldal kéréséhez kérjük nyújtson be <a href=\"%(request_page_url)s\">hibabejelentést</a>. Ha új oldalak létrehozásához engedélyre van szüksége, kérjük lépjen "
 "velünk <a href=\"%(email_link)s\">kapcsolatba</a>."
@@ -3463,99 +3349,86 @@ msgstr "Törlés oka"
 msgid "Restore this document"
 msgstr "Dokumentum visszaállítása"
 
-#: kuma/wiki/jinja2/wiki/document.html:171
-msgid "see all contributors"
-msgstr "összes közreműködő megjelenítése"
-
-#: kuma/wiki/jinja2/wiki/document.html:171
-msgid "hide contributors"
-msgstr "közreműködők elrejtése"
-
-#: kuma/wiki/jinja2/wiki/document.html:175
-#, python-format
-msgid "View profile: %(username)s"
-msgstr "Profil megtekintése: %(username)s"
-
-#: kuma/wiki/jinja2/wiki/document.html:200
+#: kuma/wiki/jinja2/wiki/document.html:186
 msgid "In This Article"
 msgstr "Ebben a leírásban"
 
-#: kuma/wiki/jinja2/wiki/document.html:215
+#: kuma/wiki/jinja2/wiki/document.html:201
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Ez a dokumentum még nem lett előállítva, és nem jeleníthető meg, amíg az MDN <a href=\"%(url)s\">karbantartási módban</a> van. Jöjjön vissza a karbantartási mód végezte után."
 
-#: kuma/wiki/jinja2/wiki/document.html:226
+#: kuma/wiki/jinja2/wiki/document.html:212
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Ez az oldalt először rendereli le a rendszer. Kérjük <a href=\"%(url)s\">töltse újra az oldalt</a> egy pár perc múlva a teljes tartalom megtekintéséhez."
 
-#: kuma/wiki/jinja2/wiki/document.html:234
+#: kuma/wiki/jinja2/wiki/document.html:220
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
 "A dokumentum frissítése <abbr title=\"%(started_at)s\">épp folyamatban van</abbr>. Ha a tartalom elavultnak tűnik, vagy valami hiányzik, akkor kérjük <a href=\"%(url)s\">töltse újra az oldalt</a> "
 "egy pár percen múlva."
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:229
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
 "A dokumentum frissítése <abbr title=\"%(scheduled_at)s\">be lett ütemezve</abbr>. Ha úgy tűnik hogy a tartalom elavult, vagy valami hiányzik, kérjük <a href=\"%(url)s\">töltse újra az oldalt</a> "
 "néhány perc múlva."
 
-#: kuma/wiki/jinja2/wiki/document.html:254
+#: kuma/wiki/jinja2/wiki/document.html:240
 msgid "This is an experimental page."
 msgstr "Ez egy kísérleti oldal."
 
-#: kuma/wiki/jinja2/wiki/document.html:265
+#: kuma/wiki/jinja2/wiki/document.html:251
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Ez a fordítás nem teljes. Kérjük segítsen <a href=\"%(translate_url)s\">ezt a cikket lefordítani</a> angolról."
 
-#: kuma/wiki/jinja2/wiki/document.html:270
+#: kuma/wiki/jinja2/wiki/document.html:256
 msgid "This translation is in progress."
 msgstr "A fordítás folyamatban van."
 
-#: kuma/wiki/jinja2/wiki/document.html:277
+#: kuma/wiki/jinja2/wiki/document.html:263
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Join us and help get the job done!</a><br> You can also read the "
 "article in <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
-"Önkénteseink még nem fordították le ezt a cikket <bdi>%(locale)s</bdi> nyelvre. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Csatlakozzon, és segítsen a munka "
-"befejezésében!</a><br>Elolvashatja a cikket <a href=\"%(doc_abs_url)s\">%(parent_language)s</a> nyelven is."
+"Önkénteseink még nem fordították le ezt a cikket <bdi>%(locale)s</bdi> nyelvre. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Csatlakozzon, és segítsen a munka befejezésében!</"
+"a><br>Elolvashatja a cikket <a href=\"%(doc_abs_url)s\">%(parent_language)s</a> nyelven is."
 
-#: kuma/wiki/jinja2/wiki/document.html:289
+#: kuma/wiki/jinja2/wiki/document.html:275
 msgid "This article doesn't have any content yet."
 msgstr "Ennek a cikknek még nincs tartalma."
 
-#: kuma/wiki/jinja2/wiki/document.html:298
+#: kuma/wiki/jinja2/wiki/document.html:284
 msgid "This article doesn't have approved content yet."
 msgstr "Ennek a leírásnak még nincs jóváhagyott tartalma."
 
-#: kuma/wiki/jinja2/wiki/document.html:303
+#: kuma/wiki/jinja2/wiki/document.html:289
 msgid "Was this article helpful?"
 msgstr "Hasznos volt a leírás?"
 
-#: kuma/wiki/jinja2/wiki/document.html:317
+#: kuma/wiki/jinja2/wiki/document.html:303
 msgid "Thank you!"
 msgstr "Köszönjük!"
 
-#: kuma/wiki/jinja2/wiki/document.html:327
+#: kuma/wiki/jinja2/wiki/document.html:313
 msgid "Document Tags and Contributors"
 msgstr "Dokumentum címkék és a közreműködők"
 
 # 100%
-#: kuma/wiki/jinja2/wiki/document.html:333
+#: kuma/wiki/jinja2/wiki/document.html:319
 msgid "Contributors to this page:"
 msgstr "Ezen oldal közreműködői:"
 
-#: kuma/wiki/jinja2/wiki/document.html:339
+#: kuma/wiki/jinja2/wiki/document.html:325
 msgid "Last updated by:"
 msgstr "Utoljára frissítve:"
 
@@ -4410,6 +4283,103 @@ msgstr "Nem fordíthatja le ezt a dokumentumot."
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch kiszolgáló: %(backend)s"
 
+# 100%
+#~ msgid "Mozilla Docs"
+#~ msgstr "Mozilla dokumentációk"
+
+#~ msgid "Contribute to the code"
+#~ msgstr "Közreműködés a kódban"
+
+#~ msgid "Under Construction"
+#~ msgstr "Átalakítás alatt"
+
+#~ msgid "Thanks for helping us test the <a href=\"%(blog_url)s\">new MDN look</a>. Find anything wrong? Please <a href=\"%(bug_url)s\">file a bug</a>."
+#~ msgstr "Köszönjük, hogy segít tesztelni az <a href=\"%(blog_url)s\">MDN új kinézetét</a>. Valami hibát talált? Kérjük <a href=\"%(bug_url)s\">jelentse a hibát</a>."
+
+#~ msgid "Hello Beta Tester!"
+#~ msgstr "Üdv, béta tesztelő!"
+
+#~ msgid ""
+#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first "
+#~ "to see the new look, and we’d love to hear what you think."
+#~ msgstr ""
+#~ "Frissítjük az MDN kinézetét és a navigációját, hogy még jobban tükrözze az elkötelezettségünk, hogy a világ legjobb (és leginkább platformfüggetlen) webes dokumentációja legyen. Béta "
+#~ "tesztelőként, Ön az első, aki látja az új kinézetet, és szeretnénk hallani, mit gondol."
+
+#~ msgid ""
+#~ "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on <a href=\"%(profile_url)s\">your "
+#~ "profile page</a>."
+#~ msgstr ""
+#~ "Az új kinézetünk előzetesét látja. Ha bármi rosszat tapasztal, akkor jelentse be hibaként (a hivatkozás a láblécben), és ki is léphet a béta tesztelésből a <a href=\"%(profile_url)s\">profil "
+#~ "oldalán</a>."
+
+#~ msgid "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on your profile page."
+#~ msgstr "Az új kinézetünk előzetesét látja. Ha bármi rosszat tapasztal, akkor jelentse be hibaként (a hivatkozás a láblécben), és ki is léphet a béta tesztelésből a saját profil oldalán."
+
+#~ msgid "The changes will roll out to you (as a beta tester) over the next couple weeks, and to the world in mid-July."
+#~ msgstr "A változásokat néhány héten belül érnek el Önhöz (béta tesztelőként), a világhoz pedig július közepén."
+
+#~ msgid "We hope you love it and find it useful!"
+#~ msgstr "Reméljük tetszik, és hasznosnak találja!"
+
+#~ msgid "The MDN Web Docs Team"
+#~ msgstr "Az MDN webes dokumentáció csapata"
+
+#~ msgid "Shared knowledge <span>for the Open Web</span>"
+#~ msgstr "Megosztott tudás a <span>nyílt internetnek</span>"
+
+#~ msgid "Web<br />Technologies"
+#~ msgstr "Webes<br /> technológiák"
+
+#~ msgid "Web APIs &amp; DOM"
+#~ msgstr "Webes API-k és DOM"
+
+#~ msgid "more..."
+#~ msgstr "tovább…"
+
+#~ msgid "Learn"
+#~ msgstr "Tanulás"
+
+#~ msgid "Getting started with the Web"
+#~ msgstr "Első lépések a Webbel"
+
+#~ msgid "Learn HTML"
+#~ msgstr "HTML tanulása"
+
+#~ msgid "Learn CSS"
+#~ msgstr "CSS tanulása"
+
+# 100%
+#~ msgid "Learn JavaScript"
+#~ msgstr "JavaScript tanulása"
+
+#~ msgid "Developer<br />Tools"
+#~ msgstr "Fejlesztő<br />eszközök"
+
+#~ msgid "Page Inspector"
+#~ msgstr "Vizsgáló"
+
+#~ msgid "Web Console"
+#~ msgstr "Webkonzol"
+
+#~ msgid "JavaScript Debugger"
+#~ msgstr "JavaScript hibakereső"
+
+#~ msgid "Performance Tools"
+#~ msgstr "Teljesítmény eszközök"
+
+#~ msgid "Open Web and Mobile"
+#~ msgstr "Nyílt web és mobil"
+
+#~ msgid "see all contributors"
+#~ msgstr "összes közreműködő megjelenítése"
+
+#~ msgid "hide contributors"
+#~ msgstr "közreműködők elrejtése"
+
+#~ msgid "View profile: %(username)s"
+#~ msgstr "Profil megtekintése: %(username)s"
+
 #~ msgid "Do you have a couple minutes to help us out by taking a developer survey?"
 #~ msgstr "Van egy pár perce, hogy segítsen azzal, hogy kitölt egy fejlesztői felmérést?"
 
@@ -4493,18 +4463,18 @@ msgstr "Elasticsearch kiszolgáló: %(backend)s"
 #~ msgstr "Nyílt webes appok készítése"
 
 #~ msgid ""
-#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a "
-#~ "href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
+#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a href="
+#~ "\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
 #~ msgstr ""
-#~ "A beküldése olyan tartalmat tartalmaz, amely nem biztos hogy megfelelő az MDN számára. A nem megfelelő tartalmak ismételt beküldése a fiókja letiltásával végződhet. Tekintse meg a „<a "
-#~ "href=\"%(does_this_belong_url)s\">Van-e helye az MDN-en?</a>” útmutatónkat a részletekről, hogy mi tekinthető megfelelő tartalomnak."
+#~ "A beküldése olyan tartalmat tartalmaz, amely nem biztos hogy megfelelő az MDN számára. A nem megfelelő tartalmak ismételt beküldése a fiókja letiltásával végződhet. Tekintse meg a „<a href="
+#~ "\"%(does_this_belong_url)s\">Van-e helye az MDN-en?</a>” útmutatónkat a részletekről, hogy mi tekinthető megfelelő tartalomnak."
 
 #~ msgid ""
-#~ "You signed in with Persona. On November 1st you will no longer be able to sign in to MDN this way.<br> Please <a href=\"%(persona_info)s\">link your GitHub account to your MDN profile now</a> so you"
-#~ " can continue to sign in to MDN."
+#~ "You signed in with Persona. On November 1st you will no longer be able to sign in to MDN this way.<br> Please <a href=\"%(persona_info)s\">link your GitHub account to your MDN profile now</a> so "
+#~ "you can continue to sign in to MDN."
 #~ msgstr ""
-#~ "Bejelentkezett a Personával. November 1.-jétől többé már nem fog tudni így bejelentkezni az MDN-be.<br>Kérjük <a href=\"%(persona_info)s\">kösse össze a GitHub fiókját az MDN profiljával most</a>, "
-#~ "hogy továbbra is be tudjon jelentkezni az MDN-be."
+#~ "Bejelentkezett a Personával. November 1.-jétől többé már nem fog tudni így bejelentkezni az MDN-be.<br>Kérjük <a href=\"%(persona_info)s\">kösse össze a GitHub fiókját az MDN profiljával most</"
+#~ "a>, hogy továbbra is be tudjon jelentkezni az MDN-be."
 
 #~ msgid "Sign in:"
 #~ msgstr "Bejelentkezés:"
@@ -4542,14 +4512,14 @@ msgstr "Elasticsearch kiszolgáló: %(backend)s"
 #~ "A profile already exists with an email address below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Yes, "
 #~ "connect with my MDN profile</a>"
 #~ msgid_plural ""
-#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-"
-#~ "next=\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
+#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next="
+#~ "\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
 #~ msgstr[0] ""
 #~ "Az alábbi e-mail címmel már létezik profil. Van már MDN profilja? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Igen, kapcsolja össze az MDN "
 #~ "profiljával</a>"
 #~ msgstr[1] ""
-#~ "Az alábbi e-mail címek egyikével már létezik profil. Van már MDN profilja? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Igen, kapcsolja össze "
-#~ "az MDN profiljával</a>"
+#~ "Az alábbi e-mail címek egyikével már létezik profil. Van már MDN profilja? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Igen, kapcsolja "
+#~ "össze az MDN profiljával</a>"
 
 #~ msgid "Signed in with Persona"
 #~ msgstr "Personával bejelentkezve"
@@ -4612,11 +4582,11 @@ msgstr "Elasticsearch kiszolgáló: %(backend)s"
 #~ msgstr "Ezt a dokumentumot módosították, amíg szerkesztette."
 
 #~ msgid ""
-#~ "Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a "
-#~ "href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
+#~ "Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; "
+#~ "<a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
-#~ "A tartalom egy ehhez a projekthez készült egyedi licenc alatt érhető el. &middot; <a href=\"%(about_url)s\">Az MDN-ről</a> &middot; <a href=\"//github.com/mozilla/kuma\">Közreműködés a kódban</a> "
-#~ "&middot; <a href=\"//www.mozilla.org/en-US/privacy\">Adatvédelmi nyilatkozat</a>"
+#~ "A tartalom egy ehhez a projekthez készült egyedi licenc alatt érhető el. &middot; <a href=\"%(about_url)s\">Az MDN-ről</a> &middot; <a href=\"//github.com/mozilla/kuma\">Közreműködés a kódban</"
+#~ "a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Adatvédelmi nyilatkozat</a>"
 
 #~ msgid "\"Load documents\""
 #~ msgstr "„Dokumentumok betöltése”"
@@ -5578,7 +5548,8 @@ msgstr "Elasticsearch kiszolgáló: %(backend)s"
 #~ msgstr "Biztos, hogy törölni szeretné ezt az avatart?"
 
 #~ msgid "You are about to permanently delete your avatar. <strong>This cannot be undone!</strong> You can always <a href=\"%(upload_url)s\">upload another avatar</a> to replace your current one."
-#~ msgstr "Véglegesen törölni fogja ezt az avatart. <strong>Ez egy visszavonhatatlan művelet!</strong> Bármikor <a href=\"%(upload_url)s\">feltölthet egy másik avatart</a> és lecserélheti a jelenlegit."
+#~ msgstr ""
+#~ "Véglegesen törölni fogja ezt az avatart. <strong>Ez egy visszavonhatatlan művelet!</strong> Bármikor <a href=\"%(upload_url)s\">feltölthet egy másik avatart</a> és lecserélheti a jelenlegit."
 
 #~ msgid "Change Avatar"
 #~ msgstr "Avatar módosítása"
@@ -5669,8 +5640,8 @@ msgstr "Elasticsearch kiszolgáló: %(backend)s"
 #~ msgstr "Megerősítő e-mail sikeresen elküldve."
 
 #~ msgid ""
-#~ "Before you can log in, you need to confirm your email address. We've sent a new confirmation email to any account using <strong>%(email)s</strong>. To confirm the email address, just follow the link"
-#~ " in the email."
+#~ "Before you can log in, you need to confirm your email address. We've sent a new confirmation email to any account using <strong>%(email)s</strong>. To confirm the email address, just follow the "
+#~ "link in the email."
 #~ msgstr ""
 #~ "Bejelentkezés előtt meg kell erősítenie az e-mail címét. Elküldtünk egy új megerősítő e-mailt minden fiókba a(z) <strong>%(email)s</strong> használatával. Az e-mail cím megerősítéséhez csak "
 #~ "kattintson az e-mailben kapott hivatkozásra."
