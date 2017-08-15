@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
 "POT-Creation-Date: 2017-08-02 13:30-0700\n"
-"PO-Revision-Date: 2017-08-09 14:22+0000\n"
+"PO-Revision-Date: 2017-08-15 11:41+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
 "Language: bg\n"
@@ -405,7 +405,6 @@ msgid "<a href=\"%(blog_url)s\">Read more about the redesign</a> in our blog pos
 msgstr ""
 
 #: jinja2/includes/redesign_notice.html:11
-#, fuzzy
 msgid "Thanks for using MDN!"
 msgstr "Благодрим ви, че използвате MDN!"
 
@@ -1133,11 +1132,11 @@ msgid "Active macros"
 msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
-#, fuzzy, python-format
+#, python-format
 msgid "Found %(num)s active macro."
 msgid_plural "Found %(num)s active macros."
-msgstr[0] "Намерен е %(num)s шаблон."
-msgstr[1] ""
+msgstr[0] "Намерен е %(num)s включен макрос."
+msgstr[1] "Намерен и са %(num)s включени макроса."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:16
 #, python-format
@@ -1662,8 +1661,8 @@ msgstr[1] "%(count)s документа, намерени в %(locale_native)s."
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] "%(count)s документ е намерен в %(locale_native)s и в %(default_locale_native)s."
-msgstr[1] ""
+msgstr[0] "%(count)s документ е намерен на %(locale_native)s и на %(default_locale_native)s."
+msgstr[1] "%(count)s документа са намерени на %(locale_native)s и на %(default_locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:104
 #, python-format
