@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: MDN 2017.14\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
 "POT-Creation-Date: 2017-08-02 13:30-0700\n"
-"PO-Revision-Date: 2017-08-17 17:53+0000\n"
+"PO-Revision-Date: 2017-08-17 19:07+0000\n"
 "Last-Translator: Elisa X. <ee.sf2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -1262,53 +1262,55 @@ msgstr "correo no deseado"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:104
 msgid "There are no revisions matching this filter set."
-msgstr ""
+msgstr "No hay revisiones que coincidan con este conjunto de filtro."
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:8 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:11
 msgid "Stop getting emailed when English revisions are approved"
-msgstr ""
+msgstr "Dejar de recibir correos de cada revisión en inglés que haya sido aprobada"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:20 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:23
 msgid "Get emailed when English revisions are approved"
-msgstr ""
+msgstr "Recibir correos cuando se aprueba cada revisión en inglés"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:7 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:10
 msgid "Stop getting emailed when English reviews are waiting"
-msgstr ""
+msgstr "Dejar de recibir correos cuando revisiones en inglés están esperando de ser aprobadas"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:18 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:21
 msgid "Get emailed when English reviews are waiting"
-msgstr ""
+msgstr "Recibir correos cuando revisiones en inglés están esperando de ser aprobadas"
 
 #: kuma/landing/jinja2/landing/fellowship.html:12
 msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
-msgstr ""
+msgstr "El programa de becas de la Red de Desarrolladores de Mozilla (MDN) invita a los mejores desarrolladores de la web a cambiar el mundo con Mozilla."
 
 #: kuma/landing/jinja2/landing/homepage.html:15
 msgid ""
 "The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox"
 " OS."
 msgstr ""
+"La Red de Desarrolladores de Mozilla (MDN) proporciona información acerca de tecnologías de Web abierta que incluyen HTML, CSS y APIs para sitios Web y aplicaciones HTML5. También documenta los "
+"productos de Mozilla, como Firefox OS."
 
 #: kuma/landing/jinja2/landing/homepage.html:33
 msgid "Resources for developers, by developers."
-msgstr ""
+msgstr "Recursos para desarrolladores creados por desarrolladores."
 
 #: kuma/landing/jinja2/landing/homepage.html:43 kuma/landing/jinja2/landing/homepage.html:60 kuma/search/jinja2/search/results.html:59
 msgid "Search the docs"
-msgstr ""
+msgstr "Buscar los documentos"
 
 #: kuma/landing/jinja2/landing/homepage.html:46
 msgid "Show topics"
-msgstr ""
+msgstr "Mostrar temas"
 
 #: kuma/landing/jinja2/landing/homepage.html:72
 msgid "Developer Tools"
@@ -1316,39 +1318,39 @@ msgstr "Herramientas de desarrollador"
 
 #: kuma/landing/jinja2/landing/homepage.html:78
 msgid "Featured"
-msgstr ""
+msgstr "Destacados"
 
 #: kuma/landing/jinja2/landing/homepage.html:83
 msgid "Proudly non-profit."
-msgstr ""
+msgstr "Orgullosamente sin fines de lucro."
 
 #: kuma/landing/jinja2/landing/homepage.html:83
 msgid "Donate before Dec 31."
-msgstr ""
+msgstr "Donar antes del 31 de diciembre."
 
 #: kuma/landing/jinja2/landing/homepage.html:83
 msgid "Donate Now"
-msgstr ""
+msgstr "Donar ahora"
 
 #: kuma/landing/jinja2/landing/homepage.html:90
 msgid "Test in Firefox and over 800 browser/OS combos with Mozilla and Sauce Labs"
-msgstr ""
+msgstr "Prueba en Firefox y más de 800 combinaciones de navegador y sistemas operativos con Mozilla y Sauce Labs"
 
 #: kuma/landing/jinja2/landing/homepage.html:91
 msgid "Test on Sauce Labs"
-msgstr ""
+msgstr "Prueba en Sauce Labs"
 
 #: kuma/landing/jinja2/landing/homepage.html:105
 msgid "Get The Browser For Developers Like You"
-msgstr ""
+msgstr "Obtén el navegador para desarrolladores como tú"
 
 #: kuma/landing/jinja2/landing/homepage.html:114
 msgid "<a href=\"http://hacks.mozilla.org\">read more at hacks.mozilla.org <i aria-hidden=\"true\" class=\"icon-arrow-right\"></i></a></span>"
-msgstr ""
+msgstr "<a href=\"http://hacks.mozilla.org\">lee más en hacks.mozilla.org <i aria-hidden=\"true\" class=\"icon-arrow-right\"></i></a></span>"
 
 #: kuma/landing/jinja2/landing/homepage.html:119
 msgid "Get Involved"
-msgstr ""
+msgstr "Involúcrate"
 
 #: kuma/landing/jinja2/landing/homepage.html:121
 #, python-format
@@ -1356,10 +1358,12 @@ msgid ""
 "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 "locales</span> <span class=\"row3\">around the world.</span> </p>"
 msgstr ""
+"<p class=\"numbers\"><span class=\"row1\">Únete a<span class=\"number\">%(contributors)s</span>colaboradores</span><span class=\"row2\">en <span class=\"number\">%(locales)s</span>idiomas y "
+"configuraciones regionales</span><span class=\"row3\"><span class=\"row3\">de todo el mundo.</span></p>"
 
 #: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/homepage.html:135
 msgid "Help improve MDN"
-msgstr ""
+msgstr "Ayudar a mejorar MDN"
 
 #: kuma/landing/jinja2/landing/homepage.html:139
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
