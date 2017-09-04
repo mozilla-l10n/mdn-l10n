@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: MDN 2017.14\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
 "POT-Creation-Date: 2017-08-02 13:30-0700\n"
-"PO-Revision-Date: 2017-09-04 17:50+0000\n"
+"PO-Revision-Date: 2017-09-04 18:00+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -1158,11 +1158,11 @@ msgstr "Para obtener una lista de macros, consulta el <a href=\"%(url)s\"> repos
 #: kuma/dashboards/jinja2/dashboards/macros.html:18
 #, python-format
 msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr ""
+msgstr "También puedes <a href=\"%(url)s\">buscar macros de forma manual</a>."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:24
 msgid "Active macros and their usage counts"
-msgstr ""
+msgstr "Macros activas y su contador de uso"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:31 kuma/dashboards/jinja2/dashboards/macros.html:66
 msgid "Macro Name"
@@ -1236,7 +1236,7 @@ msgstr "IP:"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:56
 msgid "Ban IP from Editing"
-msgstr ""
+msgstr "Expulsar esta IP de Edición"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:58
 msgid "User agent:"
@@ -1411,10 +1411,12 @@ msgid ""
 "MDN is currently in maintenance mode. Content is being served from a backup database, which means some articles may show out-of-date information. Have no fear! All will be restored when maintenance "
 "has concluded."
 msgstr ""
+"MDN se encuentra ahora mismo en modo de mantenimiento. El contenido se obtiene de una copia de seguridad de la base de datos, por lo que puede que haya información desactualizada. ¡No temas! Cuando "
+"finalice el mantenimiento, todo volverá a la normalidad."
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:27
 msgid "While in maintenance mode, the following actions are unavailable:"
-msgstr ""
+msgstr "Mientras el modo de mantenimiento esté activo, no podrás hacer lo siguiente:"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:33
 msgid "editing articles"
@@ -1451,6 +1453,9 @@ msgid ""
 "source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
 " bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
+"<ol> <li><strong>Obtén botones:</strong> usa el formulario inferior para crear fácilmente un botón personalizado y el código fuente para promocionar MDN en tu sitio web o blog.</li> "
+"<li><strong>Botones de publicación:</strong> copia el código fuente y pégalo en su sitio web o blog para ayudar a los visitantes a ir a MDN.</li> <li><strong>Siéntete bien:</strong> siéntete "
+"orgulloso al saber que estás ayudando a que la vida del desarrollador sea un poco mejor al compartir MDN con el mundo.</li> </ol>"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:31
 msgid "Preview"
@@ -1689,62 +1694,62 @@ msgstr[1] "%(count)s documentos encontrados para \"%(query)s\"."
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s documento encontrado."
+msgstr[1] "%(count)s documentos encontrados."
 
 #: kuma/search/jinja2/search/results.html:119
 msgid "Showing all results."
-msgstr ""
+msgstr "Mostrando todos los resultados."
 
 #: kuma/search/jinja2/search/results.html:121
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
-msgstr ""
+msgstr "Mostrando resultados de %(start)s a %(end)s."
 
 #: kuma/search/jinja2/search/results.html:127
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
-msgstr ""
+msgstr "Buscar de nuevo en %(default_locale_native)s únicamente"
 
 #: kuma/search/jinja2/search/results.html:141
 msgid "Docs"
-msgstr ""
+msgstr "Documentos"
 
 #: kuma/search/jinja2/search/results.html:183
 msgid "All Topics"
-msgstr ""
+msgstr "Todos los temas"
 
 #: kuma/search/jinja2/search/results.html:188
 msgid "Filter by"
-msgstr ""
+msgstr "Filtrar por"
 
 #: kuma/spam/forms.py:9
 msgid "The submitted data contains invalid content."
-msgstr ""
+msgstr "La información enviada incluye contenido no válido."
 
 #: kuma/spam/forms.py:103
 msgid "The submitted data contains invalid content. Please try again."
-msgstr ""
+msgstr "La información enviada incluye contenido no válido. Por favor intenta de nuevo."
 
 #: kuma/spam/models.py:10
 msgid "created"
-msgstr ""
+msgstr "creado"
 
 #: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: kuma/spam/models.py:28
 msgid "Ham"
-msgstr ""
+msgstr "Contenido aceptable"
 
 #: kuma/spam/models.py:32
 msgid "sent at"
-msgstr ""
+msgstr "enviado el"
 
 #: kuma/spam/models.py:36
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #: kuma/users/adapters.py:17
 #, python-format
@@ -1752,209 +1757,211 @@ msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
 "rel=\"nofollow\">file a bug</a>."
 msgstr ""
+"Lo sentimos, pero debes tener al menos una cuenta conectada para iniciar sesión. Si quieres desconectar esta, primero tienes que conectarte a otra diferente. Para eliminar tu perfil de MDN, <a "
+"href=\"%(bug_form_url)s\" rel=\"nofollow\">envía un bug</a>, por favor."
 
 #: kuma/users/adapters.py:21
 msgid "An email address cannot be used as a username."
-msgstr ""
+msgstr "No se puede utilizar una dirección de correo como nombre de usuario."
 
 #: kuma/users/adapters.py:48
 msgid "The username you entered already exists."
-msgstr ""
+msgstr "El nombre de usuario que ingresaste ya existe."
 
 #: kuma/users/apps.py:24
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #: kuma/users/apps.py:69
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr ""
+msgstr "Has completado los primeros pasos para <a href=\"%s\">comenzar con MDN</a>"
 
 #: kuma/users/constants.py:6
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
-msgstr ""
+msgstr "El nombre de usuario sólo puede contener letras, números y estos caracteres: . - _ +"
 
 #: kuma/users/forms.py:31 kuma/users/models.py:46
 msgid "Timezone"
-msgstr ""
+msgstr "Zona horaria"
 
 #: kuma/users/forms.py:37
 msgid "Beta tester"
-msgstr ""
+msgstr "Beta tester"
 
 #: kuma/users/forms.py:41 kuma/users/jinja2/users/includes/user_title_info.html:50
 msgid "Interests"
-msgstr ""
+msgstr "Intereses"
 
 #: kuma/users/forms.py:47
 msgid "Expertise"
-msgstr ""
+msgstr "Experiencia"
 
 #: kuma/users/forms.py:53
 msgid "Username"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #: kuma/users/forms.py:78 kuma/users/models.py:171 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
-msgstr ""
+msgstr "Stack Overflow"
 
 #: kuma/users/forms.py:87 kuma/users/models.py:161 kuma/users/jinja2/users/includes/user_title_info.html:92
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: kuma/users/forms.py:96 kuma/users/models.py:146 kuma/users/jinja2/users/includes/user_title_info.html:96
 msgid "Mozillians"
-msgstr ""
+msgstr "Mozilleros"
 
 #: kuma/users/forms.py:137
 msgid "Areas of expertise must be a subset of interests"
-msgstr ""
+msgstr "Las áreas de experiencia han de ser un subconjunto de intereses"
 
 #: kuma/users/forms.py:146
 msgid "This field cannot be blank."
-msgstr ""
+msgstr "Este campo no puede quedarse vacío."
 
 #: kuma/users/forms.py:152
 msgid "Username already in use."
-msgstr ""
+msgstr "El nombre de usuario no está disponible."
 
 #: kuma/users/forms.py:162
 msgid "Email"
-msgstr ""
+msgstr "Correo electrónico"
 
 #: kuma/users/models.py:34
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
-msgstr ""
+msgstr "%(banned_user)s expulsado por %(banned_by)s"
 
 #: kuma/users/models.py:37
 #, python-format
 msgid "%s (no longer active)"
-msgstr ""
+msgstr "%s (ya no está activo)"
 
 #: kuma/users/models.py:56
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: kuma/users/models.py:61
 msgid "Homepage"
-msgstr ""
+msgstr "Página de inicio"
 
 #: kuma/users/models.py:65
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr ""
+msgstr "Esta URL no tiene un formato válido. Las URL válidas son similares a http://example.com/my_page."
 
 #: kuma/users/models.py:75
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: kuma/users/models.py:80
 msgid "Organization"
-msgstr ""
+msgstr "Organización"
 
 #: kuma/users/models.py:85
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: kuma/users/models.py:90
 msgid "About Me"
-msgstr ""
+msgstr "Acerca de mi"
 
 #: kuma/users/models.py:94
 msgid "IRC nickname"
-msgstr ""
+msgstr "Apodo en IRC"
 
 #: kuma/users/models.py:99 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:65
 #: kuma/wiki/jinja2/wiki/edit.html:184
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetas"
 
 #: kuma/users/models.py:104
 msgid "Enter a valid website URL."
-msgstr ""
+msgstr "Introduce una URL válida."
 
 #: kuma/users/models.py:109
 msgid "Enter a valid Twitter URL."
-msgstr ""
+msgstr "Por favor, introduce una URL de Twitter válida."
 
 #: kuma/users/models.py:114
 msgid "Enter a valid GitHub URL."
-msgstr ""
+msgstr "Introduce una URL de GitHub válida."
 
 #: kuma/users/models.py:119
 msgid "Enter a valid Stack Overflow URL."
-msgstr ""
+msgstr "Introduce una URL de Stack Overflow válida."
 
 #: kuma/users/models.py:124
 msgid "Enter a valid LinkedIn URL."
-msgstr ""
+msgstr "Introduce una URL de LinkedIn válida."
 
 #: kuma/users/models.py:129
 msgid "Enter a valid Mozillians URL."
-msgstr ""
+msgstr "Introduce una URL de Mozillians válida."
 
 #: kuma/users/models.py:134
 msgid "Enter a valid Facebook URL."
-msgstr ""
+msgstr "Introduce una URL de Facebook válida."
 
 #: kuma/users/models.py:141
 msgid "Website"
-msgstr ""
+msgstr "Sitio web"
 
 #: kuma/users/signup.py:9
 msgid "Username is required."
-msgstr ""
+msgstr "Se requiere nombre de usuario."
 
 #: kuma/users/signup.py:10
 #, python-format
 msgid "Username is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
-msgstr ""
+msgstr "El nombre de usuario es demasiado corto (%(show_value)s characters). Debe tener al menos %(limit_value)s caracteres."
 
 #: kuma/users/signup.py:12
 #, python-format
 msgid "Username is too long (%(show_value)s characters). It must be %(limit_value)s characters or less."
-msgstr ""
+msgstr "El nombre de usuario es demasiado largo (%(show_value)s characters). Debe tener %(limit_value)s caracteres como máximo."
 
 #: kuma/users/signup.py:15
 msgid "You must agree to the terms of use."
-msgstr ""
+msgstr "Debes aceptar los términos de uso."
 
 #: kuma/users/signup.py:34
 msgid "I agree"
-msgstr ""
+msgstr "Acepto"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
 msgid "Take the next step to get involved on MDN!"
-msgstr ""
+msgstr "¡Da un paso adelante e involúcrate con MDN!"
 
 #: kuma/users/views.py:474
 msgid "Email address"
-msgstr ""
+msgstr "Dirección de correo electrónica"
 
 #: kuma/users/views.py:532 kuma/users/jinja2/socialaccount/signup.html:128
 msgid "Other:"
-msgstr ""
+msgstr "Otro:"
 
 #: kuma/users/views.py:534
 msgid "Email:"
-msgstr ""
+msgstr "Correo electrónico:"
 
 #: kuma/users/jinja2/account/account_inactive.html:3 kuma/users/jinja2/account/account_inactive.html:7
 msgid "Profile Inactive"
-msgstr ""
+msgstr "Perfil inactivo"
 
 #: kuma/users/jinja2/account/account_inactive.html:9
 msgid "This profile is inactive."
-msgstr ""
+msgstr "Este perfil está inactivo."
 
 #: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:30
 msgid "Email addresses"
-msgstr ""
+msgstr "Direcciones de correo electrónico"
 
 #: kuma/users/jinja2/account/email.html:11
 #, python-format
 msgid "%(email)s is your <em>primary</em> email address"
-msgstr ""
+msgstr "%(email)s es tu dirección de correo electrónico <em>principal</em>"
 
 #: kuma/users/jinja2/account/email.html:15
 msgid "You've also added the following email addresses:"
