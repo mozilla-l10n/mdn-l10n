@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: MDN 2017.14\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
 "POT-Creation-Date: 2017-08-02 13:30-0700\n"
-"PO-Revision-Date: 2017-08-21 16:46+0000\n"
+"PO-Revision-Date: 2017-09-04 17:50+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -756,7 +756,7 @@ msgstr "El nombre de usuario del usuario que eliminó el adjunto"
 
 #: kuma/attachments/models.py:229
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
-msgstr ""
+msgstr "Si el adjunto era la misma revisión del adjunto actual en el momento de borrarlo."
 
 #: kuma/attachments/models.py:234
 msgid "Trashed attachment"
@@ -882,6 +882,8 @@ msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
 msgstr ""
+"Estas son tus claves API. Son útiles para la creación de aplicaciones que realizan tareas en MDN en tu nombre. Si has dejado de utilizar cualquiera de ellas, o sospechas que alguna ha estado "
+"expuesta a terceros a los que no confiarías tu cuenta, elimina la clave. Es fácil crear una clave de reemplazo en cualquier momento."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
@@ -910,6 +912,8 @@ msgid ""
 "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
 " as you can.</p>"
 msgstr ""
+"<p>Describe para qué vas a usar esta clave. <p><strong>NOTA:</strong> esta descripción será el único modo de identificar la clave, aparte de la fecha y hora de su creación, así que te recomendamos "
+"ser lo más claro posible.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
 msgid "Create"
@@ -921,6 +925,8 @@ msgid ""
 "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
 "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
 msgstr ""
+"<p>Has creado una nueva clave. Toma nota de la información en esta pantalla (por ejemplo, cópiala en la configuración de la aplicación), porque sólo se muestra una vez y no se puede recuperar. "
+"</p><p><strong>NOTA:</strong> Cuando acabes, <a class=\"button\" href=\"%(list_url)s\">vuelve a tu lista de claves</a>. Al recargar esta página, se creará una nueva clave.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:30
 msgid "Key ID"
@@ -1147,7 +1153,7 @@ msgstr[1] "Se ha encontrado la macro activa %(num)s."
 #: kuma/dashboards/jinja2/dashboards/macros.html:16
 #, python-format
 msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
-msgstr ""
+msgstr "Para obtener una lista de macros, consulta el <a href=\"%(url)s\"> repositorio de GitHub</a>."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:18
 #, python-format
