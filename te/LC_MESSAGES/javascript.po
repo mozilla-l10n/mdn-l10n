@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-06-20 07:47-0700\n"
+"POT-Creation-Date: 2017-09-20 14:20-0700\n"
 "PO-Revision-Date: 2017-07-11 10:33+0000\n"
 "Last-Translator: Dinesh <dineshmv38@gmail.com>\n"
 "Language-Team: Telugu https://pontoon.mozilla.org/te/\n"
@@ -73,6 +73,11 @@ msgstr "ఎటువంటి ఎంపిక లెదు"
 #: kuma/static/js/moz-jquery-plugins.js:209
 msgid "Selected: "
 msgstr "ఎంపికైంది:"
+
+#: kuma/static/js/task-completion.js:32
+#, python-format
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/static/js/users.js:107
 msgid "New interest..."
@@ -144,19 +149,19 @@ msgstr ""
 msgid "Autosave enabled."
 msgstr "ఆటోసేవ్ ఎనేబుల్ అయినది."
 
-#: kuma/static/js/wiki-edit.js:346
+#: kuma/static/js/wiki-edit.js:345
 msgid "Publishing changes…"
 msgstr "మార్పుల ప్రచురణ…"
 
-#: kuma/static/js/wiki-edit.js:385
+#: kuma/static/js/wiki-edit.js:384
 msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
 msgstr "ప్రచురణ విఫలమయ్యింది. మీరు ప్రస్తుతం మీ ఖాతాలోకి ప్రవేశించి లేరు. కొత్త ట్యాబులో మీ ఖాతాలోకి ప్రవేశించి తిరిగి ప్రచురించండి."
 
-#: kuma/static/js/wiki-edit.js:388
+#: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "మార్పులు చేయబడ్డాయి."
 
-#: kuma/static/js/wiki-edit.js:417
+#: kuma/static/js/wiki-edit.js:416
 msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
 msgstr "ప్రచురణ విఫలమయ్యింది. దయచేసి మీ మార్పులను ఒక భద్రమైన చోటుకి కాపీ చేసి, తర్వాత \"ప్రచురించు\" బటన్ తో పత్రాన్ని తిరిగి పంపండి."
 
@@ -165,25 +170,21 @@ msgstr "ప్రచురణ విఫలమయ్యింది. దయచే
 msgid "Open in %(site)s"
 msgstr "తెరువుము %(site)s లొ"
 
-#: kuma/static/js/wiki-tags-edit.js:48
-msgid "New tag..."
-msgstr "కొత్త ట్యాగ్..."
-
-#: kuma/static/js/wiki.js:184
-msgid "How to read CSS syntax."
-msgstr "CSS సింటాక్స్ని చదవడం ఎలా."
-
-#: kuma/static/js/wiki.js:476
+#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:354
 msgid "Search Stack Overflow"
 msgstr "స్టాక్ ఫ్లోని వెతుకుము"
 
-#: kuma/static/js/wiki.js:583
+#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:385
 msgid "Your browser does not support MathML. A CSS fallback has been used instead."
 msgstr "మీ బ్రౌసెర్ MathML కి మద్దతు ఇవ్వదు. దానికి బదులుగా CSS ని వాడారు."
 
-#: kuma/static/js/wiki.js:798
+#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:594
 msgid "Details"
 msgstr "వివరాలు"
+
+#: kuma/static/js/wiki-tags-edit.js:48
+msgid "New tag..."
+msgstr "కొత్త ట్యాగ్..."
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"
@@ -308,6 +309,9 @@ msgstr "మీరు ఇచ్చిన URL సరైనదిగా కనప�
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-youtube/plugin.js:33
 msgid "Default"
 msgstr "అప్రమేయం"
+
+#~ msgid "How to read CSS syntax."
+#~ msgstr "CSS సింటాక్స్ని చదవడం ఎలా."
 
 #~ msgid "Did this page help you?"
 #~ msgstr "ఈ పేజీ మీకు ఉపయోగపడిందా?"

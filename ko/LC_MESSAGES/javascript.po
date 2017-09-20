@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-06-20 07:47-0700\n"
+"POT-Creation-Date: 2017-09-20 14:20-0700\n"
 "PO-Revision-Date: 2017-06-09 01:53+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -74,6 +74,11 @@ msgstr "선택한 항목 없음"
 msgid "Selected: "
 msgstr "선택됨: "
 
+#: kuma/static/js/task-completion.js:32
+#, python-format
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr ""
+
 #: kuma/static/js/users.js:107
 msgid "New interest..."
 msgstr "새로운 관심사..."
@@ -143,19 +148,19 @@ msgstr "초안이 자동 저장됨:"
 msgid "Autosave enabled."
 msgstr "자동 저장이 활성화되었습니다."
 
-#: kuma/static/js/wiki-edit.js:346
+#: kuma/static/js/wiki-edit.js:345
 msgid "Publishing changes…"
 msgstr "변경 사항 공개중…"
 
-#: kuma/static/js/wiki-edit.js:385
+#: kuma/static/js/wiki-edit.js:384
 msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
 msgstr "게시하지 못했습니다. 로그인되지 않았습니다. 새로운 탭을 열어서 로그인하고 다시 게시하세요."
 
-#: kuma/static/js/wiki-edit.js:388
+#: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "변경 내용이 저장되었습니다."
 
-#: kuma/static/js/wiki-edit.js:417
+#: kuma/static/js/wiki-edit.js:416
 msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
 msgstr "게시하지 못했습니다. 안전한 곳에 변경사항을 복사하고 \"게시\" 버튼을 눌러서 양식을 다시 제출하세요."
 
@@ -164,25 +169,21 @@ msgstr "게시하지 못했습니다. 안전한 곳에 변경사항을 복사하
 msgid "Open in %(site)s"
 msgstr "%(site)s에서 열기 "
 
-#: kuma/static/js/wiki-tags-edit.js:48
-msgid "New tag..."
-msgstr "새 태그..."
-
-#: kuma/static/js/wiki.js:184
-msgid "How to read CSS syntax."
-msgstr "CSS 구문을 읽는 방법"
-
-#: kuma/static/js/wiki.js:476
+#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:354
 msgid "Search Stack Overflow"
 msgstr "스택 오버플로우 검색"
 
-#: kuma/static/js/wiki.js:583
+#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:385
 msgid "Your browser does not support MathML. A CSS fallback has been used instead."
 msgstr "브라우저가 MathML을 지원하지 않습니다. CSS 폴백이 대신 사용되었습니다."
 
-#: kuma/static/js/wiki.js:798
+#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:594
 msgid "Details"
 msgstr "상세 정보"
+
+#: kuma/static/js/wiki-tags-edit.js:48
+msgid "New tag..."
+msgstr "새 태그..."
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"
@@ -307,6 +308,9 @@ msgstr "입력한 URL이 유효하게 보이지 않습니다"
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-youtube/plugin.js:33
 msgid "Default"
 msgstr "기본 설정"
+
+#~ msgid "How to read CSS syntax."
+#~ msgstr "CSS 구문을 읽는 방법"
 
 #~ msgid "Did this page help you?"
 #~ msgstr "이 페이지가 도움이 되었나요?"

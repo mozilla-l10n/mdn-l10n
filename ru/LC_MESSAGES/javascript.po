@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-06-20 07:47-0700\n"
+"POT-Creation-Date: 2017-09-20 14:20-0700\n"
 "PO-Revision-Date: 2017-06-07 18:07+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
@@ -74,6 +74,11 @@ msgstr "Не выбрано"
 msgid "Selected: "
 msgstr "Выбрано: "
 
+#: kuma/static/js/task-completion.js:32
+#, python-format
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr ""
+
 #: kuma/static/js/users.js:107
 msgid "New interest..."
 msgstr "Новый интерес..."
@@ -143,19 +148,19 @@ msgstr "Черновик автосохранён:"
 msgid "Autosave enabled."
 msgstr "Автосохранение включено."
 
-#: kuma/static/js/wiki-edit.js:346
+#: kuma/static/js/wiki-edit.js:345
 msgid "Publishing changes…"
 msgstr "Публикация изменений…"
 
-#: kuma/static/js/wiki-edit.js:385
+#: kuma/static/js/wiki-edit.js:384
 msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
 msgstr "Публикация не удалась. В настоящее время вы не вошли. Пожалуйста, используйте новую вкладку, чтобы войти и попытаться опубликовать снова."
 
-#: kuma/static/js/wiki-edit.js:388
+#: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "Изменения сохранены."
 
-#: kuma/static/js/wiki-edit.js:417
+#: kuma/static/js/wiki-edit.js:416
 msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
 msgstr "Публикация не удалась. Пожалуйста, скопируйте и вставьте ваши изменения в безопасное место и попытайтесь отправить снова, используя кнопку \"Опубликовать\"."
 
@@ -164,25 +169,21 @@ msgstr "Публикация не удалась. Пожалуйста, скоп
 msgid "Open in %(site)s"
 msgstr "Открыть на %(site)s"
 
-#: kuma/static/js/wiki-tags-edit.js:48
-msgid "New tag..."
-msgstr "Новая метка..."
-
-#: kuma/static/js/wiki.js:184
-msgid "How to read CSS syntax."
-msgstr "Как читать CSS синтаксис."
-
-#: kuma/static/js/wiki.js:476
+#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:354
 msgid "Search Stack Overflow"
 msgstr "Поиск по Stack Overflow"
 
-#: kuma/static/js/wiki.js:583
+#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:385
 msgid "Your browser does not support MathML. A CSS fallback has been used instead."
 msgstr "Ваш браузер не поддерживает MathML. Вместо него используется аварийное решение на CSS."
 
-#: kuma/static/js/wiki.js:798
+#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:594
 msgid "Details"
 msgstr "Детали"
+
+#: kuma/static/js/wiki-tags-edit.js:48
+msgid "New tag..."
+msgstr "Новая метка..."
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"
@@ -307,6 +308,9 @@ msgstr "URL, который вы ввели, выглядит неправиль
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-youtube/plugin.js:33
 msgid "Default"
 msgstr "По умолчанию"
+
+#~ msgid "How to read CSS syntax."
+#~ msgstr "Как читать CSS синтаксис."
 
 #~ msgid "Did this page help you?"
 #~ msgstr "Эта страница помогла вам?"

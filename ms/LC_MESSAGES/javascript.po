@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-06-20 07:47-0700\n"
+"POT-Creation-Date: 2017-09-20 14:20-0700\n"
 "PO-Revision-Date: 2017-08-23 11:12+0000\n"
 "Last-Translator: manxmensch <manxmensch@gmail.com>\n"
 "Language-Team: Malay https://pontoon.mozilla.org/ms/\n"
@@ -72,6 +72,11 @@ msgstr "Tiada pemilihan"
 #: kuma/static/js/moz-jquery-plugins.js:209
 msgid "Selected: "
 msgstr "Dipilih: "
+
+#: kuma/static/js/task-completion.js:32
+#, python-format
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/static/js/users.js:107
 msgid "New interest..."
@@ -142,19 +147,19 @@ msgstr "Draf autosimpan:"
 msgid "Autosave enabled."
 msgstr "Autosimpan didayakan."
 
-#: kuma/static/js/wiki-edit.js:346
+#: kuma/static/js/wiki-edit.js:345
 msgid "Publishing changes…"
 msgstr "Perubahan penerbitan…"
 
-#: kuma/static/js/wiki-edit.js:385
+#: kuma/static/js/wiki-edit.js:384
 msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
 msgstr "Gagal diterbitkan. Anda tidak menglog masuk. Sila gunakan tab baru untuk mendaftar masuk dan cuba terbitkan sekali lagi."
 
-#: kuma/static/js/wiki-edit.js:388
+#: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "Perubahan disimpan."
 
-#: kuma/static/js/wiki-edit.js:417
+#: kuma/static/js/wiki-edit.js:416
 msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
 msgstr "Gagal diterbitkan. Sila salin dan tampal perubahan ke tempat yang selamat dan cuba hantar borang menggunakan butang \"Terbit\"."
 
@@ -163,25 +168,21 @@ msgstr "Gagal diterbitkan. Sila salin dan tampal perubahan ke tempat yang selama
 msgid "Open in %(site)s"
 msgstr "Buka di %(site)s"
 
-#: kuma/static/js/wiki-tags-edit.js:48
-msgid "New tag..."
-msgstr "Tag baru..."
-
-#: kuma/static/js/wiki.js:184
-msgid "How to read CSS syntax."
-msgstr "Cara membaca sintaks CSS."
-
-#: kuma/static/js/wiki.js:476
+#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:354
 msgid "Search Stack Overflow"
 msgstr "Carian Stack Overflow"
 
-#: kuma/static/js/wiki.js:583
+#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:385
 msgid "Your browser does not support MathML. A CSS fallback has been used instead."
 msgstr "Pelayar anda tidak menyokong MathML. Sebaliknya, menggunakan gantian CSS."
 
-#: kuma/static/js/wiki.js:798
+#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:594
 msgid "Details"
 msgstr "Butiran"
+
+#: kuma/static/js/wiki-tags-edit.js:48
+msgid "New tag..."
+msgstr "Tag baru..."
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"
@@ -306,6 +307,9 @@ msgstr "URL yang anda masukkan tidak sah"
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-youtube/plugin.js:33
 msgid "Default"
 msgstr "Piawai"
+
+#~ msgid "How to read CSS syntax."
+#~ msgstr "Cara membaca sintaks CSS."
 
 #~ msgid "Did this page help you?"
 #~ msgstr "Adakah kandungan halaman ini membantu anda?"

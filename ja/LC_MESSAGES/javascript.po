@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-06-20 07:47-0700\n"
+"POT-Creation-Date: 2017-09-20 14:20-0700\n"
 "PO-Revision-Date: 2017-06-07 16:51+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -74,6 +74,11 @@ msgstr "選択なし"
 msgid "Selected: "
 msgstr "選択済み: "
 
+#: kuma/static/js/task-completion.js:32
+#, python-format
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr ""
+
 #: kuma/static/js/users.js:107
 msgid "New interest..."
 msgstr "新たな興味..."
@@ -143,19 +148,19 @@ msgstr "下書きが自動保存されました:"
 msgid "Autosave enabled."
 msgstr "自動保存が有効化されました。"
 
-#: kuma/static/js/wiki-edit.js:346
+#: kuma/static/js/wiki-edit.js:345
 msgid "Publishing changes…"
 msgstr "変更点を公開しています..."
 
-#: kuma/static/js/wiki-edit.js:385
+#: kuma/static/js/wiki-edit.js:384
 msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
 msgstr "公開できませんでした。あなたは現在ログインしていません。新しいタブを使ってログインし、再度公開を試してください。"
 
-#: kuma/static/js/wiki-edit.js:388
+#: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "変更が保存されました。"
 
-#: kuma/static/js/wiki-edit.js:417
+#: kuma/static/js/wiki-edit.js:416
 msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
 msgstr "公開できませんでした。変更点を安全な所へコピー＆ペーストしてから「公開」ボタンを使ってフォームの送信を試してください。"
 
@@ -164,25 +169,21 @@ msgstr "公開できませんでした。変更点を安全な所へコピー＆
 msgid "Open in %(site)s"
 msgstr "%(site)s で開く"
 
-#: kuma/static/js/wiki-tags-edit.js:48
-msgid "New tag..."
-msgstr "新しいタグ..."
-
-#: kuma/static/js/wiki.js:184
-msgid "How to read CSS syntax."
-msgstr "CSS 構文の読み方"
-
-#: kuma/static/js/wiki.js:476
+#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:354
 msgid "Search Stack Overflow"
 msgstr "Stack Overflow を検索"
 
-#: kuma/static/js/wiki.js:583
+#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:385
 msgid "Your browser does not support MathML. A CSS fallback has been used instead."
 msgstr "お使いのブラウザーは MathML に対応していません。代わりに CSS フォールバックを表示します。"
 
-#: kuma/static/js/wiki.js:798
+#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:594
 msgid "Details"
 msgstr "詳細"
+
+#: kuma/static/js/wiki-tags-edit.js:48
+msgid "New tag..."
+msgstr "新しいタグ..."
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"
@@ -307,6 +308,9 @@ msgstr "入力された URL が正しくないようです"
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-youtube/plugin.js:33
 msgid "Default"
 msgstr "既定値"
+
+#~ msgid "How to read CSS syntax."
+#~ msgstr "CSS 構文の読み方"
 
 #~ msgid "Did this page help you?"
 #~ msgstr "このページはお役に立ちましたか？"
