@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: MDN 2017.14\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
 "POT-Creation-Date: 2017-09-20 14:21-0700\n"
-"PO-Revision-Date: 2017-10-06 19:11+0000\n"
-"Last-Translator: Eduardo Hernandez Garza <eddyhdzg@gmail.com>\n"
+"PO-Revision-Date: 2017-10-10 16:06+0000\n"
+"Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
 "MIME-Version: 1.0\n"
@@ -2169,7 +2169,7 @@ msgstr "Inicio de sesión cancelado"
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:9
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
+msgstr "Has decidido cancelar el inicio de sesión en tu sitio mediante una de tus cuentas. Si se trata de un error, te pedimos que  <a href=\"%(login_url)s\">inicies sesión</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:3 kuma/users/jinja2/socialaccount/signup.html:20
 msgid "Create your MDN profile to continue"
@@ -2186,38 +2186,39 @@ msgstr "Recuperar mi perfil"
 #: kuma/users/jinja2/socialaccount/signup.html:41
 #, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. You have one more step to join MDN: <strong>create your MDN profile</strong>."
-msgstr ""
+msgstr "Gracias por iniciar sesión en MDN con %(provider_name)s. Ya solo te queda un paso para unirte a MDN: <strong>crearte tu perfil</strong>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:47
 msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
-msgstr ""
+msgstr "Puedes acceder a todo el contenido de la página web de MDN aunque no tengas perfil. Pero, si te unes a MDN, podrás editar documentos y tener tu propia página de perfil."
 
 #: kuma/users/jinja2/socialaccount/signup.html:54
 msgid "To set up your MDN profile, please <strong>choose a username</strong>. Your username will be displayed on MDN to identify any contributions that you make."
-msgstr ""
+msgstr "Para configurar tu perfil MDN, por favor <strong>escoge tu nombre de usuario</strong>. Tu usuario se mostrará en MDN para identificar las colaboraciones que haces."
 
 #: kuma/users/jinja2/socialaccount/signup.html:60
 msgid "To set up your MDN profile, please <strong>choose a username and email address</strong>. Your username will be displayed on MDN to identify any contributions that you make."
 msgstr ""
+"Para configurar tu perfil MDN, por favor <strong>escoge tu nombre de usuario y dirección de correo electrónico</strong>. Tu usuario se mostrará en MDN para identificar las colaboraciones que haces."
 
 #: kuma/users/jinja2/socialaccount/signup.html:68
 #, python-format
 msgid "If you're <strong>having trouble</strong> signing in or creating an MDN profile, <strong><a href=\"%(bug_href)s\" rel=\"external\">let us know</a></strong>."
-msgstr ""
+msgstr "Si <strong>tienes problemas</strong> para iniciar sesión o para crear un perfil en MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">infórmanos</a></strong>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:93
 #, python-format
 msgid "Your GitHub username %(username)s is already taken. Please choose another."
-msgstr ""
+msgstr "Tu usuario de GitHub %(username)s ya está en uso. Por favor, escoge otro."
 
 #: kuma/users/jinja2/socialaccount/signup.html:97
 msgid "Please enter the name you'd like to display to other users to identify your contributions."
-msgstr ""
+msgstr "Escribe el nombre que te gustaría mostrar al resto de usuarios para identificar tus contribuciones."
 
 #: kuma/users/jinja2/socialaccount/signup.html:111
 #, python-format
 msgid "A profile already exists with the selected email address. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Connect your %(provider_name)s account to it.</a>"
-msgstr ""
+msgstr "Ya existe un perfil con esa dirección de correo. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Conéctalo con tu cuenta de %(provider_name)s.</a>"
 
 #: kuma/users/jinja2/socialaccount/signup.html:137
 msgid "Verified"
@@ -2233,6 +2234,8 @@ msgid ""
 "What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
 "href=\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
+"¿A qué dirección de correo deberíamos enviar los mensajes relacionados con MDN y las notificaciones? La dirección <strong>no</strong> aparecerá en MDN y la utilizaremos siguiendo las pautas de "
+"nuestra <a href=\"%(privacy_url)s\">política de privacidad</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
 msgid "Terms and Privacy"
@@ -2318,7 +2321,7 @@ msgstr "Bloquear usuario por otras razones."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:62
 msgid "User has not made any revisions to be reverted in the past three days, and this user was already banned."
-msgstr ""
+msgstr "El usuario no ha hecho ninguna revisión en los últimos tres días, y este usuario ya ha sido restringido."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:20
 msgid "Summary"
@@ -2439,7 +2442,7 @@ msgstr "Correo de recuperación enviado"
 
 #: kuma/users/jinja2/users/recovery_email_sent.html:11
 msgid "Click the link in the email to recover your existing account."
-msgstr ""
+msgstr "Haz clic en el enlace que has recibido para recuperar tu cuenta."
 
 #: kuma/users/jinja2/users/user_banned.html:2
 msgid "You've Been Banned"
@@ -2463,23 +2466,23 @@ msgstr "Lamentamos verte partir."
 
 #: kuma/users/jinja2/users/user_delete.html:31
 msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
-msgstr ""
+msgstr "Aunque puedes eliminar tu cuenta, no podemos eliminar las revisiones que has hecho y, según nuestra licencia de contenido, tenemos que atribuir esas revisiones a alguien."
 
 #: kuma/users/jinja2/users/user_delete.html:38
 msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr ""
+msgstr "Envía un bug para cerrar la cuenta y asegúrate de que una de las siguientes opciones está incluida en el campo de descripción:"
 
 #: kuma/users/jinja2/users/user_delete.html:57
 msgid "I haven't changed any pages; just delete my account."
-msgstr ""
+msgstr "No he cambiado ninguna página; eliminar mi cuenta."
 
 #: kuma/users/jinja2/users/user_delete.html:62
 msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr ""
+msgstr "Mantener mi colaboración en la página de cambios; eliminar mi correo electrónico y congelar mi cuenta para que no pueda volver a acceder."
 
 #: kuma/users/jinja2/users/user_delete.html:67
 msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr ""
+msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
 
 #: kuma/users/jinja2/users/user_delete.html:70
 msgid "File a bug to close your account"
@@ -2537,6 +2540,8 @@ msgstr "Estás editando un perfil que no es tuyo. ¡Por favor, ten cuidado!"
 #: kuma/users/jinja2/users/user_edit.html:55
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
+"¡Nos encantaría saber tu opinión sobre los últimos cambios! Los testers Beta son los primeros en tener acceso a las nuevas características y, a veces, enviamos correos para que nos ayuden a probar "
+"cosas específicas."
 
 #: kuma/users/jinja2/users/user_edit.html:58
 msgid "Primary Email"
@@ -2552,7 +2557,7 @@ msgstr "Intereses (etiquetas)"
 
 #: kuma/users/jinja2/users/user_edit.html:72
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
-msgstr ""
+msgstr "Separa las etiquetas con comas o espacios. Une etiquetas de más de una palabra con comillas dobles, como, por ejemplo, \"estándares web\"."
 
 #: kuma/users/jinja2/users/user_edit.html:78
 msgid "Areas of expertise"
@@ -2560,7 +2565,7 @@ msgstr "Áreas de especialización"
 
 #: kuma/users/jinja2/users/user_edit.html:79
 msgid "Add your interests first, then declare yourself an expert in selected topics."
-msgstr ""
+msgstr "Agrega tus intereses primero, después declárate experto en los temas que quieras."
 
 #: kuma/users/jinja2/users/user_edit.html:87
 msgid "My Profiles"
@@ -2580,7 +2585,7 @@ msgstr "Eliminar tu cuenta."
 
 #: kuma/users/jinja2/users/user_edit.html:128
 msgid "Manage your Mozilla Newsletter Subscriptions."
-msgstr ""
+msgstr "Gestionar las suscripciones al boletín de Mozilla."
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
@@ -2592,6 +2597,7 @@ msgid ""
 "You are receiving this e-mail because you or someone else has requested access to your user account %(username)s at %(domain)s. It can be safely ignored if you did not make this request. Click the "
 "link below to access your account:"
 msgstr ""
+"Has recibido este correo porque alguien ha solicitado acceso a tu cuenta %(username)s en %(domain)s. Si no fuiste tú, puedes ignorarlo. Haz clic en el enlace de más abajo para acceder a tu cuenta:"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
 msgid "Thank you for using MDN!"
@@ -2600,7 +2606,7 @@ msgstr "¡Gracias por usar MDN!"
 #: kuma/users/jinja2/users/email/recovery/subject.ltxt:1
 #, python-format
 msgid "Profile Recovery for %(username)s at %(domain)s"
-msgstr ""
+msgstr "Recuperación de perfil para %(username)s en %(domain)s"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9
 #, python-format
@@ -2610,12 +2616,12 @@ msgstr "¡Hola %(username)s!"
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">Mozilla Developer Network (MDN)</a> - a community making great resources for developers like you."
-msgstr ""
+msgstr "Gracias por crearte un perfil en <a href=\"%(mdn_link)s\">Mozilla Developer Network (MDN)</a>, una comunidad que crea recursos increíbles para desarrolladores como tú."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
 msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr ""
+msgstr "Has completado el primer paso para <a href=\"%(started_link)s\">comenzar con MDN</a> creando un perfil."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:21
 #, python-format
@@ -2623,6 +2629,8 @@ msgid ""
 "Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
 msgstr ""
+"Ahora, lo que puedes hacer es elegir una tarea en MDN y realizarla. Puedes elegir entre un montón de tareas introductorias, dependiendo si te gustan <a href=\"%(words_link)s\">las palabras</a>, <a "
+"href=\"%(code_link)s\">el código</a>, <a href=\"%(both_link)s\">tanto las palabras como el código</a> o si quieres <a href=\"%(translate_link)s\">traducir MDN a tu idioma</a>."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:34
 msgid "Talk to us!"
@@ -2631,12 +2639,12 @@ msgstr "¡Contacta con nosotros!"
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
-msgstr ""
+msgstr "¿Quieras hablar con alguien sobre MDN? Puedes hacerlo de varias formas:"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid "Mailing list: <a href=\"%(list_link)s\">subscribe</a> to tell us about what you're interested in on MDN and ask questions about the site."
-msgstr ""
+msgstr "Lista de correo: <a href=\"%(list_link)s\">suscríbete</a> para contarnos lo que te interesa de MDN y preguntarnos cosas del sitio web."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
 #, python-format
