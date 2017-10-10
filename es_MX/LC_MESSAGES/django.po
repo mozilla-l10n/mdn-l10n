@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: MDN 2017.14\n"
 "Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
 "POT-Creation-Date: 2017-09-20 14:21-0700\n"
-"PO-Revision-Date: 2017-10-10 17:31+0000\n"
+"PO-Revision-Date: 2017-10-10 17:48+0000\n"
 "Last-Translator: Elisa X. <ee.sf2000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es_MX\n"
@@ -2967,7 +2967,7 @@ msgstr "Ya existe otro documento con este slug."
 
 #: kuma/wiki/forms.py:68
 msgid "Another document with this metadata already exists."
-msgstr ""
+msgstr "Ya existe otro documento con estos metadatos."
 
 #: kuma/wiki/forms.py:70
 #, python-format
@@ -2975,10 +2975,12 @@ msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
 "making further edits."
 msgstr ""
+"La publicación ha fallado. Se ha detectado un conflicto en los intentos de publicación. Por favor, copia y pega tus cambios en un lugar seguro y luego visita la página del <a "
+"href=\"%(url)s\">historial de revisión</a> para ver lo que ha sido editado antes de hacer más ediciones."
 
 #: kuma/wiki/forms.py:74
 msgid "Changing this document's slug requires moving it and its children."
-msgstr ""
+msgstr "Si se modifica el slug del documento, habrá que moverlo junto con sus hijos."
 
 #: kuma/wiki/forms.py:340 kuma/wiki/forms.py:410 kuma/wiki/forms.py:894 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:88 kuma/wiki/jinja2/wiki/edit.html:125
 #: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:66 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
@@ -2992,7 +2994,7 @@ msgstr "Título del artículo"
 #: kuma/wiki/forms.py:349 kuma/wiki/forms.py:424 kuma/wiki/jinja2/wiki/create.html:46 kuma/wiki/jinja2/wiki/includes/document_macros.html:70
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:22
 msgid "Slug:"
-msgstr ""
+msgstr "Slug:"
 
 #: kuma/wiki/forms.py:350 kuma/wiki/forms.py:425
 msgid "Article URL"
@@ -3032,24 +3034,24 @@ msgstr "Comentario:"
 
 #: kuma/wiki/forms.py:481
 msgid "Tag this revision for review?"
-msgstr ""
+msgstr "¿Etiquetar esta corrección para revisión?"
 
 #: kuma/wiki/forms.py:488
 msgid "Tag this revision for localization?"
-msgstr ""
+msgstr "¿Etiquetar esta corrección para localización?"
 
 #: kuma/wiki/forms.py:901
 msgid "New slug:"
-msgstr ""
+msgstr "Nuevo slug:"
 
 #: kuma/wiki/forms.py:902
 msgid "New article URL"
-msgstr ""
+msgstr "Nuevo artículo URL"
 
 #: kuma/wiki/models.py:90
 #, python-format
 msgid "Parent %s does not exist."
-msgstr ""
+msgstr "El padre %s no existe."
 
 #: kuma/wiki/models.py:98
 msgid "Document Tag"
@@ -3061,7 +3063,7 @@ msgstr "Etiquetas del documento"
 
 #: kuma/wiki/models.py:151
 msgid "uploaded to the document"
-msgstr ""
+msgstr "cargado al documento"
 
 #: kuma/wiki/models.py:157
 msgid "linked in the document content"
