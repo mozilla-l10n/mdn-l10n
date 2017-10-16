@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
-"Report-Msgid-Bugs-To: dev-mdn@lists.mozilla.org\n"
-"POT-Creation-Date: 2017-09-20 14:21-0700\n"
+"Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
+"POT-Creation-Date: 2017-10-16 07:18-0700\n"
 "PO-Revision-Date: 2017-08-04 08:30+0000\n"
 "Last-Translator: Tymur Faradzhev <faradzhev.timur@gmail.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -40,17 +40,17 @@ msgstr "<p>На жаль %(name)s, ми боїмося, що не зможемо
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>На жаль, ми боїмося, що не зможемо це зробити.</p>"
 
-#: jinja2/403.html:48
+#: jinja2/403.html:49
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li><a href=\"%(logout_url)s\">Вийдіть</a> та спробуйте знову.</li>"
 
-#: jinja2/403.html:52 jinja2/handlers/400.html:36
+#: jinja2/403.html:53 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li><a href=\"%(login_url)s\">Увійдіть</a> щоб повторити спробу.</li>"
 
-#: jinja2/403.html:60
+#: jinja2/403.html:62
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -66,23 +66,23 @@ msgstr "Не знайдено"
 msgid "We're sorry, we couldn't find what you were looking for."
 msgstr "На жаль, ми не можемо знайти те, що ви шукаєте."
 
-#: jinja2/404.html:24
+#: jinja2/404.html:25
 #, python-format
 msgid "You can try a search or start over on the <a href=\"%(homepage_url)s\">home page</a>."
 msgstr "Ви можете спробувати пошукати або почати спочатку на <a href=\"%(homepage_url)s\">домашній сторінці</a>."
 
-#: jinja2/404.html:28
+#: jinja2/404.html:29
 #, python-format
 msgid "If you were following a documentation link, you can sign in and create the page. Otherwise, please <a href=\"%(bug_form_url)s\" rel=\"nofollow\">file a bug</a>. Thanks!"
 msgstr ""
 "Якщо ви слідкували посиланню в документації, ви можете увійти і створити сторінку. В іншому випадку будь ласка, <a href=\"%(bug_form_url)s\" rel=\"nofollow\">створіть повідомлення про помилку</a>. "
 "Дякуємо!"
 
-#: jinja2/404.html:35
+#: jinja2/404.html:37
 msgid "This user's profile has been banned."
 msgstr "Цей профіль був заблокований."
 
-#: jinja2/404.html:42
+#: jinja2/404.html:44
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
 msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> від Matthew Inman з <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
@@ -91,218 +91,218 @@ msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> від Matt
 msgid "Internal Server Error"
 msgstr "Внутрішня помилка сервера"
 
-#: jinja2/base.html:13 jinja2/base.html:114 jinja2/base.html:207
+#: jinja2/base.html:14 jinja2/base.html:118 jinja2/base.html:213
 msgid "MDN Web Docs"
 msgstr "MDN Веб-документи"
 
-#: jinja2/base.html:47 jinja2/base.html:52 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:48 jinja2/base.html:53 kuma/search/jinja2/search/plugin.html:3
 msgid "Mozilla Developer Network"
 msgstr "Mozilla Developer Network"
 
-#: jinja2/base.html:94
+#: jinja2/base.html:95
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "В даний момент MDN обслуговується в режимі для читання."
 
-#: jinja2/base.html:95
+#: jinja2/base.html:97
 msgid "Learn more"
 msgstr "Докладніше"
 
-#: jinja2/base.html:105
+#: jinja2/base.html:109
 msgid "Skip to main content"
 msgstr "Перейти до основного вмісту"
 
-#: jinja2/base.html:107
+#: jinja2/base.html:111
 msgid "Select language"
 msgstr "Вибір мови"
 
-#: jinja2/base.html:108
+#: jinja2/base.html:112
 msgid "Skip to search"
 msgstr "Перейти до пошуку"
 
-#: jinja2/base.html:120 kuma/core/translations/search/filter/tools/name.py:4
+#: jinja2/base.html:124 kuma/core/translations/search/filter/tools/name.py:4
 msgid "Tools"
 msgstr "Інструменти"
 
-#: jinja2/base.html:123
+#: jinja2/base.html:127
 msgid "Contribute to MDN"
 msgstr "Допомогти MDN"
 
-#: jinja2/base.html:125
+#: jinja2/base.html:129
 msgid "Get started"
 msgstr "Початок роботи"
 
-#: jinja2/base.html:126
+#: jinja2/base.html:130
 msgid "Review or localize docs"
 msgstr "Перевіряйте або перекладайте документацію"
 
-#: jinja2/base.html:129
+#: jinja2/base.html:133
 msgid "Site Tools"
 msgstr "Інструменти сайту"
 
-#: jinja2/base.html:131
+#: jinja2/base.html:135
 msgid "Revision dashboard"
 msgstr "Панель аудиту"
 
-#: jinja2/base.html:132
+#: jinja2/base.html:136
 msgid "Documentation status"
 msgstr "Статус документації"
 
-#: jinja2/base.html:141
+#: jinja2/base.html:145
 msgid "Technologies"
 msgstr "Технології"
 
-#: jinja2/base.html:145 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
+#: jinja2/base.html:149 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
 msgid "HTML"
 msgstr "HTML"
 
-#: jinja2/base.html:146 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
+#: jinja2/base.html:150 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
 msgid "CSS"
 msgstr "CSS"
 
-#: jinja2/base.html:147 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
+#: jinja2/base.html:151 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: jinja2/base.html:148
+#: jinja2/base.html:152
 msgid "Graphics"
 msgstr "Графіка"
 
-#: jinja2/base.html:149
+#: jinja2/base.html:153
 msgid "HTTP"
 msgstr "HTTP"
 
-#: jinja2/base.html:150
+#: jinja2/base.html:154
 msgid "APIs / DOM"
 msgstr "API / DOM"
 
-#: jinja2/base.html:151
+#: jinja2/base.html:155
 #, fuzzy
 msgid "Browser Extensions"
 msgstr "WebExtensions"
 
-#: jinja2/base.html:152 kuma/core/translations/search/filter/mathml/name.py:4
+#: jinja2/base.html:156 kuma/core/translations/search/filter/mathml/name.py:4
 msgid "MathML"
 msgstr "MathML"
 
-#: jinja2/base.html:154
+#: jinja2/base.html:158
 msgid "References & Guides"
 msgstr "Довідники та посібники"
 
-#: jinja2/base.html:158 kuma/landing/jinja2/landing/homepage.html:71
+#: jinja2/base.html:162 kuma/landing/jinja2/landing/homepage.html:71
 msgid "Learn web development"
 msgstr "Вивчення веб-розробки"
 
-#: jinja2/base.html:159
+#: jinja2/base.html:163
 msgid "Tutorials"
 msgstr "Посібники"
 
-#: jinja2/base.html:160
+#: jinja2/base.html:164
 msgid "References"
 msgstr "Довідники"
 
-#: jinja2/base.html:161
+#: jinja2/base.html:165
 msgid "Developer Guides"
 msgstr "Посібники розробників"
 
-#: jinja2/base.html:162
+#: jinja2/base.html:166
 msgid "Accessibility"
 msgstr "Доступність"
 
-#: jinja2/base.html:163
+#: jinja2/base.html:167
 msgid "Game development"
 msgstr "Розробка ігор"
 
-#: jinja2/base.html:164
+#: jinja2/base.html:168
 msgid "...more docs"
 msgstr "...більше документації"
 
-#: jinja2/base.html:168 jinja2/base.html:214
+#: jinja2/base.html:172 jinja2/base.html:220
 msgid "Feedback"
 msgstr "Зворотній зв'язок"
 
-#: jinja2/base.html:172
+#: jinja2/base.html:176
 msgid "Get Firefox help"
 msgstr "Отримати допомогу Firefox"
 
-#: jinja2/base.html:173
+#: jinja2/base.html:177
 msgid "Get web development help"
 msgstr "Довідка веб-розробки"
 
-#: jinja2/base.html:176
+#: jinja2/base.html:180
 msgid "Join the MDN community"
 msgstr "Приєднатися до спільноти MDN"
 
-#: jinja2/base.html:177
+#: jinja2/base.html:181
 msgid "Report a content problem"
 msgstr "Повідомити про проблему вмісту"
 
-#: jinja2/base.html:178
+#: jinja2/base.html:182
 msgid "Report a bug"
 msgstr "Повідомити про помилку"
 
-#: jinja2/base.html:184 jinja2/base.html:185 jinja2/base.html:187 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:39
+#: jinja2/base.html:188 jinja2/base.html:189 jinja2/base.html:191 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:39
 #: kuma/landing/jinja2/landing/homepage.html:49 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/homepage.html:61 kuma/search/jinja2/search/base.html:2
 #: kuma/search/jinja2/search/results.html:15 kuma/search/jinja2/search/results.html:52 kuma/search/jinja2/search/results.html:55 kuma/search/jinja2/search/results.html:60
 msgid "Search"
 msgstr "Пошук"
 
-#: jinja2/base.html:211 kuma/landing/jinja2/landing/homepage.html:70
+#: jinja2/base.html:217 kuma/landing/jinja2/landing/homepage.html:70
 msgid "Web Technologies"
 msgstr "Веб-технології"
 
-#: jinja2/base.html:212 kuma/landing/jinja2/landing/homepage.html:107
+#: jinja2/base.html:218 kuma/landing/jinja2/landing/homepage.html:107
 msgid "Learn Web Development"
 msgstr "Вивчайте веб розробку"
 
-#: jinja2/base.html:213
+#: jinja2/base.html:219
 msgid "About MDN"
 msgstr "Про MDN"
 
-#: jinja2/base.html:215 jinja2/base.html:228 kuma/users/forms.py:60 kuma/users/models.py:156 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:221 jinja2/base.html:234 kuma/users/forms.py:60 kuma/users/models.py:156 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/base.html:216 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:222 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/base.html:220 kuma/core/sections.py:13
+#: jinja2/base.html:226 kuma/core/sections.py:13
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: jinja2/base.html:224
+#: jinja2/base.html:230
 msgid "About"
 msgstr "Про нас"
 
-#: jinja2/base.html:225
+#: jinja2/base.html:231
 msgid "Contact Us"
 msgstr "Контакти"
 
-#: jinja2/base.html:226
+#: jinja2/base.html:232
 msgid "Donate"
 msgstr "Зробити внесок"
 
-#: jinja2/base.html:229 kuma/users/forms.py:105 kuma/users/models.py:166 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:235 kuma/users/forms.py:105 kuma/users/models.py:166 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr "Facebook"
 
-#: jinja2/base.html:230
+#: jinja2/base.html:236
 msgid "Instagram"
 msgstr "Instagram"
 
-#: jinja2/base.html:242
+#: jinja2/base.html:248
 msgid "Terms"
 msgstr "Умови"
 
-#: jinja2/base.html:243
+#: jinja2/base.html:249
 msgid "Privacy"
 msgstr "Конфіденційність"
 
-#: jinja2/base.html:244
+#: jinja2/base.html:250
 msgid "Cookies"
 msgstr "Куки"
 
-#: jinja2/base.html:248
+#: jinja2/base.html:254
 #, fuzzy, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla Developer Network і окремі учасники.</p> <p>Вміст доступний на умовах <a href=\"%(copyright_url)s\">цих ліцензій</a>.</p>"
@@ -2651,8 +2651,8 @@ msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
 msgstr "Хочете розповісти кому-небудь про MDN? Є кілька способів:"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
-#, python-format
-msgid "Mailing list: <a href=\"%(list_link)s\">subscribe</a> to tell us about what you're interested in on MDN and ask questions about the site."
+#, fuzzy, python-format
+msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
 msgstr "Список розсилки: <a href=\"%(list_link)s\">підпишіться</a>, щоб розповісти нам про те, що вам цікаво на MDN і поставити питання про сайт."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
@@ -2716,13 +2716,14 @@ msgstr "Хочете перекладати MDN вашою мовою?"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:33
-#, python-format
-msgid "Mailing list: %(list_link)s"
+#, fuzzy, python-format
+msgid "Discussion forum: %(list_link)s"
 msgstr "Список розсилки: %(list_link)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:36
-msgid "Subscribe to tell us about what you're interested in on MDN and ask questions about the site."
+#, fuzzy
+msgid "Join to tell us about what you're interested in on MDN and ask questions about the site."
 msgstr "Підпишіться, щоб розповісти нам про те, що вам цікаво на MDN і поставити питання про сайт."
 
 #. This is an email. Whitespace matters!
