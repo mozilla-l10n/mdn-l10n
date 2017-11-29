@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-11-20 14:17-0800\n"
-"PO-Revision-Date: 2017-11-29 17:37+0000\n"
+"PO-Revision-Date: 2017-11-29 18:09+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -58,16 +58,16 @@ msgstr ""
 
 #: jinja2/404.html:6
 msgid "Not Found"
-msgstr ""
+msgstr "ვერ მოიძებნა"
 
 #: jinja2/404.html:20
 msgid "We're sorry, we couldn't find what you were looking for."
-msgstr ""
+msgstr "ვწუხვართ, ვერ მოვნახეთ, რასაც ეძებდით."
 
 #: jinja2/404.html:25
 #, python-format
 msgid "You can try a search or start over on the <a href=\"%(homepage_url)s\">home page</a>."
-msgstr ""
+msgstr "შეგიძლიათ სცადოთ მოძიება, ან დაიწყოთ <a href=\"%(homepage_url)s\">მთავარი გვერდიდან</a>."
 
 #: jinja2/404.html:29
 #, python-format
@@ -76,52 +76,52 @@ msgstr ""
 
 #: jinja2/404.html:37
 msgid "This user's profile has been banned."
-msgstr ""
+msgstr "მომხმარებელი გაძევებულია."
 
 #: jinja2/404.html:44
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
-msgstr ""
+msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> Matthew Inman-ის მიერ <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal-ისგან</a>"
 
 #: jinja2/500.html:5
 msgid "Internal Server Error"
-msgstr ""
+msgstr "სერვერის შიდა შეცდომა"
 
 #: jinja2/base.html:10 jinja2/base.html:103 jinja2/base.html:194
 msgid "MDN Web Docs"
-msgstr ""
+msgstr "MDN ვებდოკუმენტაცია"
 
 #: jinja2/base.html:44 jinja2/base.html:49 kuma/search/jinja2/search/plugin.html:3
 msgid "Mozilla Developer Network"
-msgstr ""
+msgstr "Mozilla-ს შემმუშავებლების ერთობა"
 
 #: jinja2/base.html:82
 msgid "MDN is currently in read-only maintenance mode."
-msgstr ""
+msgstr "MDN ამჟამად მხოლოდ კითხვის რეჟიმშია, რადგან საიტზე მიმდინარეობს ტექნიკური სამუშაოები."
 
 #: jinja2/base.html:84
 msgid "Learn more"
-msgstr ""
+msgstr "ვრცლად"
 
 #: jinja2/base.html:96
 msgid "Skip to main content"
-msgstr ""
+msgstr "გამოტოვება და მთავარ შიგთავსზე გადასვლა"
 
 #: jinja2/base.html:97
 msgid "Select language"
-msgstr ""
+msgstr "ენის არჩევა"
 
 #: jinja2/base.html:98
 msgid "Skip to search"
-msgstr ""
+msgstr "ძიებაზე გადასვლა"
 
 #: jinja2/base.html:108 kuma/core/translations/search/filter/tools/name.py:4
 msgid "Tools"
-msgstr ""
+msgstr "ხელსაწყოები"
 
 #: jinja2/base.html:111
 msgid "Contribute to MDN"
-msgstr ""
+msgstr "დაეხმარეთ MDN-ს"
 
 #: jinja2/base.html:113
 msgid "Get started"
@@ -129,19 +129,19 @@ msgstr "დაიწყეთ"
 
 #: jinja2/base.html:114
 msgid "Review or localize docs"
-msgstr ""
+msgstr "გადახედეთ ან თარგმნეთ დოკუმენტები"
 
 #: jinja2/base.html:117
 msgid "Site Tools"
-msgstr ""
+msgstr "საიტის ხელსაწყოები"
 
 #: jinja2/base.html:119
 msgid "Revision dashboard"
-msgstr ""
+msgstr "შემოწმების ხელსაწყოების გვერდი"
 
 #: jinja2/base.html:120
 msgid "Documentation status"
-msgstr ""
+msgstr "დოკუმენტაციის მდგომარეობა"
 
 #: jinja2/base.html:128
 msgid "Technologies"
@@ -149,7 +149,7 @@ msgstr "ტექნოლოგიები"
 
 #: jinja2/base.html:132 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: jinja2/base.html:133 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
 msgid "CSS"
@@ -1404,6 +1404,9 @@ msgid ""
 "source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
 " bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
+"<ol> <li><strong>Get ღილაკები:</strong> გამოიყენეთ ქვემოთ მოცემული მარტივი ველები, საკუთარი ღილაკის შესაქმნელად, MDN-ის თქვენს საიტზე, ან სვეტზე დასამატებლად.</li> <li><strong>Post "
+"ღილაკები:</strong> დააკოპირეთ კოდი და ჩასვით სასურველ ადგილას თქვენს საიტზე, ან სვეტზე, რომ მეტ ადამიანს აცნობოთ MDN-ის შესახებ.</li><li><strong>შეგიძლიათ იამაყოთ:</strong> თქვენ უამრავ "
+"შემმუშავებელს შეუმსუბუქებთ ცხოვრებას, MDN-ის მსოფლიოსთვის გაზიარებით.</li> </ol>"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:31
 msgid "Preview"
@@ -1715,7 +1718,7 @@ msgstr ""
 #: kuma/users/apps.py:69
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr ""
+msgstr "თქვენ პირველი ნაბიჯი გადადგით, <a href=\"%s\">MDN-თან მუშაობის დასაწყებად</a>"
 
 #: kuma/users/constants.py:6
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
@@ -1884,7 +1887,7 @@ msgstr ""
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
 msgid "Take the next step to get involved on MDN!"
-msgstr ""
+msgstr "გადადგით შემდეგი ნაბიჯი და შემოუერთდით MDN ერთობას!"
 
 #: kuma/users/views.py:475
 msgid "Email address"
@@ -2565,7 +2568,7 @@ msgstr ""
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
 msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr ""
+msgstr "თქვენ პირველი ნაბიჯი გადადგით, <a href=\"%(started_link)s\">MDN-თან მუშაობის დასაწყებად</a>, ანგარიშის შექმნით."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:21
 #, python-format
