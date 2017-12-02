@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-11-20 14:17-0800\n"
-"PO-Revision-Date: 2017-12-02 12:33+0000\n"
+"PO-Revision-Date: 2017-12-02 13:28+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -1717,6 +1717,8 @@ msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
 "rel=\"nofollow\">file a bug</a>."
 msgstr ""
+"ვწუხვართ, შესასვლელად საჭიროა, სულ მცირე ერთი დაკავშირებული ანგარიში. ამ ანგარიშთან კავშირის გაწყვეტისთვის, ჯერ სხვა ანგარიშის დაკავშირებაა საჭირო. თუ MDN პროფილის წაშლა გსურთ, გთხოვთ <a "
+"href=\"%(bug_form_url)s\" rel=\"nofollow\">მოგვახსენოთ ხარვეზის შესახებ</a>."
 
 #: kuma/users/adapters.py:23
 msgid "An email address cannot be used as a username."
@@ -2092,20 +2094,20 @@ msgstr "ელფოსტის მისამართის დადას�
 
 #: kuma/users/jinja2/account/verification_sent.html:9
 msgid "We have sent an email to you for confirmation. Follow the link provided to finalize the signup process. Please contact us if you do not receive it within a few minutes."
-msgstr ""
+msgstr "დასადასტურებელი ბმული გამოგზავნილია ელფოსტაზე. გადადით მიღებულ ბმულზე, ანგარიშის შექმნის დასასრულებლად. გთხოვთ, დაგვიკავშირდეთ, თუ წერილი არ მოგივათ რამდენიმე წუთში."
 
 #: kuma/users/jinja2/account/verified_email_required.html:9
 msgid "This part of the site requires us to confirm that you are who you claim to be. For this purpose, we require that you confirm ownership of your email address."
-msgstr ""
+msgstr "საიტის ამ განყოფილებაში, აუცილებელია ვინაობის დადასტურება. ამიტომ ვითხოვთ დამოწმებას, რომ ელფოსტა ნამდვილად თქვენ გეკუთვნით."
 
 #: kuma/users/jinja2/account/verified_email_required.html:13
 msgid "We have sent an email to you for confirmation. Please click on the link inside this email. Please contact us if you do not receive it within a few minutes."
-msgstr ""
+msgstr "დასადასტურებელი ბმული გამოგზავნილია ელფოსტაზე. გთხოვთ, გადახვიდეთ მიღებულ ბმულზე. დაგვიკავშირდით, თუ წერილი არ მოგივათ რამდენიმე წუთში."
 
 #: kuma/users/jinja2/account/verified_email_required.html:17
 #, python-format
 msgid "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your email address</a>."
-msgstr ""
+msgstr "<strong>შენიშვნა:</strong> უკვე შეგიძლიათ <a href=\"%(email_url)s\">თქვენი ელფოსტის შეცვლა</a>."
 
 #: kuma/users/jinja2/account/snippets/already_logged_in.html:1
 msgid "Note"
@@ -2135,7 +2137,7 @@ msgstr "შესვლა გაუქმებულია"
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:9
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
+msgstr "თქვენ გადაწყიტეთ გააუქმოთ არსებული ანგარიშებით, ჩვენ საიტზე შემოსვლის შესაძლებლობა. თუ ეს შეცდომაა, გთხოვთ, <a href=\"%(login_url)s\">შეხვიდეთ პროფილზე</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:3 kuma/users/jinja2/socialaccount/signup.html:20
 msgid "Create your MDN profile to continue"
@@ -2152,15 +2154,15 @@ msgstr "პროფილის წაშლა"
 #: kuma/users/jinja2/socialaccount/signup.html:41
 #, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. You have one more step to join MDN: <strong>create your MDN profile</strong>."
-msgstr ""
+msgstr "გმადლობთ, MDN-ზე %(provider_name)s-ით შემოსვლისთვის. MDN ერთობის წევრი რომ გახდეთ, კიდევ ერთი ნაბიჯია დარჩენილი: <strong>MDN პროფილის შექმნა</strong>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:47
 msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
-msgstr ""
+msgstr "MDN საიტზე, ნებისმიერი მასალა ხელმისაწვდომია, MDN პროფილის გარეშეც. უბრალოდ, თუ შემოუერთდებით MDN ერთობას, შეგეძლებათ დოკუმენტაციის ჩასწორება და გექნებათ პროფილის საკუთარი გვერდი."
 
 #: kuma/users/jinja2/socialaccount/signup.html:54
 msgid "To set up your MDN profile, please <strong>choose a username</strong>. Your username will be displayed on MDN to identify any contributions that you make."
-msgstr ""
+msgstr "თქვენი MDN პროფილის დასაყენებლად, <strong>გთხოვთ, მიუთითოთ მომხმარებლის სახელი</strong>. რომელიც გამოჩნდება MDN-ზე, თქვენ მიერ შეტანილი წვლილის აღნიშვნისთვის."
 
 #: kuma/users/jinja2/socialaccount/signup.html:60
 msgid "To set up your MDN profile, please <strong>choose a username and email address</strong>. Your username will be displayed on MDN to identify any contributions that you make."
