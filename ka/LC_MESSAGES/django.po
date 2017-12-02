@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-11-20 14:17-0800\n"
-"PO-Revision-Date: 2017-12-02 20:09+0000\n"
+"PO-Revision-Date: 2017-12-02 20:30+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -1611,7 +1611,7 @@ msgstr "ძიების შედეგები \"%(query)s\" ფრაზ�
 #: kuma/search/jinja2/search/results.html:33
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
-msgstr "თარგმანის წყაროა <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
+msgstr "თარგმანის პირველწყაროა <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
 #: kuma/search/jinja2/search/results.html:45
 msgid "MDN Site Search"
@@ -2952,7 +2952,7 @@ msgstr ""
 
 #: kuma/wiki/forms.py:74
 msgid "Changing this document's slug requires moving it and its children."
-msgstr ""
+msgstr "ამ დოკუმენტის ბმულის დაბოლოების შეცვლა, საჭიროებს მის და მასზე დაქვემდებარებული მასალის გადატანას."
 
 #: kuma/wiki/forms.py:340 kuma/wiki/forms.py:410 kuma/wiki/forms.py:894 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:88 kuma/wiki/jinja2/wiki/edit.html:125
 #: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
@@ -2974,7 +2974,7 @@ msgstr "სტატიის URL"
 
 #: kuma/wiki/forms.py:357 kuma/wiki/jinja2/wiki/create.html:50 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
 msgid "Parent:"
-msgstr "მშობელი:"
+msgstr "პირველწყარო:"
 
 #: kuma/wiki/forms.py:436 kuma/wiki/jinja2/wiki/edit.html:94 kuma/wiki/jinja2/wiki/includes/document_macros.html:85 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
 msgid "Tags:"
@@ -3023,7 +3023,7 @@ msgstr "ახალი სტატიის URL"
 #: kuma/wiki/models.py:90
 #, python-format
 msgid "Parent %s does not exist."
-msgstr "წინამორბედი %s არ არსებობს."
+msgstr "%s პირველწყარო არ არსებობს."
 
 #: kuma/wiki/models.py:98
 msgid "Document Tag"
@@ -3175,6 +3175,9 @@ msgid ""
 "feature? What feature? Is there a glossary term you’d like to add? What term?). </li> <li>Have made some good edits to existing pages.</li> <li>Have been contributing to the site for a while.</li> "
 "</ul>"
 msgstr ""
+"<p>ჩვეულებრივ, თქვენ მიიღებთ ახალი გვერდის შექმნის უფლებებს, იმ შემთხვევაში, თუ:</p> <ul> <li>მოგვაწვდით თქვენს MDN მომხმარებლის სახელს.</li> <li>მოგვახსენებთ მიზეზს, თუ რატომ გსურთ ახალი გვერდის "
+"დამატება (ახალი შესაძლებლობა გინდათ აღწეროთ? რომელიც შესაძლებლობაა? ტერმინოლოგიის დამატება გსურთ? რა ტერმინებია?). </li> <li>წვლილი გაქვთ შეტანილი, არსებული გვერდების გაუმჯობესებაში.</li> "
+"<li>გარკვეული დროის განმავლობაში, მოხალისედ მუშაობდით ამ საიტზე.</li> </ul>"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:4
 #, python-format
@@ -3196,7 +3199,7 @@ msgstr "დოკუმენტის წაშლა | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:10
 msgid "Cannot delete pages with children until we fix this bug:"
-msgstr ""
+msgstr "მთავარი გვერდების, შიდა გვერდებთან ერთად წაშლა შეუძლებელია, ხარვეზის აღმოფხვრამდე:"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:18 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:22
 msgid "Creator"
@@ -3331,6 +3334,8 @@ msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Join us and help get the job done!</a><br> You can also read the "
 "article in <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
+"ჩვენს მოხალისეებს, ჯერ არ შეუმუშავებიათ ამ სტატიის <bdi>%(locale)s</bdi> ვარიანტი. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">შემოგვიერთდით და დაგვეხმარეთ გადათარგმნაში!</a><br> ამის გარდა,"
+" შეგიძლიათ იხილოთ სტატიის <a href=\"%(doc_abs_url)s\">%(parent_language)s</a> ვერსია."
 
 #: kuma/wiki/jinja2/wiki/document.html:255
 msgid "This article doesn't have any content yet."
@@ -3437,7 +3442,7 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:3
 #, python-format
 msgid "View %(locale)s parent"
-msgstr ""
+msgstr "იხილეთ პირველწყარო - %(locale)s ვერსია"
 
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:5 kuma/wiki/jinja2/wiki/feed_docs_updated.html:11
 #, python-format
@@ -3496,7 +3501,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/move.html:90
 msgid "Parent Title"
-msgstr ""
+msgstr "პირველწყაროს დასახელება"
 
 #: kuma/wiki/jinja2/wiki/move.html:98
 #, python-format
@@ -3983,7 +3988,7 @@ msgstr "უმაღლესი დონის დოკუმენტებ�
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:10
 msgid "Documents with no parent"
-msgstr ""
+msgstr "დოკუმენტები, პირველწყაროს გარეშე"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:12
 msgid "All documents"
