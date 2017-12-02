@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-11-20 14:17-0800\n"
-"PO-Revision-Date: 2017-12-02 21:29+0000\n"
+"PO-Revision-Date: 2017-12-02 21:44+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -2949,6 +2949,8 @@ msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
 "making further edits."
 msgstr ""
+"გამოქვეყნება ვერ მოხერხდა. აღმოჩენილია ურთიერთსაპირისპირო შესწორებები. გთხოვთ, დროებით დააკოპიროთ და გადაიტანოთ თქვენი ნამუშევარი უსაფრთხო ადგილას და გაეცნოთ <a href=\"%(url)s\">შემოწმებების "
+"ისტორიის</a> გვერდს, რომ გაარკვიოთ, რა არის შეცვლილი, სანამ თავად შეიტანთ შესწორებებს."
 
 #: kuma/wiki/forms.py:74
 msgid "Changing this document's slug requires moving it and its children."
@@ -3945,19 +3947,21 @@ msgstr "მოგვახსენეთ, თუ რატომ დაამ�
 #, python-format
 msgid "Sorry! We weren't able to save your contribution. Please copy and paste your changes into a safe place and <a href=\"%(admin_email)s\"> contact the site administrators</a>."
 msgstr ""
+"ვწუხვართ! თქვენ მიერ შეტანილი ცვლილებების დამახსოვრება, ვერ ხერხდება. გთხოვთ, დროებით დააკოპიროთ და გადაიტანოთ თქვენი ნამუშევარი უსაფრთხო ადგილას და <a href=\"%(admin_email)s\">დაუკავშირდეთ, საიტის "
+"ხელმძღვანელებს</a>."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:9
 msgid "We'll try to resolve the problem, and after that you will be able to resubmit your contribution."
-msgstr ""
+msgstr "ჩვენ შევეცდებით ხარვეზის გამოსწორებას, რის შემდეგაც შეგეძლებათ თქვენი ნამუშევრის ხელახლა წარდგენა."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
 #, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\">mark this submission as ham</a> and try submitting it again."
-msgstr ""
+msgstr "თუ თქვენ გაქვთ სპამის შემოწმების უფლებები, შეგიძლიათ <a href=\"%(akismet_submission_url)s\" target=\"_blank\">ეს ნამუშევარი მონიშნოთ „დასაშვებად“</a> და სცადოთ ხელახლა გადაგზავნა."
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
-msgstr ""
+msgstr "აღწერილობის თარგმნა"
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:15
 #, python-format
@@ -3971,7 +3975,7 @@ msgstr "ბმულის დაბოლოება %(locale)s ენის�
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:64
 msgid "Find the translation source with the lookup above and then click \"Save\"."
-msgstr ""
+msgstr "მონახეთ აღწერილობის პირველწყარო, ზემოთ არსებული ძიების ველის საშუალებით და შემდეგ დააწკაპეთ \"შენახვას\"."
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format
@@ -4011,20 +4015,20 @@ msgstr "სტატიები არაა."
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:4
 #, python-format
 msgid "Documents for %(tag)s review"
-msgstr ""
+msgstr "დოკუმენტები, %(tag)s მიმოხილვისთვის"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:7
 msgid "Documents for review"
-msgstr ""
+msgstr "დოკუმენტები მიმოხილვისთვის"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:12
 #, python-format
 msgid "Articles in need of review: %(tag)s"
-msgstr ""
+msgstr "სტატიები საჭიროებს მიმოხილვას: %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:14
 msgid "All articles in need of review"
-msgstr ""
+msgstr "ყველა სტატია საჭიროებს მიმოხილვას"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:25
 #, python-format
@@ -4037,6 +4041,7 @@ msgstr ""
 #, python-format
 msgid "Please review these articles for technical accuracy and completeness, and then clear the Technical review flag. <a href=\"%(url)s\">See more detailed instructions</a>."
 msgstr ""
+"გთხოვთ გადახედოთ ამ სტატიებს და შეამოწმოთ ტექნიკური საკითხების სიზუსტე, რამდენად გამართულია, ამის შემდეგ კი მოაცილოთ აღნიშვნა „ტექნიკური განხილვა“. <a href=\"%(url)s\">იხილეთ ვრცლად, მითითებები</a>."
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:36
 #, python-format
