@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-11-20 14:17-0800\n"
-"PO-Revision-Date: 2017-12-02 20:50+0000\n"
+"PO-Revision-Date: 2017-12-02 21:10+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -1350,7 +1350,7 @@ msgstr "დაიწყეთ"
 
 #: kuma/landing/jinja2/landing/homepage.html:127
 msgid "Editorial review"
-msgstr "შესწორებითი განხილვა"
+msgstr "შესასწორებელი განხილვა"
 
 #: kuma/landing/jinja2/landing/homepage.html:128
 msgid "Technical review"
@@ -2778,7 +2778,7 @@ msgstr "ტექნიკური - მაგალითები, API-ებ
 
 #: kuma/wiki/constants.py:217
 msgid "Editorial - prose, grammar, or content"
-msgstr "შესწორება შესაძლებელია - ტექსტის, გრამატიკის, ან შინაარსის"
+msgstr "შესასწორებელი - ტექსტი, გრამატიკა, ან შინაარსი"
 
 #: kuma/wiki/constants.py:222
 msgid "Localization in progress - not completely translated yet."
@@ -3440,6 +3440,8 @@ msgstr "იხილეთ, თუ როგორ უნდა დაამა�
 #, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" href=\"%(url)s\">Read the Tagging Guide</a>."
 msgstr ""
+"დაალაგეთ სტატიები კატეგორიების მიხედვით. ამის შედეგად, სტატია უფრო ადვილად მოსანახი გახდება, შესაბამისი ფილტრების საშუალებით, საძიებო სისტემაში. <a target=\"_blank\" href=\"%(url)s\">გაეცანით, "
+"მითითებებს ჭდეების დამატების შესახებ</a>."
 
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:3
 #, python-format
@@ -3463,27 +3465,27 @@ msgstr "სტატიის გადატანა | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/move.html:26
 msgid "Please specify the new location for this page by filling out the fields below. Be sure your new destination follows these rules:"
-msgstr ""
+msgstr "მიუთითეთ, ამ გვერდის ახალი მდრებარეობა, ქვემოთ მოცემული ველების საშუალებით. დარწმუნდით, რომ ახალი მისამართი, ექვემდებარება შემდეგ პირობებს:"
 
 #: kuma/wiki/jinja2/wiki/move.html:28
 msgid "Make sure the location you specify is located immediately under an existing page."
-msgstr ""
+msgstr "დარწმუნდით, რომ მითითებული მისამართი მდებარეობს პირდაპირ არსებული გვერდის ქვემოთ."
 
 #: kuma/wiki/jinja2/wiki/move.html:29
 msgid "Don't include the URL scheme (\"https://\")."
-msgstr ""
+msgstr "არ ჩაამატოთ URL ბმულის დასაწყისი (\"https://\")."
 
 #: kuma/wiki/jinja2/wiki/move.html:30
 msgid "Enter only the part of the URL following \"/docs/\"."
-msgstr ""
+msgstr "მიუთითეთ, მხოლოდ URL ბმულის, \"/docs/\"-ის შემდგომ არსებული ნაწილი."
 
 #: kuma/wiki/jinja2/wiki/move.html:31
 msgid "Don't include a trailing slash (this will be removed for you if you include it, but you should leave it out)."
-msgstr ""
+msgstr "ბოლოში, არ დაამატოთ დახრილი ხაზი (დამატების შემთხვევაში, ისედაც მოცილდება, მაგრამ სასურველია თუ გამოტოვებთ)."
 
 #: kuma/wiki/jinja2/wiki/move.html:37
 msgid "Your requested move cannot be completed due to the following slug conflicts:"
-msgstr ""
+msgstr "თქვენ მიერ მოთხოვნილი გადატანა ვერ შესრულდება, ბმულის დაბოლოებების დამთხვევის გამო:"
 
 #: kuma/wiki/jinja2/wiki/move.html:60
 msgid "Current Slug:"
@@ -3499,7 +3501,7 @@ msgstr "ბმულის ახალი დაბოლოება:"
 
 #: kuma/wiki/jinja2/wiki/move.html:87
 msgid "Look up by Document Title"
-msgstr ""
+msgstr "დოკუმენტის დასახელების მონახვა"
 
 #: kuma/wiki/jinja2/wiki/move.html:90
 msgid "Parent Title"
@@ -3517,11 +3519,11 @@ msgstr "გვერდის გადატანა"
 #: kuma/wiki/jinja2/wiki/move.html:103
 #, python-format
 msgid "The following %(count)s subpages will be affected by this move:"
-msgstr ""
+msgstr "ეს გადატანა, იმოქმედებს შემდეგ %(count)s შიდა გვერდზე:"
 
 #: kuma/wiki/jinja2/wiki/move.html:110
 msgid "No other documents will be affected by this change."
-msgstr ""
+msgstr "ეს ცვლილება, სხვა დოკუმენტებზე არ იმოქმედებს."
 
 #: kuma/wiki/jinja2/wiki/move_requested.html:2
 msgid "Page move requested"
@@ -3530,20 +3532,20 @@ msgstr "გვერდის გადატანის მოთხოვნ�
 #: kuma/wiki/jinja2/wiki/move_requested.html:9
 #, python-format
 msgid "<h1>Page Move Scheduled</h1> <p>Moving %(old_slug)s to <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> You'll receive an email when it finishes, or if any errors occur during the move.</p>"
-msgstr ""
+msgstr "<h1>გვერდის დაგეგმილი გადატანა</h1> <p>%(old_slug)s გადადის <a href=\"%(new_url)s\">%(new_slug)s</a>-ში</p> <p>დასრულებისთანავე, ან რამე ხარვეზის აღმოჩენისას, მიიღებთ შეტყობინებას ელფოსტაზე.</p>"
 
 #: kuma/wiki/jinja2/wiki/preview.html:14
 msgid "This is a preview of an unsaved document."
-msgstr ""
+msgstr "ეს არის წინასწარი ვერსია დოკუმენტის, რომელიც ჯერ არაა შენახული."
 
 #: kuma/wiki/jinja2/wiki/revision.html:2
 #, python-format
 msgid "Revision %(id)s | %(title)s"
-msgstr ""
+msgstr "შემოწმებული ვერსია %(id)s | %(title)s"
 
 #: kuma/wiki/jinja2/wiki/revision.html:13
 msgid "Revision Information"
-msgstr ""
+msgstr "შემოწმებული ვერსიის მონაცემები"
 
 #: kuma/wiki/jinja2/wiki/revision.html:17
 msgid "Revision slug:"
@@ -3579,7 +3581,7 @@ msgstr "შემოწმების წყარო"
 
 #: kuma/wiki/jinja2/wiki/revision.html:75 kuma/wiki/jinja2/wiki/list/revisions.html:78
 msgid "Revert to this revision"
-msgstr ""
+msgstr "ამ შემოწმებულ ვერსიაზე დაბრუნება"
 
 #: kuma/wiki/jinja2/wiki/select_locale.html:2
 #, python-format
@@ -3607,11 +3609,11 @@ msgstr "შიგთავსის გადათარგმნა"
 #: kuma/wiki/jinja2/wiki/translate.html:89
 #, python-format
 msgid "Approved %(locale)s version:"
-msgstr ""
+msgstr "%(locale)s ვერსია მიღებულია:"
 
 #: kuma/wiki/jinja2/wiki/translate.html:91
 msgid "View Rendered"
-msgstr ""
+msgstr "იხილეთ დამუშავებული"
 
 #: kuma/wiki/jinja2/wiki/translate.html:91
 msgid "View Source"
@@ -3655,7 +3657,7 @@ msgstr "ვერსიის შენიშვნები"
 
 #: kuma/wiki/jinja2/wiki/translate.html:154
 msgid "Localization flags"
-msgstr ""
+msgstr "თარგმანის მონიშვნები"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:4
 #, python-format
@@ -3686,12 +3688,12 @@ msgstr "სტატიის ისტორია:"
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:40
 #, python-format
 msgid "You are subscribed to edits on: %(title)s and all its sub-articles."
-msgstr ""
+msgstr "თქვენ გამოწერილი გაქვთ შეტყობინებები შესწორებაზე: %(title)s და მისი დაქვემდებარებული სტატიების."
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:44
 #, python-format
 msgid "You are subscribed to edits on: %(title)s."
-msgstr ""
+msgstr "თქვენ გამოწერილი გაქვთ შეტყობინებები შესწორებაზე: %(title)s."
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:5
 msgid "This article needs these reviews:"
@@ -3705,7 +3707,7 @@ msgstr "ტექნიკური - მაგალითები, API-ებ
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:24
 #, python-format
 msgid "Editorial - prose, grammar, or content. <a href=\"%(url)s\">Can you help?</a>"
-msgstr ""
+msgstr "შესასწორებელი - ტექსტი, გრამატიკა, ან შინაარსი. <a href=\"%(url)s\">დაგვეხმარებით?</a>"
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:32
 msgid "Save"
@@ -3729,7 +3731,7 @@ msgstr "თვალის დევნება"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:69
 msgid "New sub-article"
-msgstr ""
+msgstr "ახალი დაქვემდებარებული სტატია"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:70
 msgid "Clone this article"
@@ -3749,7 +3751,7 @@ msgstr "სტატიის წაშლა"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:89
 msgid "Manage content zone"
-msgstr ""
+msgstr "შიგთავსის სივრცის მართვა"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:92
 msgid "Convert to content zone"
@@ -4026,6 +4028,8 @@ msgstr ""
 #, python-format
 msgid "Please review these articles for spelling, grammar, formatting, layout, etc., and then clear the Editorial review flag. <a href=\"%(url)s\">See more detailed instructions</a>."
 msgstr ""
+"გთხოვთ გადახედოთ ამ სტატიებს და შეამოწმოთ მართლწერა, გრამატიკა, იერსახე, განლაგება და ა.შ. ამის შემდეგ კი მოაცილოთ აღნიშვნა „შესასწორებელი განხილვა“. <a href=\"%(url)s\">იხილეთ ვრცლად, "
+"მითითებები</a>."
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:31
 #, python-format
