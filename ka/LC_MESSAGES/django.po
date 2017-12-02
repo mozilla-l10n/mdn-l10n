@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-11-20 14:17-0800\n"
-"PO-Revision-Date: 2017-12-02 20:30+0000\n"
+"PO-Revision-Date: 2017-12-02 20:50+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -3219,7 +3219,7 @@ msgstr "ბოლო ცვლილების თარიღი"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:34
 msgid "You are about to delete this document and all of its revisions. Please let us know why this page should be deleted."
-msgstr ""
+msgstr "თქვენ აპირებთ დოკუმენტის და მისი ყველა შემოწმების წაშლას. გთხოვთ, მოგვახსენოთ, რატომ უნდა წაიშალოს ეს გვერდები."
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:41
 msgid "Are you sure you want to continue?"
@@ -3228,11 +3228,11 @@ msgstr "ნამდვილად გსურთ, რომ განაგ�
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:2
 #, python-format
 msgid "Revert Revision | %(document)s"
-msgstr ""
+msgstr "შემოწმების აღდგენა | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:11
 msgid "Are you sure you want to revert to this revision?"
-msgstr ""
+msgstr "ნამდვილად გსურთ, ამ შემოწმების აღდგენა?"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:19
 msgid "Document"
@@ -3244,11 +3244,11 @@ msgstr "შიგთავსი"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:36
 msgid "Why are you reverting to this revision?"
-msgstr ""
+msgstr "რატომ გსურთ, ამ შემოწმების აღდგენა?"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:39
 msgid "You are about to revert the document to this revision. Click \"revert\" to revert to the content&nbsp;above."
-msgstr ""
+msgstr "თქვენ აპირებთ, დოკუმენტის დაბრუნებას ამ შემოწმებულ ვერსიაზე. დააწკაპეთ \"დაბრუნებას\" ზემოთ&nbsp;არსებული შიგთავსის დასაბრუნებლად."
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:42
 msgid "Revert"
@@ -3294,26 +3294,26 @@ msgstr "ამ სტატიაში"
 #: kuma/wiki/jinja2/wiki/document.html:181
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
-msgstr ""
+msgstr "დოკუმენტი ჯერ არ შემუშავებულა და ვერ შემუშავდება, MDN-ზე <a href=\"%(url)s\">ტექნიკური სამუშაობის მიმდინარეობისას</a>. გთხოვთ, შესამოწმებლად დაბრუნდეთ სამუშაოების დასრულების შემდეგ."
 
 #: kuma/wiki/jinja2/wiki/document.html:192
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
-msgstr ""
+msgstr "დოკუმენტი პირველად მუშავდება სისტემის მიერ. გთხოვთ, <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში, სრული შიგთავსის სანახავად."
 
 #: kuma/wiki/jinja2/wiki/document.html:200
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
 "page</a> in a few minutes."
-msgstr ""
+msgstr "<abbr title=\"%(started_at)s\">მიმდინარეობს</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია, ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
 
 #: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
 " a few minutes."
-msgstr ""
+msgstr "<abbr title=\"%(scheduled_at)s\">დაგეგმილია</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია, ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
 
 #: kuma/wiki/jinja2/wiki/document.html:220
 msgid "This is an experimental page."
@@ -3322,7 +3322,7 @@ msgstr "ეს საცდელი გვერდია."
 #: kuma/wiki/jinja2/wiki/document.html:231
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
-msgstr ""
+msgstr "ეს თარგმანი არასრულია. გთხოვთ, დაგვეხმაროთ <a href=\"%(translate_url)s\">სტატიის თარგმნაში</a> ინგლისურიდან."
 
 #: kuma/wiki/jinja2/wiki/document.html:236
 msgid "This translation is in progress."
@@ -3371,6 +3371,8 @@ msgid ""
 "Please review the differences between your changes and the changes saved since you started editing. You may save again, but try to resolve any conflicts by hand so that the changes made since you "
 "started are not lost."
 msgstr ""
+"გთხოვთ, გადახედოთ განსხვავებებს თქვენს მიერ გაკეთებულ ცვლილებებსა და წინა ცვლილებებს შორის. შენახვა ისეც შეგიძლიათ, მაგრამ სცადეთ ხარვეზების ხელით აღმოფხვრა, რომ თქვენ მიერ გაკეთებული ცვლილებები, არ"
+" დაიკარგოს."
 
 #: kuma/wiki/jinja2/wiki/edit.html:53
 msgid "Your Changes"
@@ -3379,7 +3381,7 @@ msgstr "თქვენი ჩასწორებები"
 #: kuma/wiki/jinja2/wiki/edit.html:55 kuma/wiki/jinja2/wiki/edit.html:71 kuma/wiki/jinja2/wiki/includes/document_macros.html:48 kuma/wiki/jinja2/wiki/includes/document_macros.html:64
 #, python-format
 msgid "Revision %(id)s by <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> on %(date)s"
-msgstr ""
+msgstr "შემოწმებული ვერსია %(id)s, <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> მომხმარებლის მიერ, თარიღი: %(date)s"
 
 #: kuma/wiki/jinja2/wiki/edit.html:67
 msgid "Current Revision:"
@@ -3391,7 +3393,7 @@ msgstr "ძიების შედეგების შეჯამება:
 
 #: kuma/wiki/jinja2/wiki/edit.html:131
 msgid "Rendering max age:"
-msgstr ""
+msgstr "დამუშავების ბოლო ვადა:"
 
 #: kuma/wiki/jinja2/wiki/edit.html:133
 msgid "Days"
@@ -3407,11 +3409,11 @@ msgstr "წუთები"
 
 #: kuma/wiki/jinja2/wiki/edit.html:150
 msgid "Find the translation source with the lookup below and then click \"Publish.\""
-msgstr ""
+msgstr "მონახეთ თარგმანის წყარო, ქვემოთ არსებული საძიებოთი და დააწკაპეთ \"გამოქვეყნებას\""
 
 #: kuma/wiki/jinja2/wiki/edit.html:152 kuma/wiki/jinja2/wiki/includes/translate_description.html:60
 msgid "Lookup:"
-msgstr ""
+msgstr "მონახვა:"
 
 #: kuma/wiki/jinja2/wiki/edit.html:168
 msgid "Thank you for taking the time to improve MDN!"
@@ -3420,15 +3422,15 @@ msgstr "გმადლობთ, რომ დრო დახარჯეთ M
 #: kuma/wiki/jinja2/wiki/edit.html:170
 #, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" href=\"%(url)s\">Editor Guide</a>."
-msgstr ""
+msgstr "როგორც ჩანს, ეს თქვენი პირველი ნამუშევარია MDN-ზე. კითხვებზე პასუხის მისაღებად, შესწორების თაობაზე, იხილეთ ჩვენი <a target=\"_blank\" href=\"%(url)s\">შემსწორებლის სახელმძღვანელო</a>."
 
 #: kuma/wiki/jinja2/wiki/edit.html:174
 msgid "Don't be afraid to break something, you can always revert your changes."
-msgstr ""
+msgstr "ნუ შეგეშინდებათ შეცდომის დაშვების, ყოველთვის შეგეძლებათ ცვლილებების უკან დაბრუნება."
 
 #: kuma/wiki/jinja2/wiki/edit.html:175
 msgid "Have fun and be proud of your contribution!"
-msgstr ""
+msgstr "გაერთეთ და ამაყობთ თქვენი ნამუშევრით!"
 
 #: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Learn how to tag an article"
