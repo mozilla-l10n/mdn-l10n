@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2017-11-20 14:17-0800\n"
+"POT-Creation-Date: 2017-12-04 07:33-0800\n"
 "PO-Revision-Date: 2017-11-02 01:48+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -251,8 +251,8 @@ msgstr "문제점 알려주기"
 
 # 검색 버튼
 #: jinja2/base.html:172 jinja2/base.html:173 jinja2/base.html:175 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:33
-#: kuma/landing/jinja2/landing/homepage.html:38 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:15 kuma/search/jinja2/search/results.html:46
-#: kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:54
+#: kuma/landing/jinja2/landing/homepage.html:38 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47
+#: kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
 msgid "Search"
 msgstr "검색"
 
@@ -326,11 +326,11 @@ msgstr "<li><a href=\"/logout\">로그 아웃</a> 후 다시 하기.</li>"
 msgid "Search Firefox Help"
 msgstr "Firefox 도움말 검색"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:101
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:97
 msgid "Other languages:"
 msgstr "다른 언어:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:112
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:108
 msgid "Go"
 msgstr "이동"
 
@@ -391,11 +391,11 @@ msgstr "이전에 Mozilla 관련 뉴스레터 구독을 확인하지 않은 경�
 msgid "Hide Newsletter Sign-up"
 msgstr "뉴스레터 신청 숨기기"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:148 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1376
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:165 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1376
 msgid "Previous"
 msgstr "이전"
 
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:153
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:170
 msgid "Next"
 msgstr "다음"
 
@@ -797,7 +797,7 @@ msgstr "파일"
 
 # https://github.com/mozilla/kuma/blob/master/apps/devmo/models.py
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1906
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1904
 msgid "Title"
 msgstr "직함"
 
@@ -1199,7 +1199,7 @@ msgstr "변경 사항 대시보드"
 msgid "Authors:"
 msgstr "저자:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:216
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:233
 msgid "Filter"
 msgstr "항목"
 
@@ -1208,7 +1208,7 @@ msgstr "항목"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "시간경과에 따른 동향, 종료 %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1859
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1857
 msgid "Revision"
 msgstr "리비전"
 
@@ -1314,7 +1314,7 @@ msgstr "Mozilla 개발자 네트워크(MDN)은 HTML, CSS, 및 웹 사이트와 H
 msgid "Resources for developers, by developers."
 msgstr "개발자에 의한, 개발자를 위한 자료입니다."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/search/jinja2/search/results.html:53
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/search/jinja2/search/results.html:54
 msgid "Search the docs"
 msgstr "문서 검색"
 
@@ -1632,84 +1632,96 @@ msgstr "검색이 안됨"
 msgid "Search Mozilla Developer Network documentation"
 msgstr "Mozilla 개발자 네트워크 문서 검색"
 
-#: kuma/search/jinja2/search/results.html:13
+#: kuma/search/jinja2/search/results.html:14
 #, python-format
 msgid "Search Results for \"%(query)s\""
 msgstr "검색 결과: \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:33
+#: kuma/search/jinja2/search/results.html:34
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "문서 번역: <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
-#: kuma/search/jinja2/search/results.html:45
+#: kuma/search/jinja2/search/results.html:46
 msgid "MDN Site Search"
 msgstr "MDN 사이트 검색"
 
-#: kuma/search/jinja2/search/results.html:63
+#: kuma/search/jinja2/search/results.html:64
 msgid "Results"
 msgstr "검색 결과"
 
 #: kuma/search/jinja2/search/results.html:68
+#, fuzzy, python-format
+msgid "%(count)s document found for \"%(query)s\" in all locales."
+msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
+msgstr[0] " \"%(query)s\"- %(locale_native)s %(count)s 개 문서 찾음"
+
+#: kuma/search/jinja2/search/results.html:74
+#, fuzzy, python-format
+msgid "%(count)s document found in all locales."
+msgid_plural "%(count)s documents found in all locales."
+msgstr[0] "%(count)s개 문서 찾음 %(locale_native)s."
+
+#: kuma/search/jinja2/search/results.html:84
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] " \"%(query)s\"- %(locale_native)s %(count)s 개 문서 찾음"
 
-#: kuma/search/jinja2/search/results.html:74
+#: kuma/search/jinja2/search/results.html:90
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] " \"%(query)s\" %(locale_native)s - %(default_locale_native)s 에서 %(count)s개 문서 발견됨"
 
-#: kuma/search/jinja2/search/results.html:82
+#: kuma/search/jinja2/search/results.html:98
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "%(count)s개 문서 찾음 %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:88
+#: kuma/search/jinja2/search/results.html:104
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s개 문서 찾음 - %(locale_native)s 및 %(default_locale_native)s"
 
-#: kuma/search/jinja2/search/results.html:98
+#: kuma/search/jinja2/search/results.html:114
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "\"%(query)s\"에 대해 %(count)s문서 찾음"
 
-#: kuma/search/jinja2/search/results.html:104
+#: kuma/search/jinja2/search/results.html:120
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "%(count)s 문서 찾음."
 
-#: kuma/search/jinja2/search/results.html:113
+#: kuma/search/jinja2/search/results.html:130
 msgid "Showing all results."
 msgstr "전체 결과 보기"
 
-#: kuma/search/jinja2/search/results.html:115
+#: kuma/search/jinja2/search/results.html:132
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "결과 보기:  %(start)s - %(end)s."
 
-#: kuma/search/jinja2/search/results.html:121
+#: kuma/search/jinja2/search/results.html:138
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "%(default_locale_native)s 만 다시 검색하기"
 
 # 메인 페이지 DOCS 탭
-#: kuma/search/jinja2/search/results.html:135
+#: kuma/search/jinja2/search/results.html:152
 msgid "Docs"
 msgstr "기술 문서"
 
-#: kuma/search/jinja2/search/results.html:177
+#: kuma/search/jinja2/search/results.html:194
 msgid "All Topics"
 msgstr "모든 주제"
 
-#: kuma/search/jinja2/search/results.html:182
+#: kuma/search/jinja2/search/results.html:199
 msgid "Filter by"
 msgstr "검색 설정"
 
@@ -1909,8 +1921,9 @@ msgid "Website"
 msgstr "웹 사이트"
 
 #: kuma/users/models.py:156
-msgid "Public Github URL"
-msgstr ""
+#, fuzzy
+msgid "Public GitHub URL"
+msgstr "유효한 GitHub URL을 입력해주세요."
 
 #: kuma/users/signup.py:9
 msgid "Username is required."
@@ -2509,7 +2522,7 @@ msgstr "페이지"
 msgid "Date"
 msgstr "날짜"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:330
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:326
 msgid "Edit page"
 msgstr "페이지 편집"
 
@@ -2517,7 +2530,7 @@ msgstr "페이지 편집"
 msgid "View complete diff"
 msgstr "모든 차이점 보기"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:331
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:327
 msgid "View page history"
 msgstr "페이지 이력 보기"
 
@@ -2616,8 +2629,8 @@ msgid "Hi %(username)s!"
 msgstr "%(username)s님 안녕하세요!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, python-format
-msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">Mozilla Developer Network (MDN)</a> - a community making great resources for developers like you."
+#, fuzzy, python-format
+msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
 msgstr "<a href=\"%(mdn_link)s\">Mozilla 개발자 네트워크(MDN)</a> 프로필을 만든 것에 감사드립니다 - Mozilla 개발자 네트워크는 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
@@ -2649,23 +2662,16 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "토론 포럼: MDN과 사이트에 대한 질문이 있으시면 <a href=\"%(list_link)s\">가입</a> 후 말씀해 주세요."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>. (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
-"Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jms), MDN's community manager."
+"Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
+"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
 "실시간 채팅: <a href=\"%(channel_link)s\">#mdn 채널 irc.mozilla.org</a>. (<a href=\"%(irc_link)s\">IRC</a>에 대한 자세한 정보 알아보기.) MDN 문서 작성 관리자들은 다음과 같습니다: Eric Shepherd "
 "(sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), 그리고 MDN 커뮤니티 매니저 Janet Swisher (jms)."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:51
-#, python-format
-msgid "Blog: On the <a href=\"%(blog_link)s\">about:community</a> blog, look for the posts tagged with <a href=\"%(tagged_link)s\">Developer Engagement</a>."
-msgstr ""
-"블로그: <a href=\"%(blog_link)s\">about:community</a>나 <a href=\"%(tagged_link)s\">개발자 참여</a> 블로그를 보실 수 있습니다. 한국 개발자는 <a href=\"http://hacks.mozilla.or.kr\">Mozilla Hacks 한국"
-"어</a> 블로그에 참여해보세요."
-
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:60 kuma/users/jinja2/users/email/welcome/plain.ltxt:51
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "문제점이나 질문이나 의견 있으시면 언제든지 알려주세요. 이 사이트는 여러분의 도움이 필요합니다."
 
@@ -2677,7 +2683,8 @@ msgstr "%(username)s님 안녕하세요"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-msgid "Thanks for creating a profile on Mozilla Developer Network (MDN) -- a community making great resources for developers like you."
+#, fuzzy
+msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
 msgstr "Mozilla 개발자 네트워크(MDN)에 계정을 만들어 주셔서 감사합니다 -- 여러분과 같은 개발자를 위한 자료를 만드는 커뮤니티입니다."
 
 #. This is an email. Whitespace matters!
@@ -2731,18 +2738,12 @@ msgstr "IRC에 관한 더 많은 정보는 %(irc_link)s를 보세요."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
+#, fuzzy
 msgid ""
-"You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jms), MDN's "
-"community manager."
+"You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
 "MDN 문서 작성 관리자들에게 질문할 수 있습니다: Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) 및 커뮤니티 매니저 "
 "Janet Swisher (jms)."
-
-#. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:48
-#, python-format
-msgid "Blog: %(blog_link)s"
-msgstr "블로그: %(blog_link)s"
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
@@ -2752,7 +2753,7 @@ msgstr "스팸으로 신고됨."
 msgid "This user has not created any revisions in the past three days."
 msgstr "이 사용자는 지난 3일간 어떤 리비전도 만들지 않았습니다."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:713 kuma/wiki/jinja2/wiki/includes/buttons.html:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:718 kuma/wiki/jinja2/wiki/includes/buttons.html:47
 msgid "Edit"
 msgstr "편집"
 
@@ -2818,7 +2819,7 @@ msgstr "편집 - 산문, 문법, 내용"
 msgid "Localization in progress - not completely translated yet."
 msgstr "문서 지역화 중 - 모두 번역되지 않음을 양해바라며, 여러분의 도움이 필요합니다."
 
-#: kuma/wiki/content.py:694
+#: kuma/wiki/content.py:699
 msgid "Edit section"
 msgstr "섹션 편집"
 
@@ -2994,12 +2995,12 @@ msgstr "현재 문서 짧은 URL을 변경하려면 하위 문서로 이동이 �
 
 # https://github.com/mozilla/kuma/blob/master/apps/devmo/models.py
 # 83%
-#: kuma/wiki/forms.py:340 kuma/wiki/forms.py:410 kuma/wiki/forms.py:894 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:88 kuma/wiki/jinja2/wiki/edit.html:125
+#: kuma/wiki/forms.py:340 kuma/wiki/forms.py:410 kuma/wiki/forms.py:886 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:88 kuma/wiki/jinja2/wiki/edit.html:125
 #: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
 msgid "Title:"
 msgstr "제목:"
 
-#: kuma/wiki/forms.py:341 kuma/wiki/forms.py:411 kuma/wiki/forms.py:895
+#: kuma/wiki/forms.py:341 kuma/wiki/forms.py:411 kuma/wiki/forms.py:887
 msgid "Title of article"
 msgstr "문서 제목"
 
@@ -3058,11 +3059,11 @@ msgstr "검토를 위해 이 리비전에 태그할까요?"
 msgid "Tag this revision for localization?"
 msgstr "새 번역을 위한 리비전 태그하시겠습니까?"
 
-#: kuma/wiki/forms.py:901
+#: kuma/wiki/forms.py:893
 msgid "New slug:"
 msgstr "새 짧은 URL(영문):"
 
-#: kuma/wiki/forms.py:902
+#: kuma/wiki/forms.py:894
 msgid "New article URL"
 msgstr "새 문서 URL"
 
@@ -3092,114 +3093,114 @@ msgstr "문서 내용에 링크됨"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "첨부파일 %(attachment_id)s는 문서 %(document_id)s에 여러 번 첨부될 수 없습니다"
 
-#: kuma/wiki/models.py:1542
+#: kuma/wiki/models.py:1540
 msgid "Review Tag"
 msgstr "검토 태그"
 
-#: kuma/wiki/models.py:1543
+#: kuma/wiki/models.py:1541
 msgid "Review Tags"
 msgstr "검토 태그"
 
 # docs, Mozilla - 목록 항목,
 # mozilla, Popular Mozilla Documentation - 링크 텍스트
-#: kuma/wiki/models.py:1549
+#: kuma/wiki/models.py:1547
 msgid "Localization Tag"
 msgstr "지역화 태그"
 
 # docs, Mozilla - 목록 항목,
 # mozilla, Popular Mozilla Documentation - 링크 텍스트
-#: kuma/wiki/models.py:1550
+#: kuma/wiki/models.py:1548
 msgid "Localization Tags"
 msgstr "지역화 태그"
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1581
 msgid "No table of contents"
 msgstr "문서 목차 없음"
 
-#: kuma/wiki/models.py:1584
+#: kuma/wiki/models.py:1582
 msgid "All levels"
 msgstr "전체 등급"
 
-#: kuma/wiki/models.py:1585
+#: kuma/wiki/models.py:1583
 msgid "H2 and higher"
 msgstr "H2 이상"
 
-#: kuma/wiki/models.py:1586
+#: kuma/wiki/models.py:1584
 msgid "H3 and higher"
 msgstr "H3 이상"
 
-#: kuma/wiki/models.py:1587
+#: kuma/wiki/models.py:1585
 msgid "H4 and higher"
 msgstr "H4 이상"
 
-#: kuma/wiki/models.py:1689
+#: kuma/wiki/models.py:1687
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "리비전은 %(locale)s 문서의 리비전을 기초로 해야한다. 리비전 ID %(id)s는 기준에 적합하지 않다."
 
-#: kuma/wiki/models.py:1819
+#: kuma/wiki/models.py:1817
 msgid "IP address"
 msgstr "IP 주소"
 
-#: kuma/wiki/models.py:1827
+#: kuma/wiki/models.py:1825
 msgid "User-Agent"
 msgstr "사용자 도구"
 
-#: kuma/wiki/models.py:1832
+#: kuma/wiki/models.py:1830
 msgid "HTTP Referrer"
 msgstr "HTTP 레퍼러"
 
-#: kuma/wiki/models.py:1840 kuma/wiki/models.py:1925
+#: kuma/wiki/models.py:1838 kuma/wiki/models.py:1923
 msgid "Data submitted to Akismet"
 msgstr "Akismet에 제출된 데이터"
 
 # DevDerby 부메뉴
-#: kuma/wiki/models.py:1865
+#: kuma/wiki/models.py:1863
 msgid "Akismet submission"
 msgstr "Akismet 제출"
 
 # DevDerby 부메뉴
-#: kuma/wiki/models.py:1866
+#: kuma/wiki/models.py:1864
 msgid "Akismet submissions"
 msgstr "Akismet 제출"
 
-#: kuma/wiki/models.py:1910
+#: kuma/wiki/models.py:1908
 msgid "Slug"
 msgstr "슬러그"
 
-#: kuma/wiki/models.py:1918
+#: kuma/wiki/models.py:1916
 msgid "Document (optional)"
 msgstr "문서(선택사항)"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1926
 msgid "reviewed"
 msgstr "검토됨"
 
-#: kuma/wiki/models.py:1939
+#: kuma/wiki/models.py:1937
 msgid "Needs Review"
 msgstr "검토 필요"
 
-#: kuma/wiki/models.py:1940
+#: kuma/wiki/models.py:1938
 msgid "Ham / False Positive"
 msgstr "스팸아님 / 오판"
 
-#: kuma/wiki/models.py:1941
+#: kuma/wiki/models.py:1939
 msgid "Confirmed as Spam"
 msgstr "스팸으로 확인"
 
-#: kuma/wiki/models.py:1942
+#: kuma/wiki/models.py:1940
 msgid "Review Unavailable"
 msgstr "검토 이용 불가"
 
-#: kuma/wiki/models.py:1943
+#: kuma/wiki/models.py:1941
 msgid "Akismet Error"
 msgstr "Akismet 오류"
 
-#: kuma/wiki/models.py:1948
+#: kuma/wiki/models.py:1946
 msgid "Review of Akismet's classification as spam"
 msgstr "Akismet 스팸 분류 검토"
 
-#: kuma/wiki/models.py:1955
+#: kuma/wiki/models.py:1953
 msgid "Staff reviewer"
 msgstr "검토 담당 스태프"
 
@@ -3342,21 +3343,25 @@ msgstr "삭제 사유"
 msgid "Restore this document"
 msgstr "현재 문서 복원"
 
-#: kuma/wiki/jinja2/wiki/document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:138
+msgid "Jump to:"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/document.html:162
 msgid "In This Article"
 msgstr "현재 문서 내"
 
-#: kuma/wiki/jinja2/wiki/document.html:181
+#: kuma/wiki/jinja2/wiki/document.html:177
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "이 문서는 아직 볼 수 없으며 MDN이 <a href=\"%(url)s\">유지/보수 모드</a>일 때는 불러올 수 없습니다. 유지/보수가 끝난 뒤 다시 확인해보세요."
 
-#: kuma/wiki/jinja2/wiki/document.html:192
+#: kuma/wiki/jinja2/wiki/document.html:188
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "이 문서는 시스템이 처음으로 표시한 것입니다. 모든 콘텐트를 보려면 몇 분 뒤에 <a href=\"%(url)s\">페이지를 새로 고침</a>해 주세요."
 
-#: kuma/wiki/jinja2/wiki/document.html:200
+#: kuma/wiki/jinja2/wiki/document.html:196
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3364,7 +3369,7 @@ msgid ""
 msgstr ""
 "이 문서에 대한 업데이트가 <abbr title=\"%(started_at)s\">현재 진행중입니다</abbr>. 만약 아래의 콘텐트가 낡았거나 무엇인가 빠졌다면, 몇 분 후에 <a href=\"%(url)s\">이 페이지를 새로고침</a>해 주세요."
 
-#: kuma/wiki/jinja2/wiki/document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:205
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3373,20 +3378,20 @@ msgstr ""
 "이 문서에 대한 업데이트가 <abbr title=\"%(scheduled_at)s\">예약되어 있습니다</abbr>. 만약 아래의 콘텐트가 낡았거나 무엇인가 빠졌다면, 몇 분 후에 <a href=\"%(url)s\">이 페이지를 새로고침</a>해 주세"
 "요."
 
-#: kuma/wiki/jinja2/wiki/document.html:220
+#: kuma/wiki/jinja2/wiki/document.html:216
 msgid "This is an experimental page."
 msgstr "현재 보고 계신 페이지는 실험 중에 있습니다."
 
-#: kuma/wiki/jinja2/wiki/document.html:231
+#: kuma/wiki/jinja2/wiki/document.html:227
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "현재 번역은 완벽하지 않습니다. 한국어로 <a href=\"%(translate_url)s\">문서 번역</a>에 동참해주세요."
 
-#: kuma/wiki/jinja2/wiki/document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:232
 msgid "This translation is in progress."
 msgstr "번역 작업 진행중입니다."
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:239
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Join us and help get the job done!</a><br> You can also read the "
@@ -3396,24 +3401,24 @@ msgstr ""
 "\">%(parent_language)s</a>의 문서도 읽어보세요."
 
 # 85%
-#: kuma/wiki/jinja2/wiki/document.html:255
+#: kuma/wiki/jinja2/wiki/document.html:251
 msgid "This article doesn't have any content yet."
 msgstr "이 글에는 아직 내용이 없습니다."
 
-#: kuma/wiki/jinja2/wiki/document.html:264
+#: kuma/wiki/jinja2/wiki/document.html:260
 msgid "This article doesn't have approved content yet."
 msgstr "현재 문서는 아직 승인된 내용이 없습니다."
 
-#: kuma/wiki/jinja2/wiki/document.html:270
+#: kuma/wiki/jinja2/wiki/document.html:266
 msgid "Document Tags and Contributors"
 msgstr "문서 태그 및 공헌자"
 
-#: kuma/wiki/jinja2/wiki/document.html:276
+#: kuma/wiki/jinja2/wiki/document.html:272
 msgid "Contributors to this page:"
 msgstr "이 페이지의 공헌자:"
 
 # 100%
-#: kuma/wiki/jinja2/wiki/document.html:282
+#: kuma/wiki/jinja2/wiki/document.html:278
 msgid "Last updated by:"
 msgstr "최종 변경:"
 
@@ -4258,6 +4263,14 @@ msgstr "이 문서를 번역할 수 없습니다."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
+
+#~ msgid "Blog: On the <a href=\"%(blog_link)s\">about:community</a> blog, look for the posts tagged with <a href=\"%(tagged_link)s\">Developer Engagement</a>."
+#~ msgstr ""
+#~ "블로그: <a href=\"%(blog_link)s\">about:community</a>나 <a href=\"%(tagged_link)s\">개발자 참여</a> 블로그를 보실 수 있습니다. 한국 개발자는 <a href=\"http://hacks.mozilla.or.kr\">Mozilla Hacks "
+#~ "한국어</a> 블로그에 참여해보세요."
+
+#~ msgid "Blog: %(blog_link)s"
+#~ msgstr "블로그: %(blog_link)s"
 
 # 100%
 #~ msgid "Show topics"
