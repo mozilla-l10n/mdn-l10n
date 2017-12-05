@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-05 02:29+0000\n"
+"PO-Revision-Date: 2017-12-05 02:45+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -1747,7 +1747,7 @@ msgstr "მომხმარებელი"
 #: kuma/users/apps.py:69
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "თქვენ პირველი ნაბიჯი გადადგით, <a href=\"%s\">MDN-თან მუშაობის დასაწყებად</a>"
+msgstr "თქვენ უკვე გადადგით პირველი ნაბიჯი, <a href=\"%s\">MDN-თან მუშაობის დასაწყებად</a>"
 
 #: kuma/users/constants.py:6
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
@@ -2016,7 +2016,7 @@ msgstr "MDN-ზე არსებული მასალა ხელმი�
 
 #: kuma/users/jinja2/account/login.html:20
 msgid "In order to contribute, you need to sign in to an existing MDN profile."
-msgstr "შემოწირულობის გასაკეთებლად, საჭიროა MDN ანგარიშზე შესვლა."
+msgstr "საიტზე წვლილის შესატანად, საჭიროა MDN ანგარიშზე შესვლა."
 
 #: kuma/users/jinja2/account/login.html:24 kuma/users/jinja2/account/signup_closed.html:4
 msgid "We are sorry, but profile creation is currently disabled."
@@ -2024,7 +2024,7 @@ msgstr "ვწუხვართ, მაგრამ ჯერჯერობი
 
 #: kuma/users/jinja2/account/login.html:27
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
-msgstr "შემოწირულობის გასაკეთებლად, საჭიროა MDN ანგარიშზე შესვლა. ასევე, შეგიძლიათ GitHub-ით შესვლა და MDN ანგარიში თავისთავად შეიქმნება."
+msgstr "MDN ანგარიშზე შესვლა, საიტზე წვლილის შესატანადაა საჭირო. ასევე, შეგიძლიათ GitHub-ით შეხვიდეთ და MDN ანგარიში თავისთავად შეიქმნება."
 
 #: kuma/users/jinja2/account/logout.html:3 kuma/users/jinja2/account/logout.html:8 kuma/users/jinja2/account/logout.html:17
 msgid "Sign Out"
@@ -2201,11 +2201,11 @@ msgstr "პროფილი უკვე არსებობს, მით�
 
 #: kuma/users/jinja2/socialaccount/signup.html:137
 msgid "Verified"
-msgstr "შემოწმებული"
+msgstr "დამოწმებული"
 
 #: kuma/users/jinja2/socialaccount/signup.html:139
 msgid "Unverified"
-msgstr "შეუმოწმებელი"
+msgstr "დაუმოწმებელი"
 
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
@@ -2601,7 +2601,7 @@ msgstr "გმადლობთ, რომ შემოგვიერთდი
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
 msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr "თქვენ პირველი ნაბიჯი გადადგით, <a href=\"%(started_link)s\">MDN-თან მუშაობის დასაწყებად</a>, ანგარიშის შექმნით."
+msgstr "თქვენ უკვე გადადგით პირველი ნაბიჯი, <a href=\"%(started_link)s\">MDN-თან მუშაობის დასაწყებად</a>, ანგარიშის შექმნით."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:21
 #, python-format
@@ -2610,7 +2610,7 @@ msgid ""
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
 msgstr ""
 "ახლა კი შეარჩიეთ რამე საქმე MDN-ზე და შეუდექით მუშაობას! დასაწყისისთვის, ჩვენ შეგვიძლია, უამრავი მარტივი დავალებების შემოთავაზება, გამომდინარე იქიდან, <a href=\"%(words_link)s\">სიტყვების</a> წერა "
-"უფრო მეტად მოგწონთ, <a href=\"%(code_link)s\">კოდის</a>, <a href=\"%(both_link)s\">ორივესი ერთად</a>, თუ უბრალოდ, <a href=\"%(translate_link)s\">გადათარგმნა გსურთ MDN-ის თქვენს ენაზე</a>."
+"უფრო მეტად გეხერხებათ, <a href=\"%(code_link)s\">კოდის</a>, <a href=\"%(both_link)s\">ორივესი ერთად</a>, თუ უბრალოდ, <a href=\"%(translate_link)s\">MDN-ის თქვენს ენაზე გადათარგმნა გსურთ</a>."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:34
 msgid "Talk to us!"
@@ -3610,7 +3610,7 @@ msgstr "სტატიის თარგმნა შემდეგ ენა
 
 #: kuma/wiki/jinja2/wiki/translate.html:49
 msgid "Translate Content"
-msgstr "შიგთავსის გადათარგმნა"
+msgstr "შიგთავსის თარგმნა"
 
 #: kuma/wiki/jinja2/wiki/translate.html:89
 #, python-format
