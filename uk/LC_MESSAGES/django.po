@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-04 12:14+0000\n"
+"PO-Revision-Date: 2017-12-05 09:19+0000\n"
 "Last-Translator: Vitaliy Krutko <asmforce@ukr.net>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
 "Language: uk\n"
@@ -1627,20 +1627,20 @@ msgid "Results"
 msgstr "Результати"
 
 #: kuma/search/jinja2/search/results.html:68
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] "за запитом \"%(query)s\" на %(locale_native)s знайдено %(count)s документ."
-msgstr[1] "за запитом \"%(query)s\" на %(locale_native)s знайдено %(count)s документа."
-msgstr[2] "за запитом \"%(query)s\" на %(locale_native)s знайдено %(count)s документів."
+msgstr[0] "Знайдено %(count)s документ за запитом \"%(query)s\" серед сторінок всіма мовами."
+msgstr[1] "Знайдено %(count)s документи за запитом \"%(query)s\" серед сторінок всіма мовами."
+msgstr[2] "Знайдено %(count)s документів за запитом \"%(query)s\" серед сторінок всіма мовами."
 
 #: kuma/search/jinja2/search/results.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] "на %(locale_native)s знайдено %(count)s документ."
-msgstr[1] "на %(locale_native)s знайдено %(count)s документа."
-msgstr[2] "на %(locale_native)s знайдено %(count)s документів."
+msgstr[0] "Знайдено %(count)s документ серед сторінок всіма мовами."
+msgstr[1] "Знайдено %(count)s документи серед сторінок всіма мовами."
+msgstr[2] "Знайдено %(count)s документів серед сторінок всіма мовами."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
@@ -1906,9 +1906,8 @@ msgid "Website"
 msgstr "Веб-сайт"
 
 #: kuma/users/models.py:156
-#, fuzzy
 msgid "Public GitHub URL"
-msgstr "Прилюдний GitHub URL"
+msgstr "Адреса прилюдного профілю GitHub"
 
 #: kuma/users/signup.py:9
 msgid "Username is required."
@@ -3319,7 +3318,7 @@ msgstr "Відновити цей документ"
 
 #: kuma/wiki/jinja2/wiki/document.html:138
 msgid "Jump to:"
-msgstr ""
+msgstr "Перейти до:"
 
 #: kuma/wiki/jinja2/wiki/document.html:162
 msgid "In This Article"
