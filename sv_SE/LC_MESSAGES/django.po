@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-05 19:10+0000\n"
+"PO-Revision-Date: 2017-12-08 18:00+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: Swedish https://pontoon.mozilla.org/sv_SE/\n"
 "Language: sv_SE\n"
@@ -1621,18 +1621,18 @@ msgid "Results"
 msgstr "Resultat"
 
 #: kuma/search/jinja2/search/results.html:68
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] "%(count)s dokument hittades för \"%(query)s\" i %(locale_native)s."
-msgstr[1] "%(count)s dokument hittades för \"%(query)s\" i %(locale_native)s."
+msgstr[0] "%(count)s dokument hittades för \"%(query)s\" i alla språkversioner."
+msgstr[1] "%(count)s dokument hittades för \"%(query)s\" i alla språkversioner."
 
 #: kuma/search/jinja2/search/results.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] "%(count)s dokument hittad i %(locale_native)s."
-msgstr[1] "%(count)s dokument hittade i %(locale_native)s."
+msgstr[0] "%(count)s dokument hittad i alla språkversioner."
+msgstr[1] "%(count)s dokument hittade i alla språkversioner."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
@@ -1892,7 +1892,6 @@ msgid "Website"
 msgstr "Webbplats"
 
 #: kuma/users/models.py:156
-#, fuzzy
 msgid "Public GitHub URL"
 msgstr "Publik Github-URL"
 
@@ -2601,9 +2600,9 @@ msgid "Hi %(username)s!"
 msgstr "Hej %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr "Tack för att du skapade en profil på <a href=\"%(mdn_link)s\">Mozilla Developer Network (MDN)</a> - en gemenskap med stora resurser för utvecklare som du."
+msgstr "Tack för att du skapade en profil på <a href=\"%(mdn_link)s\">MDN Web Docs</a> - en gemenskap med stora resurser för utvecklare som du."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
@@ -2634,13 +2633,13 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "Diskussionsforum: <a href=\"%(list_link)s\">Gå med oss</a> för att berätta om vad du är intresserad av på MDN och ställ frågor om webbplatsen."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
 "Realtidschatt: <a href=\"%(channel_link)s\">#mdn kanalen på irc.mozilla.org</a>. (Få mer information om <a href=\"%(irc_link)s\">IRC</a>.) Du kan hitta administratörer för MDN där: Eric Shepard "
-"(sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) och mig (jms), ansvarig för MDN:s forum."
+"(sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) och mig (jswisher), ansvarig för MDN:s forum."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2655,9 +2654,8 @@ msgstr "Hej %(username)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "Tack för att du skapade en profil på Mozilla Developer Network (MDN) -- en gemenskap med stora resurser för utvecklare som du."
+msgstr "Tack för att du skapade en profil på MDN Web Docs -- en gemenskap med stora resurser för utvecklare som du."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -2712,12 +2710,9 @@ msgstr "Se %(irc_link)s för mer information om IRC."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
-#, fuzzy
 msgid ""
 "You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
-msgstr ""
-"Du kan hitta MDN författar admins där: Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), och mig (jms), MDN's community "
-"manager. "
+msgstr "Du kan hitta MDN författar admins där: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), och mig (jswisher), MDN's community manager."
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
