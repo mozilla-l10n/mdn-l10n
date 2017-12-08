@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-07 06:05+0000\n"
+"PO-Revision-Date: 2017-12-08 02:31+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
 "Language: ko\n"
@@ -609,7 +609,7 @@ msgstr "타밀어"
 
 #: jinja2/includes/translate_locales.html:56
 msgid "Telugu"
-msgstr ""
+msgstr "텔루구어"
 
 #: jinja2/includes/translate_locales.html:57
 msgid "Thai"
@@ -1646,52 +1646,52 @@ msgid "Results"
 msgstr "검색 결과"
 
 #: kuma/search/jinja2/search/results.html:68
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] " \"%(query)s\"- %(locale_native)s %(count)s 개 문서 찾음"
+msgstr[0] "모든 언어에서 \"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] "%(count)s개 문서 찾음 %(locale_native)s."
+msgstr[0] "모든 언어에서 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
-msgstr[0] " \"%(query)s\"- %(locale_native)s %(count)s 개 문서 찾음"
+msgstr[0] "%(locale_native)s 언어에서 \"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:90
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] " \"%(query)s\" %(locale_native)s - %(default_locale_native)s 에서 %(count)s개 문서 발견됨"
+msgstr[0] "%(locale_native)s 언어와 %(default_locale_native)s 언어에서 \"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:98
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
-msgstr[0] "%(count)s개 문서 찾음 %(locale_native)s."
+msgstr[0] "%(locale_native)s 언어에서 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:104
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] "%(count)s개 문서 찾음 - %(locale_native)s 및 %(default_locale_native)s"
+msgstr[0] "%(locale_native)s 언어와 %(default_locale_native)s 언어에서 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:114
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
-msgstr[0] "\"%(query)s\"에 대해 %(count)s문서 찾음"
+msgstr[0] "\"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:120
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
-msgstr[0] "%(count)s 문서 찾음."
+msgstr[0] "문서 %(count)s개를 찾았습니다."
 
 #: kuma/search/jinja2/search/results.html:130
 msgid "Showing all results."
@@ -1800,7 +1800,7 @@ msgstr "사용자이름"
 
 #: kuma/users/forms.py:78
 msgid "Display a link to GitHub on my profile"
-msgstr ""
+msgstr "프로필에 GitHub 링크 표시하기"
 
 #: kuma/users/forms.py:82 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
@@ -1914,9 +1914,8 @@ msgid "Website"
 msgstr "웹 사이트"
 
 #: kuma/users/models.py:156
-#, fuzzy
 msgid "Public GitHub URL"
-msgstr "유효한 GitHub URL을 입력해주세요."
+msgstr "공개된 GitHub URL"
 
 #: kuma/users/signup.py:9
 msgid "Username is required."
@@ -1942,7 +1941,7 @@ msgstr "동의"
 
 #: kuma/users/signup.py:38
 msgid "I would like to make my GitHub profile URL public"
-msgstr ""
+msgstr "GitHub 프로필 URL을 공개하고 싶습니다"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
 msgid "Take the next step to get involved on MDN!"
@@ -2621,9 +2620,9 @@ msgid "Hi %(username)s!"
 msgstr "%(username)s님 안녕하세요!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr "<a href=\"%(mdn_link)s\">Mozilla 개발자 네트워크(MDN)</a> 프로필을 만든 것에 감사드립니다 - Mozilla 개발자 네트워크는 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
+msgstr "<a href=\"%(mdn_link)s\">Mozilla 웹 문서</a>에 프로필을 만들어 주셔서 감사합니다 - 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
@@ -2654,13 +2653,13 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "토론 포럼: MDN과 사이트에 대한 질문이 있으시면 <a href=\"%(list_link)s\">가입</a> 후 말씀해 주세요."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
-"실시간 채팅: <a href=\"%(channel_link)s\">#mdn 채널 irc.mozilla.org</a>. (<a href=\"%(irc_link)s\">IRC</a>에 대한 자세한 정보 알아보기.) MDN 문서 작성 관리자들은 다음과 같습니다: Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), "
-"Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), 그리고 MDN 커뮤니티 매니저 Janet Swisher (jms)."
+"실시간 채팅: <a href=\"%(channel_link)s\">#mdn 채널 irc.mozilla.org</a>.  (<a href=\"%(irc_link)s\">IRC</a>에 대한 자세한 정보 알아보기.) MDN 문서 작성 관리자들은 다음과 같습니다: Eric Shepherd (sheppy), Will Bamberg (wbamberg), "
+"Florian Scholz (fscholz), Chris Mills (chrismills), 그리고 MDN 커뮤니티 매니저인 저 (jswisher) 입니다."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2675,9 +2674,8 @@ msgstr "%(username)s님 안녕하세요"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "Mozilla 개발자 네트워크(MDN)에 계정을 만들어 주셔서 감사합니다 -- 여러분과 같은 개발자를 위한 자료를 만드는 커뮤니티입니다."
+msgstr "MDN 웹 문서에 계정을 만들어 주셔서 감사합니다 - 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
