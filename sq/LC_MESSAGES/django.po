@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-09 16:11+0000\n"
+"PO-Revision-Date: 2017-12-09 16:29+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
 "Language: sq\n"
@@ -100,7 +100,7 @@ msgstr "Rrjeti i Zhvilluesve Mozilla"
 
 #: jinja2/base.html:82
 msgid "MDN is currently in read-only maintenance mode."
-msgstr ""
+msgstr "MDN-ja gjendet nën mënyrën mirëmbajtje, vetëm-lexim."
 
 #: jinja2/base.html:84
 msgid "Learn more"
@@ -343,7 +343,7 @@ msgstr "Mësoni ajkën e programimit për Web"
 
 #: jinja2/includes/newsletter.html:5
 msgid "Get the latest and greatest from MDN delivered straight to your inbox."
-msgstr ""
+msgstr "Merrni lajmet më të reja dhe më të fuqishme nga MDN-ja, drejt e te mesazhet tuaj."
 
 #: jinja2/includes/newsletter.html:7
 msgid "The newsletter is offered in English only at the moment."
@@ -1127,12 +1127,12 @@ msgstr[1] "U gjetën %(num)s makro aktive."
 #: kuma/dashboards/jinja2/dashboards/macros.html:16
 #, python-format
 msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
-msgstr ""
+msgstr "Shihni <a href=\"%(url)s\">depon GitHub</a> për një listë makrosh."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:18
 #, python-format
 msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr ""
+msgstr "Mundeni edhe të <a href=\"%(url)s\">kërkoni dorazi për makro</a>."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:24
 msgid "Active macros and their usage counts"
@@ -1381,10 +1381,12 @@ msgid ""
 "MDN is currently in maintenance mode. Content is being served from a backup database, which means some articles may show out-of-date information. Have no fear! All will be restored when maintenance "
 "has concluded."
 msgstr ""
+"MDN-ja gjendet nën mënyrën mirëmbajtje. Lënda hëpërhë shërbehet nga një bazë të dhënash kopjeruajtje, që do të thotë se disa artikuj mund të shfaqin të dhëna të vjetruara. Mos u trembni! Gjithçka do"
+" të rikthehet kur të ketë mbaruar mirëmbajtja."
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:27
 msgid "While in maintenance mode, the following actions are unavailable:"
-msgstr ""
+msgstr "Nën mënyrën mirëmbajtje, veprimet vijuese nuk kryhen dot:"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:33
 msgid "editing articles"
@@ -1396,11 +1398,11 @@ msgstr "krijim llogarie"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:35
 msgid "logging in"
-msgstr ""
+msgstr "hyrje në llogari"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:39
 msgid "We apologize for the inconvenience."
-msgstr ""
+msgstr "Kërkojmë ndjesë për bezdinë."
 
 #: kuma/landing/jinja2/landing/newsfeed.html:10
 #, python-format
@@ -1785,7 +1787,7 @@ msgstr "Emër përdoruesi"
 
 #: kuma/users/forms.py:78
 msgid "Display a link to GitHub on my profile"
-msgstr ""
+msgstr "Shfaq një lidhje te faqja ime profil në GitHub"
 
 #: kuma/users/forms.py:82 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
@@ -1924,7 +1926,7 @@ msgstr "Pajtohem"
 
 #: kuma/users/signup.py:38
 msgid "I would like to make my GitHub profile URL public"
-msgstr ""
+msgstr "Do të doja ta bëja publike URL-në e profilit tim GitHub"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
 msgid "Take the next step to get involved on MDN!"
@@ -2217,7 +2219,7 @@ msgstr "Ka tashmë një profil me adresën email të përzgjedhur. <a href=\"%(l
 
 #: kuma/users/jinja2/socialaccount/signup.html:137
 msgid "Verified"
-msgstr ""
+msgstr "I verifikuar"
 
 #: kuma/users/jinja2/socialaccount/signup.html:139
 msgid "Unverified"
@@ -3309,7 +3311,7 @@ msgstr "Riktheje këtë dokument"
 
 #: kuma/wiki/jinja2/wiki/document.html:138
 msgid "Jump to:"
-msgstr ""
+msgstr "Hidhu te:"
 
 #: kuma/wiki/jinja2/wiki/document.html:162
 msgid "In This Article"
@@ -3319,6 +3321,8 @@ msgstr "Në Këtë Artikull"
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
+"Ky dokument s’është rikrijuar ende dhe s’mund të rikrijohet ndërkohë që MDN-ja gjendet nën <a href=\"%(url)s\">mënyrën mirëmbajtje</a>. Ju lutemi, kontrolloni sërish kur të ketë përfunduar "
+"mirëmbajtja."
 
 #: kuma/wiki/jinja2/wiki/document.html:188
 #, python-format
@@ -3345,7 +3349,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:216
 msgid "This is an experimental page."
-msgstr ""
+msgstr "Kjo është një faqe eksperimentale."
 
 #: kuma/wiki/jinja2/wiki/document.html:227
 #, python-format
