@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-09 12:53+0000\n"
+"PO-Revision-Date: 2017-12-09 16:11+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
 "Language: sq\n"
@@ -274,7 +274,7 @@ msgstr "Mbi"
 
 #: jinja2/base.html:212
 msgid "Contact Us"
-msgstr ""
+msgstr "Lidhuni Me Ne"
 
 #: jinja2/base.html:213
 msgid "Donate"
@@ -286,7 +286,7 @@ msgstr "Facebook"
 
 #: jinja2/base.html:217
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: jinja2/base.html:227
 msgid "Terms"
@@ -598,7 +598,7 @@ msgstr "Tamilase"
 
 #: jinja2/includes/translate_locales.html:56
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #: jinja2/includes/translate_locales.html:57
 msgid "Thai"
@@ -1115,7 +1115,7 @@ msgstr "Autorë"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
-msgstr ""
+msgstr "Makro aktive"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
 #, python-format
@@ -1136,11 +1136,11 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:24
 msgid "Active macros and their usage counts"
-msgstr ""
+msgstr "Makro aktive dhe numër përdorimi i tyre"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:31 kuma/dashboards/jinja2/dashboards/macros.html:66
 msgid "Macro Name"
-msgstr ""
+msgstr "Emër Makroje"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:33
 msgid "English Page Count"
@@ -1148,11 +1148,11 @@ msgstr "Numër Faqesh Në Anglisht"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:34
 msgid "All Page Count"
-msgstr ""
+msgstr "Numër i Krejt Faqeve"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:65
 msgid "Search for macro usage:"
-msgstr ""
+msgstr "Kërkoni për përdorim makroje:"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:68
 msgid "Search All Pages"
@@ -1374,7 +1374,7 @@ msgstr "Si të kontribuohet te kodi bazë i MDN-së"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
 msgid "Maintenance Mode"
-msgstr ""
+msgstr "Mënyra Mirëmbajtje"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:18
 msgid ""
@@ -1631,11 +1631,11 @@ msgstr[0] "U gjet %(count)s dokument për \"%(query)s\" në krejt gjuhët."
 msgstr[1] "U gjetën %(count)s dokumente për \"%(query)s\" në krejt gjuhët."
 
 #: kuma/search/jinja2/search/results.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] "U gjet %(count)s dokument në %(locale_native)s."
-msgstr[1] "U gjetën %(count)s dokumente në %(locale_native)s."
+msgstr[0] "U gjet %(count)s dokument në krejt gjuhët."
+msgstr[1] "U gjetën %(count)s dokumente në krejt gjuhët."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
@@ -2640,18 +2640,18 @@ msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
 msgstr "Dëshironi të bisedoni me dikë rreth MDN-së? Ka disa mënyra për ta bërë këtë:"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
-#, fuzzy, python-format
+#, python-format
 msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
-msgstr "Listë postimesh: <a href=\"%(list_link)s\">pajtohuni</a> që të na tregoni se çfarë ju intereson te MDN-ja dhe që të bëni pyetje rreth sajtit."
+msgstr "Forum diskutimesh: <a href=\"%(list_link)s\">ejani</a> që të na tregoni se çfarë ju intereson te MDN-ja dhe që të bëni pyetje rreth sajtit."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
-"Fjalosje e atëçastshme: <a href=\"%(channel_link)s\">kanali #mdn te irc.mozilla.org</a>. (Merrni më tepër të dhëna rreth <a href=\"%(irc_link)s\">IRC-së</a>.) Përgjegjësit e MDN-së për shkrime i "
-"gjeni këtu: Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dhe unë (jms), përgjegjësi i MDN-së për bashkësinë."
+"Fjalosje aty për aty: <a href=\"%(channel_link)s\">kanali #mdn te irc.mozilla.org</a>. (Merrni më tepër të dhëna rreth <a href=\"%(irc_link)s\">IRC-së</a>.) Përgjegjësit e MDN-së për shkrime i gjeni"
+" këtu: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dhe unë (jswisher), përgjegjësi i MDN-së për bashkësinë."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2666,9 +2666,8 @@ msgstr "Njatjeta %(username)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "Faleminderit që krijuar një profil te Rrjeti i Zhvilluesve Mozilla (MDN) -- një bashkësi që krijon burime të shkëlqyera për zhvillues si ju."
+msgstr "Faleminderit që krijuar një profil te MDN Web Docs -- një bashkësi që krijon burime të shkëlqyera për zhvillues si ju."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -2701,15 +2700,14 @@ msgstr "Doni të përktheni MDN-në në gjuhën tuaj?"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:33
-#, fuzzy, python-format
+#, python-format
 msgid "Discussion forum: %(list_link)s"
-msgstr "Listë postimesh: %(list_link)s"
+msgstr "Forum diskutimesh: %(list_link)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:36
-#, fuzzy
 msgid "Join to tell us about what you're interested in on MDN and ask questions about the site."
-msgstr "Pajtohuni që të na tregoni se ç’ju intereson te MDN-ja dhe që të bëni pyetje rreth sajtit."
+msgstr "Ejani te ne të na tregoni se ç’ju intereson te MDN-ja dhe që të bëni pyetje rreth sajtit."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
@@ -2724,12 +2722,11 @@ msgstr "Shihni %(irc_link)s për më tepër të dhëna mbi IRC-në."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
-#, fuzzy
 msgid ""
 "You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
-"Përgjegjësit e MDN-së për shkrimin e artikujve mund t’i gjeni këtu: Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), "
-"dhe unë (jms), përgjegjësi i MDN-së për bashkësinë."
+"Përgjegjësit e MDN-së për shkrimin e artikujve mund t’i gjeni këtu: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dhe unë (jswisher), "
+"përgjegjësi i MDN-së për bashkësinë."
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
@@ -2810,14 +2807,14 @@ msgid "Edit section"
 msgstr "Përpunoni ndarjen"
 
 #: kuma/wiki/events.py:96
-#, fuzzy, python-format
+#, python-format
 msgid "[MDN][%(locale)s][New] Page \"%(document_title)s\" created by %(creator)s"
-msgstr "[MDN] Faqja \"%(document_title)s\" u ndryshua nga %(creator)s"
+msgstr "[MDN][%(locale)s][New] Faqja \"%(document_title)s\" krijuar nga %(creator)s"
 
 #: kuma/wiki/events.py:100
-#, fuzzy, python-format
+#, python-format
 msgid "[MDN][%(locale)s] Page \"%(document_title)s\" changed by %(creator)s"
-msgstr "[MDN] Faqja \"%(document_title)s\" u ndryshua nga %(creator)s"
+msgstr "[MDN][%(locale)s] Faqja \"%(document_title)s\" ndryshuar nga %(creator)s"
 
 #: kuma/wiki/feeds.py:28
 msgid "MDN documents"
@@ -3410,9 +3407,9 @@ msgid "Your Changes"
 msgstr "Ndryshimet Tuaja"
 
 #: kuma/wiki/jinja2/wiki/edit.html:55 kuma/wiki/jinja2/wiki/edit.html:71 kuma/wiki/jinja2/wiki/includes/document_macros.html:48 kuma/wiki/jinja2/wiki/includes/document_macros.html:64
-#, fuzzy, python-format
+#, python-format
 msgid "Revision %(id)s by <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> on %(date)s"
-msgstr "Rishikimi %(id)s nga <a href=\"%(user_profile_url)s\">%(user)s</a> më %(date)s"
+msgstr "Rishikimi %(id)s nga <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> më %(date)s"
 
 #: kuma/wiki/jinja2/wiki/edit.html:67
 msgid "Current Revision:"
@@ -3731,14 +3728,14 @@ msgid "This article needs these reviews:"
 msgstr "Ky artikull ka nevojë për këto shqyrtime:"
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:14
-#, fuzzy, python-format
+#, python-format
 msgid "Technical - code samples, APIs, or technologies. <a href=\"%(url)s\">Can you help?</a>"
-msgstr "Teknike - shembuj kodi, API, ose teknologji"
+msgstr "Teknike - shembuj kodi, API, ose teknologji. <a href=\"%(url)s\">A mund të ndihmoni?</a>"
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:24
-#, fuzzy, python-format
+#, python-format
 msgid "Editorial - prose, grammar, or content. <a href=\"%(url)s\">Can you help?</a>"
-msgstr "Redaktoriale - prozë, gramatikë, ose lëndë"
+msgstr "Redaktoriale - prozë, gramatikë, ose lëndë. <a href=\"%(url)s\">A mund të ndihmoni?</a>"
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:32
 msgid "Save"
@@ -3854,14 +3851,14 @@ msgid "You have been unsubscribed from %(title)s."
 msgstr "Jeni shpajtuar nga %(title)s."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:149
-#, fuzzy, python-format
+#, python-format
 msgid "Subscribe to the %(language)s version"
-msgstr "Pajtohuni te versioni <bdi>%(language)s</bdi>"
+msgstr "Pajtohuni te versioni %(language)s"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:150
-#, fuzzy, python-format
+#, python-format
 msgid "Unsubscribe from the %(language)s version"
-msgstr "Shpajtohuni prej versionit <bdi>%(language)s</bdi>"
+msgstr "Shpajtohuni prej versionit %(language)s"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:153
 #, python-format
@@ -3910,11 +3907,10 @@ msgstr[0] "Më tepër të dhëna rreth këtij gabimi"
 msgstr[1] "Më tepër të dhëna rreth këtyre gabimeve"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:19
-#, fuzzy, python-format
+#, python-format
 msgid "Anyone with an MDN profile can edit a document to fix an error. Use the <a href=\"%(troubleshooting_url)s\">KumaScript troubleshooting guide</a> as a starting point."
 msgstr ""
-"Cilido me profil te MDN-ja mund të përpunojë një dokument, për ndreqjen e një gabimi. Si pikënisje, përdorni <a href=\"/docs/MDN/Kuma/Troubleshooting_KumaScript_errors\">dhërrëfyesin për "
-"diagnostikime me KumaScript-in</a>."
+"Cilido me profil te MDN-ja mund të përpunojë një dokument, për ndreqjen e një gabimi. Si pikënisje, përdorni <a href=\"%(troubleshooting_url)s\">dhërrëfyesin për diagnostikime me KumaScript-in</a>."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:29
 msgid "Error type:"
