@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2017-12-04 07:33-0800\n"
-"PO-Revision-Date: 2017-12-09 12:50+0000\n"
+"PO-Revision-Date: 2017-12-09 12:53+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
 "Language: sq\n"
@@ -1624,11 +1624,11 @@ msgid "Results"
 msgstr "Përfundime"
 
 #: kuma/search/jinja2/search/results.html:68
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] "U gjet %(count)s dokument për \"%(query)s\" në %(locale_native)s."
-msgstr[1] "U gjetën %(count)s dokumente për \"%(query)s\" në %(locale_native)s."
+msgstr[0] "U gjet %(count)s dokument për \"%(query)s\" në krejt gjuhët."
+msgstr[1] "U gjetën %(count)s dokumente për \"%(query)s\" në krejt gjuhët."
 
 #: kuma/search/jinja2/search/results.html:74
 #, fuzzy, python-format
@@ -1897,9 +1897,8 @@ msgid "Website"
 msgstr "Sajt"
 
 #: kuma/users/models.py:156
-#, fuzzy
 msgid "Public GitHub URL"
-msgstr "Jepni një URL GitHub të vlefshme."
+msgstr "URL GitHub Publike"
 
 #: kuma/users/signup.py:9
 msgid "Username is required."
@@ -1977,9 +1976,8 @@ msgid "Remove"
 msgstr "Hiqe"
 
 #: kuma/users/jinja2/account/email.html:45
-#, fuzzy
 msgid "<strong>Warning:</strong> You have not added any email addresses to this profile. Without one you cannot receive notifications."
-msgstr "<strong>Kujdes:</strong>\"S’keni shtuar ndonjë adresë email te ky profil. Pa një të tillë, s’mund të merrni njoftime."
+msgstr "<strong>Kujdes:</strong> S’keni shtuar ndonjë adresë email te ky profil. Pa një të tillë, s’mund të merrni njoftime."
 
 #: kuma/users/jinja2/account/email.html:49
 msgid "Add email address"
@@ -2222,9 +2220,8 @@ msgid "Verified"
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:139
-#, fuzzy
 msgid "Unverified"
-msgstr "%(email)s I paverifikuar"
+msgstr "I paverifikuar"
 
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
@@ -2614,9 +2611,9 @@ msgid "Hi %(username)s!"
 msgstr "Njatjeta %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr "Faleminderit për krijimin e profilit te <a href=\"%(mdn_link)s\">Rrjeti i Zhvilluesve Mozilla (MDN)</a> - një bashkësi që krijon burime të shkëlqyera për zhvillues si ju."
+msgstr "Faleminderit për krijimin e profilit te <a href=\"%(mdn_link)s\">Dokumentimi Web i MDN-së</a> - një bashkësi që krijon burime të shkëlqyera për zhvillues si ju."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
