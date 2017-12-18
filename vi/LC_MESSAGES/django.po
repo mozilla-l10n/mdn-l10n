@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2017-12-04 07:33-0800\n"
+"POT-Creation-Date: 2017-12-18 10:39-0800\n"
 "PO-Revision-Date: 2017-09-03 03:23+0000\n"
 "Last-Translator: Cát Thành <dogeblossom@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -24,33 +24,29 @@ msgid "The wiki is in read-only mode."
 msgstr "Trang wiki ở chế độ chỉ đọc."
 
 #: jinja2/403.html:25
-msgid "Your profile has been banned from making edits."
-msgstr "Hồ sơ của bạn đã bị chặn quyền chỉnh sửa."
-
-#: jinja2/403.html:27
 msgid "You must sign in to view all history"
 msgstr "Bạn phải đăng nhập để xem toàn bộ lịch sử"
 
-#: jinja2/403.html:37 jinja2/handlers/400.html:21
+#: jinja2/403.html:35 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>Xin lỗi bạn %(name)s, chúng tôi e rằng chúng tôi không thể làm điều đó.</p>"
 
-#: jinja2/403.html:41 jinja2/handlers/400.html:25
+#: jinja2/403.html:39 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>Xin lỗi, chúng tôi e rằng chúng tôi không thể làm điều đó.</p>"
 
-#: jinja2/403.html:49
+#: jinja2/403.html:47
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li><a href=\"%(logout_url)s\">Đăng xuất</a> để thử lại.</li>"
 
-#: jinja2/403.html:53 jinja2/handlers/400.html:36
+#: jinja2/403.html:51 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li><a href=\"%(login_url)s\">Đăng nhập</a> để thử lại.</li>"
 
-#: jinja2/403.html:62
+#: jinja2/403.html:60
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -89,218 +85,218 @@ msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> bởi Matth
 msgid "Internal Server Error"
 msgstr "Sự cố máy chủ"
 
-#: jinja2/base.html:10 jinja2/base.html:103 jinja2/base.html:194
+#: jinja2/base.html:10 jinja2/base.html:102 jinja2/base.html:193
 msgid "MDN Web Docs"
 msgstr "Tài liệu Web MDN"
 
-#: jinja2/base.html:44 jinja2/base.html:49 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:45 jinja2/base.html:50 kuma/search/jinja2/search/plugin.html:3
 msgid "Mozilla Developer Network"
 msgstr "Mạng lưới các nhà phát triển Mozilla"
 
-#: jinja2/base.html:82
+#: jinja2/base.html:81
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN hiện tại đang ở chế độ bảo trì (chỉ có thể đọc)."
 
-#: jinja2/base.html:84
+#: jinja2/base.html:83
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
-#: jinja2/base.html:96
+#: jinja2/base.html:95
 msgid "Skip to main content"
 msgstr "Đi đến nội dung chính"
 
-#: jinja2/base.html:97
+#: jinja2/base.html:96
 msgid "Select language"
 msgstr "Lựa chọn ngôn ngữ"
 
-#: jinja2/base.html:98
+#: jinja2/base.html:97
 msgid "Skip to search"
 msgstr "Đi đến phần tìm kiếm"
 
-#: jinja2/base.html:108 kuma/core/translations/search/filter/tools/name.py:4
+#: jinja2/base.html:107 kuma/core/translations/search/filter/tools/name.py:4
 msgid "Tools"
 msgstr "Công cụ"
 
-#: jinja2/base.html:111
+#: jinja2/base.html:110
 msgid "Contribute to MDN"
 msgstr "Đóng góp cho MDN"
 
-#: jinja2/base.html:113
+#: jinja2/base.html:112
 msgid "Get started"
 msgstr "Bắt đầu"
 
-#: jinja2/base.html:114
+#: jinja2/base.html:113
 msgid "Review or localize docs"
 msgstr "Xem lại hoặc dịch các tài liệu"
 
-#: jinja2/base.html:117
+#: jinja2/base.html:116
 msgid "Site Tools"
 msgstr "Công cụ trên site"
 
-#: jinja2/base.html:119
+#: jinja2/base.html:118
 msgid "Revision dashboard"
 msgstr "Bảng sửa đổi"
 
-#: jinja2/base.html:120
+#: jinja2/base.html:119
 msgid "Documentation status"
 msgstr "Trạng thái tài liệu này"
 
-#: jinja2/base.html:128
+#: jinja2/base.html:127
 msgid "Technologies"
 msgstr "Công nghệ"
 
-#: jinja2/base.html:132 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
+#: jinja2/base.html:131 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
 msgid "HTML"
 msgstr "HTML"
 
-#: jinja2/base.html:133 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
+#: jinja2/base.html:132 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
 msgid "CSS"
 msgstr "CSS"
 
-#: jinja2/base.html:134 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
+#: jinja2/base.html:133 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: jinja2/base.html:135
+#: jinja2/base.html:134
 msgid "Graphics"
 msgstr "Đồ họa"
 
-#: jinja2/base.html:136
+#: jinja2/base.html:135
 msgid "HTTP"
 msgstr "HTTP"
 
-#: jinja2/base.html:137
+#: jinja2/base.html:136
 msgid "APIs / DOM"
 msgstr "APIs / DOM"
 
-#: jinja2/base.html:138
+#: jinja2/base.html:137
 #, fuzzy
 msgid "Browser Extensions"
 msgstr "WebExtensions"
 
-#: jinja2/base.html:139 kuma/core/translations/search/filter/mathml/name.py:4
+#: jinja2/base.html:138 kuma/core/translations/search/filter/mathml/name.py:4
 msgid "MathML"
 msgstr "MathML"
 
-#: jinja2/base.html:141
+#: jinja2/base.html:140
 msgid "References & Guides"
 msgstr "Tài liệu tham khảo & Hướng dẫn"
 
-#: jinja2/base.html:145 kuma/landing/jinja2/landing/homepage.html:47
+#: jinja2/base.html:144 kuma/landing/jinja2/landing/homepage.html:47
 msgid "Learn web development"
 msgstr "Học phát triển web"
 
-#: jinja2/base.html:146
+#: jinja2/base.html:145
 msgid "Tutorials"
 msgstr "Hướng dẫn"
 
-#: jinja2/base.html:147
+#: jinja2/base.html:146
 msgid "References"
 msgstr "Tài liệu tham khảo"
 
-#: jinja2/base.html:148
+#: jinja2/base.html:147
 msgid "Developer Guides"
 msgstr "Hướng dẫn nhà phát triển"
 
-#: jinja2/base.html:149
+#: jinja2/base.html:148
 msgid "Accessibility"
 msgstr "Khả năng truy cập"
 
-#: jinja2/base.html:150
+#: jinja2/base.html:149
 msgid "Game development"
 msgstr "Phát triển Game"
 
-#: jinja2/base.html:151
+#: jinja2/base.html:150
 msgid "...more docs"
 msgstr "...xem thêm tài liệu khác"
 
-#: jinja2/base.html:155 jinja2/base.html:201
+#: jinja2/base.html:154 jinja2/base.html:200
 msgid "Feedback"
 msgstr "Phản hồi"
 
-#: jinja2/base.html:159
+#: jinja2/base.html:158
 msgid "Get Firefox help"
 msgstr "Trợ giúp về Firefox"
 
-#: jinja2/base.html:160
+#: jinja2/base.html:159
 msgid "Get web development help"
 msgstr "Trợ giúp về phát triển web"
 
-#: jinja2/base.html:163
+#: jinja2/base.html:162
 msgid "Join the MDN community"
 msgstr "Tham gia cộng đồng MDN"
 
-#: jinja2/base.html:164
+#: jinja2/base.html:163
 msgid "Report a content problem"
 msgstr "Báo cáo vấn đề về nội dung"
 
-#: jinja2/base.html:165
+#: jinja2/base.html:164
 msgid "Report a bug"
 msgstr "Báo cáo bug"
 
-#: jinja2/base.html:172 jinja2/base.html:173 jinja2/base.html:175 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:33
+#: jinja2/base.html:171 jinja2/base.html:172 jinja2/base.html:174 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:33
 #: kuma/landing/jinja2/landing/homepage.html:38 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47
 #: kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: jinja2/base.html:198 kuma/landing/jinja2/landing/homepage.html:46
+#: jinja2/base.html:197 kuma/landing/jinja2/landing/homepage.html:46
 msgid "Web Technologies"
 msgstr "Công nghệ web"
 
-#: jinja2/base.html:199 kuma/landing/jinja2/landing/homepage.html:83
+#: jinja2/base.html:198 kuma/landing/jinja2/landing/homepage.html:83
 msgid "Learn Web Development"
 msgstr "Học phát triển web"
 
-#: jinja2/base.html:200
+#: jinja2/base.html:199
 msgid "About MDN"
 msgstr "Về MDN"
 
-#: jinja2/base.html:202 jinja2/base.html:215 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:201 jinja2/base.html:214 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/base.html:203 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:202 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/base.html:207 kuma/core/sections.py:13
+#: jinja2/base.html:206 kuma/core/sections.py:13
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: jinja2/base.html:211
+#: jinja2/base.html:210
 msgid "About"
 msgstr "Về chúng tôi"
 
-#: jinja2/base.html:212
+#: jinja2/base.html:211
 msgid "Contact Us"
 msgstr "Liên hệ với chúng tôi"
 
-#: jinja2/base.html:213
+#: jinja2/base.html:212
 msgid "Donate"
 msgstr "Quyên góp"
 
-#: jinja2/base.html:216 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:215 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr "Facebook"
 
-#: jinja2/base.html:217
+#: jinja2/base.html:216
 msgid "Instagram"
 msgstr "Instagram"
 
-#: jinja2/base.html:227
+#: jinja2/base.html:226
 msgid "Terms"
 msgstr "Điều khoản"
 
-#: jinja2/base.html:228
+#: jinja2/base.html:227
 msgid "Privacy"
 msgstr "Chính sách bảo mật"
 
-#: jinja2/base.html:229
+#: jinja2/base.html:228
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:233
+#: jinja2/base.html:232
 #, fuzzy, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla Developer Network và cá nhân những người đóng góp.</p> <p>Nội dung có sẵn dưới <a href=\"%(copyright_url)s\">bản quyền này</a>.</p>"
@@ -313,11 +309,11 @@ msgstr "<li><a href=\"/logout\">Đăng xuất</a> để thử lại.</li>"
 msgid "Search Firefox Help"
 msgstr "Tìm kiếm trợ giúp về Firefox"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:97
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:94
 msgid "Other languages:"
 msgstr "Các ngôn ngữ khác:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:108
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:105
 msgid "Go"
 msgstr "Đi đến"
 
@@ -771,7 +767,7 @@ msgid "File"
 msgstr "Tập tin"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1904
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1892
 msgid "Title"
 msgstr "Tiêu đề"
 
@@ -1167,7 +1163,7 @@ msgstr ""
 msgid "Trends Over Time, Ending %(date)s"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1857
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1845
 msgid "Revision"
 msgstr ""
 
@@ -2463,7 +2459,7 @@ msgstr "Trang"
 msgid "Date"
 msgstr "Ngày"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:326
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:307
 msgid "Edit page"
 msgstr "Chỉnh sửa trang"
 
@@ -2471,7 +2467,7 @@ msgstr "Chỉnh sửa trang"
 msgid "View complete diff"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:327
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:308
 msgid "View page history"
 msgstr ""
 
@@ -2988,134 +2984,134 @@ msgstr ""
 msgid "New article URL"
 msgstr ""
 
-#: kuma/wiki/models.py:90
+#: kuma/wiki/models.py:89
 #, python-format
 msgid "Parent %s does not exist."
 msgstr ""
 
-#: kuma/wiki/models.py:98
+#: kuma/wiki/models.py:97
 msgid "Document Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:99
+#: kuma/wiki/models.py:98
 msgid "Document Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:151
+#: kuma/wiki/models.py:150
 msgid "uploaded to the document"
 msgstr ""
 
-#: kuma/wiki/models.py:157
+#: kuma/wiki/models.py:156
 msgid "linked in the document content"
 msgstr ""
 
-#: kuma/wiki/models.py:171
+#: kuma/wiki/models.py:170
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr ""
 
-#: kuma/wiki/models.py:1540
+#: kuma/wiki/models.py:1528
 msgid "Review Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1541
+#: kuma/wiki/models.py:1529
 msgid "Review Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1547
+#: kuma/wiki/models.py:1535
 msgid "Localization Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1548
+#: kuma/wiki/models.py:1536
 msgid "Localization Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1581
+#: kuma/wiki/models.py:1569
 msgid "No table of contents"
 msgstr ""
 
-#: kuma/wiki/models.py:1582
+#: kuma/wiki/models.py:1570
 msgid "All levels"
 msgstr ""
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1571
 msgid "H2 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1584
+#: kuma/wiki/models.py:1572
 msgid "H3 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1585
+#: kuma/wiki/models.py:1573
 msgid "H4 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1687
+#: kuma/wiki/models.py:1675
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr ""
 
-#: kuma/wiki/models.py:1817
+#: kuma/wiki/models.py:1805
 msgid "IP address"
 msgstr ""
 
-#: kuma/wiki/models.py:1825
+#: kuma/wiki/models.py:1813
 msgid "User-Agent"
 msgstr ""
 
-#: kuma/wiki/models.py:1830
+#: kuma/wiki/models.py:1818
 msgid "HTTP Referrer"
 msgstr ""
 
-#: kuma/wiki/models.py:1838 kuma/wiki/models.py:1923
+#: kuma/wiki/models.py:1826 kuma/wiki/models.py:1911
 msgid "Data submitted to Akismet"
 msgstr ""
 
-#: kuma/wiki/models.py:1863
+#: kuma/wiki/models.py:1851
 msgid "Akismet submission"
 msgstr ""
 
-#: kuma/wiki/models.py:1864
+#: kuma/wiki/models.py:1852
 msgid "Akismet submissions"
 msgstr ""
 
-#: kuma/wiki/models.py:1908
+#: kuma/wiki/models.py:1896
 msgid "Slug"
 msgstr ""
 
-#: kuma/wiki/models.py:1916
+#: kuma/wiki/models.py:1904
 msgid "Document (optional)"
 msgstr ""
 
-#: kuma/wiki/models.py:1926
+#: kuma/wiki/models.py:1914
 msgid "reviewed"
 msgstr ""
 
-#: kuma/wiki/models.py:1937
+#: kuma/wiki/models.py:1925
 msgid "Needs Review"
 msgstr ""
 
-#: kuma/wiki/models.py:1938
+#: kuma/wiki/models.py:1926
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:1939
+#: kuma/wiki/models.py:1927
 msgid "Confirmed as Spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1940
+#: kuma/wiki/models.py:1928
 msgid "Review Unavailable"
 msgstr ""
 
-#: kuma/wiki/models.py:1941
+#: kuma/wiki/models.py:1929
 msgid "Akismet Error"
 msgstr ""
 
-#: kuma/wiki/models.py:1946
+#: kuma/wiki/models.py:1934
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1953
+#: kuma/wiki/models.py:1941
 msgid "Staff reviewer"
 msgstr ""
 
@@ -3250,75 +3246,71 @@ msgstr ""
 msgid "Restore this document"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:138
+#: kuma/wiki/jinja2/wiki/document.html:135
 msgid "Jump to:"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:162
-msgid "In This Article"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/document.html:177
+#: kuma/wiki/jinja2/wiki/document.html:158
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:188
+#: kuma/wiki/jinja2/wiki/document.html:169
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:196
+#: kuma/wiki/jinja2/wiki/document.html:177
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
 "a> in a few minutes."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:205
+#: kuma/wiki/jinja2/wiki/document.html:186
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
 "in a few minutes."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:216
+#: kuma/wiki/jinja2/wiki/document.html:197
 msgid "This is an experimental page."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:227
+#: kuma/wiki/jinja2/wiki/document.html:208
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Bản dịch này chưa hoàn thành. Xin hãy giúp <a href=\"%(translate_url)s\">dịch bài viết này</a> từ tiếng Anh."
 
-#: kuma/wiki/jinja2/wiki/document.html:232
+#: kuma/wiki/jinja2/wiki/document.html:213
 msgid "This translation is in progress."
 msgstr "Bản dịch này đang trong quá trình."
 
-#: kuma/wiki/jinja2/wiki/document.html:239
+#: kuma/wiki/jinja2/wiki/document.html:220
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Join us and help get the job done!</a><br> You can also read the "
 "article in <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:232
 msgid "This article doesn't have any content yet."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:260
+#: kuma/wiki/jinja2/wiki/document.html:241
 msgid "This article doesn't have approved content yet."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:266
+#: kuma/wiki/jinja2/wiki/document.html:247
 msgid "Document Tags and Contributors"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:272
+#: kuma/wiki/jinja2/wiki/document.html:253
 msgid "Contributors to this page:"
 msgstr "Những người đóng góp cho trang này:"
 
-#: kuma/wiki/jinja2/wiki/document.html:278
+#: kuma/wiki/jinja2/wiki/document.html:259
 msgid "Last updated by:"
 msgstr "Cập nhật lần cuối bởi:"
 
@@ -4106,27 +4098,27 @@ msgstr ""
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:656
+#: kuma/wiki/views/document.py:659
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Được chuyển hướng từ %(url)s"
 
-#: kuma/wiki/views/document.py:710
+#: kuma/wiki/views/document.py:713
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr ""
 
-#: kuma/wiki/views/document.py:786
+#: kuma/wiki/views/document.py:789
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:793
+#: kuma/wiki/views/document.py:796
 #, python-format
 msgid "Request parsing error: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:811
+#: kuma/wiki/views/document.py:814
 msgid "ETag precondition failed"
 msgstr ""
 
@@ -4138,7 +4130,7 @@ msgstr ""
 msgid "Autosuggest requires a partial title. For a full document index, see the main page."
 msgstr ""
 
-#: kuma/wiki/views/revision.py:145
+#: kuma/wiki/views/revision.py:146
 msgid "Document has been edited; please re-review."
 msgstr ""
 
@@ -4150,6 +4142,9 @@ msgstr "Bạn không thể dịch bài viết này."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "Your profile has been banned from making edits."
+#~ msgstr "Hồ sơ của bạn đã bị chặn quyền chỉnh sửa."
 
 #~ msgid "Was this article helpful?"
 #~ msgstr "Bài viết này có hữu ích hay không?"
