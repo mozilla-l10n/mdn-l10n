@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2017-12-18 10:39-0800\n"
+"POT-Creation-Date: 2018-01-09 08:55-0800\n"
 "PO-Revision-Date: 2017-12-12 06:01+0000\n"
 "Last-Translator: Marco Aurélio <fxhelp@yahoo.com>\n"
 "Language-Team: Portuguese (Brazilian) https://pontoon.mozilla.org/pt_BR/\n"
@@ -27,34 +27,39 @@ msgstr "A wiki está no modo somente leitura."
 msgid "You must sign in to view all history"
 msgstr "Você precisa entrar para ver todo histórico"
 
+#: jinja2/403.html:27
+#, fuzzy
+msgid "Your IP address has been banned."
+msgstr "Este perfil de usuário foi banido."
+
 # 83%
 # 100%
-#: jinja2/403.html:35 jinja2/handlers/400.html:21
+#: jinja2/403.html:37 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>Me desculpe %(name)s, receio que não podemos fazer isso.</p>"
 
 # 80%
 # 100%
-#: jinja2/403.html:39 jinja2/handlers/400.html:25
+#: jinja2/403.html:41 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>Me desculpe, receio que não podemos fazer isso.</p>"
 
 # 86%
 # 100%
-#: jinja2/403.html:47
+#: jinja2/403.html:49
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li><a href=\"%(logout_url)s\">Sair</a> e tentar novamente.</li>"
 
 # 86%
 # 100%
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:53 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li><a href=\"%(login_url)s\">Entrar</a> e tentar novamente.</li>"
 
-#: jinja2/403.html:60
+#: jinja2/403.html:62 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -88,6 +93,28 @@ msgstr "Este perfil de usuário foi banido."
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
 msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> por Matthew Inman de <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
+
+#: jinja2/429.html:5 jinja2/429.html:19
+msgid "Too Many Requests"
+msgstr ""
+
+#: jinja2/429.html:23
+#, python-format
+msgid "We're sorry %(name)s, you've made too many requests in a short time."
+msgstr ""
+
+#: jinja2/429.html:26
+msgid "We're sorry, we've received too many requests from your IP address in a short time."
+msgstr ""
+
+#: jinja2/429.html:28
+msgid "You can try again in about one minute."
+msgstr ""
+
+#: jinja2/429.html:36
+#, python-format
+msgid "You may be interested in other ways to <a href=\"%(content_url)s\">download MDN Web Docs content</a>."
+msgstr ""
 
 #: jinja2/500.html:5
 msgid "Internal Server Error"
@@ -951,7 +978,7 @@ msgstr "Web"
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/core/utils.py:432
+#: kuma/core/utils.py:426
 #, python-format
 msgid "Today at %s"
 msgstr "Hoje às %s"
@@ -4219,7 +4246,7 @@ msgstr "Erro de interpretação do pedido: %s"
 msgid "ETag precondition failed"
 msgstr "A pré-condição ETag falhou"
 
-#: kuma/wiki/views/edit.py:111
+#: kuma/wiki/views/edit.py:113
 msgid "Sections may only be edited inline."
 msgstr "Seções só podem ser editadas em linha."
 

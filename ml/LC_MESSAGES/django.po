@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2017-12-18 10:39-0800\n"
+"POT-Creation-Date: 2018-01-09 08:55-0800\n"
 "PO-Revision-Date: 2017-11-29 21:10+0000\n"
 "Last-Translator: Bady <ambadyanands@disroot.org>\n"
 "Language-Team: Malayalam https://pontoon.mozilla.org/ml/\n"
@@ -26,26 +26,31 @@ msgstr "വിക്കി വായന മാത്രം മോഡിലാണ
 msgid "You must sign in to view all history"
 msgstr "എല്ലാ ചരിത്രവും കാണാൻ നിങ്ങൾ പ്രവേശിക്കേണ്ടതുണ്ട്"
 
-#: jinja2/403.html:35 jinja2/handlers/400.html:21
+#: jinja2/403.html:27
+#, fuzzy
+msgid "Your IP address has been banned."
+msgstr "തിരുത്തലുകൾ നടത്തുന്നതിൽ നിന്നും നിങ്ങളുടെ പ്രൊഫൈൽ വിലക്കപ്പെട്ടിരിക്കുന്നു."
+
+#: jinja2/403.html:37 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>ഞങ്ങളോട് ക്ഷമിക്കുക %(name)s, ഞങ്ങൾക്ക് അങ്ങനെ ചെയ്യാൻ കഴിയുമെന്ന് തോന്നുന്നില്ല.</p>"
 
-#: jinja2/403.html:39 jinja2/handlers/400.html:25
+#: jinja2/403.html:41 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>ഞങ്ങളോട് ക്ഷമിക്കുക, ഞങ്ങൾക്ക് അങ്ങനെ ചെയ്യാൻ കഴിയുമെന്ന് തോന്നുന്നില്ല.</p>"
 
-#: jinja2/403.html:47
+#: jinja2/403.html:49
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li> വീണ്ടും ശ്രമിക്കുവാൻ <a href=\"%(logout_url)s\">പുറത്ത് കടക്കുക</a>.</li>"
 
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:53 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li> വീണ്ടും ശ്രമിക്കുവാൻ <a href=\"%(login_url)s\">പ്രവേശിക്കുക</a>.</li>"
 
-#: jinja2/403.html:60
+#: jinja2/403.html:62 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -76,6 +81,28 @@ msgstr ""
 #: jinja2/404.html:44
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
+msgstr ""
+
+#: jinja2/429.html:5 jinja2/429.html:19
+msgid "Too Many Requests"
+msgstr ""
+
+#: jinja2/429.html:23
+#, python-format
+msgid "We're sorry %(name)s, you've made too many requests in a short time."
+msgstr ""
+
+#: jinja2/429.html:26
+msgid "We're sorry, we've received too many requests from your IP address in a short time."
+msgstr ""
+
+#: jinja2/429.html:28
+msgid "You can try again in about one minute."
+msgstr ""
+
+#: jinja2/429.html:36
+#, python-format
+msgid "You may be interested in other ways to <a href=\"%(content_url)s\">download MDN Web Docs content</a>."
 msgstr ""
 
 #: jinja2/500.html:5
@@ -925,7 +952,7 @@ msgstr "വെബ്"
 msgid "Moz Hacks"
 msgstr ""
 
-#: kuma/core/utils.py:432
+#: kuma/core/utils.py:426
 #, python-format
 msgid "Today at %s"
 msgstr ""
@@ -4129,7 +4156,7 @@ msgstr ""
 msgid "ETag precondition failed"
 msgstr ""
 
-#: kuma/wiki/views/edit.py:111
+#: kuma/wiki/views/edit.py:113
 msgid "Sections may only be edited inline."
 msgstr ""
 
@@ -4149,6 +4176,3 @@ msgstr ""
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
-
-#~ msgid "Your profile has been banned from making edits."
-#~ msgstr "തിരുത്തലുകൾ നടത്തുന്നതിൽ നിന്നും നിങ്ങളുടെ പ്രൊഫൈൽ വിലക്കപ്പെട്ടിരിക്കുന്നു."

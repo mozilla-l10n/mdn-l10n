@@ -2,9 +2,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MDN 2017.21\n"
+"Project-Id-Version: MDN 2018.01\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2017-12-18 10:46-0800\n"
+"POT-Creation-Date: 2018-01-09 08:55-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,26 +25,30 @@ msgstr ""
 msgid "You must sign in to view all history"
 msgstr ""
 
-#: jinja2/403.html:35 jinja2/handlers/400.html:21
+#: jinja2/403.html:27
+msgid "Your IP address has been banned."
+msgstr ""
+
+#: jinja2/403.html:37 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr ""
 
-#: jinja2/403.html:39 jinja2/handlers/400.html:25
+#: jinja2/403.html:41 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr ""
 
-#: jinja2/403.html:47
+#: jinja2/403.html:49
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr ""
 
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:53 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr ""
 
-#: jinja2/403.html:60
+#: jinja2/403.html:62 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a "
 "href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" "
@@ -84,6 +88,32 @@ msgstr ""
 msgid ""
 "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman"
 " of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
+msgstr ""
+
+#: jinja2/429.html:5 jinja2/429.html:19
+msgid "Too Many Requests"
+msgstr ""
+
+#: jinja2/429.html:23
+#, python-format
+msgid "We're sorry %(name)s, you've made too many requests in a short time."
+msgstr ""
+
+#: jinja2/429.html:26
+msgid ""
+"We're sorry, we've received too many requests from your IP address in a short"
+" time."
+msgstr ""
+
+#: jinja2/429.html:28
+msgid "You can try again in about one minute."
+msgstr ""
+
+#: jinja2/429.html:36
+#, python-format
+msgid ""
+"You may be interested in other ways to <a href=\"%(content_url)s\">download "
+"MDN Web Docs content</a>."
 msgstr ""
 
 #: jinja2/500.html:5
@@ -1002,7 +1032,7 @@ msgstr ""
 msgid "Moz Hacks"
 msgstr ""
 
-#: kuma/core/utils.py:432
+#: kuma/core/utils.py:426
 #, python-format
 msgid "Today at %s"
 msgstr ""
@@ -4568,7 +4598,7 @@ msgstr ""
 msgid "ETag precondition failed"
 msgstr ""
 
-#: kuma/wiki/views/edit.py:111
+#: kuma/wiki/views/edit.py:113
 msgid "Sections may only be edited inline."
 msgstr ""
 

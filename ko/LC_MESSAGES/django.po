@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2017-12-18 10:39-0800\n"
+"POT-Creation-Date: 2018-01-09 08:55-0800\n"
 "PO-Revision-Date: 2017-12-08 02:31+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -28,32 +28,37 @@ msgstr "위키가 읽기전용으로 설정되었습니다."
 msgid "You must sign in to view all history"
 msgstr "전체 기록을 보려면 로그인해야 합니다."
 
+#: jinja2/403.html:27
+#, fuzzy
+msgid "Your IP address has been banned."
+msgstr "사용자 계정이 차단되었습니다."
+
 # 83%
-#: jinja2/403.html:35 jinja2/handlers/400.html:21
+#: jinja2/403.html:37 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>죄송합니다만 %(name)s님, 그렇게 할 수 없어서 유감입니다.</p>"
 
 # 80%
-#: jinja2/403.html:39 jinja2/handlers/400.html:25
+#: jinja2/403.html:41 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>죄송하지만, 그렇게 할 수 없습니다.</p>"
 
 # 86%
 # 100%
-#: jinja2/403.html:47
+#: jinja2/403.html:49
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li><a href=\"%(logout_url)s\">로그 아웃</a> 후 다시 시도 하세요.</li>"
 
 # 86%
 # 100%
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:53 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li><a href=\"%(login_url)s\">로그인</a> 후 다시 시도하세요.</li>"
 
-#: jinja2/403.html:60
+#: jinja2/403.html:62 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -87,6 +92,28 @@ msgstr "사용자 계정이 차단되었습니다."
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
 msgstr "<a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>의 Matthew Inman가 만든 <a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a>"
+
+#: jinja2/429.html:5 jinja2/429.html:19
+msgid "Too Many Requests"
+msgstr ""
+
+#: jinja2/429.html:23
+#, python-format
+msgid "We're sorry %(name)s, you've made too many requests in a short time."
+msgstr ""
+
+#: jinja2/429.html:26
+msgid "We're sorry, we've received too many requests from your IP address in a short time."
+msgstr ""
+
+#: jinja2/429.html:28
+msgid "You can try again in about one minute."
+msgstr ""
+
+#: jinja2/429.html:36
+#, python-format
+msgid "You may be interested in other ways to <a href=\"%(content_url)s\">download MDN Web Docs content</a>."
+msgstr ""
 
 #: jinja2/500.html:5
 msgid "Internal Server Error"
@@ -965,7 +992,7 @@ msgstr "웹"
 msgid "Moz Hacks"
 msgstr "개발자 블로그"
 
-#: kuma/core/utils.py:432
+#: kuma/core/utils.py:426
 #, python-format
 msgid "Today at %s"
 msgstr "%s의 오늘"
@@ -4228,7 +4255,7 @@ msgstr "처리 요청 중 오류: %s"
 msgid "ETag precondition failed"
 msgstr "ETag 이전 조건 실패"
 
-#: kuma/wiki/views/edit.py:111
+#: kuma/wiki/views/edit.py:113
 msgid "Sections may only be edited inline."
 msgstr "항목 내 인라인 편집만 가능합니다."
 
