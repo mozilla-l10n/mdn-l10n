@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-09 08:55-0800\n"
+"POT-Creation-Date: 2018-01-23 11:45-0800\n"
 "PO-Revision-Date: 2017-12-08 08:04+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
@@ -2363,12 +2363,12 @@ msgstr "Ново действие от потребител:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:97 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:129 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:150
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:170 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:189 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:212
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:340
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:367
 msgid "View Page"
 msgstr "Преглед на страницата"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:101 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:216 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:240
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:364 kuma/wiki/jinja2/wiki/includes/buttons.html:67
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:67
 msgid "History"
 msgstr "История"
 
@@ -2804,66 +2804,66 @@ msgstr "[MDN][%(locale)s][Нова] Страница „%(document_title)s“, �
 msgid "[MDN][%(locale)s] Page \"%(document_title)s\" changed by %(creator)s"
 msgstr "[MDN][%(locale)s] Страница „%(document_title)s“, променена от %(creator)s"
 
-#: kuma/wiki/feeds.py:28
+#: kuma/wiki/feeds.py:29
 msgid "MDN documents"
 msgstr "MDN документи"
 
-#: kuma/wiki/feeds.py:29
+#: kuma/wiki/feeds.py:30
 msgid "Documents authored by MDN users"
 msgstr "Документи, създадени от потребители на MDN"
 
-#: kuma/wiki/feeds.py:30
+#: kuma/wiki/feeds.py:31
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:148
+#: kuma/wiki/feeds.py:175
 msgid "MDN recent document changes"
 msgstr "Скоро променени документи в MDN"
 
-#: kuma/wiki/feeds.py:149
+#: kuma/wiki/feeds.py:176
 msgid "Recent changes to MDN documents"
 msgstr "Скоро променени документи в MDN"
 
-#: kuma/wiki/feeds.py:155
+#: kuma/wiki/feeds.py:182
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "Скорошни промени в MDN документи, отбелязани като %s"
 
-#: kuma/wiki/feeds.py:182
+#: kuma/wiki/feeds.py:209
 msgid "MDN documents in need of review"
 msgstr "Документи в MDN, нуждаещи се от преглед"
 
-#: kuma/wiki/feeds.py:183
+#: kuma/wiki/feeds.py:210
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "Скоро променяни документи в MDN, нуждаещи се от преглед"
 
-#: kuma/wiki/feeds.py:189
+#: kuma/wiki/feeds.py:216
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "MDN документи за %s преглед"
 
-#: kuma/wiki/feeds.py:193
+#: kuma/wiki/feeds.py:220
 msgid "MDN documents for review"
 msgstr "MDN документи за преглед"
 
-#: kuma/wiki/feeds.py:223
+#: kuma/wiki/feeds.py:250
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr ""
 
-#: kuma/wiki/feeds.py:259
+#: kuma/wiki/feeds.py:286
 msgid "MDN recent revisions"
 msgstr ""
 
-#: kuma/wiki/feeds.py:260
+#: kuma/wiki/feeds.py:287
 msgid "Recent revisions to MDN documents"
 msgstr "Наскоро променени документи в MDN"
 
-#: kuma/wiki/feeds.py:343
+#: kuma/wiki/feeds.py:370
 msgid "Edit Page"
 msgstr "Промяна на страница"
 
-#: kuma/wiki/feeds.py:351
+#: kuma/wiki/feeds.py:378
 msgid "Show comparison"
 msgstr ""
 
@@ -3330,10 +3330,10 @@ msgid "This translation is in progress."
 msgstr "Преводът на тази статия е незавършен."
 
 #: kuma/wiki/jinja2/wiki/document.html:220
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Join us and help get the job done!</a><br> You can also read the "
-"article in <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
+"Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
+"<a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
 "Доброволците ни все още не са превели статията на <bdi>%(locale)s</bdi>. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Присъединете се и помогнете да свършим тая работа!</a><br>Можете да "
 "прочетете статията и на <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."

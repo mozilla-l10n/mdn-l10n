@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-09 08:55-0800\n"
+"POT-Creation-Date: 2018-01-23 11:45-0800\n"
 "PO-Revision-Date: 2017-12-09 16:29+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -2389,12 +2389,12 @@ msgstr "Veprim i ri nga përdoruesi:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:97 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:129 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:150
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:170 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:189 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:212
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:340
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:367
 msgid "View Page"
 msgstr "Shihni Faqen"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:101 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:216 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:240
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:364 kuma/wiki/jinja2/wiki/includes/buttons.html:67
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:67
 msgid "History"
 msgstr "Historik"
 
@@ -2840,66 +2840,66 @@ msgstr "[MDN][%(locale)s][New] Faqja \"%(document_title)s\" krijuar nga %(creato
 msgid "[MDN][%(locale)s] Page \"%(document_title)s\" changed by %(creator)s"
 msgstr "[MDN][%(locale)s] Faqja \"%(document_title)s\" ndryshuar nga %(creator)s"
 
-#: kuma/wiki/feeds.py:28
+#: kuma/wiki/feeds.py:29
 msgid "MDN documents"
 msgstr "Dokumente MDN"
 
-#: kuma/wiki/feeds.py:29
+#: kuma/wiki/feeds.py:30
 msgid "Documents authored by MDN users"
 msgstr "Dokumente të krijuar nga përdorues të MDN-së"
 
-#: kuma/wiki/feeds.py:30
+#: kuma/wiki/feeds.py:31
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:148
+#: kuma/wiki/feeds.py:175
 msgid "MDN recent document changes"
 msgstr "Ndryshime së fundi në dokumente MDN"
 
-#: kuma/wiki/feeds.py:149
+#: kuma/wiki/feeds.py:176
 msgid "Recent changes to MDN documents"
 msgstr "Ndryshime te dokumente MDN tani së fundi"
 
-#: kuma/wiki/feeds.py:155
+#: kuma/wiki/feeds.py:182
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "Ndryshime MDN së fundi te dokumente të etiketuar me %s"
 
-#: kuma/wiki/feeds.py:182
+#: kuma/wiki/feeds.py:209
 msgid "MDN documents in need of review"
 msgstr "Dokumente MDN që lypin shqyrtim"
 
-#: kuma/wiki/feeds.py:183
+#: kuma/wiki/feeds.py:210
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "Ndryshime së fundi te dokumente MDN që lypin shqyrtim"
 
-#: kuma/wiki/feeds.py:189
+#: kuma/wiki/feeds.py:216
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "Dokumente MDN për shqyrtime %s"
 
-#: kuma/wiki/feeds.py:193
+#: kuma/wiki/feeds.py:220
 msgid "MDN documents for review"
 msgstr "Dokumente MDN për shqyrtim"
 
-#: kuma/wiki/feeds.py:223
+#: kuma/wiki/feeds.py:250
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr "Përkthime '%s' te MND që lypin përditësim"
 
-#: kuma/wiki/feeds.py:259
+#: kuma/wiki/feeds.py:286
 msgid "MDN recent revisions"
 msgstr "Rishikime së fundi te MDN"
 
-#: kuma/wiki/feeds.py:260
+#: kuma/wiki/feeds.py:287
 msgid "Recent revisions to MDN documents"
 msgstr "Rishikime së fundi te dokumente MDN"
 
-#: kuma/wiki/feeds.py:343
+#: kuma/wiki/feeds.py:370
 msgid "Edit Page"
 msgstr "Përpunoni Faqen"
 
-#: kuma/wiki/feeds.py:351
+#: kuma/wiki/feeds.py:378
 msgid "Show comparison"
 msgstr "Shfaq krahasime"
 
@@ -3379,10 +3379,10 @@ msgid "This translation is in progress."
 msgstr "Përkthimi është në kryerje e sipër."
 
 #: kuma/wiki/jinja2/wiki/document.html:220
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Join us and help get the job done!</a><br> You can also read the "
-"article in <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
+"Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
+"<a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
 "Vullnetarët tanë s’e kanë përkthyer ende në <bdi>%(locale)s</bdi> këtë artikull. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Merrni pjesë dhe ndihmoni të mbarohet kjo punë!</a><br> Mund ta "
 "lexoni artikullin edhe në <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."

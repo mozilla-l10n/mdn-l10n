@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-09 08:52-0800\n"
+"POT-Creation-Date: 2018-01-23 11:44-0800\n"
 "PO-Revision-Date: 2017-12-05 18:13+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
@@ -65,6 +65,24 @@ msgstr "%(sentDate)s от %(user)s"
 #, python-format
 msgid "Error submitting as %(type)s"
 msgstr "Ошибка отправки как %(type)s"
+
+#: kuma/static/js/lang-switcher.js:50
+#, python-format
+msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
+msgstr ""
+
+#: kuma/static/js/lang-switcher.js:54
+msgid "Yes"
+msgstr "Да"
+
+#: kuma/static/js/lang-switcher.js:55
+msgid "No"
+msgstr "Нет"
+
+#: kuma/static/js/lang-switcher.js:56
+#, fuzzy
+msgid "Never"
+msgstr "Вернуть"
 
 #: kuma/static/js/moz-jquery-plugins.js:107
 msgid "No selection"
@@ -354,12 +372,6 @@ msgstr "По умолчанию"
 
 #~ msgid "Did this page help you?"
 #~ msgstr "Эта страница помогла вам?"
-
-#~ msgid "Yes"
-#~ msgstr "Да"
-
-#~ msgid "No"
-#~ msgstr "Нет"
 
 #~ msgid "Never ask me again"
 #~ msgstr "Никогда больше не спрашивать"

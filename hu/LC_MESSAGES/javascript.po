@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-09 08:52-0800\n"
+"POT-Creation-Date: 2018-01-23 11:44-0800\n"
 "PO-Revision-Date: 2017-12-04 16:26+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -65,6 +65,24 @@ msgstr "%(sentDate)s, beküldő: %(user)s"
 #, python-format
 msgid "Error submitting as %(type)s"
 msgstr "Hiba a benyújtáskor mint %(type)s"
+
+#: kuma/static/js/lang-switcher.js:50
+#, python-format
+msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
+msgstr ""
+
+#: kuma/static/js/lang-switcher.js:54
+msgid "Yes"
+msgstr "Igen"
+
+#: kuma/static/js/lang-switcher.js:55
+msgid "No"
+msgstr "Nem"
+
+#: kuma/static/js/lang-switcher.js:56
+#, fuzzy
+msgid "Never"
+msgstr "Visszaállítás"
 
 #: kuma/static/js/moz-jquery-plugins.js:107
 msgid "No selection"
@@ -354,12 +372,6 @@ msgstr "Alapértelmezett"
 
 #~ msgid "Did this page help you?"
 #~ msgstr "Segített ez az oldal?"
-
-#~ msgid "Yes"
-#~ msgstr "Igen"
-
-#~ msgid "No"
-#~ msgstr "Nem"
 
 #~ msgid "Never ask me again"
 #~ msgstr "Ez a kérdés a jövőben ne jelenjen meg"
