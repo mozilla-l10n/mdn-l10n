@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-23 11:45-0800\n"
+"POT-Creation-Date: 2018-01-29 13:33-0800\n"
 "PO-Revision-Date: 2018-01-18 21:23+0000\n"
 "Last-Translator: ybouhamam <ybouhamam@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -111,13 +111,9 @@ msgstr "Ahat tebɣiḍ iberdan nniḍen ɣer <a href=\"%(content_url)s\">sider M
 msgid "Internal Server Error"
 msgstr "Tuccḍa tagensant n uqeddac"
 
-#: jinja2/base.html:10 jinja2/base.html:102 jinja2/base.html:193
+#: jinja2/base.html:10 jinja2/base.html:45 jinja2/base.html:50 jinja2/base.html:102 jinja2/base.html:193 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Isemliyen Web n MDN"
-
-#: jinja2/base.html:45 jinja2/base.html:50 kuma/search/jinja2/search/plugin.html:3
-msgid "Mozilla Developer Network"
-msgstr "Aẓeṭṭa n ineflayen n Mozilla"
 
 #: jinja2/base.html:81
 msgid "MDN is currently in read-only maintenance mode."
@@ -334,11 +330,11 @@ msgstr "<li><a href=\"/logout\">Ffeɣ</a> u ɛreḍ tikelt nniḍen.</li>"
 msgid "Search Firefox Help"
 msgstr "Nadi tallalt n Firefox"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:94
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:93
 msgid "Other languages:"
 msgstr "Tutlayin nniḍen:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:105
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:104
 msgid "Go"
 msgstr "Bdu"
 
@@ -794,7 +790,7 @@ msgid "File"
 msgstr "Afaylu"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1892
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1902
 msgid "Title"
 msgstr "Azwel"
 
@@ -1198,7 +1194,7 @@ msgstr "Imzizdig"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Akken iteddu umahil deg akud, Ad ifak di %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1845
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1855
 msgid "Revision"
 msgstr "Aɛiwed n tmuɣli"
 
@@ -1295,9 +1291,8 @@ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-clas
 msgstr "Ahil Mozilla Developer Network (MDN) Fellowship yettaɛṛad-d ineflayen web yettwasnen deg umaḍal akked ad d-mudden tiktiwin n umaḍal akked Mozilla."
 
 #: kuma/landing/jinja2/landing/homepage.html:15
-msgid ""
-"The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like "
-"Firefox OS."
+#, fuzzy
+msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
 msgstr ""
 "Mozilla Developer Network (MDN) yettmuddu-d talɣut ɣef titiknulujiyin Web yeldin am HTML, CSS akked APIs yettuseqdacen deg ismal web akked isnasen HTML5. Ad naf daɣen tasemlit ɣef ifarisen Mozilla "
 "am Firefox OS."
@@ -1620,10 +1615,11 @@ msgstr "isem n ugraw"
 msgid "Search Unavailable"
 msgstr "Anadi ulac-it"
 
-#. Search Mozilla Developer Network documentation
+#. Search MDN Web Docs
 #: kuma/search/jinja2/search/plugin.html:5
-msgid "Search Mozilla Developer Network documentation"
-msgstr "Nadi tasemlit n uẓeṭṭa n uneflay Mozilla"
+#, fuzzy
+msgid "Search MDN Web Docs"
+msgstr "Isemliyen Web n MDN"
 
 #: kuma/search/jinja2/search/results.html:14
 #, python-format
@@ -2513,7 +2509,7 @@ msgstr "Asebter"
 msgid "Date"
 msgstr "Azemz"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:307
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:306
 msgid "Edit page"
 msgstr "Ẓreg asebter"
 
@@ -2521,7 +2517,7 @@ msgstr "Ẓreg asebter"
 msgid "View complete diff"
 msgstr "Wali akk amgired"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:308
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:307
 msgid "View page history"
 msgstr "Wali amazray n usebter"
 
@@ -3077,108 +3073,108 @@ msgstr "yettucudd deg ugbur n isemli"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Ur tezmireḍ ara ad tessedduḍ %(attachment_id)s deqs n tikal ɣer isemli %(document_id)s"
 
-#: kuma/wiki/models.py:1528
+#: kuma/wiki/models.py:1538
 msgid "Review Tag"
 msgstr "Tabzimt n tɣuṛi/awali tikelt nniḍen"
 
-#: kuma/wiki/models.py:1529
+#: kuma/wiki/models.py:1539
 msgid "Review Tags"
 msgstr "Tibzimin n tɣuṛi/awali tikelt nniḍen"
 
-#: kuma/wiki/models.py:1535
+#: kuma/wiki/models.py:1545
 msgid "Localization Tag"
 msgstr "Tabzimt n usideg"
 
-#: kuma/wiki/models.py:1536
+#: kuma/wiki/models.py:1546
 msgid "Localization Tags"
 msgstr "Tibzimin n usideg"
 
-#: kuma/wiki/models.py:1569
+#: kuma/wiki/models.py:1579
 msgid "No table of contents"
 msgstr "Ulac tafelwit n ugbur"
 
-#: kuma/wiki/models.py:1570
+#: kuma/wiki/models.py:1580
 msgid "All levels"
 msgstr "Akk iswiren"
 
-#: kuma/wiki/models.py:1571
+#: kuma/wiki/models.py:1581
 msgid "H2 and higher"
 msgstr "H2 neɣ ugar"
 
-#: kuma/wiki/models.py:1572
+#: kuma/wiki/models.py:1582
 msgid "H3 and higher"
 msgstr "H3 neɣ ugar"
 
-#: kuma/wiki/models.py:1573
+#: kuma/wiki/models.py:1583
 msgid "H4 and higher"
 msgstr "H4 neɣ ugar"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1685
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Yessefk aɛiwed n tmuɣli ad yebnu ɣef uɛid n tmuɣli n isemli %(locale)s. Asulay ID n uɛiwed n tmuɣli %(id)s ur imeɣri  ara akked usebdad agi."
 
-#: kuma/wiki/models.py:1805
+#: kuma/wiki/models.py:1815
 msgid "IP address"
 msgstr "Tansa IP"
 
-#: kuma/wiki/models.py:1813
+#: kuma/wiki/models.py:1823
 msgid "User-Agent"
 msgstr "Aseqdac-Ameggi"
 
-#: kuma/wiki/models.py:1818
+#: kuma/wiki/models.py:1828
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1826 kuma/wiki/models.py:1911
+#: kuma/wiki/models.py:1836 kuma/wiki/models.py:1921
 msgid "Data submitted to Akismet"
 msgstr "Isefka ttwaznen i Akismet"
 
-#: kuma/wiki/models.py:1851
+#: kuma/wiki/models.py:1861
 msgid "Akismet submission"
 msgstr "Anekcum Akismet"
 
-#: kuma/wiki/models.py:1852
+#: kuma/wiki/models.py:1862
 msgid "Akismet submissions"
 msgstr "Inekcumen Akismet"
 
-#: kuma/wiki/models.py:1896
+#: kuma/wiki/models.py:1906
 msgid "Slug"
 msgstr "Asulay n tensa URL"
 
-#: kuma/wiki/models.py:1904
+#: kuma/wiki/models.py:1914
 msgid "Document (optional)"
 msgstr "Isemli (afrayan)"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1924
 msgid "reviewed"
 msgstr "yettuwal/yettwaɣṛa tikelt nniḍen"
 
-#: kuma/wiki/models.py:1925
+#: kuma/wiki/models.py:1935
 msgid "Needs Review"
 msgstr "Yesra awal/taɣuri tikelt nniḍen"
 
-#: kuma/wiki/models.py:1926
+#: kuma/wiki/models.py:1936
 msgid "Ham / False Positive"
 msgstr "Agbur ameɣtu / Mačči d ummid"
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1937
 msgid "Confirmed as Spam"
 msgstr "Yettwasentem d aspam"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1938
 msgid "Review Unavailable"
 msgstr "Aɛiwed n tmuɣli ulac-it"
 
-#: kuma/wiki/models.py:1929
+#: kuma/wiki/models.py:1939
 msgid "Akismet Error"
 msgstr "Tuucḍa Akismet"
 
-#: kuma/wiki/models.py:1934
+#: kuma/wiki/models.py:1944
 msgid "Review of Akismet's classification as spam"
 msgstr "Taɣuṛi nniḍen n usmizzwer s uspam sɣuṛ Akismet"
 
-#: kuma/wiki/models.py:1941
+#: kuma/wiki/models.py:1951
 msgid "Staff reviewer"
 msgstr "Amseɣtay n terbaɛt"
 
@@ -3317,21 +3313,21 @@ msgstr "Acuɣer tukksa"
 msgid "Restore this document"
 msgstr "Err-d isemli agi"
 
-#: kuma/wiki/jinja2/wiki/document.html:135
+#: kuma/wiki/jinja2/wiki/document.html:134
 msgid "Jump to:"
 msgstr "Ɛeddi ar:"
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:157
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Isemli(agi ur d-iban ara yakan, ihi ur d-yettban ara skud  MDN yella deg <a href=\"%(url)s\">uskar n useggem</a>. Ma ulac aɣilif, uɣal-d tikelt-nniḍen ticki ifuk useggem."
 
-#: kuma/wiki/jinja2/wiki/document.html:169
+#: kuma/wiki/jinja2/wiki/document.html:168
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Isemli agi yerna-t unagraw i tikelt tamezwarut. Ma ulac aɣilif <a href=\"%(url)s\">smiren asebter agi</a> akka kra n tesdatin akken ad twaliḍ agbur ummid."
 
-#: kuma/wiki/jinja2/wiki/document.html:177
+#: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3340,7 +3336,7 @@ msgstr ""
 "Aleqqem n isemli agi <abbr title=\"%(started_at)s\">iteddu akka tura</abbr>. Ma yella agbur n daw-a yettban ur yemmid ara neɣ yella wayen ixuṣṣen, ma ulac aɣilif <a href=\"%(url)s\">smiren asebter "
 "agi</a> di kra n tesdatin."
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3349,20 +3345,20 @@ msgstr ""
 "Asnifel n isemli agi <abbr title=\"%(scheduled_at)s\">ihegga yakan</abbr>. Ma yella gbur daw-a ur yemmid aneɣ yella wayen ixuṣṣen,  <a href=\"%(url)s\">smiren asebter agi</a> ma ulac aɣilif akka "
 "kra n tesdatin."
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:196
 msgid "This is an experimental page."
 msgstr "Wagi d asebter anaruman"
 
-#: kuma/wiki/jinja2/wiki/document.html:208
+#: kuma/wiki/jinja2/wiki/document.html:207
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Tasuqilt agi ur temmid ara. Ma ulac aɣilif, mudd afus di <a href=\"%(translate_url)s\">tsuqilt n umagrad agi</a> si teglizit."
 
-#: kuma/wiki/jinja2/wiki/document.html:213
+#: kuma/wiki/jinja2/wiki/document.html:212
 msgid "This translation is in progress."
 msgstr "Tasuqilt agi tetteddu."
 
-#: kuma/wiki/jinja2/wiki/document.html:220
+#: kuma/wiki/jinja2/wiki/document.html:219
 #, fuzzy, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3371,23 +3367,23 @@ msgstr ""
 "Iwiziwen-nneɣ ur suqlen ara amagrad-agi yakan ar <bdi>%(locale)s</bdi>. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Ddu-d yid-neɣ udiɣ mudd-d afus akken ad tettwag tsuqilt!</a><br> Tzemreḍ "
 "daɣen ad teɣreḍ amagrad-agi s <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:232
+#: kuma/wiki/jinja2/wiki/document.html:231
 msgid "This article doesn't have any content yet."
 msgstr "Amargad agi ur ɣur-s ara yakan agbur."
 
-#: kuma/wiki/jinja2/wiki/document.html:241
+#: kuma/wiki/jinja2/wiki/document.html:240
 msgid "This article doesn't have approved content yet."
 msgstr "Amagrad agi ur igbir ara yakan agbur yettwasentmen."
 
-#: kuma/wiki/jinja2/wiki/document.html:247
+#: kuma/wiki/jinja2/wiki/document.html:246
 msgid "Document Tags and Contributors"
 msgstr "Tibzimin akked imttekkiyen icuddden ɣer isemli"
 
-#: kuma/wiki/jinja2/wiki/document.html:253
+#: kuma/wiki/jinja2/wiki/document.html:252
 msgid "Contributors to this page:"
 msgstr "Imttekiyen deg usebter agi:"
 
-#: kuma/wiki/jinja2/wiki/document.html:259
+#: kuma/wiki/jinja2/wiki/document.html:258
 msgid "Last updated by:"
 msgstr "Asnifel anneggaru sɣur:"
 
@@ -4184,27 +4180,27 @@ msgstr "Teḍra-d tuccḍa deg usirew n ugbur."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Isemli agi yella yakan. Tamawt : ur tezmireḍ ara ad terreḍ lqem n isemli yettwasemselsin skud ur tekkiseḍ ara awelleh ines."
 
-#: kuma/wiki/views/document.py:659
+#: kuma/wiki/views/document.py:681
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Yettweleh-d si %(url)s"
 
-#: kuma/wiki/views/document.py:713
+#: kuma/wiki/views/document.py:735
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Lemdeɣ ɣef %(title)s di MDN."
 
-#: kuma/wiki/views/document.py:789
+#: kuma/wiki/views/document.py:813
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Anaw n ugbur ur yettusefrak ara: %s"
 
-#: kuma/wiki/views/document.py:796
+#: kuma/wiki/views/document.py:820
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Tuccḍa n tesleṭ n tuttra: %s"
 
-#: kuma/wiki/views/document.py:814
+#: kuma/wiki/views/document.py:838
 msgid "ETag precondition failed"
 msgstr "Tawtilt tuzwirt ETag ur teddi ara"
 
@@ -4228,6 +4224,12 @@ msgstr "Ur tezmireḍ ara ad tessuqleḍ isemli agi."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Aqeddac Elasticsearch : %(backend)s"
+
+#~ msgid "Mozilla Developer Network"
+#~ msgstr "Aẓeṭṭa n ineflayen n Mozilla"
+
+#~ msgid "Search Mozilla Developer Network documentation"
+#~ msgstr "Nadi tasemlit n uẓeṭṭa n uneflay Mozilla"
 
 #~ msgid "Your profile has been banned from making edits."
 #~ msgstr "Amaɣnu yinek yettwaḥwi ihi ur yezmir ara ad yesnifel."

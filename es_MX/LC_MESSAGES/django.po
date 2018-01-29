@@ -1,10 +1,10 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2017.14\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-23 11:45-0800\n"
+"POT-Creation-Date: 2018-01-29 13:33-0800\n"
 "PO-Revision-Date: 2018-01-23 21:00+0000\n"
 "Last-Translator: Roberto Alvarado <ralv888@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,8 +56,8 @@ msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
 msgstr ""
-"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> por Matthew Inman de <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The"
-" Oatmeal</a></small></p>"
+"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> por Matthew Inman de <a href=\"http://theoatmeal.com\" rel=\"nofollow"
+"\">The Oatmeal</a></small></p>"
 
 #: jinja2/404.html:6
 msgid "Not Found"
@@ -114,13 +114,9 @@ msgstr "Puedes estar interesado en otras formas de <a href=\"%(content_url)s\">d
 msgid "Internal Server Error"
 msgstr "Error interno del servidor"
 
-#: jinja2/base.html:10 jinja2/base.html:102 jinja2/base.html:193
+#: jinja2/base.html:10 jinja2/base.html:45 jinja2/base.html:50 jinja2/base.html:102 jinja2/base.html:193 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Documentación web de MDN"
-
-#: jinja2/base.html:45 jinja2/base.html:50 kuma/search/jinja2/search/plugin.html:3
-msgid "Mozilla Developer Network"
-msgstr "Mozilla Developer Network"
 
 #: jinja2/base.html:81
 msgid "MDN is currently in read-only maintenance mode."
@@ -337,11 +333,11 @@ msgstr "<li><a href=\"/logout\">Termina sesión</a> para intentar de nuevo.</li>
 msgid "Search Firefox Help"
 msgstr "Buscar ayuda de Firefox"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:94
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:93
 msgid "Other languages:"
 msgstr "Otros idiomas:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:105
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:104
 msgid "Go"
 msgstr "Ir"
 
@@ -799,7 +795,7 @@ msgid "File"
 msgstr "Archivo"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1892
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1902
 msgid "Title"
 msgstr "Título"
 
@@ -906,8 +902,8 @@ msgstr "Necesitas un permiso especial para usar las claves API. Puedes pedir ese
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 "<p>Describe para qué vas a usar esta clave. <p><strong>NOTA:</strong> esta descripción será el único modo de identificar la clave, aparte de la fecha y hora de su creación, así que te recomendamos "
 "ser lo más claro posible.</p>"
@@ -922,8 +918,8 @@ msgid ""
 "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
 "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
 msgstr ""
-"<p>Has creado una nueva clave. Toma nota de la información en esta pantalla (por ejemplo, cópiala en la configuración de la aplicación), porque sólo se muestra una vez y no se puede recuperar. "
-"</p><p><strong>NOTA:</strong> Cuando acabes, <a class=\"button\" href=\"%(list_url)s\">vuelve a tu lista de claves</a>. Al recargar esta página, se creará una nueva clave.</p>"
+"<p>Has creado una nueva clave. Toma nota de la información en esta pantalla (por ejemplo, cópiala en la configuración de la aplicación), porque sólo se muestra una vez y no se puede recuperar. </"
+"p><p><strong>NOTA:</strong> Cuando acabes, <a class=\"button\" href=\"%(list_url)s\">vuelve a tu lista de claves</a>. Al recargar esta página, se creará una nueva clave.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:30
 msgid "Key ID"
@@ -1202,7 +1198,7 @@ msgstr "Filtro"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Tendencias a lo largo del tiempo, terminan %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1845
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1855
 msgid "Revision"
 msgstr "Revisión"
 
@@ -1299,9 +1295,8 @@ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-clas
 msgstr "El programa de becas de la Red de Desarrolladores de Mozilla (MDN) invita a los mejores desarrolladores de la web a cambiar el mundo con Mozilla."
 
 #: kuma/landing/jinja2/landing/homepage.html:15
-msgid ""
-"The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox"
-" OS."
+#, fuzzy
+msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
 msgstr ""
 "La Red de Desarrolladores de Mozilla (MDN) proporciona información acerca de tecnologías de Web abierta que incluyen HTML, CSS y APIs para sitios Web y aplicaciones HTML5. También documenta los "
 "productos de Mozilla, como Firefox OS."
@@ -1443,8 +1438,8 @@ msgstr "Difundir el amor del desarrollador."
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 "<ol> <li><strong>Obtén botones:</strong> usa el formulario inferior para crear fácilmente un botón personalizado y el código fuente para promocionar MDN en tu sitio web o blog.</li> "
 "<li><strong>Botones de publicación:</strong> copia el código fuente y pégalo en su sitio web o blog para ayudar a los visitantes a ir a MDN.</li> <li><strong>Siéntete bien:</strong> siéntete "
@@ -1625,10 +1620,11 @@ msgstr "nombre de grupo"
 msgid "Search Unavailable"
 msgstr "Búsqueda no disponible"
 
-#. Search Mozilla Developer Network documentation
+#. Search MDN Web Docs
 #: kuma/search/jinja2/search/plugin.html:5
-msgid "Search Mozilla Developer Network documentation"
-msgstr "Buscar en la documentación de la Red de Desarrolladores de Mozilla"
+#, fuzzy
+msgid "Search MDN Web Docs"
+msgstr "Documentación web de MDN"
 
 #: kuma/search/jinja2/search/results.html:14
 #, python-format
@@ -1761,11 +1757,11 @@ msgstr "tipo"
 #: kuma/users/adapters.py:19
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
-"Lo sentimos, pero debes tener al menos una cuenta conectada para iniciar sesión. Si quieres desconectar esta, primero tienes que conectarte a otra diferente. Para eliminar tu perfil de MDN, <a "
-"href=\"%(bug_form_url)s\" rel=\"nofollow\">envía un bug</a>, por favor."
+"Lo sentimos, pero debes tener al menos una cuenta conectada para iniciar sesión. Si quieres desconectar esta, primero tienes que conectarte a otra diferente. Para eliminar tu perfil de MDN, <a href="
+"\"%(bug_form_url)s\" rel=\"nofollow\">envía un bug</a>, por favor."
 
 #: kuma/users/adapters.py:23
 msgid "An email address cannot be used as a username."
@@ -2104,8 +2100,8 @@ msgstr "Token corrupto"
 #, python-format
 msgid "The password reset link was invalid, possibly because it has already been used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</a>."
 msgstr ""
-"El enlace de restablecimiento de contraseña no era válido, probablemente porque ya haya sido utilizado. Por favor, solicita <a href=\"%(passwd_reset_url)s\">un nuevo restablecimiento de "
-"contraseña</a>."
+"El enlace de restablecimiento de contraseña no era válido, probablemente porque ya haya sido utilizado. Por favor, solicita <a href=\"%(passwd_reset_url)s\">un nuevo restablecimiento de contraseña</"
+"a>."
 
 #: kuma/users/jinja2/account/password_reset_from_key.html:23
 msgid "Change password"
@@ -2250,8 +2246,8 @@ msgstr "Sin verificar"
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 "¿A qué dirección de correo deberíamos enviar los mensajes relacionados con MDN y las notificaciones? La dirección <strong>no</strong> aparecerá en MDN y la utilizaremos siguiendo las pautas de "
 "nuestra <a href=\"%(privacy_url)s\">política de privacidad</a>."
@@ -2523,7 +2519,7 @@ msgstr "Página"
 msgid "Date"
 msgstr "Fecha"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:307
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:306
 msgid "Edit page"
 msgstr "Editar página"
 
@@ -2531,7 +2527,7 @@ msgstr "Editar página"
 msgid "View complete diff"
 msgstr "Ver diff completo"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:308
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:307
 msgid "View page history"
 msgstr "Ver el historial de la página"
 
@@ -2671,8 +2667,8 @@ msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
-"Chat en tiempo real: <a href=\"%(channel_link)s\">canal #mdn en irc.mozilla.org</a>.  (Obtén más información sobre <a href=\"%(irc_link)s\">IRC</a>.) Estos son los editores y administradores de MDN:"
-" Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) y yo mismo (jswisher), community manager de MDN."
+"Chat en tiempo real: <a href=\"%(channel_link)s\">canal #mdn en irc.mozilla.org</a>.  (Obtén más información sobre <a href=\"%(irc_link)s\">IRC</a>.) Estos son los editores y administradores de "
+"MDN: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) y yo mismo (jswisher), community manager de MDN."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2986,8 +2982,8 @@ msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
 "making further edits."
 msgstr ""
-"La publicación ha fallado. Se ha detectado un conflicto en los intentos de publicación. Por favor, copia y pega tus cambios en un lugar seguro y luego visita la página del <a "
-"href=\"%(url)s\">historial de revisión</a> para ver lo que ha sido editado antes de hacer más ediciones."
+"La publicación ha fallado. Se ha detectado un conflicto en los intentos de publicación. Por favor, copia y pega tus cambios en un lugar seguro y luego visita la página del <a href=\"%(url)s"
+"\">historial de revisión</a> para ver lo que ha sido editado antes de hacer más ediciones."
 
 #: kuma/wiki/forms.py:74
 msgid "Changing this document's slug requires moving it and its children."
@@ -3085,108 +3081,108 @@ msgstr "enlazado en el contenido del documento"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "El adjunto %(attachment_id)s no se puede adjuntar varias veces al documento %(document_id)s"
 
-#: kuma/wiki/models.py:1528
+#: kuma/wiki/models.py:1538
 msgid "Review Tag"
 msgstr "Etiqueta de revisión"
 
-#: kuma/wiki/models.py:1529
+#: kuma/wiki/models.py:1539
 msgid "Review Tags"
 msgstr "Etiquetas de revisión"
 
-#: kuma/wiki/models.py:1535
+#: kuma/wiki/models.py:1545
 msgid "Localization Tag"
 msgstr "Etiqueta de localización"
 
-#: kuma/wiki/models.py:1536
+#: kuma/wiki/models.py:1546
 msgid "Localization Tags"
 msgstr "Etiquetas de localización"
 
-#: kuma/wiki/models.py:1569
+#: kuma/wiki/models.py:1579
 msgid "No table of contents"
 msgstr "Sin índice de contenidos"
 
-#: kuma/wiki/models.py:1570
+#: kuma/wiki/models.py:1580
 msgid "All levels"
 msgstr "Todos los niveles"
 
-#: kuma/wiki/models.py:1571
+#: kuma/wiki/models.py:1581
 msgid "H2 and higher"
 msgstr "H2 y superiores"
 
-#: kuma/wiki/models.py:1572
+#: kuma/wiki/models.py:1582
 msgid "H3 and higher"
 msgstr "H3 y superiores"
 
-#: kuma/wiki/models.py:1573
+#: kuma/wiki/models.py:1583
 msgid "H4 and higher"
 msgstr "H4 y superiores"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1685
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Una edición debe basarse en otra del documento en %(locale)s. La revisión ID %(id)s no se ajusta a esos criterios."
 
-#: kuma/wiki/models.py:1805
+#: kuma/wiki/models.py:1815
 msgid "IP address"
 msgstr "Dirección IP"
 
-#: kuma/wiki/models.py:1813
+#: kuma/wiki/models.py:1823
 msgid "User-Agent"
 msgstr "Agente de usuario"
 
-#: kuma/wiki/models.py:1818
+#: kuma/wiki/models.py:1828
 msgid "HTTP Referrer"
 msgstr "Referrer HTTP"
 
-#: kuma/wiki/models.py:1826 kuma/wiki/models.py:1911
+#: kuma/wiki/models.py:1836 kuma/wiki/models.py:1921
 msgid "Data submitted to Akismet"
 msgstr "Datos enviados a Akismet"
 
-#: kuma/wiki/models.py:1851
+#: kuma/wiki/models.py:1861
 msgid "Akismet submission"
 msgstr "Envío a Akismet"
 
-#: kuma/wiki/models.py:1852
+#: kuma/wiki/models.py:1862
 msgid "Akismet submissions"
 msgstr "Envíos a Akismet"
 
-#: kuma/wiki/models.py:1896
+#: kuma/wiki/models.py:1906
 msgid "Slug"
 msgstr "Enlace amigable (slug)"
 
-#: kuma/wiki/models.py:1904
+#: kuma/wiki/models.py:1914
 msgid "Document (optional)"
 msgstr "Documento (opcional)"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1924
 msgid "reviewed"
 msgstr "revisado"
 
-#: kuma/wiki/models.py:1925
+#: kuma/wiki/models.py:1935
 msgid "Needs Review"
 msgstr "Necesita revisión"
 
-#: kuma/wiki/models.py:1926
+#: kuma/wiki/models.py:1936
 msgid "Ham / False Positive"
 msgstr "No spam / Falso positivo"
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1937
 msgid "Confirmed as Spam"
 msgstr "Confirmado como spam"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1938
 msgid "Review Unavailable"
 msgstr "Revisión no disponible"
 
-#: kuma/wiki/models.py:1929
+#: kuma/wiki/models.py:1939
 msgid "Akismet Error"
 msgstr "Error de Akismet"
 
-#: kuma/wiki/models.py:1934
+#: kuma/wiki/models.py:1944
 msgid "Review of Akismet's classification as spam"
 msgstr "Revisión de la clasificación de Akismet como spam"
 
-#: kuma/wiki/models.py:1941
+#: kuma/wiki/models.py:1951
 msgid "Staff reviewer"
 msgstr "Evaluador de personal"
 
@@ -3202,8 +3198,8 @@ msgstr "Está intentando crear una nueva página."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 "Crear una nueva página es una acción restringida. Para solicitar una nueva página, por favor <a href=\"%(request_page_url)s\">envía un reporte de error</a>. Si necesitas permiso para crear nuevas "
 "páginas, por favor <a href=\"%(email_link)s\">contáctanos</a>."
@@ -3326,52 +3322,52 @@ msgstr "Razón por la que se borra"
 msgid "Restore this document"
 msgstr "Restaurar el documento"
 
-#: kuma/wiki/jinja2/wiki/document.html:135
+#: kuma/wiki/jinja2/wiki/document.html:134
 msgid "Jump to:"
 msgstr "Saltar a:"
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:157
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Este documento no se ha renderizado todavía y no podrá generarse mientras MDN esté en <a href=\"%(url)s\">modo de mantenimiento</a>. Vuelve a consultarlo cuando termine el mantenimiento."
 
-#: kuma/wiki/jinja2/wiki/document.html:169
+#: kuma/wiki/jinja2/wiki/document.html:168
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Este documento está siendo generado por primera vez en el sistema. Por favor, <a href=\"%(url)s\">recarga esta página</a> dentro de unos minutos para ver el contenido completo."
 
-#: kuma/wiki/jinja2/wiki/document.html:177
+#: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
-"Una actualización de este documento <abbr title=\"%(started_at)s\">está en proceso en estos momentos</abbr>. Si el contenido aquí debajo parece haberse detenido o si falta algo, por favor, <a "
-"href=\"%(url)s\">recarga esta página</a> dentro de unos minutos."
+"Una actualización de este documento <abbr title=\"%(started_at)s\">está en proceso en estos momentos</abbr>. Si el contenido aquí debajo parece haberse detenido o si falta algo, por favor, <a href="
+"\"%(url)s\">recarga esta página</a> dentro de unos minutos."
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
-"<abbr title=\"%(scheduled_at)s\">Se ha planificado</abbr> una actualización de este documento . Si el contenido que se muestra a continuación no está actualizado o no está completo, <a "
-"href=\"%(url)s\">recarga esta página</a> dentro de unos minutos."
+"<abbr title=\"%(scheduled_at)s\">Se ha planificado</abbr> una actualización de este documento . Si el contenido que se muestra a continuación no está actualizado o no está completo, <a href="
+"\"%(url)s\">recarga esta página</a> dentro de unos minutos."
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:196
 msgid "This is an experimental page."
 msgstr "Esta es una página experimental."
 
-#: kuma/wiki/jinja2/wiki/document.html:208
+#: kuma/wiki/jinja2/wiki/document.html:207
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Esta traducción está incompleta. Por favor, ayuda a <a href=\"%(translate_url)s\">traducir este artículo</a> del inglés."
 
-#: kuma/wiki/jinja2/wiki/document.html:213
+#: kuma/wiki/jinja2/wiki/document.html:212
 msgid "This translation is in progress."
 msgstr "Traducción en proceso."
 
-#: kuma/wiki/jinja2/wiki/document.html:220
+#: kuma/wiki/jinja2/wiki/document.html:219
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3380,23 +3376,23 @@ msgstr ""
 "Nuestros voluntarios no han traducido este artículo <bdi>%(locale)s</bdi>aún. <a href=\"%(help_link)s\" rel=\"nofollow\">¡Únete y ayúdanos a terminar el trabajo!</a><br> También puedes leer el "
 "artículo en <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:232
+#: kuma/wiki/jinja2/wiki/document.html:231
 msgid "This article doesn't have any content yet."
 msgstr "Este artículo aún no tiene contenido."
 
-#: kuma/wiki/jinja2/wiki/document.html:241
+#: kuma/wiki/jinja2/wiki/document.html:240
 msgid "This article doesn't have approved content yet."
 msgstr "Este artículo aún no tiene contenido aprobado."
 
-#: kuma/wiki/jinja2/wiki/document.html:247
+#: kuma/wiki/jinja2/wiki/document.html:246
 msgid "Document Tags and Contributors"
 msgstr "Etiquetas y colaboradores del documento"
 
-#: kuma/wiki/jinja2/wiki/document.html:253
+#: kuma/wiki/jinja2/wiki/document.html:252
 msgid "Contributors to this page:"
 msgstr "Colaboradores para esta página:"
 
-#: kuma/wiki/jinja2/wiki/document.html:259
+#: kuma/wiki/jinja2/wiki/document.html:258
 msgid "Last updated by:"
 msgstr "Última actualización por:"
 
@@ -3574,8 +3570,8 @@ msgstr "Solicitud para mover página"
 #, python-format
 msgid "<h1>Page Move Scheduled</h1> <p>Moving %(old_slug)s to <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> You'll receive an email when it finishes, or if any errors occur during the move.</p>"
 msgstr ""
-"<h1>Está planificado el desplazamiento de esta página</h1> <p>Se desplazará %(old_slug)s a <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> Recibirás un correo cuando el proceso finalice o si ocurre"
-" algún error durante el desplazamiento.</p>"
+"<h1>Está planificado el desplazamiento de esta página</h1> <p>Se desplazará %(old_slug)s a <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> Recibirás un correo cuando el proceso finalice o si "
+"ocurre algún error durante el desplazamiento.</p>"
 
 #: kuma/wiki/jinja2/wiki/preview.html:14
 msgid "This is a preview of an unsaved document."
@@ -3923,8 +3919,8 @@ msgstr[1] "Más información acerca de estos errores"
 #, python-format
 msgid "Anyone with an MDN profile can edit a document to fix an error. Use the <a href=\"%(troubleshooting_url)s\">KumaScript troubleshooting guide</a> as a starting point."
 msgstr ""
-"Cualquiera que tenga un perfil en MDN puede editar un documento para solucionar un error. Como punto de partida, puedes utilizar la <a href=\"%(troubleshooting_url)s\">guía para solucionar problemas"
-" de KumaScript</a>."
+"Cualquiera que tenga un perfil en MDN puede editar un documento para solucionar un error. Como punto de partida, puedes utilizar la <a href=\"%(troubleshooting_url)s\">guía para solucionar "
+"problemas de KumaScript</a>."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:29
 msgid "Error type:"
@@ -4081,7 +4077,8 @@ msgstr "Por favor, revisa la escritura, gramática, formato, etc. de estos artí
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:31
 #, python-format
 msgid "Please review these articles for technical accuracy and completeness, and then clear the Technical review flag. <a href=\"%(url)s\">See more detailed instructions</a>."
-msgstr "Por favor, revisa la precisión técnica de estos artículos y comprueba que estén completos y elimina la etiqueta de revisión técnica. <a href=\"%(url)s\">Obtén instrucciones más detalladas</a>."
+msgstr ""
+"Por favor, revisa la precisión técnica de estos artículos y comprueba que estén completos y elimina la etiqueta de revisión técnica. <a href=\"%(url)s\">Obtén instrucciones más detalladas</a>."
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:36
 #, python-format
@@ -4197,27 +4194,27 @@ msgstr "Se ha producido un error al generar el contenido."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Este documento ya existe. Nota: no puedes eliminar un documento que ha sido movido hasta que no elimines la redirección."
 
-#: kuma/wiki/views/document.py:659
+#: kuma/wiki/views/document.py:681
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Redireccionado desde %(url)s"
 
-#: kuma/wiki/views/document.py:713
+#: kuma/wiki/views/document.py:735
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Aprendí sobre %(title)s en MDN."
 
-#: kuma/wiki/views/document.py:789
+#: kuma/wiki/views/document.py:813
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Tipo de contenido no admitido: %s"
 
-#: kuma/wiki/views/document.py:796
+#: kuma/wiki/views/document.py:820
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Error al procesar la solicitud: %s"
 
-#: kuma/wiki/views/document.py:814
+#: kuma/wiki/views/document.py:838
 msgid "ETag precondition failed"
 msgstr "Condición previa ETag fallida"
 
@@ -4241,6 +4238,12 @@ msgstr "No puedes traducir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor de Elasticsearch: %(backend)s"
+
+#~ msgid "Mozilla Developer Network"
+#~ msgstr "Mozilla Developer Network"
+
+#~ msgid "Search Mozilla Developer Network documentation"
+#~ msgstr "Buscar en la documentación de la Red de Desarrolladores de Mozilla"
 
 #~ msgid "Your profile has been banned from making edits."
 #~ msgstr "Se ha prohibido que tu perfil realice ediciones."
@@ -4266,11 +4269,11 @@ msgstr "Servidor de Elasticsearch: %(backend)s"
 #~ msgstr "¡Gracias!"
 
 #~ msgid ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> "
-#~ "&middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</"
+#~ "a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network y colaboradores particulares.<br /> El contenido está disponible bajo una licencia específica para este proyecto. &middot; <a "
-#~ "href=\"%(about_url)s\">Acerca de MDN</a> &middot; <a href=\"//github.com/mozilla/kuma\">Colabora con el código</a> &middot; <a href=\"//www.mozilla.org/es-ES/privacy\">Política de privacidad</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network y colaboradores particulares.<br /> El contenido está disponible bajo una licencia específica para este proyecto. &middot; <a href="
+#~ "\"%(about_url)s\">Acerca de MDN</a> &middot; <a href=\"//github.com/mozilla/kuma\">Colabora con el código</a> &middot; <a href=\"//www.mozilla.org/es-ES/privacy\">Política de privacidad</a>"
 
 #~ msgid "See also"
 #~ msgstr "Ver también"
@@ -4279,11 +4282,11 @@ msgstr "Servidor de Elasticsearch: %(backend)s"
 #~ msgstr "¿Por qué ha cambiado la apariencia de MDN?"
 
 #~ msgid ""
-#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find the "
-#~ "web technology docs you’re looking for."
+#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find "
+#~ "the web technology docs you’re looking for."
 #~ msgstr ""
-#~ "MDN está cambiando para centrarse en la documentación de tecnologías web. Todo el contenido sigue estando disponible, solo hemos cambiado elementos visuales y la navegación para ayudarte a encontrar"
-#~ " más rápido los documentos sobre tecnología web que estés buscando."
+#~ "MDN está cambiando para centrarse en la documentación de tecnologías web. Todo el contenido sigue estando disponible, solo hemos cambiado elementos visuales y la navegación para ayudarte a "
+#~ "encontrar más rápido los documentos sobre tecnología web que estés buscando."
 
 #~ msgid "But don’t worry, MDN and Mozilla are still together! In fact, we're updating MDN’s look to reflect Mozilla's new logo and colors."
 #~ msgstr "Pero no te preocupes, ¡Mozilla y MDN siguen trabajando juntos! De hecho, estamos actualizando MDN para que se adapte a los nuevos colores y logo de Mozilla."
@@ -4313,8 +4316,8 @@ msgstr "Servidor de Elasticsearch: %(backend)s"
 #~ msgstr "¡Hola, Tester beta!"
 
 #~ msgid ""
-#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first to "
-#~ "see the new look, and we’d love to hear what you think."
+#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first "
+#~ "to see the new look, and we’d love to hear what you think."
 #~ msgstr ""
 #~ "Estamos actualizando la apariencia y forma de navegación de MDN para que refleje mejor nuestro empeño por ofrecer los mejores documentos web (y la mejor plataforma) de todo el mundo. Como tester "
 #~ "beta, eres el primero en ver la nueva apariencia y nos encantaría saber lo que opinas."
@@ -4323,8 +4326,8 @@ msgstr "Servidor de Elasticsearch: %(backend)s"
 #~ "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on <a href=\"%(profile_url)s\">your "
 #~ "profile page</a>."
 #~ msgstr ""
-#~ "Esta es una vista previa de la nueva apariencia. Si encuentras algún error, envíanos un bug (el enlace aparece más abajo) y puedes dejar de ser un tester beta en tu <a "
-#~ "href=\"%(profile_url)s\">página de perfil</a>."
+#~ "Esta es una vista previa de la nueva apariencia. Si encuentras algún error, envíanos un bug (el enlace aparece más abajo) y puedes dejar de ser un tester beta en tu <a href=\"%(profile_url)s"
+#~ "\">página de perfil</a>."
 
 #~ msgid "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on your profile page."
 #~ msgstr "Esta es una vista previa de la nueva apariencia. Si encuentras algún error, envíanos un bug (el enlace aparece más abajo) y puedes dejar de ser un tester beta en tu página de perfil."

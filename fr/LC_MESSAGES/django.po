@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-23 11:45-0800\n"
+"POT-Creation-Date: 2018-01-29 13:33-0800\n"
 "PO-Revision-Date: 2017-12-04 18:47+0000\n"
 "Last-Translator: Sphinx / Julien G <sphinx_knight@hotmail.fr>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -117,13 +117,9 @@ msgstr ""
 msgid "Internal Server Error"
 msgstr "Erreur interne du serveur"
 
-#: jinja2/base.html:10 jinja2/base.html:102 jinja2/base.html:193
+#: jinja2/base.html:10 jinja2/base.html:45 jinja2/base.html:50 jinja2/base.html:102 jinja2/base.html:193 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Documentation du Web - MDN"
-
-#: jinja2/base.html:45 jinja2/base.html:50 kuma/search/jinja2/search/plugin.html:3
-msgid "Mozilla Developer Network"
-msgstr "Mozilla Developer Network"
 
 #: jinja2/base.html:81
 msgid "MDN is currently in read-only maintenance mode."
@@ -341,11 +337,11 @@ msgstr "<li><a href=\"/logout\">Déconnectez-vous</a> pour réessayer.</li>"
 msgid "Search Firefox Help"
 msgstr "Recherche dans l'aide de Firefox"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:94
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:93
 msgid "Other languages:"
 msgstr "Autres langues :"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:105
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:104
 msgid "Go"
 msgstr "OK"
 
@@ -813,7 +809,7 @@ msgid "File"
 msgstr "Fichier"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1892
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1902
 msgid "Title"
 msgstr "Titre"
 
@@ -1225,7 +1221,7 @@ msgstr "Filtrer"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Tendances sur le temps, jusqu'au %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1845
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1855
 msgid "Revision"
 msgstr "Révision"
 
@@ -1322,9 +1318,8 @@ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-clas
 msgstr "Le programme Mozilla Developer Network (MDN) Fellowship invite des développeurs web réputés mondialement à venir changer le monde avec Mozilla."
 
 #: kuma/landing/jinja2/landing/homepage.html:15
-msgid ""
-"The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like "
-"Firefox OS."
+#, fuzzy
+msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
 msgstr ""
 "Mozilla Developer Network (MDN) fournit des informations sur les technologies web ouvertes comme HTML, CSS et les APIs utilisées pour les sites web et les applications HTML5. On y trouve également "
 "de la documentation sur les produits Mozilla tels que Firefox OS."
@@ -1648,10 +1643,11 @@ msgstr "nom de groupe"
 msgid "Search Unavailable"
 msgstr "Recherche indisponible"
 
-#. Search Mozilla Developer Network documentation
+#. Search MDN Web Docs
 #: kuma/search/jinja2/search/plugin.html:5
-msgid "Search Mozilla Developer Network documentation"
-msgstr "Rechercher parmi la documentation de Mozilla Developer Network"
+#, fuzzy
+msgid "Search MDN Web Docs"
+msgstr "Documentation du Web - MDN"
 
 # 82%
 #: kuma/search/jinja2/search/results.html:14
@@ -2559,7 +2555,7 @@ msgstr "Page"
 msgid "Date"
 msgstr "Date"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:307
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:306
 msgid "Edit page"
 msgstr "Modifier la page"
 
@@ -2567,7 +2563,7 @@ msgstr "Modifier la page"
 msgid "View complete diff"
 msgstr "Voir toutes les différences"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:308
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:307
 msgid "View page history"
 msgstr "Voir l'historique de la page"
 
@@ -3132,108 +3128,108 @@ msgstr "lié dans le contenu du document"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Vous ne pouvez pas joindre %(attachment_id)s plusieurs fois au document %(document_id)s"
 
-#: kuma/wiki/models.py:1528
+#: kuma/wiki/models.py:1538
 msgid "Review Tag"
 msgstr "Étiquette de relecture"
 
-#: kuma/wiki/models.py:1529
+#: kuma/wiki/models.py:1539
 msgid "Review Tags"
 msgstr "Étiquettes de relecture"
 
-#: kuma/wiki/models.py:1535
+#: kuma/wiki/models.py:1545
 msgid "Localization Tag"
 msgstr "Étiquette de traduction"
 
-#: kuma/wiki/models.py:1536
+#: kuma/wiki/models.py:1546
 msgid "Localization Tags"
 msgstr "Étiquettes de traduction"
 
-#: kuma/wiki/models.py:1569
+#: kuma/wiki/models.py:1579
 msgid "No table of contents"
 msgstr "Pas de table des matières"
 
-#: kuma/wiki/models.py:1570
+#: kuma/wiki/models.py:1580
 msgid "All levels"
 msgstr "Tous les niveaux"
 
-#: kuma/wiki/models.py:1571
+#: kuma/wiki/models.py:1581
 msgid "H2 and higher"
 msgstr "H2 et supérieurs"
 
-#: kuma/wiki/models.py:1572
+#: kuma/wiki/models.py:1582
 msgid "H3 and higher"
 msgstr "H3 et supérieurs"
 
-#: kuma/wiki/models.py:1573
+#: kuma/wiki/models.py:1583
 msgid "H4 and higher"
 msgstr "H4 et supérieurs"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1685
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Une révision doit être basée sur une révision du document %(locale)s. L'ID de révision %(id)s en correspond pas à ce critère."
 
-#: kuma/wiki/models.py:1805
+#: kuma/wiki/models.py:1815
 msgid "IP address"
 msgstr "Adresse IP"
 
-#: kuma/wiki/models.py:1813
+#: kuma/wiki/models.py:1823
 msgid "User-Agent"
 msgstr "Agent utilisateur"
 
-#: kuma/wiki/models.py:1818
+#: kuma/wiki/models.py:1828
 msgid "HTTP Referrer"
 msgstr "Referrer HTTP"
 
-#: kuma/wiki/models.py:1826 kuma/wiki/models.py:1911
+#: kuma/wiki/models.py:1836 kuma/wiki/models.py:1921
 msgid "Data submitted to Akismet"
 msgstr "Données envoyées à Akismet"
 
-#: kuma/wiki/models.py:1851
+#: kuma/wiki/models.py:1861
 msgid "Akismet submission"
 msgstr "Entrée Akismet"
 
-#: kuma/wiki/models.py:1852
+#: kuma/wiki/models.py:1862
 msgid "Akismet submissions"
 msgstr "Entrées Akismet"
 
-#: kuma/wiki/models.py:1896
+#: kuma/wiki/models.py:1906
 msgid "Slug"
 msgstr "Fragment d'URL"
 
-#: kuma/wiki/models.py:1904
+#: kuma/wiki/models.py:1914
 msgid "Document (optional)"
 msgstr "Document (optionnel)"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1924
 msgid "reviewed"
 msgstr "revu"
 
-#: kuma/wiki/models.py:1925
+#: kuma/wiki/models.py:1935
 msgid "Needs Review"
 msgstr "Besoin d'une revue"
 
-#: kuma/wiki/models.py:1926
+#: kuma/wiki/models.py:1936
 msgid "Ham / False Positive"
 msgstr "Contenu valide / Faux positif"
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1937
 msgid "Confirmed as Spam"
 msgstr "Confirmé comme spam"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1938
 msgid "Review Unavailable"
 msgstr "Revue indisponible"
 
-#: kuma/wiki/models.py:1929
+#: kuma/wiki/models.py:1939
 msgid "Akismet Error"
 msgstr "Erreur Akismet"
 
-#: kuma/wiki/models.py:1934
+#: kuma/wiki/models.py:1944
 msgid "Review of Akismet's classification as spam"
 msgstr "Revue du classement en spam par Akismet"
 
-#: kuma/wiki/models.py:1941
+#: kuma/wiki/models.py:1951
 msgid "Staff reviewer"
 msgstr "Relecteur de l'équipe"
 
@@ -3380,23 +3376,23 @@ msgstr "Motif de la suppression"
 msgid "Restore this document"
 msgstr "Restaurer ce document"
 
-#: kuma/wiki/jinja2/wiki/document.html:135
+#: kuma/wiki/jinja2/wiki/document.html:134
 msgid "Jump to:"
 msgstr "Aller à :"
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:157
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 "Le rendu de ce document n'a pas encore été calculé et il ne pourra pas être affiché tant que MDN est en <a href=\"%(url)s\">cours de maintenance</a>. Vous pouvez consulter cette page à nouveau "
 "lorsque la maintenance sera terminée."
 
-#: kuma/wiki/jinja2/wiki/document.html:169
+#: kuma/wiki/jinja2/wiki/document.html:168
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Ce document est généré pour la première fois par le système. Veuillez <a href=\"%(url)s\">actualiser cette page</a> dans quelques minutes pour voir son contenu complet."
 
-#: kuma/wiki/jinja2/wiki/document.html:177
+#: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3405,7 +3401,7 @@ msgstr ""
 "Une mise à jour de ce document <abbr title=\"%(started_at)s\">est actuellement en cours</abbr>. Si le contenu ci-dessous semble incomplet ou que quelque chose manque, veuillez <a href=\"%(url)s"
 "\">actualiser cette page</a> dans quelques minutes."
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3414,20 +3410,20 @@ msgstr ""
 "Une mise à jour de ce document <abbr title=\"%(scheduled_at)s\">a été prévue</abbr>. Si le contenu ci-dessous semble incomplet ou que quelque chose manque, veuillez <a href=\"%(url)s\">actualiser "
 "cette page</a> dans quelques minutes."
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:196
 msgid "This is an experimental page."
 msgstr "Ceci est une page expérimentale."
 
-#: kuma/wiki/jinja2/wiki/document.html:208
+#: kuma/wiki/jinja2/wiki/document.html:207
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Cette traduction est incomplète. Aidez à  <a href=\"%(translate_url)s\">traduire cet article</a> depuis l'anglais."
 
-#: kuma/wiki/jinja2/wiki/document.html:213
+#: kuma/wiki/jinja2/wiki/document.html:212
 msgid "This translation is in progress."
 msgstr "Cette traduction est en cours."
 
-#: kuma/wiki/jinja2/wiki/document.html:220
+#: kuma/wiki/jinja2/wiki/document.html:219
 #, fuzzy, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3438,23 +3434,23 @@ msgstr ""
 
 # 85%
 # 100%
-#: kuma/wiki/jinja2/wiki/document.html:232
+#: kuma/wiki/jinja2/wiki/document.html:231
 msgid "This article doesn't have any content yet."
 msgstr "Cet article n'a pas encore de contenu."
 
-#: kuma/wiki/jinja2/wiki/document.html:241
+#: kuma/wiki/jinja2/wiki/document.html:240
 msgid "This article doesn't have approved content yet."
 msgstr "Cet article n'a pas encore de contenu approuvé."
 
-#: kuma/wiki/jinja2/wiki/document.html:247
+#: kuma/wiki/jinja2/wiki/document.html:246
 msgid "Document Tags and Contributors"
 msgstr "Étiquettes et contributeurs liés au document"
 
-#: kuma/wiki/jinja2/wiki/document.html:253
+#: kuma/wiki/jinja2/wiki/document.html:252
 msgid "Contributors to this page:"
 msgstr "Contributeurs à cette page&nbsp;:"
 
-#: kuma/wiki/jinja2/wiki/document.html:259
+#: kuma/wiki/jinja2/wiki/document.html:258
 msgid "Last updated by:"
 msgstr "Dernière mise à jour par :"
 
@@ -4276,27 +4272,27 @@ msgstr "Une erreur s'est produite lors de la génération du contenu."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Ce document existe déjà. Remarque : vous ne pouvez pas rétablir une version d'un document qui a été déplacé tant que vous n'avez pas supprimé sa redirection."
 
-#: kuma/wiki/views/document.py:659
+#: kuma/wiki/views/document.py:681
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Redirigé depuis %(url)s"
 
-#: kuma/wiki/views/document.py:713
+#: kuma/wiki/views/document.py:735
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "J'ai découvert %(title)s sur MDN."
 
-#: kuma/wiki/views/document.py:789
+#: kuma/wiki/views/document.py:813
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Type de contenu non géré&nbsp;: %s"
 
-#: kuma/wiki/views/document.py:796
+#: kuma/wiki/views/document.py:820
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Erreur d'analyse de la requête : %s"
 
-#: kuma/wiki/views/document.py:814
+#: kuma/wiki/views/document.py:838
 msgid "ETag precondition failed"
 msgstr "Échec d'une précondition ETag"
 
@@ -4320,6 +4316,12 @@ msgstr "Vous ne pouvez pas traduire ce document."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Serveur Elasticsearch&nbsp;: %(backend)s"
+
+#~ msgid "Mozilla Developer Network"
+#~ msgstr "Mozilla Developer Network"
+
+#~ msgid "Search Mozilla Developer Network documentation"
+#~ msgstr "Rechercher parmi la documentation de Mozilla Developer Network"
 
 #~ msgid "Your profile has been banned from making edits."
 #~ msgstr "Votre compte a été banni et ne peut plus faire de modifications."
