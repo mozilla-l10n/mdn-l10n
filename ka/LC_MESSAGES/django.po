@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-29 13:33-0800\n"
+"POT-Creation-Date: 2018-01-31 07:26-0800\n"
 "PO-Revision-Date: 2018-01-26 10:30+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
@@ -1285,13 +1285,11 @@ msgstr "ელფოსტაზე შეტყობინებების �
 msgid "Get emailed when English reviews are waiting"
 msgstr "შეტყობინებები ელფოსტაზე, ქართული ვერსიების გადახედვის ლოდინისას"
 
-#: kuma/landing/jinja2/landing/fellowship.html:12
-msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
-msgstr "Mozilla-ს შემმუშავებელთა ერთობა (MDN) იწვევს მსოფლიო დონის შემმუშავებლებს და სთავაზობს მათ სამყაროს შეცვლას, Mozilla-ს საშუალებით."
-
 #: kuma/landing/jinja2/landing/homepage.html:15
 #, fuzzy
-msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
+msgid ""
+"The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
+"for Mozilla products, such as Firefox Developer Tools."
 msgstr ""
 "Mozilla შემმუშავებლების ერთობა (MDN) გთავაზობთ ინფორმაციას გახსნილი ვებტექნოლოგიების შესახებ, როგორიცაა HTML, CSS და API-ები, ვებსაიტებისა და HTML5 პროგრამებისთვის. ასევე Mozilla-ს პროდუქტების "
 "დოკუმენტაციას, მაგალითად Firefox OS-ის."
@@ -4181,27 +4179,27 @@ msgstr "შიგთავსის შექმნისას წარმო�
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "დოკუმენტი უკვე არსებობს. შენიშვნა: შეუძლებელია დოკუმენტის აღდგენა, რომელიც გადატანილია, სანამ არ მოხსნით გადამისამართებას."
 
-#: kuma/wiki/views/document.py:681
+#: kuma/wiki/views/document.py:669
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "გადამისამართებულია %(url)s ბმულიდან"
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:724
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "შევისწავლე %(title)s MDN-ზე."
 
-#: kuma/wiki/views/document.py:813
+#: kuma/wiki/views/document.py:855
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "არაა მხარდაჭერილი შიგთავსის ტიპი: %s"
 
-#: kuma/wiki/views/document.py:820
+#: kuma/wiki/views/document.py:862
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "შეცდომა მოთხოვნის დამუშავებისას: %s"
 
-#: kuma/wiki/views/document.py:838
+#: kuma/wiki/views/document.py:883
 msgid "ETag precondition failed"
 msgstr "ETag წინაპირობა ვერ შესრულდა"
 
@@ -4225,6 +4223,9 @@ msgstr "ამ დოკუმენტის თარგმნა, არ შ�
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch სერვერი: %(backend)s"
+
+#~ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
+#~ msgstr "Mozilla-ს შემმუშავებელთა ერთობა (MDN) იწვევს მსოფლიო დონის შემმუშავებლებს და სთავაზობს მათ სამყაროს შეცვლას, Mozilla-ს საშუალებით."
 
 #~ msgid "Mozilla Developer Network"
 #~ msgstr "Mozilla-ს შემმუშავებლების ერთობა"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-29 13:33-0800\n"
+"POT-Creation-Date: 2018-01-31 07:26-0800\n"
 "PO-Revision-Date: 2017-12-08 02:31+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -1317,13 +1317,11 @@ msgstr "영문 리뷰가 대기 중인 경우 메일 받지 않기"
 msgid "Get emailed when English reviews are waiting"
 msgstr "한국어 리뷰가 대기중이면 메일 받기"
 
-#: kuma/landing/jinja2/landing/fellowship.html:12
-msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
-msgstr "모질라 개발자 네트워크(MDN) 펠로우십 프로그램은 모질라와 함께 세상을 바꿀 세계 최고의 웹 개발자들을 초대하고 있습니다."
-
 #: kuma/landing/jinja2/landing/homepage.html:15
 #, fuzzy
-msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
+msgid ""
+"The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
+"for Mozilla products, such as Firefox Developer Tools."
 msgstr "Mozilla 개발자 네트워크(MDN)은 HTML, CSS, 및 웹 사이트와 HTML5 앱을 위한 API 등 다양한 오픈 웹 기술에 대한 정보를 제공합니다. 또한 Firefox OS 및 Mozilla 제품에 대한 문서도 포함합니다."
 
 #: kuma/landing/jinja2/landing/homepage.html:29
@@ -4226,27 +4224,27 @@ msgstr "콘텐츠 생성중에 오류가 발생했습니다."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "문서가 이미 존재합니다. 주의: 당신이 리다이렉트를 삭제할 때까지 이동된 문서를 되돌릴 수 없습니다."
 
-#: kuma/wiki/views/document.py:681
+#: kuma/wiki/views/document.py:669
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "%(url)s 에서 문서 이동"
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:724
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "MDN에서 %(title)s에 대해서 배웠습니다."
 
-#: kuma/wiki/views/document.py:813
+#: kuma/wiki/views/document.py:855
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "지원하지 않는 문서 형식: %s"
 
-#: kuma/wiki/views/document.py:820
+#: kuma/wiki/views/document.py:862
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "처리 요청 중 오류: %s"
 
-#: kuma/wiki/views/document.py:838
+#: kuma/wiki/views/document.py:883
 msgid "ETag precondition failed"
 msgstr "ETag 이전 조건 실패"
 
@@ -4270,6 +4268,9 @@ msgstr "이 문서를 번역할 수 없습니다."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
+
+#~ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
+#~ msgstr "모질라 개발자 네트워크(MDN) 펠로우십 프로그램은 모질라와 함께 세상을 바꿀 세계 최고의 웹 개발자들을 초대하고 있습니다."
 
 # 메인 페이지 제목
 #~ msgid "Mozilla Developer Network"

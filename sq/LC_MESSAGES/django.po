@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-29 13:33-0800\n"
+"POT-Creation-Date: 2018-01-31 07:26-0800\n"
 "PO-Revision-Date: 2017-12-09 16:29+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -1290,13 +1290,11 @@ msgstr "Reshtni së marri email-e kur ka rishikime në Anglisht në pritje"
 msgid "Get emailed when English reviews are waiting"
 msgstr "Merrni email kur ka rishikime në Anglisht në pritje"
 
-#: kuma/landing/jinja2/landing/fellowship.html:12
-msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
-msgstr "Programi Mozilla Developer Network (MDN) Fellowship fton programues web të klasit botëror të vijnë e të ndryshojnë botën me Mozilla-n."
-
 #: kuma/landing/jinja2/landing/homepage.html:15
 #, fuzzy
-msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
+msgid ""
+"The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
+"for Mozilla products, such as Firefox Developer Tools."
 msgstr ""
 "Rrjeti i Zhvilluesve Mozilla (Mozilla Developer Network - MDN) ofron informacion mbi teknologji për Web të Hapur, përfshi HTML, CSS, dhe API sajtesh dhe Aplikacione HTML5. Në të dokumentohen "
 "gjithashtu edhe produkte Mozilla, të tillë si Firefox OS."
@@ -4209,27 +4207,27 @@ msgstr "Pati një gabim gjatë prodhimit të lëndës."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Dokumenti ekziston tashmë. Shënim: s’mund të ktheni një dokument që është lëvizur, pa fshirë ridrejtimin për të."
 
-#: kuma/wiki/views/document.py:681
+#: kuma/wiki/views/document.py:669
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Ridrejtuar prej %(url)s"
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:724
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Mësova rreth %(title)s te MDN-ja."
 
-#: kuma/wiki/views/document.py:813
+#: kuma/wiki/views/document.py:855
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Lloj lënde i pambuluar: %s"
 
-#: kuma/wiki/views/document.py:820
+#: kuma/wiki/views/document.py:862
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Gabim në përtypje kërkese: %s"
 
-#: kuma/wiki/views/document.py:838
+#: kuma/wiki/views/document.py:883
 msgid "ETag precondition failed"
 msgstr "S’u plotësua parakushti ETag"
 
@@ -4253,6 +4251,9 @@ msgstr "S’ mund ta përktheni këtë dokument."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Shërbyes Elasticsearch: %(backend)s"
+
+#~ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
+#~ msgstr "Programi Mozilla Developer Network (MDN) Fellowship fton programues web të klasit botëror të vijnë e të ndryshojnë botën me Mozilla-n."
 
 #~ msgid "Mozilla Developer Network"
 #~ msgstr "Rrjeti i Zhvilluesve Mozilla"

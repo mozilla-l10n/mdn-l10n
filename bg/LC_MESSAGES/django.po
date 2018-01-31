@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-29 13:33-0800\n"
+"POT-Creation-Date: 2018-01-31 07:26-0800\n"
 "PO-Revision-Date: 2017-12-08 08:04+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
@@ -1281,13 +1281,11 @@ msgstr "Спиране изпращането на писма за чакащи 
 msgid "Get emailed when English reviews are waiting"
 msgstr "Да получавам писма за чакащи прегледи на български"
 
-#: kuma/landing/jinja2/landing/fellowship.html:12
-msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
-msgstr "Програмата за сътрудничество на Мрежата от Разработчици на Мозила (MDN) кани уебразработчици на световно равнище да помогнат да променим света с Мозила."
-
 #: kuma/landing/jinja2/landing/homepage.html:15
 #, fuzzy
-msgid "MDN Web Docs provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
+msgid ""
+"The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
+"for Mozilla products, such as Firefox Developer Tools."
 msgstr ""
 "Мрежата на разработчиците на Мозила (MDN) предоставя информация, относно отворените уеб-технологии като HTML, CSS и начини за общуване между програми – API както за страници, така и за HTML5 "
 "приложения. Сайтът също документира продукти на Мозила като Firefox OS."
@@ -4146,27 +4144,27 @@ msgstr ""
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:681
+#: kuma/wiki/views/document.py:669
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Пренасочен от %(url)s"
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:724
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Научих за %(title)s на MDN."
 
-#: kuma/wiki/views/document.py:813
+#: kuma/wiki/views/document.py:855
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Неподдържан тип съдържание: %s"
 
-#: kuma/wiki/views/document.py:820
+#: kuma/wiki/views/document.py:862
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Грешка при разбора на заявката: %s"
 
-#: kuma/wiki/views/document.py:838
+#: kuma/wiki/views/document.py:883
 msgid "ETag precondition failed"
 msgstr ""
 
@@ -4190,6 +4188,9 @@ msgstr "Не може да превеждате този документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сървър Elasticsearch %(backend)s"
+
+#~ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
+#~ msgstr "Програмата за сътрудничество на Мрежата от Разработчици на Мозила (MDN) кани уебразработчици на световно равнище да помогнат да променим света с Мозила."
 
 #~ msgid "Mozilla Developer Network"
 #~ msgstr "Мрежа на разработчиците на Мозила"
