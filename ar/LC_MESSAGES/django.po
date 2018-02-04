@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-01-31 07:26-0800\n"
-"PO-Revision-Date: 2018-02-04 19:50+0000\n"
+"PO-Revision-Date: 2018-02-04 19:59+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
 "Language: ar\n"
@@ -317,7 +317,7 @@ msgstr "الكعكات"
 #: jinja2/base.html:232
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
-msgstr ""
+msgstr "<p>&copy; ٢٠٠٥-%(thisyear)s لموزيلا والمساهمون الفرديون.</p> <p>المحتوى متوفر تحت <a href=\"%(copyright_url)s\">هذه الرخص</a>.</p>"
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -690,7 +690,7 @@ msgstr "نُقلت ملفات المرفقات الآتية إلى المهمل�
 
 #: kuma/attachments/admin.py:64
 msgid "and"
-msgstr ""
+msgstr "و"
 
 #: kuma/attachments/admin.py:127
 #, python-format
@@ -711,11 +711,11 @@ msgstr ""
 
 #: kuma/attachments/forms.py:10
 msgid "Files of this type are not permitted."
-msgstr ""
+msgstr "هذا النوع من الملفات ليس مسموحا."
 
 #: kuma/attachments/models.py:112
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
-msgstr ""
+msgstr "يُستخدم نوع MIME عند عرض المستند، ويُنشأ تلقائيا بفحص الملف عند رفعه. غيّره فقط إن لزم الأمر."
 
 #: kuma/attachments/models.py:140
 msgid "attachment revision"
@@ -753,7 +753,7 @@ msgstr ""
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:3
 #, python-format
 msgid "Attachments | %(title)s"
-msgstr ""
+msgstr "المرفقات | %(title)s"
 
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:21
 #, python-format
@@ -766,7 +766,7 @@ msgstr ""
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:7
 msgid "Learn how to use Attachments"
-msgstr ""
+msgstr "اطّلع على طريقة استخدام المرفقات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:11 kuma/attachments/jinja2/attachments/includes/attachment_list.html:20
 msgid "Upload Files"
@@ -774,29 +774,29 @@ msgstr ""
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:16
 msgid "This document has no attachments."
-msgstr ""
+msgstr "ليس في هذا المستند مرفقات."
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:18
 msgid "Images can be attached, and then linked in the article."
-msgstr ""
+msgstr "يمكن إرفاق الصور وربطها بالمقالة لاحقا."
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:44 kuma/attachments/jinja2/attachments/includes/attachment_list.html:76
 msgid "File"
-msgstr ""
+msgstr "الملف"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1902
 msgid "Title"
-msgstr ""
+msgstr "العنوان"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:46 kuma/authkeys/jinja2/authkeys/delete.html:9 kuma/authkeys/jinja2/authkeys/history.html:10
 #: kuma/authkeys/jinja2/authkeys/new.html:36
 msgid "Description"
-msgstr ""
+msgstr "الوصف"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:47
 msgid "Comments"
-msgstr ""
+msgstr "تعليقات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:70
 msgid "Attached to this article"
@@ -808,23 +808,23 @@ msgstr ""
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:77
 msgid "Size"
-msgstr ""
+msgstr "الحجم"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:78
 msgid "Last modified"
-msgstr ""
+msgstr "آخر تعديل"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:79
 msgid "Uploaded by"
-msgstr ""
+msgstr "رفعهُ"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:82
 msgid "Linked in article"
-msgstr ""
+msgstr "المقالة المربوط بها"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:84
 msgid "Article attached to"
-msgstr ""
+msgstr "المقالة المرفق فيها"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:97
 #, python-format
@@ -876,12 +876,12 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/list.html:25
 msgid "View key usage history"
-msgstr ""
+msgstr "اعرض تأريخ استخدام المفتاح"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:26
 #, python-format
 msgid "History (%(count)s)"
-msgstr ""
+msgstr "التأريخ (%(count)s)"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:35
 #, python-format
@@ -896,7 +896,7 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
 msgid "Create"
-msgstr ""
+msgstr "أنشئ"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:20
 #, python-format
@@ -907,7 +907,7 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:30
 msgid "Key ID"
-msgstr ""
+msgstr "معرّف المفتاح"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:32
 msgid "Secret"
@@ -929,19 +929,19 @@ msgstr ""
 
 #: kuma/core/sections.py:6
 msgid "Add-ons"
-msgstr ""
+msgstr "الإضافات"
 
 #: kuma/core/sections.py:20
 msgid "Apps"
-msgstr ""
+msgstr "التطبيقات"
 
 #: kuma/core/sections.py:27 kuma/core/translations/search/filter/mobile/name.py:4
 msgid "Mobile"
-msgstr ""
+msgstr "المحمول"
 
 #: kuma/core/sections.py:34 kuma/landing/jinja2/landing/promote_buttons.html:117
 msgid "Web"
-msgstr ""
+msgstr "الوب"
 
 #: kuma/core/sections.py:41
 msgid "Moz Hacks"
