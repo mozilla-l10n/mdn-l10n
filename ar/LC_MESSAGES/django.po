@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-01-31 07:26-0800\n"
-"PO-Revision-Date: 2018-02-06 05:48+0000\n"
+"PO-Revision-Date: 2018-02-06 06:10+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
 "Language: ar\n"
@@ -66,7 +66,7 @@ msgstr "نعتذر منك، لم نجد ما تبحث عنه."
 #: jinja2/404.html:25
 #, python-format
 msgid "You can try a search or start over on the <a href=\"%(homepage_url)s\">home page</a>."
-msgstr "يمكنك أن تحاول البحث عن ذلك أو البدء من<a href=\"%(homepage_url)s\">الصفحة الرئيسية</a>."
+msgstr "يمكنك أن تحاول البحث عن ذلك أو البدء من <a href=\"%(homepage_url)s\">الصفحة الرئيسية</a>."
 
 #: jinja2/404.html:29
 #, python-format
@@ -89,11 +89,11 @@ msgstr "الطلبات كثيرة جدا"
 #: jinja2/429.html:23
 #, python-format
 msgid "We're sorry %(name)s, you've made too many requests in a short time."
-msgstr "نعتذر منك %(name)s، لقد أرسلت الكثير من الطلبات في وقت قصير."
+msgstr "نعتذر منك %(name)s، لقد أرسلت طلبات كثيرة في وقت قصير."
 
 #: jinja2/429.html:26
 msgid "We're sorry, we've received too many requests from your IP address in a short time."
-msgstr "نعتذر منك، تلقينا الكثير من الطلبات من عنوان IP خاصتك وفي وقت قصير."
+msgstr "نعتذر منك، تلقينا طلبات كثيرة من عنوان IP خاصتك وفي وقت قصير."
 
 #: jinja2/429.html:28
 msgid "You can try again in about one minute."
@@ -729,15 +729,15 @@ msgstr ""
 
 #: kuma/attachments/models.py:214
 msgid "The attachment file that was trashed"
-msgstr ""
+msgstr "رُمي الملف المرفق في المهملات"
 
 #: kuma/attachments/models.py:219
 msgid "The date and time the attachment was trashed"
-msgstr ""
+msgstr "تاريخ ووقت رمي المرفق في المهملات"
 
 #: kuma/attachments/models.py:224
 msgid "The username of the user who trashed the attachment"
-msgstr ""
+msgstr "اسم المستخدم الذي رمى المرفق في المهملات"
 
 #: kuma/attachments/models.py:229
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
@@ -760,11 +760,11 @@ msgstr "المرفقات | %(title)s"
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:21
 #, python-format
 msgid "Upload file to article %(title)s"
-msgstr ""
+msgstr "ارفع الملف إلى المقالة %(title)s"
 
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:30
 msgid "Upload files"
-msgstr ""
+msgstr "ارفع الملفات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:7
 msgid "Learn how to use Attachments"
@@ -772,7 +772,7 @@ msgstr "اطّلع على طريقة استخدام المرفقات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:11 kuma/attachments/jinja2/attachments/includes/attachment_list.html:20
 msgid "Upload Files"
-msgstr ""
+msgstr "ارفع الملفات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:16
 msgid "This document has no attachments."
@@ -851,12 +851,12 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:7 kuma/authkeys/jinja2/authkeys/history.html:8 kuma/authkeys/jinja2/authkeys/new.html:34
 msgid "Created"
-msgstr ""
+msgstr "أُنشئ في"
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:107 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:246
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:16 kuma/wiki/jinja2/wiki/confirm_document_delete.html:43
 msgid "Delete"
-msgstr ""
+msgstr "احذف"
 
 #: kuma/authkeys/jinja2/authkeys/history.html:14
 msgid "This key has not been used yet."
@@ -867,6 +867,8 @@ msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
 msgstr ""
+"هذه مفاتيح API المخصصة لك. تفيد هذه المفاتيح في بناء تطبيقات تُجري المهام في MDN عنك. إن توقفت عن استخدام أحدها، أو شككت بأن أحدها تسرب إلى أطراف لا تثق بها، فاحذف المفتاح. من السهل إنشاء مفتاح بديل"
+" في أي وقت تريد."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
@@ -874,7 +876,7 @@ msgstr "أنشئ مفتاحا جديدا"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:16
 msgid "You have no API keys, yet."
-msgstr ""
+msgstr "ليست لديك مفاتيح API بعد."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:25
 msgid "View key usage history"
@@ -888,13 +890,13 @@ msgstr "التأريخ (%(count)s)"
 #: kuma/authkeys/jinja2/authkeys/list.html:35
 #, python-format
 msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
-msgstr ""
+msgstr "تحتاج تصريحا خاصا لاستخدام مفاتيح API. يمكنك طلب التصريح عبر <a href=\"%(bugzilla_url)s\">فتح علة</a>."
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
 "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
 " as you can.</p>"
-msgstr ""
+msgstr "<p>صِف استخدامك لهذا المفتاح أدناه. <p><strong>ملاحظة:</strong> سيكون هذا الوصف طريقة لتحديد المفتاح لاحقا (بخلاف تاريخ ووقت إنشائه)، لذلك اكتبه بوضوح لألا تنسى وظيفته.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
 msgid "Create"
@@ -984,11 +986,11 @@ msgstr ""
 
 #: kuma/core/translations/search/filter/beginner/name.py:4
 msgid "I'm Learning"
-msgstr ""
+msgstr "أنا أتعلم"
 
 #: kuma/core/translations/search/filter/canvas/name.py:4
 msgid "Canvas"
-msgstr ""
+msgstr "رقعة الرسم"
 
 #: kuma/core/translations/search/filter/code/name.py:4
 msgid "Code Samples"
@@ -996,7 +998,7 @@ msgstr ""
 
 #: kuma/core/translations/search/filter/firefox/name.py:4
 msgid "Firefox"
-msgstr ""
+msgstr "فَيَرفُكس"
 
 #: kuma/core/translations/search/filter/firefox-desktop/name.py:4
 msgid "Firefox for Desktop"
@@ -1024,7 +1026,7 @@ msgstr ""
 
 #: kuma/core/translations/search/filter/marketplace/name.py:4
 msgid "Marketplace"
-msgstr ""
+msgstr "المتجر"
 
 #: kuma/core/translations/search/filter/svg/name.py:4
 msgid "SVG"
@@ -1116,7 +1118,7 @@ msgstr ""
 
 #: kuma/dashboards/forms.py:57
 msgid "Authors"
-msgstr ""
+msgstr "المؤلّفون"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
@@ -1149,7 +1151,7 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:31 kuma/dashboards/jinja2/dashboards/macros.html:66
 msgid "Macro Name"
-msgstr ""
+msgstr "اسم الماكرو"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:33
 msgid "English Page Count"
@@ -1181,7 +1183,7 @@ msgstr "المؤلفون:"
 
 #: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:233
 msgid "Filter"
-msgstr ""
+msgstr "رشِّح"
 
 #: kuma/dashboards/jinja2/dashboards/spam.html:31
 #, python-format
@@ -1190,16 +1192,16 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1855
 msgid "Revision"
-msgstr ""
+msgstr "المراجعة"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:9 kuma/users/jinja2/users/user_detail.html:44 kuma/users/jinja2/users/includes/user_revision_history_form.html:10
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:35 kuma/wiki/jinja2/wiki/revision.html:44
 msgid "Comment"
-msgstr ""
+msgstr "تعليق"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
 msgid "Author"
-msgstr ""
+msgstr "المؤلف"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
 msgid "Toggle IPs"
@@ -1207,11 +1209,11 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:37 kuma/users/jinja2/users/includes/user_revision_history_form.html:24
 msgid "new"
-msgstr ""
+msgstr "جديدة"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:38 kuma/users/jinja2/users/includes/user_revision_history_form.html:25
 msgid "deleted"
-msgstr ""
+msgstr "حُذفت"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:56
 msgid "IP:"
@@ -1232,7 +1234,7 @@ msgstr ""
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:108
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
-msgstr ""
+msgstr "منعه %(user)s في %(ban_date)s"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:84
 #, python-format
@@ -1250,23 +1252,23 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:95
 msgid "spam"
-msgstr ""
+msgstr "سخام"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:106
 msgid "There are no revisions matching this filter set."
-msgstr ""
+msgstr "لا مراجعات تطابق المرشّح المضبوط."
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:8 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:11
 msgid "Stop getting emailed when English revisions are approved"
-msgstr ""
+msgstr "أوقِف إرسال البريد عند الموافقة على المراجعات العربية"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:20 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:23
 msgid "Get emailed when English revisions are approved"
-msgstr ""
+msgstr "أرسِل البريد عند الموافقة على المراجعات العربية"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
