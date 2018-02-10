@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-01-31 07:26-0800\n"
-"PO-Revision-Date: 2017-07-21 13:33+0000\n"
+"PO-Revision-Date: 2018-02-10 12:09+0000\n"
 "Last-Translator: kruno.se <kruno.se@gmx.com>\n"
 "Language-Team: Croatian https://pontoon.mozilla.org/hr/\n"
 "Language: hr\n"
@@ -17,49 +17,48 @@ msgstr ""
 
 #: jinja2/403.html:5 jinja2/403.html:19 jinja2/handlers/400.html:5
 msgid "Permission Denied"
-msgstr "Pristup odbijen"
+msgstr "Odbijen pristup"
 
 #: jinja2/403.html:23
 msgid "The wiki is in read-only mode."
-msgstr "Wiki je u načinu pregledavanja."
+msgstr "Wiki je u načinu rada koji dozvoljava samo čitanje."
 
 #: jinja2/403.html:25
 msgid "You must sign in to view all history"
-msgstr "Morate se prijaviti kako bi vidjeli svu povijest"
+msgstr "Morate biti prijavljeni kako biste mogli pregledavati cijelu povijest"
 
 #: jinja2/403.html:27
-#, fuzzy
 msgid "Your IP address has been banned."
-msgstr "Ovaj korisnički profil je izbačen."
+msgstr "Vaša je IP adresa zabranjena."
 
 #: jinja2/403.html:37 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
-msgstr "<p>Žao nam je %(name)s, no mi to ne možemo napraviti.</p>"
+msgstr "<p>Žao nam je %(name)s, to ne možemo napraviti.</p>"
 
 #: jinja2/403.html:41 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
-msgstr "<p>Žao nam je, no mi to ne možemo napraviti.</p>"
+msgstr "<p>Žao nam je, to ne možemo napraviti.</p>"
 
 # 100%
 #: jinja2/403.html:49
-#, fuzzy, python-format
+#, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
-msgstr "<li><a href=\"/logout\">Odjavi se</a> i pokušaj ponovno.</li>"
+msgstr "<li><a href=\"%(logout_url)s\">Odjavite se</a> kako biste pokušali ponovno.</li>"
 
 # 100%
 #: jinja2/403.html:53 jinja2/handlers/400.html:36
-#, fuzzy, python-format
+#, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
-msgstr "<li><a href=\"/logout\">Odjavi se</a> i pokušaj ponovno.</li>"
+msgstr "<li><a href=\"%(login_url)s\">Prijavite se</a> kako biste pokušali ponovno.</li>"
 
 #: jinja2/403.html:62 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
 msgstr ""
-"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> Matthew Inmana iz <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
-"Oatmeal</a></small></p>"
+"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> Matthewa Inmana iz <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
+"Oatmeala</a></small></p>"
 
 #: jinja2/404.html:6
 msgid "Not Found"
@@ -67,12 +66,12 @@ msgstr "Nije pronađeno"
 
 #: jinja2/404.html:20
 msgid "We're sorry, we couldn't find what you were looking for."
-msgstr "Žao nam je, nismo mogli pronaći to što ste tražili."
+msgstr "Žao nam je, nismo mogli pronaći što ste tražili."
 
 #: jinja2/404.html:25
 #, python-format
 msgid "You can try a search or start over on the <a href=\"%(homepage_url)s\">home page</a>."
-msgstr ""
+msgstr "Možete pokušati pretraživanjem ili početi ispočetka na <a href=\"%(homepage_url)s\">početnoj stranici</a>."
 
 #: jinja2/404.html:29
 #, python-format
@@ -926,8 +925,8 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
-"clear as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
+" as you can.</p>"
 msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
@@ -1474,8 +1473,8 @@ msgstr ""
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
-"little bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
+" bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:31
@@ -1802,8 +1801,8 @@ msgstr ""
 #: kuma/users/adapters.py:19
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
-"\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
+"rel=\"nofollow\">file a bug</a>."
 msgstr ""
 
 #: kuma/users/adapters.py:23
@@ -2289,8 +2288,8 @@ msgstr ""
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
-"\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
+"href=\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
@@ -3247,8 +3246,8 @@ msgstr ""
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
-"\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
+"href=\"%(email_link)s\">contact us</a>."
 msgstr ""
 
 #: kuma/wiki/jinja2/403-create-page.html:17
@@ -3387,15 +3386,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
-"a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
+"page</a> in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
-"in a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
+" a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:196
@@ -4311,41 +4310,33 @@ msgstr ""
 #~ msgid "Mozilla Developer Network"
 #~ msgstr "Mozilla Developer Network"
 
-#, fuzzy
 #~ msgid "Search Mozilla Developer Network documentation"
 #~ msgstr "Mozilla Developer Network"
 
 #~ msgid "Your profile has been banned from making edits."
 #~ msgstr "Vašem profilu je zabranjeno raditi izmjene."
 
-#, fuzzy
 #~ msgid "Show topics"
 #~ msgstr "Prikaži demo"
 
-#, fuzzy
 #~ msgid "Was this article helpful?"
 #~ msgstr "Ukloni ovu alatnu traku"
 
-#, fuzzy
 #~ msgid "Mozilla Docs"
 #~ msgstr "Mozilla"
 
 #~ msgid "Contribute to the code"
 #~ msgstr "Doprinesi kôdu"
 
-#, fuzzy
 #~ msgid "Web<br />Technologies"
 #~ msgstr "Pretražite po tehnologiji"
 
 #~ msgid "more..."
 #~ msgstr "više..."
 
-# 100%
-#, fuzzy
 #~ msgid "Learn"
 #~ msgstr "Učenje"
 
-#, fuzzy
 #~ msgid "Getting started with the Web"
 #~ msgstr "Započnite s JavaScriptom"
 
@@ -4358,11 +4349,9 @@ msgstr ""
 #~ msgid "Learn JavaScript"
 #~ msgstr "/en/JavaScript"
 
-#, fuzzy
 #~ msgid "see all contributors"
 #~ msgstr "Uvjeti za suradnike"
 
-#, fuzzy
 #~ msgid "hide contributors"
 #~ msgstr "Uvjeti za suradnike"
 
@@ -4543,8 +4532,7 @@ msgstr ""
 #~ msgid ""
 #~ "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
 #~ msgstr ""
-#~ "Cascading Style Sheets level 3 (CSS3) pruža nekoliko novih značajki i svojstava da bi poboljšao formatiranje i izgled dokumenata napisanih u različitim vrstama markup jezika kao što su HTML ili "
-#~ "XML."
+#~ "Cascading Style Sheets level 3 (CSS3) pruža nekoliko novih značajki i svojstava da bi poboljšao formatiranje i izgled dokumenata napisanih u različitim vrstama markup jezika kao što su HTML ili XML."
 
 #~ msgid "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
 #~ msgstr "http://en.wikipedia.org/wiki/Cascading_Style_Sheets"
@@ -5210,11 +5198,11 @@ msgstr ""
 #~ msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> napisao je,"
 
 #~ msgid ""
-#~ "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
-#~ "\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+#~ "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" "
+#~ "datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 #~ msgstr ""
-#~ "Objavljeno <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
-#~ "\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+#~ "Objavljeno <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" "
+#~ "datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #~ msgid "Reply to this comment by {full_name}"
 #~ msgstr "Odgovorite na ovaj komentar od {full_name}"
@@ -5652,9 +5640,8 @@ msgstr ""
 #~ "Firefox is the world's first Web browser to support mobile add-ons. Learn about <a href=\"%(basics_url)s\">Extension Basics</a>, <a href=\"%(best_practices_url)s\">Extension Best Practices</a>, "
 #~ "helpful <a href=\"%(snippets_url)s\">Code Snippets</a>, and more so you can build innovative add-ons for Firefox on Android and Firefox on Nokia's Meego platform."
 #~ msgstr ""
-#~ "Firefox je prvi svjetski web preglednik koji podržava dodatke za mobitele. Saznajte više o <a href=\"%(basics_url)s\">osnovama proširenja</a>, <a href=\"%(best_practices_url)s\">najboljim "
-#~ "primjenama proširenja</a>, korisnim <a href=\"%(snippets_url)s\">komadićima koda</a> i više te na taj način možete stvarati inovativne dodatke za Firefox na Androidu i Firefox na Nokijinom Meego "
-#~ "platformi."
+#~ "Firefox je prvi svjetski web preglednik koji podržava dodatke za mobitele. Saznajte više o <a href=\"%(basics_url)s\">osnovama proširenja</a>, <a href=\"%(best_practices_url)s\">najboljim primjenama"
+#~ " proširenja</a>, korisnim <a href=\"%(snippets_url)s\">komadićima koda</a> i više te na taj način možete stvarati inovativne dodatke za Firefox na Androidu i Firefox na Nokijinom Meego platformi."
 
 #~ msgid "Location-Aware Applications"
 #~ msgstr "Lokacija-Svjestan Aplikacije"
@@ -5663,8 +5650,8 @@ msgstr ""
 #~ "Learn how to use the <a href=\"%(geo_url)s\">Geolocation API</a> and put people on the right path. Location-Aware Browsing is a must when you're out and about on your mobile. Learn how to build "
 #~ "innovative apps that delight your audience."
 #~ msgstr ""
-#~ "Saznajte kako koristiti <a href=\"%(geo_url)s\">API geolokacije</a> i uputiti ljude na pravi put. Kada niste pored računala i koristite mobilni uređaj potreban je preglednik koji može utvrditi "
-#~ "vašu lokaciju. Naučite kako napraviti inovativne aplikacije koje će oduševiti vaše korisnike."
+#~ "Saznajte kako koristiti <a href=\"%(geo_url)s\">API geolokacije</a> i uputiti ljude na pravi put. Kada niste pored računala i koristite mobilni uređaj potreban je preglednik koji može utvrditi vašu "
+#~ "lokaciju. Naučite kako napraviti inovativne aplikacije koje će oduševiti vaše korisnike."
 
 #~ msgid "Help build Firefox for Mobile"
 #~ msgstr "Pomozite u izgradnji Firefoxa za mobilne uređaje"
@@ -5698,8 +5685,8 @@ msgstr ""
 #~ msgstr "Firefox za mobitele: Što je sljdeće"
 
 #~ msgid ""
-#~ "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the "
-#~ "world's best mobile Web browser."
+#~ "The projects and planning never stops. We're cooking up some amazing new features and improvements for our next major release. Check it out and see how you can help us continue to make the world's "
+#~ "best mobile Web browser."
 #~ msgstr ""
 #~ "Projekti i planiranje nikad se ne zaustavljaju. Spremamo neke nove izvrsne značajke i poboljšanja za naše sljedeće glavno izdanje. Isprobajte i pogledajte kako vi možete nam pomoći u stvaranju "
 #~ "svjetskog najboljeg preglednika za mobitele."
@@ -5711,11 +5698,11 @@ msgstr ""
 #~ msgstr "Saznajte od drugih programera o prednostima HTML5 i razvoja za mobilni web u ovom članku iz ReadWriteWeb:"
 
 #~ msgid ""
-#~ "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact "
-#~ "that apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
+#~ "\"'Hands down, the developer pool for HTML / JS rock stars is tenfold larger [and] there is no download attrition. You simply point people at a URL and there you go -- it's installed.' The fact that"
+#~ " apps can be directly installed by URL rather than by waiting for an App Store download means that developers reduce barriers to virality.\""
 #~ msgstr ""
-#~ "\"'Uz nevjerojatnu lakoću, razvojni alat za HTML / JS rok zvijezde je 10 puta veći [i] nema slabljenja preuzimanja. Jednostavno uputite ljude na URL i - instalirano je.' Činjenica da aplikacije "
-#~ "mogu izravno biti instalirane s URL umjesto čekanja na App Store preuzimanje znači da programeri mogu smanjiti prepreke mogućnostima širenja.\""
+#~ "\"'Uz nevjerojatnu lakoću, razvojni alat za HTML / JS rok zvijezde je 10 puta veći [i] nema slabljenja preuzimanja. Jednostavno uputite ljude na URL i - instalirano je.' Činjenica da aplikacije mogu"
+#~ " izravno biti instalirane s URL umjesto čekanja na App Store preuzimanje znači da programeri mogu smanjiti prepreke mogućnostima širenja.\""
 
 #~ msgid "Android APIs"
 #~ msgstr "API za Android"
@@ -5751,8 +5738,8 @@ msgstr ""
 #~ "Localization (L10n) is the process of translating software user interfaces from one language to another and adapting it to suit a foreign culture. These resources are about making Mozilla-based "
 #~ "applications/extensions localizable."
 #~ msgstr ""
-#~ "Lokalizacija (L10n) je proces prevođenja korisničkog sučelja programa s jednog jezika na druge i prilagođavanje istog da ispuni potrebe stranih kultura. Ovi resursi su o stvaranju Mozilla-"
-#~ "baziranih aplikacija/proširenja prevodivim."
+#~ "Lokalizacija (L10n) je proces prevođenja korisničkog sučelja programa s jednog jezika na druge i prilagođavanje istog da ispuni potrebe stranih kultura. Ovi resursi su o stvaranju Mozilla-baziranih "
+#~ "aplikacija/proširenja prevodivim."
 
 #~ msgid "All applications development documentation"
 #~ msgstr "Sva dokumentacija o razvoju aplikacija"
@@ -6074,16 +6061,16 @@ msgstr ""
 
 #~ msgid ""
 #~ "Mozilla and <a href=\"%(p2pu)s\">P2PU</a> are creating the <a href=\"%(p2pu_drumbeat)s\">School of Webcraft</a>, a powerful new way to teach and learn web developer skills. Classes are globally "
-#~ "accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and "
-#~ "build careers on open web technology."
+#~ "accessible, 100%% free, and powered entirely by learners, mentors and contributors like you people. Our goal: a vibrant, peer-led system that helps people around the world easily access and build "
+#~ "careers on open web technology."
 #~ msgstr ""
 #~ "Mozilla i <a href=\"%(p2pu)s\">P2PU</a> kreiraju <a href=\"%(p2pu_drumbeat)s\">Školu web zanata</a>, snažan novi način podučavanja i učenja web programiranja. Razredi su dostupni globalno, 100%% "
-#~ "besplatni, vođeni učenicima, mentorima i suradnicima kao što ste vi. Naš cilj: vitalni, peer-vođen sistem koji pomaže ljudima diljem svijeta u jednostavnom pristupu i gradnji karijera na "
-#~ "tehnologiji otvorenog weba."
+#~ "besplatni, vođeni učenicima, mentorima i suradnicima kao što ste vi. Naš cilj: vitalni, peer-vođen sistem koji pomaže ljudima diljem svijeta u jednostavnom pristupu i gradnji karijera na tehnologiji"
+#~ " otvorenog weba."
 
 #~ msgid ""
-#~ "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest "
-#~ "enhancements in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
+#~ "Mozilla continues to lead the charge in the adoption of HTML5 and other evolving open Web technologies. Find out more about the <a href=\"%(devmo_html5)s\">HTML5 spec</a> and the latest enhancements"
+#~ " in HTML5, CSS3 and other <a href=\"%(devmo_fx4dev)s\">developer features for Firefox 4</a>."
 #~ msgstr ""
 #~ "Mozilla nastavlja vodstvo u naporima usvajanja HTML5 i ostalih razvijajućih tehnologija otvorenog weba. Saznajte više o <a href=\"%(devmo_html5)s\">HTML5 specifikacijama</a> i najnovijim "
 #~ "poboljšanjima u HTML5, CSS3 i ostalim <a href=\"%(devmo_fx4dev)s\">značajkama za programere u Firefoxu 4</a>."
@@ -6128,9 +6115,7 @@ msgstr ""
 #~ msgstr "Škola web zanata"
 
 #~ msgid "See how you can <a href=\"%(devmo_participate)s\">participate</a> in <a href=\"%(devmo_l10n)s\">localization</a>, <a href=\"%(devmo_qa)s\">quality assurance</a>, and other Mozilla projects."
-#~ msgstr ""
-#~ "Pogledajte kako vi možete <a href=\"%(devmo_participate)s\">sudjelovati</a> u <a href=\"%(devmo_l10n)s\">prijevodu</a>, <a href=\"%(devmo_qa)s\">osiguranju kvalitete</a> i ostalim Mozilla "
-#~ "projektima."
+#~ msgstr "Pogledajte kako vi možete <a href=\"%(devmo_participate)s\">sudjelovati</a> u <a href=\"%(devmo_l10n)s\">prijevodu</a>, <a href=\"%(devmo_qa)s\">osiguranju kvalitete</a> i ostalim Mozilla projektima."
 
 #~ msgid "See more about {title} by {author}"
 #~ msgstr "Pogledajte više o {title} od {author}"
@@ -6139,31 +6124,33 @@ msgstr ""
 #~ msgstr "Pogledajte što je novo za web programere u najnovijoj verziji Firefoxa"
 
 #~ msgid ""
-#~ "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s"
-#~ "\">big chart full of check marks</a> to prove it."
+#~ "Test the <a href=\"%(fx4_features)s\">next version of Firefox</a> and help us make the world's best browser even better. Firefox 4 advances the modern web and we have a <a href=\"%(fx4_tech)s\">big "
+#~ "chart full of check marks</a> to prove it."
 #~ msgstr ""
-#~ "Isprobajte <a href=\"%(fx4_features)s\">narednu verziju Firefoxa</a> i pomozite nam da najbolji preglednik na svijetu napravimo još boljim. Firefox 4 unapređuje moderni web a mi imamo <a href="
-#~ "\"%(fx4_tech)s\">veliki popis pun upitnika</a> da dokažemo to."
+#~ "Isprobajte <a href=\"%(fx4_features)s\">narednu verziju Firefoxa</a> i pomozite nam da najbolji preglednik na svijetu napravimo još boljim. Firefox 4 unapređuje moderni web a mi imamo <a "
+#~ "href=\"%(fx4_tech)s\">veliki popis pun upitnika</a> da dokažemo to."
 
 #~ msgid "The Document Object Model describes the layout and content of web pages."
 #~ msgstr "Document Object Model opisuje izgled i sadržaj web stranica."
 
 #~ msgid ""
-#~ "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a href=\"http://www.apple.com/safari/"
-#~ "\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video download links provided."
+#~ "This video requires a browser with support for open video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 or greater</li> <li><a "
+#~ "href=\"http://www.apple.com/safari/\">Safari</a> 3.1 or greater</li> </ul> or the <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternatively, you may use the video "
+#~ "download links provided."
 #~ msgstr ""
-#~ "Za ovaj video je potreban preglednik koji podržava otvoreni video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ili noviji</li> <li><a href=\"http://www.apple.com/safari/"
-#~ "\">Safari</a> 3.1 ili noviji</li> </ul> ili <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternativno, možete koristiti pružene linkove za preuzimanje videa."
+#~ "Za ovaj video je potreban preglednik koji podržava otvoreni video: <ul> <li><a href=\"http://www.mozilla.com/firefox/\">Firefox</a> 3.5 ili noviji</li> <li><a "
+#~ "href=\"http://www.apple.com/safari/\">Safari</a> 3.1 ili noviji</li> </ul> ili <a href=\"http://www.adobe.com/go/getflashplayer\">Adobe Flash Player</a>. Alternativno, možete koristiti pružene "
+#~ "linkove za preuzimanje videa."
 
 #~ msgid "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies."
 #~ msgstr "Koristite graditelja dodataka da biste brzo i jednostavno napravili proširenje za Firefox upotrebom standardnih web tehnologija."
 
 #~ msgid ""
-#~ "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a href="
-#~ "\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
+#~ "Use Add-ons Builder to quickly and easily develop an extension for Firefox using common web technologies. There is a <a href=\"%(tutorial)s\">tutorial</a> to get you started and a <a "
+#~ "href=\"%(api)s\">variety of APIs in the core library</a> to add functionality to Firefox."
 #~ msgstr ""
-#~ "Korsitite graditelja dodataka da brzo i jednostavno napravite proširenje za Firefox upotrebom standardnih web tehnologija. Postoji <a href=\"%(tutorial)s\">vodič</a> za početak i <a href="
-#~ "\"%(api)s\">raznovrsni API u osnovnoj biblioteci</a> da bi dodali funkcionalnost u Firefoxu."
+#~ "Korsitite graditelja dodataka da brzo i jednostavno napravite proširenje za Firefox upotrebom standardnih web tehnologija. Postoji <a href=\"%(tutorial)s\">vodič</a> za početak i <a "
+#~ "href=\"%(api)s\">raznovrsni API u osnovnoj biblioteci</a> da bi dodali funkcionalnost u Firefoxu."
 
 #~ msgid "Want to help make our network even better?"
 #~ msgstr "Želite pomoći da napravimo našu mrežu još boljom?"
@@ -6271,11 +6258,11 @@ msgstr ""
 #~ msgstr "Možete li biti veliki pobjednik?"
 
 #~ msgid ""
-#~ "Develop an awesome add-on for Firefox mobile for your chance to win a trip to Barcelona, cash, prizes and tons of priceless exposure! <a href=\"%(cup_enter)s\">Enter now</a> until "
-#~ "<strong>January 7, 2011</strong>. Good luck!"
+#~ "Develop an awesome add-on for Firefox mobile for your chance to win a trip to Barcelona, cash, prizes and tons of priceless exposure! <a href=\"%(cup_enter)s\">Enter now</a> until <strong>January 7,"
+#~ " 2011</strong>. Good luck!"
 #~ msgstr ""
-#~ "Napravite fenomenalni dodatak za Firefox za mobitele i osigurajte si mogućnost da osvojite putovanje u Barcelonu, novčanu nagradu i tone neprocjenjivog izlaganja! <a href=\"%(cup_enter)s"
-#~ "\">Prijavite se sad</a> do <strong>07. siječnja 2011</strong>. Sretno!"
+#~ "Napravite fenomenalni dodatak za Firefox za mobitele i osigurajte si mogućnost da osvojite putovanje u Barcelonu, novčanu nagradu i tone neprocjenjivog izlaganja! <a href=\"%(cup_enter)s\">Prijavite"
+#~ " se sad</a> do <strong>07. siječnja 2011</strong>. Sretno!"
 
 #~ msgid "Filetype not supported."
 #~ msgstr "Vrsta datoteke nije podržana."
