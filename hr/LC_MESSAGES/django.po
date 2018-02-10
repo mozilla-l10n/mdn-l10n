@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-01-31 07:26-0800\n"
-"PO-Revision-Date: 2018-02-10 12:09+0000\n"
+"PO-Revision-Date: 2018-02-10 12:31+0000\n"
 "Last-Translator: kruno.se <kruno.se@gmx.com>\n"
 "Language-Team: Croatian https://pontoon.mozilla.org/hr/\n"
 "Language: hr\n"
@@ -76,60 +76,58 @@ msgstr "Možete pokušati pretraživanjem ili početi ispočetka na <a href=\"%(
 #: jinja2/404.html:29
 #, python-format
 msgid "If you were following a documentation link, you can sign in and create the page. Otherwise, please <a href=\"%(bug_form_url)s\" rel=\"nofollow\">file a bug</a>. Thanks!"
-msgstr ""
+msgstr "Ako ste pratili poveznicu iz dokumentacije, možete se prijaviti i napraviti stranicu. U protivnome <a href=\"%(bug_form_url)s\" rel=\"nofollow\">prijavite nedostatak</a>. Zahvaljujemo!"
 
 #: jinja2/404.html:37
 msgid "This user's profile has been banned."
-msgstr "Ovaj korisnički profil je izbačen."
+msgstr "Ovaj je korisnički račun zabranjen."
 
 #: jinja2/404.html:44
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
-msgstr ""
+msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> od Matthewa Inmana iz <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeala</a>"
 
 #: jinja2/429.html:5 jinja2/429.html:19
 msgid "Too Many Requests"
-msgstr ""
+msgstr "Previše zahtjeva"
 
 #: jinja2/429.html:23
 #, python-format
 msgid "We're sorry %(name)s, you've made too many requests in a short time."
-msgstr ""
+msgstr "Ispričavamo se, %(name)s, ali poslali ste previše zahtjeva u vrlo kratkome roku."
 
 #: jinja2/429.html:26
 msgid "We're sorry, we've received too many requests from your IP address in a short time."
-msgstr ""
+msgstr "Ispričavamo se, ali s vaše smo IP adrese primili previše zahtjeva u vrlo kratkom roku."
 
 #: jinja2/429.html:28
 msgid "You can try again in about one minute."
-msgstr ""
+msgstr "Možete pokušati ponovno kroz minutu-dvije."
 
 #: jinja2/429.html:36
 #, python-format
 msgid "You may be interested in other ways to <a href=\"%(content_url)s\">download MDN Web Docs content</a>."
-msgstr ""
+msgstr "Možda biste željeli <a href=\"%(content_url)s\">preuzeti MDN mrežni sadržaj</a> na neki drugi način."
 
 #: jinja2/500.html:5
 msgid "Internal Server Error"
-msgstr "Interna pogreška poslužitelja"
+msgstr "Interna greška poslužitelja"
 
 #: jinja2/base.html:10 jinja2/base.html:45 jinja2/base.html:50 jinja2/base.html:102 jinja2/base.html:193 kuma/search/jinja2/search/plugin.html:3
-#, fuzzy
 msgid "MDN Web Docs"
-msgstr "MDN demoi"
+msgstr "MDN primjeri"
 
 #: jinja2/base.html:81
 msgid "MDN is currently in read-only maintenance mode."
-msgstr ""
+msgstr "MDN je trenutno u načinu rada koji dozvoljava samo čitanje, radi održavanja."
 
 #: jinja2/base.html:83
-#, fuzzy
 msgid "Learn more"
 msgstr "Saznajte više"
 
 #: jinja2/base.html:95
 msgid "Skip to main content"
-msgstr "Skočite na glavni sadržaj"
+msgstr "Preskoči na glavni sadržaj"
 
 #: jinja2/base.html:96
 msgid "Select language"
@@ -137,7 +135,7 @@ msgstr "Odaberite jezik"
 
 #: jinja2/base.html:97
 msgid "Skip to search"
-msgstr "Skočite na pretragu"
+msgstr "Skočite na pretraživanje"
 
 #: jinja2/base.html:107 kuma/core/translations/search/filter/tools/name.py:4
 msgid "Tools"
@@ -148,27 +146,24 @@ msgid "Contribute to MDN"
 msgstr "Doprinesi MDN-u"
 
 #: jinja2/base.html:112
-#, fuzzy
 msgid "Get started"
-msgstr "Započnite još danas!"
+msgstr "Započnite"
 
 #: jinja2/base.html:113
 msgid "Review or localize docs"
-msgstr "Pregledajte ili lokalizirajte dokumentaciju"
+msgstr "Pregledavanje ili lokaliziranje dokumenata"
 
 #: jinja2/base.html:116
-#, fuzzy
 msgid "Site Tools"
-msgstr "/en/Tools"
+msgstr "Alati internetske stranice"
 
 #: jinja2/base.html:118
 msgid "Revision dashboard"
 msgstr "Kontrolna ploča revizija"
 
 #: jinja2/base.html:119
-#, fuzzy
 msgid "Documentation status"
-msgstr "MDN Dokumentacija"
+msgstr "Status dokumentacije"
 
 #: jinja2/base.html:127
 msgid "Technologies"
@@ -188,7 +183,7 @@ msgstr "JavaScript"
 
 #: jinja2/base.html:134
 msgid "Graphics"
-msgstr "Grafika"
+msgstr "Grafike"
 
 #: jinja2/base.html:135
 msgid "HTTP"
@@ -196,12 +191,11 @@ msgstr "HTTP"
 
 #: jinja2/base.html:136
 msgid "APIs / DOM"
-msgstr "API-jevi / DOM"
+msgstr "API-evi / DOM"
 
 #: jinja2/base.html:137
-#, fuzzy
 msgid "Browser Extensions"
-msgstr "/en/Extensions"
+msgstr "Dodaci preglednika"
 
 #: jinja2/base.html:138 kuma/core/translations/search/filter/mathml/name.py:4
 msgid "MathML"
@@ -209,66 +203,59 @@ msgstr "MathML"
 
 #: jinja2/base.html:140
 msgid "References & Guides"
-msgstr "Reference i upute"
+msgstr "Referencije i upute"
 
 #: jinja2/base.html:144 kuma/landing/jinja2/landing/homepage.html:47
-#, fuzzy
 msgid "Learn web development"
-msgstr "/en/Web_Development"
+msgstr "Naučite više o izradi internetskih stranica"
 
 #: jinja2/base.html:145
 msgid "Tutorials"
-msgstr "Vodiči"
+msgstr "Tutorijali"
 
 #: jinja2/base.html:146
 msgid "References"
-msgstr "Reference"
+msgstr "Referencije"
 
 #: jinja2/base.html:147
 msgid "Developer Guides"
-msgstr "Upute za programiranje"
+msgstr "Vodiči za razvijatelje"
 
 #: jinja2/base.html:148
 msgid "Accessibility"
 msgstr "Pristupačnost"
 
 #: jinja2/base.html:149
-#, fuzzy
 msgid "Game development"
-msgstr "/en/Web_Development"
+msgstr "Razvoj igrica"
 
 #: jinja2/base.html:150
 msgid "...more docs"
-msgstr "...još dokumentacije"
+msgstr "...još dokumenata"
 
 #: jinja2/base.html:154 jinja2/base.html:200
-#, fuzzy
 msgid "Feedback"
-msgstr "Kanal"
+msgstr "Povratne informacije"
 
 #: jinja2/base.html:158
-#, fuzzy
 msgid "Get Firefox help"
-msgstr "Firefox 4 Beta"
+msgstr "Zatražite pomoć o Firefoxu"
 
 #: jinja2/base.html:159
-#, fuzzy
 msgid "Get web development help"
-msgstr "Svi alati za web razvoj"
+msgstr "Zatražite pomoć o razvijanju internetskih stranica"
 
 #: jinja2/base.html:162
 msgid "Join the MDN community"
 msgstr "Pridružite se MDN zajednici"
 
 #: jinja2/base.html:163
-#, fuzzy
 msgid "Report a content problem"
-msgstr "Prijavite ovaj komentar"
+msgstr "Prijavite nedostatak vezan za sadržaja"
 
 #: jinja2/base.html:164
-#, fuzzy
 msgid "Report a bug"
-msgstr "Prijavi"
+msgstr "Prijavi nedostatak"
 
 #: jinja2/base.html:171 jinja2/base.html:172 jinja2/base.html:174 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:33
 #: kuma/landing/jinja2/landing/homepage.html:38 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47
@@ -277,18 +264,16 @@ msgid "Search"
 msgstr "Traži"
 
 #: jinja2/base.html:197 kuma/landing/jinja2/landing/homepage.html:46
-#, fuzzy
 msgid "Web Technologies"
-msgstr "Pretražite po tehnologiji"
+msgstr "Internetske tehnologije"
 
 #: jinja2/base.html:198 kuma/landing/jinja2/landing/homepage.html:83
-#, fuzzy
 msgid "Learn Web Development"
-msgstr "/en/Web_Development"
+msgstr "Naučite razvoj internetskih stranica"
 
 #: jinja2/base.html:199
 msgid "About MDN"
-msgstr "O MDNu"
+msgstr "O MDN-u"
 
 #: jinja2/base.html:201 jinja2/base.html:214 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
@@ -299,14 +284,12 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: jinja2/base.html:206 kuma/core/sections.py:13
-#, fuzzy
 msgid "Mozilla"
 msgstr "Mozilla"
 
 #: jinja2/base.html:210
-#, fuzzy
 msgid "About"
-msgstr "O MDNu"
+msgstr "O MDN-u"
 
 #: jinja2/base.html:211
 msgid "Contact Us"
@@ -314,7 +297,7 @@ msgstr "Kontaktirajte nas"
 
 #: jinja2/base.html:212
 msgid "Donate"
-msgstr ""
+msgstr "Donirajte"
 
 #: jinja2/base.html:215 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
@@ -322,7 +305,7 @@ msgstr "Facebook"
 
 #: jinja2/base.html:216
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: jinja2/base.html:226
 msgid "Terms"
@@ -337,18 +320,18 @@ msgid "Cookies"
 msgstr "Kolačići"
 
 #: jinja2/base.html:232
-#, fuzzy, python-format
+#, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
-msgstr "Sadržaj je dostupan pod <a href=\"%(copyright_url)s\">ovim licencama</a>"
+msgstr "<p>&copy;2005%(thisyear)s Mozilla i pojedinačni doprinositelji.</p> <p>Sadržaj je dostupan pod <a href=\"%(copyright_url)s\">ovim licencijama</a>.</p>"
 
 # 100%
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
-msgstr "<li><a href=\"/logout\">Odjavi se</a> i pokušaj ponovno.</li>"
+msgstr "<li><a href=\"/logout\">Odjavite se</a> i pokušajte ponovno.</li>"
 
 #: jinja2/includes/common_macros.html:18
 msgid "Search Firefox Help"
-msgstr "Pretraži Firefox pomoć"
+msgstr "Pretraži pomoć o Firefoxu"
 
 #: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:93
 msgid "Other languages:"
@@ -356,16 +339,15 @@ msgstr "Ostali jezici:"
 
 #: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:104
 msgid "Go"
-msgstr "Idi"
+msgstr "Kreni"
 
 #: jinja2/includes/login.html:7 kuma/users/jinja2/users/user_edit.html:40
 msgid "View profile"
-msgstr ""
+msgstr "Pogledaj profil"
 
 #: jinja2/includes/login.html:8 kuma/users/jinja2/account/email.html:60
-#, fuzzy
 msgid "Edit profile"
-msgstr "Uredi {demo_title}"
+msgstr "Uredi profil"
 
 #: jinja2/includes/login.html:12
 msgid "Sign out"
@@ -376,9 +358,8 @@ msgid "Sign in"
 msgstr "Prijava"
 
 #: jinja2/includes/newsletter.html:4
-#, fuzzy
 msgid "Learn the best of web development"
-msgstr "/en/Web_Development"
+msgstr "Naučite dobru praksu razvoja internetskih stranica"
 
 #: jinja2/includes/newsletter.html:5
 msgid "Get the latest and greatest from MDN delivered straight to your inbox."
