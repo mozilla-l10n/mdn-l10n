@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-01-31 07:26-0800\n"
-"PO-Revision-Date: 2018-02-10 07:55+0000\n"
+"PO-Revision-Date: 2018-02-12 18:49+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
 "Language: ar\n"
@@ -114,7 +114,7 @@ msgstr "توثيق MDN للوب"
 
 #: jinja2/base.html:81
 msgid "MDN is currently in read-only maintenance mode."
-msgstr ""
+msgstr "‏MDN حاليا في وضع القراءة فقط لأغراض الصيانة."
 
 #: jinja2/base.html:83
 msgid "Learn more"
@@ -186,7 +186,7 @@ msgstr "HTTP"
 
 #: jinja2/base.html:136
 msgid "APIs / DOM"
-msgstr ""
+msgstr "واجهات API ونموذج DOM"
 
 #: jinja2/base.html:137
 msgid "Browser Extensions"
@@ -317,7 +317,7 @@ msgstr "الكعكات"
 #: jinja2/base.html:232
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
-msgstr "<p>&copy; ٢٠٠٥-%(thisyear)s لموزيلا والمساهمون الفرديون.</p> <p>المحتوى متوفر تحت <a href=\"%(copyright_url)s\">هذه الرخص</a>.</p>"
+msgstr "<p>&copy; 2005-%(thisyear)s لموزيلا والمساهمون الفرديون.</p> <p>المحتوى متوفر تحت <a href=\"%(copyright_url)s\">هذه الرخص</a>.</p>"
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -741,7 +741,7 @@ msgstr "اسم المستخدم الذي رمى المرفق في المهملا
 
 #: kuma/attachments/models.py:229
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
-msgstr ""
+msgstr "فيما إذا كان هذا المرفق هو مراجعة المرفق الحالية عند رميه في المهملات."
 
 #: kuma/attachments/models.py:234
 msgid "Trashed attachment"
@@ -974,11 +974,11 @@ msgstr "أنا خبير"
 
 #: kuma/core/translations/search/filter/api/name.py:4
 msgid "APIs and DOM"
-msgstr ""
+msgstr "واجهات API ونموذج DOM"
 
 #: kuma/core/translations/search/filter/apps/name.py:4
 msgid "Open Web Apps"
-msgstr ""
+msgstr "تطبيقات الوِب المفتوحة"
 
 #: kuma/core/translations/search/filter/b2g-os/name.py:4
 msgid "B2G OS"
@@ -994,7 +994,7 @@ msgstr "رقعة الرسم"
 
 #: kuma/core/translations/search/filter/code/name.py:4
 msgid "Code Samples"
-msgstr ""
+msgstr "عيّنات عن الكود"
 
 #: kuma/core/translations/search/filter/firefox/name.py:4
 msgid "Firefox"
@@ -1010,7 +1010,7 @@ msgstr "فَيَرفُكس لأندرويد"
 
 #: kuma/core/translations/search/filter/firefox-os/name.py:4
 msgid "Firefox OS"
-msgstr ""
+msgstr "نظام فَيَرفُكس"
 
 #: kuma/core/translations/search/filter/games/name.py:4
 msgid "Games"
@@ -1128,22 +1128,22 @@ msgstr ""
 #, python-format
 msgid "Found %(num)s active macro."
 msgid_plural "Found %(num)s active macros."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لم يُعثر على أي ماكرو نشط."
+msgstr[1] "عُثر على ماكرو واحد نشط."
+msgstr[2] "عُثر على ماكروهين نشطين."
+msgstr[3] "عُثر على %(num)s ماكروهات نشطة."
+msgstr[4] "عُثر على %(num)s ماكروهًا نشطًا."
+msgstr[5] "عُثر على %(num)s ماكرو نشط."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:16
 #, python-format
 msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
-msgstr ""
+msgstr "طالع <a href=\"%(url)s\">مستودع غِت‌هَب</a> لقائمة بالماكروهات."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:18
 #, python-format
 msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr ""
+msgstr "يمكنك <a href=\"%(url)s\">البحث عن الماكروهات يدويا</a> أيضا."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:24
 msgid "Active macros and their usage counts"
@@ -1163,7 +1163,7 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:65
 msgid "Search for macro usage:"
-msgstr ""
+msgstr "ابحث عن استخدامات الماكرو:"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:68
 msgid "Search All Pages"
@@ -1629,45 +1629,45 @@ msgstr "النتائج"
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لم يُعثر على أي مستند عن ”%(query)s“ في كل اللغات."
+msgstr[1] "عثُر على مستند واحد عن ”%(query)s“ في كل اللغات."
+msgstr[2] "عثُر على مستندين عن ”%(query)s“ في كل اللغات."
+msgstr[3] "عثُر على %(count)s مستندات عن ”%(query)s“ في كل اللغات."
+msgstr[4] "عثُر على %(count)s مستندًا عن ”%(query)s“ في كل اللغات."
+msgstr[5] "عثُر على %(count)s مستند عن ”%(query)s“ في كل اللغات."
 
 #: kuma/search/jinja2/search/results.html:74
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لم يُعثر على أي مستند في كل اللغات."
+msgstr[1] "عثُر على مستند واحد في كل اللغات."
+msgstr[2] "عثُر على مستندين في كل اللغات."
+msgstr[3] "عثُر على %(count)s مستندات في كل اللغات."
+msgstr[4] "عثُر على %(count)s مستندًا في كل اللغات."
+msgstr[5] "عثُر على %(count)s مستند في كل اللغات."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لم يُعثر على أي مستند عن ”%(query)s“ باللغة %(locale_native)s."
+msgstr[1] "عثُر على مستند واحد عن ”%(query)s“ باللغة %(locale_native)s."
+msgstr[2] "عثُر على مستندين عن ”%(query)s“ باللغة %(locale_native)s."
+msgstr[3] "عثُر على %(count)s مستندات عن ”%(query)s“ باللغة %(locale_native)s."
+msgstr[4] "عثُر على %(count)s مستندًا عن ”%(query)s“ باللغة %(locale_native)s."
+msgstr[5] "عثُر على %(count)s مستند عن ”%(query)s“ باللغة %(locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:90
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لم يُعثر على أي مستند عن ”%(query)s“ باللغة %(locale_native)s وباللغة %(default_locale_native)s."
+msgstr[1] "عثُر على مستند واحد عن ”%(query)s“ باللغة %(locale_native)s وباللغة %(default_locale_native)s."
+msgstr[2] "عثُر على مستندين عن ”%(query)s“ باللغة %(locale_native)s وباللغة %(default_locale_native)s."
+msgstr[3] "عثُر على %(count)s مستندات عن ”%(query)s“ باللغة %(locale_native)s وباللغة %(default_locale_native)s."
+msgstr[4] "عثُر على %(count)s مستندًا عن ”%(query)s“ باللغة %(locale_native)s وباللغة %(default_locale_native)s."
+msgstr[5] "عثُر على %(count)s مستند عن ”%(query)s“ باللغة %(locale_native)s وباللغة %(default_locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:98
 #, python-format
@@ -1817,7 +1817,7 @@ msgstr "اسم المستخدم"
 
 #: kuma/users/forms.py:78
 msgid "Display a link to GitHub on my profile"
-msgstr ""
+msgstr "اعرض رابطًا إلى ملفي في غِت‌هَب"
 
 #: kuma/users/forms.py:82 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
@@ -1954,7 +1954,7 @@ msgstr "أوافق"
 
 #: kuma/users/signup.py:38
 msgid "I would like to make my GitHub profile URL public"
-msgstr ""
+msgstr "أود أن أنشر رابط ملفي على غِت‌هَب للعلن"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
 msgid "Take the next step to get involved on MDN!"
@@ -2135,11 +2135,11 @@ msgstr ""
 #: kuma/users/jinja2/account/signup.html:10
 #, python-format
 msgid "Already have an profile? Then please <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
+msgstr "ألديك حساب بالفعل؟ رجاءً <a href=\"%(login_url)s\">لِج</a>."
 
 #: kuma/users/jinja2/account/signup_closed.html:3
 msgid "Profile Creation Disabled"
-msgstr ""
+msgstr "عُطّل إنشاء الحسابات"
 
 #: kuma/users/jinja2/account/verification_sent.html:3 kuma/users/jinja2/account/verification_sent.html:7 kuma/users/jinja2/account/verified_email_required.html:3
 #: kuma/users/jinja2/account/verified_email_required.html:7
@@ -2203,7 +2203,7 @@ msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:32
 msgid "Recover my Profile"
-msgstr ""
+msgstr "استعد ملفي الشخصي"
 
 #: kuma/users/jinja2/socialaccount/signup.html:41
 #, python-format
@@ -2289,7 +2289,7 @@ msgstr "امنع %(user)s"
 #: kuma/users/jinja2/users/ban_user.html:22
 #, python-format
 msgid "Why are you banning %(user)s"
-msgstr ""
+msgstr "ما سبب منع %(user)s"
 
 #: kuma/users/jinja2/users/ban_user.html:25
 msgid "Choose a reason"
