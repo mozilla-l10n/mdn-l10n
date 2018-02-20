@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-01-31 07:26-0800\n"
+"POT-Creation-Date: 2018-02-20 08:15-0800\n"
 "PO-Revision-Date: 2018-01-18 21:23+0000\n"
 "Last-Translator: ybouhamam <ybouhamam@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -58,7 +58,7 @@ msgstr ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> sɣur Matthew Inman n <a href=\"http://theoatmeal.com\" rel=\"nofollow"
 "\">The Oatmeal</a></small></p>"
 
-#: jinja2/404.html:6
+#: jinja2/404.html:6 jinja2/404.html:13
 msgid "Not Found"
 msgstr "Ulac-it"
 
@@ -107,217 +107,83 @@ msgstr "Tzemreḍ ad tɛerḍeḍ tikkelt nniḍen aka tasdat."
 msgid "You may be interested in other ways to <a href=\"%(content_url)s\">download MDN Web Docs content</a>."
 msgstr "Ahat tebɣiḍ iberdan nniḍen ɣer <a href=\"%(content_url)s\">sider MDN agbur n ifuyla Web</a>."
 
-#: jinja2/500.html:5
+#: jinja2/500.html:5 jinja2/500.html:16
 msgid "Internal Server Error"
 msgstr "Tuccḍa tagensant n uqeddac"
 
-#: jinja2/base.html:10 jinja2/base.html:45 jinja2/base.html:50 jinja2/base.html:102 jinja2/base.html:193 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:10 jinja2/base.html:51 jinja2/base.html:56 jinja2/base.html:112 jinja2/base.html:133 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Isemliyen Web n MDN"
 
-#: jinja2/base.html:81
+#: jinja2/base.html:95
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN hata tura deg uskar n useggem n tɣuri kan."
 
-#: jinja2/base.html:83
+#: jinja2/base.html:97
 msgid "Learn more"
 msgstr "Issin ugar"
 
-#: jinja2/base.html:95
-msgid "Skip to main content"
-msgstr "Ddu ɣer ugbur agejdan"
-
-#: jinja2/base.html:96
-msgid "Select language"
-msgstr "Fren tutlayt"
-
-#: jinja2/base.html:97
-msgid "Skip to search"
-msgstr "Ddu ɣer unadi"
-
-#: jinja2/base.html:107 kuma/core/translations/search/filter/tools/name.py:4
-msgid "Tools"
-msgstr "Ifecka"
-
-#: jinja2/base.html:110
-msgid "Contribute to MDN"
-msgstr "Ttekki ɣer MDN"
-
-#: jinja2/base.html:112
-msgid "Get started"
-msgstr "Bdu"
-
-#: jinja2/base.html:113
-msgid "Review or localize docs"
-msgstr "Seɣti neɣ sideg tasemlit"
-
-#: jinja2/base.html:116
-msgid "Site Tools"
-msgstr "Ifecka n usmel"
-
-#: jinja2/base.html:118
-msgid "Revision dashboard"
-msgstr "Tafelwit n usenqed n uɛawed n tmuɣli"
-
-#: jinja2/base.html:119
-msgid "Documentation status"
-msgstr "Addad n tsemlit"
-
-#: jinja2/base.html:127
-msgid "Technologies"
-msgstr "Titiknulujiyin"
-
-#: jinja2/base.html:131 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
-msgid "HTML"
-msgstr "HTML"
-
-#: jinja2/base.html:132 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
-msgid "CSS"
-msgstr "CSS"
-
-#: jinja2/base.html:133 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
-msgid "JavaScript"
-msgstr "JavaScript"
-
-#: jinja2/base.html:134
-msgid "Graphics"
-msgstr "Idlifen"
-
-#: jinja2/base.html:135
-msgid "HTTP"
-msgstr "HTTP"
-
-#: jinja2/base.html:136
-msgid "APIs / DOM"
-msgstr "APIs / DOM"
-
-#: jinja2/base.html:137
-msgid "Browser Extensions"
-msgstr "Isiɣzaf n iminig"
-
-#: jinja2/base.html:138 kuma/core/translations/search/filter/mathml/name.py:4
-msgid "MathML"
-msgstr "MathML"
-
-#: jinja2/base.html:140
-msgid "References & Guides"
-msgstr "Timsisɣal & Imniren"
-
-#: jinja2/base.html:144 kuma/landing/jinja2/landing/homepage.html:47
-msgid "Learn web development"
-msgstr "Issin taneflit Web"
-
-#: jinja2/base.html:145
-msgid "Tutorials"
-msgstr "tuṭuṛyel"
-
-#: jinja2/base.html:146
-msgid "References"
-msgstr "Timsisɣal"
-
-#: jinja2/base.html:147
-msgid "Developer Guides"
-msgstr "Imniren  n uneflay"
-
-#: jinja2/base.html:148
-msgid "Accessibility"
-msgstr "Tuffart"
-
-#: jinja2/base.html:149
-msgid "Game development"
-msgstr "Taneflit n wuraren"
-
-#: jinja2/base.html:150
-msgid "...more docs"
-msgstr "...ugar n isemliyen"
-
-#: jinja2/base.html:154 jinja2/base.html:200
-msgid "Feedback"
-msgstr "Tikti"
-
-#: jinja2/base.html:158
-msgid "Get Firefox help"
-msgstr "Sis-d tallalt n Firefox"
-
-#: jinja2/base.html:159
-msgid "Get web development help"
-msgstr "Sis-d tallalt n tneflit web"
-
-#: jinja2/base.html:162
-msgid "Join the MDN community"
-msgstr "Ddu ɣer tmezdagnut MDN"
-
-#: jinja2/base.html:163
-msgid "Report a content problem"
-msgstr "Azen ugur n ugbur"
-
-#: jinja2/base.html:164
-msgid "Report a bug"
-msgstr "Azen abug"
-
-#: jinja2/base.html:171 jinja2/base.html:172 jinja2/base.html:174 jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 kuma/landing/jinja2/landing/homepage.html:33
-#: kuma/landing/jinja2/landing/homepage.html:38 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47
-#: kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
-msgid "Search"
-msgstr "Nadi"
-
-#: jinja2/base.html:197 kuma/landing/jinja2/landing/homepage.html:46
+#: jinja2/base.html:137 kuma/landing/jinja2/landing/homepage.html:46
 msgid "Web Technologies"
 msgstr "Titiknulujiyin Web"
 
-#: jinja2/base.html:198 kuma/landing/jinja2/landing/homepage.html:83
+#: jinja2/base.html:138 kuma/landing/jinja2/landing/homepage.html:83
 msgid "Learn Web Development"
 msgstr "Issin taneflit Web"
 
-#: jinja2/base.html:199
+#: jinja2/base.html:139
 msgid "About MDN"
 msgstr "Γef MDN"
 
-#: jinja2/base.html:201 jinja2/base.html:214 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:140 jinja2/includes/header-main-nav.html:41
+msgid "Feedback"
+msgstr "Tikti"
+
+#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/base.html:202 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/base.html:206 kuma/core/sections.py:13
+#: jinja2/base.html:146 kuma/core/sections.py:13
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: jinja2/base.html:210
+#: jinja2/base.html:150
 msgid "About"
 msgstr "Fell-aɣ"
 
-#: jinja2/base.html:211
+#: jinja2/base.html:151
 msgid "Contact Us"
 msgstr "Nermes-aɣ-d"
 
-#: jinja2/base.html:212
+#: jinja2/base.html:152
 msgid "Donate"
 msgstr "Mudd tawsa"
 
-#: jinja2/base.html:215 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr "Facebook"
 
-#: jinja2/base.html:216
+#: jinja2/base.html:156
 msgid "Instagram"
 msgstr "Instagram"
 
-#: jinja2/base.html:226
+#: jinja2/base.html:166
 msgid "Terms"
 msgstr "Tiwtilin"
 
-#: jinja2/base.html:227
+#: jinja2/base.html:167
 msgid "Privacy"
 msgstr "Tabaḍnit"
 
-#: jinja2/base.html:228
+#: jinja2/base.html:168
 msgid "Cookies"
 msgstr "Inagan n tuqqna"
 
-#: jinja2/base.html:232
+#: jinja2/base.html:172
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla akked ittekkiyen iman-nsen.</p> <p>Akk igburen llan ddaw <a href=\"%(copyright_url)s\">n turagin-a</a>.</p>"
@@ -326,9 +192,143 @@ msgstr "<p>&copy; 2005-%(thisyear)s Mozilla akked ittekkiyen iman-nsen.</p> <p>A
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
 msgstr "<li><a href=\"/logout\">Ffeɣ</a> u ɛreḍ tikelt nniḍen.</li>"
 
+#: jinja2/includes/a11y-nav.html:2
+msgid "Skip to main content"
+msgstr "Ddu ɣer ugbur agejdan"
+
+#: jinja2/includes/a11y-nav.html:3
+msgid "Select language"
+msgstr "Fren tutlayt"
+
+#: jinja2/includes/a11y-nav.html:4
+msgid "Skip to search"
+msgstr "Ddu ɣer unadi"
+
 #: jinja2/includes/common_macros.html:18
 msgid "Search Firefox Help"
 msgstr "Nadi tallalt n Firefox"
+
+#: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:6
+#: kuma/landing/jinja2/landing/homepage.html:33 kuma/landing/jinja2/landing/homepage.html:38 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
+#: kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
+msgid "Search"
+msgstr "Nadi"
+
+#: jinja2/includes/header-main-nav.html:4
+msgid "Technologies"
+msgstr "Titiknulujiyin"
+
+#: jinja2/includes/header-main-nav.html:10 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
+msgid "HTML"
+msgstr "HTML"
+
+#: jinja2/includes/header-main-nav.html:11 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
+msgid "CSS"
+msgstr "CSS"
+
+#: jinja2/includes/header-main-nav.html:12 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: jinja2/includes/header-main-nav.html:13
+msgid "Graphics"
+msgstr "Idlifen"
+
+#: jinja2/includes/header-main-nav.html:14
+msgid "HTTP"
+msgstr "HTTP"
+
+#: jinja2/includes/header-main-nav.html:15
+msgid "APIs / DOM"
+msgstr "APIs / DOM"
+
+#: jinja2/includes/header-main-nav.html:16
+msgid "Browser Extensions"
+msgstr "Isiɣzaf n iminig"
+
+#: jinja2/includes/header-main-nav.html:17 kuma/core/translations/search/filter/mathml/name.py:4
+msgid "MathML"
+msgstr "MathML"
+
+#: jinja2/includes/header-main-nav.html:23
+msgid "References & Guides"
+msgstr "Timsisɣal & Imniren"
+
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:47
+msgid "Learn web development"
+msgstr "Issin taneflit Web"
+
+#: jinja2/includes/header-main-nav.html:30
+msgid "Tutorials"
+msgstr "tuṭuṛyel"
+
+#: jinja2/includes/header-main-nav.html:31
+msgid "References"
+msgstr "Timsisɣal"
+
+#: jinja2/includes/header-main-nav.html:32
+msgid "Developer Guides"
+msgstr "Imniren  n uneflay"
+
+#: jinja2/includes/header-main-nav.html:33
+msgid "Accessibility"
+msgstr "Tuffart"
+
+#: jinja2/includes/header-main-nav.html:34
+msgid "Game development"
+msgstr "Taneflit n wuraren"
+
+#: jinja2/includes/header-main-nav.html:35
+msgid "...more docs"
+msgstr "...ugar n isemliyen"
+
+#: jinja2/includes/header-main-nav.html:48
+msgid "Get Firefox help"
+msgstr "Sis-d tallalt n Firefox"
+
+#: jinja2/includes/header-main-nav.html:53
+msgid "Get web development help"
+msgstr "Sis-d tallalt n tneflit web"
+
+#: jinja2/includes/header-main-nav.html:60
+msgid "Join the MDN community"
+msgstr "Ddu ɣer tmezdagnut MDN"
+
+#: jinja2/includes/header-main-nav.html:63
+msgid "Report a content problem"
+msgstr "Azen ugur n ugbur"
+
+#: jinja2/includes/header-main-nav.html:68
+msgid "Report a bug"
+msgstr "Azen abug"
+
+#: jinja2/includes/header-toolbox.html:4 kuma/core/translations/search/filter/tools/name.py:4
+msgid "Tools"
+msgstr "Ifecka"
+
+#: jinja2/includes/header-toolbox.html:7
+msgid "Contribute to MDN"
+msgstr "Ttekki ɣer MDN"
+
+#: jinja2/includes/header-toolbox.html:9
+msgid "Get started"
+msgstr "Bdu"
+
+#: jinja2/includes/header-toolbox.html:10
+msgid "Review or localize docs"
+msgstr "Seɣti neɣ sideg tasemlit"
+
+#: jinja2/includes/header-toolbox.html:13
+msgid "Site Tools"
+msgstr "Ifecka n usmel"
+
+#: jinja2/includes/header-toolbox.html:15
+msgid "Revision dashboard"
+msgstr "Tafelwit n usenqed n uɛawed n tmuɣli"
+
+#: jinja2/includes/header-toolbox.html:16
+msgid "Documentation status"
+msgstr "Addad n tsemlit"
 
 #: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:93
 msgid "Other languages:"
@@ -353,6 +353,11 @@ msgstr "Ffeɣ"
 #: jinja2/includes/login.html:20
 msgid "Sign in"
 msgstr "Kcem"
+
+#: jinja2/includes/nav-main-search.html:8
+#, fuzzy
+msgid "Close search"
+msgstr "Ddu ɣer unadi"
 
 #: jinja2/includes/newsletter.html:4
 msgid "Learn the best of web development"
@@ -790,7 +795,7 @@ msgid "File"
 msgstr "Afaylu"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1902
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1872
 msgid "Title"
 msgstr "Azwel"
 
@@ -1194,7 +1199,7 @@ msgstr "Imzizdig"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Akken iteddu umahil deg akud, Ad ifak di %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1855
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1825
 msgid "Revision"
 msgstr "Aɛiwed n tmuɣli"
 
@@ -3045,134 +3050,134 @@ msgstr "Anugzum amaynut:"
 msgid "New article URL"
 msgstr "Tansa URL tamaynut n umagrad"
 
-#: kuma/wiki/models.py:89
+#: kuma/wiki/models.py:86
 #, python-format
 msgid "Parent %s does not exist."
 msgstr "Asaraw %s ulac-it."
 
-#: kuma/wiki/models.py:97
+#: kuma/wiki/models.py:94
 msgid "Document Tag"
 msgstr "Tabzimt n isemli"
 
-#: kuma/wiki/models.py:98
+#: kuma/wiki/models.py:95
 msgid "Document Tags"
 msgstr "Tibzimin n isemli"
 
-#: kuma/wiki/models.py:150
+#: kuma/wiki/models.py:147
 msgid "uploaded to the document"
 msgstr "yuli-d seg isemli"
 
-#: kuma/wiki/models.py:156
+#: kuma/wiki/models.py:153
 msgid "linked in the document content"
 msgstr "yettucudd deg ugbur n isemli"
 
-#: kuma/wiki/models.py:170
+#: kuma/wiki/models.py:167
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Ur tezmireḍ ara ad tessedduḍ %(attachment_id)s deqs n tikal ɣer isemli %(document_id)s"
 
-#: kuma/wiki/models.py:1538
+#: kuma/wiki/models.py:1508
 msgid "Review Tag"
 msgstr "Tabzimt n tɣuṛi/awali tikelt nniḍen"
 
-#: kuma/wiki/models.py:1539
+#: kuma/wiki/models.py:1509
 msgid "Review Tags"
 msgstr "Tibzimin n tɣuṛi/awali tikelt nniḍen"
 
-#: kuma/wiki/models.py:1545
+#: kuma/wiki/models.py:1515
 msgid "Localization Tag"
 msgstr "Tabzimt n usideg"
 
-#: kuma/wiki/models.py:1546
+#: kuma/wiki/models.py:1516
 msgid "Localization Tags"
 msgstr "Tibzimin n usideg"
 
-#: kuma/wiki/models.py:1579
+#: kuma/wiki/models.py:1549
 msgid "No table of contents"
 msgstr "Ulac tafelwit n ugbur"
 
-#: kuma/wiki/models.py:1580
+#: kuma/wiki/models.py:1550
 msgid "All levels"
 msgstr "Akk iswiren"
 
-#: kuma/wiki/models.py:1581
+#: kuma/wiki/models.py:1551
 msgid "H2 and higher"
 msgstr "H2 neɣ ugar"
 
-#: kuma/wiki/models.py:1582
+#: kuma/wiki/models.py:1552
 msgid "H3 and higher"
 msgstr "H3 neɣ ugar"
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1553
 msgid "H4 and higher"
 msgstr "H4 neɣ ugar"
 
-#: kuma/wiki/models.py:1685
+#: kuma/wiki/models.py:1655
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Yessefk aɛiwed n tmuɣli ad yebnu ɣef uɛid n tmuɣli n isemli %(locale)s. Asulay ID n uɛiwed n tmuɣli %(id)s ur imeɣri  ara akked usebdad agi."
 
-#: kuma/wiki/models.py:1815
+#: kuma/wiki/models.py:1785
 msgid "IP address"
 msgstr "Tansa IP"
 
-#: kuma/wiki/models.py:1823
+#: kuma/wiki/models.py:1793
 msgid "User-Agent"
 msgstr "Aseqdac-Ameggi"
 
-#: kuma/wiki/models.py:1828
+#: kuma/wiki/models.py:1798
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1836 kuma/wiki/models.py:1921
+#: kuma/wiki/models.py:1806 kuma/wiki/models.py:1891
 msgid "Data submitted to Akismet"
 msgstr "Isefka ttwaznen i Akismet"
 
-#: kuma/wiki/models.py:1861
+#: kuma/wiki/models.py:1831
 msgid "Akismet submission"
 msgstr "Anekcum Akismet"
 
-#: kuma/wiki/models.py:1862
+#: kuma/wiki/models.py:1832
 msgid "Akismet submissions"
 msgstr "Inekcumen Akismet"
 
-#: kuma/wiki/models.py:1906
+#: kuma/wiki/models.py:1876
 msgid "Slug"
 msgstr "Asulay n tensa URL"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1884
 msgid "Document (optional)"
 msgstr "Isemli (afrayan)"
 
-#: kuma/wiki/models.py:1924
+#: kuma/wiki/models.py:1894
 msgid "reviewed"
 msgstr "yettuwal/yettwaɣṛa tikelt nniḍen"
 
-#: kuma/wiki/models.py:1935
+#: kuma/wiki/models.py:1905
 msgid "Needs Review"
 msgstr "Yesra awal/taɣuri tikelt nniḍen"
 
-#: kuma/wiki/models.py:1936
+#: kuma/wiki/models.py:1906
 msgid "Ham / False Positive"
 msgstr "Agbur ameɣtu / Mačči d ummid"
 
-#: kuma/wiki/models.py:1937
+#: kuma/wiki/models.py:1907
 msgid "Confirmed as Spam"
 msgstr "Yettwasentem d aspam"
 
-#: kuma/wiki/models.py:1938
+#: kuma/wiki/models.py:1908
 msgid "Review Unavailable"
 msgstr "Aɛiwed n tmuɣli ulac-it"
 
-#: kuma/wiki/models.py:1939
+#: kuma/wiki/models.py:1909
 msgid "Akismet Error"
 msgstr "Tuucḍa Akismet"
 
-#: kuma/wiki/models.py:1944
+#: kuma/wiki/models.py:1914
 msgid "Review of Akismet's classification as spam"
 msgstr "Taɣuṛi nniḍen n usmizzwer s uspam sɣuṛ Akismet"
 
-#: kuma/wiki/models.py:1951
+#: kuma/wiki/models.py:1921
 msgid "Staff reviewer"
 msgstr "Amseɣtay n terbaɛt"
 
@@ -4188,17 +4193,17 @@ msgstr "Yettweleh-d si %(url)s"
 msgid "I learned about %(title)s on MDN."
 msgstr "Lemdeɣ ɣef %(title)s di MDN."
 
-#: kuma/wiki/views/document.py:855
+#: kuma/wiki/views/document.py:837
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Anaw n ugbur ur yettusefrak ara: %s"
 
-#: kuma/wiki/views/document.py:862
+#: kuma/wiki/views/document.py:844
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Tuccḍa n tesleṭ n tuttra: %s"
 
-#: kuma/wiki/views/document.py:883
+#: kuma/wiki/views/document.py:865
 msgid "ETag precondition failed"
 msgstr "Tawtilt tuzwirt ETag ur teddi ara"
 
