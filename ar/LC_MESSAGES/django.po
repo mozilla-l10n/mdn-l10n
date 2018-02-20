@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-02-20 08:15-0800\n"
-"PO-Revision-Date: 2018-02-20 20:30+0000\n"
+"PO-Revision-Date: 2018-02-20 20:49+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
 "Language: ar\n"
@@ -309,7 +309,7 @@ msgstr "ساهم في MDN"
 
 #: jinja2/includes/header-toolbox.html:9
 msgid "Get started"
-msgstr "ابدأ المساهمة"
+msgstr "أولى الخطوات"
 
 #: jinja2/includes/header-toolbox.html:10
 msgid "Review or localize docs"
@@ -912,6 +912,8 @@ msgid ""
 "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
 "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
 msgstr ""
+"<p>لقد أُنشئت المفاتيح الجديدة. رجاءً انسخ التفاصيل أدناه (مثلا بنسخها في إعدادات التطبيق لديك). لن تُعرض هذه المعلومات مرة أخرى، ولا يمكن استعادتها إن فقدتها.</p> <p><strong>لاحظ:</strong> عندما "
+"تنتهي، <a class=\"button\" href=\"%(list_url)s\">عُد إلى قائمة المفاتيح</a>. سيُنشأ مفتاح جديد إن أعدت تحميل هذه الصفحة.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:30
 msgid "Key ID"
@@ -1126,7 +1128,7 @@ msgstr "المؤلّفون"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
-msgstr ""
+msgstr "الماكروهات النشطة"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
 #, python-format
@@ -1151,7 +1153,7 @@ msgstr "يمكنك <a href=\"%(url)s\">البحث عن الماكروهات يد
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:24
 msgid "Active macros and their usage counts"
-msgstr ""
+msgstr "الماكروهات النشطة ومقدار استخدامها"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:31 kuma/dashboards/jinja2/dashboards/macros.html:66
 msgid "Macro Name"
@@ -1324,11 +1326,11 @@ msgstr "تبرّع الآن"
 
 #: kuma/landing/jinja2/landing/homepage.html:71
 msgid "Test in Firefox and over 800 browser/OS combos with Mozilla and Sauce Labs"
-msgstr ""
+msgstr "اختبر على فَيَرفُكس وما يزيد عن ٨٠٠ تنويعة متصفحات/نظم تشغيل، مع موزيلا وSauce Labs"
 
 #: kuma/landing/jinja2/landing/homepage.html:72
 msgid "Test on Sauce Labs"
-msgstr ""
+msgstr "اختبر في Sauce Labs"
 
 #: kuma/landing/jinja2/landing/homepage.html:86
 msgid "Get The Browser For Developers Like You"
@@ -1355,7 +1357,7 @@ msgstr "ساعد بتحسين MDN"
 
 #: kuma/landing/jinja2/landing/homepage.html:120
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
-msgstr ""
+msgstr "تُنشئ كل أجزاء MDN (التوثيق والموقع نفسه) على يد مجتمع مطورين مفتوح. نرجو منك الانضمام معنا. اختر أحد هذه الطرق للمساعدة:"
 
 #: kuma/landing/jinja2/landing/homepage.html:126
 msgid "Getting started"
@@ -1588,7 +1590,7 @@ msgstr ""
 
 #: kuma/search/utils.py:14
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
-msgstr ""
+msgstr "البحث غير متوفر مؤقتًا. رجاءً حاول مجددًا بعد بضع دقائق."
 
 #: kuma/search/utils.py:17
 msgid "Something went wrong with the search query. Please try again in a few minutes."
@@ -2626,7 +2628,7 @@ msgstr "شكرًا لاستخدامك MDN!"
 #: kuma/users/jinja2/users/email/recovery/subject.ltxt:1
 #, python-format
 msgid "Profile Recovery for %(username)s at %(domain)s"
-msgstr ""
+msgstr "استعادة حساب %(username)s على %(domain)s"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9
 #, python-format
@@ -2636,12 +2638,12 @@ msgstr "مرحبًا يا %(username)s!"
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr ""
+msgstr "شكرا لك على إنشاء حساب في <a href=\"%(mdn_link)s\">توثيق MDN للوِب</a>، المجتمع الذي يُنشئ موارد قيّمة للمطورين أمثالك."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
 msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr ""
+msgstr "لقد أكملت أولى خطوات <a href=\"%(started_link)s\">البدء في MDN</a> بإنشائك لحساب."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:21
 #, python-format
@@ -2649,6 +2651,8 @@ msgid ""
 "Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
 msgstr ""
+"يمكنك الآن المتابعة باختيار مهمة على MDN وتنفيذها. لدينا عدد من المهام البسيطة التي يمكنك الاختيار منها، أكنت <a href=\"%(words_link)s\">تحب الكلمات</a>، أو <a href=\"%(code_link)s\">تحب "
+"البرمجة</a>، أو <a href=\"%(both_link)s\">تحبهما كليهما</a>، أو إن أردت <a href=\"%(translate_link)s\">ترجمة MDN إلى لغتك</a>."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:34
 msgid "Talk to us!"
@@ -2657,12 +2661,12 @@ msgstr ""
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
-msgstr ""
+msgstr "أتريد التحدث مع أحدهم عن MDN؟ هناك بضعة طرق لذلك:"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
-msgstr ""
+msgstr "منتدى النقاش: <a href=\"%(list_link)s\">انضم</a> وأخبرنا عمّا تحب في MDN واطرح علينا الأسئلة بخصوص الموقع."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:43
 #, python-format
@@ -3834,7 +3838,7 @@ msgstr "ألغِ الاشتراك بهذه المقالة"
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:138
 #, python-format
 msgid "You are now subscribed to %(title)s."
-msgstr "اشتركت الآن ب‍ %(title)s."
+msgstr "اشتركت الآن ب‍ ”%(title)s“."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:138
 #, python-format
