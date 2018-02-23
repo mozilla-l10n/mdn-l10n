@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-02-20 08:15-0800\n"
-"PO-Revision-Date: 2018-02-23 06:42+0000\n"
+"PO-Revision-Date: 2018-02-23 07:11+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
 "Language: ar\n"
@@ -390,7 +390,7 @@ msgstr "شكرا. رجاءً تفحّص صندوق الوارد لديك لتأ�
 
 #: jinja2/includes/newsletter.html:36
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr ""
+msgstr "إن لم يسبق لك تأكيد اشتراكك في إحدى نشرات موزيلا البريدية فقد تحتاج فعل ذلك. رجاءً افحص صندوق الوارد لديك أو مرشّح السخام بحثا عن الرسالة التي أرسلناها."
 
 #: jinja2/includes/newsletter.html:43
 msgid "Hide Newsletter Sign-up"
@@ -768,7 +768,7 @@ msgstr "ارفع الملف إلى المقالة %(title)s"
 
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:30
 msgid "Upload files"
-msgstr "ارفع الملفات"
+msgstr "ارفع ملفات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:7
 msgid "Learn how to use Attachments"
@@ -776,7 +776,7 @@ msgstr "اطّلع على طريقة استخدام المرفقات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:11 kuma/attachments/jinja2/attachments/includes/attachment_list.html:20
 msgid "Upload Files"
-msgstr "ارفع الملفات"
+msgstr "ارفع ملفات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:16
 msgid "This document has no attachments."
@@ -806,11 +806,11 @@ msgstr "تعليقات"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:70
 msgid "Attached to this article"
-msgstr ""
+msgstr "المرفقة بهذه المقالة"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:72
 msgid "Attached to another article"
-msgstr ""
+msgstr "المرفقة بمقالة أخرى"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:77
 msgid "Size"
@@ -930,12 +930,12 @@ msgstr ""
 #: kuma/core/form_fields.py:57
 #, python-format
 msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr ""
+msgstr "تأكّد من أن لهذه القيمة أحرف عددها %(limit_value)s على الأقل (%(show_value)s حاليا)."
 
 #: kuma/core/form_fields.py:62
 #, python-format
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr ""
+msgstr "تأكّد من أن لهذه القيمة أحرف عددها %(limit_value)s على الأكثر (%(show_value)s حاليا)."
 
 #: kuma/core/sections.py:6
 msgid "Add-ons"
@@ -1280,13 +1280,13 @@ msgstr "أرسِل البريد عند الموافقة على المراجعا�
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:7 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:10
 msgid "Stop getting emailed when English reviews are waiting"
-msgstr ""
+msgstr "أوقِف إرسال البريد عند وجود مراجعات عربية مرجأة"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
 #: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:18 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:21
 msgid "Get emailed when English reviews are waiting"
-msgstr ""
+msgstr "أرسِل البريد عند وجود مراجعات عربية مرجأة"
 
 #: kuma/landing/jinja2/landing/homepage.html:15
 msgid ""
@@ -1350,6 +1350,8 @@ msgid ""
 "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 "locales</span> <span class=\"row3\">around the world.</span> </p>"
 msgstr ""
+"<p class=\"numbers\"> <span class=\"row1\">انضم إلى ال‍ <span class=\"number\">%(contributors)s</span> مساهما</span> <span class=\"row2\">في <span class=\"number\">%(locales)s</span> لغة "
+"ومحلية</span> <span class=\"row3\">حول العالم.</span> </p>"
 
 #: kuma/landing/jinja2/landing/homepage.html:109 kuma/landing/jinja2/landing/homepage.html:116
 msgid "Help improve MDN"
@@ -1594,7 +1596,7 @@ msgstr "البحث غير متوفر مؤقتًا. رجاءً حاول مجدد�
 
 #: kuma/search/utils.py:17
 msgid "Something went wrong with the search query. Please try again in a few minutes."
-msgstr ""
+msgstr "حدث خطب ما مع استعلام البحث. رجاءً أعِد المحالة بعد عدة دقائق."
 
 #: kuma/search/views.py:95
 msgid "name"
@@ -1743,7 +1745,7 @@ msgstr "كل المواضيع"
 
 #: kuma/search/jinja2/search/results.html:199
 msgid "Filter by"
-msgstr ""
+msgstr "رشّح بِ‍"
 
 #: kuma/spam/forms.py:9
 msgid "The submitted data contains invalid content."
@@ -1856,7 +1858,7 @@ msgstr "البريد الإلكتروني"
 #: kuma/users/models.py:34
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
-msgstr ""
+msgstr "منع %(banned_by)s المستخدم %(banned_user)s"
 
 #: kuma/users/models.py:37
 #, python-format
@@ -2111,12 +2113,12 @@ msgstr "لقد أرسنا إليك رسالة على البريد. رجاءً ر
 
 #: kuma/users/jinja2/account/password_reset_from_key.html:10
 msgid "Bad Token"
-msgstr ""
+msgstr "الأمارة سيئة"
 
 #: kuma/users/jinja2/account/password_reset_from_key.html:17
 #, python-format
 msgid "The password reset link was invalid, possibly because it has already been used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</a>."
-msgstr ""
+msgstr "رابط تصفير كلمة السر غير صالح، لربما لأنه استُخدم فعلا.  رجاءً اطلب <a href=\"%(passwd_reset_url)s\">تصفير كلمة السر</a> ثانيةً."
 
 #: kuma/users/jinja2/account/password_reset_from_key.html:23
 msgid "Change password"
@@ -2192,7 +2194,7 @@ msgstr ""
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
 msgid "Login Cancelled"
-msgstr ""
+msgstr "أُلغي الولوج"
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:9
 #, python-format
@@ -2911,7 +2913,7 @@ msgstr "العنوان قصير جدا (عدد أحرفه %(show_value)s). يج�
 #: kuma/wiki/forms.py:39
 #, python-format
 msgid "Please keep the length of the title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
-msgstr ""
+msgstr "رجاءً أبقِ عدد أحرف العنوان %(limit_value)s أو أقل. عدد أحرفه حاليا %(show_value)s."
 
 #: kuma/wiki/forms.py:42
 msgid "Name Your Article"
@@ -2920,7 +2922,7 @@ msgstr ""
 #: kuma/wiki/forms.py:43
 #, python-format
 msgid "The tags field is too long (%(show_value)s characters). Keep the total length to %(limit_value)s characters."
-msgstr ""
+msgstr "حقل الوسوم طويل جدا (عدد محارفه %(show_value)s). أبقِ الطول الإجمالي ليكون بعدد %(limit_value)s."
 
 #: kuma/wiki/forms.py:45
 msgid "Please provide a slug."
@@ -2933,12 +2935,12 @@ msgstr ""
 #: kuma/wiki/forms.py:47
 #, python-format
 msgid "The slug is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
-msgstr ""
+msgstr "معرِّف المقالة قصير جدا (عدد أحرفه %(show_value)s). يجب ألا يقل العدد عن %(limit_value)s."
 
 #: kuma/wiki/forms.py:49
 #, python-format
 msgid "Please keep the length of the slug to %(limit_value)s characters or less. It is currently %(show_value)s characters."
-msgstr ""
+msgstr "رجاءً أبقِ عدد أحرف معرِّف المقالة %(limit_value)s أو أقل. عدد أحرفه حاليا %(show_value)s."
 
 #: kuma/wiki/forms.py:52
 msgid "Please provide a summary."
@@ -2947,12 +2949,12 @@ msgstr ""
 #: kuma/wiki/forms.py:53
 #, python-format
 msgid "The summary is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
-msgstr ""
+msgstr "الملخص قصير جدا (عدد أحرفه %(show_value)s). يجب ألا يقل العدد عن %(limit_value)s."
 
 #: kuma/wiki/forms.py:55
 #, python-format
 msgid "Please keep the length of the summary to %(limit_value)s characters or less. It is currently %(show_value)s characters."
-msgstr ""
+msgstr "رجاءً أبقِ عدد أحرف الملخص %(limit_value)s أو أقل. عدد أحرفه حاليا %(show_value)s."
 
 #: kuma/wiki/forms.py:58
 msgid "Please provide content."
@@ -2961,17 +2963,17 @@ msgstr ""
 #: kuma/wiki/forms.py:59
 #, python-format
 msgid "The content is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
-msgstr ""
+msgstr "المحتوى قصير جدا (عدد أحرفه %(show_value)s). يجب ألا يقل العدد عن %(limit_value)s."
 
 #: kuma/wiki/forms.py:61
 #, python-format
 msgid "Please keep the length of the content to %(limit_value)s characters or less. It is currently %(show_value)s characters."
-msgstr ""
+msgstr "رجاءً أبقِ عدد أحرف المحتوى %(limit_value)s أو أقل. عدد أحرفه حاليا %(show_value)s."
 
 #: kuma/wiki/forms.py:64
 #, python-format
 msgid "Please keep the length of the comment to %(limit_value)s characters or less. It is currently %(show_value)s characters."
-msgstr ""
+msgstr "رجاءً أبقِ عدد أحرف التعليق %(limit_value)s أو أقل. عدد أحرفه حاليا %(show_value)s."
 
 #: kuma/wiki/forms.py:67
 msgid "Another document with this slug already exists."
