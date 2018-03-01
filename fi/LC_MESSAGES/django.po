@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-02-20 08:15-0800\n"
+"POT-Creation-Date: 2018-03-01 11:57-0800\n"
 "PO-Revision-Date: 2015-11-12 15:00-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Finnish https://pontoon.mozilla.org/fi/\n"
@@ -135,11 +135,11 @@ msgstr ""
 msgid "Feedback"
 msgstr ""
 
-#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr ""
 
-#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr ""
 
@@ -159,7 +159,7 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
-#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr ""
 
@@ -214,15 +214,15 @@ msgstr ""
 msgid "Technologies"
 msgstr ""
 
-#: jinja2/includes/header-main-nav.html:10 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
+#: jinja2/includes/header-main-nav.html:10 kuma/landing/jinja2/landing/promote_buttons.html:105 kuma/search/names.py:31
 msgid "HTML"
 msgstr ""
 
-#: jinja2/includes/header-main-nav.html:11 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
+#: jinja2/includes/header-main-nav.html:11 kuma/landing/jinja2/landing/promote_buttons.html:99 kuma/search/names.py:24
 msgid "CSS"
 msgstr ""
 
-#: jinja2/includes/header-main-nav.html:12 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
+#: jinja2/includes/header-main-nav.html:12 kuma/landing/jinja2/landing/promote_buttons.html:111 kuma/search/names.py:33
 msgid "JavaScript"
 msgstr ""
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Graphics"
 msgstr ""
 
-#: jinja2/includes/header-main-nav.html:14
+#: jinja2/includes/header-main-nav.html:14 kuma/search/names.py:32
 msgid "HTTP"
 msgstr ""
 
@@ -242,7 +242,7 @@ msgstr ""
 msgid "Browser Extensions"
 msgstr ""
 
-#: jinja2/includes/header-main-nav.html:17 kuma/core/translations/search/filter/mathml/name.py:4
+#: jinja2/includes/header-main-nav.html:17 kuma/search/names.py:35
 msgid "MathML"
 msgstr ""
 
@@ -298,7 +298,7 @@ msgstr ""
 msgid "Report a bug"
 msgstr ""
 
-#: jinja2/includes/header-toolbox.html:4 kuma/core/translations/search/filter/tools/name.py:4
+#: jinja2/includes/header-toolbox.html:4 kuma/search/names.py:14
 msgid "Tools"
 msgstr ""
 
@@ -716,39 +716,39 @@ msgstr ""
 msgid "Files of this type are not permitted."
 msgstr ""
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:113
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr ""
 
-#: kuma/attachments/models.py:140
+#: kuma/attachments/models.py:142
 msgid "attachment revision"
 msgstr ""
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:143
 msgid "attachment revisions"
 msgstr ""
 
-#: kuma/attachments/models.py:214
+#: kuma/attachments/models.py:216
 msgid "The attachment file that was trashed"
 msgstr ""
 
-#: kuma/attachments/models.py:219
+#: kuma/attachments/models.py:221
 msgid "The date and time the attachment was trashed"
 msgstr ""
 
-#: kuma/attachments/models.py:224
+#: kuma/attachments/models.py:226
 msgid "The username of the user who trashed the attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:229
+#: kuma/attachments/models.py:231
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr ""
 
-#: kuma/attachments/models.py:234
+#: kuma/attachments/models.py:236
 msgid "Trashed attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:237
 msgid "Trashed attachments"
 msgstr ""
 
@@ -787,8 +787,8 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1872
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1894
 msgid "Title"
 msgstr ""
 
@@ -838,15 +838,15 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: kuma/authkeys/models.py:31
+#: kuma/authkeys/models.py:32
 msgid "Lookup key"
 msgstr ""
 
-#: kuma/authkeys/models.py:33
+#: kuma/authkeys/models.py:34
 msgid "Hashed secret"
 msgstr ""
 
-#: kuma/authkeys/models.py:35
+#: kuma/authkeys/models.py:36
 msgid "Description of intended use"
 msgstr ""
 
@@ -938,7 +938,7 @@ msgstr ""
 msgid "Apps"
 msgstr ""
 
-#: kuma/core/sections.py:27 kuma/core/translations/search/filter/mobile/name.py:4
+#: kuma/core/sections.py:27 kuma/search/names.py:36
 msgid "Mobile"
 msgstr ""
 
@@ -961,98 +961,6 @@ msgstr ""
 
 #: kuma/core/templatetags/jinja_helpers.py:88
 msgid "No"
-msgstr ""
-
-#: kuma/core/translations/search/filter/addons/name.py:4
-msgid "Add-ons & Extensions"
-msgstr ""
-
-#: kuma/core/translations/search/filter/advanced/name.py:4
-msgid "I'm an Expert"
-msgstr ""
-
-#: kuma/core/translations/search/filter/api/name.py:4
-msgid "APIs and DOM"
-msgstr ""
-
-#: kuma/core/translations/search/filter/apps/name.py:4
-msgid "Open Web Apps"
-msgstr ""
-
-#: kuma/core/translations/search/filter/b2g-os/name.py:4
-msgid "B2G OS"
-msgstr ""
-
-#: kuma/core/translations/search/filter/beginner/name.py:4
-msgid "I'm Learning"
-msgstr ""
-
-#: kuma/core/translations/search/filter/canvas/name.py:4
-msgid "Canvas"
-msgstr ""
-
-#: kuma/core/translations/search/filter/code/name.py:4
-msgid "Code Samples"
-msgstr ""
-
-#: kuma/core/translations/search/filter/firefox/name.py:4
-msgid "Firefox"
-msgstr ""
-
-#: kuma/core/translations/search/filter/firefox-desktop/name.py:4
-msgid "Firefox for Desktop"
-msgstr ""
-
-#: kuma/core/translations/search/filter/firefox-mobile/name.py:4
-msgid "Firefox for Android"
-msgstr ""
-
-#: kuma/core/translations/search/filter/firefox-os/name.py:4
-msgid "Firefox OS"
-msgstr ""
-
-#: kuma/core/translations/search/filter/games/name.py:4
-msgid "Games"
-msgstr ""
-
-#: kuma/core/translations/search/filter/howto/name.py:4
-msgid "How-To & Tutorial"
-msgstr ""
-
-#: kuma/core/translations/search/filter/intermediate/name.py:4
-msgid "Intermediate"
-msgstr ""
-
-#: kuma/core/translations/search/filter/marketplace/name.py:4
-msgid "Marketplace"
-msgstr ""
-
-#: kuma/core/translations/search/filter/svg/name.py:4
-msgid "SVG"
-msgstr ""
-
-#: kuma/core/translations/search/filter/webdev/name.py:4
-msgid "Web Development"
-msgstr ""
-
-#: kuma/core/translations/search/filter/webgl/name.py:4
-msgid "WebGL"
-msgstr ""
-
-#: kuma/core/translations/search/filter/xul/name.py:4
-msgid "XUL"
-msgstr ""
-
-#: kuma/core/translations/search/filtergroup/document-type/name.py:4
-msgid "Document type"
-msgstr ""
-
-#: kuma/core/translations/search/filtergroup/skill-level/name.py:4
-msgid "Skill level"
-msgstr ""
-
-#: kuma/core/translations/search/filtergroup/topics/name.py:4
-msgid "Topics"
 msgstr ""
 
 #: kuma/dashboards/forms.py:8
@@ -1185,7 +1093,7 @@ msgstr ""
 msgid "Trends Over Time, Ending %(date)s"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1825
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1846
 msgid "Revision"
 msgstr ""
 
@@ -1575,6 +1483,106 @@ msgstr ""
 msgid "There is already a successor to the current index %s"
 msgstr ""
 
+#: kuma/search/names.py:11
+msgid "Document type"
+msgstr ""
+
+#: kuma/search/names.py:12
+msgid "Code Samples"
+msgstr ""
+
+#: kuma/search/names.py:13
+msgid "How-To & Tutorial"
+msgstr ""
+
+#: kuma/search/names.py:16
+msgid "Skill level"
+msgstr ""
+
+#: kuma/search/names.py:17
+msgid "I'm Learning"
+msgstr ""
+
+#: kuma/search/names.py:18
+msgid "I'm an Expert"
+msgstr ""
+
+#: kuma/search/names.py:19
+msgid "I'm an Intermediate"
+msgstr ""
+
+#: kuma/search/names.py:21
+msgid "Topics"
+msgstr ""
+
+#: kuma/search/names.py:22
+msgid "APIs and DOM"
+msgstr ""
+
+#: kuma/search/names.py:23
+msgid "Add-ons & Extensions"
+msgstr ""
+
+#: kuma/search/names.py:25
+msgid "Canvas"
+msgstr ""
+
+#: kuma/search/names.py:26
+msgid "Firefox"
+msgstr ""
+
+#: kuma/search/names.py:27
+msgid "Firefox OS"
+msgstr ""
+
+#: kuma/search/names.py:28
+msgid "Firefox for Android"
+msgstr ""
+
+#: kuma/search/names.py:29
+msgid "Firefox for Desktop"
+msgstr ""
+
+#: kuma/search/names.py:30
+msgid "Games"
+msgstr ""
+
+#: kuma/search/names.py:34
+msgid "Marketplace"
+msgstr ""
+
+#: kuma/search/names.py:37
+msgid "Open Web Apps"
+msgstr ""
+
+#: kuma/search/names.py:38
+msgid "SVG"
+msgstr ""
+
+#: kuma/search/names.py:39
+msgid "Web Development"
+msgstr ""
+
+#: kuma/search/names.py:40
+msgid "WebExtensions"
+msgstr ""
+
+#: kuma/search/names.py:41
+msgid "WebGL"
+msgstr ""
+
+#: kuma/search/names.py:42
+msgid "Writing Documentation"
+msgstr ""
+
+#: kuma/search/names.py:43
+msgid "XPCOM"
+msgstr ""
+
+#: kuma/search/names.py:44
+msgid "XUL"
+msgstr ""
+
 #: kuma/search/utils.py:14
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr ""
@@ -1583,11 +1591,11 @@ msgstr ""
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr ""
 
-#: kuma/search/views.py:95
+#: kuma/search/views.py:93
 msgid "name"
 msgstr ""
 
-#: kuma/search/views.py:96
+#: kuma/search/views.py:94
 msgid "groupname"
 msgstr ""
 
@@ -1708,38 +1716,38 @@ msgstr ""
 msgid "The submitted data contains invalid content. Please try again."
 msgstr ""
 
-#: kuma/spam/models.py:10
+#: kuma/spam/models.py:11
 msgid "created"
 msgstr ""
 
-#: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
+#: kuma/spam/models.py:28 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
 msgstr ""
 
-#: kuma/spam/models.py:28
+#: kuma/spam/models.py:29
 msgid "Ham"
 msgstr ""
 
-#: kuma/spam/models.py:32
+#: kuma/spam/models.py:34
 msgid "sent at"
 msgstr ""
 
-#: kuma/spam/models.py:36
+#: kuma/spam/models.py:38
 msgid "type"
 msgstr ""
 
-#: kuma/users/adapters.py:19
+#: kuma/users/adapters.py:28
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
 "\"nofollow\">file a bug</a>."
 msgstr ""
 
-#: kuma/users/adapters.py:23
+#: kuma/users/adapters.py:32
 msgid "An email address cannot be used as a username."
 msgstr ""
 
-#: kuma/users/adapters.py:50
+#: kuma/users/adapters.py:59
 msgid "The username you entered already exists."
 msgstr ""
 
@@ -1756,7 +1764,7 @@ msgstr ""
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr ""
 
-#: kuma/users/forms.py:31 kuma/users/models.py:46
+#: kuma/users/forms.py:31 kuma/users/models.py:48
 msgid "Timezone"
 msgstr ""
 
@@ -1780,15 +1788,15 @@ msgstr ""
 msgid "Display a link to GitHub on my profile"
 msgstr ""
 
-#: kuma/users/forms.py:82 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:88
+#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
 msgstr ""
 
-#: kuma/users/forms.py:91 kuma/users/models.py:165 kuma/users/jinja2/users/includes/user_title_info.html:92
+#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:92
 msgid "LinkedIn"
 msgstr ""
 
-#: kuma/users/forms.py:100 kuma/users/models.py:146 kuma/users/jinja2/users/includes/user_title_info.html:96
+#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:96
 msgid "Mozillians"
 msgstr ""
 
@@ -1808,86 +1816,86 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: kuma/users/models.py:34
+#: kuma/users/models.py:36
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr ""
 
-#: kuma/users/models.py:37
+#: kuma/users/models.py:39
 #, python-format
 msgid "%s (no longer active)"
 msgstr ""
 
-#: kuma/users/models.py:56
+#: kuma/users/models.py:58
 msgid "Language"
 msgstr ""
 
-#: kuma/users/models.py:61
+#: kuma/users/models.py:63
 msgid "Homepage"
 msgstr ""
 
-#: kuma/users/models.py:65
+#: kuma/users/models.py:67
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr ""
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:77
 msgid "Name"
 msgstr ""
 
-#: kuma/users/models.py:80
+#: kuma/users/models.py:82
 msgid "Organization"
 msgstr ""
 
-#: kuma/users/models.py:85
+#: kuma/users/models.py:87
 msgid "Location"
 msgstr ""
 
-#: kuma/users/models.py:90
+#: kuma/users/models.py:92
 msgid "About Me"
 msgstr ""
 
-#: kuma/users/models.py:94
+#: kuma/users/models.py:96
 msgid "IRC nickname"
 msgstr ""
 
-#: kuma/users/models.py:99 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
+#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
 #: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
 msgstr ""
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:106
 msgid "Enter a valid website URL."
 msgstr ""
 
-#: kuma/users/models.py:109
+#: kuma/users/models.py:111
 msgid "Enter a valid Twitter URL."
 msgstr ""
 
-#: kuma/users/models.py:114
+#: kuma/users/models.py:116
 msgid "Enter a valid GitHub URL."
 msgstr ""
 
-#: kuma/users/models.py:119
+#: kuma/users/models.py:121
 msgid "Enter a valid Stack Overflow URL."
 msgstr ""
 
-#: kuma/users/models.py:124
+#: kuma/users/models.py:126
 msgid "Enter a valid LinkedIn URL."
 msgstr ""
 
-#: kuma/users/models.py:129
+#: kuma/users/models.py:131
 msgid "Enter a valid Mozillians URL."
 msgstr ""
 
-#: kuma/users/models.py:134
+#: kuma/users/models.py:136
 msgid "Enter a valid Facebook URL."
 msgstr ""
 
-#: kuma/users/models.py:141
+#: kuma/users/models.py:143
 msgid "Website"
 msgstr ""
 
-#: kuma/users/models.py:156
+#: kuma/users/models.py:158
 msgid "Public GitHub URL"
 msgstr ""
 
@@ -2517,51 +2525,51 @@ msgstr ""
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:55
+#: kuma/users/jinja2/users/user_edit.html:56
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "Primary Email"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "Edit email"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:71
+#: kuma/users/jinja2/users/user_edit.html:72
 msgid "Interests (tags)"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:72
+#: kuma/users/jinja2/users/user_edit.html:73
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:78
+#: kuma/users/jinja2/users/user_edit.html:79
 msgid "Areas of expertise"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:79
+#: kuma/users/jinja2/users/user_edit.html:80
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:87
+#: kuma/users/jinja2/users/user_edit.html:88
 msgid "My Profiles"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:105
+#: kuma/users/jinja2/users/user_edit.html:107
 msgid "Use your GitHub account to sign in."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
+#: kuma/users/jinja2/users/user_edit.html:126 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
 msgid "Publish"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:126
+#: kuma/users/jinja2/users/user_edit.html:128
 msgid "Delete your account."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:134
+#: kuma/users/jinja2/users/user_edit.html:136
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr ""
 
@@ -2707,7 +2715,7 @@ msgstr ""
 msgid "This user has not created any revisions in the past three days."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:718 kuma/wiki/jinja2/wiki/includes/buttons.html:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:47
 msgid "Edit"
 msgstr ""
 
@@ -2773,7 +2781,7 @@ msgstr ""
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
-#: kuma/wiki/content.py:699
+#: kuma/wiki/content.py:701
 msgid "Edit section"
 msgstr ""
 
@@ -3022,121 +3030,121 @@ msgstr ""
 msgid "Document Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:147
+#: kuma/wiki/models.py:153
 msgid "uploaded to the document"
 msgstr ""
 
-#: kuma/wiki/models.py:153
+#: kuma/wiki/models.py:159
 msgid "linked in the document content"
 msgstr ""
 
-#: kuma/wiki/models.py:167
+#: kuma/wiki/models.py:173
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr ""
 
-#: kuma/wiki/models.py:1508
+#: kuma/wiki/models.py:1519
 msgid "Review Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1509
+#: kuma/wiki/models.py:1520
 msgid "Review Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1515
+#: kuma/wiki/models.py:1526
 msgid "Localization Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1516
+#: kuma/wiki/models.py:1527
 msgid "Localization Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1549
+#: kuma/wiki/models.py:1566
 msgid "No table of contents"
 msgstr ""
 
-#: kuma/wiki/models.py:1550
+#: kuma/wiki/models.py:1567
 msgid "All levels"
 msgstr ""
 
-#: kuma/wiki/models.py:1551
+#: kuma/wiki/models.py:1568
 msgid "H2 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1552
+#: kuma/wiki/models.py:1569
 msgid "H3 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1553
+#: kuma/wiki/models.py:1570
 msgid "H4 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1655
+#: kuma/wiki/models.py:1675
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr ""
 
-#: kuma/wiki/models.py:1785
+#: kuma/wiki/models.py:1806
 msgid "IP address"
 msgstr ""
 
-#: kuma/wiki/models.py:1793
+#: kuma/wiki/models.py:1814
 msgid "User-Agent"
 msgstr ""
 
-#: kuma/wiki/models.py:1798
+#: kuma/wiki/models.py:1819
 msgid "HTTP Referrer"
 msgstr ""
 
-#: kuma/wiki/models.py:1806 kuma/wiki/models.py:1891
+#: kuma/wiki/models.py:1827 kuma/wiki/models.py:1913
 msgid "Data submitted to Akismet"
 msgstr ""
 
-#: kuma/wiki/models.py:1831
+#: kuma/wiki/models.py:1852
 msgid "Akismet submission"
 msgstr ""
 
-#: kuma/wiki/models.py:1832
+#: kuma/wiki/models.py:1853
 msgid "Akismet submissions"
 msgstr ""
 
-#: kuma/wiki/models.py:1876
+#: kuma/wiki/models.py:1898
 msgid "Slug"
 msgstr ""
 
-#: kuma/wiki/models.py:1884
+#: kuma/wiki/models.py:1906
 msgid "Document (optional)"
 msgstr ""
 
-#: kuma/wiki/models.py:1894
+#: kuma/wiki/models.py:1916
 msgid "reviewed"
 msgstr ""
 
-#: kuma/wiki/models.py:1905
+#: kuma/wiki/models.py:1927
 msgid "Needs Review"
 msgstr ""
 
-#: kuma/wiki/models.py:1906
+#: kuma/wiki/models.py:1928
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:1907
+#: kuma/wiki/models.py:1929
 msgid "Confirmed as Spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1908
+#: kuma/wiki/models.py:1930
 msgid "Review Unavailable"
 msgstr ""
 
-#: kuma/wiki/models.py:1909
+#: kuma/wiki/models.py:1931
 msgid "Akismet Error"
 msgstr ""
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1936
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1921
+#: kuma/wiki/models.py:1943
 msgid "Staff reviewer"
 msgstr ""
 
@@ -4150,7 +4158,7 @@ msgstr ""
 msgid "ETag precondition failed"
 msgstr ""
 
-#: kuma/wiki/views/edit.py:113
+#: kuma/wiki/views/edit.py:114
 msgid "Sections may only be edited inline."
 msgstr ""
 
@@ -4162,7 +4170,7 @@ msgstr ""
 msgid "Document has been edited; please re-review."
 msgstr ""
 
-#: kuma/wiki/views/translate.py:75
+#: kuma/wiki/views/translate.py:77
 msgid "You cannot translate this document."
 msgstr ""
 

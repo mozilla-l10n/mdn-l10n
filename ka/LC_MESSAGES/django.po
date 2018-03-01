@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-02-20 08:15-0800\n"
+"POT-Creation-Date: 2018-03-01 11:57-0800\n"
 "PO-Revision-Date: 2018-02-23 17:41+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
@@ -139,11 +139,11 @@ msgstr "MDN შესახებ"
 msgid "Feedback"
 msgstr "გამოხმაურება"
 
-#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -163,7 +163,7 @@ msgstr "დაგვიკავშირდით"
 msgid "Donate"
 msgstr "შემოწირულობა"
 
-#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -218,15 +218,15 @@ msgstr "ძიება"
 msgid "Technologies"
 msgstr "ტექნოლოგიები"
 
-#: jinja2/includes/header-main-nav.html:10 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
+#: jinja2/includes/header-main-nav.html:10 kuma/landing/jinja2/landing/promote_buttons.html:105 kuma/search/names.py:31
 msgid "HTML"
 msgstr "HTML"
 
-#: jinja2/includes/header-main-nav.html:11 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
+#: jinja2/includes/header-main-nav.html:11 kuma/landing/jinja2/landing/promote_buttons.html:99 kuma/search/names.py:24
 msgid "CSS"
 msgstr "CSS"
 
-#: jinja2/includes/header-main-nav.html:12 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
+#: jinja2/includes/header-main-nav.html:12 kuma/landing/jinja2/landing/promote_buttons.html:111 kuma/search/names.py:33
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -234,7 +234,7 @@ msgstr "JavaScript"
 msgid "Graphics"
 msgstr "გრაფიკა"
 
-#: jinja2/includes/header-main-nav.html:14
+#: jinja2/includes/header-main-nav.html:14 kuma/search/names.py:32
 msgid "HTTP"
 msgstr "HTTP"
 
@@ -246,7 +246,7 @@ msgstr "APIs / DOM"
 msgid "Browser Extensions"
 msgstr "ბრაუზერის გაფართოებები"
 
-#: jinja2/includes/header-main-nav.html:17 kuma/core/translations/search/filter/mathml/name.py:4
+#: jinja2/includes/header-main-nav.html:17 kuma/search/names.py:35
 msgid "MathML"
 msgstr "MathML"
 
@@ -302,7 +302,7 @@ msgstr "მოხსენება, შიგთავსთან დაკა
 msgid "Report a bug"
 msgstr "მოხსენება ხარვეზის შესახებ"
 
-#: jinja2/includes/header-toolbox.html:4 kuma/core/translations/search/filter/tools/name.py:4
+#: jinja2/includes/header-toolbox.html:4 kuma/search/names.py:14
 msgid "Tools"
 msgstr "ხელსაწყოები"
 
@@ -722,39 +722,39 @@ msgstr "MDN მიმაგრებული ფაილის ბოლო �
 msgid "Files of this type are not permitted."
 msgstr "ამ სახის ფაილები დაუშვებელია."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:113
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "MIME სახე გამოიყენება მიმაგრებული ფაილების შენახვისას. ფაილის გამოკვლევა ავტომატურად ხდება ატვირთვისას. გთხოვთ, გამოიყენოთ მხოლოდ საჭიროების შემთხვევაში."
 
-#: kuma/attachments/models.py:140
+#: kuma/attachments/models.py:142
 msgid "attachment revision"
 msgstr "დანართის ვერსია"
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:143
 msgid "attachment revisions"
 msgstr "დანართის გადამუშავებული ვერსიები"
 
-#: kuma/attachments/models.py:214
+#: kuma/attachments/models.py:216
 msgid "The attachment file that was trashed"
 msgstr "სანაგვეში გადატანილი დართული ფაილი"
 
-#: kuma/attachments/models.py:219
+#: kuma/attachments/models.py:221
 msgid "The date and time the attachment was trashed"
 msgstr "დანართის წაშლის თარიღი და დრო"
 
-#: kuma/attachments/models.py:224
+#: kuma/attachments/models.py:226
 msgid "The username of the user who trashed the attachment"
 msgstr "მომხმარებლის სახელი, რომელმაც დანართი წაშალა"
 
-#: kuma/attachments/models.py:229
+#: kuma/attachments/models.py:231
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "იყო თუ არა ეს დანართი, მიმდინარე ვერსია, წაშლის დროის."
 
-#: kuma/attachments/models.py:234
+#: kuma/attachments/models.py:236
 msgid "Trashed attachment"
 msgstr "წაშლილი დანართი"
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:237
 msgid "Trashed attachments"
 msgstr "წაშლილი დანართები"
 
@@ -793,8 +793,8 @@ msgstr "შესაძლებელია სურათების მი�
 msgid "File"
 msgstr "ფაილი"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1872
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1894
 msgid "Title"
 msgstr "სათაური"
 
@@ -844,15 +844,15 @@ msgstr "%(bytes)s ბაიტი"
 msgid "n/a"
 msgstr "არ მიესადაგება"
 
-#: kuma/authkeys/models.py:31
+#: kuma/authkeys/models.py:32
 msgid "Lookup key"
 msgstr "ძიების გასაღები"
 
-#: kuma/authkeys/models.py:33
+#: kuma/authkeys/models.py:34
 msgid "Hashed secret"
 msgstr "ჰეშირებული საიდუმლო კოდი"
 
-#: kuma/authkeys/models.py:35
+#: kuma/authkeys/models.py:36
 msgid "Description of intended use"
 msgstr "შესაძლო გამოყენების აღწერილობა"
 
@@ -901,8 +901,8 @@ msgstr "თქვენ გესაჭიროებათ განსაკ�
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 "<p>აღწერეთ ამ გასაღების გამოყენების შესაძლო დანიშნულება ქვემოთ. <p><strong>შენიშვნა:</strong> ეს იქნება ერთადერთი საშუალება თქვენთვის, მომავალში ამ გასაღების აღმოსაჩენად, შექმნის თარიღის და დროის "
 "გარდა. ასე რომ, შეეცადეთ გარკვევით და მკაფიოდ გადმოსცეთ აზრი.</p>"
@@ -951,7 +951,7 @@ msgstr "დამატებები"
 msgid "Apps"
 msgstr "პროგრამები"
 
-#: kuma/core/sections.py:27 kuma/core/translations/search/filter/mobile/name.py:4
+#: kuma/core/sections.py:27 kuma/search/names.py:36
 msgid "Mobile"
 msgstr "მობილური"
 
@@ -975,98 +975,6 @@ msgstr "დიახ"
 #: kuma/core/templatetags/jinja_helpers.py:88
 msgid "No"
 msgstr "არა"
-
-#: kuma/core/translations/search/filter/addons/name.py:4
-msgid "Add-ons & Extensions"
-msgstr "დამატებები და გაფართოებები"
-
-#: kuma/core/translations/search/filter/advanced/name.py:4
-msgid "I'm an Expert"
-msgstr "საქმეში გამოცდილი ვარ"
-
-#: kuma/core/translations/search/filter/api/name.py:4
-msgid "APIs and DOM"
-msgstr "API-ები და DOM"
-
-#: kuma/core/translations/search/filter/apps/name.py:4
-msgid "Open Web Apps"
-msgstr "ვებპროგრამების გახსნა"
-
-#: kuma/core/translations/search/filter/b2g-os/name.py:4
-msgid "B2G OS"
-msgstr "B2G OS"
-
-#: kuma/core/translations/search/filter/beginner/name.py:4
-msgid "I'm Learning"
-msgstr "ვსწავლობ"
-
-#: kuma/core/translations/search/filter/canvas/name.py:4
-msgid "Canvas"
-msgstr "გამოსახულების არე"
-
-#: kuma/core/translations/search/filter/code/name.py:4
-msgid "Code Samples"
-msgstr "კოდის მაგალითები"
-
-#: kuma/core/translations/search/filter/firefox/name.py:4
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kuma/core/translations/search/filter/firefox-desktop/name.py:4
-msgid "Firefox for Desktop"
-msgstr "Firefox კომპიუტერისთვის"
-
-#: kuma/core/translations/search/filter/firefox-mobile/name.py:4
-msgid "Firefox for Android"
-msgstr "Firefox Android-ისთვის"
-
-#: kuma/core/translations/search/filter/firefox-os/name.py:4
-msgid "Firefox OS"
-msgstr "Firefox OS"
-
-#: kuma/core/translations/search/filter/games/name.py:4
-msgid "Games"
-msgstr "თამაშები"
-
-#: kuma/core/translations/search/filter/howto/name.py:4
-msgid "How-To & Tutorial"
-msgstr "სახელმძღვანელოები და გაკვეთილები"
-
-#: kuma/core/translations/search/filter/intermediate/name.py:4
-msgid "Intermediate"
-msgstr "საშუალო"
-
-#: kuma/core/translations/search/filter/marketplace/name.py:4
-msgid "Marketplace"
-msgstr "Marketplace"
-
-#: kuma/core/translations/search/filter/svg/name.py:4
-msgid "SVG"
-msgstr "SVG"
-
-#: kuma/core/translations/search/filter/webdev/name.py:4
-msgid "Web Development"
-msgstr "ვებშემუშავება"
-
-#: kuma/core/translations/search/filter/webgl/name.py:4
-msgid "WebGL"
-msgstr "WebGL"
-
-#: kuma/core/translations/search/filter/xul/name.py:4
-msgid "XUL"
-msgstr "XUL"
-
-#: kuma/core/translations/search/filtergroup/document-type/name.py:4
-msgid "Document type"
-msgstr "დოკუმენტის სახეობა"
-
-#: kuma/core/translations/search/filtergroup/skill-level/name.py:4
-msgid "Skill level"
-msgstr "ცოდნის დონე"
-
-#: kuma/core/translations/search/filtergroup/topics/name.py:4
-msgid "Topics"
-msgstr "საკითხები"
 
 #: kuma/dashboards/forms.py:8
 msgid "All Locales"
@@ -1197,7 +1105,7 @@ msgstr "ფილტრი"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "მიმდინარეობები დროში, დასრულების თარიღი %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1825
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1846
 msgid "Revision"
 msgstr "გადამუშავებული ვერსია"
 
@@ -1351,8 +1259,8 @@ msgid ""
 "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 "locales</span> <span class=\"row3\">around the world.</span> </p>"
 msgstr ""
-"<p class=\"numbers\"> <span class=\"row1\">შემოუერთდით <span class=\"number\">%(contributors)s</span> მოხალისეს</span> <span class=\"row2\"> რომლებიც საუბრობენ <span "
-"class=\"number\">%(locales)s</span> ენაზე, </span> <span class=\"row3\">მთელი მსოფლიოდან.</span> </p>"
+"<p class=\"numbers\"> <span class=\"row1\">შემოუერთდით <span class=\"number\">%(contributors)s</span> მოხალისეს</span> <span class=\"row2\"> რომლებიც საუბრობენ <span class=\"number\">%(locales)s</"
+"span> ენაზე, </span> <span class=\"row3\">მთელი მსოფლიოდან.</span> </p>"
 
 #: kuma/landing/jinja2/landing/homepage.html:109 kuma/landing/jinja2/landing/homepage.html:116
 msgid "Help improve MDN"
@@ -1434,12 +1342,12 @@ msgstr "გამოხატეთ სიყვარული შემმუ�
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
-"<ol> <li><strong>Get ღილაკები:</strong> გამოიყენეთ ქვემოთ მოცემული მარტივი ველები, საკუთარი ღილაკის შესაქმნელად, MDN-ის თქვენს საიტზე, ან სვეტზე დასამატებლად.</li> <li><strong>Post "
-"ღილაკები:</strong> დააკოპირეთ კოდი და ჩასვით სასურველ ადგილას თქვენს საიტზე, ან სვეტზე, რომ მეტ ადამიანს აცნობოთ MDN-ის შესახებ.</li><li><strong>შეგიძლიათ იამაყოთ:</strong> თქვენ უამრავ "
-"შემმუშავებელს შეუმსუბუქებთ ცხოვრებას, MDN-ის მსოფლიოსთვის გაზიარებით.</li> </ol>"
+"<ol> <li><strong>Get ღილაკები:</strong> გამოიყენეთ ქვემოთ მოცემული მარტივი ველები, საკუთარი ღილაკის შესაქმნელად, MDN-ის თქვენს საიტზე, ან სვეტზე დასამატებლად.</li> <li><strong>Post ღილაკები:</"
+"strong> დააკოპირეთ კოდი და ჩასვით სასურველ ადგილას თქვენს საიტზე, ან სვეტზე, რომ მეტ ადამიანს აცნობოთ MDN-ის შესახებ.</li><li><strong>შეგიძლიათ იამაყოთ:</strong> თქვენ უამრავ შემმუშავებელს "
+"შეუმსუბუქებთ ცხოვრებას, MDN-ის მსოფლიოსთვის გაზიარებით.</li> </ol>"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:31
 msgid "Preview"
@@ -1596,6 +1504,109 @@ msgstr "მიმდინარე მაჩვენებელია?"
 msgid "There is already a successor to the current index %s"
 msgstr "მიმდინარე %s მაჩვენებლის მემკვიდრე უკვე არსებობს"
 
+#: kuma/search/names.py:11
+msgid "Document type"
+msgstr "დოკუმენტის სახეობა"
+
+#: kuma/search/names.py:12
+msgid "Code Samples"
+msgstr "კოდის მაგალითები"
+
+#: kuma/search/names.py:13
+msgid "How-To & Tutorial"
+msgstr "სახელმძღვანელოები და გაკვეთილები"
+
+#: kuma/search/names.py:16
+msgid "Skill level"
+msgstr "ცოდნის დონე"
+
+#: kuma/search/names.py:17
+msgid "I'm Learning"
+msgstr "ვსწავლობ"
+
+#: kuma/search/names.py:18
+msgid "I'm an Expert"
+msgstr "საქმეში გამოცდილი ვარ"
+
+#: kuma/search/names.py:19
+#, fuzzy
+msgid "I'm an Intermediate"
+msgstr "საშუალო"
+
+#: kuma/search/names.py:21
+msgid "Topics"
+msgstr "საკითხები"
+
+#: kuma/search/names.py:22
+msgid "APIs and DOM"
+msgstr "API-ები და DOM"
+
+#: kuma/search/names.py:23
+msgid "Add-ons & Extensions"
+msgstr "დამატებები და გაფართოებები"
+
+#: kuma/search/names.py:25
+msgid "Canvas"
+msgstr "გამოსახულების არე"
+
+#: kuma/search/names.py:26
+msgid "Firefox"
+msgstr "Firefox"
+
+#: kuma/search/names.py:27
+msgid "Firefox OS"
+msgstr "Firefox OS"
+
+#: kuma/search/names.py:28
+msgid "Firefox for Android"
+msgstr "Firefox Android-ისთვის"
+
+#: kuma/search/names.py:29
+msgid "Firefox for Desktop"
+msgstr "Firefox კომპიუტერისთვის"
+
+#: kuma/search/names.py:30
+msgid "Games"
+msgstr "თამაშები"
+
+#: kuma/search/names.py:34
+msgid "Marketplace"
+msgstr "Marketplace"
+
+#: kuma/search/names.py:37
+msgid "Open Web Apps"
+msgstr "ვებპროგრამების გახსნა"
+
+#: kuma/search/names.py:38
+msgid "SVG"
+msgstr "SVG"
+
+#: kuma/search/names.py:39
+msgid "Web Development"
+msgstr "ვებშემუშავება"
+
+#: kuma/search/names.py:40
+#, fuzzy
+msgid "WebExtensions"
+msgstr "ბრაუზერის გაფართოებები"
+
+#: kuma/search/names.py:41
+msgid "WebGL"
+msgstr "WebGL"
+
+#: kuma/search/names.py:42
+#, fuzzy
+msgid "Writing Documentation"
+msgstr "დოკუმენტის ჩასწორება"
+
+#: kuma/search/names.py:43
+msgid "XPCOM"
+msgstr ""
+
+#: kuma/search/names.py:44
+msgid "XUL"
+msgstr "XUL"
+
 #: kuma/search/utils.py:14
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "ძიება დროებით მიუწვდომელია. გთხოვთ, სცადოთ ხელახლა, ცოტა ხანში."
@@ -1604,11 +1615,11 @@ msgstr "ძიება დროებით მიუწვდომელი�
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "რაღაც ხარვეზი წარმოიქმნა, ძიების მოთხოვნისას. გთხოვთ, სცადოთ ხელახლა, ცოტა ხანში."
 
-#: kuma/search/views.py:95
+#: kuma/search/views.py:93
 msgid "name"
 msgstr "სახელი"
 
-#: kuma/search/views.py:96
+#: kuma/search/views.py:94
 msgid "groupname"
 msgstr "ჯგუფის სახელი"
 
@@ -1721,40 +1732,40 @@ msgstr "გადაცემული მონაცემები შეი�
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "გადაცემული მონაცემები შეიცავს უმართებულო შიგთავსს. სცადეთ ხელახლა."
 
-#: kuma/spam/models.py:10
+#: kuma/spam/models.py:11
 msgid "created"
 msgstr "შექმნილია"
 
-#: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
+#: kuma/spam/models.py:28 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
 msgstr "სპამი"
 
-#: kuma/spam/models.py:28
+#: kuma/spam/models.py:29
 msgid "Ham"
 msgstr "დასაშვები წერილები"
 
-#: kuma/spam/models.py:32
+#: kuma/spam/models.py:34
 msgid "sent at"
 msgstr "გაგზავნილი მისამართზე"
 
-#: kuma/spam/models.py:36
+#: kuma/spam/models.py:38
 msgid "type"
 msgstr "ტიპი"
 
-#: kuma/users/adapters.py:19
+#: kuma/users/adapters.py:28
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
-"ვწუხვართ, შესასვლელად საჭიროა, სულ მცირე ერთი დაკავშირებული ანგარიში. ამ ანგარიშთან კავშირის გაწყვეტისთვის, ჯერ სხვა ანგარიშის დაკავშირებაა საჭირო. თუ MDN პროფილის წაშლა გსურთ, გთხოვთ <a "
-"href=\"%(bug_form_url)s\" rel=\"nofollow\">მოგვახსენოთ ამის შესახებ</a>."
+"ვწუხვართ, შესასვლელად საჭიროა, სულ მცირე ერთი დაკავშირებული ანგარიში. ამ ანგარიშთან კავშირის გაწყვეტისთვის, ჯერ სხვა ანგარიშის დაკავშირებაა საჭირო. თუ MDN პროფილის წაშლა გსურთ, გთხოვთ <a href="
+"\"%(bug_form_url)s\" rel=\"nofollow\">მოგვახსენოთ ამის შესახებ</a>."
 
-#: kuma/users/adapters.py:23
+#: kuma/users/adapters.py:32
 msgid "An email address cannot be used as a username."
 msgstr "ელფოსტის გამოყენება მომხმარებლის სახელად დაუშვებელია."
 
-#: kuma/users/adapters.py:50
+#: kuma/users/adapters.py:59
 msgid "The username you entered already exists."
 msgstr "თქვენ მიერ შეყვანილი მომხმარებლის სახელი უკვე არსებობს."
 
@@ -1771,7 +1782,7 @@ msgstr "თქვენ უკვე გადადგით პირველ
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr "მომხმარებლის სახელი, უნდა შეიცავდეს მხოლოდ ასოებს, ციფრებს და შემდეგ სიმბოლოებს: . - _ +"
 
-#: kuma/users/forms.py:31 kuma/users/models.py:46
+#: kuma/users/forms.py:31 kuma/users/models.py:48
 msgid "Timezone"
 msgstr "დროის სარტყელი"
 
@@ -1795,15 +1806,15 @@ msgstr "მომხმარებლის სახელი"
 msgid "Display a link to GitHub on my profile"
 msgstr "GitHub-ის ბმულის გამოჩენა პროფილში"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:88
+#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:165 kuma/users/jinja2/users/includes/user_title_info.html:92
+#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:92
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:146 kuma/users/jinja2/users/includes/user_title_info.html:96
+#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:96
 msgid "Mozillians"
 msgstr "მოზილელები"
 
@@ -1823,86 +1834,86 @@ msgstr "მომხმარებლის სახელი უკვე გ
 msgid "Email"
 msgstr "ელფოსტა"
 
-#: kuma/users/models.py:34
+#: kuma/users/models.py:36
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr "%(banned_user)s შეზღუდულია %(banned_by)s-ის მიერ"
 
-#: kuma/users/models.py:37
+#: kuma/users/models.py:39
 #, python-format
 msgid "%s (no longer active)"
 msgstr "%s (აღარაა მოქმედი)"
 
-#: kuma/users/models.py:56
+#: kuma/users/models.py:58
 msgid "Language"
 msgstr "ენა"
 
-#: kuma/users/models.py:61
+#: kuma/users/models.py:63
 msgid "Homepage"
 msgstr "მთავარი გვერდი"
 
-#: kuma/users/models.py:65
+#: kuma/users/models.py:67
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "შეყვანილი URL მისამართი არასწორია. მართებული URL მისამართები გამოიყურება შემდეგნაირად: http://example.com/my_page."
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:77
 msgid "Name"
 msgstr "სახელი"
 
-#: kuma/users/models.py:80
+#: kuma/users/models.py:82
 msgid "Organization"
 msgstr "ორგანიზაცია"
 
-#: kuma/users/models.py:85
+#: kuma/users/models.py:87
 msgid "Location"
 msgstr "მისამართი"
 
-#: kuma/users/models.py:90
+#: kuma/users/models.py:92
 msgid "About Me"
 msgstr "მონაცემები"
 
-#: kuma/users/models.py:94
+#: kuma/users/models.py:96
 msgid "IRC nickname"
 msgstr "IRC მეტსახელი"
 
-#: kuma/users/models.py:99 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
+#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
 #: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
 msgstr "ჭდეები"
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:106
 msgid "Enter a valid website URL."
 msgstr "შეიყვანეთ საიტის მართებული URL მისამართი."
 
-#: kuma/users/models.py:109
+#: kuma/users/models.py:111
 msgid "Enter a valid Twitter URL."
 msgstr "შეიყვანეთ Twitter-ის მართებული URL მისამართი."
 
-#: kuma/users/models.py:114
+#: kuma/users/models.py:116
 msgid "Enter a valid GitHub URL."
 msgstr "შეიყვანეთ GitHub-ის მართებული URL მისამართი."
 
-#: kuma/users/models.py:119
+#: kuma/users/models.py:121
 msgid "Enter a valid Stack Overflow URL."
 msgstr "შეიყვანეთ Stack Overflow-ის მართებული URL მისამართი."
 
-#: kuma/users/models.py:124
+#: kuma/users/models.py:126
 msgid "Enter a valid LinkedIn URL."
 msgstr "შეიყვანეთ LinkedIn-ის მართებული URL მისამართი."
 
-#: kuma/users/models.py:129
+#: kuma/users/models.py:131
 msgid "Enter a valid Mozillians URL."
 msgstr "შეიყვანეთ მოზილელების მართებული URL მისამართი."
 
-#: kuma/users/models.py:134
+#: kuma/users/models.py:136
 msgid "Enter a valid Facebook URL."
 msgstr "შეიყვანეთ Facebook-ის მართებული URL მისამართი."
 
-#: kuma/users/models.py:141
+#: kuma/users/models.py:143
 msgid "Website"
 msgstr "საიტი"
 
-#: kuma/users/models.py:156
+#: kuma/users/models.py:158
 msgid "Public GitHub URL"
 msgstr "Github-ის საჯარო URL ბმული"
 
@@ -2228,11 +2239,11 @@ msgstr "დაუმოწმებელი"
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
-"ელფოსტის რომელ მისამართზე გსურთ მიიღოთ MDN-თან დაკავშირებული შეტყობინებები და ცნობები? ეს მისამართი, <strong>არ</strong> გამოჩნდება MDN-ზე და გამოყენებული იქნება <a "
-"href=\"%(privacy_url)s\">პირადულობის დებულების</a> შესაბამისად."
+"ელფოსტის რომელ მისამართზე გსურთ მიიღოთ MDN-თან დაკავშირებული შეტყობინებები და ცნობები? ეს მისამართი, <strong>არ</strong> გამოჩნდება MDN-ზე და გამოყენებული იქნება <a href=\"%(privacy_url)s"
+"\">პირადულობის დებულების</a> შესაბამისად."
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
 msgid "Terms and Privacy"
@@ -2535,53 +2546,53 @@ msgstr "ანგარიშის გამოსახულების შ�
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "თქვენ საკუთარის ნაცვლად, სხვა ანგარიშის ჩასწორებას აპირებთ. გთხოვთ, გამოიჩინოთ ყურადღება!"
 
-#: kuma/users/jinja2/users/user_edit.html:55
+#: kuma/users/jinja2/users/user_edit.html:56
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "მოხარულნი ვიქნებით, თუ თქვენს აზრს მოგვახსენებთ, საიტზე მიმდინარე ცვლილებების შესახებ! ბეტა შემმომწმებლებს, აქვთ საშუალება პირველებმა იხილონ ახალი შესაძლებლობები და ასევე, პერიოდულად ეცნობებათ "
 "ელფოსტის საშუალებით, თუ სად გვესაჭიროება დახმარება სიახლეების გამოცდაში."
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "Primary Email"
 msgstr "მთავარი ელფოსტა"
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "Edit email"
 msgstr "ელფოსტის ჩასწორება"
 
-#: kuma/users/jinja2/users/user_edit.html:71
+#: kuma/users/jinja2/users/user_edit.html:72
 msgid "Interests (tags)"
 msgstr "მისწრაფებები (ჭდეები)"
 
-#: kuma/users/jinja2/users/user_edit.html:72
+#: kuma/users/jinja2/users/user_edit.html:73
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "გამოყავით ჭდეები მძიმეებით, ან ცარიელი ადგილით. მრავალსიტყვიანი ჭდეები გააერთიანეთ ორმაგი ბრჭყალების საშუალებით, მაგალითად \"web standards\"."
 
-#: kuma/users/jinja2/users/user_edit.html:78
+#: kuma/users/jinja2/users/user_edit.html:79
 msgid "Areas of expertise"
 msgstr "გამოცდილების სფერო"
 
-#: kuma/users/jinja2/users/user_edit.html:79
+#: kuma/users/jinja2/users/user_edit.html:80
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "ჯერ დაამატეთ მისწრაფებები, შემდეგ კი მიუთითეთ, თუ რომელ საკითხებში გაქვთ გამოცდილება."
 
-#: kuma/users/jinja2/users/user_edit.html:87
+#: kuma/users/jinja2/users/user_edit.html:88
 msgid "My Profiles"
 msgstr "ჩემი პროფილები"
 
-#: kuma/users/jinja2/users/user_edit.html:105
+#: kuma/users/jinja2/users/user_edit.html:107
 msgid "Use your GitHub account to sign in."
 msgstr "შესასვლელად, GitHub ანგარიშის გამოყენება."
 
-#: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
+#: kuma/users/jinja2/users/user_edit.html:126 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
 msgid "Publish"
 msgstr "გამოქვეყნება"
 
-#: kuma/users/jinja2/users/user_edit.html:126
+#: kuma/users/jinja2/users/user_edit.html:128
 msgid "Delete your account."
 msgstr "ანგარიშის წაშლა."
 
-#: kuma/users/jinja2/users/user_edit.html:134
+#: kuma/users/jinja2/users/user_edit.html:136
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla-ს სიახლეებისა და ცნობების გამოწერების მართვა."
 
@@ -2737,7 +2748,7 @@ msgstr "უკვე გაგზავნილია მოხსენებ�
 msgid "This user has not created any revisions in the past three days."
 msgstr "ამ მომხმარებელს, არ აქვს გადამუშავებული ვერსიები, ბოლო სამი დღის განმავლობაში."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:718 kuma/wiki/jinja2/wiki/includes/buttons.html:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:47
 msgid "Edit"
 msgstr "ჩასწორება"
 
@@ -2803,7 +2814,7 @@ msgstr "შესასწორებელი - ტექსტი, გრა�
 msgid "Localization in progress - not completely translated yet."
 msgstr "მიმდინარეობს თარგმნა - ჯერ არ დასრულებულა."
 
-#: kuma/wiki/content.py:699
+#: kuma/wiki/content.py:701
 msgid "Edit section"
 msgstr "ამ ნაწილის ჩასწორება"
 
@@ -3054,121 +3065,121 @@ msgstr "დოკუმენტის ჭდე"
 msgid "Document Tags"
 msgstr "დოკუმენტის ჭდეები"
 
-#: kuma/wiki/models.py:147
+#: kuma/wiki/models.py:153
 msgid "uploaded to the document"
 msgstr "ატვირთულია დოკუმენტში"
 
-#: kuma/wiki/models.py:153
+#: kuma/wiki/models.py:159
 msgid "linked in the document content"
 msgstr "მიბმულია დოკუმენტის შიგთავსზე"
 
-#: kuma/wiki/models.py:167
+#: kuma/wiki/models.py:173
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "%(attachment_id)s ფაილის %(document_id)s დოკუმენტზე მრავალჯერ მიმაგრება, შეუძლებელია"
 
-#: kuma/wiki/models.py:1508
+#: kuma/wiki/models.py:1519
 msgid "Review Tag"
 msgstr "მიმოხილვის ჭდე"
 
-#: kuma/wiki/models.py:1509
+#: kuma/wiki/models.py:1520
 msgid "Review Tags"
 msgstr "მიმოხილვის ჭდეები"
 
-#: kuma/wiki/models.py:1515
+#: kuma/wiki/models.py:1526
 msgid "Localization Tag"
 msgstr "თარგმნის ჭდე"
 
-#: kuma/wiki/models.py:1516
+#: kuma/wiki/models.py:1527
 msgid "Localization Tags"
 msgstr "თარგმნის ჭდეები"
 
-#: kuma/wiki/models.py:1549
+#: kuma/wiki/models.py:1566
 msgid "No table of contents"
 msgstr "სარჩევი არაა"
 
-#: kuma/wiki/models.py:1550
+#: kuma/wiki/models.py:1567
 msgid "All levels"
 msgstr "ყველა დონე"
 
-#: kuma/wiki/models.py:1551
+#: kuma/wiki/models.py:1568
 msgid "H2 and higher"
 msgstr "H2 და უფრო მაღალი"
 
-#: kuma/wiki/models.py:1552
+#: kuma/wiki/models.py:1569
 msgid "H3 and higher"
 msgstr "H3 და უფრო მაღალი"
 
-#: kuma/wiki/models.py:1553
+#: kuma/wiki/models.py:1570
 msgid "H4 and higher"
 msgstr "H4 და უფრო მაღალი"
 
-#: kuma/wiki/models.py:1655
+#: kuma/wiki/models.py:1675
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "გადამუშავებული ვერსია, %(locale)s დოკუმენტის ვერსიას უნდა ეფუძნებოდეს. გადამუშავებული ვერსიის ID %(id)s არ აკმაყოფილებს, ამ მოთხოვნას."
 
-#: kuma/wiki/models.py:1785
+#: kuma/wiki/models.py:1806
 msgid "IP address"
 msgstr "IP მისამართი"
 
-#: kuma/wiki/models.py:1793
+#: kuma/wiki/models.py:1814
 msgid "User-Agent"
 msgstr "მომხმარებლის პროგრამა:"
 
-#: kuma/wiki/models.py:1798
+#: kuma/wiki/models.py:1819
 msgid "HTTP Referrer"
 msgstr "HTTP ბმულის წყარო"
 
-#: kuma/wiki/models.py:1806 kuma/wiki/models.py:1891
+#: kuma/wiki/models.py:1827 kuma/wiki/models.py:1913
 msgid "Data submitted to Akismet"
 msgstr "მონაცემები გადაეგზავნა Akismet-ს"
 
-#: kuma/wiki/models.py:1831
+#: kuma/wiki/models.py:1852
 msgid "Akismet submission"
 msgstr "Akismet გადაგზავნა"
 
-#: kuma/wiki/models.py:1832
+#: kuma/wiki/models.py:1853
 msgid "Akismet submissions"
 msgstr "Akismet გადაგზავნები"
 
-#: kuma/wiki/models.py:1876
+#: kuma/wiki/models.py:1898
 msgid "Slug"
 msgstr "ბმულის დაბოლოება"
 
-#: kuma/wiki/models.py:1884
+#: kuma/wiki/models.py:1906
 msgid "Document (optional)"
 msgstr "დოკუმენტი (არასავალდებულო)"
 
-#: kuma/wiki/models.py:1894
+#: kuma/wiki/models.py:1916
 msgid "reviewed"
 msgstr "მიმოხილულია"
 
-#: kuma/wiki/models.py:1905
+#: kuma/wiki/models.py:1927
 msgid "Needs Review"
 msgstr "საჭიროებს განხილვას"
 
-#: kuma/wiki/models.py:1906
+#: kuma/wiki/models.py:1928
 msgid "Ham / False Positive"
 msgstr "არაა სპამი / ცრუ შეტყობინება"
 
-#: kuma/wiki/models.py:1907
+#: kuma/wiki/models.py:1929
 msgid "Confirmed as Spam"
 msgstr "დადასტურებულია, რომ სპამია"
 
-#: kuma/wiki/models.py:1908
+#: kuma/wiki/models.py:1930
 msgid "Review Unavailable"
 msgstr "გადახედვა შეუძლებელია"
 
-#: kuma/wiki/models.py:1909
+#: kuma/wiki/models.py:1931
 msgid "Akismet Error"
 msgstr "Akismet შეცდომა"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1936
 msgid "Review of Akismet's classification as spam"
 msgstr "გადახედეთ Akismet-ს სპამის აღმოჩენის მეთოდებს"
 
-#: kuma/wiki/models.py:1921
+#: kuma/wiki/models.py:1943
 msgid "Staff reviewer"
 msgstr "მიმომხილველი"
 
@@ -3184,8 +3195,8 @@ msgstr "თქვენ ცდილობთ ახალი გვერდი
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 "ახალი გვერდის შექმნას, გარკვეული შეზღუდვები აქვს. თუ გსურთ ახალი გვერდის მოთხოვნა, <a href=\"%(request_page_url)s\">გთხოვთ, მოგვახსენოთ ამის შესახებ</a>. თუ გსურთ უფლებების მიღება, გვერდების "
 "დასამატებლად, <a href=\"%(email_link)s\">დაგვიკავშირდით ელფოსტაზე</a>."
@@ -3325,16 +3336,20 @@ msgstr "დოკუმენტი პირველად მუშავდ�
 #: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
-msgstr "<abbr title=\"%(started_at)s\">მიმდინარეობს</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია, ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
+msgstr ""
+"<abbr title=\"%(started_at)s\">მიმდინარეობს</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია, ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე "
+"წუთში."
 
 #: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
-msgstr "<abbr title=\"%(scheduled_at)s\">დაგეგმილია</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია, ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
+msgstr ""
+"<abbr title=\"%(scheduled_at)s\">დაგეგმილია</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია, ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე "
+"წუთში."
 
 #: kuma/wiki/jinja2/wiki/document.html:196
 msgid "This is an experimental page."
@@ -3553,7 +3568,8 @@ msgstr "გვერდის გადატანის მოთხოვნ�
 #: kuma/wiki/jinja2/wiki/move_requested.html:9
 #, python-format
 msgid "<h1>Page Move Scheduled</h1> <p>Moving %(old_slug)s to <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> You'll receive an email when it finishes, or if any errors occur during the move.</p>"
-msgstr "<h1>გვერდის დაგეგმილი გადატანა</h1> <p>%(old_slug)s გადადის <a href=\"%(new_url)s\">%(new_slug)s</a>-ში</p> <p>დასრულებისთანავე, ან რამე ხარვეზის აღმოჩენისას, მიიღებთ შეტყობინებას ელფოსტაზე.</p>"
+msgstr ""
+"<h1>გვერდის დაგეგმილი გადატანა</h1> <p>%(old_slug)s გადადის <a href=\"%(new_url)s\">%(new_slug)s</a>-ში</p> <p>დასრულებისთანავე, ან რამე ხარვეზის აღმოჩენისას, მიიღებთ შეტყობინებას ელფოსტაზე.</p>"
 
 #: kuma/wiki/jinja2/wiki/preview.html:14
 msgid "This is a preview of an unsaved document."
@@ -4053,15 +4069,15 @@ msgstr "ყველა სტატია საჭიროებს გად
 #, python-format
 msgid "Please review these articles for spelling, grammar, formatting, layout, etc., and then clear the Editorial review flag. <a href=\"%(url)s\">See more detailed instructions</a>."
 msgstr ""
-"გთხოვთ გადახედოთ ამ სტატიებს და შეამოწმოთ მართლწერა, გრამატიკა, იერსახე, განლაგება და ა.შ. ამის შემდეგ კი მოაცილოთ „შესასწორებელი განხილვის“ მონიშვნა. <a href=\"%(url)s\">იხილეთ ვრცლად, "
-"მითითებები</a>."
+"გთხოვთ გადახედოთ ამ სტატიებს და შეამოწმოთ მართლწერა, გრამატიკა, იერსახე, განლაგება და ა.შ. ამის შემდეგ კი მოაცილოთ „შესასწორებელი განხილვის“ მონიშვნა. <a href=\"%(url)s\">იხილეთ ვრცლად, მითითებები</"
+"a>."
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:31
 #, python-format
 msgid "Please review these articles for technical accuracy and completeness, and then clear the Technical review flag. <a href=\"%(url)s\">See more detailed instructions</a>."
 msgstr ""
-"გთხოვთ გადახედოთ ამ სტატიებს და შეამოწმოთ ტექნიკური საკითხების სიზუსტე, რამდენად გამართულია, ამის შემდეგ კი მოაცილოთ „ტექნიკური განხილვის“ მონიშვნა. <a href=\"%(url)s\">იხილეთ ვრცლად, "
-"მითითებები</a>."
+"გთხოვთ გადახედოთ ამ სტატიებს და შეამოწმოთ ტექნიკური საკითხების სიზუსტე, რამდენად გამართულია, ამის შემდეგ კი მოაცილოთ „ტექნიკური განხილვის“ მონიშვნა. <a href=\"%(url)s\">იხილეთ ვრცლად, მითითებები</"
+"a>."
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:36
 #, python-format
@@ -4200,7 +4216,7 @@ msgstr "შეცდომა მოთხოვნის დამუშავ�
 msgid "ETag precondition failed"
 msgstr "ETag წინაპირობა ვერ შესრულდა"
 
-#: kuma/wiki/views/edit.py:113
+#: kuma/wiki/views/edit.py:114
 msgid "Sections may only be edited inline."
 msgstr "ცალკეული მონაკვეთები უნდა ჩასწორდეს ადგილზე."
 
@@ -4212,7 +4228,7 @@ msgstr "თვითშემოთავაზებისთვის სა�
 msgid "Document has been edited; please re-review."
 msgstr "დოკუმენტი ჩასწორებულია; გთხოვთ გადახედოთ ხელახლა."
 
-#: kuma/wiki/views/translate.py:75
+#: kuma/wiki/views/translate.py:77
 msgid "You cannot translate this document."
 msgstr "ამ დოკუმენტის თარგმნა, არ შეგიძლიათ."
 
@@ -4220,6 +4236,9 @@ msgstr "ამ დოკუმენტის თარგმნა, არ შ�
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch სერვერი: %(backend)s"
+
+#~ msgid "B2G OS"
+#~ msgstr "B2G OS"
 
 #~ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
 #~ msgstr "Mozilla-ს შემმუშავებელთა ერთობა (MDN) იწვევს მსოფლიო დონის შემმუშავებლებს და სთავაზობს მათ სამყაროს შეცვლას, Mozilla-ს საშუალებით."

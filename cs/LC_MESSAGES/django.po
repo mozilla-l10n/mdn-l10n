@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-02-20 08:15-0800\n"
+"POT-Creation-Date: 2018-03-01 11:57-0800\n"
 "PO-Revision-Date: 2018-02-04 13:00+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: Czech https://pontoon.mozilla.org/cs/\n"
@@ -139,11 +139,11 @@ msgstr "O MDN"
 msgid "Feedback"
 msgstr "Zpětná vazba"
 
-#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:160 kuma/users/jinja2/users/includes/user_title_info.html:74
+#: jinja2/base.html:141 jinja2/base.html:154 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:74
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:151 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
+#: jinja2/base.html:142 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -163,7 +163,7 @@ msgstr "Kontaktujte nás"
 msgid "Donate"
 msgstr "Přispět"
 
-#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:100
+#: jinja2/base.html:155 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -218,15 +218,15 @@ msgstr "Hledat"
 msgid "Technologies"
 msgstr "Technologie"
 
-#: jinja2/includes/header-main-nav.html:10 kuma/core/translations/search/filter/html/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:105
+#: jinja2/includes/header-main-nav.html:10 kuma/landing/jinja2/landing/promote_buttons.html:105 kuma/search/names.py:31
 msgid "HTML"
 msgstr "HTML"
 
-#: jinja2/includes/header-main-nav.html:11 kuma/core/translations/search/filter/css/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:99
+#: jinja2/includes/header-main-nav.html:11 kuma/landing/jinja2/landing/promote_buttons.html:99 kuma/search/names.py:24
 msgid "CSS"
 msgstr "CSS"
 
-#: jinja2/includes/header-main-nav.html:12 kuma/core/translations/search/filter/js/name.py:4 kuma/landing/jinja2/landing/promote_buttons.html:111
+#: jinja2/includes/header-main-nav.html:12 kuma/landing/jinja2/landing/promote_buttons.html:111 kuma/search/names.py:33
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -234,7 +234,7 @@ msgstr "JavaScript"
 msgid "Graphics"
 msgstr "Grafika"
 
-#: jinja2/includes/header-main-nav.html:14
+#: jinja2/includes/header-main-nav.html:14 kuma/search/names.py:32
 msgid "HTTP"
 msgstr "HTTP"
 
@@ -246,7 +246,7 @@ msgstr "API / DOM"
 msgid "Browser Extensions"
 msgstr "Rozšíření prohlížeče"
 
-#: jinja2/includes/header-main-nav.html:17 kuma/core/translations/search/filter/mathml/name.py:4
+#: jinja2/includes/header-main-nav.html:17 kuma/search/names.py:35
 msgid "MathML"
 msgstr "MathML"
 
@@ -302,7 +302,7 @@ msgstr "Nahlásit problém s obsahem"
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
 
-#: jinja2/includes/header-toolbox.html:4 kuma/core/translations/search/filter/tools/name.py:4
+#: jinja2/includes/header-toolbox.html:4 kuma/search/names.py:14
 msgid "Tools"
 msgstr "Nástroje"
 
@@ -724,39 +724,39 @@ msgstr "Nedávné revize příloh souborů MDN"
 msgid "Files of this type are not permitted."
 msgstr "Soubory tohoto typu nejsou povoleny."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:113
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "MIME typ je používán přenosu přílohy. Vyplněno automaticky během nahrávání souboru na server. Prosíme, opravujte jen pokud je to potřeba."
 
-#: kuma/attachments/models.py:140
+#: kuma/attachments/models.py:142
 msgid "attachment revision"
 msgstr "revize přílohy"
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:143
 msgid "attachment revisions"
 msgstr "revize přílohy"
 
-#: kuma/attachments/models.py:214
+#: kuma/attachments/models.py:216
 msgid "The attachment file that was trashed"
 msgstr "Soubor přílohy byl přesunut do koše"
 
-#: kuma/attachments/models.py:219
+#: kuma/attachments/models.py:221
 msgid "The date and time the attachment was trashed"
 msgstr "Datum a čas, kdy byla příloha přesunuta do koše"
 
-#: kuma/attachments/models.py:224
+#: kuma/attachments/models.py:226
 msgid "The username of the user who trashed the attachment"
 msgstr "Uživatelské jméno uživatele, který přesunul přílohu do koše"
 
-#: kuma/attachments/models.py:229
+#: kuma/attachments/models.py:231
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Zda byla příloha v čase svého přesunutí do koše aktuální revizí přílohy."
 
-#: kuma/attachments/models.py:234
+#: kuma/attachments/models.py:236
 msgid "Trashed attachment"
 msgstr "Smazaná příloha"
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:237
 msgid "Trashed attachments"
 msgstr "Smazané přílohy"
 
@@ -795,8 +795,8 @@ msgstr "Obrázky mohou být přiloženy a následně vloženy do článku."
 msgid "File"
 msgstr "Soubor"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:70
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1872
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1894
 msgid "Title"
 msgstr "Název"
 
@@ -846,15 +846,15 @@ msgstr "%(bytes)s bytů"
 msgid "n/a"
 msgstr "n/a"
 
-#: kuma/authkeys/models.py:31
+#: kuma/authkeys/models.py:32
 msgid "Lookup key"
 msgstr "Vyhledávací klíč"
 
-#: kuma/authkeys/models.py:33
+#: kuma/authkeys/models.py:34
 msgid "Hashed secret"
 msgstr "Hashovaný tajný klíč"
 
-#: kuma/authkeys/models.py:35
+#: kuma/authkeys/models.py:36
 msgid "Description of intended use"
 msgstr "Popis zamýšleného použití"
 
@@ -952,7 +952,7 @@ msgstr "Doplňky"
 msgid "Apps"
 msgstr "Aplikace"
 
-#: kuma/core/sections.py:27 kuma/core/translations/search/filter/mobile/name.py:4
+#: kuma/core/sections.py:27 kuma/search/names.py:36
 msgid "Mobile"
 msgstr "Mobilní"
 
@@ -976,98 +976,6 @@ msgstr "Ano"
 #: kuma/core/templatetags/jinja_helpers.py:88
 msgid "No"
 msgstr "Ne"
-
-#: kuma/core/translations/search/filter/addons/name.py:4
-msgid "Add-ons & Extensions"
-msgstr "Doplňky a rozšíření"
-
-#: kuma/core/translations/search/filter/advanced/name.py:4
-msgid "I'm an Expert"
-msgstr "Jsem expert"
-
-#: kuma/core/translations/search/filter/api/name.py:4
-msgid "APIs and DOM"
-msgstr "API a DOM"
-
-#: kuma/core/translations/search/filter/apps/name.py:4
-msgid "Open Web Apps"
-msgstr "Otevřené webové aplikace"
-
-#: kuma/core/translations/search/filter/b2g-os/name.py:4
-msgid "B2G OS"
-msgstr "B2G OS"
-
-#: kuma/core/translations/search/filter/beginner/name.py:4
-msgid "I'm Learning"
-msgstr "Učím se"
-
-#: kuma/core/translations/search/filter/canvas/name.py:4
-msgid "Canvas"
-msgstr "Canvas"
-
-#: kuma/core/translations/search/filter/code/name.py:4
-msgid "Code Samples"
-msgstr "Ukázky kódu"
-
-#: kuma/core/translations/search/filter/firefox/name.py:4
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kuma/core/translations/search/filter/firefox-desktop/name.py:4
-msgid "Firefox for Desktop"
-msgstr "Firefox pro počítač"
-
-#: kuma/core/translations/search/filter/firefox-mobile/name.py:4
-msgid "Firefox for Android"
-msgstr "Firefox pro Android"
-
-#: kuma/core/translations/search/filter/firefox-os/name.py:4
-msgid "Firefox OS"
-msgstr "Firefox OS"
-
-#: kuma/core/translations/search/filter/games/name.py:4
-msgid "Games"
-msgstr "Hry"
-
-#: kuma/core/translations/search/filter/howto/name.py:4
-msgid "How-To & Tutorial"
-msgstr "Jak na to & Tutoriál"
-
-#: kuma/core/translations/search/filter/intermediate/name.py:4
-msgid "Intermediate"
-msgstr "Středně pokročilý"
-
-#: kuma/core/translations/search/filter/marketplace/name.py:4
-msgid "Marketplace"
-msgstr "Marketplace"
-
-#: kuma/core/translations/search/filter/svg/name.py:4
-msgid "SVG"
-msgstr "SVG"
-
-#: kuma/core/translations/search/filter/webdev/name.py:4
-msgid "Web Development"
-msgstr "Vývoj webu"
-
-#: kuma/core/translations/search/filter/webgl/name.py:4
-msgid "WebGL"
-msgstr "WebGL"
-
-#: kuma/core/translations/search/filter/xul/name.py:4
-msgid "XUL"
-msgstr "XUL"
-
-#: kuma/core/translations/search/filtergroup/document-type/name.py:4
-msgid "Document type"
-msgstr "Typ dokumentu"
-
-#: kuma/core/translations/search/filtergroup/skill-level/name.py:4
-msgid "Skill level"
-msgstr "Obtížnost"
-
-#: kuma/core/translations/search/filtergroup/topics/name.py:4
-msgid "Topics"
-msgstr "Témata"
 
 #: kuma/dashboards/forms.py:8
 msgid "All Locales"
@@ -1200,7 +1108,7 @@ msgstr "Filtrovat"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Trendy v čase, konec %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1825
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1846
 msgid "Revision"
 msgstr "Revize"
 
@@ -1599,6 +1507,109 @@ msgstr "Je současný index?"
 msgid "There is already a successor to the current index %s"
 msgstr "Již je k dispozici náhrada současného indexu %s"
 
+#: kuma/search/names.py:11
+msgid "Document type"
+msgstr "Typ dokumentu"
+
+#: kuma/search/names.py:12
+msgid "Code Samples"
+msgstr "Ukázky kódu"
+
+#: kuma/search/names.py:13
+msgid "How-To & Tutorial"
+msgstr "Jak na to & Tutoriál"
+
+#: kuma/search/names.py:16
+msgid "Skill level"
+msgstr "Obtížnost"
+
+#: kuma/search/names.py:17
+msgid "I'm Learning"
+msgstr "Učím se"
+
+#: kuma/search/names.py:18
+msgid "I'm an Expert"
+msgstr "Jsem expert"
+
+#: kuma/search/names.py:19
+#, fuzzy
+msgid "I'm an Intermediate"
+msgstr "Středně pokročilý"
+
+#: kuma/search/names.py:21
+msgid "Topics"
+msgstr "Témata"
+
+#: kuma/search/names.py:22
+msgid "APIs and DOM"
+msgstr "API a DOM"
+
+#: kuma/search/names.py:23
+msgid "Add-ons & Extensions"
+msgstr "Doplňky a rozšíření"
+
+#: kuma/search/names.py:25
+msgid "Canvas"
+msgstr "Canvas"
+
+#: kuma/search/names.py:26
+msgid "Firefox"
+msgstr "Firefox"
+
+#: kuma/search/names.py:27
+msgid "Firefox OS"
+msgstr "Firefox OS"
+
+#: kuma/search/names.py:28
+msgid "Firefox for Android"
+msgstr "Firefox pro Android"
+
+#: kuma/search/names.py:29
+msgid "Firefox for Desktop"
+msgstr "Firefox pro počítač"
+
+#: kuma/search/names.py:30
+msgid "Games"
+msgstr "Hry"
+
+#: kuma/search/names.py:34
+msgid "Marketplace"
+msgstr "Marketplace"
+
+#: kuma/search/names.py:37
+msgid "Open Web Apps"
+msgstr "Otevřené webové aplikace"
+
+#: kuma/search/names.py:38
+msgid "SVG"
+msgstr "SVG"
+
+#: kuma/search/names.py:39
+msgid "Web Development"
+msgstr "Vývoj webu"
+
+#: kuma/search/names.py:40
+#, fuzzy
+msgid "WebExtensions"
+msgstr "Rozšíření prohlížeče"
+
+#: kuma/search/names.py:41
+msgid "WebGL"
+msgstr "WebGL"
+
+#: kuma/search/names.py:42
+#, fuzzy
+msgid "Writing Documentation"
+msgstr "Dokumentace MDN"
+
+#: kuma/search/names.py:43
+msgid "XPCOM"
+msgstr ""
+
+#: kuma/search/names.py:44
+msgid "XUL"
+msgstr "XUL"
+
 #: kuma/search/utils.py:14
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "Vyhledávání je dočasně nedostupné. Zkuste to prosím znovu za několik minut."
@@ -1607,11 +1618,11 @@ msgstr "Vyhledávání je dočasně nedostupné. Zkuste to prosím znovu za něk
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "Vyhledávání se nezdařilo. Zkuste to prosím znovu za několik minut."
 
-#: kuma/search/views.py:95
+#: kuma/search/views.py:93
 msgid "name"
 msgstr "jméno"
 
-#: kuma/search/views.py:96
+#: kuma/search/views.py:94
 msgid "groupname"
 msgstr "název skupiny"
 
@@ -1740,27 +1751,27 @@ msgstr "Odeslaná data obsahují neplatný obsah."
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "Odeslaná data obsahují neplatný obsah. Zkuste to prosím znovu."
 
-#: kuma/spam/models.py:10
+#: kuma/spam/models.py:11
 msgid "created"
 msgstr "vytvořeno"
 
-#: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
+#: kuma/spam/models.py:28 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
 msgstr "Spam"
 
-#: kuma/spam/models.py:28
+#: kuma/spam/models.py:29
 msgid "Ham"
 msgstr "Není spam"
 
-#: kuma/spam/models.py:32
+#: kuma/spam/models.py:34
 msgid "sent at"
 msgstr "odesláno"
 
-#: kuma/spam/models.py:36
+#: kuma/spam/models.py:38
 msgid "type"
 msgstr "typ"
 
-#: kuma/users/adapters.py:19
+#: kuma/users/adapters.py:28
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -1769,11 +1780,11 @@ msgstr ""
 "Omlouváme se, ale abyste se mohli přihlásit, musíte mít připojen alespoň jeden účet. Chcete-li odebrat tento účet, přidejte nejprve jiný. Pro smazání účtu na MDN, zadejte prosím svou žádost pomocí "
 "<a href=\"%(bug_form_url)s\" rel=\"nofollow\">chybového hlášení</a>."
 
-#: kuma/users/adapters.py:23
+#: kuma/users/adapters.py:32
 msgid "An email address cannot be used as a username."
 msgstr "E-mailovou adresu nelze použít jako přihlašovací jméno."
 
-#: kuma/users/adapters.py:50
+#: kuma/users/adapters.py:59
 msgid "The username you entered already exists."
 msgstr "Zadané uživatelské jméno již existuje."
 
@@ -1790,7 +1801,7 @@ msgstr "Dokončili jste první krok <a href=\"%s\">začínáme s MDN</a>"
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr "Uživatelské jméno může obsahovat pouze písmena, čísla a tyto speciální znaky: . - _ +"
 
-#: kuma/users/forms.py:31 kuma/users/models.py:46
+#: kuma/users/forms.py:31 kuma/users/models.py:48
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1814,15 +1825,15 @@ msgstr "Uživatelské jméno"
 msgid "Display a link to GitHub on my profile"
 msgstr "Zobrazit odkaz na GitHub na mém profilu"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:88
+#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:88
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:165 kuma/users/jinja2/users/includes/user_title_info.html:92
+#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:92
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:146 kuma/users/jinja2/users/includes/user_title_info.html:96
+#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:96
 msgid "Mozillians"
 msgstr "Mozillians"
 
@@ -1842,86 +1853,86 @@ msgstr "Toto uživatelské jméno je již používáno."
 msgid "Email"
 msgstr "E-mail"
 
-#: kuma/users/models.py:34
+#: kuma/users/models.py:36
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr "Uživatel %(banned_user)s byl zablokován uživatelem %(banned_by)s"
 
-#: kuma/users/models.py:37
+#: kuma/users/models.py:39
 #, python-format
 msgid "%s (no longer active)"
 msgstr "%s (již neaktivní)"
 
-#: kuma/users/models.py:56
+#: kuma/users/models.py:58
 msgid "Language"
 msgstr "Jazyk"
 
-#: kuma/users/models.py:61
+#: kuma/users/models.py:63
 msgid "Homepage"
 msgstr "Domovská stránka"
 
-#: kuma/users/models.py:65
+#: kuma/users/models.py:67
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "Tato URL má nesprávný formát. Správná URL vypadá jako http://example.com/my_page."
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:77
 msgid "Name"
 msgstr "Jméno"
 
-#: kuma/users/models.py:80
+#: kuma/users/models.py:82
 msgid "Organization"
 msgstr "Organizace"
 
-#: kuma/users/models.py:85
+#: kuma/users/models.py:87
 msgid "Location"
 msgstr "Umístění"
 
-#: kuma/users/models.py:90
+#: kuma/users/models.py:92
 msgid "About Me"
 msgstr "O mně"
 
-#: kuma/users/models.py:94
+#: kuma/users/models.py:96
 msgid "IRC nickname"
 msgstr "Nick na IRC"
 
-#: kuma/users/models.py:99 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
+#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
 #: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
 msgstr "Štítky"
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:106
 msgid "Enter a valid website URL."
 msgstr "Vložte platnou URL webové stránky."
 
-#: kuma/users/models.py:109
+#: kuma/users/models.py:111
 msgid "Enter a valid Twitter URL."
 msgstr "Vložte platnou URL Twitteru."
 
-#: kuma/users/models.py:114
+#: kuma/users/models.py:116
 msgid "Enter a valid GitHub URL."
 msgstr "Vložte platnou URL GitHubu."
 
-#: kuma/users/models.py:119
+#: kuma/users/models.py:121
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Vložte platnou URL Stack Overflow."
 
-#: kuma/users/models.py:124
+#: kuma/users/models.py:126
 msgid "Enter a valid LinkedIn URL."
 msgstr "Vložte platnou URL LinkedInu."
 
-#: kuma/users/models.py:129
+#: kuma/users/models.py:131
 msgid "Enter a valid Mozillians URL."
 msgstr "Vložte platnou URL Mozillians."
 
-#: kuma/users/models.py:134
+#: kuma/users/models.py:136
 msgid "Enter a valid Facebook URL."
 msgstr "Vložte platnou URL Facebooku."
 
-#: kuma/users/models.py:141
+#: kuma/users/models.py:143
 msgid "Website"
 msgstr "Webová stránka"
 
-#: kuma/users/models.py:156
+#: kuma/users/models.py:158
 msgid "Public GitHub URL"
 msgstr "Veřejná URL na GitHubu"
 
@@ -2553,53 +2564,53 @@ msgstr "Nastavte svůj avatar na"
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Upravujete profil, který nevlastníte. Buďte prosím opatrní!"
 
-#: kuma/users/jinja2/users/user_edit.html:55
+#: kuma/users/jinja2/users/user_edit.html:56
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Rádi bychom obdrželi vaši zpětnou vazbu na změny této stránky! Beta testeři získají přístup k novým funkcím dříve, než ostatní, a občas jim zašleme e-mail s žádostí o pomoc s testováním určitých "
 "věcí."
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "Primary Email"
 msgstr "Primární e-mail"
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "Edit email"
 msgstr "Upravit e-mail"
 
-#: kuma/users/jinja2/users/user_edit.html:71
+#: kuma/users/jinja2/users/user_edit.html:72
 msgid "Interests (tags)"
 msgstr "Zájmy (štítky)"
 
-#: kuma/users/jinja2/users/user_edit.html:72
+#: kuma/users/jinja2/users/user_edit.html:73
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "Jednotlivé štítky oddělujte čárkami nebo mezerami. Víceslovné štítky zapisujte v uvozovkách, například takto: \"webové standardy\"."
 
-#: kuma/users/jinja2/users/user_edit.html:78
+#: kuma/users/jinja2/users/user_edit.html:79
 msgid "Areas of expertise"
 msgstr "Odborné znalosti"
 
-#: kuma/users/jinja2/users/user_edit.html:79
+#: kuma/users/jinja2/users/user_edit.html:80
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "Nejprve přidejte své zájmy, poté se prohlaste za experta ve vybraných oblastech."
 
-#: kuma/users/jinja2/users/user_edit.html:87
+#: kuma/users/jinja2/users/user_edit.html:88
 msgid "My Profiles"
 msgstr "Mé profily"
 
-#: kuma/users/jinja2/users/user_edit.html:105
+#: kuma/users/jinja2/users/user_edit.html:107
 msgid "Use your GitHub account to sign in."
 msgstr "K přihlášení použijte svůj účet na GitHubu."
 
-#: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
+#: kuma/users/jinja2/users/user_edit.html:126 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
 msgid "Publish"
 msgstr "Publikovat"
 
-#: kuma/users/jinja2/users/user_edit.html:126
+#: kuma/users/jinja2/users/user_edit.html:128
 msgid "Delete your account."
 msgstr "Smazat váš účet"
 
-#: kuma/users/jinja2/users/user_edit.html:134
+#: kuma/users/jinja2/users/user_edit.html:136
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Spravujte své odběry magazínů Mozilly."
 
@@ -2753,7 +2764,7 @@ msgstr "Již nahlášeno jako spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Tento uživatel v uplynulých třech dnech nevytvořil žádné revize."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:718 kuma/wiki/jinja2/wiki/includes/buttons.html:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:47
 msgid "Edit"
 msgstr "Upravit"
 
@@ -2819,7 +2830,7 @@ msgstr "Redakce - próza, gramatika nebo obsah"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Lokalizace probíhá - zatím nepřeloženo."
 
-#: kuma/wiki/content.py:699
+#: kuma/wiki/content.py:701
 msgid "Edit section"
 msgstr "Upravit sekci"
 
@@ -3070,121 +3081,121 @@ msgstr "Štítek dokumentu"
 msgid "Document Tags"
 msgstr "Štítky dokumentu"
 
-#: kuma/wiki/models.py:147
+#: kuma/wiki/models.py:153
 msgid "uploaded to the document"
 msgstr "nahráno do dokumentu"
 
-#: kuma/wiki/models.py:153
+#: kuma/wiki/models.py:159
 msgid "linked in the document content"
 msgstr "odkaz z obsahu dokumentu"
 
-#: kuma/wiki/models.py:167
+#: kuma/wiki/models.py:173
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Přílohu %(attachment_id)s nelze k dokumentu %(document_id)s připojit vícekrát"
 
-#: kuma/wiki/models.py:1508
+#: kuma/wiki/models.py:1519
 msgid "Review Tag"
 msgstr "Označení ke kontrole"
 
-#: kuma/wiki/models.py:1509
+#: kuma/wiki/models.py:1520
 msgid "Review Tags"
 msgstr "Označení ke kontrole"
 
-#: kuma/wiki/models.py:1515
+#: kuma/wiki/models.py:1526
 msgid "Localization Tag"
 msgstr "Lokalizační štítek"
 
-#: kuma/wiki/models.py:1516
+#: kuma/wiki/models.py:1527
 msgid "Localization Tags"
 msgstr "Lokalizační štítky"
 
-#: kuma/wiki/models.py:1549
+#: kuma/wiki/models.py:1566
 msgid "No table of contents"
 msgstr "Žádný obsah"
 
-#: kuma/wiki/models.py:1550
+#: kuma/wiki/models.py:1567
 msgid "All levels"
 msgstr "Všechny úrovně"
 
-#: kuma/wiki/models.py:1551
+#: kuma/wiki/models.py:1568
 msgid "H2 and higher"
 msgstr "H2 a vyšší"
 
-#: kuma/wiki/models.py:1552
+#: kuma/wiki/models.py:1569
 msgid "H3 and higher"
 msgstr "H3 a vyšší"
 
-#: kuma/wiki/models.py:1553
+#: kuma/wiki/models.py:1570
 msgid "H4 and higher"
 msgstr "H4 a vyšší"
 
-#: kuma/wiki/models.py:1655
+#: kuma/wiki/models.py:1675
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Revize musí být založena na dokumentu v jazyce %(locale)s. Revize s ID %(id)s toto kritérium nesplňuje."
 
-#: kuma/wiki/models.py:1785
+#: kuma/wiki/models.py:1806
 msgid "IP address"
 msgstr "IP adresa"
 
-#: kuma/wiki/models.py:1793
+#: kuma/wiki/models.py:1814
 msgid "User-Agent"
 msgstr "User-Agent"
 
-#: kuma/wiki/models.py:1798
+#: kuma/wiki/models.py:1819
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1806 kuma/wiki/models.py:1891
+#: kuma/wiki/models.py:1827 kuma/wiki/models.py:1913
 msgid "Data submitted to Akismet"
 msgstr "Data odeslána do Akismetu"
 
-#: kuma/wiki/models.py:1831
+#: kuma/wiki/models.py:1852
 msgid "Akismet submission"
 msgstr "Nahlášeno službě Akismet"
 
-#: kuma/wiki/models.py:1832
+#: kuma/wiki/models.py:1853
 msgid "Akismet submissions"
 msgstr "Nahlášeno službě Akismet"
 
-#: kuma/wiki/models.py:1876
+#: kuma/wiki/models.py:1898
 msgid "Slug"
 msgstr "URL"
 
-#: kuma/wiki/models.py:1884
+#: kuma/wiki/models.py:1906
 msgid "Document (optional)"
 msgstr "Dokument (volitelné)"
 
-#: kuma/wiki/models.py:1894
+#: kuma/wiki/models.py:1916
 msgid "reviewed"
 msgstr "zkontrolováno"
 
-#: kuma/wiki/models.py:1905
+#: kuma/wiki/models.py:1927
 msgid "Needs Review"
 msgstr "Potřebuje kontrolu"
 
-#: kuma/wiki/models.py:1906
+#: kuma/wiki/models.py:1928
 msgid "Ham / False Positive"
 msgstr "Ham / False Positive"
 
-#: kuma/wiki/models.py:1907
+#: kuma/wiki/models.py:1929
 msgid "Confirmed as Spam"
 msgstr "Potvrzený spam"
 
-#: kuma/wiki/models.py:1908
+#: kuma/wiki/models.py:1930
 msgid "Review Unavailable"
 msgstr "Kontrola není dostupná"
 
-#: kuma/wiki/models.py:1909
+#: kuma/wiki/models.py:1931
 msgid "Akismet Error"
 msgstr "Chyba Akismetu"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1936
 msgid "Review of Akismet's classification as spam"
 msgstr "Kontrola označení spamu službou Akismet"
 
-#: kuma/wiki/models.py:1921
+#: kuma/wiki/models.py:1943
 msgid "Staff reviewer"
 msgstr "Redaktor"
 
@@ -4217,7 +4228,7 @@ msgstr "Chyba při parsování požadavku: %s"
 msgid "ETag precondition failed"
 msgstr "Chyba v předpokladech ETag"
 
-#: kuma/wiki/views/edit.py:113
+#: kuma/wiki/views/edit.py:114
 msgid "Sections may only be edited inline."
 msgstr "Sekce mohou být upraveny pouze v kontextu."
 
@@ -4229,7 +4240,7 @@ msgstr "Automatické návrhy vyžadují částečný nadpis. Pro kompletní inde
 msgid "Document has been edited; please re-review."
 msgstr "Dokument byl upraven; prosím, zkontrolujte jej znovu."
 
-#: kuma/wiki/views/translate.py:75
+#: kuma/wiki/views/translate.py:77
 msgid "You cannot translate this document."
 msgstr "Tento dokument nemůžete přeložit."
 
@@ -4237,6 +4248,9 @@ msgstr "Tento dokument nemůžete přeložit."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch server: %(backend)s"
+
+#~ msgid "B2G OS"
+#~ msgstr "B2G OS"
 
 #~ msgid "The Mozilla Developer Network (MDN) Fellowship Program invites world-class web developers to come change the world with Mozilla."
 #~ msgstr "Členský program Mozilla Developer Network (MDN) vyzývá webové vývojáře, aby přišli změnit svět s Mozillou."
@@ -4915,9 +4929,6 @@ msgstr "Elasticsearch server: %(backend)s"
 
 #~ msgid "File found"
 #~ msgstr "Soubor nalezen"
-
-#~ msgid "MDN Documentation"
-#~ msgstr "Dokumentace MDN"
 
 #~ msgid "http://en.wikipedia.org/wiki/HTML5_audio"
 #~ msgstr "http://cs.wikipedia.org/wiki/HTML5_audio"
