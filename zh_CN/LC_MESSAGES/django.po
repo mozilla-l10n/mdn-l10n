@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-03-01 11:57-0800\n"
-"PO-Revision-Date: 2018-03-22 06:42+0000\n"
+"PO-Revision-Date: 2018-03-28 14:49+0000\n"
 "Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
 "Language: zh_CN\n"
@@ -74,11 +74,11 @@ msgstr "您可以试试搜索，或者从<a href=\"%(homepage_url)s\">首页</a>
 #: jinja2/404.html:29
 #, python-format
 msgid "If you were following a documentation link, you can sign in and create the page. Otherwise, please <a href=\"%(bug_form_url)s\" rel=\"nofollow\">file a bug</a>. Thanks!"
-msgstr "如果您是根据文档链接而来，您可以登录和创建此页面。否则，请<a href=\"%(bug_form_url)s\" rel=\"nofollow\">填报一个 bug</a>，谢谢！"
+msgstr "如果您是点文档里的链接过来的，您可以登录和创建此页面。否则请<a href=\"%(bug_form_url)s\" rel=\"nofollow\">填报错误</a>。谢谢！"
 
 #: jinja2/404.html:37
 msgid "This user's profile has been banned."
-msgstr "此用户的账户已被封禁。"
+msgstr "此用户账户已被封禁。"
 
 #: jinja2/404.html:44
 #, python-format
@@ -194,7 +194,7 @@ msgstr "<li><a href=\"/logout\">登出</a>后再试一次。</li>"
 
 #: jinja2/includes/a11y-nav.html:2
 msgid "Skip to main content"
-msgstr "跳到主要内容"
+msgstr "跳转至主要内容"
 
 #: jinja2/includes/a11y-nav.html:3
 msgid "Select language"
@@ -368,7 +368,7 @@ msgstr "让 MDN 将最新、最棒的内容直接投递到您的邮箱。"
 
 #: jinja2/includes/newsletter.html:7
 msgid "The newsletter is offered in English only at the moment."
-msgstr "目前只能提供英文的新闻报。"
+msgstr "目前仅提供英文版新闻报。"
 
 #: jinja2/includes/newsletter.html:17
 msgid "E-mail"
@@ -393,7 +393,7 @@ msgstr "谢谢！请检查您的收件箱以确认您的订阅。"
 
 #: jinja2/includes/newsletter.html:36
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
-msgstr "如果您以前未确认过订阅 Mozilla 相关的新闻简报，您可能必须这样做。请检查您的收件箱或垃圾邮件箱，找到我们发给您的电子邮件。"
+msgstr "如果您以前未确认过订阅 Mozilla 相关的新闻简报，您可能必须这样做。请检查您的收件箱或垃圾邮件箱并找到我们发给您的电子邮件。"
 
 #: jinja2/includes/newsletter.html:43
 msgid "Hide Newsletter Sign-up"
@@ -722,7 +722,7 @@ msgstr "这种类型的文件格式不被允许。"
 
 #: kuma/attachments/models.py:113
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
-msgstr "该 MIME 类型在保存该附件时已使用。上传该文件时已自动检查得出该结果。只应在必要时覆盖该内容。"
+msgstr "提供附件时会用到 MIME 类型。上传文件时我们会自动检测。请仅在有问题时修改。"
 
 #: kuma/attachments/models.py:142
 msgid "attachment revision"
@@ -865,7 +865,7 @@ msgstr "删除"
 
 #: kuma/authkeys/jinja2/authkeys/history.html:14
 msgid "This key has not been used yet."
-msgstr "此密钥还没使用过。"
+msgstr "此密钥还未使用。"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:8
 msgid ""
@@ -1212,7 +1212,7 @@ msgstr "精选"
 
 #: kuma/landing/jinja2/landing/homepage.html:64
 msgid "Proudly non-profit."
-msgstr "自豪的非营利。"
+msgstr "以非营利为荣。"
 
 #: kuma/landing/jinja2/landing/homepage.html:64
 msgid "Donate before Dec 31."
@@ -1407,15 +1407,15 @@ msgstr "MDN 上更好的网页文档让网页变得更好"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:174 kuma/landing/jinja2/landing/promote_buttons.html:178 kuma/landing/jinja2/landing/promote_buttons.html:182
 msgid "MDN is Developer Powered for CSS docs and more."
-msgstr "MDN 上的 CSS 文档等资料是由开发者编写的。"
+msgstr "MDN 上 CSS 文档等资料由开发者编写。"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:175 kuma/landing/jinja2/landing/promote_buttons.html:179 kuma/landing/jinja2/landing/promote_buttons.html:183
 msgid "MDN is Developer Powered for HTML docs and more."
-msgstr "MDN 上的 HTML 文档等资料是由开发者编写的。"
+msgstr "MDN 上 HTML 文档等资料由开发者编写。"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:176 kuma/landing/jinja2/landing/promote_buttons.html:180 kuma/landing/jinja2/landing/promote_buttons.html:184
 msgid "MDN is Developer Powered for JavaScript docs and more."
-msgstr "MDN 上的 JavaScript 文档等资料是由开发者编写的。"
+msgstr "MDN 上 JavaScript 文档等资料由开发者编写。"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:177 kuma/landing/jinja2/landing/promote_buttons.html:181 kuma/landing/jinja2/landing/promote_buttons.html:185
 msgid "MDN is Developer Powered for Web docs and more."
@@ -1439,7 +1439,7 @@ msgstr "由开发者撰写的网页文档，提供给 MDN 上的开发者"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:198 kuma/landing/jinja2/landing/promote_buttons.html:199 kuma/landing/jinja2/landing/promote_buttons.html:200
 msgid "MDN is your Web Developer Toolbox for docs and more on HTML, CSS, JavaScript and other Web standards and open technologies."
-msgstr "MDN 是您的 Web 开发者工具箱，上面有文档等关于 HTML、CSS、JavaScript 和其他 Web 标准及开放技术的资料。"
+msgstr "MDN 是您的 Web 开发者工具箱，上面有关于 HTML、CSS、JavaScript 和其他 Web 标准及开放技术的资料。"
 
 #: kuma/search/admin.py:11
 msgid "Can't promote more than one index at once."
@@ -1460,7 +1460,7 @@ msgstr "一次只能降级一个索引。"
 
 #: kuma/search/admin.py:26
 msgid "Can't demote the index if there is only one. Create and populate a new one first."
-msgstr "不能降级唯一的索引。要先创建并填充一个新的。"
+msgstr "无法降级唯一索引。请先创建并填充新的索引。"
 
 #: kuma/search/admin.py:31
 #, python-format
@@ -1477,7 +1477,7 @@ msgstr "一次只能填充一个索引。"
 
 #: kuma/search/admin.py:48
 msgid "Populate selected search index via Celery"
-msgstr "通过 Celery 填充选定的搜索索引"
+msgstr "通过 Celery 填充指定搜索索引"
 
 #: kuma/search/admin.py:63
 msgid "Is current index?"
@@ -1767,7 +1767,7 @@ msgstr "时区"
 
 #: kuma/users/forms.py:37
 msgid "Beta tester"
-msgstr "Beta 测试者"
+msgstr "测试者"
 
 #: kuma/users/forms.py:41 kuma/users/jinja2/users/includes/user_title_info.html:50
 msgid "Interests"
@@ -1882,7 +1882,7 @@ msgstr "请输入一个有效的 LinkedIn 网址。"
 
 #: kuma/users/models.py:131
 msgid "Enter a valid Mozillians URL."
-msgstr "请输入一个有效的 Mozillians 网址。"
+msgstr "请输入一个有效的谋智人网址。"
 
 #: kuma/users/models.py:136
 msgid "Enter a valid Facebook URL."
@@ -2105,7 +2105,7 @@ msgstr "已有个人资料？那么请<a href=\"%(login_url)s\">登录</a>。"
 
 #: kuma/users/jinja2/account/signup_closed.html:3
 msgid "Profile Creation Disabled"
-msgstr "个人资料的创建已禁用。"
+msgstr "已停止新建个人资料"
 
 #: kuma/users/jinja2/account/verification_sent.html:3 kuma/users/jinja2/account/verification_sent.html:7 kuma/users/jinja2/account/verified_email_required.html:3
 #: kuma/users/jinja2/account/verified_email_required.html:7
@@ -2306,7 +2306,7 @@ msgstr "因其他原因封禁用户。"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:62
 msgid "User has not made any revisions to be reverted in the past three days, and this user was already banned."
-msgstr "没有可还原的用户在过去三天进行的修订，并且该用户已被封禁。"
+msgstr "用户在过去三天没有任何可还原的修订，并且该用户已被封禁。"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:20
 msgid "Summary"
@@ -2322,7 +2322,7 @@ msgstr "已封禁："
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:32
 msgid "Submitted to Akismet as spam:"
-msgstr "已提报垃圾信息反馈到 Akismet："
+msgstr "已举报垃圾信息到 Akismet："
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:45
 msgid "The user did not have any revisions that were reported as spam."
@@ -2439,7 +2439,7 @@ msgstr "您的账户已因下述原因被封禁："
 
 #: kuma/users/jinja2/users/user_banned.html:30
 msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click here</a> to appeal this ban.</p>"
-msgstr "<p>要申诉这个决定可以<a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">点击这里</a>。</p>"
+msgstr "<p>申诉此决定请<a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">点击这里</a>。</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
 msgid "Delete your profile"
@@ -2447,11 +2447,11 @@ msgstr "删除您的资料"
 
 #: kuma/users/jinja2/users/user_delete.html:28
 msgid "We're sorry to see you go."
-msgstr "很抱歉在这里遇到您。"
+msgstr "希望您与我们有缘再见。"
 
 #: kuma/users/jinja2/users/user_delete.html:31
 msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
-msgstr "虽然可以删除您的账户，但我们不能删除您做出的任何修订（页面变更），因为我们的内容许可协议要求保留您的修订产生的演变。"
+msgstr "虽然可以删除您的账户，但我们无法删除您做出的任何修订（页面变更），因为我们的内容许可协议要求保留您的修订产生的改变。"
 
 #: kuma/users/jinja2/users/user_delete.html:38
 msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
@@ -2640,7 +2640,7 @@ msgstr ""
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
-msgstr "不要害羞，如果您有任何疑问或者问题：联系我们！我们就在这帮助您。"
+msgstr "不要害羞，若您有任何疑问，请联系我们！我们对您有问必答。"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:4
@@ -3382,7 +3382,7 @@ msgstr "搜索结果概要："
 
 #: kuma/wiki/jinja2/wiki/edit.html:131
 msgid "Rendering max age:"
-msgstr "渲染缓存最大寿命："
+msgstr "缓存渲染最大时长："
 
 #: kuma/wiki/jinja2/wiki/edit.html:133
 msgid "Days"
@@ -3415,7 +3415,7 @@ msgstr "看来您是第一次对 MDN 做出贡献。可以在<a target=\"_blank\
 
 #: kuma/wiki/jinja2/wiki/edit.html:174
 msgid "Don't be afraid to break something, you can always revert your changes."
-msgstr "不要怕搞乱某些东西，随时可以还原修改的。"
+msgstr "不要怕搞砸，您可以随时还原更改。"
 
 #: kuma/wiki/jinja2/wiki/edit.html:175
 msgid "Have fun and be proud of your contribution!"
@@ -3452,7 +3452,7 @@ msgstr "移动文章 | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/move.html:26
 msgid "Please specify the new location for this page by filling out the fields below. Be sure your new destination follows these rules:"
-msgstr "请填写下面的字段指定此页面的新位置。请确定您的新描述符合下列规则："
+msgstr "请填写以下字段指定此页面的新位置。请确定您的新描述符合下列规则："
 
 #: kuma/wiki/jinja2/wiki/move.html:28
 msgid "Make sure the location you specify is located immediately under an existing page."
@@ -3510,7 +3510,7 @@ msgstr "此次移动将影响到下列 %(count)s 个子页面："
 
 #: kuma/wiki/jinja2/wiki/move.html:110
 msgid "No other documents will be affected by this change."
-msgstr "没有其他文档会受到这个改变的影响。"
+msgstr "无其他文档会受此改变影响。"
 
 #: kuma/wiki/jinja2/wiki/move_requested.html:2
 msgid "Page move requested"
@@ -3523,7 +3523,7 @@ msgstr "<h1>页面移动计划</h1> <p>将 %(old_slug)s 移动到 <a href=\"%(ne
 
 #: kuma/wiki/jinja2/wiki/preview.html:14
 msgid "This is a preview of an unsaved document."
-msgstr "这个是一个未保存文档的预览。"
+msgstr "此为未保存文档的预览。"
 
 #: kuma/wiki/jinja2/wiki/revision.html:2
 #, python-format
@@ -3568,7 +3568,7 @@ msgstr "修订版来源"
 
 #: kuma/wiki/jinja2/wiki/revision.html:75 kuma/wiki/jinja2/wiki/list/revisions.html:78
 msgid "Revert to this revision"
-msgstr "恢复到这个版本"
+msgstr "恢复为此版本"
 
 #: kuma/wiki/jinja2/wiki/select_locale.html:2
 #, python-format
@@ -3577,7 +3577,7 @@ msgstr "选择语言 | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/select_locale.html:9
 msgid "Select a language to translate to:"
-msgstr "选择将翻译的语言:"
+msgstr "选择翻译的目标语言："
 
 #: kuma/wiki/jinja2/wiki/translate.html:7
 #, python-format
