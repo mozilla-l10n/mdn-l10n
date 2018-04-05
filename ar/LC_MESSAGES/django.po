@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-03-28 08:06-0700\n"
+"POT-Creation-Date: 2018-04-05 09:31-0700\n"
 "PO-Revision-Date: 2018-03-06 07:40+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
@@ -206,7 +206,7 @@ msgid "Search Firefox Help"
 msgstr "ابحث في مساعدة فَيَرفُكس"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:6
-#: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:11 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
+#: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
 #: kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
 msgid "Search"
 msgstr ""
@@ -689,16 +689,16 @@ msgstr "أُلغي الاشتراك"
 msgid "You have been unsubscribed."
 msgstr "لقد أُلغي الاشتراك."
 
-#: kuma/attachments/admin.py:60
+#: kuma/attachments/admin.py:58
 #, python-format
 msgid "The following attachment files were moved to the trash: %(filenames)s. You may want to review them before their automatic purge after %(days)s days from the file storage."
 msgstr "نُقلت ملفات المرفقات الآتية إلى المهملات: %(filenames)s. قد تحتاج مراجعتها قبل حذفها تلقائيا بعد %(days)s من الأيام من تخزين الملفات."
 
-#: kuma/attachments/admin.py:64
+#: kuma/attachments/admin.py:62
 msgid "and"
 msgstr "و"
 
-#: kuma/attachments/admin.py:127
+#: kuma/attachments/admin.py:125
 #, python-format
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr "نُقل الملف المرفق ”%(filename)s“ إلى المهملات. قد تحتاج مراجعته قبل حذفه تلقائيا بعد %(days)s من الأيام من تخزين الملفات."
@@ -719,39 +719,39 @@ msgstr ""
 msgid "Files of this type are not permitted."
 msgstr "هذا النوع من الملفات ليس مسموحا."
 
-#: kuma/attachments/models.py:113
+#: kuma/attachments/models.py:112
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "يُستخدم نوع MIME عند عرض المستند، ويُنشأ تلقائيا بفحص الملف عند رفعه. غيّره فقط إن لزم الأمر."
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:141
 msgid "attachment revision"
 msgstr ""
 
-#: kuma/attachments/models.py:143
+#: kuma/attachments/models.py:142
 msgid "attachment revisions"
 msgstr ""
 
-#: kuma/attachments/models.py:216
+#: kuma/attachments/models.py:215
 msgid "The attachment file that was trashed"
 msgstr "رُمي الملف المرفق في المهملات"
 
-#: kuma/attachments/models.py:221
+#: kuma/attachments/models.py:220
 msgid "The date and time the attachment was trashed"
 msgstr "تاريخ ووقت رمي المرفق في المهملات"
 
-#: kuma/attachments/models.py:226
+#: kuma/attachments/models.py:225
 msgid "The username of the user who trashed the attachment"
 msgstr "اسم المستخدم الذي رمى المرفق في المهملات"
 
-#: kuma/attachments/models.py:231
+#: kuma/attachments/models.py:230
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "فيما إذا كان هذا المرفق هو مراجعة المرفق الحالية عند رميه في المهملات."
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:235
 msgid "Trashed attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:237
+#: kuma/attachments/models.py:236
 msgid "Trashed attachments"
 msgstr ""
 
@@ -937,7 +937,7 @@ msgstr "تأكّد من أن لهذه القيمة أحرف عددها %(limit_v
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "تأكّد من أن لهذه القيمة أحرف عددها %(limit_value)s على الأكثر (%(show_value)s حاليا)."
 
-#: kuma/core/utils.py:426
+#: kuma/core/utils.py:425
 #, python-format
 msgid "Today at %s"
 msgstr "اليوم في %s"
@@ -1601,11 +1601,11 @@ msgstr "البحث غير متوفر مؤقتًا. رجاءً حاول مجدد�
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "حدث خطب ما مع استعلام البحث. رجاءً أعِد المحالة بعد عدة دقائق."
 
-#: kuma/search/views.py:93
+#: kuma/search/views.py:94
 msgid "name"
 msgstr ""
 
-#: kuma/search/views.py:94
+#: kuma/search/views.py:95
 msgid "groupname"
 msgstr ""
 
@@ -1758,23 +1758,23 @@ msgstr "تحتوي البيانات المُرسلة على محتوى غير ص
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "تحتوي البيانات المُرسلة على محتوى غير صالح. رجاءً أعِد المحاولة."
 
-#: kuma/spam/models.py:11
+#: kuma/spam/models.py:10
 msgid "created"
 msgstr ""
 
-#: kuma/spam/models.py:28 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
+#: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
 msgstr ""
 
-#: kuma/spam/models.py:29
+#: kuma/spam/models.py:28
 msgid "Ham"
 msgstr ""
 
-#: kuma/spam/models.py:34
+#: kuma/spam/models.py:33
 msgid "sent at"
 msgstr ""
 
-#: kuma/spam/models.py:38
+#: kuma/spam/models.py:37
 msgid "type"
 msgstr ""
 
@@ -1936,7 +1936,7 @@ msgstr "الموقع"
 msgid "Public GitHub URL"
 msgstr "مسار غِت‌هَب العلني"
 
-#: kuma/users/signal_handlers.py:45
+#: kuma/users/signal_handlers.py:44
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 msgstr "لقد أكملت أولى خطوات <a href=\"%s\">البدء في MDN</a>"
@@ -2831,12 +2831,12 @@ msgstr "يجري التوطين - لم تكتمل الترجمة بعد."
 msgid "Edit section"
 msgstr "حرّر القسم"
 
-#: kuma/wiki/events.py:96
+#: kuma/wiki/events.py:97
 #, python-format
 msgid "[MDN][%(locale)s][New] Page \"%(document_title)s\" created by %(creator)s"
 msgstr ""
 
-#: kuma/wiki/events.py:100
+#: kuma/wiki/events.py:101
 #, python-format
 msgid "[MDN][%(locale)s] Page \"%(document_title)s\" changed by %(creator)s"
 msgstr ""
@@ -4115,6 +4115,16 @@ msgstr "قارن المراجعات المحددة"
 msgid "This document has no revisions."
 msgstr "ليس لهذه المقالة أية مراجعات."
 
+#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#, fuzzy
+msgid "Sign in to view all history"
+msgstr "عليك الولوج لمطالعة التأريخ كاملا"
+
+#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#, fuzzy
+msgid "View All"
+msgstr "اعرض المقالة:"
+
 #: kuma/wiki/jinja2/wiki/list/tags.html:2
 msgid "All Tags"
 msgstr "كل الوسوم"
@@ -4200,27 +4210,27 @@ msgstr "حدث خطأ ما أثناء توليد المحتوى."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:680
+#: kuma/wiki/views/document.py:682
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:737
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr ""
 
-#: kuma/wiki/views/document.py:855
+#: kuma/wiki/views/document.py:857
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:862
+#: kuma/wiki/views/document.py:864
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "خطأ في تحليل الطلب: %s"
 
-#: kuma/wiki/views/document.py:883
+#: kuma/wiki/views/document.py:885
 msgid "ETag precondition failed"
 msgstr ""
 

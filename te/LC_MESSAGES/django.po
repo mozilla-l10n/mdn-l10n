@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-03-28 08:06-0700\n"
+"POT-Creation-Date: 2018-04-05 09:31-0700\n"
 "PO-Revision-Date: 2018-02-27 16:34+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu https://pontoon.mozilla.org/te/\n"
@@ -209,7 +209,7 @@ msgid "Search Firefox Help"
 msgstr "ఫైర్ఫాక్స్ సహాయం కోసం వెతుకు"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:6
-#: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:11 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
+#: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
 #: kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
 msgid "Search"
 msgstr "వెతుకు"
@@ -693,16 +693,16 @@ msgstr "చందా విరమించారు"
 msgid "You have been unsubscribed."
 msgstr "మీరు చందా విరమించారు."
 
-#: kuma/attachments/admin.py:60
+#: kuma/attachments/admin.py:58
 #, python-format
 msgid "The following attachment files were moved to the trash: %(filenames)s. You may want to review them before their automatic purge after %(days)s days from the file storage."
 msgstr "ఈ క్రింది దస్త్ర జోడింపులు చెత్తబుట్టలోకి పంపబడ్డాయి: %(filenames)s. అవి %(days)s రోజుల తర్వాత స్వీయతొలగింపు జరిగేలోపు మీరు ఒకసారి పునఃపరిశీలన చేయవచ్చు."
 
-#: kuma/attachments/admin.py:64
+#: kuma/attachments/admin.py:62
 msgid "and"
 msgstr "మరియు"
 
-#: kuma/attachments/admin.py:127
+#: kuma/attachments/admin.py:125
 #, python-format
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr "\"%(filename)s\" దస్త్ర జోడింపు చెత్తబుట్టలోకి పంపబడింది. అది %(days)s రోజుల తర్వాత స్వీయతొలగింపు జరిగేలోపు మీరు ఒకసారి పునఃపరిశీలన చేయవచ్చు."
@@ -723,39 +723,39 @@ msgstr "MDN దస్త్ర జోడింపుల ఇటీవలి మ�
 msgid "Files of this type are not permitted."
 msgstr "ఈ రకం దస్త్రాలు అనుమతింపబడవు."
 
-#: kuma/attachments/models.py:113
+#: kuma/attachments/models.py:112
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "MIME రకమును , జోడింపును ఇస్తున్నప్పుడు ఉపయోగిస్తారు. దస్త్రాన్ని ఎగుమతి చేస్తున్నప్పుడు , దాన్ని పరిశీలించడం ద్వారా స్వయంగా ఆరోపించబడుతుంది. అవసరమయినప్పుడు మాత్రమే మీరు మార్చి రాయండి."
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:141
 msgid "attachment revision"
 msgstr "జోడింపు పరిష్కృతి"
 
-#: kuma/attachments/models.py:143
+#: kuma/attachments/models.py:142
 msgid "attachment revisions"
 msgstr "జోడింపు యొక్క పరిష్కృతులు"
 
-#: kuma/attachments/models.py:216
+#: kuma/attachments/models.py:215
 msgid "The attachment file that was trashed"
 msgstr "చెత్తబుట్టలోకి పంపబడ్డ జోడింపు దస్త్రం"
 
-#: kuma/attachments/models.py:221
+#: kuma/attachments/models.py:220
 msgid "The date and time the attachment was trashed"
 msgstr "జోడింపు చెత్తబుట్టలోకి తరలించిన తేదీ సమయం"
 
-#: kuma/attachments/models.py:226
+#: kuma/attachments/models.py:225
 msgid "The username of the user who trashed the attachment"
 msgstr "జోడింపుని చెత్తబుట్టలోకి తరలించిన వినియోగదారుని ఖాతాపేరు"
 
-#: kuma/attachments/models.py:231
+#: kuma/attachments/models.py:230
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "ఈ జోడింపుని చెత్తబుట్టలోకి తరలించేటప్పుడు ప్రస్తుత పరిష్కరణలోనే ఉందా , లేదా."
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:235
 msgid "Trashed attachment"
 msgstr "చెత్తబుట్టలోకి పంపబడ్డ జోడింపు"
 
-#: kuma/attachments/models.py:237
+#: kuma/attachments/models.py:236
 msgid "Trashed attachments"
 msgstr "చెత్తబుట్టలోకి పంపబడ్డ జోడింపులు"
 
@@ -942,7 +942,7 @@ msgstr "ఈ విలువ కనీసం %(limit_value)s అక్షరా�
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "ఈ విలువ గరిష్టం %(limit_value)s కన్నా తక్కువ అక్షరాలు ఉందని నిర్ధారించుకోండి ( ఇది %(show_value)s విలువలను కలిగి ఉంది)."
 
-#: kuma/core/utils.py:426
+#: kuma/core/utils.py:425
 #, python-format
 msgid "Today at %s"
 msgstr "ఈరోజు %s కి"
@@ -1601,11 +1601,11 @@ msgstr "శోధన తాత్కాలికంగా అందుబాట�
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "ఏదో శోధన అభ్యర్ధన తప్పు జరిగింది. దయచేసి కొద్ది నిమిషాల్లో మళ్ళీ ప్రయత్నించండి."
 
-#: kuma/search/views.py:93
+#: kuma/search/views.py:94
 msgid "name"
 msgstr "పేరు"
 
-#: kuma/search/views.py:94
+#: kuma/search/views.py:95
 msgid "groupname"
 msgstr "గ్రూప్ పేరు"
 
@@ -1727,23 +1727,23 @@ msgstr "సమర్పించిన డేటా లో చెల్లని
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "సమర్పించిన డేటా లో చెల్లని వివరం ఉంది. దయచేసి మళ్ళీ ప్రయత్నించండి."
 
-#: kuma/spam/models.py:11
+#: kuma/spam/models.py:10
 msgid "created"
 msgstr "రూపొందించడం"
 
-#: kuma/spam/models.py:28 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
+#: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
 msgstr "చెత్త"
 
-#: kuma/spam/models.py:29
+#: kuma/spam/models.py:28
 msgid "Ham"
 msgstr "హ్యామ్"
 
-#: kuma/spam/models.py:34
+#: kuma/spam/models.py:33
 msgid "sent at"
 msgstr "కి పంపించబడింది"
 
-#: kuma/spam/models.py:38
+#: kuma/spam/models.py:37
 msgid "type"
 msgstr "రకం"
 
@@ -1905,7 +1905,7 @@ msgstr "వెబ్ సైట్"
 msgid "Public GitHub URL"
 msgstr "బహిరంగ GitHub URL"
 
-#: kuma/users/signal_handlers.py:45
+#: kuma/users/signal_handlers.py:44
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 msgstr ""
@@ -2796,12 +2796,12 @@ msgstr ""
 msgid "Edit section"
 msgstr ""
 
-#: kuma/wiki/events.py:96
+#: kuma/wiki/events.py:97
 #, python-format
 msgid "[MDN][%(locale)s][New] Page \"%(document_title)s\" created by %(creator)s"
 msgstr ""
 
-#: kuma/wiki/events.py:100
+#: kuma/wiki/events.py:101
 #, python-format
 msgid "[MDN][%(locale)s] Page \"%(document_title)s\" changed by %(creator)s"
 msgstr ""
@@ -4068,6 +4068,16 @@ msgstr "ఎంచుకున్న పరిష్కృతులను పో�
 msgid "This document has no revisions."
 msgstr "ఈ పత్రము ఎటువంటి ఇత పరిష్కృతులను కలిగి లేదు."
 
+#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#, fuzzy
+msgid "Sign in to view all history"
+msgstr "చరిత్రనంతా చూడడానికి మీరు ప్రవేశించి ఉండాలి"
+
+#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#, fuzzy
+msgid "View All"
+msgstr "వ్యాసం వీక్షించు:"
+
 #: kuma/wiki/jinja2/wiki/list/tags.html:2
 msgid "All Tags"
 msgstr "అన్ని ట్యాగులు"
@@ -4149,27 +4159,27 @@ msgstr "విషయాన్ని సృష్టించడంలో ఏద�
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "పత్రం ముందే ఉనికిలో ఉంది. గమనిక: ఒక తరలింపబడిన పత్రం వైపు ఉన్న దారి మళ్లింపును తొలగించకుండా ఆ పత్రాన్ని పూర్వస్థితికి తీసుకురాలేరు."
 
-#: kuma/wiki/views/document.py:680
+#: kuma/wiki/views/document.py:682
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "%(url)s నుండి దారి మరల్చబడింది"
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:737
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "నేను MDN పై %(title)s గురించి తెలుసుకున్నాను."
 
-#: kuma/wiki/views/document.py:855
+#: kuma/wiki/views/document.py:857
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "మద్దతు లేని విషయ రీతి: %s"
 
-#: kuma/wiki/views/document.py:862
+#: kuma/wiki/views/document.py:864
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "అభ్యర్ధనను అన్వయించడంలో లోపం: %s"
 
-#: kuma/wiki/views/document.py:883
+#: kuma/wiki/views/document.py:885
 msgid "ETag precondition failed"
 msgstr "ETag ముందస్తు షరతు విఫలమయ్యింది"
 

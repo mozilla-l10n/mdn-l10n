@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-03-28 08:06-0700\n"
+"POT-Creation-Date: 2018-04-05 09:31-0700\n"
 "PO-Revision-Date: 2017-12-29 20:28+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -212,7 +212,7 @@ msgid "Search Firefox Help"
 msgstr "Αναζήτηση βοήθειας Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:6
-#: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:11 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
+#: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
 #: kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
 msgid "Search"
 msgstr "Αναζήτηση"
@@ -697,16 +697,16 @@ msgstr "Η εγγραφή καταργήθηκε"
 msgid "You have been unsubscribed."
 msgstr "Έχετε καταργήσει την εγγραφή σας."
 
-#: kuma/attachments/admin.py:60
+#: kuma/attachments/admin.py:58
 #, python-format
 msgid "The following attachment files were moved to the trash: %(filenames)s. You may want to review them before their automatic purge after %(days)s days from the file storage."
 msgstr ""
 
-#: kuma/attachments/admin.py:64
+#: kuma/attachments/admin.py:62
 msgid "and"
 msgstr "και"
 
-#: kuma/attachments/admin.py:127
+#: kuma/attachments/admin.py:125
 #, python-format
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr ""
@@ -727,39 +727,39 @@ msgstr ""
 msgid "Files of this type are not permitted."
 msgstr "Αρχεία αυτού του τύπου δεν επιτρέπονται."
 
-#: kuma/attachments/models.py:113
+#: kuma/attachments/models.py:112
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr ""
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:141
 msgid "attachment revision"
 msgstr "αναθεώρηση συνημμένου"
 
-#: kuma/attachments/models.py:143
+#: kuma/attachments/models.py:142
 msgid "attachment revisions"
 msgstr "αναθεωρήσεις συνημμένου"
 
-#: kuma/attachments/models.py:216
+#: kuma/attachments/models.py:215
 msgid "The attachment file that was trashed"
 msgstr "Το συνημμένο αρχείο που απορρίφθηκε"
 
-#: kuma/attachments/models.py:221
+#: kuma/attachments/models.py:220
 msgid "The date and time the attachment was trashed"
 msgstr "Η ημερομηνία και ώρα απόρριψης του συνημμένου"
 
-#: kuma/attachments/models.py:226
+#: kuma/attachments/models.py:225
 msgid "The username of the user who trashed the attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:231
+#: kuma/attachments/models.py:230
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr ""
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:235
 msgid "Trashed attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:237
+#: kuma/attachments/models.py:236
 msgid "Trashed attachments"
 msgstr ""
 
@@ -941,7 +941,7 @@ msgstr ""
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr ""
 
-#: kuma/core/utils.py:426
+#: kuma/core/utils.py:425
 #, python-format
 msgid "Today at %s"
 msgstr "Σήμερα στις %s"
@@ -1603,11 +1603,11 @@ msgstr ""
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr ""
 
-#: kuma/search/views.py:93
+#: kuma/search/views.py:94
 msgid "name"
 msgstr "όνομα"
 
-#: kuma/search/views.py:94
+#: kuma/search/views.py:95
 msgid "groupname"
 msgstr "όνομα ομάδας"
 
@@ -1730,23 +1730,23 @@ msgstr ""
 msgid "The submitted data contains invalid content. Please try again."
 msgstr ""
 
-#: kuma/spam/models.py:11
+#: kuma/spam/models.py:10
 msgid "created"
 msgstr ""
 
-#: kuma/spam/models.py:28 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
+#: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
 msgstr "Ανεπιθύμητο"
 
-#: kuma/spam/models.py:29
+#: kuma/spam/models.py:28
 msgid "Ham"
 msgstr ""
 
-#: kuma/spam/models.py:34
+#: kuma/spam/models.py:33
 msgid "sent at"
 msgstr "εστάλη στις"
 
-#: kuma/spam/models.py:38
+#: kuma/spam/models.py:37
 msgid "type"
 msgstr "τύπος"
 
@@ -1908,7 +1908,7 @@ msgstr "Ιστοσελίδα"
 msgid "Public GitHub URL"
 msgstr "Δημόσιο GitHub URL"
 
-#: kuma/users/signal_handlers.py:45
+#: kuma/users/signal_handlers.py:44
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 msgstr ""
@@ -2800,12 +2800,12 @@ msgstr "Μετάφραση σε εξέλιξη - δεν έχει μεταφρα�
 msgid "Edit section"
 msgstr "Επεξεργασία ενότητας"
 
-#: kuma/wiki/events.py:96
+#: kuma/wiki/events.py:97
 #, python-format
 msgid "[MDN][%(locale)s][New] Page \"%(document_title)s\" created by %(creator)s"
 msgstr "[MDN][%(locale)s][Νέο] Η σελίδα \"%(document_title)s\" δημιουργήθηκε από το χρήστη %(creator)s"
 
-#: kuma/wiki/events.py:100
+#: kuma/wiki/events.py:101
 #, python-format
 msgid "[MDN][%(locale)s] Page \"%(document_title)s\" changed by %(creator)s"
 msgstr "[MDN][%(locale)s] Η σελίδα \"%(document_title)s\" άλλαξε από το χρήστη %(creator)s"
@@ -4072,6 +4072,16 @@ msgstr "Σύγκριση επιλεγμένων αναθεωρήσεων"
 msgid "This document has no revisions."
 msgstr "Αυτό το έγγραφο δεν έχει αναθεωρήσεις."
 
+#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#, fuzzy
+msgid "Sign in to view all history"
+msgstr "Πρέπει να συνδεθείτε για την προβολή όλου του ιστορικού"
+
+#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#, fuzzy
+msgid "View All"
+msgstr "Προβολή άρθρου:"
+
 #: kuma/wiki/jinja2/wiki/list/tags.html:2
 msgid "All Tags"
 msgstr "Όλες οι ετικέτες"
@@ -4153,27 +4163,27 @@ msgstr "Προέκυψε σφάλμα με την δημιουργία του π
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:680
+#: kuma/wiki/views/document.py:682
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Ανακατευθύνθηκε από %(url)s"
 
-#: kuma/wiki/views/document.py:735
+#: kuma/wiki/views/document.py:737
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Έμαθα σχετικά με το %(title)s στο MDN."
 
-#: kuma/wiki/views/document.py:855
+#: kuma/wiki/views/document.py:857
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Μη υποστηριζόμενος τύπος περιεχομένου: %s"
 
-#: kuma/wiki/views/document.py:862
+#: kuma/wiki/views/document.py:864
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Σφάλμα ανάλυσης αιτήματος: %s"
 
-#: kuma/wiki/views/document.py:883
+#: kuma/wiki/views/document.py:885
 msgid "ETag precondition failed"
 msgstr "Αποτυχία προϋπόθεσης ETag"
 
