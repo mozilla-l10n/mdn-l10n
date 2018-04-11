@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-04-05 09:31-0700\n"
-"PO-Revision-Date: 2018-04-11 02:10+0000\n"
+"PO-Revision-Date: 2018-04-11 02:20+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: Azerbaijani https://pontoon.mozilla.org/az/\n"
 "Language: az\n"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: jinja2/429.html:28
 msgid "You can try again in about one minute."
-msgstr ""
+msgstr "Bir dəqiqə sonra təkrar yoxlaya bilərsiz."
 
 #: jinja2/429.html:36
 #, python-format
@@ -152,17 +152,16 @@ msgid "Mozilla"
 msgstr ""
 
 #: jinja2/base.html:151
-#, fuzzy
 msgid "About"
-msgstr "Mənim Haqqımda"
+msgstr "Haqqında"
 
 #: jinja2/base.html:152
 msgid "Contact Us"
-msgstr ""
+msgstr "Bizimlə Əlaqə"
 
 #: jinja2/base.html:153
 msgid "Donate"
-msgstr ""
+msgstr "İanə"
 
 #: jinja2/base.html:156 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:100
 msgid "Facebook"
@@ -185,9 +184,9 @@ msgid "Cookies"
 msgstr "Çərəzlər"
 
 #: jinja2/base.html:173
-#, fuzzy, python-format
+#, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
-msgstr "<p>&copy; 2005-%(thisyear)s Mozilla Tərtibatçı Şəbəkəsi və fərdi könüllülər.</p> <p>Məzmun <a href=\"%(copyright_url)s\">bu lisenziyalar</a> ilə mövcuddur.</p>"
+msgstr "<p>&copy; 2005-%(thisyear)s Mozilla və fərdi könüllülər.</p> <p>Məzmun <a href=\"%(copyright_url)s\">bu lisenziyalar</a> ilə mövcuddur.</p>"
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -1208,11 +1207,11 @@ msgstr ""
 
 #: kuma/landing/jinja2/landing/homepage.html:66
 msgid "Donate before Dec 31."
-msgstr ""
+msgstr "31 Dekabra qədər ianə et."
 
 #: kuma/landing/jinja2/landing/homepage.html:66
 msgid "Donate Now"
-msgstr ""
+msgstr "İndi İanə et"
 
 #: kuma/landing/jinja2/landing/homepage.html:73
 msgid "Test in Firefox and over 800 browser/OS combos with Mozilla and Sauce Labs"
@@ -1240,6 +1239,8 @@ msgid ""
 "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 "locales</span> <span class=\"row3\">around the world.</span> </p>"
 msgstr ""
+"<p class=\"numbers\"> <span class=\"row1\">Dünyanın hər yerindən</span> <span class=\"row2\"><span class=\"number\">%(locales)s</span> dil və regionlardan</span> <span class=\"row3\"><span "
+"class=\"number\">%(contributors)s</span> dəstəkçiyə qoşul.</span> </p>"
 
 #: kuma/landing/jinja2/landing/homepage.html:111 kuma/landing/jinja2/landing/homepage.html:118
 msgid "Help improve MDN"
@@ -1267,11 +1268,11 @@ msgstr "Tərcümə et"
 
 #: kuma/landing/jinja2/landing/homepage.html:136
 msgid "Promoting MDN"
-msgstr "MTŞ-ni tanıtma"
+msgstr "MDN-i tanıt"
 
 #: kuma/landing/jinja2/landing/homepage.html:137
 msgid "Contributing to the MDN codebase"
-msgstr ""
+msgstr "MDN Koduna Dəstək ol"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
 msgid "Maintenance Mode"
@@ -1434,7 +1435,7 @@ msgstr ""
 #: kuma/landing/jinja2/landing/includes/newsfeed.html:11
 #, python-format
 msgid "Posted %(entrydate)s by %(authorlink)s"
-msgstr ""
+msgstr "%(entrydate)s tarixində %(authorlink)s tərəfindən yazılıb"
 
 #: kuma/search/admin.py:11
 msgid "Can't promote more than one index at once."
@@ -1537,11 +1538,11 @@ msgstr "Firefox OS"
 
 #: kuma/search/names.py:28
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Android üçün Firefox"
 
 #: kuma/search/names.py:29
 msgid "Firefox for Desktop"
-msgstr ""
+msgstr "Masaüstü üçün Firefox"
 
 #: kuma/search/names.py:30
 msgid "Games"
@@ -1625,7 +1626,7 @@ msgstr ""
 
 #: kuma/search/jinja2/search/results.html:46
 msgid "MDN Site Search"
-msgstr "MTŞ Sayt Axtarışı"
+msgstr "MDN Sayt Axtarışı"
 
 #: kuma/search/jinja2/search/results.html:64
 msgid "Results"
@@ -2582,9 +2583,8 @@ msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr ""
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
-#, fuzzy
 msgid "Hello from MDN!"
-msgstr "MTŞ-ni yaxşılaşdırmaya kömək et"
+msgstr "MDN-dən Salamlar!"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:4
 #, python-format
@@ -3879,8 +3879,8 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:12
 msgid "More information about this error"
 msgid_plural "More information about these errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Bu xəta haqqında ətraflı məlumat"
+msgstr[1] "Bu xətalar haqqında ətraflı məlumat"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:19
 #, python-format
@@ -4173,7 +4173,7 @@ msgstr ""
 #: kuma/wiki/views/document.py:737
 #, python-format
 msgid "I learned about %(title)s on MDN."
-msgstr ""
+msgstr "MDN-də %(title)s haqqında öyrəndim."
 
 #: kuma/wiki/views/document.py:857
 #, python-format
