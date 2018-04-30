@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-04-05 09:31-0700\n"
-"PO-Revision-Date: 2017-12-31 00:41+0000\n"
+"PO-Revision-Date: 2018-04-30 21:18+0000\n"
 "Last-Translator: Georgianizator <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
 "Language: ka\n"
@@ -1028,7 +1028,7 @@ msgstr "მოქმედი მაკრობრძანებები"
 #, python-format
 msgid "Found %(num)s active macro."
 msgid_plural "Found %(num)s active macros."
-msgstr[0] ""
+msgstr[0] "ნაპოვნია %(num)s მოქმედი მაკრობრძანება."
 msgstr[1] "ნაპოვნია %(num)s მოქმედი მაკრობრძანება."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:16
@@ -1644,56 +1644,56 @@ msgstr "შედეგები"
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] ""
+msgstr[0] "\"%(query)s\" ფრაზისთვის ნაპოვნია %(count)s დოკუმენტი, ყველა ენაზე."
 msgstr[1] "\"%(query)s\" ფრაზისთვის ნაპოვნია %(count)s დოკუმენტი, ყველა ენაზე."
 
 #: kuma/search/jinja2/search/results.html:74
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] ""
+msgstr[0] "მოიძებნა %(count)s დოკუმენტი, ყველა ენაზე."
 msgstr[1] "მოიძებნა %(count)s დოკუმენტი, ყველა ენაზე."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
-msgstr[0] ""
+msgstr[0] "\"%(query)s\" ფრაზისთვის მოიძებნა %(count)s დოკუმენტი (%(locale_native)s)."
 msgstr[1] "\"%(query)s\" ფრაზისთვის მოიძებნა %(count)s დოკუმენტი (%(locale_native)s)."
 
 #: kuma/search/jinja2/search/results.html:90
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] ""
+msgstr[0] "\"%(query)s\" ფრაზისთვის მოიძებნა %(count)s დოკუმენტი (%(locale_native)s და %(default_locale_native)s)."
 msgstr[1] "\"%(query)s\" ფრაზისთვის მოიძებნა %(count)s დოკუმენტი (%(locale_native)s და %(default_locale_native)s)."
 
 #: kuma/search/jinja2/search/results.html:98
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
-msgstr[0] ""
+msgstr[0] "მოიძებნა %(count)s დოკუმენტი (%(locale_native)s)."
 msgstr[1] "მოიძებნა %(count)s დოკუმენტი (%(locale_native)s)."
 
 #: kuma/search/jinja2/search/results.html:104
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] ""
+msgstr[0] "მოიძებნა %(count)s დოკუმენტი (%(locale_native)s და %(default_locale_native)s)."
 msgstr[1] "მოიძებნა %(count)s დოკუმენტი (%(locale_native)s და %(default_locale_native)s)."
 
 #: kuma/search/jinja2/search/results.html:114
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
-msgstr[0] ""
+msgstr[0] "მოიძებნა %(count)s დოკუმენტი \"%(query)s\" ფრაზისთვის."
 msgstr[1] "მოიძებნა %(count)s დოკუმენტი \"%(query)s\" ფრაზისთვის."
 
 #: kuma/search/jinja2/search/results.html:120
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
-msgstr[0] ""
+msgstr[0] "მოიძებნა %(count)s დოკუმენტი."
 msgstr[1] "მოიძებნა %(count)s დოკუმენტი."
 
 #: kuma/search/jinja2/search/results.html:130
@@ -3897,8 +3897,8 @@ msgstr "იერსახის შემუშავების სახე�
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:3
 msgid "There was a scripting error on this page. While it is being addressed by site editors, you can view partial content below."
 msgid_plural "There were scripting errors on this page. While those are being addressed by site editors, you can view partial content below."
-msgstr[0] ""
-msgstr[1] "გვერდის დამუშავებისას წარმოიქმნა შეცდომები. სანამ გადამისამართდება საიტის შემსწორებლებთან, შიგთავსის ნაწილი შეგიძლიათ იხილოთ ქვემოთ."
+msgstr[0] "გვერდის დამუშავებისას წარმოიქმნა შეცდომა. სანამ გადამისამართდება საიტის შემსწორებლებთან, შიგთავსის ნაწილი შეგიძლიათ იხილოთ ქვემოთ."
+msgstr[1] "გვერდის დამუშავებისას წარმოიქმნა შეცდომა. სანამ გადამისამართდება საიტის შემსწორებლებთან, შიგთავსის ნაწილი შეგიძლიათ იხილოთ ქვემოთ."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:11
 msgid "Hide error information"
@@ -3907,8 +3907,8 @@ msgstr "შეცდომის მონაცემების დამა�
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:12
 msgid "More information about this error"
 msgid_plural "More information about these errors"
-msgstr[0] ""
-msgstr[1] "ვრცლად, ამ შეცდომების შესახებ"
+msgstr[0] "ვრცლად, ამ შეცდომის შესახებ"
+msgstr[1] "ვრცლად, ამ შეცდომის შესახებ"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:19
 #, python-format
@@ -4015,8 +4015,8 @@ msgstr "მონახეთ აღწერილობის პირვე�
 #, python-format
 msgid "Found %(num)s document."
 msgid_plural "Found %(num)s documents"
-msgstr[0] ""
-msgstr[1] "ნაპოვნია %(num)s დოკუმენტები"
+msgstr[0] "ნაპოვნია %(num)s დოკუმენტი."
+msgstr[1] "ნაპოვნია %(num)s დოკუმენტი"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:4
 #, python-format
@@ -4138,7 +4138,7 @@ msgstr "სტატიები, რომელიმე თარგმან
 #, python-format
 msgid "Found %(count)s document."
 msgid_plural "Found %(count)s documents."
-msgstr[0] ""
+msgstr[0] "ნაპოვნია %(count)s დოკუმენტი."
 msgstr[1] "ნაპოვნია %(count)s დოკუმენტი."
 
 #: kuma/wiki/templates/admin/wiki/purge_documents.html:4 kuma/wiki/templates/admin/wiki/purge_documents.html:25 kuma/wiki/templates/admin/wiki/purge_documents.html:30
