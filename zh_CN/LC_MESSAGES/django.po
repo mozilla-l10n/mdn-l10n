@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-04-05 09:31-0700\n"
-"PO-Revision-Date: 2018-04-07 01:23+0000\n"
-"Last-Translator: 新垣结衣 <eloli@foxmail.com>\n"
+"PO-Revision-Date: 2018-05-06 15:46+0000\n"
+"Last-Translator: xcffl <xcffl@outlook.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -87,7 +87,7 @@ msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> 的作者�
 
 #: jinja2/429.html:5 jinja2/429.html:19
 msgid "Too Many Requests"
-msgstr "过多请求"
+msgstr "请求过多"
 
 #: jinja2/429.html:23
 #, python-format
@@ -871,11 +871,11 @@ msgstr "此密钥还未使用。"
 msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
-msgstr "这些是您的 API 密钥，在制作以您的名义在 MDN 平台上执行任务的应用程序时很有用。如果您已经停止使用其中某个，或者怀疑其中某个已被暴露在您不信任的地方，删除那个密钥。可以随时创建一个替换用的新密钥，这很简单。"
+msgstr "这些是您的 API 密钥，在制作在 MDN 平台上以您的名义执行任务的应用程序时会用到。若您已经不再使用其中某个密钥，或怀疑某个密钥泄露到不可信的地方，请删除那个密钥。您随时可再创建一个新的密钥作为替代。"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
-msgstr "创建新的密钥"
+msgstr "创建新密钥"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:16
 msgid "You have no API keys, yet."
@@ -927,12 +927,12 @@ msgstr "核心"
 #: kuma/core/form_fields.py:57
 #, python-format
 msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr "确保此值不少于 %(limit_value)s 个字符（它目前是 %(show_value)s 个）。"
+msgstr "确保此值不少于 %(limit_value)s 个字符（目前为 %(show_value)s 个）。"
 
 #: kuma/core/form_fields.py:62
 #, python-format
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr "确保此值不超过最多 %(limit_value)s 个字符（它目前是 %(show_value)s 个）。"
+msgstr "确保此值不超过最多 %(limit_value)s 个字符（目前为 %(show_value)s 个）。"
 
 #: kuma/core/utils.py:425
 #, python-format
@@ -1107,7 +1107,7 @@ msgstr "IP:"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:57
 msgid "Ban IP from Editing"
-msgstr "封禁IP禁止编辑"
+msgstr "封禁 IP 以禁止编辑"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:59
 msgid "User agent:"
@@ -1142,7 +1142,7 @@ msgstr "spam"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:106
 msgid "There are no revisions matching this filter set."
-msgstr "没有修订匹配此过滤器集。"
+msgstr "无匹配此过滤器集的修订。"
 
 #. Please localize 'English' here.
 #. Please replace 'English' with your language.
@@ -1820,7 +1820,7 @@ msgstr "首页"
 
 #: kuma/users/models.py:67
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr "该网址格式无效。有效的网址看起来像 http://example.com/my_page。"
+msgstr "此网址格式无效。有效网址如 http://example.com/my_page。"
 
 #: kuma/users/models.py:77
 msgid "Name"
@@ -2068,7 +2068,7 @@ msgstr "错误的令牌"
 #: kuma/users/jinja2/account/password_reset_from_key.html:17
 #, python-format
 msgid "The password reset link was invalid, possibly because it has already been used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</a>."
-msgstr "密码重置链接已无效，可能是该链接已经被使用过。请另外<a href=\"%(passwd_reset_url)s\">请求一次密码重置</a>。"
+msgstr "密码重置链接已失效，可能是该链接已经被使用过。请另外<a href=\"%(passwd_reset_url)s\">请求一次密码重置</a>。"
 
 #: kuma/users/jinja2/account/password_reset_from_key.html:23
 msgid "Change password"
@@ -2110,7 +2110,7 @@ msgstr "我们已经向您发送了一封确认邮件。请根据提供的链接
 
 #: kuma/users/jinja2/account/verified_email_required.html:9
 msgid "This part of the site requires us to confirm that you are who you claim to be. For this purpose, we require that you confirm ownership of your email address."
-msgstr "网站的某些部分需要确认您声称是谁。为此，我们需要您确认您的电子邮件地址的所有权。"
+msgstr "网站的某些部分需要确认您的身份。为此，我们需要您确认您电子邮件地址的所有权。"
 
 #: kuma/users/jinja2/account/verified_email_required.html:13
 msgid "We have sent an email to you for confirmation. Please click on the link inside this email. Please contact us if you do not receive it within a few minutes."
@@ -2451,11 +2451,11 @@ msgstr "请填报一个 Bug 来请求关闭您的账户，并请在描述栏中�
 
 #: kuma/users/jinja2/users/user_delete.html:57
 msgid "I haven't changed any pages; just delete my account."
-msgstr "我还没更改过任何页面。只需删除我的账户。"
+msgstr "我没有改过任何页面，请直接注销我的账户。"
 
 #: kuma/users/jinja2/users/user_delete.html:62
 msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "保留我对页面更改的贡献记录；删除我的电子邮件地址并冻结我的账户，使其不能再被登录。"
+msgstr "保留我修改页面的贡献记录，删除我的电子邮件地址并冻结账户，确保不能再登录。"
 
 #: kuma/users/jinja2/users/user_delete.html:67
 msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
