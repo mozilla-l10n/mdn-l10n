@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-04-05 09:31-0700\n"
+"POT-Creation-Date: 2018-05-25 13:40-0700\n"
 "PO-Revision-Date: 2018-05-10 10:48+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -112,7 +112,7 @@ msgstr "Mund t’ju interesonin mënyra të tjera <a href=\"%(content_url)s\">sh
 msgid "Internal Server Error"
 msgstr "Gabim i Brendshëm Shërbyesi"
 
-#: jinja2/base.html:10 jinja2/base.html:54 jinja2/base.html:59 jinja2/base.html:113 jinja2/base.html:134 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:10 jinja2/base.html:54 jinja2/base.html:59 jinja2/base.html:113 jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Dokumentim Web i MDN-së"
 
@@ -124,67 +124,19 @@ msgstr "MDN-ja gjendet nën mënyrën mirëmbajtje, vetëm-lexim."
 msgid "Learn more"
 msgstr "Mësoni më tepër"
 
-#: jinja2/base.html:138 kuma/landing/jinja2/landing/homepage.html:48
-msgid "Web Technologies"
-msgstr "Teknologji Web"
-
-#: jinja2/base.html:139 kuma/landing/jinja2/landing/homepage.html:85
-msgid "Learn Web Development"
-msgstr "Mësoni Programim Web"
-
-#: jinja2/base.html:140
-msgid "About MDN"
-msgstr "Mbi MDN-në"
-
-#: jinja2/base.html:141 jinja2/includes/header-main-nav.html:41
-msgid "Feedback"
-msgstr "Përshtypje"
-
-#: jinja2/base.html:142 jinja2/base.html:155 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:74
-msgid "Twitter"
-msgstr "Twitter"
-
-#: jinja2/base.html:143 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/jinja2/users/includes/user_title_info.html:83
-msgid "GitHub"
-msgstr "Github"
-
-#: jinja2/base.html:147
-msgid "Mozilla"
-msgstr "Mozilla"
-
-#: jinja2/base.html:151
-msgid "About"
-msgstr "Mbi"
-
-#: jinja2/base.html:152
-msgid "Contact Us"
-msgstr "Lidhuni Me Ne"
-
-#: jinja2/base.html:153
-msgid "Donate"
-msgstr "Dhuroni"
-
-#: jinja2/base.html:156 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:100
-msgid "Facebook"
-msgstr "Facebook"
-
-#: jinja2/base.html:157
-msgid "Instagram"
-msgstr "Instagram"
-
-#: jinja2/base.html:167
+#: jinja2/base.html:144
 msgid "Terms"
 msgstr "Kushte"
 
-#: jinja2/base.html:168
+#: jinja2/base.html:145
 msgid "Privacy"
 msgstr "Privatësi"
 
-#: jinja2/base.html:169
+#: jinja2/base.html:146
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:173
+#: jinja2/base.html:150
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla dhe kontribues individualë.</p> <p>Lënda mund të përdoret sipas <a href=\"%(copyright_url)s\">këtyre licencave</a>.</p>"
@@ -209,9 +161,9 @@ msgstr "Kalo te kërkimi"
 msgid "Search Firefox Help"
 msgstr "Kërkoni te Ndihma e Firefox-it"
 
-#: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:6
+#: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:35 kuma/landing/jinja2/landing/homepage.html:40 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
-#: kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:55
+#: kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52 kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Kërkoni"
 
@@ -255,7 +207,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "Referenca & Udhërrëfyes"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:49
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:55
 msgid "Learn web development"
 msgstr "Mësoni programim Web"
 
@@ -283,6 +235,10 @@ msgstr "Programim lojërash"
 msgid "...more docs"
 msgstr "...më tepër dokumentim"
 
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8
+msgid "Feedback"
+msgstr "Përshtypje"
+
 #: jinja2/includes/header-main-nav.html:48
 msgid "Get Firefox help"
 msgstr "Merrni ndihmë për Firefox-in"
@@ -303,59 +259,59 @@ msgstr "Njoftoni një problem lënde"
 msgid "Report a bug"
 msgstr "Njoftoni një të metë"
 
-#: jinja2/includes/header-toolbox.html:4 kuma/search/names.py:14
+#: jinja2/includes/header-toolbox.html:6 kuma/search/names.py:14
 msgid "Tools"
 msgstr "Mjete"
 
-#: jinja2/includes/header-toolbox.html:7
+#: jinja2/includes/header-toolbox.html:10
 msgid "Contribute to MDN"
 msgstr "Kontribuoni te MDN-ja"
 
-#: jinja2/includes/header-toolbox.html:9
+#: jinja2/includes/header-toolbox.html:12
 msgid "Get started"
 msgstr "Fillojani"
 
-#: jinja2/includes/header-toolbox.html:10
+#: jinja2/includes/header-toolbox.html:13
 msgid "Review or localize docs"
 msgstr "Shqyrtoni ose përktheni dokumente"
 
-#: jinja2/includes/header-toolbox.html:13
+#: jinja2/includes/header-toolbox.html:17
 msgid "Site Tools"
 msgstr "Mjete Sajti"
 
-#: jinja2/includes/header-toolbox.html:15
+#: jinja2/includes/header-toolbox.html:19
 msgid "Revision dashboard"
 msgstr "Pult rishikimesh"
 
-#: jinja2/includes/header-toolbox.html:16
+#: jinja2/includes/header-toolbox.html:20
 msgid "Documentation status"
 msgstr "Gjendje dokumentimi"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:93
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:95
 msgid "Other languages:"
 msgstr "Gjuhë të tjera:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:104
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:106
 msgid "Go"
 msgstr "Shko tek"
 
-#: jinja2/includes/login.html:7 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:40
 msgid "View profile"
 msgstr "Shihni profilin"
 
-#: jinja2/includes/login.html:8 kuma/users/jinja2/account/email.html:60
+#: jinja2/includes/login.html:12 kuma/users/jinja2/account/email.html:63
 msgid "Edit profile"
 msgstr "Përpunoni profil"
 
-#: jinja2/includes/login.html:12
+#: jinja2/includes/login.html:15
 msgid "Sign out"
 msgstr "Dilni"
 
-#: jinja2/includes/login.html:20
+#: jinja2/includes/login.html:23
 msgid "Sign in"
 msgstr "Hyni"
 
-#: jinja2/includes/nav-main-search.html:8
+#: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
 msgstr "Mbylle kërkimin"
 
@@ -384,29 +340,29 @@ msgstr "you@example.com"
 msgid "I'm okay with Mozilla handling my info as explained in this <a href=\"%(policy_url)s\">Privacy Policy</a>."
 msgstr "Nuk kam problem që Mozilla t’i trajtojë të dhënat e mia ashtu siç shpjegohet në këto <a href=\"%(policy_url)s\">Rregulla Privatësie</a>."
 
-#: jinja2/includes/newsletter.html:30
+#: jinja2/includes/newsletter.html:31
 msgid "Sign up now"
 msgstr "Regjistrohuni që tani"
 
-#: jinja2/includes/newsletter.html:35
+#: jinja2/includes/newsletter.html:37
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Faleminderit! Ju lutemi kontrolloni email-et tuaj që të ripohoni pajtimin tuaj."
 
-#: jinja2/includes/newsletter.html:36
+#: jinja2/includes/newsletter.html:38
 msgid "If you haven’t previously confirmed a subscription to a Mozilla-related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
 "Nëse s’e keni ripohuar më parë pajtimin te një buletin i Mozilla-s, mund t’ju duhet ta bëni. Ju lutemi, kontrolloni email-et e marrë ose filtrin tuaj për mesazhe të padëshiruar për një email prej "
 "nesh."
 
-#: jinja2/includes/newsletter.html:43
+#: jinja2/includes/newsletter.html:46
 msgid "Hide Newsletter Sign-up"
 msgstr "Fshihe Pajtimin te Buletini"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:165 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1497
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
 msgid "Previous"
 msgstr "E mëparshmja"
 
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:170
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
 msgid "Next"
 msgstr "Pasuesja"
 
@@ -470,7 +426,7 @@ msgstr "Çekisht"
 msgid "Dutch"
 msgstr "Holandisht"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1507
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1368
 msgid "English (US)"
 msgstr "Anglisht (US)"
 
@@ -662,6 +618,47 @@ msgstr "Zulu"
 msgid "Unsubscribe from these emails:"
 msgstr "Shpajtojini këta email-e:"
 
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:50
+msgid "Web Technologies"
+msgstr "Teknologji Web"
+
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:97
+msgid "Learn Web Development"
+msgstr "Mësoni Programim Web"
+
+#: jinja2/includes/footer/mdn-footer.html:7
+msgid "About MDN"
+msgstr "Mbi MDN-në"
+
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:82
+msgid "Twitter"
+msgstr "Twitter"
+
+#: jinja2/includes/footer/mdn-footer.html:17 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: kuma/users/jinja2/users/includes/user_title_info.html:97
+msgid "GitHub"
+msgstr "Github"
+
+#: jinja2/includes/footer/moz-footer.html:1
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: jinja2/includes/footer/moz-footer.html:5
+msgid "About"
+msgstr "Mbi"
+
+#: jinja2/includes/footer/moz-footer.html:6
+msgid "Contact Us"
+msgstr "Lidhuni Me Ne"
+
+#: jinja2/includes/footer/moz-footer.html:16 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:126
+msgid "Facebook"
+msgstr "Facebook"
+
+#: jinja2/includes/footer/moz-footer.html:22
+msgid "Instagram"
+msgstr "Instagram"
+
 #: jinja2/tidings/unsubscribe.html:2 jinja2/tidings/unsubscribe.html:12 jinja2/tidings/unsubscribe_error.html:2 jinja2/tidings/unsubscribe_success.html:2
 msgid "Unsubscribe"
 msgstr "Çregjistrohu"
@@ -709,7 +706,7 @@ msgstr "dhe"
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr "Kartela bashkëngjitje \"%(filename)s\" u shpu te hedhurinat. Mund të doni ta shqyrtoni kartelën përpara spastrimit të tyre vetvetiu pas %(days)s ditësh nga depoja."
 
-#: kuma/attachments/apps.py:11 kuma/attachments/jinja2/attachments/includes/attachment_list.html:7
+#: kuma/attachments/apps.py:11 kuma/attachments/jinja2/attachments/includes/attachment_list.html:8
 msgid "Attachments"
 msgstr "Bashkëngjitje"
 
@@ -772,78 +769,78 @@ msgstr "Bashkëngjitje | %(title)s"
 msgid "Upload file to article %(title)s"
 msgstr "Ngarkoni kartelë te artikulli %(title)s"
 
-#: kuma/attachments/jinja2/attachments/edit_attachment.html:30
+#: kuma/attachments/jinja2/attachments/edit_attachment.html:32
 msgid "Upload files"
 msgstr "Ngarkoni kartela"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:7
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:9
 msgid "Learn how to use Attachments"
 msgstr "Mësoni si të përdorni Bashkëngjitjet"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:11 kuma/attachments/jinja2/attachments/includes/attachment_list.html:20
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:18 kuma/attachments/jinja2/attachments/includes/attachment_list.html:30
 msgid "Upload Files"
 msgstr "Ngrakoni Kartela"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:16
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:24
 msgid "This document has no attachments."
 msgstr "Ky dokument s’ka bashkëngjitje."
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:18
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:26
 msgid "Images can be attached, and then linked in the article."
 msgstr "Figurat mund të bashkëngjiten, dhe mandej të lidhen te artikulli."
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:44 kuma/attachments/jinja2/attachments/includes/attachment_list.html:76
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/attachments/jinja2/attachments/includes/attachment_list.html:87
 msgid "File"
 msgstr "Kartelë"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:45 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1892
 msgid "Title"
 msgstr "Titull"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:46 kuma/authkeys/jinja2/authkeys/delete.html:9 kuma/authkeys/jinja2/authkeys/history.html:10
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:57 kuma/authkeys/jinja2/authkeys/delete.html:9 kuma/authkeys/jinja2/authkeys/history.html:10
 #: kuma/authkeys/jinja2/authkeys/new.html:36
 msgid "Description"
 msgstr "Përshkrim"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:47
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:58
 msgid "Comments"
 msgstr "Komente"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:70
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:81
 msgid "Attached to this article"
 msgstr "Bashkëngjitur te ky artikull"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:72
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:83
 msgid "Attached to another article"
 msgstr "Bashkëngjitur te tjetër artikull"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:77
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:88
 msgid "Size"
 msgstr "Madhësi"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:78
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:89
 msgid "Last modified"
 msgstr "Ndryshuar së fundi"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:79
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:90
 msgid "Uploaded by"
 msgstr "Ngarkuar nga"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:82
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:93
 msgid "Linked in article"
 msgstr "Lidhur te artikull"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:84
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:95
 msgid "Article attached to"
 msgstr "Artikull ku është lidhur"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:97
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:108
 #, python-format
 msgid "%(bytes)s bytes"
 msgstr "%(bytes)s bajte"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:99 kuma/attachments/jinja2/attachments/includes/attachment_list.html:118
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:110 kuma/attachments/jinja2/attachments/includes/attachment_list.html:129
 msgid "n/a"
 msgstr "n/a"
 
@@ -904,8 +901,8 @@ msgstr "Ju duhet një leje speciale për të përdorur kyçe API. Leje mund të 
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 "<p>Përshkruani më poshtë përdorimin që keni menduar për këtë kyçin. <p><strong>SHËNIM:</strong> Kjo do të jetë e vetmja mënyrë për identifikimin e këtij kyçi më vonë, përveç datës dhe kohës së "
 "krijimit të tij. Ndaj, jini sa më i qartë që të mundet.</p>"
@@ -946,16 +943,16 @@ msgstr "Sigurohuni që kjo vlerë të ketë të paktën %(limit_value)s shenja (
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Sigurohuni që kjo vlerë të ketë të shumtën %(limit_value)s shenja (ka %(show_value)s)."
 
-#: kuma/core/utils.py:425
+#: kuma/core/utils.py:438
 #, python-format
 msgid "Today at %s"
 msgstr "Sot më %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:88
+#: kuma/core/templatetags/jinja_helpers.py:93
 msgid "Yes"
 msgstr "Po"
 
-#: kuma/core/templatetags/jinja_helpers.py:88
+#: kuma/core/templatetags/jinja_helpers.py:93
 msgid "No"
 msgstr "Jo"
 
@@ -1080,7 +1077,7 @@ msgstr "Pult Rishikimesh"
 msgid "Authors:"
 msgstr "Autorë:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:233
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
 msgid "Filter"
 msgstr "Filtroji"
 
@@ -1130,7 +1127,7 @@ msgstr "Agjent përdoruesi:"
 msgid "Referrer:"
 msgstr "Refereus:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:108
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:135
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "përzënë më %(ban_date)s nga %(user)s"
@@ -1197,51 +1194,52 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "Burime për zhvilluesit, nga zhvilluesit."
 
-#: kuma/landing/jinja2/landing/homepage.html:39 kuma/search/jinja2/search/results.html:54
+#: kuma/landing/jinja2/landing/homepage.html:39 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Kërko në dokumente"
 
-#: kuma/landing/jinja2/landing/homepage.html:50
+#: kuma/landing/jinja2/landing/homepage.html:60
 msgid "Developer Tools"
 msgstr "Mjete Zhvilluesi"
 
-#: kuma/landing/jinja2/landing/homepage.html:61
+#: kuma/landing/jinja2/landing/homepage.html:73
 msgid "Featured"
 msgstr "E zgjedhur"
 
-#: kuma/landing/jinja2/landing/homepage.html:66
+#: kuma/landing/jinja2/landing/homepage.html:78
 msgid "Proudly non-profit."
 msgstr "Me krenari jofitimprurës."
 
-#: kuma/landing/jinja2/landing/homepage.html:66
+#: kuma/landing/jinja2/landing/homepage.html:78
 msgid "Donate before Dec 31."
 msgstr "Dhuroni përpara 31 Dhjetorit."
 
-#: kuma/landing/jinja2/landing/homepage.html:66
+#: kuma/landing/jinja2/landing/homepage.html:78
 msgid "Donate Now"
 msgstr "Dhuroni Tani"
 
-#: kuma/landing/jinja2/landing/homepage.html:73
-msgid "Test in Firefox and over 800 browser/OS combos with Mozilla and Sauce Labs"
-msgstr "Testojeni në Firefox dhe nën mbi 800 dyshe shfletues/OS, me Mozilla-n dhe Sauce Labs"
+#: kuma/landing/jinja2/landing/homepage.html:85
+msgid "Do you like creating things for the web? We’d love to hear from you."
+msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:74
-msgid "Test on Sauce Labs"
-msgstr "Testojeni në Sauce Labs"
+#: kuma/landing/jinja2/landing/homepage.html:86
+#, fuzzy
+msgid "Take our survey"
+msgstr "Jeni i sigurt?"
 
-#: kuma/landing/jinja2/landing/homepage.html:88
+#: kuma/landing/jinja2/landing/homepage.html:100
 msgid "Get The Browser For Developers Like You"
 msgstr "Merrni Shfletuesin Për Programues Si Ju"
 
-#: kuma/landing/jinja2/landing/homepage.html:97
+#: kuma/landing/jinja2/landing/homepage.html:113
 msgid "read more at hacks.mozilla.org"
 msgstr "lexoni më tepër te hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:102
+#: kuma/landing/jinja2/landing/homepage.html:122
 msgid "Get Involved"
 msgstr "Përfshihuni"
 
-#: kuma/landing/jinja2/landing/homepage.html:104
+#: kuma/landing/jinja2/landing/homepage.html:124
 #, python-format
 msgid ""
 "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
@@ -1250,35 +1248,35 @@ msgstr ""
 "<p class=\"numbers\"> <span class=\"row1\">Bashkojuni <span class=\"number\">%(contributors)s</span> kontribuesve</span> <span class=\"row2\">nga <span class=\"number\">%(locales)s</span> gjuhë dhe "
 "vendore</span> <span class=\"row3\">anembanë botës.</span> </p>"
 
-#: kuma/landing/jinja2/landing/homepage.html:111 kuma/landing/jinja2/landing/homepage.html:118
+#: kuma/landing/jinja2/landing/homepage.html:131 kuma/landing/jinja2/landing/homepage.html:139
 msgid "Help improve MDN"
 msgstr "Ndihmoni të përmirësohet MDN-ja"
 
-#: kuma/landing/jinja2/landing/homepage.html:122
+#: kuma/landing/jinja2/landing/homepage.html:144
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Krejt pjesët e MDN-së (dokumente dhe vetë sajti) janë krijuar nga një bashkësi e hapur programuesish. Ju lutemi, bëhuni pjesë e jona! Zgjidhni një nga këto rrugët për të na ndihmuar:"
 
-#: kuma/landing/jinja2/landing/homepage.html:128
+#: kuma/landing/jinja2/landing/homepage.html:150
 msgid "Getting started"
 msgstr "Si t’ia fillohet"
 
-#: kuma/landing/jinja2/landing/homepage.html:129
+#: kuma/landing/jinja2/landing/homepage.html:151
 msgid "Editorial review"
 msgstr "Shqyrtim redaktorial"
 
-#: kuma/landing/jinja2/landing/homepage.html:130
+#: kuma/landing/jinja2/landing/homepage.html:152
 msgid "Technical review"
 msgstr "Shqyrtim teknik"
 
-#: kuma/landing/jinja2/landing/homepage.html:135
+#: kuma/landing/jinja2/landing/homepage.html:157
 msgid "Translating"
 msgstr "Përkthim"
 
-#: kuma/landing/jinja2/landing/homepage.html:136
+#: kuma/landing/jinja2/landing/homepage.html:158
 msgid "Promoting MDN"
 msgstr "Promovim i MDN-së"
 
-#: kuma/landing/jinja2/landing/homepage.html:137
+#: kuma/landing/jinja2/landing/homepage.html:159
 msgid "Contributing to the MDN codebase"
 msgstr "Si të kontribuohet te kodi bazë i MDN-së"
 
@@ -1291,8 +1289,8 @@ msgid ""
 "MDN is currently in maintenance mode. Content is being served from a backup database, which means some articles may show out-of-date information. Have no fear! All will be restored when maintenance "
 "has concluded."
 msgstr ""
-"MDN-ja gjendet nën mënyrën mirëmbajtje. Lënda hëpërhë shërbehet nga një bazë të dhënash kopjeruajtje, që do të thotë se disa artikuj mund të shfaqin të dhëna të vjetruara. Mos u trembni! Gjithçka do"
-" të rikthehet kur të ketë mbaruar mirëmbajtja."
+"MDN-ja gjendet nën mënyrën mirëmbajtje. Lënda hëpërhë shërbehet nga një bazë të dhënash kopjeruajtje, që do të thotë se disa artikuj mund të shfaqin të dhëna të vjetruara. Mos u trembni! Gjithçka "
+"do të rikthehet kur të ketë mbaruar mirëmbajtja."
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:27
 msgid "While in maintenance mode, the following actions are unavailable:"
@@ -1325,14 +1323,14 @@ msgstr "Jepni ca përkujdesje zhvilluesi."
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
-"<ol> <li><strong>Merrni Butona:</strong> Përdorni formularin tonë të thjeshtë të mëposhtëm, për të krijuar butona të personalizuar dhe kod burim që të promovoni MDN-në në sajtin ose blogun "
-"tuaj.</li> <li><strong>Butona Dërgimi:</strong> Kopjojeni kodin burim dhe hidheni në çfarëdo pjese të sajtit ose blogut tuaj që të ndihmoni njerëzit të shkojnë tek sajti MDN.</li> "
-"<li><strong>Kënaquni:</strong> Ndihuni krenar që po ndihmoni sadopak programuesit përmes promuovimit të MDN-së gjithandej.</li> </ol>"
+"<ol> <li><strong>Merrni Butona:</strong> Përdorni formularin tonë të thjeshtë të mëposhtëm, për të krijuar butona të personalizuar dhe kod burim që të promovoni MDN-në në sajtin ose blogun tuaj.</"
+"li> <li><strong>Butona Dërgimi:</strong> Kopjojeni kodin burim dhe hidheni në çfarëdo pjese të sajtit ose blogut tuaj që të ndihmoni njerëzit të shkojnë tek sajti MDN.</li> <li><strong>Kënaquni:</"
+"strong> Ndihuni krenar që po ndihmoni sadopak programuesit përmes promuovimit të MDN-së gjithandej.</li> </ol>"
 
-#: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:31
+#: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:39
 msgid "Preview"
 msgstr "Paraparje"
 
@@ -1630,98 +1628,98 @@ msgstr "Kërkoni te Dokumentim Web i MDN-së"
 msgid "Search Results for \"%(query)s\""
 msgstr "Përfundime Kërkimi për \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:34
+#: kuma/search/jinja2/search/results.html:36
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "përkthyer nga <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
-#: kuma/search/jinja2/search/results.html:46
+#: kuma/search/jinja2/search/results.html:48
 msgid "MDN Site Search"
 msgstr "Kërkim te Sajti MDN"
 
-#: kuma/search/jinja2/search/results.html:64
+#: kuma/search/jinja2/search/results.html:66
 msgid "Results"
 msgstr "Përfundime"
 
-#: kuma/search/jinja2/search/results.html:68
+#: kuma/search/jinja2/search/results.html:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "U gjet %(count)s dokument për \"%(query)s\" në krejt gjuhët."
 msgstr[1] "U gjetën %(count)s dokumente për \"%(query)s\" në krejt gjuhët."
 
-#: kuma/search/jinja2/search/results.html:74
+#: kuma/search/jinja2/search/results.html:76
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "U gjet %(count)s dokument në krejt gjuhët."
 msgstr[1] "U gjetën %(count)s dokumente në krejt gjuhët."
 
-#: kuma/search/jinja2/search/results.html:84
+#: kuma/search/jinja2/search/results.html:86
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "U gjet %(count)s dokument për \"%(query)s\" në %(locale_native)s."
 msgstr[1] "U gjetën %(count)s dokumente për \"%(query)s\" në %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:90
+#: kuma/search/jinja2/search/results.html:92
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "U gjet %(count)s dokument për \"%(query)s\" në %(locale_native)s dhe %(default_locale_native)s."
 msgstr[1] "U gjet %(count)s dokumente për \"%(query)s\" në %(locale_native)s dhe %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:98
+#: kuma/search/jinja2/search/results.html:100
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "U gjet %(count)s dokument në %(locale_native)s."
 msgstr[1] "U gjetën %(count)s dokumente në %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:104
+#: kuma/search/jinja2/search/results.html:106
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "U gjet %(count)s dokument në %(locale_native)s dhe %(default_locale_native)s."
 msgstr[1] "U gjetën %(count)s dokumente në %(locale_native)s dhe %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:114
+#: kuma/search/jinja2/search/results.html:116
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "U gjet %(count)s dokument për \"%(query)s\"."
 msgstr[1] "U gjetën %(count)s dokumente për \"%(query)s\"."
 
-#: kuma/search/jinja2/search/results.html:120
+#: kuma/search/jinja2/search/results.html:122
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "U gjet %(count)s dokument."
 msgstr[1] "U gjetën %(count)s dokumente."
 
-#: kuma/search/jinja2/search/results.html:130
+#: kuma/search/jinja2/search/results.html:132
 msgid "Showing all results."
 msgstr "Po shfaqen krejt përfundimet."
 
-#: kuma/search/jinja2/search/results.html:132
+#: kuma/search/jinja2/search/results.html:134
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "Po shfaqen përfundimet nga %(start)s deri në %(end)s."
 
-#: kuma/search/jinja2/search/results.html:138
+#: kuma/search/jinja2/search/results.html:140
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "Kërkoni sërish vetëm te %(default_locale_native)s"
 
-#: kuma/search/jinja2/search/results.html:152
+#: kuma/search/jinja2/search/results.html:155
 msgid "Docs"
 msgstr "Dokumentim"
 
-#: kuma/search/jinja2/search/results.html:194
+#: kuma/search/jinja2/search/results.html:198
 msgid "All Topics"
 msgstr "Krejt Temat"
 
-#: kuma/search/jinja2/search/results.html:199
+#: kuma/search/jinja2/search/results.html:205
 msgid "Filter by"
 msgstr "Filtroji sipas"
 
@@ -1756,11 +1754,11 @@ msgstr "lloj"
 #: kuma/users/adapters.py:28
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
-"Na ndjeni, duhet të keni të paktën një llogari të lidhur që të mund të bëni hyrjen. Për të shkëputur këtë llogari, lidhuni së pari me një tjetër. Që të fshini profilin tuaj MDN, ju lutemi, <a "
-"href=\"%(bug_form_url)s\" rel=\"nofollow\">depozitoni një kërkesë</a>."
+"Na ndjeni, duhet të keni të paktën një llogari të lidhur që të mund të bëni hyrjen. Për të shkëputur këtë llogari, lidhuni së pari me një tjetër. Që të fshini profilin tuaj MDN, ju lutemi, <a href="
+"\"%(bug_form_url)s\" rel=\"nofollow\">depozitoni një kërkesë</a>."
 
 #: kuma/users/adapters.py:32
 msgid "An email address cannot be used as a username."
@@ -1786,7 +1784,7 @@ msgstr "Zonë kohore"
 msgid "Beta tester"
 msgstr "Testues Beta"
 
-#: kuma/users/forms.py:41 kuma/users/jinja2/users/includes/user_title_info.html:50
+#: kuma/users/forms.py:41 kuma/users/jinja2/users/includes/user_title_info.html:56
 msgid "Interests"
 msgstr "Interesa"
 
@@ -1802,15 +1800,15 @@ msgstr "Emër përdoruesi"
 msgid "Display a link to GitHub on my profile"
 msgstr "Shfaq një lidhje te faqja ime profil në GitHub"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:88
+#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:105
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:92
+#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:96
+#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr "Moxillianë"
 
@@ -1874,8 +1872,8 @@ msgstr "Rreth Meje"
 msgid "IRC nickname"
 msgstr "Nofkë IRC"
 
-#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:73
-#: kuma/wiki/jinja2/wiki/edit.html:191
+#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:75
+#: kuma/wiki/jinja2/wiki/edit.html:193
 msgid "Tags"
 msgstr "Etiketa"
 
@@ -1970,7 +1968,7 @@ msgstr "Profil Joaktiv"
 msgid "This profile is inactive."
 msgstr "Ky profil joaktiv."
 
-#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:30
+#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:36
 msgid "Email addresses"
 msgstr "Adresa email"
 
@@ -1991,23 +1989,23 @@ msgstr "Bëje Parësor"
 msgid "Re-send Confirmation"
 msgstr "Ridërgoni Ripohimin"
 
-#: kuma/users/jinja2/account/email.html:32
+#: kuma/users/jinja2/account/email.html:33
 msgid "Remove"
 msgstr "Hiqe"
 
-#: kuma/users/jinja2/account/email.html:45
+#: kuma/users/jinja2/account/email.html:48
 msgid "<strong>Warning:</strong> You have not added any email addresses to this profile. Without one you cannot receive notifications."
 msgstr "<strong>Kujdes:</strong> S’keni shtuar ndonjë adresë email te ky profil. Pa një të tillë, s’mund të merrni njoftime."
 
-#: kuma/users/jinja2/account/email.html:49
+#: kuma/users/jinja2/account/email.html:52
 msgid "Add email address"
 msgstr "Shtoni adresë email"
 
-#: kuma/users/jinja2/account/email.html:55
+#: kuma/users/jinja2/account/email.html:58
 msgid "Add Email"
 msgstr "Shtoni Email"
 
-#: kuma/users/jinja2/account/email.html:71
+#: kuma/users/jinja2/account/email.html:74
 msgid "Do you really want to remove the selected email address?"
 msgstr "Doni vërtet ta hiqni adresën email të përzgjedhur?"
 
@@ -2246,11 +2244,11 @@ msgstr "I paverifikuar"
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
-"Cilën adresë email do të duhej të përdornim për t’ju dërguar mesazhe dhe njoftime MDN? Kjo adresë <strong>nuk</strong> do të shfaqet te MDN-ja dhe do të përdoret në pajtim me <a "
-"href=\"\"%(privacy_url)s\">rregullat tona mbi privatësinë</a>."
+"Cilën adresë email do të duhej të përdornim për t’ju dërguar mesazhe dhe njoftime MDN? Kjo adresë <strong>nuk</strong> do të shfaqet te MDN-ja dhe do të përdoret në pajtim me <a href="
+"\"\"%(privacy_url)s\">rregullat tona mbi privatësinë</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
 msgid "Terms and Privacy"
@@ -2269,11 +2267,11 @@ msgstr "Krijoje profilin tim MDN"
 msgid "Signed in with GitHub"
 msgstr "I futur me GitHub"
 
-#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:18
+#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:20
 msgid "Connect with GitHub"
 msgstr "Lidhuni përmes GitHub-it"
 
-#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:20
+#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
 msgid "Sign in with GitHub"
 msgstr "Hyni me GitHub"
 
@@ -2384,12 +2382,12 @@ msgstr "Veprim i ri nga përdoruesi:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:97 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:129 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:150
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:170 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:189 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:212
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:367
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:370
 msgid "View Page"
 msgstr "Shihni Faqen"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:101 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:216 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:240
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:67
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:394 kuma/wiki/jinja2/wiki/includes/buttons.html:84
 msgid "History"
 msgstr "Historik"
 
@@ -2520,7 +2518,7 @@ msgstr "Faqe"
 msgid "Date"
 msgstr "Datë"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:306
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:311
 msgid "Edit page"
 msgstr "Përpunoni faqen"
 
@@ -2528,7 +2526,7 @@ msgstr "Përpunoni faqen"
 msgid "View complete diff"
 msgstr "Shihni plotësisht dallimet"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:307
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:312
 msgid "View page history"
 msgstr "Shihni historik faqeje"
 
@@ -2587,19 +2585,19 @@ msgstr "Së pari shtoni interesat tuaja, mandej deklarohuni ekspert në fusha t�
 msgid "My Profiles"
 msgstr "Profilet e Mia"
 
-#: kuma/users/jinja2/users/user_edit.html:109
+#: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
 msgstr "Përdorni për hyrje llogarinë tuaj GitHub."
 
-#: kuma/users/jinja2/users/user_edit.html:128 kuma/wiki/jinja2/wiki/includes/page_buttons.html:28
+#: kuma/users/jinja2/users/user_edit.html:134 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Botoje"
 
-#: kuma/users/jinja2/users/user_edit.html:130
+#: kuma/users/jinja2/users/user_edit.html:138
 msgid "Delete your account."
 msgstr "Fshini llogarinë tuaj."
 
-#: kuma/users/jinja2/users/user_edit.html:138
+#: kuma/users/jinja2/users/user_edit.html:146
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Administroni Pajtimet tuaja te Buletine Mozilla."
 
@@ -2646,9 +2644,8 @@ msgid ""
 "Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
 msgstr ""
-"Tani vazhdoni duke zgjedhur një punë te MDN-ja, dhe duke e përmbushur atë! Kemi një dorë punësh fillestare prej nga të cilat mund të zgjidhni, si kur ju <a href=\"%(words_link)s\">pëlqejnë "
-"fjalët</a>, <a href=\"%(code_link)s\">pëlqen kodi</a>, <a href=\"%(both_link)s\">pëlqejnë edhe fjalët, edhe kodi</a>, ose dëshironi të <a href=\"%(translate_link)s\">përktheni MDN-në në gjuhën "
-"tuaj</a>."
+"Tani vazhdoni duke zgjedhur një punë te MDN-ja, dhe duke e përmbushur atë! Kemi një dorë punësh fillestare prej nga të cilat mund të zgjidhni, si kur ju <a href=\"%(words_link)s\">pëlqejnë fjalët</"
+"a>, <a href=\"%(code_link)s\">pëlqen kodi</a>, <a href=\"%(both_link)s\">pëlqejnë edhe fjalët, edhe kodi</a>, ose dëshironi të <a href=\"%(translate_link)s\">përktheni MDN-në në gjuhën tuaj</a>."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:34
 msgid "Talk to us!"
@@ -2670,8 +2667,8 @@ msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
-"Fjalosje aty për aty: <a href=\"%(channel_link)s\">kanali #mdn te irc.mozilla.org</a>. (Merrni më tepër të dhëna rreth <a href=\"%(irc_link)s\">IRC-së</a>.) Përgjegjësit e MDN-së për shkrime i gjeni"
-" këtu: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dhe unë (jswisher), përgjegjësi i MDN-së për bashkësinë."
+"Fjalosje aty për aty: <a href=\"%(channel_link)s\">kanali #mdn te irc.mozilla.org</a>. (Merrni më tepër të dhëna rreth <a href=\"%(irc_link)s\">IRC-së</a>.) Përgjegjësit e MDN-së për shkrime i "
+"gjeni këtu: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dhe unë (jswisher), përgjegjësi i MDN-së për bashkësinë."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2756,27 +2753,27 @@ msgstr "I raportuar tashmë si i padëshiruar."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Ky përdorues s’ka krijuar ndonjë rishikim në tre ditët e fundit."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:21 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:722 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr "Përpunoni"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/jinja2/wiki/includes/buttons.html:61 kuma/wiki/jinja2/wiki/includes/buttons.html:65
+#: kuma/users/jinja2/users/includes/user_title_info.html:28 kuma/wiki/jinja2/wiki/includes/buttons.html:77 kuma/wiki/jinja2/wiki/includes/buttons.html:82
 msgid "Advanced"
 msgstr "Të mëtejshme"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:27
+#: kuma/users/jinja2/users/includes/user_title_info.html:33
 msgid "Manage"
 msgstr "Administroni"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:29
+#: kuma/users/jinja2/users/includes/user_title_info.html:35
 msgid "API keys"
 msgstr "Kyçe API"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:63
+#: kuma/users/jinja2/users/includes/user_title_info.html:69
 msgid "Areas of Expertise"
 msgstr "Fushë Ekspertize"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/jinja2/users/includes/user_title_info.html:132
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "Anëtar që prej %(date_joined)s"
@@ -2822,7 +2819,7 @@ msgstr "Redaktoriale - prozë, gramatikë, ose lëndë"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Përkthimi është në rrugë e sipër - ende i papërkthyer plotësisht."
 
-#: kuma/wiki/content.py:701
+#: kuma/wiki/content.py:703
 msgid "Edit section"
 msgstr "Përpunoni ndarjen"
 
@@ -2848,54 +2845,54 @@ msgstr "Dokumente të krijuar nga përdorues të MDN-së"
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:175
+#: kuma/wiki/feeds.py:178
 msgid "MDN recent document changes"
 msgstr "Ndryshime së fundi në dokumente MDN"
 
-#: kuma/wiki/feeds.py:176
+#: kuma/wiki/feeds.py:179
 msgid "Recent changes to MDN documents"
 msgstr "Ndryshime te dokumente MDN tani së fundi"
 
-#: kuma/wiki/feeds.py:182
+#: kuma/wiki/feeds.py:185
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "Ndryshime MDN së fundi te dokumente të etiketuar me %s"
 
-#: kuma/wiki/feeds.py:209
+#: kuma/wiki/feeds.py:212
 msgid "MDN documents in need of review"
 msgstr "Dokumente MDN që lypin shqyrtim"
 
-#: kuma/wiki/feeds.py:210
+#: kuma/wiki/feeds.py:213
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "Ndryshime së fundi te dokumente MDN që lypin shqyrtim"
 
-#: kuma/wiki/feeds.py:216
+#: kuma/wiki/feeds.py:219
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "Dokumente MDN për shqyrtime %s"
 
-#: kuma/wiki/feeds.py:220
+#: kuma/wiki/feeds.py:223
 msgid "MDN documents for review"
 msgstr "Dokumente MDN për shqyrtim"
 
-#: kuma/wiki/feeds.py:250
+#: kuma/wiki/feeds.py:253
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr "Përkthime '%s' te MND që lypin përditësim"
 
-#: kuma/wiki/feeds.py:286
+#: kuma/wiki/feeds.py:289
 msgid "MDN recent revisions"
 msgstr "Rishikime së fundi te MDN"
 
-#: kuma/wiki/feeds.py:287
+#: kuma/wiki/feeds.py:290
 msgid "Recent revisions to MDN documents"
 msgstr "Rishikime së fundi te dokumente MDN"
 
-#: kuma/wiki/feeds.py:370
+#: kuma/wiki/feeds.py:373
 msgid "Edit Page"
 msgstr "Përpunoni Faqen"
 
-#: kuma/wiki/feeds.py:378
+#: kuma/wiki/feeds.py:381
 msgid "Show comparison"
 msgstr "Shfaq krahasime"
 
@@ -3207,11 +3204,11 @@ msgstr "Po provoni të krijoni një faqe të re."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
-"Krijimi i një faqeje të re është një veprim i kufizuar. Që të kërkoni një faqe të re, ju lutemi, <a href=\"%(request_page_url)s\">hapni një kërkesë</a>. Nëse ju duhen leje për krijim faqesh të reja,"
-" ju lutemi, <a href=\"%(email_link)s\">lidhuni me ne</a>."
+"Krijimi i një faqeje të re është një veprim i kufizuar. Që të kërkoni një faqe të re, ju lutemi, <a href=\"%(request_page_url)s\">hapni një kërkesë</a>. Nëse ju duhen leje për krijim faqesh të "
+"reja, ju lutemi, <a href=\"%(email_link)s\">lidhuni me ne</a>."
 
 #: kuma/wiki/jinja2/403-create-page.html:17
 msgid ""
@@ -3331,54 +3328,54 @@ msgstr "Arsye Për Fshirjen"
 msgid "Restore this document"
 msgstr "Riktheje këtë dokument"
 
-#: kuma/wiki/jinja2/wiki/document.html:134
+#: kuma/wiki/jinja2/wiki/document.html:136
 msgid "Jump to:"
 msgstr "Hidhu te:"
 
-#: kuma/wiki/jinja2/wiki/document.html:157
+#: kuma/wiki/jinja2/wiki/document.html:159
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 "Ky dokument s’është rikrijuar ende dhe s’mund të rikrijohet ndërkohë që MDN-ja gjendet nën <a href=\"%(url)s\">mënyrën mirëmbajtje</a>. Ju lutemi, kontrolloni sërish kur të ketë përfunduar "
 "mirëmbajtja."
 
-#: kuma/wiki/jinja2/wiki/document.html:168
+#: kuma/wiki/jinja2/wiki/document.html:170
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Ky dokument po prodhohet për herë të parë nga sistemi. Ju lutemi, <a href=\"%(url)s\">ringarkojeni këtë faqe</a> pas pak minutash që të shihni lëndën e plotë."
 
-#: kuma/wiki/jinja2/wiki/document.html:176
+#: kuma/wiki/jinja2/wiki/document.html:178
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
 "Për këtë dokument <abbr title=\"%(started_at)s\">ka një përditësim në kryerje e sipër</abbr>. Nëse lënda më poshtë duke e vjetruar ose i mungon diçka, ju lutemi, <a href=\"%(url)s\">ringarkojeni "
 "këtë faqe</a> pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/document.html:185
+#: kuma/wiki/jinja2/wiki/document.html:187
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
 "Për këtë dokument <abbr title=\"%(scheduled_at)s\">është planifikuar një përditësim</abbr>. Nëse lënda më poshtë duke e vjetruar ose i mungon diçka, ju lutemi, <a href=\"%(url)s\">ringarkojeni këtë "
 "faqe</a> pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/document.html:196
+#: kuma/wiki/jinja2/wiki/document.html:198
 msgid "This is an experimental page."
 msgstr "Kjo është një faqe eksperimentale."
 
-#: kuma/wiki/jinja2/wiki/document.html:207
+#: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Ky përkthim është i paplotë. Ju lutemi, ndihmoni <a href=\"%(translate_url)s\">të përkthehet ky artikull</a> nga Anglishtja."
 
-#: kuma/wiki/jinja2/wiki/document.html:212
+#: kuma/wiki/jinja2/wiki/document.html:214
 msgid "This translation is in progress."
 msgstr "Përkthimi është në kryerje e sipër."
 
-#: kuma/wiki/jinja2/wiki/document.html:219
+#: kuma/wiki/jinja2/wiki/document.html:221
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3387,23 +3384,23 @@ msgstr ""
 "Vullnetarët tanë s’e kanë përkthyer ende në <bdi>%(locale)s</bdi> këtë artikull. <a href=\"%(help_link)s\" rel=\"nofollow\">Merrni pjesë dhe ndihmoni të mbarohet kjo punë!</a><br> Mund ta lexoni "
 "artikullin edhe në <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:231
+#: kuma/wiki/jinja2/wiki/document.html:233
 msgid "This article doesn't have any content yet."
 msgstr "Ky artikull s’ka ende lëndë."
 
-#: kuma/wiki/jinja2/wiki/document.html:240
+#: kuma/wiki/jinja2/wiki/document.html:242
 msgid "This article doesn't have approved content yet."
 msgstr "Ky artikull s’ka ende lëndë të miratuar."
 
-#: kuma/wiki/jinja2/wiki/document.html:246
+#: kuma/wiki/jinja2/wiki/document.html:248
 msgid "Document Tags and Contributors"
 msgstr "Etiketa dhe Kontribues Dokumentesh"
 
-#: kuma/wiki/jinja2/wiki/document.html:252
+#: kuma/wiki/jinja2/wiki/document.html:255
 msgid "Contributors to this page:"
 msgstr "Kontributorë te kjo faqe:"
 
-#: kuma/wiki/jinja2/wiki/document.html:258
+#: kuma/wiki/jinja2/wiki/document.html:263
 msgid "Last updated by:"
 msgstr "Përditësuar së fundi nga:"
 
@@ -3472,7 +3469,8 @@ msgstr "Faleminderit që harxhoni kohë për përmirësimin e MDN-së!"
 #: kuma/wiki/jinja2/wiki/edit.html:170
 #, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" href=\"%(url)s\">Editor Guide</a>."
-msgstr "Duket se ky është kontributi juaj i parë te MDN-ja. Për pyetje të rëndomta lidhur me përpunimet mund të gjeni përgjigje te <a target=\"_blank\" href=\"%(url)s\">Udhërrëfyesi ynë i Përpunuesit</a>."
+msgstr ""
+"Duket se ky është kontributi juaj i parë te MDN-ja. Për pyetje të rëndomta lidhur me përpunimet mund të gjeni përgjigje te <a target=\"_blank\" href=\"%(url)s\">Udhërrëfyesi ynë i Përpunuesit</a>."
 
 #: kuma/wiki/jinja2/wiki/edit.html:174
 msgid "Don't be afraid to break something, you can always revert your changes."
@@ -3482,11 +3480,11 @@ msgstr "Mos kini frikë se prishni gjë, mundeni t’i zhbëni ndryshimet kurdo.
 msgid "Have fun and be proud of your contribution!"
 msgstr "Dëfrehuni dhe jini krenar për kontributin tuaj!"
 
-#: kuma/wiki/jinja2/wiki/edit.html:191
+#: kuma/wiki/jinja2/wiki/edit.html:194
 msgid "Learn how to tag an article"
 msgstr "Mësoni si të etiketoni një artikull"
 
-#: kuma/wiki/jinja2/wiki/edit.html:193 kuma/wiki/jinja2/wiki/translate.html:120
+#: kuma/wiki/jinja2/wiki/edit.html:199 kuma/wiki/jinja2/wiki/translate.html:120
 #, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" href=\"%(url)s\">Read the Tagging Guide</a>."
 msgstr ""
@@ -3582,7 +3580,8 @@ msgstr "U kërkua lëvizje faqeje"
 #: kuma/wiki/jinja2/wiki/move_requested.html:9
 #, python-format
 msgid "<h1>Page Move Scheduled</h1> <p>Moving %(old_slug)s to <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> You'll receive an email when it finishes, or if any errors occur during the move.</p>"
-msgstr "<h1>Lëvizja e Faqes u Planifikua</h1> <p>Po kalohet %(old_slug)s te <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> Kur të përfundojë, ose nëse ndodh ndonjë gabim, do të merrni një email.</p>"
+msgstr ""
+"<h1>Lëvizja e Faqes u Planifikua</h1> <p>Po kalohet %(old_slug)s te <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> Kur të përfundojë, ose nëse ndodh ndonjë gabim, do të merrni një email.</p>"
 
 #: kuma/wiki/jinja2/wiki/preview.html:14
 msgid "This is a preview of an unsaved document."
@@ -3621,15 +3620,15 @@ msgstr "Krijues:"
 msgid "Is current revision?"
 msgstr "Është versioni i tanishëm?"
 
-#: kuma/wiki/jinja2/wiki/revision.html:62
+#: kuma/wiki/jinja2/wiki/revision.html:57
 msgid "Revision Content"
 msgstr "Lëndë Shqyrtimi"
 
-#: kuma/wiki/jinja2/wiki/revision.html:69
+#: kuma/wiki/jinja2/wiki/revision.html:64
 msgid "Revision Source"
 msgstr "Burim Shqyrtimi"
 
-#: kuma/wiki/jinja2/wiki/revision.html:75 kuma/wiki/jinja2/wiki/list/revisions.html:78
+#: kuma/wiki/jinja2/wiki/revision.html:70 kuma/wiki/jinja2/wiki/list/revisions.html:78
 msgid "Revert to this revision"
 msgstr "Riktheje te ky rishikim"
 
@@ -3749,67 +3748,67 @@ msgstr "Jeni i pajtuar te përpunimet për: %(title)s."
 msgid "This article needs these reviews:"
 msgstr "Ky artikull ka nevojë për këto shqyrtime:"
 
-#: kuma/wiki/jinja2/wiki/includes/approvals.html:14
+#: kuma/wiki/jinja2/wiki/includes/approvals.html:13
 #, python-format
 msgid "Technical - code samples, APIs, or technologies. <a href=\"%(url)s\">Can you help?</a>"
 msgstr "Teknike - shembuj kodi, API, ose teknologji. <a href=\"%(url)s\">A mund të ndihmoni?</a>"
 
-#: kuma/wiki/jinja2/wiki/includes/approvals.html:24
+#: kuma/wiki/jinja2/wiki/includes/approvals.html:23
 #, python-format
 msgid "Editorial - prose, grammar, or content. <a href=\"%(url)s\">Can you help?</a>"
 msgstr "Redaktoriale - prozë, gramatikë, ose lëndë. <a href=\"%(url)s\">A mund të ndihmoni?</a>"
 
-#: kuma/wiki/jinja2/wiki/includes/approvals.html:32
+#: kuma/wiki/jinja2/wiki/includes/approvals.html:31
 msgid "Save"
 msgstr "Ruaje"
 
 # 88%
 # 100%
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:18
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:21
 msgid "Languages"
 msgstr "Gjuhë"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:32
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:36
 msgid "No translations exist for this article."
 msgstr "S’ka përkthime të këtij artikulli."
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:36
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:40
 msgid "Add a translation"
 msgstr "Shtoni një përkthim"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:51 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:63 kuma/wiki/jinja2/wiki/includes/buttons.html:67
 msgid "Watch"
 msgstr "Vëzhgojeni"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:69
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:86
 msgid "New sub-article"
 msgstr "Nënartikull i ri"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:70
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:87
 msgid "Clone this article"
 msgstr "Klonojeni këtë artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:73
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:90
 msgid "Move this article"
 msgstr "Lëvizeni këtë artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:76
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:93
 msgid "View in admin"
 msgstr "Shiheni si admin"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:84
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:101
 msgid "Delete this article"
 msgstr "Fshijeni këtë artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:89
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:106
 msgid "Manage content zone"
 msgstr "Administroni zonë lënde"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:92
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:109
 msgid "Convert to content zone"
 msgstr "Shndërrojeni në zonë lënde"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:94
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:111
 msgid "Print this article"
 msgstr "Shtypeni këtë artikull"
 
@@ -3842,52 +3841,52 @@ msgstr "Pajtohuni te ky artikull dhe krejt nënartikujt e tij"
 msgid "Unsubscribe from this article and all its sub-articles"
 msgstr "Shpajtohuni nga ky artikull dhe krejt nënartikujt e tij"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:122
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:121
 msgid "You are now subscribed to this article and all its sub-articles."
 msgstr "Tani jeni pajtuar te ky artikull dhe krejt nënartikujt e tij."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:122
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:121
 msgid "You have been unsubscribed from this article and all its sub-articles."
 msgstr "Jeni shpajtuar nga ky artikull dhe krejt nënartikujt e tij."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:133
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:132
 msgid "Updating subscription status"
 msgstr "Po përditësohet gjendja e përkthimit"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:134
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:133
 msgid "Subscribe to this article"
 msgstr "Pajtohuni te ky artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:135
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:134
 msgid "Unsubscribe from this article"
 msgstr "Shpajtohuni nga ky artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:138
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:136
 #, python-format
 msgid "You are now subscribed to %(title)s."
 msgstr "Tani jeni pajtuar te %(title)s."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:138
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:136
 #, python-format
 msgid "You have been unsubscribed from %(title)s."
 msgstr "Jeni shpajtuar nga %(title)s."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:149
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:147
 #, python-format
 msgid "Subscribe to the %(language)s version"
 msgstr "Pajtohuni te versioni %(language)s"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:150
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:148
 #, python-format
 msgid "Unsubscribe from the %(language)s version"
 msgstr "Shpajtohuni prej versionit %(language)s"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:153
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:150
 #, python-format
 msgid "You are now subscribed to the %(language)s version of this article."
 msgstr "Tani jeni i pajtuar te versioni %(language)s i këtij artikulli."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:153
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:150
 #, python-format
 msgid "You have been unsubscribed from the %(language)s version of this article."
 msgstr "Jeni shpajtuar prej versionit %(language)s të këtij artikulli."
@@ -3970,11 +3969,11 @@ msgstr "Faqe e Re"
 msgid "Discard changes and create a new document?"
 msgstr "Të hidhen tej ndryshimet dhe të krijohet dokument i ri?"
 
-#: kuma/wiki/jinja2/wiki/includes/page_buttons.html:24
+#: kuma/wiki/jinja2/wiki/includes/page_buttons.html:26
 msgid "Publish and Keep Editing"
 msgstr "Botojeni dhe Vazhdoni Redaktimet"
 
-#: kuma/wiki/jinja2/wiki/includes/page_buttons.html:34
+#: kuma/wiki/jinja2/wiki/includes/page_buttons.html:45
 msgid "Discard"
 msgstr "Hidhe Tej"
 
@@ -3982,22 +3981,23 @@ msgstr "Hidhe Tej"
 msgid "Review needed?"
 msgstr "Lyp shqyrtim?"
 
-#: kuma/wiki/jinja2/wiki/includes/revision_comment.html:2
+#: kuma/wiki/jinja2/wiki/includes/revision_comment.html:3
 msgid "Revision Comment"
 msgstr "Koment Shoqërues i Rishikimit"
 
-#: kuma/wiki/jinja2/wiki/includes/revision_comment.html:2
+#: kuma/wiki/jinja2/wiki/includes/revision_comment.html:4
 msgid "Learn how to use Revision Comments"
 msgstr "Mësoni si të përdorni Komente Rishikimi"
 
-#: kuma/wiki/jinja2/wiki/includes/revision_comment.html:3
+#: kuma/wiki/jinja2/wiki/includes/revision_comment.html:8
 msgid "Tell us why you made additions and changes. It is optional, but will make page history easier to understand."
 msgstr "Tregonani pse bëtë shtesa dhe ndryshime. Kjo është opsionale, por do ta bëjë historikun e faqes më të lehtë për t’u kuptuar."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:2
 #, python-format
 msgid "Sorry! We weren't able to save your contribution. Please copy and paste your changes into a safe place and <a href=\"%(admin_email)s\"> contact the site administrators</a>."
-msgstr "Na ndjeni! S’qemë në gjendje të ruanim kontributin tuaj. Ju lutemi, kopjoni dhe ruani në një vend të sigurt ndryshimet tuaja dhe <a href=\"%(admin_email)s\"> lidhuni me përgjegjësit e sajtit</a>."
+msgstr ""
+"Na ndjeni! S’qemë në gjendje të ruanim kontributin tuaj. Ju lutemi, kopjoni dhe ruani në një vend të sigurt ndryshimet tuaja dhe <a href=\"%(admin_email)s\"> lidhuni me përgjegjësit e sajtit</a>."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:9
 msgid "We'll try to resolve the problem, and after that you will be able to resubmit your contribution."
@@ -4218,31 +4218,31 @@ msgstr "Pati një gabim gjatë prodhimit të lëndës."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Dokumenti ekziston tashmë. Shënim: s’mund të ktheni një dokument që është lëvizur, pa fshirë ridrejtimin për të."
 
-#: kuma/wiki/views/document.py:682
+#: kuma/wiki/views/document.py:692
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Ridrejtuar prej %(url)s"
 
-#: kuma/wiki/views/document.py:737
+#: kuma/wiki/views/document.py:747
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Mësova rreth %(title)s te MDN-ja."
 
-#: kuma/wiki/views/document.py:857
+#: kuma/wiki/views/document.py:870
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Lloj lënde i pambuluar: %s"
 
-#: kuma/wiki/views/document.py:864
+#: kuma/wiki/views/document.py:877
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Gabim në përtypje kërkese: %s"
 
-#: kuma/wiki/views/document.py:885
+#: kuma/wiki/views/document.py:902
 msgid "ETag precondition failed"
 msgstr "S’u plotësua parakushti ETag"
 
-#: kuma/wiki/views/edit.py:114
+#: kuma/wiki/views/edit.py:111
 msgid "Sections may only be edited inline."
 msgstr "Ndarjet mund të përpunohen vetëm brendazi."
 
@@ -4250,11 +4250,11 @@ msgstr "Ndarjet mund të përpunohen vetëm brendazi."
 msgid "Autosuggest requires a partial title. For a full document index, see the main page."
 msgstr "Vetësugjerimi lyp një titull të pjesshëm. Për një tregues të plotë dokumenti, shihni faqen kryesore."
 
-#: kuma/wiki/views/revision.py:152
+#: kuma/wiki/views/revision.py:154
 msgid "Document has been edited; please re-review."
 msgstr "Dokumenti është përpunuar; ju lutemi, rishqyrtojeni."
 
-#: kuma/wiki/views/translate.py:78
+#: kuma/wiki/views/translate.py:76
 msgid "You cannot translate this document."
 msgstr "S’ mund ta përktheni këtë dokument."
 
@@ -4262,6 +4262,15 @@ msgstr "S’ mund ta përktheni këtë dokument."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Shërbyes Elasticsearch: %(backend)s"
+
+#~ msgid "Donate"
+#~ msgstr "Dhuroni"
+
+#~ msgid "Test in Firefox and over 800 browser/OS combos with Mozilla and Sauce Labs"
+#~ msgstr "Testojeni në Firefox dhe nën mbi 800 dyshe shfletues/OS, me Mozilla-n dhe Sauce Labs"
+
+#~ msgid "Test on Sauce Labs"
+#~ msgstr "Testojeni në Sauce Labs"
 
 #~ msgid "Add-ons"
 #~ msgstr "Shtesa"
@@ -4306,11 +4315,11 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Faleminderit!"
 
 #~ msgid ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> "
-#~ "&middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</"
+#~ "a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network dhe kontribues individualë<br /> Lënda mund të përdoret sipas një licence specifike e këtij projekti. &middot; <a href=\"%(about_url)s\">Mbi MDN-"
-#~ "në</a> &middot; <a href=\"//github.com/mozilla/kuma\">Kontribuoni me kod</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Rregulla privatësie</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network dhe kontribues individualë<br /> Lënda mund të përdoret sipas një licence specifike e këtij projekti. &middot; <a href=\"%(about_url)s\">Mbi "
+#~ "MDN-në</a> &middot; <a href=\"//github.com/mozilla/kuma\">Kontribuoni me kod</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Rregulla privatësie</a>"
 
 #~ msgid "See also"
 #~ msgstr "Shihni edhe"
@@ -4450,11 +4459,11 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Krijoni Aplikacione Web të Hapura"
 
 #~ msgid ""
-#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a "
-#~ "href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
+#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a href="
+#~ "\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
 #~ msgstr ""
-#~ "Parashtrimi juaj përfshin lëndë që mund të mos jetë e përshtatshme për MDN-në. Përpjekjet e përsëritura për të parashtruar material të papërshtatshëm mund të shpien në çaktivizimin e llogarisë suaj."
-#~ " Për hollësi mbi ç’përfaqëson material të përshtatshëm shihni udhërrëfyesin tonë “<a href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>”."
+#~ "Parashtrimi juaj përfshin lëndë që mund të mos jetë e përshtatshme për MDN-në. Përpjekjet e përsëritura për të parashtruar material të papërshtatshëm mund të shpien në çaktivizimin e llogarisë "
+#~ "suaj. Për hollësi mbi ç’përfaqëson material të përshtatshëm shihni udhërrëfyesin tonë “<a href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>”."
 
 #~ msgid "Sign in:"
 #~ msgstr "Hyni:"
@@ -4492,14 +4501,14 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ "A profile already exists with an email address below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Yes, "
 #~ "connect with my MDN profile</a>"
 #~ msgid_plural ""
-#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-"
-#~ "next=\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
+#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next="
+#~ "\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
 #~ msgstr[0] ""
 #~ "Ka tashmë një profil me adresën email më poshtë. Keni tashmë një profil MDN-je? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Po, lidhu me "
 #~ "profilin tim te MDN-ja</a>"
 #~ msgstr[1] ""
-#~ "Ka tashmë një profil me një nga adresat email më poshtë. Keni tashmë një profil MDN-je? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Po, lidhu "
-#~ "me profilin tim te MDN-ja</a>"
+#~ "Ka tashmë një profil me një nga adresat email më poshtë. Keni tashmë një profil MDN-je? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Po, "
+#~ "lidhu me profilin tim te MDN-ja</a>"
 
 #~ msgid "Signed in with Persona"
 #~ msgstr "I futur me Persona"
@@ -4562,11 +4571,11 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Ky dokument është modifikuar, ndërkohë që po e përpunonit."
 
 #~ msgid ""
-#~ "Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a "
-#~ "href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
+#~ "Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; "
+#~ "<a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
-#~ "Lënda mund të përdoret sipas një licence specifike për këtë projekt. &middot; <a href=\"%(about_url)s\">Mbi MDN-në</a> &middot; <a href=\"//github.com/mozilla/kuma\">Kontribuoni te kodi</a> &middot;"
-#~ " <a href=\"//www.mozilla.org/en-US/privacy\">Rregulla privatësie</a>"
+#~ "Lënda mund të përdoret sipas një licence specifike për këtë projekt. &middot; <a href=\"%(about_url)s\">Mbi MDN-në</a> &middot; <a href=\"//github.com/mozilla/kuma\">Kontribuoni te kodi</a> "
+#~ "&middot; <a href=\"//www.mozilla.org/en-US/privacy\">Rregulla privatësie</a>"
 
 #~ msgid "\"Load documents\""
 #~ msgstr "\"Ngarkoni dokumente\""
@@ -4780,13 +4789,13 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ "zgjeruar se sa shndërrimet."
 
 #~ msgid ""
-#~ "CSS3 Animations are a new feature of modern browsers like Firefox, which add even more flexibility and control to the style and experience of the Web. CSS3 Animations let you change property values "
-#~ "over time with no or minimal JavaScript, and with greater control than CSS Transitions. Go beyond static properties to animate the appearance and positions of HTML elements. You can achieve these "
-#~ "effects without Flash or Silverlight, to make creative dynamic interfaces and engaging animations with CSS3."
+#~ "CSS3 Animations are a new feature of modern browsers like Firefox, which add even more flexibility and control to the style and experience of the Web. CSS3 Animations let you change property "
+#~ "values over time with no or minimal JavaScript, and with greater control than CSS Transitions. Go beyond static properties to animate the appearance and positions of HTML elements. You can "
+#~ "achieve these effects without Flash or Silverlight, to make creative dynamic interfaces and engaging animations with CSS3."
 #~ msgstr ""
 #~ "Animacionet CSS3 janë një veçori e re e shfletuesve modernë, Firefox-i për shembull, që i shtojnë stilit dhe përmbajtjes së Web-it edhe më tepër zhdërvjelltësi. Animacionet CSS3 ju lejojnë të "
-#~ "ndryshoni vlera vetish në funksion të kohës, pa ose me minimum JavaScript-i, dhe me kontroll më të zgjeruar se sa Shndërrimet CSS. Tejkaloni vetitë statike, që të krijoni animacione të dukjes ose "
-#~ "pozicionit të elementëve HTML. Mund t’i krijoni këto efekte pa Flash ose Silverlight, duke realizuar kështu me CSS3 ndërfaqe dinamike dhe animacione tërheqëse."
+#~ "ndryshoni vlera vetish në funksion të kohës, pa ose me minimum JavaScript-i, dhe me kontroll më të zgjeruar se sa Shndërrimet CSS. Tejkaloni vetitë statike, që të krijoni animacione të dukjes "
+#~ "ose pozicionit të elementëve HTML. Mund t’i krijoni këto efekte pa Flash ose Silverlight, duke realizuar kështu me CSS3 ndërfaqe dinamike dhe animacione tërheqëse."
 
 #~ msgid "July 2011 Dev Derby Challenge - HTML5 <video>"
 #~ msgstr "Gara Dev Derby e Korrikut 2011 - HTML5 <video>"
@@ -4836,7 +4845,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Tetor 2011"
 
 #~ msgid "CSS Media Queries allow Web developers to create responsive Web designs, tailoring the user experience for a range of screen sizes, including desktops, tablets, and mobiles."
-#~ msgstr "Kërkesat Media CSS u lejojnë zhvilluesve të krijojnë skema grafike Web reaguese, duke ua përshtatur përdoruesve punimin për një gamë madhësish ekrani, përfshi desktopë, tablete, dhe celularë."
+#~ msgstr ""
+#~ "Kërkesat Media CSS u lejojnë zhvilluesve të krijojnë skema grafike Web reaguese, duke ua përshtatur përdoruesve punimin për një gamë madhësish ekrani, përfshi desktopë, tablete, dhe celularë."
 
 #~ msgid "November 2011 Dev Derby Challenge - Canvas"
 #~ msgstr "Gara Dev Derby e Nëntorit 2011 - Canvas"
@@ -4845,11 +4855,11 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Nëntor 2011"
 
 #~ msgid ""
-#~ "Canvas lets you paint the Web using JavaScript to render 2D shapes, bitmapped images, and advanced graphical effects. Each <canvas> element provides a graphics context with its own state and methods"
-#~ " that make it easy to control and draw in."
+#~ "Canvas lets you paint the Web using JavaScript to render 2D shapes, bitmapped images, and advanced graphical effects. Each <canvas> element provides a graphics context with its own state and "
+#~ "methods that make it easy to control and draw in."
 #~ msgstr ""
-#~ "Canvas-a ju lejon të vizatoni në Web duke përdorur JavaScript për të përftuar forma 2D, figura bitmap, dhe efekte grafike të thelluara. Çdo element <canvas> ofron një kontekst grafik me gjendjen dhe"
-#~ " metodat e veta, çka i bën të lehtë për t’u kontrolluar dhe përdorur për vizatime."
+#~ "Canvas-a ju lejon të vizatoni në Web duke përdorur JavaScript për të përftuar forma 2D, figura bitmap, dhe efekte grafike të thelluara. Çdo element <canvas> ofron një kontekst grafik me gjendjen "
+#~ "dhe metodat e veta, çka i bën të lehtë për t’u kontrolluar dhe përdorur për vizatime."
 
 #~ msgid "December 2011 Dev Derby Challenge - IndexedDB"
 #~ msgstr "Gara Dev Derby e Dhjetorit 2011 - IndexedDB"
@@ -4922,8 +4932,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 
 #~ msgid "With the Websocket API and protocol, you can open a two-way channel between the browser and a server, for scalable and real-time data flow. No more server polling!"
 #~ msgstr ""
-#~ "Me API-n dhe protokollin Websocket, mund të hapni një kanal dykahësh mes shfletuesit dhe një shërbyesi, për rrjedha të atypëratyshme të dhënash, me madhësi të ndryshueshme. S’ka më nevojë për vjelje"
-#~ " që prej shërbyesit!"
+#~ "Me API-n dhe protokollin Websocket, mund të hapni një kanal dykahësh mes shfletuesit dhe një shërbyesi, për rrjedha të atypëratyshme të dhënash, me madhësi të ndryshueshme. S’ka më nevojë për "
+#~ "vjelje që prej shërbyesit!"
 
 #~ msgid "June 2012 Dev Derby Challenge - WebGL"
 #~ msgstr "Gara Dev Derby e Qershorit 2012 - WebGL"
@@ -4944,8 +4954,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Korrik 2012"
 
 #~ msgid ""
-#~ "Creating rich user experiences for the Web has never been easier. Today's open Web standards put some of the most powerful features right at your fingertips. Animate pages with CSS, validate user "
-#~ "input with HTML, and more. What else can you do without JavaScript?"
+#~ "Creating rich user experiences for the Web has never been easier. Today's open Web standards put some of the most powerful features right at your fingertips. Animate pages with CSS, validate "
+#~ "user input with HTML, and more. What else can you do without JavaScript?"
 #~ msgstr ""
 #~ "Ofrimi i ndjesive të pasura në Web për përdoruesit s’ka qenë kurrë më i lehtë. Sot, standardet e hapura Web, ju vënë në majë të gishtave disa nga veçoritë më të fuqishme. Krijoni me CSS-në "
 #~ "animacione në faqe, vleftësoni përmes HTML-së input përdoruesi, etj. Ç’mund të bëni tjetër me JavaScript-in?"
@@ -4981,11 +4991,11 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Tetor 2012"
 
 #~ msgid ""
-#~ "CSS Media Queries are now a common tool for responsive, mobile-first web design. They are now even a W3C Recommendation! They can tell you a lot more about a display than just its width. What can "
-#~ "you do with Media Queries?"
+#~ "CSS Media Queries are now a common tool for responsive, mobile-first web design. They are now even a W3C Recommendation! They can tell you a lot more about a display than just its width. What "
+#~ "can you do with Media Queries?"
 #~ msgstr ""
-#~ "Kërkesa Media CSS janë tashmë një mjet i rëndomtë për hartime grafike web reaguese, për celularët më tepër. Tashmë janë edhe një nga Rekomandimet e W3C-së! Mund t’ju tregojnë për ekranin shumë më "
-#~ "tepër gjëra se sa thjesht gjerësia. Ç’mund të bëni me Kërkesa Media?"
+#~ "Kërkesa Media CSS janë tashmë një mjet i rëndomtë për hartime grafike web reaguese, për celularët më tepër. Tashmë janë edhe një nga Rekomandimet e W3C-së! Mund t’ju tregojnë për ekranin shumë "
+#~ "më tepër gjëra se sa thjesht gjerësia. Ç’mund të bëni me Kërkesa Media?"
 
 #~ msgid "November 2012 Dev Derby Challenge - Fullscreen API"
 #~ msgstr "Gara Dev Derby Nëntor 2012 - APi Ekran i Plotë"
@@ -4998,8 +5008,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 
 #~ msgid "With the Fullscreen API, you can escape the confines of the browser window. You can even detect full screen state changes and style full screen pages specially. Talk about immersive!"
 #~ msgstr ""
-#~ "Me API-n për Ekran të Plotë, mund t’u shpëtoni kufizimeve të dritares së shfletuesit. Mundeni madje të zbuloni praninë e ekranit të plotë dhe të ofroni faqe sa krejt ekrani, posaçërisht për raste të"
-#~ " tilla. Vërtet ngërthyese!"
+#~ "Me API-n për Ekran të Plotë, mund t’u shpëtoni kufizimeve të dritares së shfletuesit. Mundeni madje të zbuloni praninë e ekranit të plotë dhe të ofroni faqe sa krejt ekrani, posaçërisht për "
+#~ "raste të tilla. Vërtet ngërthyese!"
 
 #~ msgid "December 2012 Dev Derby Challenge - Offline"
 #~ msgstr "Gara Dev Derby e Dhjetorit 2012 - Offline"
@@ -5011,8 +5021,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Dhjetor 2012"
 
 #~ msgid ""
-#~ "With the maturing offline capabilities of the open Web, you can build apps that work with or without an Internet connection. With offline technologies, you can better support travelers and mobile "
-#~ "users, improve performance, and more."
+#~ "With the maturing offline capabilities of the open Web, you can build apps that work with or without an Internet connection. With offline technologies, you can better support travelers and "
+#~ "mobile users, improve performance, and more."
 #~ msgstr ""
 #~ "Me pjekjen e vazhdueshme të aftësive të Web-it të hapur për punim jashtë Internetit, mund të krijoni aplikacione që punojnë me ose pa lidhje Internet. Me teknologjitë <em>offline</em>, mund t’u "
 #~ "shërbeni më mirë përdoruesve në lëvizje dhe atyre të celularit, të përmirësoni punimin, etj."
@@ -5039,8 +5049,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Shkurt 2013"
 
 #~ msgid ""
-#~ "The Touch Events API lets you track multiple touches at the same time on devices that support them. Build complex games, support pinch-to-zoom and more. By using multi-touch, your app can respond to"
-#~ " all the interactions users have come to expect."
+#~ "The Touch Events API lets you track multiple touches at the same time on devices that support them. Build complex games, support pinch-to-zoom and more. By using multi-touch, your app can "
+#~ "respond to all the interactions users have come to expect."
 #~ msgstr ""
 #~ "API për Akte Prekjeje ju lejon të ndiqni disa prekje njëherësh, në pajisje që mbulojnë diçka të tillë. Krijoni lojëra komplekse, mbuloni efekte pickoni-që-të-zmadhoni, etj. Duke përdorur "
 #~ "shumëprekjen, aplikacioni juaj mund t’u përgjigjet krejt ndërveprimeve që presin përdoruesit."
@@ -5067,7 +5077,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ "Web Workers make it easy for you to run scripts in the background. By using Web Workers, you can create dazzling user interfaces that are not hindered by even the most computationally-intensive "
 #~ "tasks."
 #~ msgstr ""
-#~ "Web Workers ua bën të lehtë xhirimin në prapaskenë të programtheve. Duke përdorur Web Workers, mund të krijoni ndërfaqe përdoruesi mahnitëse, që s’ndikohen as nga veprimet kompjuterike më intensive."
+#~ "Web Workers ua bën të lehtë xhirimin në prapaskenë të programtheve. Duke përdorur Web Workers, mund të krijoni ndërfaqe përdoruesi mahnitëse, që s’ndikohen as nga veprimet kompjuterike më "
+#~ "intensive."
 
 #~ msgid "May 2013 Dev Derby Challenge - getUserMedia"
 #~ msgstr "Gara Dev Derby e Majit 2013 - getUserMedia"
@@ -5084,7 +5095,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgid ""
 #~ "The getUserMedia function lets you access (with permission) the cameras and microphones of your users. No plugins needed! What can you do once you have this media? The possibilities are endless."
 #~ msgstr ""
-#~ "Funksioni getUserMedia ju lejon përdorimin (me leje) të kamerave dhe mikrofonëve të përdoruesve tuaj. Pa patur nevojë për shtojca! Ç’mund të bëni, kur keni hyrje në to? Mundësitë janë të pafundme."
+#~ "Funksioni getUserMedia ju lejon përdorimin (me leje) të kamerave dhe mikrofonëve të përdoruesve tuaj. Pa patur nevojë për shtojca! Ç’mund të bëni, kur keni hyrje në to? Mundësitë janë të "
+#~ "pafundme."
 
 #~ msgid "June 2013 Dev Derby Challenge - WebGL II"
 #~ msgstr "Gara Dev Derby e Qershorit 2013 - WebGL II"
@@ -5149,8 +5161,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgid ""
 #~ "Cascading Style Sheets level 3 (CSS3) provide serveral new features and properties to enhance the formatting and look of documents written in different kinds of markup languages like HTML or XML."
 #~ msgstr ""
-#~ "Cascading Style Sheets të nivelit 3 (CSS3) ofron disa veçori dhe veti të reja për thellim në formatime dhe pamje të dokumenteve të shkruar në lloje të ndryshme gjuhësh markup, të tilla si HTML ose "
-#~ "XML."
+#~ "Cascading Style Sheets të nivelit 3 (CSS3) ofron disa veçori dhe veti të reja për thellim në formatime dhe pamje të dokumenteve të shkruar në lloje të ndryshme gjuhësh markup, të tilla si HTML "
+#~ "ose XML."
 
 #~ msgid "https://developer.mozilla.org/en-US/docs/Web/CSS"
 #~ msgstr "https://developer.mozilla.org/en-US/docs/Web/CSS"
@@ -5204,7 +5216,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgid "Forms"
 #~ msgstr "Formularë"
 
-#~ msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
+#~ msgid ""
+#~ "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
 #~ msgstr ""
 #~ "Elementët dhe atributet e formularëve në HTML5 ofrojnë një shkallë më të lartë mark-up-i semantik se sa HTML4 dhe e ulin mjaft nevojën për skriptime dhe stilizime të mërzitshme siç duhej nën "
 #~ "HTML4-n."
@@ -5440,9 +5453,6 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgid "Successfully censored %(count)d %(items)s."
 #~ msgstr "Censuroi me sukses %(count)d %(items)s."
 
-#~ msgid "Are you sure?"
-#~ msgstr "Jeni i sigurt?"
-
 #~ msgid "Censor selected %(verbose_name_plural)s"
 #~ msgstr "Censuro të përzgjedhurin %(verbose_name_plural)s"
 
@@ -5602,8 +5612,8 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 
 #~ msgid ""
 #~ "<p>Welcome to the Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what's possible by exploring Demo Studio:</p> <ul> "
-#~ "<li>View demos that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the source code for those demos so you can see how they work.</li> <li>Read documentation to learn about the open"
-#~ " standards and technologies that power the Web.</li> </ul>"
+#~ "<li>View demos that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the source code for those demos so you can see how they work.</li> <li>Read documentation to learn about the "
+#~ "open standards and technologies that power the Web.</li> </ul>"
 #~ msgstr ""
 #~ "<p>Mirë se vini te Mozilla Demo Studio, ku zhvillues si ju mund të zhvillojnë, ndajnë me të tjerët, demonstrojnë dhe të mësojnë gjithçka rreth teknologjive Web. Shihni se ç’është e mundur, duke "
 #~ "eksploruar Studion e Demove:</p> <ul> <li>Shihni demo që tregojnë se ç’mund të arrini me HTML-në, CSS-në, dhe JavaScript-in.</li> <li>Shqyrtoni kodin burim të këtyre demove, që të shihni se si "
@@ -5843,11 +5853,11 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Parashtroni Demo të Re"
 
 #~ msgid ""
-#~ "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
-#~ "web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
+#~ "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) "
+#~ "other web developers.</p> <p>Please complete the form below to ensure your demo is submitted to the Demo Studio successfully.</p>"
 #~ msgstr ""
-#~ "<p>Qoftë kur krijoni një rrugë të re të mahnitshme për të punuar në Web, qoftë kur është thjesht fjala për eksperimentim me teknologjitë e fjalës së fundit, ju ftojmë t’i parashtroni demot tuaja për"
-#~ " t’i ndarë me (ose për t’ua treguar) zhvilluesve të tjerë web.</p> <p>Ju lutemi, plotësoni formularin më poshtë për t’u siguruar që demoja juaj parashtrohet me sukses te Studioja e Demove.</p>"
+#~ "<p>Qoftë kur krijoni një rrugë të re të mahnitshme për të punuar në Web, qoftë kur është thjesht fjala për eksperimentim me teknologjitë e fjalës së fundit, ju ftojmë t’i parashtroni demot tuaja "
+#~ "për t’i ndarë me (ose për t’ua treguar) zhvilluesve të tjerë web.</p> <p>Ju lutemi, plotësoni formularin më poshtë për t’u siguruar që demoja juaj parashtrohet me sukses te Studioja e Demove.</p>"
 
 #~ msgid "Describe Your Demo"
 #~ msgstr "Përshkruani Demon Tuaj"
@@ -5877,15 +5887,15 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ msgstr "Përgatitja e Demos Suaj"
 
 #~ msgid ""
-#~ "<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
-#~ "should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to"
-#~ " access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN profile</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
-#~ "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
+#~ "<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your "
+#~ "demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should "
+#~ "use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN profile</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't "
+#~ "be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 #~ msgstr ""
-#~ "<ul> <li>Kodi burim i demos suaj duhet të paketohet brenda një kartele ZIP.</li> <li>Faqja kryesore e demos suaj duhet të jetë një kartele e quajtur <code>index.html</code>, në rrënjë të ZIP-"
-#~ "it.</li> <li>Demoja juaj duhet krijuar me teknologji klienti (HTML, CSS, JavaScript). Gjuhët për shërbyes, të tilla si PHP dhe Ruby, s’mbulohen.</li> <li>Nëse demoja juaj lyp burime të jashtme, për "
-#~ "hyrjen në to duhet të përdorë AJAX.</li> <li>Për parashtrimin e demos suaj keni nevojë për një <a href=\"%(signup_url)s\">profil te MDN-ja</a>.</li> <li>Ju lutemi, tregoni te kutia e hollësive të "
-#~ "demos çfarëdo lënde palësh të treta që s’mund të licencohet sipas një licence CC-BY-SA dhe jepni lidhje për te sajtet e autorëve.</li> </ul>"
+#~ "<ul> <li>Kodi burim i demos suaj duhet të paketohet brenda një kartele ZIP.</li> <li>Faqja kryesore e demos suaj duhet të jetë një kartele e quajtur <code>index.html</code>, në rrënjë të ZIP-it."
+#~ "</li> <li>Demoja juaj duhet krijuar me teknologji klienti (HTML, CSS, JavaScript). Gjuhët për shërbyes, të tilla si PHP dhe Ruby, s’mbulohen.</li> <li>Nëse demoja juaj lyp burime të jashtme, për "
+#~ "hyrjen në to duhet të përdorë AJAX.</li> <li>Për parashtrimin e demos suaj keni nevojë për një <a href=\"%(signup_url)s\">profil te MDN-ja</a>.</li> <li>Ju lutemi, tregoni te kutia e hollësive "
+#~ "të demos çfarëdo lënde palësh të treta që s’mund të licencohet sipas një licence CC-BY-SA dhe jepni lidhje për te sajtet e autorëve.</li> </ul>"
 
 #~ msgid "Provide the Source Code"
 #~ msgstr "Jepni Kodin Burim"
@@ -5912,23 +5922,23 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 #~ "<p>Share your developer interests and areas of expertise with the MDN community. We'll be able to bring you a better, more customized experience and you will have a place to show off the amazing "
 #~ "work you do.</p>"
 #~ msgstr ""
-#~ "<p>Ndajini me bashkësinë MDN interesat tuaja si programues dhe fushat e ekspertizës. Do të jemi në gjendje t’ju ofrojmë një mjedis më të mirë, më të personalizuar dhe ju do të keni një vend ku të "
-#~ "shpalosni punimet tuaja të mahnitshme.</p>"
+#~ "<p>Ndajini me bashkësinë MDN interesat tuaja si programues dhe fushat e ekspertizës. Do të jemi në gjendje t’ju ofrojmë një mjedis më të mirë, më të personalizuar dhe ju do të keni një vend ku "
+#~ "të shpalosni punimet tuaja të mahnitshme.</p>"
 
 #~ msgid ""
-#~ "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) other "
-#~ "web developers.</p>"
+#~ "<p>Whether you are creating an amazing new way to experience the Web or just experimenting with the latest technologies, we invite you to submit your own demos to share with (or show off to) "
+#~ "other web developers.</p>"
 #~ msgstr ""
-#~ "<p>Qoftë kur krijoni një rrugë të re të mahnitshme për të punuar në Web, qoftë kur thjesht është fjala për eksperimentim me teknologjitë e fjalës së fundit, ju ftojmë t’i parashtroni demot tuaja për"
-#~ " t’i ndarë me (ose për t’ua treguar) zhvilluesve të tjerë web.</p>"
+#~ "<p>Qoftë kur krijoni një rrugë të re të mahnitshme për të punuar në Web, qoftë kur thjesht është fjala për eksperimentim me teknologjitë e fjalës së fundit, ju ftojmë t’i parashtroni demot tuaja "
+#~ "për t’i ndarë me (ose për t’ua treguar) zhvilluesve të tjerë web.</p>"
 
 #~ msgid "Before You Begin"
 #~ msgstr "Para Se të Filloni"
 
 #~ msgid ""
-#~ "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your demo's source code must be available under an "
-#~ "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
-#~ "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
+#~ "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your demo's source code must be available under "
+#~ "an <strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a "
+#~ "wide range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 #~ msgstr ""
 #~ "<ul> <li>Duhet të jeni gati për <strong>dhënien e kodit burim</strong> për demon tuaj. Demot strehohen te shërbyesit e Studios së Demove.</li> <li>Kodi burim i demos suaj duhet të jetë i passhëm "
 #~ "sipas një <strong>lejeje të hapur</strong>, të tillë si MPL, GPL, ose BSD.</li> <li>Demoja juaj duhet të shpalosë <strong>teknologji web të hapura</strong>, të tilla si HTML5 dhe CSS3.</li> "
@@ -5936,14 +5946,14 @@ msgstr "Shërbyes Elasticsearch: %(backend)s"
 
 #~ msgid ""
 #~ "<ul> <li>Your demo's source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
-#~ "root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
-#~ "demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA"
-#~ " license and include links to the authors' websites.</li> </ul>"
+#~ "root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If "
+#~ "your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the "
+#~ "CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 #~ msgstr ""
-#~ "<ul> <li>Kodi burim i demos suaj duhet të jetë i paketuar si <strong>kartelë ZIP</strong>.</li> <li>Faqja kryesore e demos suaj duhet të jetë kartelë me emrin "
-#~ "<strong><code>index.html</code></strong> në rrënjë të ZIP-it.</li> <li>Demoja juaj duhet të jetë e krijuar me <strong>teknologji për klient</strong> (HTML, CSS, JavaScript). Gjuhë shërbyesish, të "
-#~ "tilla si PHP dhe Ruby, s’mbulohen.</li> <li>Nëse demoja juaj lyp burime të jashtme, për hyrje në to do të duhej të përdorte <strong>AJAX</strong>-in.</li> <li>Ju lutemi, radhisni te kutiza e "
-#~ "hollësive për demon çfarëdo lënde prej palësh të treta për të cilat s’vlen leja CC-BY-SA dhe përfshini lidhje për te sajtet përkatës.</li> </ul>"
+#~ "<ul> <li>Kodi burim i demos suaj duhet të jetë i paketuar si <strong>kartelë ZIP</strong>.</li> <li>Faqja kryesore e demos suaj duhet të jetë kartelë me emrin <strong><code>index.html</code></"
+#~ "strong> në rrënjë të ZIP-it.</li> <li>Demoja juaj duhet të jetë e krijuar me <strong>teknologji për klient</strong> (HTML, CSS, JavaScript). Gjuhë shërbyesish, të tilla si PHP dhe Ruby, "
+#~ "s’mbulohen.</li> <li>Nëse demoja juaj lyp burime të jashtme, për hyrje në to do të duhej të përdorte <strong>AJAX</strong>-in.</li> <li>Ju lutemi, radhisni te kutiza e hollësive për demon "
+#~ "çfarëdo lënde prej palësh të treta për të cilat s’vlen leja CC-BY-SA dhe përfshini lidhje për te sajtet përkatës.</li> </ul>"
 
 #~ msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN profile</a></strong>.</p>"
 #~ msgstr "<p>Që të parashtroni demon tuaj, keni nevojë për një <strong><a href=\"%(signup_url)s\">profil te MDN-ja</a></strong>.</p>"
