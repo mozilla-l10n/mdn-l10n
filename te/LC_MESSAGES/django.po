@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-05-25 13:40-0700\n"
-"PO-Revision-Date: 2016-09-13 10:50+0000\n"
+"PO-Revision-Date: 2018-06-28 10:40+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu https://pontoon.mozilla.org/te/\n"
 "Language: te\n"
@@ -136,9 +136,9 @@ msgid "Cookies"
 msgstr "కుకీలు"
 
 #: jinja2/base.html:150
-#, fuzzy, python-format
+#, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
-msgstr "<p>&copy; 2005-%(thisyear)s Mozillaఅభివృద్ధికారుల జాలం మరియు స్వతంత్ర తోడ్పాటుదారులు.</p><p>విషయం <a href=\"%(copyright_url)s\">ఈ లైసెన్సుల</a> కింద అందుబాటులో ఉంది.</p>"
+msgstr "<p>&copy; 2005-%(thisyear)s Mozilla, స్వతంత్ర తోడ్పాటుదారులు.</p><p>విషయం <a href=\"%(copyright_url)s\">ఈ లైసెన్సుల</a> కింద అందుబాటులో ఉంది.</p>"
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -1180,13 +1180,12 @@ msgid "Moz Hacks"
 msgstr "మోజ్ హ్యాక్స్"
 
 #: kuma/landing/jinja2/landing/homepage.html:17
-#, fuzzy
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
 msgstr ""
-"Mozillaఅభివృద్ధికారుల జాలం (MDN), HTML, CSS, మరియు జాలగూళ్ల, HTML5 అనువర్తనాల APIలు వంటి స్వేచ్ఛాజాల సాంకేతికతకు సంబంధించి సమాచారాన్ని అందిస్తుంది. ఇది ఫైర్ఫాక్స్ OS వంటి ఇతర ఫైర్ఫాక్స్ ఉత్పత్తుల "
-"సమాచారాన్ని కూడా ప్రామాణికరిస్తుంది."
+"MDN జాల పత్రాల సైటు HTML, CSS, వెబ్ సైట్లకీ ప్రోగ్గెసివ్ జాల అనువర్తనాలకీ పనికివచ్చే APIల వంటి స్వేచ్ఛాయుత జాల సాంకేతికతల గురించి సమాచారాన్ని అందిస్తుంది. దీనిలో Firefox Developer Tools వంటి "
+"మొజిల్లా ఉత్పత్తుల గురించి డెవలపర్లకు ఉద్దేశించిన కొంత పత్రావళిని కూడా ఉంది."
 
 #: kuma/landing/jinja2/landing/homepage.html:31
 msgid "Resources for developers, by developers."
@@ -1572,18 +1571,16 @@ msgid "Web Development"
 msgstr "జాల అభివృద్ధి"
 
 #: kuma/search/names.py:40
-#, fuzzy
 msgid "WebExtensions"
-msgstr "విహారిణి పొడగింతలు"
+msgstr "జాలపొడగింతలు"
 
 #: kuma/search/names.py:41
 msgid "WebGL"
 msgstr "WebGL"
 
 #: kuma/search/names.py:42
-#, fuzzy
 msgid "Writing Documentation"
-msgstr "పత్రాన్ని సవరించు"
+msgstr "డాక్యుమెంటేషన్ వ్రాయడం"
 
 #: kuma/search/names.py:43
 msgid "XPCOM"
@@ -1615,9 +1612,8 @@ msgstr "శోధన అందుబాటులో లేదు"
 
 #. Search MDN Web Docs
 #: kuma/search/jinja2/search/plugin.html:5
-#, fuzzy
 msgid "Search MDN Web Docs"
-msgstr "MDN వెబ్ డాక్స్"
+msgstr "MDN వెబ్ డాక్స్‌లో వెతకండి"
 
 #: kuma/search/jinja2/search/results.html:14
 #, python-format
@@ -1638,11 +1634,11 @@ msgid "Results"
 msgstr "ఫలితాలు"
 
 #: kuma/search/jinja2/search/results.html:70
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] "\"%(query)s\" కొరకు %(locale_native)s లో %(count)s పత్రం దొరికినది."
-msgstr[1] "\"%(query)s\" కొరకు %(locale_native)s లో %(count)s పత్రములు దొరికినవి."
+msgstr[0] "\"%(query)s\" కొరకు అన్ని భాషలలో %(count)s పత్రం దొరికింది."
+msgstr[1] "\"%(query)s\" కొరకు అన్ని భాషలలో %(count)s పత్రాలు దొరికాయి."
 
 #: kuma/search/jinja2/search/results.html:76
 #, fuzzy, python-format
