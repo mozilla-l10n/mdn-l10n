@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-05-25 13:40-0700\n"
-"PO-Revision-Date: 2018-07-03 07:40+0000\n"
+"PO-Revision-Date: 2018-07-13 12:29+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
 "Language: bg\n"
@@ -3127,7 +3127,7 @@ msgstr "Документ (по желание)"
 
 #: kuma/wiki/models.py:1914
 msgid "reviewed"
-msgstr ""
+msgstr "проверено"
 
 #: kuma/wiki/models.py:1925
 msgid "Needs Review"
@@ -3330,13 +3330,13 @@ msgid "This translation is in progress."
 msgstr "Преводът на тази статия е незавършен."
 
 #: kuma/wiki/jinja2/wiki/document.html:221
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
 "<a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
-"Доброволците ни все още не са превели статията на <bdi>%(locale)s</bdi>. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">Присъединете се и помогнете да свършим тая работа!</a><br>Можете да "
-"прочетете статията и на <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
+"Доброволците ни все още не са превели статията на <bdi>%(locale)s</bdi>. <a href=\"%(help_link)s\" rel=\"nofollow\">Присъединете се и помогнете да свършим тая работа!</a><br>Можете да прочетете "
+"статията и на <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
 #: kuma/wiki/jinja2/wiki/document.html:233
 msgid "This article doesn't have any content yet."
@@ -3583,7 +3583,7 @@ msgstr "Връщане до това състояние"
 #: kuma/wiki/jinja2/wiki/select_locale.html:2
 #, python-format
 msgid "Select language | %(document)s"
-msgstr ""
+msgstr "Изберете език | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/select_locale.html:9
 msgid "Select a language to translate to:"
@@ -4072,9 +4072,8 @@ msgid "Sign in to view all history"
 msgstr "Влезте, за да прегледате цялата хронология"
 
 #: kuma/wiki/jinja2/wiki/list/revisions.html:109
-#, fuzzy
 msgid "View All"
-msgstr "Преглед на статията:"
+msgstr "Всички ревизии"
 
 #: kuma/wiki/jinja2/wiki/list/tags.html:2
 msgid "All Tags"
