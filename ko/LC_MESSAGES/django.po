@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-05-25 13:40-0700\n"
-"PO-Revision-Date: 2018-07-27 04:13+0000\n"
+"PO-Revision-Date: 2018-07-27 04:18+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
 "Language: ko\n"
@@ -3054,11 +3054,11 @@ msgstr "의견:"
 
 #: kuma/wiki/forms.py:481
 msgid "Tag this revision for review?"
-msgstr "검토를 위해 이 리비전에 태그할까요?"
+msgstr "이 개정판에 검토 태그를 달까요?"
 
 #: kuma/wiki/forms.py:488
 msgid "Tag this revision for localization?"
-msgstr "새 번역을 위한 리비전 태그하시겠습니까?"
+msgstr "이 개정판에 지역화 태그를 달까요?"
 
 #: kuma/wiki/forms.py:867
 msgid "Unable to make the Akismet submission (invalid revision)."
@@ -3120,7 +3120,7 @@ msgstr "지역화 태그"
 
 #: kuma/wiki/models.py:1564
 msgid "No table of contents"
-msgstr "문서 목차 없음"
+msgstr "목차 없음"
 
 #: kuma/wiki/models.py:1565
 msgid "All levels"
@@ -3141,7 +3141,7 @@ msgstr "H4 이상"
 #: kuma/wiki/models.py:1673
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
-msgstr "리비전은 %(locale)s 문서의 리비전을 기초로 해야한다. 리비전 ID %(id)s는 기준에 적합하지 않다."
+msgstr "개정판은 %(locale)s 문서의 개정판을 기초로 해야 합니다. 개정판 ID %(id)s는 그 기준에 적합하지 않습니다."
 
 #: kuma/wiki/models.py:1804
 msgid "IP address"
@@ -3241,7 +3241,7 @@ msgstr "개정판 비교 | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:13
 msgid "Compare Revisions"
-msgstr "리비전 비교"
+msgstr "개정판 비교"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:18
 msgid "Back to History"
@@ -3288,7 +3288,7 @@ msgstr "개정판 복원 | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:11
 msgid "Are you sure you want to revert to this revision?"
-msgstr "이 리비전 복원이 확실합니까?"
+msgstr "정말로 이 개정판으로 복원해도 좋습니까?"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:19
 msgid "Document"
@@ -3382,18 +3382,18 @@ msgstr "현재 보고 계신 페이지는 실험 중에 있습니다."
 #: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
-msgstr "현재 번역은 완벽하지 않습니다. 한국어로 <a href=\"%(translate_url)s\">문서 번역</a>에 동참해주세요."
+msgstr "이 번역은 완료되지 않았습니다. <a href=\"%(translate_url)s\">이 문서를 번역</a>해 주세요."
 
 #: kuma/wiki/jinja2/wiki/document.html:214
 msgid "This translation is in progress."
 msgstr "번역 작업 진행중입니다."
 
 #: kuma/wiki/jinja2/wiki/document.html:221
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
 "<a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
-msgstr "이 문서는 아직 자원 봉사자들이 <bdi>%(locale)s</bdi>로 번역하지 않았습니다. <a href=\"%(help_link)s\" rel=\"nofollow, noindex\">참여해서 번역을 마치도록 도와 주세요!</a><br><a href=\"%(doc_abs_url)s\">%(parent_language)s</a>의 문서도 읽어보세요."
+msgstr "이 문서는 아직 자원 봉사자들이 <bdi>%(locale)s</bdi>로 번역하지 않았습니다. <a href=\"%(help_link)s\" rel=\"nofollow\">참여해서 번역을 마치도록 도와 주세요!</a><br><a href=\"%(doc_abs_url)s\">%(parent_language)s</a>의 문서도 읽어보세요."
 
 # 85%
 #: kuma/wiki/jinja2/wiki/document.html:233
