@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-05-25 13:40-0700\n"
-"PO-Revision-Date: 2018-07-17 01:18+0000\n"
+"PO-Revision-Date: 2018-07-27 04:13+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
 "Language: ko\n"
@@ -1649,7 +1649,7 @@ msgstr "검색 결과: \"%(query)s\""
 #: kuma/search/jinja2/search/results.html:36
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
-msgstr "문서 번역: <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
+msgstr "<a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>에서 번역됨"
 
 #: kuma/search/jinja2/search/results.html:48
 msgid "MDN Site Search"
@@ -1988,7 +1988,7 @@ msgstr "이메일 주소"
 #: kuma/users/jinja2/account/email.html:11
 #, python-format
 msgid "%(email)s is your <em>primary</em> email address"
-msgstr "%(email)s 은 당신의 <em>기본</em> 이메일 주소"
+msgstr "%(email)s이 <em>기본</em> 이메일 주소입니다"
 
 #: kuma/users/jinja2/account/email.html:15
 msgid "You've also added the following email addresses:"
@@ -2594,7 +2594,7 @@ msgstr "내 프로필"
 
 #: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
-msgstr "로그인 하려믄 GitHub 계정을 사용하세요."
+msgstr "GitHub 계정으로 로그인 하세요."
 
 #: kuma/users/jinja2/users/user_edit.html:134 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
@@ -2818,7 +2818,7 @@ msgstr "편집 - 산문, 문법, 내용"
 
 #: kuma/wiki/constants.py:222
 msgid "Localization in progress - not completely translated yet."
-msgstr "문서 지역화 중 - 모두 번역되지 않음을 양해바라며, 여러분의 도움이 필요합니다."
+msgstr "지역화 진행 중 - 아직 완전히 번역되지 않았습니다."
 
 #: kuma/wiki/content.py:703
 msgid "Edit section"
@@ -2884,12 +2884,12 @@ msgstr "MDN '%s' 번역 업데이트 필요함"
 # 100%
 #: kuma/wiki/feeds.py:289
 msgid "MDN recent revisions"
-msgstr "MDN 최근 리비전"
+msgstr "MDN 최근 개정판"
 
 # 75%
 #: kuma/wiki/feeds.py:290
 msgid "Recent revisions to MDN documents"
-msgstr "MDN 문서의 최신 변경 사항"
+msgstr "MDN 문서의 최신 개정판"
 
 # 88%
 #: kuma/wiki/feeds.py:373
@@ -3415,7 +3415,7 @@ msgstr "이 페이지의 공헌자:"
 # 100%
 #: kuma/wiki/jinja2/wiki/document.html:263
 msgid "Last updated by:"
-msgstr "최종 변경:"
+msgstr "최종 변경자:"
 
 #: kuma/wiki/jinja2/wiki/edit.html:5
 #, python-format
@@ -3443,7 +3443,7 @@ msgstr "개정판 %(id)s 작성자 <a href=\"%(user_profile_url)s\" %(rel)s>%(us
 
 #: kuma/wiki/jinja2/wiki/edit.html:67
 msgid "Current Revision:"
-msgstr "현재 리비전:"
+msgstr "현재 개정판:"
 
 #: kuma/wiki/jinja2/wiki/edit.html:106
 msgid "Search results summary:"
@@ -3492,7 +3492,7 @@ msgstr "즐겁게 공헌 활동에 자랑스럽게 참여하세요!"
 
 #: kuma/wiki/jinja2/wiki/edit.html:194
 msgid "Learn how to tag an article"
-msgstr "문서 태그 배우기"
+msgstr "문서에 태그 다는 법"
 
 #: kuma/wiki/jinja2/wiki/edit.html:199 kuma/wiki/jinja2/wiki/translate.html:120
 #, python-format
@@ -3602,43 +3602,43 @@ msgstr "개정판 %(id)s | %(title)s"
 
 #: kuma/wiki/jinja2/wiki/revision.html:13
 msgid "Revision Information"
-msgstr "리비전 정보"
+msgstr "개정판 정보"
 
 #: kuma/wiki/jinja2/wiki/revision.html:17
 msgid "Revision slug:"
-msgstr "리비전 슬러그:"
+msgstr "개정판 슬러그:"
 
 #: kuma/wiki/jinja2/wiki/revision.html:21
 msgid "Revision title:"
-msgstr "리비전 제목:"
+msgstr "개정판 제목:"
 
 #: kuma/wiki/jinja2/wiki/revision.html:25
 msgid "Revision id:"
-msgstr "리비전 아이디:"
+msgstr "개정판 ID:"
 
 #: kuma/wiki/jinja2/wiki/revision.html:29
 msgid "Created:"
-msgstr "제작일시:"
+msgstr "작성일:"
 
 #: kuma/wiki/jinja2/wiki/revision.html:33
 msgid "Creator:"
-msgstr "만든이:"
+msgstr "작성자:"
 
 #: kuma/wiki/jinja2/wiki/revision.html:38
 msgid "Is current revision?"
-msgstr "현재 리비전인가요?"
+msgstr "현재 개정판인가요?"
 
 #: kuma/wiki/jinja2/wiki/revision.html:57
 msgid "Revision Content"
-msgstr "리비전 내용"
+msgstr "개정판 내용"
 
 #: kuma/wiki/jinja2/wiki/revision.html:64
 msgid "Revision Source"
-msgstr "리비전 소스"
+msgstr "개정판 소스"
 
 #: kuma/wiki/jinja2/wiki/revision.html:70 kuma/wiki/jinja2/wiki/list/revisions.html:78
 msgid "Revert to this revision"
-msgstr "현재 리비전 복원"
+msgstr "이 개정판으로 복원"
 
 #: kuma/wiki/jinja2/wiki/select_locale.html:2
 #, python-format
@@ -3717,7 +3717,7 @@ msgstr "버전 정보"
 # mozilla, Popular Mozilla Documentation - 링크 텍스트
 #: kuma/wiki/jinja2/wiki/translate.html:154
 msgid "Localization flags"
-msgstr "플래그 지역화"
+msgstr "지역화 플래그"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:4
 #, python-format
@@ -3743,7 +3743,7 @@ msgstr "문서 편집:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:31
 msgid "Article History:"
-msgstr "문서 기록:"
+msgstr "글 이력:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:40
 #, python-format
@@ -3910,7 +3910,7 @@ msgstr "목차 만들기"
 # 100%
 #: kuma/wiki/jinja2/wiki/includes/document_toc_field.html:2 kuma/wiki/jinja2/wiki/includes/translate_description.html:49
 msgid "TOC:"
-msgstr "TOC:"
+msgstr "목차:"
 
 #: kuma/wiki/jinja2/wiki/includes/guide_links.html:2
 msgid "Need Help?"
@@ -3993,15 +3993,15 @@ msgstr "검토가 필요한가요?"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:3
 msgid "Revision Comment"
-msgstr "리비전 답글"
+msgstr "개정판 코멘트"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:4
 msgid "Learn how to use Revision Comments"
-msgstr "리비전 답글 사용 방법"
+msgstr "개정판 코멘트 사용법"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:8
 msgid "Tell us why you made additions and changes. It is optional, but will make page history easier to understand."
-msgstr "추가 및 변경 사유를 알려주세요. 이는 선택 사항이며 기록을 위한 것입니다."
+msgstr "추가 및 변경 사유를 알려주세요. 선택 사항이지만, 페이지 이력을 쉽게 이해할 수 있게 합니다."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:2
 #, python-format
@@ -4115,7 +4115,7 @@ msgstr "이력"
 
 #: kuma/wiki/jinja2/wiki/list/revisions.html:18
 msgid "Revision history for:"
-msgstr "리비전 이력:"
+msgstr "개정판 이력:"
 
 #: kuma/wiki/jinja2/wiki/list/revisions.html:43
 msgid "Compare Selected Translations"
@@ -4123,11 +4123,11 @@ msgstr "선택된 번역 비교"
 
 #: kuma/wiki/jinja2/wiki/list/revisions.html:43
 msgid "Compare Selected Revisions"
-msgstr "선택된 리비전 비교"
+msgstr "선택된 개정판 비교"
 
 #: kuma/wiki/jinja2/wiki/list/revisions.html:86
 msgid "This document has no revisions."
-msgstr "이 문서는 리비전이 없습니다."
+msgstr "이 문서는 개정판이 없습니다."
 
 #: kuma/wiki/jinja2/wiki/list/revisions.html:109
 msgid "Sign in to view all history"
@@ -4152,7 +4152,7 @@ msgstr "번역 문서 태그: %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
 msgid "Articles tagged with any localization tags"
-msgstr "번역된 태그를 포함한 문서 목록"
+msgstr "지역화 태그가 달린 문서"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:15
 #, python-format
@@ -4210,7 +4210,7 @@ msgstr "더 자세한 내용에 대한 Akismet 제출 선택"
 #: kuma/wiki/templatetags/jinja_helpers.py:104 kuma/wiki/templatetags/jinja_helpers.py:105 kuma/wiki/templatetags/jinja_helpers.py:120 kuma/wiki/templatetags/jinja_helpers.py:121
 #, python-format
 msgid "Revision %s"
-msgstr "리비전 (%s):"
+msgstr "개정판 %s"
 
 # 100%
 #: kuma/wiki/templatetags/jinja_helpers.py:110
