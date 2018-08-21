@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-05-25 13:38-0700\n"
+"POT-Creation-Date: 2018-08-21 13:12-0700\n"
 "PO-Revision-Date: 2018-03-30 18:31+0000\n"
 "Last-Translator: Alpha <adrien.gat@gmail.com>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -70,20 +70,20 @@ msgstr "%(sentDate)s par %(user)s"
 msgid "Error submitting as %(type)s"
 msgstr "Erreur lors de l'envoi en tant que %(type)s"
 
-#: kuma/static/js/lang-switcher.js:50
+#: kuma/static/js/lang-switcher.js:75
 #, python-format
 msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
 msgstr "Ce site est désormais affiché en %(localeName)s. Souhaitez-vous toujours consulter ce site en %(localeName)s ?"
 
-#: kuma/static/js/lang-switcher.js:54
+#: kuma/static/js/lang-switcher.js:79
 msgid "Yes"
 msgstr "Oui"
 
-#: kuma/static/js/lang-switcher.js:55
+#: kuma/static/js/lang-switcher.js:80
 msgid "No"
 msgstr "Non"
 
-#: kuma/static/js/lang-switcher.js:56
+#: kuma/static/js/lang-switcher.js:81
 msgid "Never"
 msgstr "Jamais"
 
@@ -124,23 +124,23 @@ msgstr "Fermer"
 msgid "New compatibility tables are in beta "
 msgstr "Les nouveaux tableaux de compatibilité sont disponibles en beta "
 
-#: kuma/static/js/wiki-compat-tables.js:103
+#: kuma/static/js/wiki-compat-tables.js:106
 msgid "More about the beta."
 msgstr "En savoir plus sur la beta."
 
-#: kuma/static/js/wiki-compat-tables.js:106
+#: kuma/static/js/wiki-compat-tables.js:112
 msgid "Take the survey"
 msgstr "Répondre au sondage"
 
-#: kuma/static/js/wiki-compat-tables.js:109
+#: kuma/static/js/wiki-compat-tables.js:118
 msgid "Report an error."
 msgstr "Rapporter une erreur."
 
-#: kuma/static/js/wiki-compat-tables.js:115
+#: kuma/static/js/wiki-compat-tables.js:124
 msgid "Reported. Thanks!"
 msgstr "C'est rapporté. Merci !"
 
-#: kuma/static/js/wiki-compat-tables.js:119
+#: kuma/static/js/wiki-compat-tables.js:128
 msgid "Show old table."
 msgstr "Afficher l'ancien tableau."
 
@@ -232,21 +232,26 @@ msgstr "La publication a échoué. Veuillez copier-coller vos modifications dans
 msgid "Open in %(site)s"
 msgstr "Ouvrir dans %(site)s"
 
-#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:344
-msgid "Search Stack Overflow"
-msgstr "Rechercher sur Stack Overflow"
-
-#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:375
-msgid "Your browser does not support MathML. A CSS fallback has been used instead."
-msgstr "Votre navigateur ne supporte pas MathML. Un contenu de remplacement avec CSS a été utilisé."
-
-#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:584
-msgid "Details"
-msgstr "Détails"
-
 #: kuma/static/js/wiki-tags-edit.js:50
 msgid "New tag..."
 msgstr "Nouvelle étiquette…"
+
+#: kuma/static/js/wiki.js:294
+msgid "Search Stack Overflow"
+msgstr "Rechercher sur Stack Overflow"
+
+#: kuma/static/js/wiki.js:325
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
+msgstr "Votre navigateur ne supporte pas MathML. Un contenu de remplacement avec CSS a été utilisé."
+
+#: kuma/static/js/wiki.js:534
+msgid "Details"
+msgstr "Détails"
+
+#: kuma/static/js/components/local-anchor.js:20
+#, fuzzy
+msgid "Link to section"
+msgstr "Aucune sélection"
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"

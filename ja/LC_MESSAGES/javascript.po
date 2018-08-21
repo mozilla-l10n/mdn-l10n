@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-05-25 13:38-0700\n"
+"POT-Creation-Date: 2018-08-21 13:12-0700\n"
 "PO-Revision-Date: 2018-03-28 22:00+0000\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -70,20 +70,20 @@ msgstr "%(sentDate)s / %(user)s"
 msgid "Error submitting as %(type)s"
 msgstr "%(type)s で送信中に問題が発生しました"
 
-#: kuma/static/js/lang-switcher.js:50
+#: kuma/static/js/lang-switcher.js:75
 #, python-format
 msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
 msgstr "現在 %(localeName)s でこのサイトを表示しています。常に %(localeName)s でこのサイトを表示しますか？"
 
-#: kuma/static/js/lang-switcher.js:54
+#: kuma/static/js/lang-switcher.js:79
 msgid "Yes"
 msgstr "はい"
 
-#: kuma/static/js/lang-switcher.js:55
+#: kuma/static/js/lang-switcher.js:80
 msgid "No"
 msgstr "いいえ"
 
-#: kuma/static/js/lang-switcher.js:56
+#: kuma/static/js/lang-switcher.js:81
 msgid "Never"
 msgstr "確認しない"
 
@@ -124,23 +124,23 @@ msgstr "閉じる"
 msgid "New compatibility tables are in beta "
 msgstr "新しい互換性の表はベータ版です "
 
-#: kuma/static/js/wiki-compat-tables.js:103
+#: kuma/static/js/wiki-compat-tables.js:106
 msgid "More about the beta."
 msgstr "ベータ版に関する詳細"
 
-#: kuma/static/js/wiki-compat-tables.js:106
+#: kuma/static/js/wiki-compat-tables.js:112
 msgid "Take the survey"
 msgstr "アンケートに答える"
 
-#: kuma/static/js/wiki-compat-tables.js:109
+#: kuma/static/js/wiki-compat-tables.js:118
 msgid "Report an error."
 msgstr "問題を報告"
 
-#: kuma/static/js/wiki-compat-tables.js:115
+#: kuma/static/js/wiki-compat-tables.js:124
 msgid "Reported. Thanks!"
 msgstr "報告が送信されました。ありがとうございます！"
 
-#: kuma/static/js/wiki-compat-tables.js:119
+#: kuma/static/js/wiki-compat-tables.js:128
 msgid "Show old table."
 msgstr "古い表を表示"
 
@@ -230,21 +230,26 @@ msgstr "公開できませんでした。変更点を安全な所へコピー＆
 msgid "Open in %(site)s"
 msgstr "%(site)s で開く"
 
-#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:344
-msgid "Search Stack Overflow"
-msgstr "Stack Overflow を検索"
-
-#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:375
-msgid "Your browser does not support MathML. A CSS fallback has been used instead."
-msgstr "お使いのブラウザーは MathML に対応していません。代わりに CSS フォールバックを表示します。"
-
-#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:584
-msgid "Details"
-msgstr "詳細"
-
 #: kuma/static/js/wiki-tags-edit.js:50
 msgid "New tag..."
 msgstr "新しいタグ..."
+
+#: kuma/static/js/wiki.js:294
+msgid "Search Stack Overflow"
+msgstr "Stack Overflow を検索"
+
+#: kuma/static/js/wiki.js:325
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
+msgstr "お使いのブラウザーは MathML に対応していません。代わりに CSS フォールバックを表示します。"
+
+#: kuma/static/js/wiki.js:534
+msgid "Details"
+msgstr "詳細"
+
+#: kuma/static/js/components/local-anchor.js:20
+#, fuzzy
+msgid "Link to section"
+msgstr "選択なし"
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"

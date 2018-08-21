@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-05-25 13:38-0700\n"
+"POT-Creation-Date: 2018-08-21 13:12-0700\n"
 "PO-Revision-Date: 2018-05-10 10:46+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -71,20 +71,20 @@ msgstr "%(sentDate)s nga %(user)s"
 msgid "Error submitting as %(type)s"
 msgstr "Gabim në parashtrimin si %(type)s"
 
-#: kuma/static/js/lang-switcher.js:50
+#: kuma/static/js/lang-switcher.js:75
 #, python-format
 msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
 msgstr "Këtë sajt po e shihni në %(localeName)s. Doni ta shihni përherë këtë sajt në %(localeName)s?"
 
-#: kuma/static/js/lang-switcher.js:54
+#: kuma/static/js/lang-switcher.js:79
 msgid "Yes"
 msgstr "Po"
 
-#: kuma/static/js/lang-switcher.js:55
+#: kuma/static/js/lang-switcher.js:80
 msgid "No"
 msgstr "Jo"
 
-#: kuma/static/js/lang-switcher.js:56
+#: kuma/static/js/lang-switcher.js:81
 msgid "Never"
 msgstr "Kurrë"
 
@@ -125,23 +125,23 @@ msgstr "Mbylle"
 msgid "New compatibility tables are in beta "
 msgstr "Tabelat e reja të përputhshmërisë janë në gjendje beta"
 
-#: kuma/static/js/wiki-compat-tables.js:103
+#: kuma/static/js/wiki-compat-tables.js:106
 msgid "More about the beta."
 msgstr "Më tepër mbi betan."
 
-#: kuma/static/js/wiki-compat-tables.js:106
+#: kuma/static/js/wiki-compat-tables.js:112
 msgid "Take the survey"
 msgstr "Plotësoni pyetësorin"
 
-#: kuma/static/js/wiki-compat-tables.js:109
+#: kuma/static/js/wiki-compat-tables.js:118
 msgid "Report an error."
 msgstr "Njoftoni një gabim"
 
-#: kuma/static/js/wiki-compat-tables.js:115
+#: kuma/static/js/wiki-compat-tables.js:124
 msgid "Reported. Thanks!"
 msgstr "U njoftua. Faleminderit!"
 
-#: kuma/static/js/wiki-compat-tables.js:119
+#: kuma/static/js/wiki-compat-tables.js:128
 msgid "Show old table."
 msgstr "Shfaq tabelën e vjetër."
 
@@ -231,21 +231,26 @@ msgstr "Botimi dështoi. Ju lutemi, kopjojini dhe ngjitini ndryshimet tuaja në 
 msgid "Open in %(site)s"
 msgstr "Hape në %(site)s"
 
-#: kuma/static/js/wiki-skinny.js:383 kuma/static/js/wiki.js:344
-msgid "Search Stack Overflow"
-msgstr "Kërkoni te Stack Overflow"
-
-#: kuma/static/js/wiki-skinny.js:414 kuma/static/js/wiki.js:375
-msgid "Your browser does not support MathML. A CSS fallback has been used instead."
-msgstr "Shfletuesi juaj nuk mbulon MathML. Në vend të tij është përdorur CSS."
-
-#: kuma/static/js/wiki-skinny.js:623 kuma/static/js/wiki.js:584
-msgid "Details"
-msgstr "Hollësi"
-
 #: kuma/static/js/wiki-tags-edit.js:50
 msgid "New tag..."
 msgstr "Etiketë e re..."
+
+#: kuma/static/js/wiki.js:294
+msgid "Search Stack Overflow"
+msgstr "Kërkoni te Stack Overflow"
+
+#: kuma/static/js/wiki.js:325
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
+msgstr "Shfletuesi juaj nuk mbulon MathML. Në vend të tij është përdorur CSS."
+
+#: kuma/static/js/wiki.js:534
+msgid "Details"
+msgstr "Hollësi"
+
+#: kuma/static/js/components/local-anchor.js:20
+#, fuzzy
+msgid "Link to section"
+msgstr "Pa përzgjedhje"
 
 #: kuma/static/js/libs/ckeditor/source/plugins/mdn-attachment/plugin.js:38
 msgid "Select an attachment"
