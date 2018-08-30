@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-08-21 13:14-0700\n"
+"POT-Creation-Date: 2018-08-30 13:01-0700\n"
 "PO-Revision-Date: 2018-07-27 04:18+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -366,7 +366,7 @@ msgstr "이전에 Mozilla 관련 뉴스레터 구독을 확인하지 않은 경�
 msgid "Hide Newsletter Sign-up"
 msgstr "뉴스레터 신청 숨기기"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
 msgid "Previous"
 msgstr "이전"
 
@@ -434,7 +434,7 @@ msgstr "체코어"
 msgid "Dutch"
 msgstr "네델란드어"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
 msgid "English (US)"
 msgstr "영어 (미국)"
 
@@ -639,11 +639,11 @@ msgid "About MDN"
 msgstr "MDN 소개"
 
 # 각 페이지 2단째 헤더 - Twitter 링크
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:82
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:82
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:158 kuma/users/jinja2/users/includes/user_title_info.html:90
 #: kuma/users/jinja2/users/includes/user_title_info.html:97
 msgid "GitHub"
 msgstr "GitHub"
@@ -660,7 +660,7 @@ msgstr "소개"
 msgid "Contact Us"
 msgstr "연락처"
 
-#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:126
+#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:126
 msgid "Facebook"
 msgstr "페이스북"
 
@@ -677,7 +677,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "구독 취소하시겠습니까?"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/wiki/jinja2/wiki/confirm_document_delete.html:44
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
 msgid "Cancel"
 msgstr "취소"
 
@@ -969,11 +969,11 @@ msgstr "이 값은 최대 %(limit_value)s 자까지 입력 가능합니다(현�
 msgid "Today at %s"
 msgstr "%s의 오늘"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "Yes"
 msgstr "네"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "No"
 msgstr "아니오"
 
@@ -1148,7 +1148,7 @@ msgstr "사용자 도구:"
 msgid "Referrer:"
 msgstr "참조:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:135
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:142
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "%(ban_date)s에 %(user)s에 의해 계정이 정지됨"
@@ -1293,6 +1293,10 @@ msgstr "MDN 홍보하기"
 #: kuma/landing/jinja2/landing/homepage.html:134
 msgid "Contributing to the MDN codebase"
 msgstr "MDN 웹 사이트 개발 참여"
+
+#: kuma/landing/jinja2/landing/homepage.html:135
+msgid "Updating browser compatibility data"
+msgstr ""
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
 msgid "Maintenance Mode"
@@ -1812,32 +1816,37 @@ msgstr "사용자이름"
 msgid "Display a link to GitHub on my profile"
 msgstr "프로필에 GitHub 링크 표시하기"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/forms.py:82 kuma/users/models.py:182 kuma/users/jinja2/users/includes/user_title_info.html:105
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:112
+#: kuma/users/forms.py:91 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:119
+#: kuma/users/forms.py:100 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr "Mozilla 공헌자"
 
+#: kuma/users/forms.py:118 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:133
+#, fuzzy
+msgid "Discourse"
+msgstr "연결 해제"
+
 # 100%
-#: kuma/users/forms.py:141
+#: kuma/users/forms.py:150
 msgid "Areas of expertise must be a subset of interests"
 msgstr "전문가 영역은 관심의 부분집합이어야 합니다"
 
-#: kuma/users/forms.py:150
+#: kuma/users/forms.py:159
 msgid "This field cannot be blank."
 msgstr "항목을 채워야 합니다."
 
-#: kuma/users/forms.py:156
+#: kuma/users/forms.py:165
 msgid "Username already in use."
 msgstr "이미 사용 중인 사용자 이름입니다."
 
-#: kuma/users/forms.py:166
+#: kuma/users/forms.py:175
 msgid "Email"
 msgstr "메일 주소"
 
@@ -1919,11 +1928,16 @@ msgstr "유효한 Mozillians URL을 입력해주세요."
 msgid "Enter a valid Facebook URL."
 msgstr "유효한 Facebook URL을 입력해주세요."
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:141
+#, fuzzy
+msgid "Enter a valid Discourse URL."
+msgstr "유효한 GitHub URL을 입력해주세요."
+
+#: kuma/users/models.py:148
 msgid "Website"
 msgstr "웹 사이트"
 
-#: kuma/users/models.py:158
+#: kuma/users/models.py:163
 msgid "Public GitHub URL"
 msgstr "공개된 GitHub URL"
 
@@ -2598,15 +2612,15 @@ msgstr "내 프로필"
 msgid "Use your GitHub account to sign in."
 msgstr "GitHub 계정으로 로그인 하세요."
 
-#: kuma/users/jinja2/users/user_edit.html:134 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "게시"
 
-#: kuma/users/jinja2/users/user_edit.html:138
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "계정을 삭제합니다."
 
-#: kuma/users/jinja2/users/user_edit.html:146
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 뉴스레터 구독을 관리합니다."
 
@@ -2756,7 +2770,7 @@ msgstr "스팸으로 신고됨."
 msgid "This user has not created any revisions in the past three days."
 msgstr "이 사용자는 지난 3일간 어떤 리비전도 만들지 않았습니다."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:721 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr "편집"
 
@@ -2776,7 +2790,7 @@ msgstr "API 키"
 msgid "Areas of Expertise"
 msgstr "전문 영역"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:132
+#: kuma/users/jinja2/users/includes/user_title_info.html:139
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s 이후로 멤버"
@@ -2822,7 +2836,7 @@ msgstr "편집 - 산문, 문법, 내용"
 msgid "Localization in progress - not completely translated yet."
 msgstr "지역화 진행 중 - 아직 완전히 번역되지 않았습니다."
 
-#: kuma/wiki/content.py:701
+#: kuma/wiki/content.py:702
 msgid "Edit section"
 msgstr "섹션 편집"
 
@@ -3284,6 +3298,35 @@ msgstr "문서 및 모든 편집 기록을 삭제하려고 합니다. 왜 삭제
 msgid "Are you sure you want to continue?"
 msgstr "계속 하시겠습니까?"
 
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:2
+#, fuzzy, python-format
+msgid "Purge Document | %(document)s"
+msgstr "문서 삭제 | %(document)s"
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:7 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+msgid "Purge"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:11 kuma/wiki/jinja2/wiki/deletion_log.html:11
+#, python-format
+msgid "This document was deleted by <a href=\"%(url)s\">%(username)s</a> on %(when)s."
+msgstr "문서 삭제: <a href=\"%(url)s\">%(username)s</a> 일자: %(when)s."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:15 kuma/wiki/jinja2/wiki/deletion_log.html:16
+msgid "Reason for Deletion"
+msgstr "삭제 사유"
+
+# 100%
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:19
+#, fuzzy
+msgid "This document was deleted, for unknown reasons."
+msgstr "이 문서는 %(when)s에 삭제됐습니다."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:22
+#, fuzzy
+msgid "Purge this document?"
+msgstr "문서 삭제"
+
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:2
 #, python-format
 msgid "Revert Revision | %(document)s"
@@ -3336,19 +3379,14 @@ msgstr "현재 페이지를 알 수 있는 URL 항목"
 msgid "Document Deleted"
 msgstr "문서 삭제"
 
-# 100%
-#: kuma/wiki/jinja2/wiki/deletion_log.html:9
-#, python-format
-msgid "This document was deleted on %(when)s."
-msgstr "이 문서는 %(when)s에 삭제됐습니다."
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:14
-msgid "Reason for Deletion"
-msgstr "삭제 사유"
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:18
+#: kuma/wiki/jinja2/wiki/deletion_log.html:19
 msgid "Restore this document"
 msgstr "현재 문서 복원"
+
+#: kuma/wiki/jinja2/wiki/deletion_log.html:25
+#, fuzzy
+msgid "Purge this document"
+msgstr "문서 삭제"
 
 #: kuma/wiki/jinja2/wiki/document.html:118
 msgid "Jump to:"
@@ -4221,27 +4259,27 @@ msgstr "콘텐츠 생성중에 오류가 발생했습니다."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "문서가 이미 존재합니다. 주의: 당신이 리다이렉트를 삭제할 때까지 이동된 문서를 되돌릴 수 없습니다."
 
-#: kuma/wiki/views/document.py:667
+#: kuma/wiki/views/document.py:671
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "%(url)s 에서 문서 이동"
 
-#: kuma/wiki/views/document.py:721
+#: kuma/wiki/views/document.py:725
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "MDN에서 %(title)s에 대해서 배웠습니다."
 
-#: kuma/wiki/views/document.py:843
+#: kuma/wiki/views/document.py:847
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "지원하지 않는 문서 형식: %s"
 
-#: kuma/wiki/views/document.py:850
+#: kuma/wiki/views/document.py:854
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "처리 요청 중 오류: %s"
 
-#: kuma/wiki/views/document.py:873
+#: kuma/wiki/views/document.py:877
 msgid "ETag precondition failed"
 msgstr "ETag 이전 조건 실패"
 
@@ -4550,9 +4588,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 
 #~ msgid "You can sign in to your profile using any of the following:"
 #~ msgstr "다음 중 하나를 이용하여 프로필에 로그인할 수 있습니다:"
-
-#~ msgid "Disconnect"
-#~ msgstr "연결 해제"
 
 #~ msgid "You have no connected accounts."
 #~ msgstr "연결된 계정이 없습니다."
@@ -6762,9 +6797,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 
 #~ msgid "You are about to permanently delete this revision. <strong>This cannot be undone!</strong> Are you sure you want to continue?"
 #~ msgstr "해당 리비전을 영구적으로 삭제하려고 합니다. <strong>해당 작업은 취소할 수 없습니다.</strong> 계속 진행하시겠습니까?"
-
-#~ msgid "This document was deleted by <a href=\"%(url)s\">%(username)s</a> on %(when)s."
-#~ msgstr "문서 삭제: <a href=\"%(url)s\">%(username)s</a> 일자: %(when)s."
 
 #~ msgid "Move \"{t}\""
 #~ msgstr "\"{t}\" 이동"

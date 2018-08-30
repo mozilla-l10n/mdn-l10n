@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-08-21 13:14-0700\n"
+"POT-Creation-Date: 2018-08-30 13:01-0700\n"
 "PO-Revision-Date: 2018-08-02 19:52+0000\n"
 "Last-Translator: Emin Mastizada <emin@mastizada.com>\n"
 "Language-Team: Azerbaijani https://pontoon.mozilla.org/az/\n"
@@ -353,7 +353,7 @@ msgstr "Əgər daha öncə Mozilla ilə əlaqəli xəbər lentinə abunəlik tə
 msgid "Hide Newsletter Sign-up"
 msgstr "Qəzər qeydiyyatını gizlət"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
 msgid "Previous"
 msgstr "Əvvəlki"
 
@@ -421,7 +421,7 @@ msgstr "Çex"
 msgid "Dutch"
 msgstr "Niderlandca"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
 msgid "English (US)"
 msgstr "İngiliscə (ABŞ)"
 
@@ -625,11 +625,11 @@ msgstr "Web Tərtibatçılığı Öyrən"
 msgid "About MDN"
 msgstr "MDN Haqqında"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:82
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:82
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:158 kuma/users/jinja2/users/includes/user_title_info.html:90
 #: kuma/users/jinja2/users/includes/user_title_info.html:97
 msgid "GitHub"
 msgstr "GitHub"
@@ -646,7 +646,7 @@ msgstr "Haqqında"
 msgid "Contact Us"
 msgstr "Bizimlə Əlaqə"
 
-#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:126
+#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:126
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -663,7 +663,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "Abunəlikdən çıxmaq istədiyinizə əminsiniz?"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/wiki/jinja2/wiki/confirm_document_delete.html:44
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
 msgid "Cancel"
 msgstr "Ləğv et"
 
@@ -934,11 +934,11 @@ msgstr ""
 msgid "Today at %s"
 msgstr ""
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "Yes"
 msgstr "Bəli"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "No"
 msgstr "Yox"
 
@@ -1113,7 +1113,7 @@ msgstr "İstifadəçi agenti:"
 msgid "Referrer:"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:135
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:142
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr ""
@@ -1255,6 +1255,10 @@ msgstr "MDN-i tanıt"
 #: kuma/landing/jinja2/landing/homepage.html:134
 msgid "Contributing to the MDN codebase"
 msgstr "MDN Koduna Dəstək ol"
+
+#: kuma/landing/jinja2/landing/homepage.html:135
+msgid "Updating browser compatibility data"
+msgstr ""
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
 msgid "Maintenance Mode"
@@ -1769,31 +1773,35 @@ msgstr "İstifadəçi adı"
 msgid "Display a link to GitHub on my profile"
 msgstr ""
 
-#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/forms.py:82 kuma/users/models.py:182 kuma/users/jinja2/users/includes/user_title_info.html:105
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:112
+#: kuma/users/forms.py:91 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:119
+#: kuma/users/forms.py:100 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:141
+#: kuma/users/forms.py:118 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:133
+msgid "Discourse"
+msgstr ""
+
+#: kuma/users/forms.py:150
 msgid "Areas of expertise must be a subset of interests"
 msgstr "Biliklər maraqların alt növündə olmalıdır"
 
-#: kuma/users/forms.py:150
+#: kuma/users/forms.py:159
 msgid "This field cannot be blank."
 msgstr "Bu ərazi boş ola bilməz."
 
-#: kuma/users/forms.py:156
+#: kuma/users/forms.py:165
 msgid "Username already in use."
 msgstr "İstifadəçi adı artıq mövcuddur."
 
-#: kuma/users/forms.py:166
+#: kuma/users/forms.py:175
 msgid "Email"
 msgstr "E-poçt"
 
@@ -1872,11 +1880,16 @@ msgstr "Düngün Mozillians ünvanı daxil edin."
 msgid "Enter a valid Facebook URL."
 msgstr "Düngün Facebook ünvanı daxil edin."
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:141
+#, fuzzy
+msgid "Enter a valid Discourse URL."
+msgstr "Düngün GitHub ünvanı daxil edin."
+
+#: kuma/users/models.py:148
 msgid "Website"
 msgstr "Sayt"
 
-#: kuma/users/models.py:158
+#: kuma/users/models.py:163
 msgid "Public GitHub URL"
 msgstr "İctimai GitHub Ünvanı"
 
@@ -2547,15 +2560,15 @@ msgstr "Profillərim"
 msgid "Use your GitHub account to sign in."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:134 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Paylaş"
 
-#: kuma/users/jinja2/users/user_edit.html:138
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "Hesabımı sil."
 
-#: kuma/users/jinja2/users/user_edit.html:146
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla Qəzeti Abunəliyini idarə et."
 
@@ -2701,7 +2714,7 @@ msgstr ""
 msgid "This user has not created any revisions in the past three days."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:721 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr "Düzəlt"
 
@@ -2721,7 +2734,7 @@ msgstr "API açarları"
 msgid "Areas of Expertise"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:132
+#: kuma/users/jinja2/users/includes/user_title_info.html:139
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr ""
@@ -2767,7 +2780,7 @@ msgstr ""
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
-#: kuma/wiki/content.py:701
+#: kuma/wiki/content.py:702
 msgid "Edit section"
 msgstr ""
 
@@ -3207,6 +3220,33 @@ msgstr ""
 msgid "Are you sure you want to continue?"
 msgstr ""
 
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:2
+#, python-format
+msgid "Purge Document | %(document)s"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:7 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+msgid "Purge"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:11 kuma/wiki/jinja2/wiki/deletion_log.html:11
+#, fuzzy, python-format
+msgid "This document was deleted by <a href=\"%(url)s\">%(username)s</a> on %(when)s."
+msgstr "Bu sənəd %(when)s tarixində silinib."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:15 kuma/wiki/jinja2/wiki/deletion_log.html:16
+msgid "Reason for Deletion"
+msgstr "Silinmə səbəbi"
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:19
+#, fuzzy
+msgid "This document was deleted, for unknown reasons."
+msgstr "Bu sənəd %(when)s tarixində silinib."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:22
+msgid "Purge this document?"
+msgstr ""
+
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:2
 #, python-format
 msgid "Revert Revision | %(document)s"
@@ -3256,17 +3296,12 @@ msgstr ""
 msgid "Document Deleted"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/deletion_log.html:9
-#, python-format
-msgid "This document was deleted on %(when)s."
-msgstr "Bu sənəd %(when)s tarixində silinib."
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:14
-msgid "Reason for Deletion"
-msgstr "Silinmə səbəbi"
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:18
+#: kuma/wiki/jinja2/wiki/deletion_log.html:19
 msgid "Restore this document"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/deletion_log.html:25
+msgid "Purge this document"
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:118
@@ -4124,27 +4159,27 @@ msgstr ""
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:667
+#: kuma/wiki/views/document.py:671
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:721
+#: kuma/wiki/views/document.py:725
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "MDN-də %(title)s haqqında öyrəndim."
 
-#: kuma/wiki/views/document.py:843
+#: kuma/wiki/views/document.py:847
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:850
+#: kuma/wiki/views/document.py:854
 #, python-format
 msgid "Request parsing error: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:873
+#: kuma/wiki/views/document.py:877
 msgid "ETag precondition failed"
 msgstr ""
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-08-21 13:14-0700\n"
+"POT-Creation-Date: 2018-08-30 13:01-0700\n"
 "PO-Revision-Date: 2017-07-04 16:00+0000\n"
 "Last-Translator: kscanne <kscanne@gmail.com>\n"
 "Language-Team: Irish https://pontoon.mozilla.org/ga_IE/\n"
@@ -373,7 +373,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr ""
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
 msgid "Previous"
 msgstr "Roimhe Seo"
 
@@ -441,7 +441,7 @@ msgstr ""
 msgid "Dutch"
 msgstr ""
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
 msgid "English (US)"
 msgstr ""
 
@@ -648,11 +648,11 @@ msgstr "/en/Web_Development"
 msgid "About MDN"
 msgstr "Maidir le MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:82
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:82
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:158 kuma/users/jinja2/users/includes/user_title_info.html:90
 #: kuma/users/jinja2/users/includes/user_title_info.html:97
 msgid "GitHub"
 msgstr "GitHub"
@@ -669,7 +669,7 @@ msgstr "Maidir Leis"
 msgid "Contact Us"
 msgstr "Teagmháil"
 
-#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:126
+#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:126
 msgid "Facebook"
 msgstr ""
 
@@ -687,7 +687,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "An bhfuil tú cinnte gur mhaith leat an leagan seo a scriosadh?"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/wiki/jinja2/wiki/confirm_document_delete.html:44
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
 msgid "Cancel"
 msgstr "Cealaigh"
 
@@ -967,11 +967,11 @@ msgstr "Tá an t-ainm úsáideora rófhada (%(show_value)s carachtar). Ní mór 
 msgid "Today at %s"
 msgstr "Inniu ag %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "Yes"
 msgstr "Bhí"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "No"
 msgstr "Ní raibh"
 
@@ -1163,7 +1163,7 @@ msgstr "Ainm úsáideora:"
 msgid "Referrer:"
 msgstr "Tagairt"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:135
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:142
 #, fuzzy, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "Scríofa ag %(authorlink)s ar %(entrydate)s"
@@ -1308,6 +1308,10 @@ msgstr ""
 
 #: kuma/landing/jinja2/landing/homepage.html:134
 msgid "Contributing to the MDN codebase"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/homepage.html:135
+msgid "Updating browser compatibility data"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
@@ -1878,33 +1882,38 @@ msgstr "Ainm úsáideora"
 msgid "Display a link to GitHub on my profile"
 msgstr ""
 
-#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/forms.py:82 kuma/users/models.py:182 kuma/users/jinja2/users/includes/user_title_info.html:105
 #, fuzzy
 msgid "Stack Overflow"
 msgstr "StackOverflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:112
+#: kuma/users/forms.py:91 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:119
+#: kuma/users/forms.py:100 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr ""
 
-#: kuma/users/forms.py:141
+#: kuma/users/forms.py:118 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:133
+#, fuzzy
+msgid "Discourse"
+msgstr "Díospóireacht"
+
+#: kuma/users/forms.py:150
 msgid "Areas of expertise must be a subset of interests"
 msgstr ""
 
-#: kuma/users/forms.py:150
+#: kuma/users/forms.py:159
 msgid "This field cannot be blank."
 msgstr ""
 
-#: kuma/users/forms.py:156
+#: kuma/users/forms.py:165
 #, fuzzy
 msgid "Username already in use."
 msgstr "Ainm úsáideora de dhíth."
 
-#: kuma/users/forms.py:166
+#: kuma/users/forms.py:175
 #, fuzzy
 msgid "Email"
 msgstr "Ríomhphost:"
@@ -1987,11 +1996,16 @@ msgstr ""
 msgid "Enter a valid Facebook URL."
 msgstr "Cuir URL facebook.com isteach."
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:141
+#, fuzzy
+msgid "Enter a valid Discourse URL."
+msgstr "Cuir URL twitter.com isteach."
+
+#: kuma/users/models.py:148
 msgid "Website"
 msgstr "Suíomh Gréasáin"
 
-#: kuma/users/models.py:158
+#: kuma/users/models.py:163
 msgid "Public GitHub URL"
 msgstr ""
 
@@ -2706,16 +2720,16 @@ msgstr "Mo phróifíl"
 msgid "Use your GitHub account to sign in."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:134 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:138
+#: kuma/users/jinja2/users/user_edit.html:140
 #, fuzzy
 msgid "Delete your account."
 msgstr "Scrios an nóta tráchta"
 
-#: kuma/users/jinja2/users/user_edit.html:146
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr ""
 
@@ -2864,7 +2878,7 @@ msgstr ""
 msgid "This user has not created any revisions in the past three days."
 msgstr "Ní é an t-údar a chruthaigh é seo"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:721 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr "Eagar"
 
@@ -2885,7 +2899,7 @@ msgstr ""
 msgid "Areas of Expertise"
 msgstr "Réimsí Inniúlachta"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:132
+#: kuma/users/jinja2/users/includes/user_title_info.html:139
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr ""
@@ -2933,7 +2947,7 @@ msgstr "Eagarthóireacht - prós, gramadach, nó ábhar"
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
-#: kuma/wiki/content.py:701
+#: kuma/wiki/content.py:702
 msgid "Edit section"
 msgstr "Cuir rannán in eagar"
 
@@ -3387,6 +3401,34 @@ msgstr ""
 msgid "Are you sure you want to continue?"
 msgstr "An bhfuil tú cinnte gur mhaith leat an leagan seo a scriosadh?"
 
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:2
+#, fuzzy, python-format
+msgid "Purge Document | %(document)s"
+msgstr "Scrios Leagan | {document}"
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:7 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+msgid "Purge"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:11 kuma/wiki/jinja2/wiki/deletion_log.html:11
+#, fuzzy, python-format
+msgid "This document was deleted by <a href=\"%(url)s\">%(username)s</a> on %(when)s."
+msgstr "Níl cáipéis \"%s\" ann."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:15 kuma/wiki/jinja2/wiki/deletion_log.html:16
+msgid "Reason for Deletion"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:19
+#, fuzzy
+msgid "This document was deleted, for unknown reasons."
+msgstr "Níl cáipéis \"%s\" ann."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:22
+#, fuzzy
+msgid "Purge this document?"
+msgstr "Cáipéisí MDN"
+
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:2
 #, fuzzy, python-format
 msgid "Revert Revision | %(document)s"
@@ -3439,19 +3481,15 @@ msgstr ""
 msgid "Document Deleted"
 msgstr "Clib Cháipéise"
 
-#: kuma/wiki/jinja2/wiki/deletion_log.html:9
-#, fuzzy, python-format
-msgid "This document was deleted on %(when)s."
-msgstr "Níl cáipéis \"%s\" ann."
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:14
-msgid "Reason for Deletion"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:18
+#: kuma/wiki/jinja2/wiki/deletion_log.html:19
 #, fuzzy
 msgid "Restore this document"
 msgstr "Déan tuairisc ar an nóta tráchta seo"
+
+#: kuma/wiki/jinja2/wiki/deletion_log.html:25
+#, fuzzy
+msgid "Purge this document"
+msgstr "Cáipéisí MDN"
 
 #: kuma/wiki/jinja2/wiki/document.html:118
 msgid "Jump to:"
@@ -4362,27 +4400,27 @@ msgstr ""
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:667
+#: kuma/wiki/views/document.py:671
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:721
+#: kuma/wiki/views/document.py:725
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr ""
 
-#: kuma/wiki/views/document.py:843
+#: kuma/wiki/views/document.py:847
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:850
+#: kuma/wiki/views/document.py:854
 #, python-format
 msgid "Request parsing error: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:873
+#: kuma/wiki/views/document.py:877
 msgid "ETag precondition failed"
 msgstr ""
 
@@ -4542,9 +4580,6 @@ msgstr ""
 
 #~ msgid "Account Connections"
 #~ msgstr "Bailiúcháin"
-
-#~ msgid "Disconnect"
-#~ msgstr "Díospóireacht"
 
 #~ msgid "You have no connected accounts."
 #~ msgstr "Níl cuntas agam."

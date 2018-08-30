@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-08-21 13:14-0700\n"
+"POT-Creation-Date: 2018-08-30 13:01-0700\n"
 "PO-Revision-Date: 2018-08-24 12:29+0000\n"
 "Last-Translator: صفا الفليج <safa1996alfulaij@gmail.com>\n"
 "Language-Team: Arabic https://pontoon.mozilla.org/ar/\n"
@@ -352,7 +352,7 @@ msgstr "إن لم يسبق لك تأكيد اشتراكك في إحدى نشرا
 msgid "Hide Newsletter Sign-up"
 msgstr "أخفِ التسجيل بالنشرة البريدية"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
 msgid "Previous"
 msgstr "السابق"
 
@@ -420,7 +420,7 @@ msgstr "التشيكية"
 msgid "Dutch"
 msgstr "الهولندية"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
 msgid "English (US)"
 msgstr "الإنجليزية (الولايات المتحدة)"
 
@@ -624,11 +624,11 @@ msgstr "تعلّم تطوير الوب"
 msgid "About MDN"
 msgstr "عن MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:162 kuma/users/jinja2/users/includes/user_title_info.html:82
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:82
 msgid "Twitter"
 msgstr "تويتر"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:158 kuma/users/jinja2/users/includes/user_title_info.html:90
 #: kuma/users/jinja2/users/includes/user_title_info.html:97
 msgid "GitHub"
 msgstr "غِت‌هَب"
@@ -645,7 +645,7 @@ msgstr "عنّا"
 msgid "Contact Us"
 msgstr "تواصل معنا"
 
-#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:126
+#: jinja2/includes/footer/moz-footer.html:15 kuma/users/forms.py:109 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:126
 msgid "Facebook"
 msgstr "فيسبوك"
 
@@ -662,7 +662,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "أمتأكد من إلغاء الاشتراك؟"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/wiki/jinja2/wiki/confirm_document_delete.html:44
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
 msgid "Cancel"
 msgstr "ألغِ"
 
@@ -868,8 +868,8 @@ msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
 msgstr ""
-"هذه مفاتيح API المخصصة لك. تفيد هذه المفاتيح في بناء تطبيقات تُجري المهام في MDN عنك. إن توقفت عن استخدام أحدها، أو شككت بأن أحدها تسرب إلى أطراف لا تثق بها، فاحذف المفتاح. من السهل إنشاء مفتاح بديل"
-" في أي وقت تريد."
+"هذه مفاتيح API المخصصة لك. تفيد هذه المفاتيح في بناء تطبيقات تُجري المهام في MDN عنك. إن توقفت عن استخدام أحدها، أو شككت بأن أحدها تسرب إلى أطراف لا تثق بها، فاحذف المفتاح. من السهل إنشاء مفتاح بديل "
+"في أي وقت تريد."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
@@ -895,8 +895,8 @@ msgstr "تحتاج تصريحا خاصا لاستخدام مفاتيح API. يم
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr "<p>صِف استخدامك لهذا المفتاح أدناه. <p><strong>ملاحظة:</strong> سيكون هذا الوصف طريقة لتحديد المفتاح لاحقا (بخلاف تاريخ ووقت إنشائه)، لذلك اكتبه بوضوح لألا تنسى وظيفته.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
@@ -939,11 +939,11 @@ msgstr "تأكّد من أن لهذه القيمة أحرف عددها %(limit_v
 msgid "Today at %s"
 msgstr "اليوم في %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "Yes"
 msgstr "نعم"
 
-#: kuma/core/templatetags/jinja_helpers.py:86
+#: kuma/core/templatetags/jinja_helpers.py:97
 msgid "No"
 msgstr "لا"
 
@@ -1122,7 +1122,7 @@ msgstr "وكيل المستخدم:"
 msgid "Referrer:"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:135
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:142
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "منعه %(user)s في %(ban_date)s"
@@ -1267,6 +1267,10 @@ msgstr "نشر MDN"
 msgid "Contributing to the MDN codebase"
 msgstr "المساهمة في قاعدة كود MDN"
 
+#: kuma/landing/jinja2/landing/homepage.html:135
+msgid "Updating browser compatibility data"
+msgstr ""
+
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
 msgid "Maintenance Mode"
 msgstr "وضع الصيانة"
@@ -1308,8 +1312,8 @@ msgstr ""
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:39
@@ -1771,8 +1775,8 @@ msgstr ""
 #: kuma/users/adapters.py:28
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
 
 #: kuma/users/adapters.py:32
@@ -1815,31 +1819,36 @@ msgstr "اسم المستخدم"
 msgid "Display a link to GitHub on my profile"
 msgstr "اعرض رابطًا إلى ملفي في غِت‌هَب"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/forms.py:82 kuma/users/models.py:182 kuma/users/jinja2/users/includes/user_title_info.html:105
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:167 kuma/users/jinja2/users/includes/user_title_info.html:112
+#: kuma/users/forms.py:91 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "لِنكد‌إن"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:148 kuma/users/jinja2/users/includes/user_title_info.html:119
+#: kuma/users/forms.py:100 kuma/users/models.py:153 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr ""
 
-#: kuma/users/forms.py:141
+#: kuma/users/forms.py:118 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:133
+#, fuzzy
+msgid "Discourse"
+msgstr "أهمِل"
+
+#: kuma/users/forms.py:150
 msgid "Areas of expertise must be a subset of interests"
 msgstr ""
 
-#: kuma/users/forms.py:150
+#: kuma/users/forms.py:159
 msgid "This field cannot be blank."
 msgstr "لا يمكن أن يكون هذا الحقل فارغا."
 
-#: kuma/users/forms.py:156
+#: kuma/users/forms.py:165
 msgid "Username already in use."
 msgstr ""
 
-#: kuma/users/forms.py:166
+#: kuma/users/forms.py:175
 msgid "Email"
 msgstr "البريد الإلكتروني"
 
@@ -1918,11 +1927,16 @@ msgstr ""
 msgid "Enter a valid Facebook URL."
 msgstr "أدخِل مسارًا صالحًا لفيسبوك."
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:141
+#, fuzzy
+msgid "Enter a valid Discourse URL."
+msgstr "أدخِل مسارًا صالحًا لغِت‌هَب."
+
+#: kuma/users/models.py:148
 msgid "Website"
 msgstr "الموقع"
 
-#: kuma/users/models.py:158
+#: kuma/users/models.py:163
 msgid "Public GitHub URL"
 msgstr "مسار غِت‌هَب العلني"
 
@@ -2253,8 +2267,8 @@ msgstr ""
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr "أي بريد علينا إرسال الرسائل المتعلقة بِ‍ MDN وكذلك التنبيهات؟ <strong>لن</strong> يُعرض العنوان في MDN وسيُستخدم حسب <a href=\"%(privacy_url)s\">إشعار الخصوصية</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
@@ -2593,15 +2607,15 @@ msgstr "ملفاتي الشخصية"
 msgid "Use your GitHub account to sign in."
 msgstr "استخدم حسابك في غِت‌هَب للولوج."
 
-#: kuma/users/jinja2/users/user_edit.html:134 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "انشر"
 
-#: kuma/users/jinja2/users/user_edit.html:138
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_edit.html:146
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr ""
 
@@ -2646,8 +2660,8 @@ msgid ""
 "Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
 msgstr ""
-"يمكنك الآن المتابعة باختيار مهمة على MDN وتنفيذها. لدينا عدد من المهام البسيطة التي يمكنك الاختيار منها، أكنت <a href=\"%(words_link)s\">تحب الكلمات</a>، أو <a href=\"%(code_link)s\">تحب "
-"البرمجة</a>، أو <a href=\"%(both_link)s\">تحبهما كليهما</a>، أو إن أردت <a href=\"%(translate_link)s\">ترجمة MDN إلى لغتك</a>."
+"يمكنك الآن المتابعة باختيار مهمة على MDN وتنفيذها. لدينا عدد من المهام البسيطة التي يمكنك الاختيار منها، أكنت <a href=\"%(words_link)s\">تحب الكلمات</a>، أو <a href=\"%(code_link)s\">تحب البرمجة</"
+"a>، أو <a href=\"%(both_link)s\">تحبهما كليهما</a>، أو إن أردت <a href=\"%(translate_link)s\">ترجمة MDN إلى لغتك</a>."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:34
 msgid "Talk to us!"
@@ -2669,8 +2683,8 @@ msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
-"الدردشة الحية: <a href=\"%(channel_link)s\">قناة ‎#mdn على irc.mozilla.org</a>.  (تعلّم أكثر عن <a href=\"%(irc_link)s\">آي‌آر‌سي</a>.) يمكنك أن تجد مديري الكتابة في MDN هناك: Eric Shepherd‏ "
-"(sheppy)، وWill Bamberg ‏(wbamberg)، وFlorian Scholz ‏(fscholz)، وChris Mills ‏(chrismills)، وأنا (jswisher) مدير مجتمع MDN."
+"الدردشة الحية: <a href=\"%(channel_link)s\">قناة ‎#mdn على irc.mozilla.org</a>.  (تعلّم أكثر عن <a href=\"%(irc_link)s\">آي‌آر‌سي</a>.) يمكنك أن تجد مديري الكتابة في MDN هناك: Eric Shepherd‏ (sheppy)، "
+"وWill Bamberg ‏(wbamberg)، وFlorian Scholz ‏(fscholz)، وChris Mills ‏(chrismills)، وأنا (jswisher) مدير مجتمع MDN."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2751,7 +2765,7 @@ msgstr ""
 msgid "This user has not created any revisions in the past three days."
 msgstr "لم يُنشئ المستخدم أية مراجعات خلال الثلاث أيام المنصرمة."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:720 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:721 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr "حرّر"
 
@@ -2771,7 +2785,7 @@ msgstr "مفاتيح API"
 msgid "Areas of Expertise"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:132
+#: kuma/users/jinja2/users/includes/user_title_info.html:139
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "عضو منذ %(date_joined)s"
@@ -2817,7 +2831,7 @@ msgstr ""
 msgid "Localization in progress - not completely translated yet."
 msgstr "يجري التوطين - لم تكتمل الترجمة بعد."
 
-#: kuma/wiki/content.py:701
+#: kuma/wiki/content.py:702
 msgid "Edit section"
 msgstr "حرّر القسم"
 
@@ -3200,8 +3214,8 @@ msgstr "تحاول إنشاء صفحة جديدة."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 
 #: kuma/wiki/jinja2/403-create-page.html:17
@@ -3257,6 +3271,34 @@ msgstr "أنت على وشك حذف هذا المستند وكل مراجعات�
 msgid "Are you sure you want to continue?"
 msgstr "أمتأكد من المتابعة؟"
 
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:2
+#, fuzzy, python-format
+msgid "Purge Document | %(document)s"
+msgstr "حذف المستند | %(document)s"
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:7 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+msgid "Purge"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:11 kuma/wiki/jinja2/wiki/deletion_log.html:11
+#, fuzzy, python-format
+msgid "This document was deleted by <a href=\"%(url)s\">%(username)s</a> on %(when)s."
+msgstr "حُذف المستند في %(when)s."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:15 kuma/wiki/jinja2/wiki/deletion_log.html:16
+msgid "Reason for Deletion"
+msgstr "سبب الحذف"
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:19
+#, fuzzy
+msgid "This document was deleted, for unknown reasons."
+msgstr "حُذف المستند في %(when)s."
+
+#: kuma/wiki/jinja2/wiki/confirm_purge.html:22
+#, fuzzy
+msgid "Purge this document?"
+msgstr "استعد هذا المستند"
+
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:2
 #, python-format
 msgid "Revert Revision | %(document)s"
@@ -3306,17 +3348,13 @@ msgstr ""
 msgid "Document Deleted"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/deletion_log.html:9
-#, python-format
-msgid "This document was deleted on %(when)s."
-msgstr "حُذف المستند في %(when)s."
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:14
-msgid "Reason for Deletion"
-msgstr "سبب الحذف"
-
-#: kuma/wiki/jinja2/wiki/deletion_log.html:18
+#: kuma/wiki/jinja2/wiki/deletion_log.html:19
 msgid "Restore this document"
+msgstr "استعد هذا المستند"
+
+#: kuma/wiki/jinja2/wiki/deletion_log.html:25
+#, fuzzy
+msgid "Purge this document"
 msgstr "استعد هذا المستند"
 
 #: kuma/wiki/jinja2/wiki/document.html:118
@@ -3336,15 +3374,15 @@ msgstr "يُصيّر النظام المستندَ لأول مرة. رجاءً <
 #: kuma/wiki/jinja2/wiki/document.html:160
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:169
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:180
@@ -4192,27 +4230,27 @@ msgstr "حدث خطأ ما أثناء توليد المحتوى."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr ""
 
-#: kuma/wiki/views/document.py:667
+#: kuma/wiki/views/document.py:671
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:721
+#: kuma/wiki/views/document.py:725
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr ""
 
-#: kuma/wiki/views/document.py:843
+#: kuma/wiki/views/document.py:847
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr ""
 
-#: kuma/wiki/views/document.py:850
+#: kuma/wiki/views/document.py:854
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "خطأ في تحليل الطلب: %s"
 
-#: kuma/wiki/views/document.py:873
+#: kuma/wiki/views/document.py:877
 msgid "ETag precondition failed"
 msgstr ""
 
@@ -4244,8 +4282,8 @@ msgstr ""
 #~ "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 #~ "locales</span> <span class=\"row3\">around the world.</span> </p>"
 #~ msgstr ""
-#~ "<p class=\"numbers\"> <span class=\"row1\">انضم إلى ال‍ <span class=\"number\">%(contributors)s</span> مساهما</span> <span class=\"row2\">في <span class=\"number\">%(locales)s</span> لغة "
-#~ "ومحلية</span> <span class=\"row3\">حول العالم.</span> </p>"
+#~ "<p class=\"numbers\"> <span class=\"row1\">انضم إلى ال‍ <span class=\"number\">%(contributors)s</span> مساهما</span> <span class=\"row2\">في <span class=\"number\">%(locales)s</span> لغة ومحلية</"
+#~ "span> <span class=\"row3\">حول العالم.</span> </p>"
 
 #~ msgid "Donate"
 #~ msgstr "تبرّع"
