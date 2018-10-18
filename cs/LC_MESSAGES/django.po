@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-08-30 13:01-0700\n"
+"POT-Creation-Date: 2018-10-18 10:58-0700\n"
 "PO-Revision-Date: 2018-10-14 17:09+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: Czech https://pontoon.mozilla.org/cs/\n"
@@ -55,8 +55,8 @@ msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
 msgstr ""
-"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> od Matthewa Inmana z <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The"
-" Oatmeal</a></small></p>"
+"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> od Matthewa Inmana z <a href=\"http://theoatmeal.com\" rel=\"nofollow"
+"\">The Oatmeal</a></small></p>"
 
 #: jinja2/404.html:6 jinja2/404.html:13
 msgid "Not Found"
@@ -111,31 +111,31 @@ msgstr "Možná vás budou zajímat i další způsoby, jak si <a href=\"%(conte
 msgid "Internal Server Error"
 msgstr "Vnitřní chyba serveru"
 
-#: jinja2/base.html:10 jinja2/base.html:55 jinja2/base.html:60 jinja2/base.html:105 jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:10 jinja2/base.html:56 jinja2/base.html:61 jinja2/base.html:107 jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Webová dokumentace MDN"
 
-#: jinja2/base.html:88
+#: jinja2/base.html:90
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN je v současné době v režimu údržby jen pro čtení."
 
-#: jinja2/base.html:90
+#: jinja2/base.html:92
 msgid "Learn more"
 msgstr "Zjistit více"
 
-#: jinja2/base.html:136
+#: jinja2/base.html:140
 msgid "Terms"
 msgstr "Podmínky"
 
-#: jinja2/base.html:137
+#: jinja2/base.html:141 kuma/contributions/jinja2/contributions/email/thank_you/email.html:148
 msgid "Privacy"
 msgstr "Soukromí"
 
-#: jinja2/base.html:138
+#: jinja2/base.html:142
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:142
+#: jinja2/base.html:146
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla a jednotliví přispěvatelé.</p> <p>Obsah je k dispozici pod <a href=\"%(copyright_url)s\">těmito licencemi</a>.</p>"
@@ -234,7 +234,8 @@ msgstr "Vývoj her"
 msgid "...more docs"
 msgstr "...více dokumentů"
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/contributions/jinja2/contributions/contribute.html:194
+#: kuma/contributions/jinja2/contributions/thank_you.html:73
 msgid "Feedback"
 msgstr "Zpětná vazba"
 
@@ -330,7 +331,7 @@ msgstr "Newsletter je v současné době nabízen pouze v angličtině."
 msgid "E-mail"
 msgstr "E-mail"
 
-#: jinja2/includes/newsletter.html:18
+#: jinja2/includes/newsletter.html:18 kuma/contributions/forms.py:46
 msgid "you@example.com"
 msgstr "you@example.com"
 
@@ -356,7 +357,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Skrýt přihlášení odběru novinek"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1328
 msgid "Previous"
 msgstr "Předchozí"
 
@@ -424,7 +425,7 @@ msgstr "Čeština"
 msgid "Dutch"
 msgstr "Nizozemština"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1338
 msgid "English (US)"
 msgstr "Angličtina (USA)"
 
@@ -637,7 +638,7 @@ msgstr "Twitter"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/includes/footer/moz-footer.html:1
+#: jinja2/includes/footer/moz-footer.html:1 kuma/contributions/jinja2/contributions/email/thank_you/email.html:145
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -679,8 +680,8 @@ msgid ""
 "We could not find your subscription. Either it has already been cancelled, or there was a mistake in the unsubscribe link. Please make sure the entire link from the email made it into the browser. "
 "If the last part of the link wraps onto a second line in the email, try copying and pasting the link into the browser."
 msgstr ""
-"Nemohli jsme najít vaše členství. Možná již bylo zrušeno, nebo je chyba v odhlašovacím odkazu. Prosím, ujistěte se, že jste zkopírovali celý odkaz z e-mailu do prohlížeče. Pokud poslední část odkazu"
-" v e-mailu přetéká na nový řádek, zkuste odkaz zkopírovat a vložit do prohlížeče."
+"Nemohli jsme najít vaše členství. Možná již bylo zrušeno, nebo je chyba v odhlašovacím odkazu. Prosím, ujistěte se, že jste zkopírovali celý odkaz z e-mailu do prohlížeče. Pokud poslední část "
+"odkazu v e-mailu přetéká na nový řádek, zkuste odkaz zkopírovat a vložit do prohlížeče."
 
 #: jinja2/tidings/unsubscribe_success.html:7
 msgid "Unsubscribed"
@@ -792,7 +793,7 @@ msgid "File"
 msgstr "Soubor"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1836
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1839
 msgid "Title"
 msgstr "Název"
 
@@ -842,15 +843,15 @@ msgstr "%(bytes)s bytů"
 msgid "n/a"
 msgstr "n/a"
 
-#: kuma/authkeys/models.py:32
+#: kuma/authkeys/models.py:35
 msgid "Lookup key"
 msgstr "Vyhledávací klíč"
 
-#: kuma/authkeys/models.py:34
+#: kuma/authkeys/models.py:37
 msgid "Hashed secret"
 msgstr "Hashovaný tajný klíč"
 
-#: kuma/authkeys/models.py:36
+#: kuma/authkeys/models.py:39
 msgid "Description of intended use"
 msgstr "Popis zamýšleného použití"
 
@@ -899,8 +900,8 @@ msgstr "K použití API klíčů potřebujete speciální oprávnění. Můžete
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 "<p>Níže popište zamýšlené využití klíče. <p><strong>POZNÁMKA:</strong> Kromě data a času vytvoření to bude jediný způsob, jak můžete později identifikovat tento klíč, pokuste se jej proto vyjádřit "
 "co možná nejlépe.</p>"
@@ -925,6 +926,368 @@ msgstr "ID klíče"
 #: kuma/authkeys/jinja2/authkeys/new.html:32
 msgid "Secret"
 msgstr "Tajný klíč"
+
+#: kuma/contributions/forms.py:32 kuma/contributions/forms.py:36
+msgid "Your full name"
+msgstr ""
+
+#: kuma/contributions/forms.py:37
+msgid "Required"
+msgstr ""
+
+#: kuma/contributions/forms.py:42
+#, fuzzy
+msgid "Your email"
+msgstr "Upravit e-mail"
+
+#: kuma/contributions/forms.py:47
+msgid "Must be a valid email"
+msgstr ""
+
+#: kuma/contributions/forms.py:48
+msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
+msgstr ""
+
+#: kuma/contributions/forms.py:57
+#, fuzzy
+msgid "Contribution choices"
+msgstr "Přispějte do kódu"
+
+#: kuma/contributions/forms.py:75
+msgid "Other amount"
+msgstr ""
+
+#: kuma/contributions/forms.py:76
+msgid "Must be more than $1"
+msgstr ""
+
+#: kuma/contributions/forms.py:103
+msgid "Please select donation amount or choose from pre-selected choices"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:5
+#, fuzzy
+msgid "Contribute"
+msgstr "Přispějte do MDN"
+
+#: kuma/contributions/jinja2/contributions/contribute.html:9
+#, fuzzy
+msgid "Contribute to MDN Web Docs"
+msgstr "Přispějte do MDN"
+
+#: kuma/contributions/jinja2/contributions/contribute.html:10 kuma/contributions/jinja2/contributions/includes/contribution-form.html:76
+#, fuzzy
+msgid "Support MDN"
+msgstr "O MDN"
+
+#: kuma/contributions/jinja2/contributions/contribute.html:29
+#, fuzzy
+msgid "Was this useful?"
+msgstr "Je tento článek užitečný?"
+
+#: kuma/contributions/jinja2/contributions/contribute.html:32
+msgid "Yes, this answered my question"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:36
+msgid "No, this did not answer my question"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:49
+msgid "FAQs"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:52
+msgid "Why is MDN asking me for money?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:54
+msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:62
+msgid ""
+"Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
+"wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
+"you, again) that lets us accelerate those improvements."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:75
+msgid "How is my payment handled? Is it secure?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:77
+#, python-format
+msgid ""
+"All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
+"number."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:85
+msgid "What data is Mozilla collecting about me?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:87
+msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:95
+msgid "What does money go towards?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:97
+msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:105
+msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:107
+#, python-format
+msgid ""
+"The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are tax-deductible and go to support Mozilla public "
+"and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> and payments to MDN are not used in Mozilla’s charitable programs but are "
+"reinvested into MDN’s content, tools, and platform."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:121
+msgid "Is support of MDN tax-deductible?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:123
+msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:130
+msgid "What will MDN user funding pay for?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:132
+msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:140
+msgid "Adding more content, and updating current content"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:141
+msgid "Improving performance of the site"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:142
+msgid "Modernizing the MDN platform"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:143
+msgid "Adding offline access to MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:144
+msgid "Supporting integrations with popular developer tools"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:145
+msgid "More tutorials and guides"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:146
+msgid "Training and webinars"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:149
+msgid "Why can’t you just open a Crowdsourcing campaign?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:151
+msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:158
+msgid "How has MDN been funded to date?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:160
+msgid ""
+"MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
+"we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:170
+msgid "How does Mozilla make money?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:172
+msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:180
+#, python-format
+msgid ""
+"Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
+"revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:198 kuma/contributions/jinja2/contributions/thank_you.html:78
+msgid "Your feedback goes here"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:199 kuma/contributions/jinja2/contributions/thank_you.html:79
+msgid "Send"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:5
+#, fuzzy
+msgid "Thank You"
+msgstr "Děkujeme Vám!"
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:16 kuma/contributions/jinja2/contributions/email/thank_you/email.html:5 kuma/contributions/jinja2/contributions/email/thank_you/email.html:57
+#, fuzzy
+msgid "Thank you for supporting MDN."
+msgstr "Děkujeme vám, že používáte MDN!"
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:19 kuma/contributions/jinja2/contributions/email/thank_you/email.html:83 kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:6
+msgid ""
+"We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
+"us make sure MDN can be available to everyone, everywhere."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:27 kuma/contributions/jinja2/contributions/email/thank_you/email.html:98 kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:10
+#, fuzzy
+msgid "Thank you again,"
+msgstr "Děkujeme Vám!"
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:28 kuma/contributions/jinja2/contributions/email/thank_you/email.html:111
+#: kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:11
+#, fuzzy
+msgid "The MDN Team"
+msgstr "Tým webové dokumentace MDN"
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:31
+#, python-format
+msgid "I support MDN, and you can too: %(url)s"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:33
+msgid "Share your support for MDN on Twitter"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:34
+msgid "Share your support for MDN on Facebook"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:50
+msgid "Ooops, something went wrong"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:53
+#, fuzzy, python-format
+msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
+msgstr "Prosím potvrďte tento <a href=\"mailto:%(email)s\">%(email)s</a> jako e-mailovou adresu pro uživatele %(user_display)s."
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:60
+msgid "Click here to go back"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:77
+msgid "Is there anything else you’d like to know more about?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/email.html:70 kuma/users/jinja2/users/email/welcome/html.ltxt:9
+#, python-format
+msgid "Hi %(username)s!"
+msgstr "Ahoj %(username)s!"
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/email.html:146
+msgid "331 E. Evelyn Avenue Mountain View CA 94041"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/email.html:148
+msgid "Legal"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:2
+#, python-format
+msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/subject.ltxt:1
+#, fuzzy
+msgid "Thank you for supporting MDN"
+msgstr "Děkujeme vám, že používáte MDN!"
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:4
+msgid "Collapse pop over window"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:5
+msgid "Close pop over window"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:13
+msgid "Give Back to MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:15
+msgid "Support MDN, and it comes back to you."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:17
+msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:27
+#, fuzzy
+msgid "Learn more about payments to MDN"
+msgstr "Na MDN jsem se dozvěděl o %(title)s."
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:30
+msgid "Provide feedback"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:46
+msgid "Open tooltip for further email field information"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:50
+#, fuzzy
+msgid "Close this tooltip"
+msgstr "Klonovat tento článek"
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:51
+#, fuzzy
+msgid "Why do you need my email address?"
+msgstr "Přidat e-mailovou adresu"
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:52
+msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:57
+#, fuzzy
+msgid "Other contribution amount"
+msgstr "skrýt přispěvatele"
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:72
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:78
+#, python-format
+msgid "Pay <span id=\"%(span_id)s\">%(amount)s</span>"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:82
+msgid "We accept Mastercard payments"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:83
+msgid "We accept Visa payments"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:84
+msgid "We accept American Express payments"
+msgstr ""
 
 #: kuma/core/apps.py:13
 msgid "Core"
@@ -1017,9 +1380,65 @@ msgstr "Předcházející období:"
 msgid "Authors"
 msgstr "Autoři"
 
-#: kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
+#: kuma/dashboards/jinja2/dashboards/index.html:2
+#, fuzzy
+msgid "Dashboards"
+msgstr "Panel revizí"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
 msgstr "Aktivní makra"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
+msgid "All articles in need of review"
+msgstr "Všechny články ke kontrole"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
+#, python-format
+msgid "Articles in need of review: %(tag)s"
+msgstr "Články ke kontrole: %(tag)s"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
+msgid "All documents"
+msgstr "Všechny dokumenty"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
+msgid "All Tags"
+msgstr "Všechny štítky"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:16
+msgid "Doc status by topic"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
+msgid "Documents with errors"
+msgstr "Dokumenty s chybami"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
+msgid "Documents with no parent"
+msgstr "Dokumenty bez nadřazených"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
+msgid "Revision Dashboard"
+msgstr "Panel revizí"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:21 kuma/wiki/jinja2/wiki/list/documents.html:8
+msgid "Top level documents"
+msgstr "Dokumenty nejvyšší úrovně"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:22
+msgid "Server charts"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
+#, fuzzy
+msgid "Spam Dashboard"
+msgstr "Panel revizí"
+
+#: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
+#, python-format
+msgid "Localized articles tagged with: %(tag)s"
+msgstr "Přeložené články se štítkem %(tag)s"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
 #, python-format
@@ -1067,10 +1486,6 @@ msgstr "Prohledat všechny stránky"
 msgid "Search English Pages"
 msgstr "Prohledat anglické stránky"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:2
-msgid "Revision Dashboard"
-msgstr "Panel revizí"
-
 #: kuma/dashboards/jinja2/dashboards/revisions.html:56
 msgid "Authors:"
 msgstr "Autoři:"
@@ -1084,7 +1499,7 @@ msgstr "Filtrovat"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Trendy v čase, konec %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1788
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1791
 msgid "Revision"
 msgstr "Revize"
 
@@ -1315,8 +1730,8 @@ msgstr "Rozšiřte trochu vývojářské lásky."
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 "<ol> <li><strong>Získání tlačítka:</strong> Pomocí našeho formuláře umístěného níže vytvořte tlačítko a získejte zdrojový kód, se kterým můžete podpořit MDN na vašem webu nebo blogu.</li> "
 "<li><strong>Vložení tlačítka:</strong> Zkopírujte zdrojový kód tlačítka a vložte ho kamkoli na váš web nebo blog, čímž podpoříte MDN.</li> <li><strong>Dobrý pocit:</strong> Buďte na sebe pyšní, že "
@@ -1754,8 +2169,8 @@ msgstr "typ"
 #: kuma/users/adapters.py:28
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
 "Omlouváme se, ale abyste se mohli přihlásit, musíte mít připojen alespoň jeden účet. Chcete-li odebrat tento účet, přidejte nejprve jiný. Pro smazání účtu na MDN, zadejte prosím svou žádost pomocí "
 "<a href=\"%(bug_form_url)s\" rel=\"nofollow\">chybového hlášení</a>."
@@ -2246,11 +2661,11 @@ msgstr "Neověřeno"
 #: kuma/users/jinja2/socialaccount/signup.html:148
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
-"Kterou e-mailovou adresu bychom měli používat k zasílání zpráv a oznámení ohledně MDN? Tato e-mailová adresa <strong>nebude</strong> na MDN zobrazena a bude použita v souladu s našimi <a "
-"href=\"%(privacy_url)s\">zásadami ochrany osobních údajů</a>."
+"Kterou e-mailovou adresu bychom měli používat k zasílání zpráv a oznámení ohledně MDN? Tato e-mailová adresa <strong>nebude</strong> na MDN zobrazena a bude použita v souladu s našimi <a href="
+"\"%(privacy_url)s\">zásadami ochrany osobních údajů</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:164
 msgid "Terms and Privacy"
@@ -2624,11 +3039,6 @@ msgstr "Děkujeme vám, že používáte MDN!"
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr "Obnova profilu pro %(username)s z domény %(domain)s"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
-msgstr "Ahoj %(username)s!"
-
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
@@ -2645,8 +3055,8 @@ msgid ""
 "Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
 msgstr ""
-"Nyní pokračujte výběrem úkolu na MDN a pusťte se do něj! Máme spoustu úvodních úkolů, ze kterých si můžete vybrat, ať už <a href=\"%(words_link)s\">píšete</a>, <a "
-"href=\"%(code_link)s\">programujete</a>, <a href=\"%(both_link)s\">píšete i programujete</a>, nebo chcete <a href=\"%(translate_link)s\">překládat MDN do svého jazyka</a>."
+"Nyní pokračujte výběrem úkolu na MDN a pusťte se do něj! Máme spoustu úvodních úkolů, ze kterých si můžete vybrat, ať už <a href=\"%(words_link)s\">píšete</a>, <a href=\"%(code_link)s"
+"\">programujete</a>, <a href=\"%(both_link)s\">píšete i programujete</a>, nebo chcete <a href=\"%(translate_link)s\">překládat MDN do svého jazyka</a>."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:34
 msgid "Talk to us!"
@@ -2752,7 +3162,7 @@ msgstr "Již nahlášeno jako spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Tento uživatel v uplynulých třech dnech nevytvořil žádné revize."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:721 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:741 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr "Upravit"
 
@@ -2806,19 +3216,19 @@ msgstr "Správa"
 msgid "Wiki"
 msgstr "Wiki"
 
-#: kuma/wiki/constants.py:216
+#: kuma/wiki/constants.py:217
 msgid "Technical - code samples, APIs, or technologies"
 msgstr "Technické - příklady kódu, API nebo technologií"
 
-#: kuma/wiki/constants.py:217
+#: kuma/wiki/constants.py:218
 msgid "Editorial - prose, grammar, or content"
 msgstr "Redakce - próza, gramatika nebo obsah"
 
-#: kuma/wiki/constants.py:222
+#: kuma/wiki/constants.py:223
 msgid "Localization in progress - not completely translated yet."
 msgstr "Lokalizace probíhá - zatím nepřeloženo."
 
-#: kuma/wiki/content.py:702
+#: kuma/wiki/content.py:722
 msgid "Edit section"
 msgstr "Upravit sekci"
 
@@ -3060,134 +3470,134 @@ msgstr "Nová URL:"
 msgid "New article URL"
 msgstr "Nová URL adresa článku"
 
-#: kuma/wiki/models.py:86
+#: kuma/wiki/models.py:88
 #, python-format
 msgid "Parent %s does not exist."
 msgstr "Nadřazený %s neexistuje."
 
-#: kuma/wiki/models.py:94
+#: kuma/wiki/models.py:96
 msgid "Document Tag"
 msgstr "Štítek dokumentu"
 
-#: kuma/wiki/models.py:95
+#: kuma/wiki/models.py:97
 msgid "Document Tags"
 msgstr "Štítky dokumentu"
 
-#: kuma/wiki/models.py:153
+#: kuma/wiki/models.py:155
 msgid "uploaded to the document"
 msgstr "nahráno do dokumentu"
 
-#: kuma/wiki/models.py:159
+#: kuma/wiki/models.py:161
 msgid "linked in the document content"
 msgstr "odkaz z obsahu dokumentu"
 
-#: kuma/wiki/models.py:173
+#: kuma/wiki/models.py:175
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Přílohu %(attachment_id)s nelze k dokumentu %(document_id)s připojit vícekrát"
 
-#: kuma/wiki/models.py:1461
+#: kuma/wiki/models.py:1464
 msgid "Review Tag"
 msgstr "Označení ke kontrole"
 
-#: kuma/wiki/models.py:1462
+#: kuma/wiki/models.py:1465
 msgid "Review Tags"
 msgstr "Označení ke kontrole"
 
-#: kuma/wiki/models.py:1468
+#: kuma/wiki/models.py:1471
 msgid "Localization Tag"
 msgstr "Lokalizační štítek"
 
-#: kuma/wiki/models.py:1469
+#: kuma/wiki/models.py:1472
 msgid "Localization Tags"
 msgstr "Lokalizační štítky"
 
-#: kuma/wiki/models.py:1508
+#: kuma/wiki/models.py:1511
 msgid "No table of contents"
 msgstr "Žádný obsah"
 
-#: kuma/wiki/models.py:1509
+#: kuma/wiki/models.py:1512
 msgid "All levels"
 msgstr "Všechny úrovně"
 
-#: kuma/wiki/models.py:1510
+#: kuma/wiki/models.py:1513
 msgid "H2 and higher"
 msgstr "H2 a vyšší"
 
-#: kuma/wiki/models.py:1511
+#: kuma/wiki/models.py:1514
 msgid "H3 and higher"
 msgstr "H3 a vyšší"
 
-#: kuma/wiki/models.py:1512
+#: kuma/wiki/models.py:1515
 msgid "H4 and higher"
 msgstr "H4 a vyšší"
 
-#: kuma/wiki/models.py:1617
+#: kuma/wiki/models.py:1620
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Revize musí být založena na dokumentu v jazyce %(locale)s. Revize s ID %(id)s toto kritérium nesplňuje."
 
-#: kuma/wiki/models.py:1748
+#: kuma/wiki/models.py:1751
 msgid "IP address"
 msgstr "IP adresa"
 
-#: kuma/wiki/models.py:1756
+#: kuma/wiki/models.py:1759
 msgid "User-Agent"
 msgstr "User-Agent"
 
-#: kuma/wiki/models.py:1761
+#: kuma/wiki/models.py:1764
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1769 kuma/wiki/models.py:1855
+#: kuma/wiki/models.py:1772 kuma/wiki/models.py:1858
 msgid "Data submitted to Akismet"
 msgstr "Data odeslána do Akismetu"
 
-#: kuma/wiki/models.py:1794
+#: kuma/wiki/models.py:1797
 msgid "Akismet submission"
 msgstr "Nahlášeno službě Akismet"
 
-#: kuma/wiki/models.py:1795
+#: kuma/wiki/models.py:1798
 msgid "Akismet submissions"
 msgstr "Nahlášeno službě Akismet"
 
-#: kuma/wiki/models.py:1840
+#: kuma/wiki/models.py:1843
 msgid "Slug"
 msgstr "URL"
 
-#: kuma/wiki/models.py:1848
+#: kuma/wiki/models.py:1851
 msgid "Document (optional)"
 msgstr "Dokument (volitelné)"
 
-#: kuma/wiki/models.py:1858
+#: kuma/wiki/models.py:1861
 msgid "reviewed"
 msgstr "zkontrolováno"
 
-#: kuma/wiki/models.py:1869
+#: kuma/wiki/models.py:1872
 msgid "Needs Review"
 msgstr "Potřebuje kontrolu"
 
-#: kuma/wiki/models.py:1870
+#: kuma/wiki/models.py:1873
 msgid "Ham / False Positive"
 msgstr "Ham / False Positive"
 
-#: kuma/wiki/models.py:1871
+#: kuma/wiki/models.py:1874
 msgid "Confirmed as Spam"
 msgstr "Potvrzený spam"
 
-#: kuma/wiki/models.py:1872
+#: kuma/wiki/models.py:1875
 msgid "Review Unavailable"
 msgstr "Kontrola není dostupná"
 
-#: kuma/wiki/models.py:1873
+#: kuma/wiki/models.py:1876
 msgid "Akismet Error"
 msgstr "Chyba Akismetu"
 
-#: kuma/wiki/models.py:1878
+#: kuma/wiki/models.py:1881
 msgid "Review of Akismet's classification as spam"
 msgstr "Kontrola označení spamu službou Akismet"
 
-#: kuma/wiki/models.py:1885
+#: kuma/wiki/models.py:1888
 msgid "Staff reviewer"
 msgstr "Redaktor"
 
@@ -3203,8 +3613,8 @@ msgstr "Pokoušíte se o vytvoření nové stránky."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 "Vytváření nové stránky je omezená akce. Chcete-li požádat o vytvoření nové stránky, <a href=\"%(request_page_url)s\">založte prosím bud</a>. Pokud potřebujete oprávnění k vytváření nových stránek, "
 "<a href=\"%(email_link)s\">kontaktujte nás</a> prosím."
@@ -3216,8 +3626,8 @@ msgid ""
 "</ul>"
 msgstr ""
 "<p>Bude mnohem pravděpodobnější, že vám bude uděleno oprávnění vytvářet nové stránky, pokud nám:</p> <ul> <li>Řeknete své uživatelské jméno na MDN.</li> <li>Řeknete, proč chcete vytvářet nové "
-"stránky (Dokumentujete nějakou novou funkci? Jakou funkci? Chcete přidat nový termín do slovníku? Jaký termín?).</li> <li>Učinili jste nějaké dobré úpravy stávajících stránek.</li> <li>Přispíváte na"
-" web již nějakou dobu.</li> </ul>"
+"stránky (Dokumentujete nějakou novou funkci? Jakou funkci? Chcete přidat nový termín do slovníku? Jaký termín?).</li> <li>Učinili jste nějaké dobré úpravy stávajících stránek.</li> <li>Přispíváte "
+"na web již nějakou dobu.</li> </ul>"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:4
 #, python-format
@@ -3365,20 +3775,20 @@ msgstr "Tento dokument je systémem vykreslován poprvé. <a href=\"%(url)s\">Na
 #: kuma/wiki/jinja2/wiki/document.html:160
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
-"<abbr title=\"%(started_at)s\">Právě probíhá</abbr> aktualizace tohoto dokumentu. Pokud se obsah níže zdá být neaktuální nebo něco chybí, <a href=\"%(url)s\">načtěte prosím tuto stránku znovu</a> za"
-" pár minut."
+"<abbr title=\"%(started_at)s\">Právě probíhá</abbr> aktualizace tohoto dokumentu. Pokud se obsah níže zdá být neaktuální nebo něco chybí, <a href=\"%(url)s\">načtěte prosím tuto stránku znovu</a> "
+"za pár minut."
 
 #: kuma/wiki/jinja2/wiki/document.html:169
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
-"<abbr title=\"%(scheduled_at)s\">Byla naplánována</abbr> aktualizace tohoto dokumentu. Pokud se obsah níže zdá být neaktuální nebo něco chybí, <a href=\"%(url)s\">načtěte prosím tuto stránku "
-"znovu</a> za pár minut."
+"<abbr title=\"%(scheduled_at)s\">Byla naplánována</abbr> aktualizace tohoto dokumentu. Pokud se obsah níže zdá být neaktuální nebo něco chybí, <a href=\"%(url)s\">načtěte prosím tuto stránku znovu</"
+"a> za pár minut."
 
 #: kuma/wiki/jinja2/wiki/document.html:180
 msgid "This is an experimental page."
@@ -4042,22 +4452,6 @@ msgstr[2] "Nalezeno %(num)s dokumentů"
 msgid "Articles tagged: %(tag)s"
 msgstr "Články se štítkem %(tag)s"
 
-#: kuma/wiki/jinja2/wiki/list/documents.html:6
-msgid "Documents with errors"
-msgstr "Dokumenty s chybami"
-
-#: kuma/wiki/jinja2/wiki/list/documents.html:8
-msgid "Top level documents"
-msgstr "Dokumenty nejvyšší úrovně"
-
-#: kuma/wiki/jinja2/wiki/list/documents.html:10
-msgid "Documents with no parent"
-msgstr "Dokumenty bez nadřazených"
-
-#: kuma/wiki/jinja2/wiki/list/documents.html:12
-msgid "All documents"
-msgstr "Všechny dokumenty"
-
 #: kuma/wiki/jinja2/wiki/list/documents.html:28
 msgid "Translation updates needed"
 msgstr "Je potřeba aktualizace překladu"
@@ -4074,15 +4468,6 @@ msgstr "Dokumenty ke kontrole - %(tag)s"
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:7
 msgid "Documents for review"
 msgstr "Dokumenty ke kontrole"
-
-#: kuma/wiki/jinja2/wiki/list/needs_review.html:12
-#, python-format
-msgid "Articles in need of review: %(tag)s"
-msgstr "Články ke kontrole: %(tag)s"
-
-#: kuma/wiki/jinja2/wiki/list/needs_review.html:14
-msgid "All articles in need of review"
-msgstr "Všechny články ke kontrole"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:25
 #, python-format
@@ -4132,18 +4517,9 @@ msgstr "K zobrazení historie se musíte přihlásit"
 msgid "View All"
 msgstr "Zobrazit vše"
 
-#: kuma/wiki/jinja2/wiki/list/tags.html:2
-msgid "All Tags"
-msgstr "Všechny štítky"
-
 #: kuma/wiki/jinja2/wiki/list/tags.html:18
 msgid "There are no tags."
 msgstr "Žádné štítky tady nejsou."
-
-#: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
-#, python-format
-msgid "Localized articles tagged with: %(tag)s"
-msgstr "Přeložené články se štítkem %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
 msgid "Articles tagged with any localization tags"
@@ -4204,12 +4580,12 @@ msgstr "Pro nahlášení službě Akismet prosím uložte formulář níže."
 msgid "Select an Akismet submission for more details"
 msgstr "Podrobnosti zobrazíte výběrem hlášení službě Akismet"
 
-#: kuma/wiki/templatetags/jinja_helpers.py:106 kuma/wiki/templatetags/jinja_helpers.py:107 kuma/wiki/templatetags/jinja_helpers.py:122 kuma/wiki/templatetags/jinja_helpers.py:123
+#: kuma/wiki/templatetags/jinja_helpers.py:107 kuma/wiki/templatetags/jinja_helpers.py:108 kuma/wiki/templatetags/jinja_helpers.py:123 kuma/wiki/templatetags/jinja_helpers.py:124
 #, python-format
 msgid "Revision %s"
 msgstr "Revize %s"
 
-#: kuma/wiki/templatetags/jinja_helpers.py:112
+#: kuma/wiki/templatetags/jinja_helpers.py:113
 msgid "There was an error generating the content."
 msgstr "Při vytváření obsahu nastala chyba."
 
@@ -4241,7 +4617,7 @@ msgstr "Chyba při parsování požadavku: %s"
 msgid "ETag precondition failed"
 msgstr "Chyba v předpokladech ETag"
 
-#: kuma/wiki/views/edit.py:111
+#: kuma/wiki/views/edit.py:113
 msgid "Sections may only be edited inline."
 msgstr "Sekce mohou být upraveny pouze v kontextu."
 
@@ -4253,7 +4629,7 @@ msgstr "Automatické návrhy vyžadují částečný nadpis. Pro kompletní inde
 msgid "Document has been edited; please re-review."
 msgstr "Dokument byl upraven; prosím, zkontrolujte jej znovu."
 
-#: kuma/wiki/views/translate.py:75
+#: kuma/wiki/views/translate.py:77
 msgid "You cannot translate this document."
 msgstr "Tento dokument nemůžete přeložit."
 
@@ -4275,8 +4651,8 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 #~ "locales</span> <span class=\"row3\">around the world.</span> </p>"
 #~ msgstr ""
-#~ "<p class=\"numbers\"><span class=\"row1\">Přidejte se k <span class=\"number\">%(contributors)s</span> přispěvatelům</span> <span class=\"row2\"> v <span "
-#~ "class=\"number\">%(locales)s</span>jazycích</span> <span class=\"row3\">z celého světa.</span></p>"
+#~ "<p class=\"numbers\"><span class=\"row1\">Přidejte se k <span class=\"number\">%(contributors)s</span> přispěvatelům</span> <span class=\"row2\"> v <span class=\"number\">%(locales)s</"
+#~ "span>jazycích</span> <span class=\"row3\">z celého světa.</span></p>"
 
 #~ msgid "Manage content zone"
 #~ msgstr "Spravovat obsah"
@@ -4329,18 +4705,12 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ msgid "Show topics"
 #~ msgstr "Zobrazit témata"
 
-#~ msgid "Was this article helpful?"
-#~ msgstr "Je tento článek užitečný?"
-
-#~ msgid "Thank you!"
-#~ msgstr "Děkujeme Vám!"
-
 #~ msgid ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> "
-#~ "&middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</"
+#~ "a> &middot; <a href=\"//github.com/mozilla/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network a jednotliví přispěvatelé<br /> Obsah je dostupný pod licencí specifickou pro tento projekt. &middot; <a href=\"%(about_url)s\">O MDN</a> &middot;"
-#~ " <a href=\"//github.com/mozilla/kuma\">Přispějte do kódu</a> &middot; <a href=\"//www.mozilla.org/privacy\">Zásady ochrany soukromí</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network a jednotliví přispěvatelé<br /> Obsah je dostupný pod licencí specifickou pro tento projekt. &middot; <a href=\"%(about_url)s\">O MDN</a> "
+#~ "&middot; <a href=\"//github.com/mozilla/kuma\">Přispějte do kódu</a> &middot; <a href=\"//www.mozilla.org/privacy\">Zásady ochrany soukromí</a>"
 
 #~ msgid "See also"
 #~ msgstr "Vizte také"
@@ -4349,8 +4719,8 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ msgstr "Proč vypadá MDN jinak?"
 
 #~ msgid ""
-#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find the "
-#~ "web technology docs you’re looking for."
+#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find "
+#~ "the web technology docs you’re looking for."
 #~ msgstr ""
 #~ "MDN prochází změnami, zaměřujíc se na pouze na dokumentaci webových technologií. Měníme některé vizuální prvky, abychom vám pomohli snadno nalézt dokumentaci k webovým technologiím, které zrovna "
 #~ "hledáte. Obsah se nezměnil - najdete zde stejné kvalitní články jako dříve."
@@ -4370,9 +4740,6 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ msgid "Mozilla Docs"
 #~ msgstr "Dokumentace Mozilly"
 
-#~ msgid "Contribute to the code"
-#~ msgstr "Přispějte do kódu"
-
 #~ msgid "Under Construction"
 #~ msgstr "V rekonstrukci"
 
@@ -4383,18 +4750,18 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ msgstr "Vítejte, Beta Testere!"
 
 #~ msgid ""
-#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first to "
-#~ "see the new look, and we’d love to hear what you think."
+#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first "
+#~ "to see the new look, and we’d love to hear what you think."
 #~ msgstr ""
-#~ "Upravujeme vzhled a navigaci MDN tak, aby lépe odpovídaly našemu odhodlání poskytovat tu nejlepší (a platformě nezávislou) webovou dokumentaci na světě. Jako betatester jste první, kdo nový vzhled "
-#~ "vidí. Rádi bychom od vás slyšeli, co si o něm myslíte."
+#~ "Upravujeme vzhled a navigaci MDN tak, aby lépe odpovídaly našemu odhodlání poskytovat tu nejlepší (a platformě nezávislou) webovou dokumentaci na světě. Jako betatester jste první, kdo nový "
+#~ "vzhled vidí. Rádi bychom od vás slyšeli, co si o něm myslíte."
 
 #~ msgid ""
 #~ "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on <a href=\"%(profile_url)s\">your "
 #~ "profile page</a>."
 #~ msgstr ""
-#~ "Díváte se na náhled našeho nového vzhledu. Pokud uvidíte něco, co je špatně, nahlaste nám to prosím (odkaz najdete v patičce). Můžete se také odhlásit z programu betatesterů na <a "
-#~ "href=\"%(profile_url)s\">vaší profilové stránce</a>."
+#~ "Díváte se na náhled našeho nového vzhledu. Pokud uvidíte něco, co je špatně, nahlaste nám to prosím (odkaz najdete v patičce). Můžete se také odhlásit z programu betatesterů na <a href="
+#~ "\"%(profile_url)s\">vaší profilové stránce</a>."
 
 #~ msgid "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on your profile page."
 #~ msgstr ""
@@ -4406,9 +4773,6 @@ msgstr "Elasticsearch server: %(backend)s"
 
 #~ msgid "We hope you love it and find it useful!"
 #~ msgstr "Doufáme, že vám přijde užitečný a bude se vám líbit!"
-
-#~ msgid "The MDN Web Docs Team"
-#~ msgstr "Tým webové dokumentace MDN"
 
 #~ msgid "Shared knowledge <span>for the Open Web</span>"
 #~ msgstr "Sdílené vědomosti <span>pro otevřený web</span>"
@@ -4457,9 +4821,6 @@ msgstr "Elasticsearch server: %(backend)s"
 
 #~ msgid "see all contributors"
 #~ msgstr "zobrazit všechny přispěvatele"
-
-#~ msgid "hide contributors"
-#~ msgstr "skrýt přispěvatele"
 
 #~ msgid "View profile: %(username)s"
 #~ msgstr "Zobrazit profil: %(username)s"
@@ -4543,15 +4904,15 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ msgstr "Vytvářejte Open Web aplikace"
 
 #~ msgid ""
-#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a "
-#~ "href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
+#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a href="
+#~ "\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
 #~ msgstr ""
 #~ "Váš návrh obsahuje obsah, který nemusí být pro MDN vhodný. Opakované pokusy o odeslání nevhodného obsahu mohou vést k deaktivaci vašeho účtu. Přečtěte si prosím informace o vhodném obsahu v “<a "
 #~ "href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>”."
 
 #~ msgid ""
-#~ "You signed in with Persona. On November 1st you will no longer be able to sign in to MDN this way.<br> Please <a href=\"%(persona_info)s\">link your GitHub account to your MDN profile now</a> so you"
-#~ " can continue to sign in to MDN."
+#~ "You signed in with Persona. On November 1st you will no longer be able to sign in to MDN this way.<br> Please <a href=\"%(persona_info)s\">link your GitHub account to your MDN profile now</a> so "
+#~ "you can continue to sign in to MDN."
 #~ msgstr ""
 #~ "Jste přihlášení pomocí Persony. Od 1. listopadu nebude tato možnost pro přihlášení na MDN dále k dispozici.<br>Prosím <a href=\"%(persona_info)s\">připojte svůj GitHub účet k MDN</a>, abyste se "
 #~ "mohli dále přihlašovat k MDN."
@@ -4587,17 +4948,17 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ "A profile already exists with an email address below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Yes, "
 #~ "connect with my MDN profile</a>"
 #~ msgid_plural ""
-#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-"
-#~ "next=\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
+#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next="
+#~ "\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
 #~ msgstr[0] ""
 #~ "Profil s e-mailovou adresou níže již existuje. Máte již MDN profil? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Ano, spojit s mým MDN "
 #~ "profilem</a>"
 #~ msgstr[1] ""
-#~ "Profil s jednou z e-mailových adres níže již existuje. Máte již MDN profil? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Ano, spojit s mým MDN "
-#~ "profilem</a>"
+#~ "Profil s jednou z e-mailových adres níže již existuje. Máte již MDN profil? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Ano, spojit s mým "
+#~ "MDN profilem</a>"
 #~ msgstr[2] ""
-#~ "Profil s jednou z e-mailových adres níže již existuje. Máte již MDN profil? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Ano, spojit s mým MDN "
-#~ "profilem</a>"
+#~ "Profil s jednou z e-mailových adres níže již existuje. Máte již MDN profil? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Ano, spojit s mým "
+#~ "MDN profilem</a>"
 
 #~ msgid "Signed in with Persona"
 #~ msgstr "Přihlášení pomocí Persona"
@@ -5161,7 +5522,8 @@ msgstr "Elasticsearch server: %(backend)s"
 #~ msgstr "Dev Derby skončilo"
 
 #~ msgid "From 2011 until 2013, web developers created more than 450 demos for the Dev Derby! Find them below, or <a href=\"%(demos_url)s\">visit the Demo Studio</a> for many more."
-#~ msgstr "Od roku 2011 až do roku 2013 vývojáři vytvořili více než 450 demonstrací pro Dev Derby! Podívejte se na ně níže nebo <a href=\"%(demos_url)s\">navštivte Demo Studio</a>, kde najdete mnohé další."
+#~ msgstr ""
+#~ "Od roku 2011 až do roku 2013 vývojáři vytvořili více než 450 demonstrací pro Dev Derby! Podívejte se na ně níže nebo <a href=\"%(demos_url)s\">navštivte Demo Studio</a>, kde najdete mnohé další."
 
 #~ msgid "Previous Dev Derby Challenges"
 #~ msgstr "Předchozí Dev Derby Challenges"

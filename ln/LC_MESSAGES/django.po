@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-08-30 13:01-0700\n"
+"POT-Creation-Date: 2018-10-18 10:58-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Lingala https://pontoon.mozilla.org/ln/\n"
@@ -106,31 +106,31 @@ msgstr ""
 msgid "Internal Server Error"
 msgstr ""
 
-#: jinja2/base.html:10 jinja2/base.html:55 jinja2/base.html:60 jinja2/base.html:105 jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:10 jinja2/base.html:56 jinja2/base.html:61 jinja2/base.html:107 jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr ""
 
-#: jinja2/base.html:88
+#: jinja2/base.html:90
 msgid "MDN is currently in read-only maintenance mode."
 msgstr ""
 
-#: jinja2/base.html:90
+#: jinja2/base.html:92
 msgid "Learn more"
 msgstr ""
 
-#: jinja2/base.html:136
+#: jinja2/base.html:140
 msgid "Terms"
 msgstr ""
 
-#: jinja2/base.html:137
+#: jinja2/base.html:141 kuma/contributions/jinja2/contributions/email/thank_you/email.html:148
 msgid "Privacy"
 msgstr ""
 
-#: jinja2/base.html:138
+#: jinja2/base.html:142
 msgid "Cookies"
 msgstr ""
 
-#: jinja2/base.html:142
+#: jinja2/base.html:146
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr ""
@@ -229,7 +229,8 @@ msgstr ""
 msgid "...more docs"
 msgstr ""
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/contributions/jinja2/contributions/contribute.html:194
+#: kuma/contributions/jinja2/contributions/thank_you.html:73
 msgid "Feedback"
 msgstr ""
 
@@ -325,7 +326,7 @@ msgstr ""
 msgid "E-mail"
 msgstr ""
 
-#: jinja2/includes/newsletter.html:18
+#: jinja2/includes/newsletter.html:18 kuma/contributions/forms.py:46
 msgid "you@example.com"
 msgstr ""
 
@@ -350,7 +351,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr ""
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1328
 msgid "Previous"
 msgstr ""
 
@@ -418,7 +419,7 @@ msgstr ""
 msgid "Dutch"
 msgstr ""
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1338
 msgid "English (US)"
 msgstr ""
 
@@ -631,7 +632,7 @@ msgstr ""
 msgid "GitHub"
 msgstr ""
 
-#: jinja2/includes/footer/moz-footer.html:1
+#: jinja2/includes/footer/moz-footer.html:1 kuma/contributions/jinja2/contributions/email/thank_you/email.html:145
 msgid "Mozilla"
 msgstr ""
 
@@ -784,7 +785,7 @@ msgid "File"
 msgstr ""
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1836
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1839
 msgid "Title"
 msgstr ""
 
@@ -834,15 +835,15 @@ msgstr ""
 msgid "n/a"
 msgstr ""
 
-#: kuma/authkeys/models.py:32
+#: kuma/authkeys/models.py:35
 msgid "Lookup key"
 msgstr ""
 
-#: kuma/authkeys/models.py:34
+#: kuma/authkeys/models.py:37
 msgid "Hashed secret"
 msgstr ""
 
-#: kuma/authkeys/models.py:36
+#: kuma/authkeys/models.py:39
 msgid "Description of intended use"
 msgstr ""
 
@@ -910,6 +911,353 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:32
 msgid "Secret"
+msgstr ""
+
+#: kuma/contributions/forms.py:32 kuma/contributions/forms.py:36
+msgid "Your full name"
+msgstr ""
+
+#: kuma/contributions/forms.py:37
+msgid "Required"
+msgstr ""
+
+#: kuma/contributions/forms.py:42
+msgid "Your email"
+msgstr ""
+
+#: kuma/contributions/forms.py:47
+msgid "Must be a valid email"
+msgstr ""
+
+#: kuma/contributions/forms.py:48
+msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
+msgstr ""
+
+#: kuma/contributions/forms.py:57
+msgid "Contribution choices"
+msgstr ""
+
+#: kuma/contributions/forms.py:75
+msgid "Other amount"
+msgstr ""
+
+#: kuma/contributions/forms.py:76
+msgid "Must be more than $1"
+msgstr ""
+
+#: kuma/contributions/forms.py:103
+msgid "Please select donation amount or choose from pre-selected choices"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:5
+msgid "Contribute"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:9
+msgid "Contribute to MDN Web Docs"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:10 kuma/contributions/jinja2/contributions/includes/contribution-form.html:76
+msgid "Support MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:29
+msgid "Was this useful?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:32
+msgid "Yes, this answered my question"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:36
+msgid "No, this did not answer my question"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:49
+msgid "FAQs"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:52
+msgid "Why is MDN asking me for money?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:54
+msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:62
+msgid ""
+"Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
+"wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
+"you, again) that lets us accelerate those improvements."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:75
+msgid "How is my payment handled? Is it secure?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:77
+#, python-format
+msgid ""
+"All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
+"number."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:85
+msgid "What data is Mozilla collecting about me?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:87
+msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:95
+msgid "What does money go towards?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:97
+msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:105
+msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:107
+#, python-format
+msgid ""
+"The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are tax-deductible and go to support Mozilla public "
+"and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> and payments to MDN are not used in Mozilla’s charitable programs but are "
+"reinvested into MDN’s content, tools, and platform."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:121
+msgid "Is support of MDN tax-deductible?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:123
+msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:130
+msgid "What will MDN user funding pay for?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:132
+msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:140
+msgid "Adding more content, and updating current content"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:141
+msgid "Improving performance of the site"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:142
+msgid "Modernizing the MDN platform"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:143
+msgid "Adding offline access to MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:144
+msgid "Supporting integrations with popular developer tools"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:145
+msgid "More tutorials and guides"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:146
+msgid "Training and webinars"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:149
+msgid "Why can’t you just open a Crowdsourcing campaign?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:151
+msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:158
+msgid "How has MDN been funded to date?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:160
+msgid ""
+"MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
+"we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:170
+msgid "How does Mozilla make money?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:172
+msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:180
+#, python-format
+msgid ""
+"Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
+"revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:198 kuma/contributions/jinja2/contributions/thank_you.html:78
+msgid "Your feedback goes here"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/contribute.html:199 kuma/contributions/jinja2/contributions/thank_you.html:79
+msgid "Send"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:5
+msgid "Thank You"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:16 kuma/contributions/jinja2/contributions/email/thank_you/email.html:5 kuma/contributions/jinja2/contributions/email/thank_you/email.html:57
+msgid "Thank you for supporting MDN."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:19 kuma/contributions/jinja2/contributions/email/thank_you/email.html:83 kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:6
+msgid ""
+"We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
+"us make sure MDN can be available to everyone, everywhere."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:27 kuma/contributions/jinja2/contributions/email/thank_you/email.html:98 kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:10
+msgid "Thank you again,"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:28 kuma/contributions/jinja2/contributions/email/thank_you/email.html:111
+#: kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:11
+msgid "The MDN Team"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:31
+#, python-format
+msgid "I support MDN, and you can too: %(url)s"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:33
+msgid "Share your support for MDN on Twitter"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:34
+msgid "Share your support for MDN on Facebook"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:50
+msgid "Ooops, something went wrong"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:53
+#, python-format
+msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:60
+msgid "Click here to go back"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/thank_you.html:77
+msgid "Is there anything else you’d like to know more about?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/email.html:70 kuma/users/jinja2/users/email/welcome/html.ltxt:9
+#, python-format
+msgid "Hi %(username)s!"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/email.html:146
+msgid "331 E. Evelyn Avenue Mountain View CA 94041"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/email.html:148
+msgid "Legal"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:2
+#, python-format
+msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/email/thank_you/subject.ltxt:1
+msgid "Thank you for supporting MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:4
+msgid "Collapse pop over window"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:5
+msgid "Close pop over window"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:13
+msgid "Give Back to MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:15
+msgid "Support MDN, and it comes back to you."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:17
+msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:27
+msgid "Learn more about payments to MDN"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:30
+msgid "Provide feedback"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:46
+msgid "Open tooltip for further email field information"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:50
+msgid "Close this tooltip"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:51
+msgid "Why do you need my email address?"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:52
+msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:57
+msgid "Other contribution amount"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:72
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:78
+#, python-format
+msgid "Pay <span id=\"%(span_id)s\">%(amount)s</span>"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:82
+msgid "We accept Mastercard payments"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:83
+msgid "We accept Visa payments"
+msgstr ""
+
+#: kuma/contributions/jinja2/contributions/includes/contribution-form.html:84
+msgid "We accept American Express payments"
 msgstr ""
 
 #: kuma/core/apps.py:13
@@ -1003,8 +1351,62 @@ msgstr ""
 msgid "Authors"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
+#: kuma/dashboards/jinja2/dashboards/index.html:2
+msgid "Dashboards"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
+msgid "All articles in need of review"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
+#, python-format
+msgid "Articles in need of review: %(tag)s"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
+msgid "All documents"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
+msgid "All Tags"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:16
+msgid "Doc status by topic"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
+msgid "Documents with errors"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
+msgid "Documents with no parent"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
+msgid "Revision Dashboard"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:21 kuma/wiki/jinja2/wiki/list/documents.html:8
+msgid "Top level documents"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:22
+msgid "Server charts"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
+msgid "Spam Dashboard"
+msgstr ""
+
+#: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
+#, python-format
+msgid "Localized articles tagged with: %(tag)s"
 msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
@@ -1052,10 +1454,6 @@ msgstr ""
 msgid "Search English Pages"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:2
-msgid "Revision Dashboard"
-msgstr ""
-
 #: kuma/dashboards/jinja2/dashboards/revisions.html:56
 msgid "Authors:"
 msgstr ""
@@ -1069,7 +1467,7 @@ msgstr ""
 msgid "Trends Over Time, Ending %(date)s"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1788
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1791
 msgid "Revision"
 msgstr ""
 
@@ -2586,11 +2984,6 @@ msgstr ""
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
-msgstr ""
-
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
@@ -2708,7 +3101,7 @@ msgstr ""
 msgid "This user has not created any revisions in the past three days."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:721 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:741 kuma/wiki/jinja2/wiki/includes/buttons.html:54
 msgid "Edit"
 msgstr ""
 
@@ -2762,19 +3155,19 @@ msgstr ""
 msgid "Wiki"
 msgstr ""
 
-#: kuma/wiki/constants.py:216
+#: kuma/wiki/constants.py:217
 msgid "Technical - code samples, APIs, or technologies"
 msgstr ""
 
-#: kuma/wiki/constants.py:217
+#: kuma/wiki/constants.py:218
 msgid "Editorial - prose, grammar, or content"
 msgstr ""
 
-#: kuma/wiki/constants.py:222
+#: kuma/wiki/constants.py:223
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
-#: kuma/wiki/content.py:702
+#: kuma/wiki/content.py:722
 msgid "Edit section"
 msgstr ""
 
@@ -3014,134 +3407,134 @@ msgstr ""
 msgid "New article URL"
 msgstr ""
 
-#: kuma/wiki/models.py:86
+#: kuma/wiki/models.py:88
 #, python-format
 msgid "Parent %s does not exist."
 msgstr ""
 
-#: kuma/wiki/models.py:94
+#: kuma/wiki/models.py:96
 msgid "Document Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:95
+#: kuma/wiki/models.py:97
 msgid "Document Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:153
+#: kuma/wiki/models.py:155
 msgid "uploaded to the document"
 msgstr ""
 
-#: kuma/wiki/models.py:159
+#: kuma/wiki/models.py:161
 msgid "linked in the document content"
 msgstr ""
 
-#: kuma/wiki/models.py:173
+#: kuma/wiki/models.py:175
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr ""
 
-#: kuma/wiki/models.py:1461
+#: kuma/wiki/models.py:1464
 msgid "Review Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1462
+#: kuma/wiki/models.py:1465
 msgid "Review Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1468
+#: kuma/wiki/models.py:1471
 msgid "Localization Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1469
+#: kuma/wiki/models.py:1472
 msgid "Localization Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1508
+#: kuma/wiki/models.py:1511
 msgid "No table of contents"
 msgstr ""
 
-#: kuma/wiki/models.py:1509
+#: kuma/wiki/models.py:1512
 msgid "All levels"
 msgstr ""
 
-#: kuma/wiki/models.py:1510
+#: kuma/wiki/models.py:1513
 msgid "H2 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1511
+#: kuma/wiki/models.py:1514
 msgid "H3 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1512
+#: kuma/wiki/models.py:1515
 msgid "H4 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1617
+#: kuma/wiki/models.py:1620
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr ""
 
-#: kuma/wiki/models.py:1748
+#: kuma/wiki/models.py:1751
 msgid "IP address"
 msgstr ""
 
-#: kuma/wiki/models.py:1756
+#: kuma/wiki/models.py:1759
 msgid "User-Agent"
 msgstr ""
 
-#: kuma/wiki/models.py:1761
+#: kuma/wiki/models.py:1764
 msgid "HTTP Referrer"
 msgstr ""
 
-#: kuma/wiki/models.py:1769 kuma/wiki/models.py:1855
+#: kuma/wiki/models.py:1772 kuma/wiki/models.py:1858
 msgid "Data submitted to Akismet"
 msgstr ""
 
-#: kuma/wiki/models.py:1794
+#: kuma/wiki/models.py:1797
 msgid "Akismet submission"
 msgstr ""
 
-#: kuma/wiki/models.py:1795
+#: kuma/wiki/models.py:1798
 msgid "Akismet submissions"
 msgstr ""
 
-#: kuma/wiki/models.py:1840
+#: kuma/wiki/models.py:1843
 msgid "Slug"
 msgstr ""
 
-#: kuma/wiki/models.py:1848
+#: kuma/wiki/models.py:1851
 msgid "Document (optional)"
 msgstr ""
 
-#: kuma/wiki/models.py:1858
+#: kuma/wiki/models.py:1861
 msgid "reviewed"
 msgstr ""
 
-#: kuma/wiki/models.py:1869
+#: kuma/wiki/models.py:1872
 msgid "Needs Review"
 msgstr ""
 
-#: kuma/wiki/models.py:1870
+#: kuma/wiki/models.py:1873
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:1871
+#: kuma/wiki/models.py:1874
 msgid "Confirmed as Spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1872
+#: kuma/wiki/models.py:1875
 msgid "Review Unavailable"
 msgstr ""
 
-#: kuma/wiki/models.py:1873
+#: kuma/wiki/models.py:1876
 msgid "Akismet Error"
 msgstr ""
 
-#: kuma/wiki/models.py:1878
+#: kuma/wiki/models.py:1881
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1885
+#: kuma/wiki/models.py:1888
 msgid "Staff reviewer"
 msgstr ""
 
@@ -3981,22 +4374,6 @@ msgstr[1] ""
 msgid "Articles tagged: %(tag)s"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/list/documents.html:6
-msgid "Documents with errors"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/list/documents.html:8
-msgid "Top level documents"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/list/documents.html:10
-msgid "Documents with no parent"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/list/documents.html:12
-msgid "All documents"
-msgstr ""
-
 #: kuma/wiki/jinja2/wiki/list/documents.html:28
 msgid "Translation updates needed"
 msgstr ""
@@ -4012,15 +4389,6 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:7
 msgid "Documents for review"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/list/needs_review.html:12
-#, python-format
-msgid "Articles in need of review: %(tag)s"
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/list/needs_review.html:14
-msgid "All articles in need of review"
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:25
@@ -4071,17 +4439,8 @@ msgstr ""
 msgid "View All"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/list/tags.html:2
-msgid "All Tags"
-msgstr ""
-
 #: kuma/wiki/jinja2/wiki/list/tags.html:18
 msgid "There are no tags."
-msgstr ""
-
-#: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
-#, python-format
-msgid "Localized articles tagged with: %(tag)s"
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
@@ -4139,12 +4498,12 @@ msgstr ""
 msgid "Select an Akismet submission for more details"
 msgstr ""
 
-#: kuma/wiki/templatetags/jinja_helpers.py:106 kuma/wiki/templatetags/jinja_helpers.py:107 kuma/wiki/templatetags/jinja_helpers.py:122 kuma/wiki/templatetags/jinja_helpers.py:123
+#: kuma/wiki/templatetags/jinja_helpers.py:107 kuma/wiki/templatetags/jinja_helpers.py:108 kuma/wiki/templatetags/jinja_helpers.py:123 kuma/wiki/templatetags/jinja_helpers.py:124
 #, python-format
 msgid "Revision %s"
 msgstr ""
 
-#: kuma/wiki/templatetags/jinja_helpers.py:112
+#: kuma/wiki/templatetags/jinja_helpers.py:113
 msgid "There was an error generating the content."
 msgstr ""
 
@@ -4176,7 +4535,7 @@ msgstr ""
 msgid "ETag precondition failed"
 msgstr ""
 
-#: kuma/wiki/views/edit.py:111
+#: kuma/wiki/views/edit.py:113
 msgid "Sections may only be edited inline."
 msgstr ""
 
@@ -4188,7 +4547,7 @@ msgstr ""
 msgid "Document has been edited; please re-review."
 msgstr ""
 
-#: kuma/wiki/views/translate.py:75
+#: kuma/wiki/views/translate.py:77
 msgid "You cannot translate this document."
 msgstr ""
 
