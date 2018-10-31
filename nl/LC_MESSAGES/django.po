@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-10-18 10:58-0700\n"
-"PO-Revision-Date: 2018-10-19 06:29+0000\n"
-"Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
+"PO-Revision-Date: 2018-10-27 17:46+0000\n"
+"Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: Dutch https://pontoon.mozilla.org/nl/\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -946,11 +946,11 @@ msgstr "Geheim"
 
 #: kuma/contributions/forms.py:32 kuma/contributions/forms.py:36
 msgid "Your full name"
-msgstr ""
+msgstr "Uw volledige naam"
 
 #: kuma/contributions/forms.py:37
 msgid "Required"
-msgstr ""
+msgstr "Vereist"
 
 #: kuma/contributions/forms.py:42
 msgid "Your email"
@@ -958,27 +958,27 @@ msgstr "Uw e-mailadres"
 
 #: kuma/contributions/forms.py:47
 msgid "Must be a valid email"
-msgstr ""
+msgstr "Moet een geldig e-mailadres zijn"
 
 #: kuma/contributions/forms.py:48
 msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
-msgstr ""
+msgstr "Waarom hebben jullie mijn e-mailadres nodig? Hierdoor kunnen we u een ontvangstbewijs van uw bijdrage sturen. Dit is handig als u een restitutie wilt aanvragen."
 
 #: kuma/contributions/forms.py:57
 msgid "Contribution choices"
-msgstr ""
+msgstr "Keuzes voor bijdragen"
 
 #: kuma/contributions/forms.py:75
 msgid "Other amount"
-msgstr ""
+msgstr "Ander bedrag"
 
 #: kuma/contributions/forms.py:76
 msgid "Must be more than $1"
-msgstr ""
+msgstr "Moet meer zijn dan $ 1"
 
 #: kuma/contributions/forms.py:103
 msgid "Please select donation amount or choose from pre-selected choices"
-msgstr ""
+msgstr "Selecteer het te doneren bedrag of kies uit de voorgeselecteerde keuzemogelijkheden"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:5
 msgid "Contribute"
@@ -986,35 +986,37 @@ msgstr "Meehelpen"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:9
 msgid "Contribute to MDN Web Docs"
-msgstr ""
+msgstr "Bijdragen aan MDN Web Docs"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:10 kuma/contributions/jinja2/contributions/includes/contribution-form.html:76
 msgid "Support MDN"
-msgstr ""
+msgstr "MDN steunen"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:29
 msgid "Was this useful?"
-msgstr ""
+msgstr "Was dit nuttig?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:32
 msgid "Yes, this answered my question"
-msgstr ""
+msgstr "Ja, hiermee is mijn vraag beantwoord"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:36
 msgid "No, this did not answer my question"
-msgstr ""
+msgstr "Nee, dit is geen antwoord op mijn vraag"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:49
 msgid "FAQs"
-msgstr ""
+msgstr "FAQ’s"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:52
 msgid "Why is MDN asking me for money?"
-msgstr ""
+msgstr "Waarom vraagt MDN me om geld?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:54
 msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
 msgstr ""
+"MDN experimenteert met vragen om rechtstreekse ondersteuning door onze gebruikers om onze inhoud en ons platform versneld te laten groeien en te onderhouden, met hulp van diegenen die er gebruik van"
+" maken."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:62
 msgid ""
@@ -1022,37 +1024,44 @@ msgid ""
 "wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
 "you, again) that lets us accelerate those improvements."
 msgstr ""
+"Onze gebruikersgroep is de laatste jaren exponentieel gegroeid (en daarmee de kosten voor het onderhoud van het platform), en er is een lange lijst met verbeteringen die we zouden willen doorvoeren."
+" Hoewel MDN momenteel volledig wordt gefinancierd door Mozilla, en dit al vanaf de start het geval is geweest, zoeken we naar mogelijkheden om een stevigere en gezondere band tussen ons publiek (u),"
+" onze inhoud (geschreven voor u) en onze supporters (alweer u) te smeden, waardoor we die verbeteringen versneld kunnen doorvoeren."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:75
 msgid "How is my payment handled? Is it secure?"
-msgstr ""
+msgstr "Hoe wordt mijn betaling verwerkt? Is dit veilig?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:77
 #, python-format
 msgid ""
 "All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
 "number."
-msgstr ""
+msgstr "Alle betalingsgegevens worden verwerkt door <a href=\"%(url)s\">Stripe</a>, en uw betaling wordt gedocumenteerd door Mozilla. Mozilla ontvangt uw creditcardnummer niet en slaat dit niet op."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:85
 msgid "What data is Mozilla collecting about me?"
-msgstr ""
+msgstr "Welke gegevens verzamelt Mozilla over mij?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:87
 msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
 msgstr ""
+"Mozilla verzamelt en bewaart uw naam en e-mailadres, die worden gebruikt om e-mailberichten over de transactie (bv. het ontvangstbewijs) te sturen. Mozilla heeft geen toegang tot uw creditcardnummer"
+" en bewaart dit niet."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:95
 msgid "What does money go towards?"
-msgstr ""
+msgstr "Waar gaat het geld naartoe?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:97
 msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
 msgstr ""
+"Het geld dat via MDN wordt ingezameld (verminderd met transactiekosten, belasting, enz.) wordt weer in MDN geïnvesteerd. We publiceren een maandrapport op MDN Web Docs waarin staat welke "
+"werkzaamheden zijn afgerond."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:105
 msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
-msgstr ""
+msgstr "Als ik gewoon doneer aan de Mozilla Foundation, helpt dat MDN dan?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:107
 #, python-format
@@ -1061,76 +1070,83 @@ msgid ""
 " charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested "
 "into MDN’s content, tools, and platform."
 msgstr ""
+"De <a href=\"%(foundation_url)s\">Mozilla Foundation</a> en MDN zijn aparte organisaties en programma’s. Donaties aan de Mozilla Foundationzijn aftrekbaar voor de belasting en steunen openbare en "
+"liefdadigheidsprogramma’s van Mozilla in één centraal fonds. MDN is onderdeel van de <a href=\"%(corporation_url)s\">Mozilla Corporation</a> en betalingen aan MDN worden niet gebruikt voor de "
+"liefdadigheidsprogramma’s van Mozilla, maar worden weer geïnvesteerd in de inhoud, hulpmiddelen en het platform van MDN."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:121
 msgid "Is support of MDN tax-deductible?"
-msgstr ""
+msgstr "Is ondersteuning van MDN aftrekbaar voor de belasting?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:123
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
-msgstr ""
+msgstr "Nee. Betalingen aan de Mozilla Corporation ter ondersteuning van MDN zijn niet aftrekbaar voor de belasting in de Verenigde Staten of in andere landen."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:130
 msgid "What will MDN user funding pay for?"
-msgstr ""
+msgstr "Wat wordt betaald met de gebruikersdonaties van MDN?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:132
 msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr ""
+"Mozilla betaalt momenteel voor websitebeheer en -overhead (inclusief schrijvers en webontwikkelaars). MDN-gebruikersbetalingen financieren het versnellen van huidige projecten of het lanceren van "
+"nieuwe, waaronder:"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:140
 msgid "Adding more content, and updating current content"
-msgstr ""
+msgstr "Het toevoegen van meer inhoud, en het bijwerken van huidige"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:141
 msgid "Improving performance of the site"
-msgstr ""
+msgstr "Het verbeteren van prestaties van de website"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:142
 msgid "Modernizing the MDN platform"
-msgstr ""
+msgstr "Het moderniseren van het MDN-platform"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:143
 msgid "Adding offline access to MDN"
-msgstr ""
+msgstr "Het toevoegen van offlinetoegang tot MDN"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:144
 msgid "Supporting integrations with popular developer tools"
-msgstr ""
+msgstr "Het ondersteunen van integraties met populaire ontwikkelaarshulpmiddelen"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:145
 msgid "More tutorials and guides"
-msgstr ""
+msgstr "Meer handleidingen en gidsen"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:146
 msgid "Training and webinars"
-msgstr ""
+msgstr "Trainingen en webinars"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:149
 msgid "Why can’t you just open a Crowdsourcing campaign?"
-msgstr ""
+msgstr "Waarom kunnen jullie niet gewoon een Crowdsourcing-campagne openen?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:151
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
-msgstr ""
+msgstr "Omdat we niet naar een forfaitair bedrag op zoek zijn. Ons doel is het maken van een brede basis aan financiële steun van de mensen die voordeel halen uit het werk aan MDN."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:158
 msgid "How has MDN been funded to date?"
-msgstr ""
+msgstr "Hoe is MDN tot nu toe gefinancierd?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:160
 msgid ""
 "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
 "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
 msgstr ""
+"MDN is vanuit het algemene budget van de Mozilla Corporation gefinancierd (sinds de oprichting ervan in 2005). De Mozilla Corporation heeft voortzetting van het financieel steunen van MDN in de "
+"toekomst als doel, zelfs terwijl we de bronnen van MDN-financiering verbreden en diversifiëren. We willen gewoon meer met en voor u doen!"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:170
 msgid "How does Mozilla make money?"
-msgstr ""
+msgstr "Hoe verdient Mozilla geld?"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:172
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
-msgstr ""
+msgstr "De Mozilla Corporation, die MDN financiert, verdient voornamelijk geld vanuit royalty’s van zoekproviders in Firefox (zoals Google, Amazon, Duck Duck Go en andere)."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:180
 #, python-format
@@ -1138,14 +1154,16 @@ msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
 "revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
 msgstr ""
+"Afgezien daarvan is de Mozilla Foundation is een non-profitorganisatie die voornamelijk geld verdient vanuit donaties en royalty’s van de Mozilla Corporation. As een organisatie zonder winstbejag "
+"rapporteert de Mozilla Foundation deze inkomsten elk opeenvolgend jaar openbaar, zoals in ons meest recente <a href=\"%(url)s\">Mozilla-jaarverslag van 2016</a>."
 
 #: kuma/contributions/jinja2/contributions/contribute.html:198 kuma/contributions/jinja2/contributions/thank_you.html:78
 msgid "Your feedback goes here"
-msgstr ""
+msgstr "Plaats hier uw feedback"
 
 #: kuma/contributions/jinja2/contributions/contribute.html:199 kuma/contributions/jinja2/contributions/thank_you.html:79
 msgid "Send"
-msgstr ""
+msgstr "Verzenden"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:5
 msgid "Thank You"
@@ -1153,52 +1171,54 @@ msgstr "Dank u"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:16 kuma/contributions/jinja2/contributions/email/thank_you/email.html:5 kuma/contributions/jinja2/contributions/email/thank_you/email.html:57
 msgid "Thank you for supporting MDN."
-msgstr ""
+msgstr "Bedankt voor uw steun aan MDN."
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:19 kuma/contributions/jinja2/contributions/email/thank_you/email.html:83 kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:6
 msgid ""
 "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
 "us make sure MDN can be available to everyone, everywhere."
 msgstr ""
+"We doen ons best om de beste bron van informatie over webstandaarden te bieden. Uw steun zorgt ervoor dat MDN nog sneller vooruit kan terwijl we meer inhoud en hulpmiddelen die u elke dag gebruikt "
+"kunnen bouwen, en helpt te verzekeren dat MDN voor iedereen en overal beschikbaar kan blijven."
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:27 kuma/contributions/jinja2/contributions/email/thank_you/email.html:98 kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:10
 msgid "Thank you again,"
-msgstr ""
+msgstr "Nogmaals bedankt,"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:28 kuma/contributions/jinja2/contributions/email/thank_you/email.html:111
 #: kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:11
 msgid "The MDN Team"
-msgstr ""
+msgstr "Het MDN-team"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:31
 #, python-format
 msgid "I support MDN, and you can too: %(url)s"
-msgstr ""
+msgstr "Ik steun MDN, en dat kunt u ook: %(url)s"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:33
 msgid "Share your support for MDN on Twitter"
-msgstr ""
+msgstr "Uw steun aan MDN delen op Twitter"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:34
 msgid "Share your support for MDN on Facebook"
-msgstr ""
+msgstr "Uw steun aan MDN delen op Facebook"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:50
 msgid "Ooops, something went wrong"
-msgstr ""
+msgstr "Oeps, er is iets misgegaan"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:53
 #, python-format
 msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
-msgstr ""
+msgstr "Neem contact op met <a href=\"%(mailto)s\">%(email)s</a> voor meer informatie over dit probleem."
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:60
 msgid "Click here to go back"
-msgstr ""
+msgstr "Klik hier om terug te gaan"
 
 #: kuma/contributions/jinja2/contributions/thank_you.html:77
 msgid "Is there anything else you’d like to know more about?"
-msgstr ""
+msgstr "Is er nog iets waarover u meer zou willen weten?"
 
 #: kuma/contributions/jinja2/contributions/email/thank_you/email.html:70 kuma/users/jinja2/users/email/welcome/html.ltxt:9
 #, python-format
@@ -1207,7 +1227,7 @@ msgstr "Hallo %(username)s!"
 
 #: kuma/contributions/jinja2/contributions/email/thank_you/email.html:146
 msgid "331 E. Evelyn Avenue Mountain View CA 94041"
-msgstr ""
+msgstr "331 E. Evelyn Avenue Mountain View CA 94041"
 
 #: kuma/contributions/jinja2/contributions/email/thank_you/email.html:148
 msgid "Legal"
@@ -1216,80 +1236,80 @@ msgstr "Juridisch"
 #: kuma/contributions/jinja2/contributions/email/thank_you/plain.ltxt:2
 #, python-format
 msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
-msgstr ""
+msgstr "Bedankt %(username)s [%(user_email)s] voor uw steun aan MDN."
 
 #: kuma/contributions/jinja2/contributions/email/thank_you/subject.ltxt:1
 msgid "Thank you for supporting MDN"
-msgstr ""
+msgstr "Bedankt voor uw steun aan MDN"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:4
 msgid "Collapse pop over window"
-msgstr ""
+msgstr "Pop-overvenster samenvouwen"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:5
 msgid "Close pop over window"
-msgstr ""
+msgstr "Pop-overvenster sluiten"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:13
 msgid "Give Back to MDN"
-msgstr ""
+msgstr "Teruggeven aan MDN"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:15
 msgid "Support MDN, and it comes back to you."
-msgstr ""
+msgstr "Steun MDN, en het komt bij u terug."
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:17
 msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr ""
+msgstr "U komt naar MDN voor informatie en hulp. Wees onderdeel van het verder verbeteren van MDN. Als ruil vindt u meer kennis en hulpmiddelen waarop u vertrouwt voor als uw werk moet werken."
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:27
 msgid "Learn more about payments to MDN"
-msgstr ""
+msgstr "Meer info over betalingen aan MDN"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:30
 msgid "Provide feedback"
-msgstr ""
+msgstr "Feedback geven"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:46
 msgid "Open tooltip for further email field information"
-msgstr ""
+msgstr "Open de tooltip voor verdere e-mailveldinformatie"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:50
 msgid "Close this tooltip"
-msgstr ""
+msgstr "Deze tooltip sluiten"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:51
 msgid "Why do you need my email address?"
-msgstr ""
+msgstr "Waarom hebben jullie mijn e-mailadres nodig?"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:52
 msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
-msgstr ""
+msgstr "Hierdoor kunnen we u een ontvangstbewijs sturen. Dit is handig als u een restitutie wilt aanvragen."
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:57
 msgid "Other contribution amount"
-msgstr ""
+msgstr "Ander bedrag"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:72
 msgid "There has been an issue, please try again later."
-msgstr ""
+msgstr "Er is een probleem opgetreden, probeer het later opnieuw."
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:78
 #, python-format
 msgid "Pay <span id=\"%(span_id)s\">%(amount)s</span>"
-msgstr ""
+msgstr "<span id=\"%(span_id)s\">%(amount)s</span> betalen"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:82
 msgid "We accept Mastercard payments"
-msgstr ""
+msgstr "We accepteren Mastercard-betalingen"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:83
 msgid "We accept Visa payments"
-msgstr ""
+msgstr "We accepteren Visa-betalingen"
 
 #: kuma/contributions/jinja2/contributions/includes/contribution-form.html:84
 msgid "We accept American Express payments"
-msgstr ""
+msgstr "We accepteren American Express-betalingen"
 
 #: kuma/core/apps.py:13
 msgid "Core"
@@ -1384,7 +1404,7 @@ msgstr "Auteurs"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:2
 msgid "Dashboards"
-msgstr ""
+msgstr "Dashboards"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
@@ -1409,7 +1429,7 @@ msgstr "Alle labels"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:16
 msgid "Doc status by topic"
-msgstr ""
+msgstr "Documentstatus op onderwerp"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
 msgid "Documents with errors"
@@ -1429,11 +1449,11 @@ msgstr "Topleveldocumenten"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:22
 msgid "Server charts"
-msgstr ""
+msgstr "Servergrafieken"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
 msgid "Spam Dashboard"
-msgstr ""
+msgstr "Spamdashboard"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
 #, python-format
