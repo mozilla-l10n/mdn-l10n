@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-11-11 09:04-0800\n"
-"PO-Revision-Date: 2018-11-11 18:12+0000\n"
+"PO-Revision-Date: 2018-11-11 18:17+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German https://pontoon.mozilla.org/de/\n"
 "Language: de\n"
@@ -1803,7 +1803,7 @@ msgstr "Verwalten Ihrer Zahlungen"
 #, python-format
 msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>."
 msgstr ""
-"Wenn Sie Ihre monatliche Zahlung bearbeiten möchten, also z.&thinsp;B. Ihre Kartenkontodaten oder den von Ihnen gezahlten Betrag ändern möchten,, wenden Sie sich an <a "
+"Wenn Sie Ihre monatliche Zahlung bearbeiten möchten, also z.&thinsp;B. Ihre Kartenkontodaten oder den von Ihnen gezahlten Betrag ändern möchten, wenden Sie sich bitte an <a "
 "href=\"%(url)s\">%(email)s</a>."
 
 #: kuma/payments/jinja2/payments/thank_you.html:97 kuma/payments/jinja2/payments/email/thank_you/email.html:145 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
@@ -1813,17 +1813,16 @@ msgstr "Einstellen Ihrer Zahlungen"
 #: kuma/payments/jinja2/payments/thank_you.html:99 kuma/payments/jinja2/payments/email/thank_you/email.html:147
 #, python-format
 msgid "If you would like to cancel your monthly payment, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel."
-msgstr ""
+msgstr "Wenn Sie Ihre monatliche Zahlung stornieren möchten, können Sie dies jederzeit tun. Bitte wenden Sie sich an <a href=\"%(url)s\">%(email)s</a>, um den Vorgang abzubrechen."
 
 #: kuma/payments/jinja2/payments/thank_you.html:108
-#, fuzzy
 msgid "Payment terms"
-msgstr "Über-Titel"
+msgstr "Zahlungsbedingungen"
 
 #: kuma/payments/jinja2/payments/thank_you.html:110 kuma/payments/jinja2/payments/email/thank_you/email.html:167
-#, fuzzy, python-format
+#, python-format
 msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
-msgstr "Bitte melden Sie sich unter <a href=\"%(mailto)s\">%(email)s</a>, um weitere Informationen zu diesem Problem zu erhalten."
+msgstr "Bitte lesen Sie unsere <a href=\"%(url)s\">Zahlungsbedingungen</a>, um weitere Informationen zu erhalten."
 
 #: kuma/payments/jinja2/payments/thank_you.html:118 kuma/payments/jinja2/payments/email/thank_you/email.html:185 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
 msgid "FAQ"
@@ -1832,7 +1831,7 @@ msgstr "Häufig gestellte Fragen"
 #: kuma/payments/jinja2/payments/thank_you.html:120 kuma/payments/jinja2/payments/email/thank_you/email.html:187
 #, python-format
 msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
-msgstr ""
+msgstr "Um mehr darüber zu erfahren, warum MDN durch einmalige und monatliche Zahlungsprogramme Geld sammelt, <a href=\"%(url)s\">besuchen Sie bitte unsere FAQ</a>."
 
 #: kuma/payments/jinja2/payments/thank_you.html:138
 msgid "Is there anything else you’d like to know more about?"
@@ -1844,9 +1843,8 @@ msgid "Hi %(username)s!"
 msgstr "Hallo %(username)s!"
 
 #: kuma/payments/jinja2/payments/email/thank_you/email.html:165 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:25
-#, fuzzy
 msgid "Payment Terms"
-msgstr "Über-Titel"
+msgstr "Zahlungsbedingungen"
 
 #: kuma/payments/jinja2/payments/email/thank_you/email.html:228
 msgid "331 E. Evelyn Avenue Mountain View CA 94041"
@@ -1864,20 +1862,20 @@ msgstr "Vielen Dank %(username)s [%(user_email)s] für Ihre Unterstützung für 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
 #, python-format
 msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact %(support_mail)s."
-msgstr ""
+msgstr "Wenn Sie Ihre monatliche Zahlung bearbeiten möchten, also z.&thinsp;B. Ihre Kartenkontodaten oder den von Ihnen gezahlten Betrag ändern möchten, wenden Sie sich bitte an %(support_mail)s."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
 #, python-format
 msgid "If you would like to cancel your monthly payment, you are free to do so at any point. Please contact %(support_mail)s to cancel."
-msgstr ""
+msgstr "Wenn Sie Ihre monatliche Zahlung stornieren möchten, können Sie dies jederzeit tun. Bitte wenden Sie sich an %(support_mail)s, um den Vorgang abzubrechen."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
 msgid "Please read our payment terms for more information:"
-msgstr ""
+msgstr "Weitere Informationen finden Sie in unseren Zahlungsbedinungen:"
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:32
 msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, please visit our FAQ."
-msgstr ""
+msgstr "Um mehr darüber zu erfahren, warum MDN durch einmalige und monatliche Zahlungsprogramme Geld sammelt, besuchen Sie bitte unsere FAQ."
 
 #: kuma/payments/jinja2/payments/email/thank_you/subject.ltxt:1
 msgid "Thank you for supporting MDN"
@@ -1914,15 +1912,15 @@ msgstr "Feedback geben"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:54
 msgid "One off payment"
-msgstr ""
+msgstr "Einmalige Zahlung"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:57
 msgid "Monthly payment"
-msgstr ""
+msgstr "Monatliche Zahlung"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:71
 msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
-msgstr ""
+msgstr "Wir haben festgestellt, dass Sie nicht bei MDN angemeldet sind. Um Ihre monatliche Zahlung abzuschließen, müssen Sie sich zuerst anmelden."
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:15
 msgid "Open tooltip for further email field information"
@@ -1949,9 +1947,9 @@ msgid "There has been an issue, please try again later."
 msgstr "Ein Problem ist aufgetreten, bitte versuchen Sie es später erneut."
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:66
-#, fuzzy, python-format
+#, python-format
 msgid "Pay <span data-dynamic-amount>%(amount)s</span>"
-msgstr "<span id=\"%(span_id)s\">%(amount)s</span> bezahlen"
+msgstr "<span data-dynamic-amount>%(amount)s</span> bezahlen"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:70
 msgid "We accept Mastercard payments"
@@ -2730,11 +2728,11 @@ msgstr "Mein Profil wiederherstellen"
 
 #: kuma/users/jinja2/socialaccount/signup.html:44
 msgid "Why do I need an MDN profile to complete my subscription?"
-msgstr ""
+msgstr "Warum brauche ich ein MDN-Profil, um meinen Dauerauftrag abzuschließen?"
 
 #: kuma/users/jinja2/socialaccount/signup.html:45
 msgid "An MDN profile allows us to communicate with you about your subscription. In the future, you can manage your payments from your MDN profile."
-msgstr ""
+msgstr "Mit einem MDN-Profil können wir mit Ihnen über Ihren Dauerauftrag kommunizieren. In Zukunft können Sie Ihre Zahlungen über Ihr MDN-Profil verwalten."
 
 #: kuma/users/jinja2/socialaccount/signup.html:53
 #, python-format
