@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-10-31 11:04-0700\n"
+"POT-Creation-Date: 2018-11-11 09:04-0800\n"
 "PO-Revision-Date: 2017-01-26 21:29+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: Romanian https://pontoon.mozilla.org/ro/\n"
@@ -127,7 +127,7 @@ msgstr "Aflați mai multe"
 msgid "Terms"
 msgstr "Termeni"
 
-#: jinja2/base.html:141 kuma/payments/jinja2/payments/email/thank_you/email.html:148
+#: jinja2/base.html:141 kuma/payments/jinja2/payments/email/thank_you/email.html:230
 msgid "Privacy"
 msgstr "Confidențialitate"
 
@@ -237,7 +237,7 @@ msgstr "/en/Web_Development"
 msgid "...more docs"
 msgstr "...mai multe documente"
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:197 kuma/payments/jinja2/payments/thank_you.html:77
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:197 kuma/payments/jinja2/payments/thank_you.html:134
 #, fuzzy
 msgid "Feedback"
 msgstr "Flux"
@@ -320,7 +320,7 @@ msgstr "Editare {demo_title}"
 msgid "Sign out"
 msgstr "Deconectare"
 
-#: jinja2/includes/login.html:23
+#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:73
 msgid "Sign in"
 msgstr "Autentificare"
 
@@ -346,7 +346,7 @@ msgstr ""
 msgid "E-mail"
 msgstr "Edit Demo"
 
-#: jinja2/includes/newsletter.html:18 kuma/payments/forms.py:46
+#: jinja2/includes/newsletter.html:18 kuma/payments/forms.py:52
 msgid "you@example.com"
 msgstr ""
 
@@ -656,7 +656,7 @@ msgstr "Twitter"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/includes/footer/moz-footer.html:1 kuma/payments/jinja2/payments/email/thank_you/email.html:145
+#: jinja2/includes/footer/moz-footer.html:1 kuma/payments/jinja2/payments/email/thank_you/email.html:227
 #, fuzzy
 msgid "Mozilla"
 msgstr "Mozilla"
@@ -1516,43 +1516,53 @@ msgstr ""
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr ""
 
-#: kuma/payments/forms.py:32 kuma/payments/forms.py:36
+#: kuma/payments/forms.py:38 kuma/payments/forms.py:42
 msgid "Your full name"
 msgstr ""
 
-#: kuma/payments/forms.py:37
+#: kuma/payments/forms.py:43
 msgid "Required"
 msgstr ""
 
-#: kuma/payments/forms.py:42
+#: kuma/payments/forms.py:48
 #, fuzzy
 msgid "Your email"
 msgstr "Edit Demo"
 
-#: kuma/payments/forms.py:47
+#: kuma/payments/forms.py:53
 msgid "Must be a valid email"
 msgstr ""
 
-#: kuma/payments/forms.py:48
+#: kuma/payments/forms.py:54
 msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
 msgstr ""
 
-#: kuma/payments/forms.py:57
+#: kuma/payments/forms.py:63
 #, fuzzy
 msgid "Contribution choices"
 msgstr "Go to the first page"
 
-#: kuma/payments/forms.py:75
-msgid "Other amount"
+#: kuma/payments/forms.py:81
+msgid "Other"
 msgstr ""
 
-#: kuma/payments/forms.py:76
+#: kuma/payments/forms.py:82
 msgid "Must be more than $1"
 msgstr ""
 
-#: kuma/payments/forms.py:103
+#: kuma/payments/forms.py:109
 msgid "Please select donation amount or choose from pre-selected choices"
 msgstr ""
+
+#: kuma/payments/forms.py:222
+msgid "You must agree to the terms to continue"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payment_terms.html:3 kuma/payments/jinja2/payments/payment_terms.html:7 kuma/payments/jinja2/payments/payment_terms.html:8
+#: kuma/payments/jinja2/payments/payment_terms.html:19
+#, fuzzy
+msgid "MDN Payment terms"
+msgstr "MDN recent demos"
 
 #: kuma/payments/jinja2/payments/payments.html:5
 #, fuzzy
@@ -1564,7 +1574,7 @@ msgstr "Contribuie la MDN"
 msgid "Contribute to MDN Web Docs"
 msgstr "Contribuie la MDN"
 
-#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:82
+#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:64
 #, fuzzy
 msgid "Support MDN"
 msgstr "Despre MDN"
@@ -1717,11 +1727,11 @@ msgid ""
 "revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:201 kuma/payments/jinja2/payments/thank_you.html:82
+#: kuma/payments/jinja2/payments/payments.html:201 kuma/payments/jinja2/payments/thank_you.html:139
 msgid "Your feedback goes here"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:202 kuma/payments/jinja2/payments/thank_you.html:83
+#: kuma/payments/jinja2/payments/payments.html:202 kuma/payments/jinja2/payments/thank_you.html:140
 msgid "Send"
 msgstr ""
 
@@ -1729,53 +1739,93 @@ msgstr ""
 msgid "Thank You"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:20 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
+#: kuma/payments/jinja2/payments/thank_you.html:21 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
 msgid "Thank you for supporting MDN."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:23 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
+#: kuma/payments/jinja2/payments/thank_you.html:24 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
 msgid ""
 "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
 "us make sure MDN can be available to everyone, everywhere."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:31 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
+#: kuma/payments/jinja2/payments/thank_you.html:32 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
 msgid "Thank you again,"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:32 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
+#: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
 msgid "The MDN Team"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:34
+#: kuma/payments/jinja2/payments/thank_you.html:36
 #, python-format
 msgid "I support MDN, and you can too: %(url)s"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:36
+#: kuma/payments/jinja2/payments/thank_you.html:38
 #, fuzzy
 msgid "Share your support for MDN on Twitter"
 msgstr "Împărtășește pe Twitter"
 
-#: kuma/payments/jinja2/payments/thank_you.html:37
+#: kuma/payments/jinja2/payments/thank_you.html:39
 #, fuzzy
 msgid "Share your support for MDN on Facebook"
 msgstr "Împărtășește pe Facebook"
 
-#: kuma/payments/jinja2/payments/thank_you.html:53
+#: kuma/payments/jinja2/payments/thank_you.html:56
 msgid "Ooops, something went wrong"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:56
+#: kuma/payments/jinja2/payments/thank_you.html:59
 #, python-format
 msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:63
+#: kuma/payments/jinja2/payments/thank_you.html:66
 msgid "Click here to go back"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:81
+#: kuma/payments/jinja2/payments/thank_you.html:80
+msgid "Useful Things"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:85 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
+msgid "Managing your payments"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:87 kuma/payments/jinja2/payments/email/thank_you/email.html:127
+#, python-format
+msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:97 kuma/payments/jinja2/payments/email/thank_you/email.html:145 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
+msgid "Cancelling your payments"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:99 kuma/payments/jinja2/payments/email/thank_you/email.html:147
+#, python-format
+msgid "If you would like to cancel your monthly payment, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:108
+msgid "Payment terms"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:110 kuma/payments/jinja2/payments/email/thank_you/email.html:167
+#, python-format
+msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:118 kuma/payments/jinja2/payments/email/thank_you/email.html:185 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
+msgid "FAQ"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:120 kuma/payments/jinja2/payments/email/thank_you/email.html:187
+#, python-format
+msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/thank_you.html:138
 msgid "Is there anything else you’d like to know more about?"
 msgstr ""
 
@@ -1784,11 +1834,15 @@ msgstr ""
 msgid "Hi %(username)s!"
 msgstr "Salut %(username)s!"
 
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:146
+#: kuma/payments/jinja2/payments/email/thank_you/email.html:165 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:25
+msgid "Payment Terms"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/email/thank_you/email.html:228
 msgid "331 E. Evelyn Avenue Mountain View CA 94041"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:148
+#: kuma/payments/jinja2/payments/email/thank_you/email.html:230
 msgid "Legal"
 msgstr ""
 
@@ -1797,79 +1851,109 @@ msgstr ""
 msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
 msgstr ""
 
+#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
+#, python-format
+msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact %(support_mail)s."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
+#, python-format
+msgid "If you would like to cancel your monthly payment, you are free to do so at any point. Please contact %(support_mail)s to cancel."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
+msgid "Please read our payment terms for more information:"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:32
+msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, please visit our FAQ."
+msgstr ""
+
 #: kuma/payments/jinja2/payments/email/thank_you/subject.ltxt:1
 msgid "Thank you for supporting MDN"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:10
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:14
 msgid "Collapse pop over window"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:11
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:16
 msgid "Close pop over window"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:19
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:26
 msgid "Give Back to MDN"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:21
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:28
 msgid "Support MDN, and it comes back to you."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:23
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:30
 msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:33
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:40
 msgid "Learn more about payments to MDN"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:36
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:43
 msgid "Provide feedback"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:52
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:54
+msgid "One off payment"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:57
+msgid "Monthly payment"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:71
+msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/includes/payments-form.html:15
 msgid "Open tooltip for further email field information"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:56
+#: kuma/payments/jinja2/payments/includes/payments-form.html:19
 #, fuzzy
 msgid "Close this tooltip"
 msgstr "Remove this toolbar"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:57
+#: kuma/payments/jinja2/payments/includes/payments-form.html:20
 #, fuzzy
 msgid "Why do you need my email address?"
 msgstr "Adaugă adresa de e-mail"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:58
+#: kuma/payments/jinja2/payments/includes/payments-form.html:21
 msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:63
+#: kuma/payments/jinja2/payments/includes/payments-form.html:26
 #, fuzzy
 msgid "Other contribution amount"
 msgstr "Termeni pentru contributori"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:78
+#: kuma/payments/jinja2/payments/includes/payments-form.html:58
 msgid "There has been an issue, please try again later."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:84
+#: kuma/payments/jinja2/payments/includes/payments-form.html:66
 #, python-format
-msgid "Pay <span id=\"%(span_id)s\">%(amount)s</span>"
+msgid "Pay <span data-dynamic-amount>%(amount)s</span>"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:88
+#: kuma/payments/jinja2/payments/includes/payments-form.html:70
 msgid "We accept Mastercard payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:89
+#: kuma/payments/jinja2/payments/includes/payments-form.html:71
 msgid "We accept Visa payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:90
+#: kuma/payments/jinja2/payments/includes/payments-form.html:72
 msgid "We accept American Express payments"
 msgstr ""
 
@@ -2404,7 +2488,7 @@ msgstr ""
 msgid "Email address"
 msgstr "Adresă de e-mail"
 
-#: kuma/users/views.py:533 kuma/users/jinja2/socialaccount/signup.html:128
+#: kuma/users/views.py:533 kuma/users/jinja2/socialaccount/signup.html:140
 msgid "Other:"
 msgstr ""
 
@@ -2649,67 +2733,75 @@ msgstr ""
 msgid "Recover my Profile"
 msgstr "Reportar um problema"
 
-#: kuma/users/jinja2/socialaccount/signup.html:41
+#: kuma/users/jinja2/socialaccount/signup.html:44
+msgid "Why do I need an MDN profile to complete my subscription?"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:45
+msgid "An MDN profile allows us to communicate with you about your subscription. In the future, you can manage your payments from your MDN profile."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:53
 #, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. You have one more step to join MDN: <strong>create your MDN profile</strong>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:47
+#: kuma/users/jinja2/socialaccount/signup.html:59
 msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:54
+#: kuma/users/jinja2/socialaccount/signup.html:66
 msgid "To set up your MDN profile, please <strong>choose a username</strong>. Your username will be displayed on MDN to identify any contributions that you make."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:60
+#: kuma/users/jinja2/socialaccount/signup.html:72
 msgid "To set up your MDN profile, please <strong>choose a username and email address</strong>. Your username will be displayed on MDN to identify any contributions that you make."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:68
+#: kuma/users/jinja2/socialaccount/signup.html:80
 #, python-format
 msgid "If you're <strong>having trouble</strong> signing in or creating an MDN profile, <strong><a href=\"%(bug_href)s\" rel=\"external\">let us know</a></strong>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:93
+#: kuma/users/jinja2/socialaccount/signup.html:105
 #, python-format
 msgid "Your GitHub username %(username)s is already taken. Please choose another."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:97
+#: kuma/users/jinja2/socialaccount/signup.html:109
 msgid "Please enter the name you'd like to display to other users to identify your contributions."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:111
+#: kuma/users/jinja2/socialaccount/signup.html:123
 #, python-format
 msgid "A profile already exists with the selected email address. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Connect your %(provider_name)s account to it.</a>"
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:149
 msgid "Verified"
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:139
+#: kuma/users/jinja2/socialaccount/signup.html:151
 msgid "Unverified"
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:148
+#: kuma/users/jinja2/socialaccount/signup.html:160
 #, python-format
 msgid ""
 "What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
 "\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:164
+#: kuma/users/jinja2/socialaccount/signup.html:176
 msgid "Terms and Privacy"
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:173
+#: kuma/users/jinja2/socialaccount/signup.html:185
 #, fuzzy, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "I accept the Mozilla Demo Studio <a href=\"%(terms_url)s#tfc\">Terms for Contributors</a> and <a href=\"%(terms_url)s#rrd\">Rights Representation Details</a>"
 
-#: kuma/users/jinja2/socialaccount/signup.html:189
+#: kuma/users/jinja2/socialaccount/signup.html:201
 msgid "Create my MDN profile"
 msgstr ""
 
@@ -5172,9 +5264,6 @@ msgstr ""
 
 #~ msgid "Demos submitted by MDN users"
 #~ msgstr "Demos submitted by MDN users"
-
-#~ msgid "MDN recent demos"
-#~ msgstr "MDN recent demos"
 
 #~ msgid "Demos recently submitted to MDN"
 #~ msgstr "Demos recently submitted to MDN"
