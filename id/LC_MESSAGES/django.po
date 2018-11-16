@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-11-11 09:04-0800\n"
+"POT-Creation-Date: 2018-11-16 12:16-0800\n"
 "PO-Revision-Date: 2018-10-26 13:07+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
@@ -236,7 +236,7 @@ msgstr "Pengembangan permainan"
 msgid "...more docs"
 msgstr "...dokumentasi selengkapnya"
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:197 kuma/payments/jinja2/payments/thank_you.html:134
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:240 kuma/payments/jinja2/payments/thank_you.html:135
 msgid "Feedback"
 msgstr "Saran"
 
@@ -308,7 +308,7 @@ msgstr "Sunting profil"
 msgid "Sign out"
 msgstr "Keluar"
 
-#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:73
+#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:84
 msgid "Sign in"
 msgstr "Masuk"
 
@@ -357,7 +357,7 @@ msgstr "Jika Anda belum pernah mengkonfirmasi langganan nawala terkait Mozilla, 
 msgid "Hide Newsletter Sign-up"
 msgstr "Sembunyikan Pendaftaran Nawala"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1328
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1329
 msgid "Previous"
 msgstr "Sebelumnya"
 
@@ -425,7 +425,7 @@ msgstr "Ceko"
 msgid "Dutch"
 msgstr "Belanda"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1338
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1339
 msgid "English (US)"
 msgstr "Bahasa Inggris (AS)"
 
@@ -621,7 +621,7 @@ msgstr "Berhenti berlangganan dari email ini:"
 msgid "Web Technologies"
 msgstr "Teknologi Jaringan"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:100
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:89
 msgid "Learn Web Development"
 msgstr "Belajar Pengembangan Web"
 
@@ -942,7 +942,7 @@ msgstr "Memastikan nilai ini punya sekurangnya %(limit_value)s karakter (menunju
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Memastikan nilai ini mempunyai paling banyak %(limit_value)s karakter (memiliki %(show_value)s)."
 
-#: kuma/core/utils.py:434
+#: kuma/core/utils.py:435
 #, python-format
 msgid "Today at %s"
 msgstr "Hari ini pada %s"
@@ -1254,71 +1254,47 @@ msgstr "Alat Pengembang"
 msgid "Featured"
 msgstr "Unggulan"
 
-#: kuma/landing/jinja2/landing/homepage.html:81
-msgid "Proudly non-profit."
-msgstr "Nirlaba dengan bangga."
-
-#: kuma/landing/jinja2/landing/homepage.html:81
-msgid "Donate before Dec 31."
-msgstr "Donasi sebelum 31 Des."
-
-#: kuma/landing/jinja2/landing/homepage.html:81
-msgid "Donate Now"
-msgstr "Donasi Sekarang"
-
-#: kuma/landing/jinja2/landing/homepage.html:88
-msgid "Get the best <br />CSS Grid Tools"
-msgstr ""
-
-#: kuma/landing/jinja2/landing/homepage.html:88
-msgid "Only in Firefox"
-msgstr "Hanya di Firefox"
-
-#: kuma/landing/jinja2/landing/homepage.html:89
-msgid "Learn More"
-msgstr "Pelajari Lebih Lanjut"
-
-#: kuma/landing/jinja2/landing/homepage.html:103
+#: kuma/landing/jinja2/landing/homepage.html:92
 msgid "Get The Browser For Developers Like You"
 msgstr "Dapatkan Peramban Untuk Pengembang Seperti Anda"
 
-#: kuma/landing/jinja2/landing/homepage.html:117
+#: kuma/landing/jinja2/landing/homepage.html:106
 msgid "read more at hacks.mozilla.org"
 msgstr "baca lebih lanjut di hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:126
+#: kuma/landing/jinja2/landing/homepage.html:115
 msgid "Help improve MDN"
 msgstr "Bantu menyempurnakan MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:127
+#: kuma/landing/jinja2/landing/homepage.html:116
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Setiap bagian MDN (dokumen dan situsnya) dibuat oleh komunitas pengembang yang terbuka. Bergabunglah dengan kami! Pilihlah salah satu di antara cara ini untuk membantu:"
 
-#: kuma/landing/jinja2/landing/homepage.html:129
+#: kuma/landing/jinja2/landing/homepage.html:118
 msgid "Getting started"
 msgstr "Memulai"
 
-#: kuma/landing/jinja2/landing/homepage.html:130
+#: kuma/landing/jinja2/landing/homepage.html:119
 msgid "Editorial review"
 msgstr "Ulasan editorial"
 
-#: kuma/landing/jinja2/landing/homepage.html:131
+#: kuma/landing/jinja2/landing/homepage.html:120
 msgid "Technical review"
 msgstr "Ulasan teknis"
 
-#: kuma/landing/jinja2/landing/homepage.html:132
+#: kuma/landing/jinja2/landing/homepage.html:121
 msgid "Translating"
 msgstr "Penerjemahan"
 
-#: kuma/landing/jinja2/landing/homepage.html:133
+#: kuma/landing/jinja2/landing/homepage.html:122
 msgid "Promoting MDN"
 msgstr "Mempromosikan MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:134
+#: kuma/landing/jinja2/landing/homepage.html:123
 msgid "Contributing to the MDN codebase"
 msgstr "Berkontribusi pada kode dasar MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:135
+#: kuma/landing/jinja2/landing/homepage.html:124
 msgid "Updating browser compatibility data"
 msgstr ""
 
@@ -1489,6 +1465,43 @@ msgstr "MDN adalah Kotak Peralatan Pengembang Web untuk dokumen dan lain sebagai
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Memuat %(entrydate)s oleh %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
+msgid "Proudly non-profit."
+msgstr "Nirlaba dengan bangga."
+
+#: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
+msgid "Donate before Dec 31."
+msgstr "Donasi sebelum 31 Des."
+
+#: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
+msgid "Donate Now"
+msgstr "Donasi Sekarang"
+
+#: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:4
+msgid "We need your input!"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:5
+msgid "Tell us about your day-to-day work in web design and CSS."
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:6
+#, fuzzy
+msgid "Take the Survey"
+msgstr "Ikuti survei kami"
+
+#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
+msgid "Get the best <br />CSS Grid Tools"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
+msgid "Only in Firefox"
+msgstr "Hanya di Firefox"
+
+#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
+msgid "Learn More"
+msgstr "Pelajari Lebih Lanjut"
+
 #: kuma/payments/forms.py:38 kuma/payments/forms.py:42
 msgid "Your full name"
 msgstr ""
@@ -1513,29 +1526,23 @@ msgstr ""
 msgid "Contribution choices"
 msgstr "Pilihan kontribusi "
 
-#: kuma/payments/forms.py:81
+#: kuma/payments/forms.py:82
 #, fuzzy
 msgid "Other"
 msgstr "Lainnya:"
 
-#: kuma/payments/forms.py:82
+#: kuma/payments/forms.py:83
 msgid "Must be more than $1"
 msgstr ""
 
-#: kuma/payments/forms.py:109
-msgid "Please select donation amount or choose from pre-selected choices"
-msgstr ""
-
-#: kuma/payments/forms.py:222
+#: kuma/payments/forms.py:107
 #, fuzzy
 msgid "You must agree to the terms to continue"
 msgstr "Anda harus menyetujui persyaratan penggunaan."
 
-#: kuma/payments/jinja2/payments/payment_terms.html:3 kuma/payments/jinja2/payments/payment_terms.html:7 kuma/payments/jinja2/payments/payment_terms.html:8
-#: kuma/payments/jinja2/payments/payment_terms.html:19
-#, fuzzy
-msgid "MDN Payment terms"
-msgstr "Dokumen MDN"
+#: kuma/payments/forms.py:121
+msgid "Please enter an amount or choose from the pre-selected options"
+msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:5
 msgid "Contribute"
@@ -1545,7 +1552,7 @@ msgstr "Berkontribusi"
 msgid "Contribute to MDN Web Docs"
 msgstr "Berkontribusi untuk MDN Web Docs"
 
-#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:64
+#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:72 kuma/payments/jinja2/payments/includes/payments-form.html:79
 msgid "Support MDN"
 msgstr "Dukung MDN"
 
@@ -1696,104 +1703,141 @@ msgid ""
 "revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:201 kuma/payments/jinja2/payments/thank_you.html:139
+#: kuma/payments/jinja2/payments/payments.html:197
+msgid "Monthly payments"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:200
+msgid "How do I manage my monthly payment?"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:202
+#, python-format
+msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:210
+msgid "How do I apply for a refund or cancel my payment?"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:212 kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:147
+#, python-format
+msgid ""
+"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
+"will not charge your payment card for subsequent months."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:221
+#, fuzzy
+msgid "What are the payment terms?"
+msgstr "Judul Induk"
+
+#: kuma/payments/jinja2/payments/payments.html:223 kuma/payments/jinja2/payments/thank_you.html:111 kuma/payments/jinja2/payments/email/thank_you/email.html:167
+#, fuzzy, python-format
+msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
+msgstr "Silakan hubungi <a href=\"%(mailto)s\">%(email)s</a> untuk informasi lebih lanjut mengenai masalah ini."
+
+#: kuma/payments/jinja2/payments/payments.html:228
+msgid "Does deleting my MDN account cancel my subscription?"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:230
+msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:244 kuma/payments/jinja2/payments/thank_you.html:140
 msgid "Your feedback goes here"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:202 kuma/payments/jinja2/payments/thank_you.html:140
+#: kuma/payments/jinja2/payments/payments.html:245 kuma/payments/jinja2/payments/thank_you.html:141
 msgid "Send"
 msgstr ""
+
+#: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
+#, fuzzy
+msgid "MDN payment terms"
+msgstr "Dokumen MDN"
 
 #: kuma/payments/jinja2/payments/thank_you.html:5
 msgid "Thank You"
 msgstr "Terima kasih"
 
-#: kuma/payments/jinja2/payments/thank_you.html:21 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
+#: kuma/payments/jinja2/payments/thank_you.html:22 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
 msgid "Thank you for supporting MDN."
 msgstr "Terima kasih karena mendukung MDN."
 
-#: kuma/payments/jinja2/payments/thank_you.html:24 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
+#: kuma/payments/jinja2/payments/thank_you.html:25 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
 msgid ""
 "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
 "us make sure MDN can be available to everyone, everywhere."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:32 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
+#: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
 msgid "Thank you again,"
 msgstr "Terima kasih sekali lagi,"
 
-#: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
+#: kuma/payments/jinja2/payments/thank_you.html:34 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
 msgid "The MDN Team"
 msgstr "Tim MDN "
 
-#: kuma/payments/jinja2/payments/thank_you.html:36
+#: kuma/payments/jinja2/payments/thank_you.html:37
 #, python-format
 msgid "I support MDN, and you can too: %(url)s"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:38
+#: kuma/payments/jinja2/payments/thank_you.html:39
 msgid "Share your support for MDN on Twitter"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:39
+#: kuma/payments/jinja2/payments/thank_you.html:40
 msgid "Share your support for MDN on Facebook"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:56
+#: kuma/payments/jinja2/payments/thank_you.html:57
 msgid "Ooops, something went wrong"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:59
+#: kuma/payments/jinja2/payments/thank_you.html:60
 #, python-format
 msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
 msgstr "Silakan hubungi <a href=\"%(mailto)s\">%(email)s</a> untuk informasi lebih lanjut mengenai masalah ini."
 
-#: kuma/payments/jinja2/payments/thank_you.html:66
+#: kuma/payments/jinja2/payments/thank_you.html:67
 msgid "Click here to go back"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:80
-msgid "Useful Things"
+#: kuma/payments/jinja2/payments/thank_you.html:81
+msgid "Useful things"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:85 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
+#: kuma/payments/jinja2/payments/thank_you.html:86 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
 msgid "Managing your payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:87 kuma/payments/jinja2/payments/email/thank_you/email.html:127
+#: kuma/payments/jinja2/payments/thank_you.html:88 kuma/payments/jinja2/payments/email/thank_you/email.html:127
 #, python-format
 msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:97 kuma/payments/jinja2/payments/email/thank_you/email.html:145 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
-msgid "Cancelling your payments"
+#: kuma/payments/jinja2/payments/thank_you.html:98 kuma/payments/jinja2/payments/email/thank_you/email.html:145
+msgid "Refunds and canceling your payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:99 kuma/payments/jinja2/payments/email/thank_you/email.html:147
-#, python-format
-msgid "If you would like to cancel your monthly payment, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel."
-msgstr ""
-
-#: kuma/payments/jinja2/payments/thank_you.html:108
+#: kuma/payments/jinja2/payments/thank_you.html:109
 #, fuzzy
 msgid "Payment terms"
 msgstr "Judul Induk"
 
-#: kuma/payments/jinja2/payments/thank_you.html:110 kuma/payments/jinja2/payments/email/thank_you/email.html:167
-#, fuzzy, python-format
-msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
-msgstr "Silakan hubungi <a href=\"%(mailto)s\">%(email)s</a> untuk informasi lebih lanjut mengenai masalah ini."
-
-#: kuma/payments/jinja2/payments/thank_you.html:118 kuma/payments/jinja2/payments/email/thank_you/email.html:185 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
+#: kuma/payments/jinja2/payments/thank_you.html:119 kuma/payments/jinja2/payments/email/thank_you/email.html:185 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
 msgid "FAQ"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:120 kuma/payments/jinja2/payments/email/thank_you/email.html:187
+#: kuma/payments/jinja2/payments/thank_you.html:121 kuma/payments/jinja2/payments/email/thank_you/email.html:187
 #, python-format
 msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/thank_you.html:138
+#: kuma/payments/jinja2/payments/thank_you.html:139
 msgid "Is there anything else you’d like to know more about?"
 msgstr ""
 
@@ -1825,9 +1869,15 @@ msgstr ""
 msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact %(support_mail)s."
 msgstr ""
 
+#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
+msgid "Cancelling your payments"
+msgstr ""
+
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
 #, python-format
-msgid "If you would like to cancel your monthly payment, you are free to do so at any point. Please contact %(support_mail)s to cancel."
+msgid ""
+"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
+"your payment card for subsequent months."
 msgstr ""
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
@@ -1842,84 +1892,84 @@ msgstr ""
 msgid "Thank you for supporting MDN"
 msgstr "Terima kasih karena mendukung MDN"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:14
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:19
 msgid "Collapse pop over window"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:16
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:21
 msgid "Close pop over window"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:26
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:31
 msgid "Give Back to MDN"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:28
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:33
 msgid "Support MDN, and it comes back to you."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:30
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:35
 msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:40
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:45
 msgid "Learn more about payments to MDN"
 msgstr "Lebih lanjut mengenai pembayaran ke MDN"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:43
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:48
 msgid "Provide feedback"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:54
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:60 kuma/payments/jinja2/payments/includes/payments-banner.html:67
 msgid "One off payment"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:57
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:62 kuma/payments/jinja2/payments/includes/payments-banner.html:70
 msgid "Monthly payment"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:71
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:82
 msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:15
+#: kuma/payments/jinja2/payments/includes/payments-form.html:17
 msgid "Open tooltip for further email field information"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:19
+#: kuma/payments/jinja2/payments/includes/payments-form.html:21
 msgid "Close this tooltip"
 msgstr "Tutup pesan tips ini"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:20
+#: kuma/payments/jinja2/payments/includes/payments-form.html:22
 msgid "Why do you need my email address?"
 msgstr "Mengapa Anda memerlukan alamat surel saya?"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:21
+#: kuma/payments/jinja2/payments/includes/payments-form.html:23
 msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:26
+#: kuma/payments/jinja2/payments/includes/payments-form.html:28
 msgid "Other contribution amount"
 msgstr "Jumlah kontribusi lainnya"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:58
+#: kuma/payments/jinja2/payments/includes/payments-form.html:68
 msgid "There has been an issue, please try again later."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:66
+#: kuma/payments/jinja2/payments/includes/payments-form.html:74
 #, python-format
-msgid "Pay <span data-dynamic-amount>%(amount)s</span>"
+msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:70
+#: kuma/payments/jinja2/payments/includes/payments-form.html:83
 msgid "We accept Mastercard payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:71
+#: kuma/payments/jinja2/payments/includes/payments-form.html:84
 msgid "We accept Visa payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:72
+#: kuma/payments/jinja2/payments/includes/payments-form.html:85
 msgid "We accept American Express payments"
 msgstr ""
 
@@ -2422,15 +2472,15 @@ msgstr "Saya ingin membuat URL profil GitHub saya publik"
 msgid "Take the next step to get involved on MDN!"
 msgstr "Mengambil langkah berikutnya untuk terlibat dalam MDN!"
 
-#: kuma/users/views.py:475
+#: kuma/users/views.py:476
 msgid "Email address"
 msgstr "Alamat email"
 
-#: kuma/users/views.py:533 kuma/users/jinja2/socialaccount/signup.html:140
+#: kuma/users/views.py:534 kuma/users/jinja2/socialaccount/signup.html:140
 msgid "Other:"
 msgstr "Lainnya:"
 
-#: kuma/users/views.py:535
+#: kuma/users/views.py:536
 msgid "Email:"
 msgstr "Surel:"
 
@@ -3666,7 +3716,7 @@ msgstr "Tinjauan dari Akismet dikelompokan sebagai spam"
 msgid "Staff reviewer"
 msgstr "Editor peninjau"
 
-#: kuma/wiki/search.py:293
+#: kuma/wiki/search.py:294
 #, python-format
 msgid "Indexing %(total)d documents into %(total_chunks)d chunks of size %(size)d into index %(index)s.total"
 msgstr "Membuat indeks %(total)d dokumen ke dalam %(total_chunks)d potongan berukuran %(size)d ke dalam indeks %(index)s.total"
@@ -4700,9 +4750,6 @@ msgstr "Server elasticsearch: %(backend)s"
 
 #~ msgid "Do you like creating things for the web? We’d love to hear from you."
 #~ msgstr "Anda suka menciptakan sesuatu untuk web? Kami ingin mendengarnya dari Anda."
-
-#~ msgid "Take our survey"
-#~ msgstr "Ikuti survei kami"
 
 #~ msgid "Get Involved"
 #~ msgstr "Ikutlah Terlibat"
