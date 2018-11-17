@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-11-16 12:16-0800\n"
-"PO-Revision-Date: 2018-11-17 04:30+0000\n"
+"PO-Revision-Date: 2018-11-17 05:04+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (Traditional) https://pontoon.mozilla.org/zh_TW/\n"
 "Language: zh_TW\n"
@@ -1468,11 +1468,11 @@ msgstr "敬請捐款"
 
 #: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:4
 msgid "We need your input!"
-msgstr ""
+msgstr "我們想聽聽您的意見！"
 
 #: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:5
 msgid "Tell us about your day-to-day work in web design and CSS."
-msgstr ""
+msgstr "告訴我們您平常的網頁設計與 CSS 相關工作內容是什麼。"
 
 #: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:6
 msgid "Take the Survey"
@@ -1699,7 +1699,7 @@ msgstr "每月付款"
 
 #: kuma/payments/jinja2/payments/payments.html:200
 msgid "How do I manage my monthly payment?"
-msgstr ""
+msgstr "我要如何管理每月付款？"
 
 #: kuma/payments/jinja2/payments/payments.html:202
 #, python-format
@@ -1708,19 +1708,18 @@ msgstr "若您想管理每月付款內容，例如更改信用卡資料，或是
 
 #: kuma/payments/jinja2/payments/payments.html:210
 msgid "How do I apply for a refund or cancel my payment?"
-msgstr ""
+msgstr "我要如何要求退費或取消付款？"
 
 #: kuma/payments/jinja2/payments/payments.html:212 kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:147
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
 "will not charge your payment card for subsequent months."
-msgstr "您可以隨時取消每月的付款。請聯絡 <a href=\"%(url)s\">%(email)s</a> 來取消付款。"
+msgstr "您可以隨時取消取消每月付款，或要求退款。請聯絡 <a href=\"%(url)s\">%(email)s</a> 來取消付款。若您選擇取消，我們將不會在接下來的月份中向您的付款方式進行扣款。"
 
 #: kuma/payments/jinja2/payments/payments.html:221
-#, fuzzy
 msgid "What are the payment terms?"
-msgstr "Payment 條款內容"
+msgstr "有哪些付款規定？"
 
 #: kuma/payments/jinja2/payments/payments.html:223 kuma/payments/jinja2/payments/thank_you.html:111 kuma/payments/jinja2/payments/email/thank_you/email.html:167
 #, python-format
@@ -1729,11 +1728,11 @@ msgstr "有關更多資訊，請閱讀我們的<a href=\"%(url)s\">Payment 條�
 
 #: kuma/payments/jinja2/payments/payments.html:228
 msgid "Does deleting my MDN account cancel my subscription?"
-msgstr ""
+msgstr "刪除 MDN 帳號會取消我的訂閱嗎？"
 
 #: kuma/payments/jinja2/payments/payments.html:230
 msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
-msgstr ""
+msgstr "當您要求刪除帳號後，我們也會取消您的訂閱，並停止在未來的月份中扣款。"
 
 #: kuma/payments/jinja2/payments/payments.html:244 kuma/payments/jinja2/payments/thank_you.html:140
 msgid "Your feedback goes here"
@@ -1744,9 +1743,8 @@ msgid "Send"
 msgstr "傳送"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
-#, fuzzy
 msgid "MDN payment terms"
-msgstr "MDN Payment 條款"
+msgstr "MDN 付款條款"
 
 #: kuma/payments/jinja2/payments/thank_you.html:5
 msgid "Thank You"
@@ -1797,7 +1795,6 @@ msgid "Click here to go back"
 msgstr "點擊此處返回"
 
 #: kuma/payments/jinja2/payments/thank_you.html:81
-#, fuzzy
 msgid "Useful things"
 msgstr "有用的東西"
 
@@ -1811,9 +1808,8 @@ msgid "If you would like to manage your monthly payment, such as changing your c
 msgstr "若您想管理每月付款內容，例如更改信用卡資料，或是付款金額，請聯絡 <a href=\"%(url)s\">%(email)s</a>。"
 
 #: kuma/payments/jinja2/payments/thank_you.html:98 kuma/payments/jinja2/payments/email/thank_you/email.html:145
-#, fuzzy
 msgid "Refunds and canceling your payments"
-msgstr "取消付款"
+msgstr "退費及取消付款"
 
 #: kuma/payments/jinja2/payments/thank_you.html:109
 msgid "Payment terms"
@@ -1864,11 +1860,11 @@ msgid "Cancelling your payments"
 msgstr "取消付款"
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
 "your payment card for subsequent months."
-msgstr "您可以隨時取消每月的付款。請聯絡 %(support_mail)s 來取消付款。"
+msgstr "您可以隨時取消取消每月付款，或要求退款。請聯絡 %(support_mail)s 來取消付款。若您選擇取消，我們將不會在接下來的月份中向您的付款方式進行扣款。"
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
 msgid "Please read our payment terms for more information:"
@@ -1947,9 +1943,9 @@ msgid "There has been an issue, please try again later."
 msgstr "發生一點問題，請再試一次。"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
-msgstr "支付 <span data-dynamic-amount>%(amount)s</span>"
+msgstr "%(recurring)s支付 <span data-dynamic-amount>%(amount)s</span>"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:83
 msgid "We accept Mastercard payments"
