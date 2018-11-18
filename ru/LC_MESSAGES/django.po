@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-11-16 12:16-0800\n"
-"PO-Revision-Date: 2018-11-18 17:12+0000\n"
+"PO-Revision-Date: 2018-11-18 17:16+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
 "Language: ru\n"
@@ -1481,16 +1481,15 @@ msgstr "Пожертвовать"
 
 #: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:4
 msgid "We need your input!"
-msgstr ""
+msgstr "Нам нужна ваша помощь!"
 
 #: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:5
 msgid "Tell us about your day-to-day work in web design and CSS."
-msgstr ""
+msgstr "Расскажите нам о своей повседневной работе в веб-дизайне и CSS."
 
 #: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:6
-#, fuzzy
 msgid "Take the Survey"
-msgstr "Пройти наш опрос"
+msgstr "Пройдите опрос"
 
 #: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
 msgid "Get the best <br />CSS Grid Tools"
@@ -1541,9 +1540,8 @@ msgid "You must agree to the terms to continue"
 msgstr "Для продолжения вы должны согласиться с условиями использования"
 
 #: kuma/payments/forms.py:121
-#, fuzzy
 msgid "Please enter an amount or choose from the pre-selected options"
-msgstr "Введите сумму пожертвования или выберите один из предложенных вариантов"
+msgstr "Введите сумму или выберите один из предложенных вариантов"
 
 #: kuma/payments/jinja2/payments/payments.html:5
 msgid "Contribute"
@@ -1746,12 +1744,11 @@ msgid ""
 "will not charge your payment card for subsequent months."
 msgstr ""
 "Если вы хотите отменить свой ежемесячный платеж или подать заявку на возмещение, вы можете сделать это в любой момент. Пожалуйста, свяжитесь по адресу <a href=\"%(url)s\">%(email)s</a> для его "
-"отмены. Если вы решите отменить, мы не будем взимать плату с вашей платежной карты за последующие месяцы."
+"отмены. Если вы решите отменить, мы не будем списывать деньги с вашей платежной карты за последующие месяцы."
 
 #: kuma/payments/jinja2/payments/payments.html:221
-#, fuzzy
 msgid "What are the payment terms?"
-msgstr "Условия оплаты"
+msgstr "Каковы условия платежей?"
 
 #: kuma/payments/jinja2/payments/payments.html:223 kuma/payments/jinja2/payments/thank_you.html:111 kuma/payments/jinja2/payments/email/thank_you/email.html:167
 #, python-format
@@ -1775,9 +1772,8 @@ msgid "Send"
 msgstr "Отправить"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
-#, fuzzy
 msgid "MDN payment terms"
-msgstr "Условия оплаты MDN"
+msgstr "Условия платежей на MDN"
 
 #: kuma/payments/jinja2/payments/thank_you.html:5
 msgid "Thank You"
@@ -1831,7 +1827,7 @@ msgstr "Нажмите здесь, чтобы вернуться назад"
 
 #: kuma/payments/jinja2/payments/thank_you.html:81
 msgid "Useful things"
-msgstr ""
+msgstr "Полезные вещи"
 
 #: kuma/payments/jinja2/payments/thank_you.html:86 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
 msgid "Managing your payments"
@@ -1844,7 +1840,7 @@ msgstr "Если вы хотите изменить ваш ежемесячны�
 
 #: kuma/payments/jinja2/payments/thank_you.html:98 kuma/payments/jinja2/payments/email/thank_you/email.html:145
 msgid "Refunds and canceling your payments"
-msgstr ""
+msgstr "Возврат и отмена платежей"
 
 #: kuma/payments/jinja2/payments/thank_you.html:109
 msgid "Payment terms"
@@ -1900,6 +1896,8 @@ msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
 "your payment card for subsequent months."
 msgstr ""
+"Если вы захотите отменить свой ежемесячный платеж или подать заявку на возмещение, вы можете сделать это в любой момент. Пожалуйста, свяжитесь по адресу %(support_mail)s для его отмены. Если вы "
+"решите его отменить, мы не будем списывать деньги с вашей платежной карты за последующие месяцы."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
 msgid "Please read our payment terms for more information:"
@@ -1978,9 +1976,9 @@ msgid "There has been an issue, please try again later."
 msgstr "Возникла проблема, повторите попытку позже."
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
-msgstr "Оплатить <span data-dynamic-amount>%(amount)s</span>"
+msgstr "Заплатить <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:83
 msgid "We accept Mastercard payments"
