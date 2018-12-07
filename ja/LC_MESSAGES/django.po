@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-11-21 12:35-0800\n"
+"POT-Creation-Date: 2018-12-07 11:03-0800\n"
 "PO-Revision-Date: 2018-11-19 14:59+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -238,7 +238,7 @@ msgstr "ゲーム開発"
 msgid "...more docs"
 msgstr "...さらに見る"
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:240 kuma/payments/jinja2/payments/thank_you.html:135
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:243 kuma/payments/jinja2/payments/thank_you.html:135
 msgid "Feedback"
 msgstr "フィードバック"
 
@@ -364,7 +364,7 @@ msgstr "これまでに Mozilla 関連のニュースレターを購読したこ
 msgid "Hide Newsletter Sign-up"
 msgstr "ニュースレター購読リンクを隠す"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1329
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1326
 msgid "Previous"
 msgstr "前へ"
 
@@ -432,7 +432,7 @@ msgstr "チェコ語"
 msgid "Dutch"
 msgstr "オランダ語"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1339
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1336
 msgid "English (US)"
 msgstr "英語 (アメリカ)"
 
@@ -676,8 +676,8 @@ msgstr "通知を停止"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "本当に通知を停止しますか？"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/wiki/jinja2/wiki/confirm_document_delete.html:44
-#: kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:44 kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -1498,27 +1498,13 @@ msgstr "12 月 31 日までに寄付を。"
 msgid "Donate Now"
 msgstr "今すぐ寄付"
 
-#: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:4
-msgid "We need your input!"
+#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
+msgid "Build in the Browser."
 msgstr ""
 
-#: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:5
-msgid "Tell us about your day-to-day work in web design and CSS."
+#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
+msgid "Design sites without leaving the browser."
 msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/future-design-tools.html:6
-msgid "Take the Survey"
-msgstr "アンケートに答える"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Get the best <br />CSS Grid Tools"
-msgstr "最高の CSS グリッド<br />ツールを手に入れよう"
-
-# メインページ, スライド4 - タイトル
-# 77%
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Only in Firefox"
-msgstr "Firefox 限定"
 
 #: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
 msgid "Learn More"
@@ -1548,20 +1534,101 @@ msgstr ""
 msgid "Contribution choices"
 msgstr "寄付の選択"
 
-#: kuma/payments/forms.py:82
+#: kuma/payments/forms.py:84
 msgid "Other"
 msgstr "その他"
 
-#: kuma/payments/forms.py:83
+#: kuma/payments/forms.py:85
 msgid "Must be more than $1"
 msgstr ""
 
-#: kuma/payments/forms.py:107
+#: kuma/payments/forms.py:109
 msgid "You must agree to the terms to continue"
 msgstr "続けるには利用規約に同意してください"
 
-#: kuma/payments/forms.py:121
+#: kuma/payments/forms.py:123
 msgid "Please enter an amount or choose from the pre-selected options"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
+msgid "MDN subscription management"
+msgstr ""
+
+# 80%
+#: kuma/payments/jinja2/payments/management.html:25
+#, fuzzy
+msgid "Your MDN profile"
+msgstr "新規 MDN プロファイルの作成"
+
+#: kuma/payments/jinja2/payments/management.html:28
+#, fuzzy
+msgid "Back to profile"
+msgstr "最初のページへ戻る"
+
+#: kuma/payments/jinja2/payments/management.html:31
+msgid "Help"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:34
+msgid "Monthly subscriptions FAQ"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
+#, fuzzy
+msgid "Subscriptions"
+msgstr "概要"
+
+#: kuma/payments/jinja2/payments/management.html:44
+#, python-format
+msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
+msgid "Monthly Subscription"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:58
+#, fuzzy
+msgid "Amount"
+msgstr "国"
+
+#: kuma/payments/jinja2/payments/management.html:59
+msgid "Card Number"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:60
+msgid "Expiry"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:74
+#, fuzzy
+msgid "Cancel your subscription"
+msgstr "Mozilla 関連ニュースレターの購読を管理"
+
+#: kuma/payments/jinja2/payments/management.html:77
+msgid "Are you sure?"
+msgstr "よろしいですか?"
+
+#: kuma/payments/jinja2/payments/management.html:79
+msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "確認"
+
+#: kuma/payments/jinja2/payments/management.html:95
+#, python-format
+msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:106
+msgid "Your monthly subscription has been successfully canceled"
+msgstr ""
+
+#: kuma/payments/jinja2/payments/management.html:111
+#, python-format
+msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
 msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:5
@@ -1734,44 +1801,51 @@ msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:202
 #, python-format
-msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>"
+msgid ""
+"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>. You can cancel your "
+"subscription on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:210
+#: kuma/payments/jinja2/payments/payments.html:213
 msgid "How do I apply for a refund or cancel my payment?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:212 kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:147
+#: kuma/payments/jinja2/payments/payments.html:215 kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:147
 #, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
 "will not charge your payment card for subsequent months."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:221
+#: kuma/payments/jinja2/payments/payments.html:224
 msgid "What are the payment terms?"
 msgstr "支払い条件は何ですか？"
 
-#: kuma/payments/jinja2/payments/payments.html:223 kuma/payments/jinja2/payments/thank_you.html:111 kuma/payments/jinja2/payments/email/thank_you/email.html:167
+#: kuma/payments/jinja2/payments/payments.html:226 kuma/payments/jinja2/payments/thank_you.html:111 kuma/payments/jinja2/payments/email/thank_you/email.html:167
 #, python-format
 msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
 msgstr "詳細については、<a href=\"%(url)s\">支払い条件</a> をお読みください。"
 
-#: kuma/payments/jinja2/payments/payments.html:228
+#: kuma/payments/jinja2/payments/payments.html:231
 msgid "Does deleting my MDN account cancel my subscription?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:230
+#: kuma/payments/jinja2/payments/payments.html:233
 msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:244 kuma/payments/jinja2/payments/thank_you.html:140
+#: kuma/payments/jinja2/payments/payments.html:247 kuma/payments/jinja2/payments/thank_you.html:140
 msgid "Your feedback goes here"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:245 kuma/payments/jinja2/payments/thank_you.html:141
+#: kuma/payments/jinja2/payments/payments.html:248 kuma/payments/jinja2/payments/thank_you.html:141
 msgid "Send"
 msgstr ""
+
+#: kuma/payments/jinja2/payments/payments.html:249 kuma/payments/jinja2/payments/thank_you.html:142
+#, fuzzy
+msgid "Thank you for submitting your feedback."
+msgstr "MDN へのご支援ありがとうございます。"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "MDN payment terms"
@@ -2580,10 +2654,6 @@ msgstr "メールアドレスの確認"
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "<a href=\"mailto:%(email)s\">%(email)s</a> が %(user_display)s のメールアドレスであることを確認してください。"
 
-#: kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "確認"
-
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
 msgid "This email confirmation link expired or is invalid. Please <a href=\"%(email_url)s\">issue a new email confirmation request</a>."
@@ -3120,51 +3190,61 @@ msgstr "アバターを変更:"
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "編集中のプロファイルはあなたのプロファイルではありません。注意してください！"
 
-#: kuma/users/jinja2/users/user_edit.html:58
+#: kuma/users/jinja2/users/user_edit.html:54
+#, fuzzy
+msgid "User Information"
+msgstr "リビジョン情報"
+
+#: kuma/users/jinja2/users/user_edit.html:59
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr "このサイトの様々な変更についてあなたの意見を聞かせてください！ ベータテスターはいち早く新機能を試すことができ、特定の機能のテストに協力をお願いするメールを時々お送りします。"
 
-#: kuma/users/jinja2/users/user_edit.html:61
+#: kuma/users/jinja2/users/user_edit.html:62
 msgid "Primary Email"
 msgstr "優先メールアドレス"
 
-#: kuma/users/jinja2/users/user_edit.html:61
+#: kuma/users/jinja2/users/user_edit.html:62
 msgid "Edit email"
 msgstr "メールアドレスを編集"
 
-#: kuma/users/jinja2/users/user_edit.html:74
+#: kuma/users/jinja2/users/user_edit.html:75
 msgid "Interests (tags)"
 msgstr "興味のある分野 (タグ)"
 
-#: kuma/users/jinja2/users/user_edit.html:75
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "タグを複数入力する際はカンマか半角スペースで区切ってください。複数の単語で構成されるタグは、\"web standards\" のようにダブルクォートで囲んでください。"
 
-#: kuma/users/jinja2/users/user_edit.html:81
+#: kuma/users/jinja2/users/user_edit.html:82
 msgid "Areas of expertise"
 msgstr "専門分野"
 
-#: kuma/users/jinja2/users/user_edit.html:82
+#: kuma/users/jinja2/users/user_edit.html:83
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "まず興味のある分野を追加し、そして選択肢から自身の専門分野を宣言します。"
 
-#: kuma/users/jinja2/users/user_edit.html:90
+#: kuma/users/jinja2/users/user_edit.html:91
+#, fuzzy
+msgid "Edit monthly subscription"
+msgstr "購読状況を更新しています"
+
+#: kuma/users/jinja2/users/user_edit.html:95
 msgid "My Profiles"
 msgstr "自分のプロファイル"
 
-#: kuma/users/jinja2/users/user_edit.html:112
+#: kuma/users/jinja2/users/user_edit.html:117
 msgid "Use your GitHub account to sign in."
 msgstr "GitHub アカウントを利用してログインしてください。"
 
-#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:141 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "公開"
 
-#: kuma/users/jinja2/users/user_edit.html:140
+#: kuma/users/jinja2/users/user_edit.html:145
 msgid "Delete your account."
 msgstr "あなたのアカウントを削除します。"
 
-#: kuma/users/jinja2/users/user_edit.html:148
+#: kuma/users/jinja2/users/user_edit.html:153
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 関連ニュースレターの購読を管理"
 
@@ -4786,27 +4866,27 @@ msgstr "コンテンツの生成時にエラーが発生しました。"
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "ドキュメントはすでに存在します。注: リダイレクトを削除しないと、移動されたドキュメントを元に戻すことはできません。"
 
-#: kuma/wiki/views/document.py:671
+#: kuma/wiki/views/document.py:648
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "%(url)s からリダイレクトされました"
 
-#: kuma/wiki/views/document.py:725
+#: kuma/wiki/views/document.py:698
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "私は %(title)s について MDN で学びました。"
 
-#: kuma/wiki/views/document.py:847
+#: kuma/wiki/views/document.py:819
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "未対応コンテンツタイプ: %s"
 
-#: kuma/wiki/views/document.py:854
+#: kuma/wiki/views/document.py:826
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "リクエスト解析エラー: %s"
 
-#: kuma/wiki/views/document.py:877
+#: kuma/wiki/views/document.py:849
 msgid "ETag precondition failed"
 msgstr "ETag の事前調整に失敗しました"
 
@@ -4830,6 +4910,17 @@ msgstr "あなたはこのドキュメントを翻訳できません。"
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch サーバー: %(backend)s"
+
+#~ msgid "Take the Survey"
+#~ msgstr "アンケートに答える"
+
+#~ msgid "Get the best <br />CSS Grid Tools"
+#~ msgstr "最高の CSS グリッド<br />ツールを手に入れよう"
+
+# メインページ, スライド4 - タイトル
+# 77%
+#~ msgid "Only in Firefox"
+#~ msgstr "Firefox 限定"
 
 #~ msgid "Do you like creating things for the web? We’d love to hear from you."
 #~ msgstr "ウェブのために何か作るのが好きですか？ あなたの意見を聞かせてください。"
@@ -6077,9 +6168,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 #~ msgid "Successfully censored %(count)d %(items)s."
 #~ msgstr "%(count)d 個の %(items)s をチェックしました。"
 
-#~ msgid "Are you sure?"
-#~ msgstr "よろしいですか?"
-
 #~ msgid "Censor selected %(verbose_name_plural)s"
 #~ msgstr "選択された %(verbose_name_plural)s を修正"
 
@@ -7141,9 +7229,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 #~ "\"https://p2pu.org/en/schools/school-of-webcraft\">School of Webcraft (スクール・オブ・Web クラフト)</a>では、無料のオンライン相互学習グループに参加いただけます。あなたが発見、奮闘、成功したこと"
 #~ "を、同じトピックを学習する仲間とぜひ共有してください。</p>"
 
-#~ msgid "Back to Home"
-#~ msgstr "最初のページへ戻る"
-
 #~ msgid ""
 #~ "<p class=\"intro\">CSS (<strong>Cascading Style Sheets</strong>) is a language for describing the appearance of web pages. To create good-looking web pages, you need to learn CSS in order to "
 #~ "define the appearance and location of the HTML elements within the pages.</p> <p>The links on this page lead to a variety of CSS tutorials and CSS training materials. Whether you are just "
@@ -7662,9 +7747,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 
 #~ msgid "Facebook URL"
 #~ msgstr "Facebook URL"
-
-#~ msgid "Country"
-#~ msgstr "国"
 
 #~ msgid "City"
 #~ msgstr "市区町村"
