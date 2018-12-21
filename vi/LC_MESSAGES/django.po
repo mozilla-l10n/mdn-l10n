@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-12-07 11:03-0800\n"
-"PO-Revision-Date: 2018-12-14 05:48+0000\n"
+"PO-Revision-Date: 2018-12-21 06:34+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
 "Language: vi\n"
@@ -573,7 +573,7 @@ msgstr "Tiếng Tamil"
 
 #: jinja2/includes/translate_locales.html:56
 msgid "Telugu"
-msgstr ""
+msgstr "Tiếng Telugu"
 
 #: jinja2/includes/translate_locales.html:57
 msgid "Thai"
@@ -721,15 +721,15 @@ msgstr "Không cho phép loại tệp này."
 
 #: kuma/attachments/models.py:112
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
-msgstr ""
+msgstr "Kiểu MIME được sử dụng khi phục vụ tệp đính kèm. Tự động điền bằng cách kiểm tra tệp khi tải lên. Vui lòng chỉ ghi đè nếu cần."
 
 #: kuma/attachments/models.py:141
 msgid "attachment revision"
-msgstr ""
+msgstr "tệp đính kèm"
 
 #: kuma/attachments/models.py:142
 msgid "attachment revisions"
-msgstr ""
+msgstr "các tệp đính kèm"
 
 #: kuma/attachments/models.py:215
 msgid "The attachment file that was trashed"
@@ -737,23 +737,23 @@ msgstr "Tập tin đính kèm đã được đưa vào thùng rác"
 
 #: kuma/attachments/models.py:220
 msgid "The date and time the attachment was trashed"
-msgstr ""
+msgstr "Ngày và giờ khi tệp đính kèm được chuyển vào thùng rác"
 
 #: kuma/attachments/models.py:225
 msgid "The username of the user who trashed the attachment"
-msgstr ""
+msgstr "Tên của người dùng đã di chuyển tệp đính kèm vào thùng rác"
 
 #: kuma/attachments/models.py:230
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
-msgstr ""
+msgstr "Cho biết liệu tệp đính kèm này có phải là tệp đính kèm sửa đổi hiện tại khi nó được chuyển vào thùng rác hay không."
 
 #: kuma/attachments/models.py:235
 msgid "Trashed attachment"
-msgstr ""
+msgstr "Đã chuyển tệp đính kèm vào thùng rác"
 
 #: kuma/attachments/models.py:236
 msgid "Trashed attachments"
-msgstr ""
+msgstr "Đã chuyển các tệp đính kèm vào thùng rác"
 
 #. 'title' is the title of the document.
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:3
@@ -830,7 +830,7 @@ msgstr "Liên kết trong bài viết này"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:95
 msgid "Article attached to"
-msgstr ""
+msgstr "Bài viết kèm theo tệp này"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:108
 #, python-format
@@ -871,6 +871,8 @@ msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
 msgstr ""
+"Đây là các khóa API của bạn. Chúng hữu ích để xây dựng các ứng dụng thực hiện các nhiệm vụ trên MDN thay mặt bạn. Nếu bạn đã ngừng sử dụng bất kỳ trong số họ, hoặc nghi ngờ ai đó đã tiếp xúc với các"
+" bên mà bạn không tin tưởng với tài khoản của mình, hãy xóa khóa. Thật dễ dàng để tạo một khóa thay thế bất cứ lúc nào."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
@@ -892,13 +894,15 @@ msgstr "Lịch sử (%(count)s)"
 #: kuma/authkeys/jinja2/authkeys/list.html:35
 #, python-format
 msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
-msgstr ""
+msgstr "Bạn cần có sự cho phép đặc biệt để sử dụng các khóa API. Bạn có thể yêu cầu sự cho phép bằng cách <a href=\"%(bugzilla_url)s\">báo lỗi</a>."
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
 "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
 " as you can.</p>"
 msgstr ""
+"<p>Mô tả mục đích sử dụng của bạn cho khóa này ở bên dưới. <p><strong>LƯU Ý:</strong> Đây là cách duy nhất để xác định khóa này, ngoại trừ ngày và giờ tạo khóa. Do đó, xin vui lòng mô tả rõ ràng "
+"nhất có thể.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
 msgid "Create"
@@ -910,6 +914,8 @@ msgid ""
 "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
 "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
 msgstr ""
+"<p>Khóa mới của bạn đã được tạo. Vui lòng ghi lại các chi tiết bên dưới (ví dụ: bằng cách sao chép chúng vào cài đặt của ứng dụng của bạn). Thông tin này sẽ không bao giờ được hiển thị lại và không "
+"thể phục hồi nếu bị mất.</p> <p><strong>LƯU Ý:</strong> Khi bạn hoàn thành, <a class=\"button\" href=\"%(list_url)s\">trở về danh sách chính</a>. Tải lại trang này sẽ tạo một khóa mới.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:30
 msgid "Key ID"
@@ -926,12 +932,12 @@ msgstr "Core"
 #: kuma/core/form_fields.py:57
 #, python-format
 msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr ""
+msgstr "Đảm bảo giá trị này có ít nhất %(limit_value)s kí tự (nó có %(show_value)s)."
 
 #: kuma/core/form_fields.py:62
 #, python-format
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr ""
+msgstr "Đảm bảo giá trị này có nhiều nhất %(limit_value)s kí tự (nó có %(show_value)s)."
 
 #: kuma/core/utils.py:435
 #, python-format
@@ -1012,7 +1018,7 @@ msgstr "Tác giả"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:2
 msgid "Dashboards"
-msgstr ""
+msgstr "Bảng điều khiển"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:26
 msgid "Active macros"
@@ -1020,20 +1026,20 @@ msgstr "Macro đang hoạt động"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
 msgid "All articles in need of review"
-msgstr ""
+msgstr "Tất cả các bài viết cần xem xét"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
 #, python-format
 msgid "Articles in need of review: %(tag)s"
-msgstr ""
+msgstr "Bài viết cần xem xét: %(tag)s"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
 msgid "All documents"
-msgstr ""
+msgstr "Tất cả tài liệu"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
 msgid "All Tags"
-msgstr ""
+msgstr "Tất cả tag"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:16
 msgid "Doc status by topic"
@@ -1041,11 +1047,11 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
 msgid "Documents with errors"
-msgstr ""
+msgstr "Tài liệu có lỗi"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
 msgid "Documents with no parent"
-msgstr ""
+msgstr "Không có tài liệu gốc"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
 msgid "Revision Dashboard"
