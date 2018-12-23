@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-12-07 11:03-0800\n"
-"PO-Revision-Date: 2018-12-21 14:10+0000\n"
+"PO-Revision-Date: 2018-12-23 03:13+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
 "Language: vi\n"
@@ -1166,7 +1166,7 @@ msgstr "Cấm chỉnh sửa từ IP"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:59
 msgid "User agent:"
-msgstr ""
+msgstr "Chuỗi đại diện người dùng (User Agent):"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:63
 msgid "Referrer:"
@@ -2784,30 +2784,30 @@ msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:66
 msgid "To set up your MDN profile, please <strong>choose a username</strong>. Your username will be displayed on MDN to identify any contributions that you make."
-msgstr ""
+msgstr "Để thiết lập hồ sơ MDN của bạn, vui lòng <strong>chọn tên người dùng</strong>. Tên người dùng của bạn sẽ được hiển thị trên MDN để xác định mọi đóng góp mà bạn thực hiện."
 
 #: kuma/users/jinja2/socialaccount/signup.html:72
 msgid "To set up your MDN profile, please <strong>choose a username and email address</strong>. Your username will be displayed on MDN to identify any contributions that you make."
-msgstr ""
+msgstr "Để thiết lập hồ sơ MDN của bạn, vui lòng <strong>chọn tên người dùng và địa chỉ email</strong>. Tên người dùng của bạn sẽ được hiển thị trên MDN để xác định mọi đóng góp mà bạn thực hiện."
 
 #: kuma/users/jinja2/socialaccount/signup.html:80
 #, python-format
 msgid "If you're <strong>having trouble</strong> signing in or creating an MDN profile, <strong><a href=\"%(bug_href)s\" rel=\"external\">let us know</a></strong>."
-msgstr ""
+msgstr "Nếu bạn <strong>đang gặp sự cố</strong> khi đăng nhập hoặc tạo một hồ sơ MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">hãy cho chúng tôi biết</a></strong>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:105
 #, python-format
 msgid "Your GitHub username %(username)s is already taken. Please choose another."
-msgstr ""
+msgstr "Tên người dùng GitHub của bạn %(username)s đã được sử dụng. Vui lòng chọn cái khác."
 
 #: kuma/users/jinja2/socialaccount/signup.html:109
 msgid "Please enter the name you'd like to display to other users to identify your contributions."
-msgstr ""
+msgstr "Vui lòng nhập tên bạn muốn hiển thị cho người dùng khác để xác định đóng góp của bạn."
 
 #: kuma/users/jinja2/socialaccount/signup.html:123
 #, python-format
 msgid "A profile already exists with the selected email address. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Connect your %(provider_name)s account to it.</a>"
-msgstr ""
+msgstr "Một hồ sơ đã tồn tại với địa chỉ email đã chọn. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Kết nối tài khoản của bạn %(provider_name)s với nó.</a>"
 
 #: kuma/users/jinja2/socialaccount/signup.html:149
 msgid "Verified"
@@ -2831,7 +2831,7 @@ msgstr "Điều Khoản và Chính sách Riêng tư"
 #: kuma/users/jinja2/socialaccount/signup.html:185
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
-msgstr ""
+msgstr "tới <a href=\"%(terms_url)s\">điều khoản</a> và <a href=\"%(privacy_url)s\">thông báo bảo mật</a> của Mozilla."
 
 #: kuma/users/jinja2/socialaccount/signup.html:201
 msgid "Create my MDN profile"
@@ -2969,7 +2969,7 @@ msgstr "Lịch sử"
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:176 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:195 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:223
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:254 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:278
 msgid "None."
-msgstr ""
+msgstr "Không."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:119
 msgid "Revisions skipped due to newer non-spam revision:"
@@ -3005,7 +3005,7 @@ msgstr "Được xác định là không spam:"
 
 #: kuma/users/jinja2/users/recover_done.html:3
 msgid "Connect Account"
-msgstr ""
+msgstr "Kết nối tài khoản"
 
 #: kuma/users/jinja2/users/recover_done.html:12
 msgid "Use the button below to connect your MDN profile to GitHub."
@@ -3054,18 +3054,20 @@ msgstr "Chúng tôi rất tiếc khi bạn rời đi."
 #: kuma/users/jinja2/users/user_delete.html:31
 msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
 msgstr ""
+"Mặc dù có thể xóa tài khoản của bạn, chúng tôi không thể xóa bất kỳ sửa đổi nào (thay đổi trang) bạn đã thực hiện và giấy phép nội dung của chúng tôi yêu cầu các bản sửa đổi của bạn phải có thẩm "
+"quyền."
 
 #: kuma/users/jinja2/users/user_delete.html:38
 msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr ""
+msgstr "Vui lòng gửi một lỗi để yêu cầu đóng tài khoản của bạn và đảm bảo một trong các tùy chọn này nằm trong trường mô tả:"
 
 #: kuma/users/jinja2/users/user_delete.html:57
 msgid "I haven't changed any pages; just delete my account."
-msgstr ""
+msgstr "Tôi đã không thay đổi bất kỳ trang nào; chỉ cần xóa tài khoản của tôi."
 
 #: kuma/users/jinja2/users/user_delete.html:62
 msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr ""
+msgstr "Giữ thuộc tính của tôi cho những thay đổi trang của tôi; xóa địa chỉ email của tôi và đóng băng tài khoản của tôi để tôi không thể đăng nhập lại."
 
 #: kuma/users/jinja2/users/user_delete.html:67
 msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
