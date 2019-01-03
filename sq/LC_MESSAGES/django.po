@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-12-07 11:03-0800\n"
-"PO-Revision-Date: 2019-01-03 16:51+0000\n"
+"PO-Revision-Date: 2019-01-03 16:58+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
 "Language: sq\n"
@@ -1792,27 +1792,30 @@ msgid "How do I manage my monthly payment?"
 msgstr "Si t’i administroj pagesat e mija mujore?"
 
 #: kuma/payments/jinja2/payments/payments.html:202
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>. You can cancel your subscription"
 " on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page."
-msgstr "Nëse doni të administroni pagesën tuaj mujore, b.f., të ndryshoni hollësi llogarie për kartën tuaj të krediti apo sasinë që paguani, ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a>."
+msgstr ""
+"Nëse doni të administroni pagesën tuaj mujore, b.f., të ndryshoni hollësi llogarie për kartën tuaj të krediti apo sasinë që paguani, ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a>. Pajtimin"
+" tuaj mund ta anuloni te faqja <a href=\"%(manage_subscription_url)s\">Administroni pajtime mujore</a>."
 
 #: kuma/payments/jinja2/payments/payments.html:213
 msgid "How do I apply for a refund or cancel my payment?"
 msgstr "Si të aplikoj për një rimbursim ose anulim të pagesës time?"
 
 #: kuma/payments/jinja2/payments/payments.html:215 kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:147
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
 "will not charge your payment card for subsequent months."
-msgstr "Nëse do të donit të anuloni pagesën tuaj mujore, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a> që ta anuloni."
+msgstr ""
+"Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a> që ta anuloni. Nëse "
+"zgjidhni anulimin, nuk do të aplikojmë pagesë te karta për muajt pasardhës."
 
 #: kuma/payments/jinja2/payments/payments.html:224
-#, fuzzy
 msgid "What are the payment terms?"
-msgstr "Kushte pagesash"
+msgstr "Çfarë janë kushtet e pagesave?"
 
 #: kuma/payments/jinja2/payments/payments.html:226 kuma/payments/jinja2/payments/thank_you.html:111 kuma/payments/jinja2/payments/email/thank_you/email.html:167
 #, python-format
@@ -1836,14 +1839,12 @@ msgid "Send"
 msgstr "Dërgoje"
 
 #: kuma/payments/jinja2/payments/payments.html:249 kuma/payments/jinja2/payments/thank_you.html:142
-#, fuzzy
 msgid "Thank you for submitting your feedback."
-msgstr "Faleminderit që përkrahni MDN-në."
+msgstr "Faleminderit që parashtruat përshtypjet tuaja."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
-#, fuzzy
 msgid "MDN payment terms"
-msgstr "Kushte Pagesash për MDN-në"
+msgstr "Kushte pagesash për MDN-në"
 
 #: kuma/payments/jinja2/payments/thank_you.html:5
 msgid "Thank You"
@@ -1896,9 +1897,8 @@ msgid "Click here to go back"
 msgstr "Klikoni këtu për t’u kthyer mbrapsht"
 
 #: kuma/payments/jinja2/payments/thank_you.html:81
-#, fuzzy
 msgid "Useful things"
-msgstr "Gjëra të Dobishme"
+msgstr "Gjëra të dobishme"
 
 #: kuma/payments/jinja2/payments/thank_you.html:86 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
 msgid "Managing your payments"
@@ -1910,9 +1910,8 @@ msgid "If you would like to manage your monthly payment, such as changing your c
 msgstr "Nëse doni të administroni pagesën tuaj mujore, b.f., të ndryshoni hollësi llogarie për kartën tuaj të krediti apo sasinë që paguani, ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a>."
 
 #: kuma/payments/jinja2/payments/thank_you.html:98 kuma/payments/jinja2/payments/email/thank_you/email.html:145
-#, fuzzy
 msgid "Refunds and canceling your payments"
-msgstr "Anulim i pagesave tuaja"
+msgstr "Rimbursim dhe anulim i pagesave tuaja"
 
 #: kuma/payments/jinja2/payments/thank_you.html:109
 msgid "Payment terms"
@@ -1963,11 +1962,13 @@ msgid "Cancelling your payments"
 msgstr "Anulim i pagesave tuaja"
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
 "your payment card for subsequent months."
-msgstr "Nëse do të donit të anuloni pagesën tuaj mujore, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me %(support_mail)s që ta anuloni."
+msgstr ""
+"Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me %(support_mail)s që ta anuloni. Nëse zgjidhni anulimin, s’do"
+" të aplikojmë në kartën tuaj pagesë për muajt pasardhës."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
 msgid "Please read our payment terms for more information:"
@@ -1990,9 +1991,8 @@ msgid "Close pop over window"
 msgstr "Mbylle dritaren hapmbyll"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:31
-#, fuzzy
 msgid "Help grow MDN"
-msgstr "Ndihmoni të përmirësohet MDN-ja"
+msgstr "Ndihmoni të fuqizohet MDN-ja"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:33
 msgid "Support MDN, and it comes back to you."
@@ -2047,9 +2047,9 @@ msgid "There has been an issue, please try again later."
 msgstr "Pati një problem, ju lutemi, riprovoni."
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:74
-#, fuzzy, python-format
+#, python-format
 msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
-msgstr "Paguani <span data-dynamic-amount>%(amount)s</span>"
+msgstr "Paguani <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:83
 msgid "We accept Mastercard payments"
@@ -3180,9 +3180,8 @@ msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Po përpunoni një profil tjetër nga i juaji. Ju lutemi, bëni kujdes!"
 
 #: kuma/users/jinja2/users/user_edit.html:54
-#, fuzzy
 msgid "User Information"
-msgstr "Të dhëna Rishikimesh"
+msgstr "Të dhëna Përdoruesi"
 
 #: kuma/users/jinja2/users/user_edit.html:59
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
@@ -3215,9 +3214,8 @@ msgid "Add your interests first, then declare yourself an expert in selected top
 msgstr "Së pari shtoni interesat tuaja, mandej deklarohuni ekspert në fusha të caktuara."
 
 #: kuma/users/jinja2/users/user_edit.html:91
-#, fuzzy
 msgid "Edit monthly subscription"
-msgstr "Po përditësohet gjendja e përkthimit"
+msgstr "Përpunoni pajtim mujor"
 
 #: kuma/users/jinja2/users/user_edit.html:95
 msgid "My Profiles"
