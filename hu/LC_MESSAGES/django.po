@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2018-12-07 11:03-0800\n"
-"PO-Revision-Date: 2019-01-08 20:24+0000\n"
+"PO-Revision-Date: 2019-01-10 20:20+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
 "Language: hu\n"
@@ -1827,6 +1827,8 @@ msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
 "will not charge your payment card for subsequent months."
 msgstr ""
+"Ha törölni szeretné a havi fizetését, vagy visszatérítést kér, akkor ezt bármikor megteheti. Lépjen velünk kapcsolatba a(z) <a href=\"%(url)s\">%(email)s</a> címen a törléshez. Ha úgy dönt, hogy "
+"megszünteti, akkor a következő hónapokban nem terheljük meg a kártyáját."
 
 #: kuma/payments/jinja2/payments/payments.html:224
 msgid "What are the payment terms?"
@@ -1843,7 +1845,7 @@ msgstr "Az MDN fiókja törlése törli az előfizetését?"
 
 #: kuma/payments/jinja2/payments/payments.html:233
 msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
-msgstr ""
+msgstr "Ha a fiókja törlését kéri, akkor az előfizetését is megszakítjuk, és a következő hónapokban nem terheljük meg a kártyáját."
 
 #: kuma/payments/jinja2/payments/payments.html:247 kuma/payments/jinja2/payments/thank_you.html:140
 msgid "Your feedback goes here"
@@ -1874,6 +1876,8 @@ msgid ""
 "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
 "us make sure MDN can be available to everyone, everywhere."
 msgstr ""
+"Elkötelezettek vagyunk, hogy a legjobb információforrást biztosítsuk a webes szabványokról. Támogatása lehetővé teszi, hogy az MDN még gyorsabban fejlődhessen, még több tartalmat és nap mint nap "
+"használt eszközt készítsünk, és segít abban, hogy az MDN mindenki számára elérhető legyen, mindenhol."
 
 #: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
 msgid "Thank you again,"
@@ -1920,7 +1924,7 @@ msgstr "Fizetései kezelése"
 #: kuma/payments/jinja2/payments/thank_you.html:88 kuma/payments/jinja2/payments/email/thank_you/email.html:127
 #, python-format
 msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr ""
+msgstr "Ha kezelni szeretné a havi fizetését, például megváltoztatná a kártyája adatait vagy a fizetendő összeget, akkor lépjen velünk kapcsolatba a(z) <a href=\"%(url)s\">%(email)s</a> címen."
 
 #: kuma/payments/jinja2/payments/thank_you.html:98 kuma/payments/jinja2/payments/email/thank_you/email.html:145
 msgid "Refunds and canceling your payments"
@@ -1937,7 +1941,7 @@ msgstr "GYIK"
 #: kuma/payments/jinja2/payments/thank_you.html:121 kuma/payments/jinja2/payments/email/thank_you/email.html:187
 #, python-format
 msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
-msgstr ""
+msgstr "Ha többet szeretne megtudni arról, hogy miért gyűjt pénzt az MDN az egyszeri és a havi befizetési programokon keresztül, akkor <a href=\"%(url)s\">keresse fel a GYIK oldalunkat</a>."
 
 #: kuma/payments/jinja2/payments/thank_you.html:139
 msgid "Is there anything else you’d like to know more about?"
@@ -1968,7 +1972,7 @@ msgstr "Köszönjük %(username)s [%(user_email)s], hogy támogatja az MDN-t."
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
 #, python-format
 msgid "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please contact %(support_mail)s."
-msgstr ""
+msgstr "Ha kezelni szeretné a havi fizetését, például megváltoztatná a kártyája adatait vagy a fizetendő összeget, akkor lépjen velünk kapcsolatba a(z) %(support_mail)s címen."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
 msgid "Cancelling your payments"
