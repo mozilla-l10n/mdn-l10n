@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-12-07 11:03-0800\n"
+"POT-Creation-Date: 2019-01-24 14:48-0800\n"
 "PO-Revision-Date: 2018-10-06 11:38+0000\n"
 "Last-Translator: Slimane Selyan AMIRI <slimane.amiri@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -791,7 +791,7 @@ msgid "File"
 msgstr "Afaylu"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1839
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1841
 msgid "Title"
 msgstr "Azwel"
 
@@ -1135,7 +1135,7 @@ msgstr "Imzizdig"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Akken iteddu umahil deg akud, Ad ifak di %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1791
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1793
 msgid "Revision"
 msgstr "Aɛiwed n tmuɣli"
 
@@ -1622,7 +1622,7 @@ msgstr "Ttekki ɣer MDN"
 msgid "Contribute to MDN Web Docs"
 msgstr "Ttekki ɣer MDN"
 
-#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:72 kuma/payments/jinja2/payments/includes/payments-form.html:79
+#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:66 kuma/payments/jinja2/payments/includes/payments-form.html:73
 #, fuzzy
 msgid "Support MDN"
 msgstr "Γef MDN"
@@ -2041,24 +2041,24 @@ msgstr ""
 msgid "Other contribution amount"
 msgstr "ffer imttekkiyen"
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:68
+#: kuma/payments/jinja2/payments/includes/payments-form.html:62
 msgid "There has been an issue, please try again later."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:74
+#: kuma/payments/jinja2/payments/includes/payments-form.html:68
 #, python-format
 msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:83
+#: kuma/payments/jinja2/payments/includes/payments-form.html:77
 msgid "We accept Mastercard payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:84
+#: kuma/payments/jinja2/payments/includes/payments-form.html:78
 msgid "We accept Visa payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:85
+#: kuma/payments/jinja2/payments/includes/payments-form.html:79
 msgid "We accept American Express payments"
 msgstr ""
 
@@ -3431,15 +3431,15 @@ msgstr "Anebdal"
 msgid "Wiki"
 msgstr "Wiki"
 
-#: kuma/wiki/constants.py:217
+#: kuma/wiki/constants.py:221
 msgid "Technical - code samples, APIs, or technologies"
 msgstr "Atiknikan - imedyaten n tengalt, API neɣ tatiknulujit"
 
-#: kuma/wiki/constants.py:218
+#: kuma/wiki/constants.py:222
 msgid "Editorial - prose, grammar, or content"
 msgstr "Tira - aḍris, tajeṛṛumt, neɣ agbur"
 
-#: kuma/wiki/constants.py:223
+#: kuma/wiki/constants.py:227
 msgid "Localization in progress - not completely translated yet."
 msgstr "Tasuqilt tetteddu - ur yettwasuqel ara yakan imeṛṛa."
 
@@ -3711,108 +3711,108 @@ msgstr "yettucudd deg ugbur n isemli"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Ur tezmireḍ ara ad tessedduḍ %(attachment_id)s deqs n tikal ɣer isemli %(document_id)s"
 
-#: kuma/wiki/models.py:1464
+#: kuma/wiki/models.py:1466
 msgid "Review Tag"
 msgstr "Tabzimt n tɣuṛi/awali tikelt nniḍen"
 
-#: kuma/wiki/models.py:1465
+#: kuma/wiki/models.py:1467
 msgid "Review Tags"
 msgstr "Tibzimin n tɣuṛi/awali tikelt nniḍen"
 
-#: kuma/wiki/models.py:1471
+#: kuma/wiki/models.py:1473
 msgid "Localization Tag"
 msgstr "Tabzimt n usideg"
 
-#: kuma/wiki/models.py:1472
+#: kuma/wiki/models.py:1474
 msgid "Localization Tags"
 msgstr "Tibzimin n usideg"
 
-#: kuma/wiki/models.py:1511
+#: kuma/wiki/models.py:1513
 msgid "No table of contents"
 msgstr "Ulac tafelwit n ugbur"
 
-#: kuma/wiki/models.py:1512
+#: kuma/wiki/models.py:1514
 msgid "All levels"
 msgstr "Akk iswiren"
 
-#: kuma/wiki/models.py:1513
+#: kuma/wiki/models.py:1515
 msgid "H2 and higher"
 msgstr "H2 neɣ ugar"
 
-#: kuma/wiki/models.py:1514
+#: kuma/wiki/models.py:1516
 msgid "H3 and higher"
 msgstr "H3 neɣ ugar"
 
-#: kuma/wiki/models.py:1515
+#: kuma/wiki/models.py:1517
 msgid "H4 and higher"
 msgstr "H4 neɣ ugar"
 
-#: kuma/wiki/models.py:1620
+#: kuma/wiki/models.py:1622
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Yessefk aɛiwed n tmuɣli ad yebnu ɣef uɛid n tmuɣli n isemli %(locale)s. Asulay ID n uɛiwed n tmuɣli %(id)s ur imeɣri  ara akked usebdad agi."
 
-#: kuma/wiki/models.py:1751
+#: kuma/wiki/models.py:1753
 msgid "IP address"
 msgstr "Tansa IP"
 
-#: kuma/wiki/models.py:1759
+#: kuma/wiki/models.py:1761
 msgid "User-Agent"
 msgstr "Aseqdac-Ameggi"
 
-#: kuma/wiki/models.py:1764
+#: kuma/wiki/models.py:1766
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1772 kuma/wiki/models.py:1858
+#: kuma/wiki/models.py:1774 kuma/wiki/models.py:1860
 msgid "Data submitted to Akismet"
 msgstr "Isefka ttwaznen i Akismet"
 
-#: kuma/wiki/models.py:1797
+#: kuma/wiki/models.py:1799
 msgid "Akismet submission"
 msgstr "Anekcum Akismet"
 
-#: kuma/wiki/models.py:1798
+#: kuma/wiki/models.py:1800
 msgid "Akismet submissions"
 msgstr "Inekcumen Akismet"
 
-#: kuma/wiki/models.py:1843
+#: kuma/wiki/models.py:1845
 msgid "Slug"
 msgstr "Asulay n tensa URL"
 
-#: kuma/wiki/models.py:1851
+#: kuma/wiki/models.py:1853
 msgid "Document (optional)"
 msgstr "Isemli (afrayan)"
 
-#: kuma/wiki/models.py:1861
+#: kuma/wiki/models.py:1863
 msgid "reviewed"
 msgstr "yettuwal/yettwaɣṛa tikelt nniḍen"
 
-#: kuma/wiki/models.py:1872
+#: kuma/wiki/models.py:1874
 msgid "Needs Review"
 msgstr "Yesra awal/taɣuri tikelt nniḍen"
 
-#: kuma/wiki/models.py:1873
+#: kuma/wiki/models.py:1875
 msgid "Ham / False Positive"
 msgstr "Agbur ameɣtu / Mačči d ummid"
 
-#: kuma/wiki/models.py:1874
+#: kuma/wiki/models.py:1876
 msgid "Confirmed as Spam"
 msgstr "Yettwasentem d aspam"
 
-#: kuma/wiki/models.py:1875
+#: kuma/wiki/models.py:1877
 msgid "Review Unavailable"
 msgstr "Aɛiwed n tmuɣli ulac-it"
 
-#: kuma/wiki/models.py:1876
+#: kuma/wiki/models.py:1878
 msgid "Akismet Error"
 msgstr "Tuucḍa Akismet"
 
-#: kuma/wiki/models.py:1881
+#: kuma/wiki/models.py:1883
 msgid "Review of Akismet's classification as spam"
 msgstr "Taɣuṛi nniḍen n usmizzwer s uspam sɣuṛ Akismet"
 
-#: kuma/wiki/models.py:1888
+#: kuma/wiki/models.py:1890
 msgid "Staff reviewer"
 msgstr "Amseɣtay n terbaɛt"
 

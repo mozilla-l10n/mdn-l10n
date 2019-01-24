@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2018-12-07 11:03-0800\n"
+"POT-Creation-Date: 2019-01-24 14:48-0800\n"
 "PO-Revision-Date: 2017-10-19 10:09+0000\n"
 "Last-Translator: Michael Buluma <michael@mozilla-kenya.org>\n"
 "Language-Team: Swahili https://pontoon.mozilla.org/sw/\n"
@@ -787,7 +787,7 @@ msgid "File"
 msgstr ""
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1839
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1841
 msgid "Title"
 msgstr ""
 
@@ -1122,7 +1122,7 @@ msgstr ""
 msgid "Trends Over Time, Ending %(date)s"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1791
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1793
 msgid "Revision"
 msgstr ""
 
@@ -1593,7 +1593,7 @@ msgstr ""
 msgid "Contribute to MDN Web Docs"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:72 kuma/payments/jinja2/payments/includes/payments-form.html:79
+#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:66 kuma/payments/jinja2/payments/includes/payments-form.html:73
 msgid "Support MDN"
 msgstr ""
 
@@ -1995,24 +1995,24 @@ msgstr ""
 msgid "Other contribution amount"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:68
+#: kuma/payments/jinja2/payments/includes/payments-form.html:62
 msgid "There has been an issue, please try again later."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:74
+#: kuma/payments/jinja2/payments/includes/payments-form.html:68
 #, python-format
 msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:83
+#: kuma/payments/jinja2/payments/includes/payments-form.html:77
 msgid "We accept Mastercard payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:84
+#: kuma/payments/jinja2/payments/includes/payments-form.html:78
 msgid "We accept Visa payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-form.html:85
+#: kuma/payments/jinja2/payments/includes/payments-form.html:79
 msgid "We accept American Express payments"
 msgstr ""
 
@@ -3368,15 +3368,15 @@ msgstr ""
 msgid "Wiki"
 msgstr ""
 
-#: kuma/wiki/constants.py:217
+#: kuma/wiki/constants.py:221
 msgid "Technical - code samples, APIs, or technologies"
 msgstr ""
 
-#: kuma/wiki/constants.py:218
+#: kuma/wiki/constants.py:222
 msgid "Editorial - prose, grammar, or content"
 msgstr ""
 
-#: kuma/wiki/constants.py:223
+#: kuma/wiki/constants.py:227
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
@@ -3646,108 +3646,108 @@ msgstr ""
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr ""
 
-#: kuma/wiki/models.py:1464
+#: kuma/wiki/models.py:1466
 msgid "Review Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1465
+#: kuma/wiki/models.py:1467
 msgid "Review Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1471
+#: kuma/wiki/models.py:1473
 msgid "Localization Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1472
+#: kuma/wiki/models.py:1474
 msgid "Localization Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1511
+#: kuma/wiki/models.py:1513
 msgid "No table of contents"
 msgstr ""
 
-#: kuma/wiki/models.py:1512
+#: kuma/wiki/models.py:1514
 msgid "All levels"
 msgstr ""
 
-#: kuma/wiki/models.py:1513
+#: kuma/wiki/models.py:1515
 msgid "H2 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1514
+#: kuma/wiki/models.py:1516
 msgid "H3 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1515
+#: kuma/wiki/models.py:1517
 msgid "H4 and higher"
 msgstr ""
 
-#: kuma/wiki/models.py:1620
+#: kuma/wiki/models.py:1622
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr ""
 
-#: kuma/wiki/models.py:1751
+#: kuma/wiki/models.py:1753
 msgid "IP address"
 msgstr ""
 
-#: kuma/wiki/models.py:1759
+#: kuma/wiki/models.py:1761
 msgid "User-Agent"
 msgstr ""
 
-#: kuma/wiki/models.py:1764
+#: kuma/wiki/models.py:1766
 msgid "HTTP Referrer"
 msgstr ""
 
-#: kuma/wiki/models.py:1772 kuma/wiki/models.py:1858
+#: kuma/wiki/models.py:1774 kuma/wiki/models.py:1860
 msgid "Data submitted to Akismet"
 msgstr ""
 
-#: kuma/wiki/models.py:1797
+#: kuma/wiki/models.py:1799
 msgid "Akismet submission"
 msgstr ""
 
-#: kuma/wiki/models.py:1798
+#: kuma/wiki/models.py:1800
 msgid "Akismet submissions"
 msgstr ""
 
-#: kuma/wiki/models.py:1843
+#: kuma/wiki/models.py:1845
 msgid "Slug"
 msgstr ""
 
-#: kuma/wiki/models.py:1851
+#: kuma/wiki/models.py:1853
 msgid "Document (optional)"
 msgstr ""
 
-#: kuma/wiki/models.py:1861
+#: kuma/wiki/models.py:1863
 msgid "reviewed"
 msgstr ""
 
-#: kuma/wiki/models.py:1872
+#: kuma/wiki/models.py:1874
 msgid "Needs Review"
 msgstr ""
 
-#: kuma/wiki/models.py:1873
+#: kuma/wiki/models.py:1875
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:1874
+#: kuma/wiki/models.py:1876
 msgid "Confirmed as Spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1875
+#: kuma/wiki/models.py:1877
 msgid "Review Unavailable"
 msgstr ""
 
-#: kuma/wiki/models.py:1876
+#: kuma/wiki/models.py:1878
 msgid "Akismet Error"
 msgstr ""
 
-#: kuma/wiki/models.py:1881
+#: kuma/wiki/models.py:1883
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1888
+#: kuma/wiki/models.py:1890
 msgid "Staff reviewer"
 msgstr ""
 
