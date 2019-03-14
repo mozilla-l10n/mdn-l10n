@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-01-24 14:48-0800\n"
+"POT-Creation-Date: 2019-03-14 08:44-0700\n"
 "PO-Revision-Date: 2019-01-03 16:58+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -112,31 +112,32 @@ msgstr "Mund t’ju interesonin mënyra të tjera <a href=\"%(content_url)s\">sh
 msgid "Internal Server Error"
 msgstr "Gabim i Brendshëm Shërbyesi"
 
-#: jinja2/base.html:10 jinja2/base.html:56 jinja2/base.html:61 jinja2/base.html:107 jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/base.html:10 jinja2/base.html:56 jinja2/base.html:61 jinja2/base.html:107 jinja2/react_base.html:10 jinja2/react_base.html:56 jinja2/react_base.html:61
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
 msgid "MDN Web Docs"
 msgstr "Dokumentim Web i MDN-së"
 
-#: jinja2/base.html:90
+#: jinja2/base.html:90 jinja2/react_base.html:90
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN-ja gjendet nën mënyrën mirëmbajtje, vetëm-lexim."
 
-#: jinja2/base.html:92
+#: jinja2/base.html:92 jinja2/react_base.html:92
 msgid "Learn more"
 msgstr "Mësoni më tepër"
 
-#: jinja2/base.html:140
+#: jinja2/base.html:140 jinja2/react_base.html:133
 msgid "Terms"
 msgstr "Kushte"
 
-#: jinja2/base.html:141 kuma/payments/jinja2/payments/email/thank_you/email.html:230
+#: jinja2/base.html:141 jinja2/react_base.html:134 kuma/payments/jinja2/payments/email/thank_you/email.html:230
 msgid "Privacy"
 msgstr "Privatësi"
 
-#: jinja2/base.html:142
+#: jinja2/base.html:142 jinja2/react_base.html:135
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:146
+#: jinja2/base.html:146 jinja2/react_base.html:139
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla dhe kontribues individualë.</p> <p>Lënda mund të përdoret sipas <a href=\"%(copyright_url)s\">këtyre licencave</a>.</p>"
@@ -287,11 +288,11 @@ msgstr "Pult rishikimesh"
 msgid "Documentation status"
 msgstr "Gjendje dokumentimi"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:85
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91 kuma/wiki/jinja2/wiki/react_document.html:91
 msgid "Other languages:"
 msgstr "Gjuhë të tjera:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:96
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102 kuma/wiki/jinja2/wiki/react_document.html:102
 msgid "Go"
 msgstr "Shko tek"
 
@@ -668,7 +669,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "Jeni i sigurt se doni të shpajtoheni?"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:44 kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:43 kuma/wiki/jinja2/wiki/move.html:99
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:40 kuma/wiki/jinja2/wiki/confirm_purge.html:27 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:41 kuma/wiki/jinja2/wiki/move.html:99
 msgid "Cancel"
 msgstr "Anuloje"
 
@@ -794,7 +795,7 @@ msgid "File"
 msgstr "Kartelë"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1841
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1878
 msgid "Title"
 msgstr "Titull"
 
@@ -840,7 +841,7 @@ msgstr "Artikull ku është lidhur"
 msgid "%(bytes)s bytes"
 msgstr "%(bytes)s bajte"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:110 kuma/attachments/jinja2/attachments/includes/attachment_list.html:129
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:110 kuma/attachments/jinja2/attachments/includes/attachment_list.html:127
 msgid "n/a"
 msgstr "n/a"
 
@@ -861,7 +862,7 @@ msgid "Created"
 msgstr "U krijua"
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:107 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:246
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:16 kuma/wiki/jinja2/wiki/confirm_document_delete.html:43
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:16 kuma/wiki/jinja2/wiki/confirm_document_delete.html:39
 msgid "Delete"
 msgstr "Fshije"
 
@@ -929,94 +930,94 @@ msgstr "ID Kyçi"
 msgid "Secret"
 msgstr "Sekret"
 
-#: kuma/core/apps.py:13
+#: kuma/core/apps.py:15
 msgid "Core"
 msgstr "Baza"
 
-#: kuma/core/form_fields.py:57
+#: kuma/core/form_fields.py:59
 #, python-format
 msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Sigurohuni që kjo vlerë të ketë të paktën %(limit_value)s shenja (ka %(show_value)s)."
 
-#: kuma/core/form_fields.py:62
+#: kuma/core/form_fields.py:64
 #, python-format
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Sigurohuni që kjo vlerë të ketë të shumtën %(limit_value)s shenja (ka %(show_value)s)."
 
-#: kuma/core/utils.py:435
+#: kuma/core/utils.py:371
 #, python-format
 msgid "Today at %s"
 msgstr "Sot më %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:101
 msgid "Yes"
 msgstr "Po"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:101
 msgid "No"
 msgstr "Jo"
 
-#: kuma/dashboards/forms.py:8
+#: kuma/dashboards/forms.py:10
 msgid "All Locales"
 msgstr "Krejt Vendoret"
 
-#: kuma/dashboards/forms.py:10
+#: kuma/dashboards/forms.py:12
 msgid "None"
 msgstr "Asnjë"
 
-#: kuma/dashboards/forms.py:11
+#: kuma/dashboards/forms.py:13
 msgid "Hour"
 msgstr "Orë"
 
-#: kuma/dashboards/forms.py:12
+#: kuma/dashboards/forms.py:14
 msgid "Day"
 msgstr "Ditë"
 
-#: kuma/dashboards/forms.py:13
+#: kuma/dashboards/forms.py:15
 msgid "Week"
 msgstr "Javë"
 
-#: kuma/dashboards/forms.py:14
+#: kuma/dashboards/forms.py:16
 msgid "30 days"
 msgstr "30 ditë"
 
-#: kuma/dashboards/forms.py:23
+#: kuma/dashboards/forms.py:25
 msgid "All Authors"
 msgstr "Krejt Autorët"
 
-#: kuma/dashboards/forms.py:24
+#: kuma/dashboards/forms.py:26
 msgid "Known Authors"
 msgstr "Autorë të Njohur"
 
-#: kuma/dashboards/forms.py:25
+#: kuma/dashboards/forms.py:27
 msgid "Unknown Authors"
 msgstr "Autorë të Panjohur"
 
-#: kuma/dashboards/forms.py:33 kuma/dashboards/jinja2/dashboards/revisions.html:25
+#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:25
 msgid "Locale:"
 msgstr "Vendore:"
 
-#: kuma/dashboards/forms.py:37 kuma/dashboards/jinja2/dashboards/revisions.html:30
+#: kuma/dashboards/forms.py:39 kuma/dashboards/jinja2/dashboards/revisions.html:30
 msgid "User:"
 msgstr "Përdorues:"
 
-#: kuma/dashboards/forms.py:41 kuma/dashboards/jinja2/dashboards/revisions.html:35
+#: kuma/dashboards/forms.py:43 kuma/dashboards/jinja2/dashboards/revisions.html:35
 msgid "Topic:"
 msgstr "Temë:"
 
-#: kuma/dashboards/forms.py:43 kuma/dashboards/jinja2/dashboards/revisions.html:41
+#: kuma/dashboards/forms.py:45 kuma/dashboards/jinja2/dashboards/revisions.html:41
 msgid "Start Date:"
 msgstr "Datë Fillimi:"
 
-#: kuma/dashboards/forms.py:47 kuma/dashboards/jinja2/dashboards/revisions.html:46
+#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:46
 msgid "End Date:"
 msgstr "Datë Përfundimi:"
 
-#: kuma/dashboards/forms.py:53 kuma/dashboards/jinja2/dashboards/revisions.html:51
+#: kuma/dashboards/forms.py:55 kuma/dashboards/jinja2/dashboards/revisions.html:51
 msgid "Preceding Period:"
 msgstr "Periudha Pararendëse:"
 
-#: kuma/dashboards/forms.py:57
+#: kuma/dashboards/forms.py:59
 msgid "Authors"
 msgstr "Autorë"
 
@@ -1136,12 +1137,12 @@ msgstr "Filtroji"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Prirje Në Kohë, Mbaron më %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1793
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1830
 msgid "Revision"
 msgstr "Rishikim"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:9 kuma/users/jinja2/users/user_detail.html:44 kuma/users/jinja2/users/includes/user_revision_history_form.html:10
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:35 kuma/wiki/jinja2/wiki/revision.html:44
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:33 kuma/wiki/jinja2/wiki/revision.html:44
 msgid "Comment"
 msgstr "Koment"
 
@@ -1161,46 +1162,46 @@ msgstr "i re"
 msgid "deleted"
 msgstr "i fshirë"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:56
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:54
 msgid "IP:"
 msgstr "IP:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:57
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:55
 msgid "Ban IP from Editing"
 msgstr "Dëboje IP-në nga Përpunimet"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:59
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:57
 msgid "User agent:"
 msgstr "Agjent përdoruesi:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:63
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:61
 msgid "Referrer:"
 msgstr "Refereus:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:71 kuma/users/jinja2/users/includes/user_title_info.html:142
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:142
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "përzënë më %(ban_date)s nga %(user)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:84
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:82
 #, python-format
 msgid "Submitted as %(submission_type)s"
 msgstr "Parashtruar si %(submission_type)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:87
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:85
 #, python-format
 msgid "%(sent_date)s by %(user)s"
 msgstr "%(sent_date)s nga %(user)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:94
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:92
 msgid "Submit as:"
 msgstr "Parashtrojeni si:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:95
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:93
 msgid "spam"
 msgstr "i padëshiruar"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:106
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:104
 msgid "There are no revisions matching this filter set."
 msgstr "S’ka rishikime që përputhen me këtë grup filtrash."
 
@@ -1228,7 +1229,7 @@ msgstr "Reshtni së marri email-e kur ka rishikime në Anglisht në pritje"
 msgid "Get emailed when English reviews are waiting"
 msgstr "Merrni email kur ka rishikime në Anglisht në pritje"
 
-#: kuma/feeder/sections.py:6
+#: kuma/feeder/sections.py:8
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
@@ -2492,8 +2493,8 @@ msgstr "Rreth Meje"
 msgid "IRC nickname"
 msgstr "Nofkë IRC"
 
-#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:30 kuma/wiki/jinja2/wiki/create.html:75
-#: kuma/wiki/jinja2/wiki/edit.html:193
+#: kuma/users/models.py:101 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
+#: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
 msgstr "Etiketa"
 
@@ -2537,7 +2538,7 @@ msgstr "Sajt"
 msgid "Public GitHub URL"
 msgstr "URL GitHub Publike"
 
-#: kuma/users/signal_handlers.py:44
+#: kuma/users/signal_handlers.py:45
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 msgstr "Plotësuat hapin e parë se <a href=\"%s\">si t’ia fillohet me MDN-në</a>"
@@ -2656,23 +2657,23 @@ msgstr "Keni ripohuar se <a href=\"mailto:%(email)s\">%(email)s</a> është adre
 msgid "Sign In"
 msgstr "Hyni"
 
-#: kuma/users/jinja2/account/login.html:13
+#: kuma/users/jinja2/account/login.html:17
 msgid "Please sign in"
 msgstr "Ju lutemi, futuni"
 
-#: kuma/users/jinja2/account/login.html:15
+#: kuma/users/jinja2/account/login.html:19
 msgid "All content on MDN is free and available without signing in."
 msgstr "Krejt lënda në MDN është e lirë dhe mund të shfrytëzohet pa bërë hyrje gjëkundi."
 
-#: kuma/users/jinja2/account/login.html:20
+#: kuma/users/jinja2/account/login.html:24
 msgid "In order to contribute, you need to sign in to an existing MDN profile."
 msgstr "Që të mund të kontribuoni, lypset të bëni hyrjen te një profil MDN ekzistues."
 
-#: kuma/users/jinja2/account/login.html:24 kuma/users/jinja2/account/signup_closed.html:4
+#: kuma/users/jinja2/account/login.html:28 kuma/users/jinja2/account/signup_closed.html:4
 msgid "We are sorry, but profile creation is currently disabled."
 msgstr "Na ndjeni, por krijimi i profileve hëpërhë është i çaktivizuar."
 
-#: kuma/users/jinja2/account/login.html:27
+#: kuma/users/jinja2/account/login.html:31
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
 msgstr "Që të mund të kontribuoni, lypset të bëni hyrjen te MDN-ja. Hyrjen mund ta bëni duke përdorur GitHub-in dhe një profil MDN do të krijohet për ju, nëse s’keni ende një të tillë."
 
@@ -3015,7 +3016,7 @@ msgid "View Page"
 msgstr "Shihni Faqen"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:101 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:216 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:240
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:84
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:87
 msgid "History"
 msgstr "Historik"
 
@@ -3142,11 +3143,11 @@ msgstr "Shihni krejt veprimtarinë"
 msgid "Page"
 msgstr "Faqe"
 
-#: kuma/users/jinja2/users/user_detail.html:43 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:26
+#: kuma/users/jinja2/users/user_detail.html:43 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:24
 msgid "Date"
 msgstr "Datë"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:286
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290 kuma/wiki/jinja2/wiki/react_document.html:290
 msgid "Edit page"
 msgstr "Përpunoni faqen"
 
@@ -3154,7 +3155,7 @@ msgstr "Përpunoni faqen"
 msgid "View complete diff"
 msgstr "Shihni plotësisht dallimet"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:287
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291 kuma/wiki/jinja2/wiki/react_document.html:291
 msgid "View page history"
 msgstr "Shihni historik faqeje"
 
@@ -3384,11 +3385,11 @@ msgstr "I raportuar tashmë si i padëshiruar."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Ky përdorues s’ka krijuar ndonjë rishikim në tre ditët e fundit."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:741 kuma/wiki/jinja2/wiki/includes/buttons.html:54
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:743 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Përpunoni"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:28 kuma/wiki/jinja2/wiki/includes/buttons.html:77 kuma/wiki/jinja2/wiki/includes/buttons.html:82
+#: kuma/users/jinja2/users/includes/user_title_info.html:28 kuma/wiki/jinja2/wiki/includes/buttons.html:80 kuma/wiki/jinja2/wiki/includes/buttons.html:85
 msgid "Advanced"
 msgstr "Të mëtejshme"
 
@@ -3438,19 +3439,19 @@ msgstr "Admin"
 msgid "Wiki"
 msgstr "Wiki"
 
-#: kuma/wiki/constants.py:221
+#: kuma/wiki/constants.py:225
 msgid "Technical - code samples, APIs, or technologies"
 msgstr "Teknike - shembuj kodi, API, ose teknologji"
 
-#: kuma/wiki/constants.py:222
+#: kuma/wiki/constants.py:226
 msgid "Editorial - prose, grammar, or content"
 msgstr "Redaktoriale - prozë, gramatikë, ose lëndë"
 
-#: kuma/wiki/constants.py:227
+#: kuma/wiki/constants.py:231
 msgid "Localization in progress - not completely translated yet."
 msgstr "Përkthimi është në rrugë e sipër - ende i papërkthyer plotësisht."
 
-#: kuma/wiki/content.py:722
+#: kuma/wiki/content.py:724
 msgid "Edit section"
 msgstr "Përpunoni ndarjen"
 
@@ -3622,8 +3623,8 @@ msgstr ""
 msgid "Changing this document's slug requires moving it and its children."
 msgstr "Ndryshimi i identifikuesit të këtij dokumenti lyp lëvizjen e tij dhe të pjellave të tij."
 
-#: kuma/wiki/forms.py:339 kuma/wiki/forms.py:410 kuma/wiki/forms.py:894 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:88 kuma/wiki/jinja2/wiki/edit.html:125
-#: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:68 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
+#: kuma/wiki/forms.py:339 kuma/wiki/forms.py:410 kuma/wiki/forms.py:894 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:86 kuma/wiki/jinja2/wiki/edit.html:123
+#: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:66 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
 msgid "Title:"
 msgstr "Titull:"
 
@@ -3631,7 +3632,7 @@ msgstr "Titull:"
 msgid "Title of article"
 msgstr "Titulli i artikullit"
 
-#: kuma/wiki/forms.py:348 kuma/wiki/forms.py:424 kuma/wiki/jinja2/wiki/create.html:46 kuma/wiki/jinja2/wiki/includes/document_macros.html:72
+#: kuma/wiki/forms.py:348 kuma/wiki/forms.py:424 kuma/wiki/jinja2/wiki/create.html:46 kuma/wiki/jinja2/wiki/includes/document_macros.html:70
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:22
 msgid "Slug:"
 msgstr "Identifikues:"
@@ -3644,11 +3645,11 @@ msgstr "URL e artikullit"
 msgid "Parent:"
 msgstr "Prind:"
 
-#: kuma/wiki/forms.py:436 kuma/wiki/jinja2/wiki/edit.html:94 kuma/wiki/jinja2/wiki/includes/document_macros.html:77 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
+#: kuma/wiki/forms.py:436 kuma/wiki/jinja2/wiki/edit.html:92 kuma/wiki/jinja2/wiki/includes/document_macros.html:75 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
 msgid "Tags:"
 msgstr "Etiketa:"
 
-#: kuma/wiki/forms.py:444 kuma/wiki/jinja2/wiki/edit.html:100
+#: kuma/wiki/forms.py:444 kuma/wiki/jinja2/wiki/edit.html:98
 msgid "Keywords:"
 msgstr "Fjalëkyçe:"
 
@@ -3664,11 +3665,11 @@ msgstr "Përmbledhje përfundimesh kërkimi:"
 msgid "Only displayed on search results page"
 msgstr "Shfaqur vetëm në faqen e përfundimeve të kërkimit"
 
-#: kuma/wiki/forms.py:465 kuma/wiki/jinja2/wiki/edit.html:112 kuma/wiki/jinja2/wiki/includes/document_macros.html:88
+#: kuma/wiki/forms.py:465 kuma/wiki/jinja2/wiki/edit.html:110 kuma/wiki/jinja2/wiki/includes/document_macros.html:86
 msgid "Content:"
 msgstr "Lëndë:"
 
-#: kuma/wiki/forms.py:477 kuma/wiki/jinja2/wiki/includes/document_macros.html:83
+#: kuma/wiki/forms.py:477 kuma/wiki/jinja2/wiki/includes/document_macros.html:81
 msgid "Comment:"
 msgstr "Koment:"
 
@@ -3692,134 +3693,134 @@ msgstr "Identifikues i ri:"
 msgid "New article URL"
 msgstr "URL e re artikulli"
 
-#: kuma/wiki/models.py:88
+#: kuma/wiki/models.py:89
 #, python-format
 msgid "Parent %s does not exist."
 msgstr "Prindi %s s’ekziston."
 
-#: kuma/wiki/models.py:96
+#: kuma/wiki/models.py:97
 msgid "Document Tag"
 msgstr "Etiketë Dokumenti"
 
-#: kuma/wiki/models.py:97
+#: kuma/wiki/models.py:98
 msgid "Document Tags"
 msgstr "Etiketa Dokumenti"
 
-#: kuma/wiki/models.py:155
+#: kuma/wiki/models.py:156
 msgid "uploaded to the document"
 msgstr "u ngarkua te dokumenti"
 
-#: kuma/wiki/models.py:161
+#: kuma/wiki/models.py:162
 msgid "linked in the document content"
 msgstr "lidhur te lënda e dokumentit"
 
-#: kuma/wiki/models.py:175
+#: kuma/wiki/models.py:176
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Bashkëngjitja %(attachment_id)s s’mund të bashkëngjitet disa herë te dokumenti %(document_id)s"
 
-#: kuma/wiki/models.py:1466
+#: kuma/wiki/models.py:1503
 msgid "Review Tag"
 msgstr "Etiketë Shqyrtimi"
 
-#: kuma/wiki/models.py:1467
+#: kuma/wiki/models.py:1504
 msgid "Review Tags"
 msgstr "Etiketa Shqyrtimesh"
 
-#: kuma/wiki/models.py:1473
+#: kuma/wiki/models.py:1510
 msgid "Localization Tag"
 msgstr "Etiketë Përkthimi"
 
-#: kuma/wiki/models.py:1474
+#: kuma/wiki/models.py:1511
 msgid "Localization Tags"
 msgstr "Etiketa Përkthimi"
 
-#: kuma/wiki/models.py:1513
+#: kuma/wiki/models.py:1550
 msgid "No table of contents"
 msgstr "Pa tabelë lënde"
 
-#: kuma/wiki/models.py:1514
+#: kuma/wiki/models.py:1551
 msgid "All levels"
 msgstr "Krejt nivelet"
 
-#: kuma/wiki/models.py:1515
+#: kuma/wiki/models.py:1552
 msgid "H2 and higher"
 msgstr "H2 dhe më të lartë"
 
-#: kuma/wiki/models.py:1516
+#: kuma/wiki/models.py:1553
 msgid "H3 and higher"
 msgstr "H3 dhe më të lartë"
 
-#: kuma/wiki/models.py:1517
+#: kuma/wiki/models.py:1554
 msgid "H4 and higher"
 msgstr "H4 dhe më të lartë"
 
-#: kuma/wiki/models.py:1622
+#: kuma/wiki/models.py:1659
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Rishikimet duhet të bazohen mbi një rishikim të dokumentit në %(locale)s. Rishikimi me ID %(id)s s’e plotëson këtë kusht."
 
-#: kuma/wiki/models.py:1753
+#: kuma/wiki/models.py:1790
 msgid "IP address"
 msgstr "Adresë IP"
 
-#: kuma/wiki/models.py:1761
+#: kuma/wiki/models.py:1798
 msgid "User-Agent"
 msgstr "Agjent Përdoruesi"
 
-#: kuma/wiki/models.py:1766
+#: kuma/wiki/models.py:1803
 msgid "HTTP Referrer"
 msgstr "Referues HTTP"
 
-#: kuma/wiki/models.py:1774 kuma/wiki/models.py:1860
+#: kuma/wiki/models.py:1811 kuma/wiki/models.py:1897
 msgid "Data submitted to Akismet"
 msgstr "Të dhënat u parashtruan te Akismet-i"
 
-#: kuma/wiki/models.py:1799
+#: kuma/wiki/models.py:1836
 msgid "Akismet submission"
 msgstr "Parashtrim nga Akismet"
 
-#: kuma/wiki/models.py:1800
+#: kuma/wiki/models.py:1837
 msgid "Akismet submissions"
 msgstr "Parashtrime nga Akismet"
 
-#: kuma/wiki/models.py:1845
+#: kuma/wiki/models.py:1882
 msgid "Slug"
 msgstr "Identifikues"
 
-#: kuma/wiki/models.py:1853
+#: kuma/wiki/models.py:1890
 msgid "Document (optional)"
 msgstr "Dokument (në dëshirë)"
 
-#: kuma/wiki/models.py:1863
+#: kuma/wiki/models.py:1900
 msgid "reviewed"
 msgstr "e shqyrtuar"
 
-#: kuma/wiki/models.py:1874
+#: kuma/wiki/models.py:1911
 msgid "Needs Review"
 msgstr "Lyp Shqyrtim"
 
-#: kuma/wiki/models.py:1875
+#: kuma/wiki/models.py:1912
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:1876
+#: kuma/wiki/models.py:1913
 msgid "Confirmed as Spam"
 msgstr "Ripohuar si i Padëshiruar"
 
-#: kuma/wiki/models.py:1877
+#: kuma/wiki/models.py:1914
 msgid "Review Unavailable"
 msgstr "S’ka Shqyrtim"
 
-#: kuma/wiki/models.py:1878
+#: kuma/wiki/models.py:1915
 msgid "Akismet Error"
 msgstr "Gabim Akismet-i"
 
-#: kuma/wiki/models.py:1883
+#: kuma/wiki/models.py:1920
 msgid "Review of Akismet's classification as spam"
 msgstr "Shqyrtim i klasifikimit nga Akismet-i si i padëshiruar"
 
-#: kuma/wiki/models.py:1890
+#: kuma/wiki/models.py:1927
 msgid "Staff reviewer"
 msgstr "Shqyrtim nga stafi"
 
@@ -3877,23 +3878,23 @@ msgstr "S’fshihen dot faqe me pjella, pa u ndrequr kjo e metë:"
 msgid "Creator"
 msgstr "Krijues"
 
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:23
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:21
 msgid "Creation Date"
 msgstr "Datë Krijimi"
 
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:26
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:24
 msgid "Last Change By"
 msgstr "Ndryshimi i Fundit Nga"
 
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:31
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:27
 msgid "Last Change Date"
 msgstr "Datë e Ndryshimit të Fundit"
 
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:34
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:30
 msgid "You are about to delete this document and all of its revisions. Please let us know why this page should be deleted."
 msgstr "Ju ndan një hap nga fshirja e këtij dokumenti dhe e krejt rishikimeve të tij. Ju lutemi, na tregoni përse duhet fshirë kjo faqe."
 
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:41
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
 msgid "Are you sure you want to continue?"
 msgstr "Jeni i sigurt se doni të vazhdohet?"
 
@@ -3936,19 +3937,19 @@ msgstr "Jeni i sigurt se doni të rikthehet te ky rishikim?"
 msgid "Document"
 msgstr "Dokument"
 
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:26
 msgid "Content"
 msgstr "Lëndë"
 
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:36
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:34
 msgid "Why are you reverting to this revision?"
 msgstr "Pse po e riktheni te ky rishikim?"
 
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:39
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:37
 msgid "You are about to revert the document to this revision. Click \"revert\" to revert to the content&nbsp;above."
 msgstr "Ju ndan një hap nga rikthimi i dokumentit te ky version. Klikoni mbi \"riktheje\" që të rikthehet te lënda&nbsp;më&nbsp;sipër."
 
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:42
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40
 msgid "Revert"
 msgstr "Rikthe"
 
@@ -3980,23 +3981,23 @@ msgstr "Riktheje këtë dokument"
 msgid "Purge this document"
 msgstr "Spastroje këtë dokument"
 
-#: kuma/wiki/jinja2/wiki/document.html:118
+#: kuma/wiki/jinja2/wiki/document.html:124 kuma/wiki/jinja2/wiki/react_document.html:124
 msgid "Jump to:"
 msgstr "Hidhu te:"
 
-#: kuma/wiki/jinja2/wiki/document.html:141
+#: kuma/wiki/jinja2/wiki/document.html:147 kuma/wiki/jinja2/wiki/react_document.html:147
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 "Ky dokument s’është rikrijuar ende dhe s’mund të rikrijohet ndërkohë që MDN-ja gjendet nën <a href=\"%(url)s\">mënyrën mirëmbajtje</a>. Ju lutemi, kontrolloni sërish kur të ketë përfunduar "
 "mirëmbajtja."
 
-#: kuma/wiki/jinja2/wiki/document.html:152
+#: kuma/wiki/jinja2/wiki/document.html:158 kuma/wiki/jinja2/wiki/react_document.html:158
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Ky dokument po prodhohet për herë të parë nga sistemi. Ju lutemi, <a href=\"%(url)s\">ringarkojeni këtë faqe</a> pas pak minutash që të shihni lëndën e plotë."
 
-#: kuma/wiki/jinja2/wiki/document.html:160
+#: kuma/wiki/jinja2/wiki/document.html:166 kuma/wiki/jinja2/wiki/react_document.html:166
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -4005,7 +4006,7 @@ msgstr ""
 "Për këtë dokument <abbr title=\"%(started_at)s\">ka një përditësim në kryerje e sipër</abbr>. Nëse lënda më poshtë duke e vjetruar ose i mungon diçka, ju lutemi, <a href=\"%(url)s\">ringarkojeni "
 "këtë faqe</a> pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/document.html:169
+#: kuma/wiki/jinja2/wiki/document.html:175 kuma/wiki/jinja2/wiki/react_document.html:175
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -4014,20 +4015,20 @@ msgstr ""
 "Për këtë dokument <abbr title=\"%(scheduled_at)s\">është planifikuar një përditësim</abbr>. Nëse lënda më poshtë duke e vjetruar ose i mungon diçka, ju lutemi, <a href=\"%(url)s\">ringarkojeni këtë "
 "faqe</a> pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/document.html:180
+#: kuma/wiki/jinja2/wiki/document.html:186 kuma/wiki/jinja2/wiki/react_document.html:186
 msgid "This is an experimental page."
 msgstr "Kjo është një faqe eksperimentale."
 
-#: kuma/wiki/jinja2/wiki/document.html:191
+#: kuma/wiki/jinja2/wiki/document.html:197 kuma/wiki/jinja2/wiki/react_document.html:197
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Ky përkthim është i paplotë. Ju lutemi, ndihmoni <a href=\"%(translate_url)s\">të përkthehet ky artikull</a> nga Anglishtja."
 
-#: kuma/wiki/jinja2/wiki/document.html:196
+#: kuma/wiki/jinja2/wiki/document.html:202 kuma/wiki/jinja2/wiki/react_document.html:202
 msgid "This translation is in progress."
 msgstr "Përkthimi është në kryerje e sipër."
 
-#: kuma/wiki/jinja2/wiki/document.html:203
+#: kuma/wiki/jinja2/wiki/document.html:209 kuma/wiki/jinja2/wiki/react_document.html:209
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -4036,23 +4037,23 @@ msgstr ""
 "Vullnetarët tanë s’e kanë përkthyer ende në <bdi>%(locale)s</bdi> këtë artikull. <a href=\"%(help_link)s\" rel=\"nofollow\">Merrni pjesë dhe ndihmoni të mbarohet kjo punë!</a><br> Mund ta lexoni "
 "artikullin edhe në <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:215
+#: kuma/wiki/jinja2/wiki/document.html:221 kuma/wiki/jinja2/wiki/react_document.html:221
 msgid "This article doesn't have any content yet."
 msgstr "Ky artikull s’ka ende lëndë."
 
-#: kuma/wiki/jinja2/wiki/document.html:224
+#: kuma/wiki/jinja2/wiki/document.html:230 kuma/wiki/jinja2/wiki/react_document.html:230
 msgid "This article doesn't have approved content yet."
 msgstr "Ky artikull s’ka ende lëndë të miratuar."
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:236 kuma/wiki/jinja2/wiki/react_document.html:236
 msgid "Document Tags and Contributors"
 msgstr "Etiketa dhe Kontribues Dokumentesh"
 
-#: kuma/wiki/jinja2/wiki/document.html:237
+#: kuma/wiki/jinja2/wiki/document.html:243 kuma/wiki/jinja2/wiki/react_document.html:243
 msgid "Contributors to this page:"
 msgstr "Kontributorë te kjo faqe:"
 
-#: kuma/wiki/jinja2/wiki/document.html:245
+#: kuma/wiki/jinja2/wiki/document.html:251 kuma/wiki/jinja2/wiki/react_document.html:251
 msgid "Last updated by:"
 msgstr "Përditësuar së fundi nga:"
 
@@ -4077,66 +4078,66 @@ msgstr ""
 msgid "Your Changes"
 msgstr "Ndryshimet Tuaja"
 
-#: kuma/wiki/jinja2/wiki/edit.html:55 kuma/wiki/jinja2/wiki/edit.html:71 kuma/wiki/jinja2/wiki/includes/document_macros.html:40 kuma/wiki/jinja2/wiki/includes/document_macros.html:56
-#, python-format
-msgid "Revision %(id)s by <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> on %(date)s"
+#: kuma/wiki/jinja2/wiki/edit.html:55 kuma/wiki/jinja2/wiki/edit.html:70 kuma/wiki/jinja2/wiki/includes/document_macros.html:40 kuma/wiki/jinja2/wiki/includes/document_macros.html:55
+#, fuzzy, python-format
+msgid "Revision %(id)s by <a href=\"%(user_profile_url)s\" rel=\"nofollow\">%(user)s</a> on %(date)s"
 msgstr "Rishikimi %(id)s nga <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> më %(date)s"
 
-#: kuma/wiki/jinja2/wiki/edit.html:67
+#: kuma/wiki/jinja2/wiki/edit.html:66
 msgid "Current Revision:"
 msgstr "Rishikimi i Tanishëm:"
 
-#: kuma/wiki/jinja2/wiki/edit.html:106
+#: kuma/wiki/jinja2/wiki/edit.html:104
 msgid "Search results summary:"
 msgstr "Përmbledhje përfundimesh kërkimi:"
 
-#: kuma/wiki/jinja2/wiki/edit.html:131
+#: kuma/wiki/jinja2/wiki/edit.html:129
 msgid "Rendering max age:"
 msgstr "Kohë maksimale krijimi:"
 
-#: kuma/wiki/jinja2/wiki/edit.html:133
+#: kuma/wiki/jinja2/wiki/edit.html:131
 msgid "Days"
 msgstr "Ditë"
 
-#: kuma/wiki/jinja2/wiki/edit.html:137
+#: kuma/wiki/jinja2/wiki/edit.html:135
 msgid "Hours"
 msgstr "Orë"
 
-#: kuma/wiki/jinja2/wiki/edit.html:141
+#: kuma/wiki/jinja2/wiki/edit.html:139
 msgid "Minutes"
 msgstr "Minuta"
 
-#: kuma/wiki/jinja2/wiki/edit.html:150
+#: kuma/wiki/jinja2/wiki/edit.html:148
 msgid "Find the translation source with the lookup below and then click \"Publish.\""
 msgstr "Gjejeni burimin e përkthimit me kërkimin më poshtë dhe mandej klikoni mbi \"Botoje.\""
 
-#: kuma/wiki/jinja2/wiki/edit.html:152 kuma/wiki/jinja2/wiki/includes/translate_description.html:60
+#: kuma/wiki/jinja2/wiki/edit.html:150 kuma/wiki/jinja2/wiki/includes/translate_description.html:60
 msgid "Lookup:"
 msgstr "Kërkim:"
 
-#: kuma/wiki/jinja2/wiki/edit.html:168
+#: kuma/wiki/jinja2/wiki/edit.html:166
 msgid "Thank you for taking the time to improve MDN!"
 msgstr "Faleminderit që harxhoni kohë për përmirësimin e MDN-së!"
 
-#: kuma/wiki/jinja2/wiki/edit.html:170
+#: kuma/wiki/jinja2/wiki/edit.html:168
 #, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" href=\"%(url)s\">Editor Guide</a>."
 msgstr ""
 "Duket se ky është kontributi juaj i parë te MDN-ja. Për pyetje të rëndomta lidhur me përpunimet mund të gjeni përgjigje te <a target=\"_blank\" href=\"%(url)s\">Udhërrëfyesi ynë i Përpunuesit</a>."
 
-#: kuma/wiki/jinja2/wiki/edit.html:174
+#: kuma/wiki/jinja2/wiki/edit.html:172
 msgid "Don't be afraid to break something, you can always revert your changes."
 msgstr "Mos kini frikë se prishni gjë, mundeni t’i zhbëni ndryshimet kurdo."
 
-#: kuma/wiki/jinja2/wiki/edit.html:175
+#: kuma/wiki/jinja2/wiki/edit.html:173
 msgid "Have fun and be proud of your contribution!"
 msgstr "Dëfrehuni dhe jini krenar për kontributin tuaj!"
 
-#: kuma/wiki/jinja2/wiki/edit.html:194
+#: kuma/wiki/jinja2/wiki/edit.html:192
 msgid "Learn how to tag an article"
 msgstr "Mësoni si të etiketoni një artikull"
 
-#: kuma/wiki/jinja2/wiki/edit.html:199 kuma/wiki/jinja2/wiki/translate.html:120
+#: kuma/wiki/jinja2/wiki/edit.html:197 kuma/wiki/jinja2/wiki/translate.html:120
 #, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" href=\"%(url)s\">Read the Tagging Guide</a>."
 msgstr ""
@@ -4280,7 +4281,7 @@ msgstr "Lëndë Shqyrtimi"
 msgid "Revision Source"
 msgstr "Burim Shqyrtimi"
 
-#: kuma/wiki/jinja2/wiki/revision.html:70 kuma/wiki/jinja2/wiki/list/revisions.html:78
+#: kuma/wiki/jinja2/wiki/revision.html:70 kuma/wiki/jinja2/wiki/list/revisions.html:76
 msgid "Revert to this revision"
 msgstr "Riktheje te ky rishikim"
 
@@ -4416,43 +4417,43 @@ msgstr "Ruaje"
 
 # 88%
 # 100%
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:21
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:24
 msgid "Languages"
 msgstr "Gjuhë"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:36
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:39
 msgid "No translations exist for this article."
 msgstr "S’ka përkthime të këtij artikulli."
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:40
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:43
 msgid "Add a translation"
 msgstr "Shtoni një përkthim"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:63 kuma/wiki/jinja2/wiki/includes/buttons.html:67
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:66 kuma/wiki/jinja2/wiki/includes/buttons.html:70
 msgid "Watch"
 msgstr "Vëzhgojeni"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:86
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:89
 msgid "New sub-article"
 msgstr "Nënartikull i ri"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:87
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:90
 msgid "Clone this article"
 msgstr "Klonojeni këtë artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:90
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:93
 msgid "Move this article"
 msgstr "Lëvizeni këtë artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:93
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:96
 msgid "View in admin"
 msgstr "Shiheni si admin"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:101
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:104
 msgid "Delete this article"
 msgstr "Fshijeni këtë artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/buttons.html:104
+#: kuma/wiki/jinja2/wiki/includes/buttons.html:107
 msgid "Print this article"
 msgstr "Shtypeni këtë artikull"
 
@@ -4468,69 +4469,69 @@ msgstr "Tema të Afërta"
 msgid "Change Revisions"
 msgstr "Ndryshoni Rishikimet"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:36 kuma/wiki/jinja2/wiki/includes/document_macros.html:52
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:36 kuma/wiki/jinja2/wiki/includes/document_macros.html:51
 #, python-format
 msgid "Revision %(num)s:"
 msgstr "Rishikimi %(num)s:"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:90 kuma/wiki/jinja2/wiki/includes/revision_diff_table.html:8
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:88 kuma/wiki/jinja2/wiki/includes/revision_diff_table.html:8
 msgid "The server is rendering the content comparison. Please refresh this page in a few minutes."
 msgstr "Shërbyesi po krijon krahasimin e lëndës. Ju lutemi, rifreskojeni këtë faqe pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:110
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:108
 msgid "Subscribe to this article and all its sub-articles"
 msgstr "Pajtohuni te ky artikull dhe krejt nënartikujt e tij"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:111
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:109
 msgid "Unsubscribe from this article and all its sub-articles"
 msgstr "Shpajtohuni nga ky artikull dhe krejt nënartikujt e tij"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:113
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:111
 msgid "You are now subscribed to this article and all its sub-articles."
 msgstr "Tani jeni pajtuar te ky artikull dhe krejt nënartikujt e tij."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:113
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:111
 msgid "You have been unsubscribed from this article and all its sub-articles."
 msgstr "Jeni shpajtuar nga ky artikull dhe krejt nënartikujt e tij."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:124
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:122
 msgid "Updating subscription status"
 msgstr "Po përditësohet gjendja e përkthimit"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:125
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:123
 msgid "Subscribe to this article"
 msgstr "Pajtohuni te ky artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:126
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:124
 msgid "Unsubscribe from this article"
 msgstr "Shpajtohuni nga ky artikull"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:128
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:126
 #, python-format
 msgid "You are now subscribed to %(title)s."
 msgstr "Tani jeni pajtuar te %(title)s."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:128
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:126
 #, python-format
 msgid "You have been unsubscribed from %(title)s."
 msgstr "Jeni shpajtuar nga %(title)s."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:139
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:137
 #, python-format
 msgid "Subscribe to the %(language)s version"
 msgstr "Pajtohuni te versioni %(language)s"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:140
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:138
 #, python-format
 msgid "Unsubscribe from the %(language)s version"
 msgstr "Shpajtohuni prej versionit %(language)s"
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:142
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:140
 #, python-format
 msgid "You are now subscribed to the %(language)s version of this article."
 msgstr "Tani jeni i pajtuar te versioni %(language)s i këtij artikulli."
 
-#: kuma/wiki/jinja2/wiki/includes/document_macros.html:142
+#: kuma/wiki/jinja2/wiki/includes/document_macros.html:140
 #, python-format
 msgid "You have been unsubscribed from the %(language)s version of this article."
 msgstr "Jeni shpajtuar prej versionit %(language)s të këtij artikulli."
@@ -4741,15 +4742,15 @@ msgstr "Krahasoni Përkthimet e Përzgjedhura"
 msgid "Compare Selected Revisions"
 msgstr "Krahasoni Rishikimet e Përzgjedhura"
 
-#: kuma/wiki/jinja2/wiki/list/revisions.html:86
+#: kuma/wiki/jinja2/wiki/list/revisions.html:84
 msgid "This document has no revisions."
 msgstr "S’ka rishikime për këtë dokument."
 
-#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#: kuma/wiki/jinja2/wiki/list/revisions.html:107
 msgid "Sign in to view all history"
 msgstr "Që të shihni krejt historikun, bëni hyrjen"
 
-#: kuma/wiki/jinja2/wiki/list/revisions.html:109
+#: kuma/wiki/jinja2/wiki/list/revisions.html:107
 msgid "View All"
 msgstr "Shihini Krejt"
 
@@ -4828,27 +4829,27 @@ msgstr "Pati një gabim gjatë prodhimit të lëndës."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Dokumenti ekziston tashmë. Shënim: s’mund të ktheni një dokument që është lëvizur, pa fshirë ridrejtimin për të."
 
-#: kuma/wiki/views/document.py:648
+#: kuma/wiki/views/document.py:671 kuma/wiki/views/document.py:863
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Ridrejtuar prej %(url)s"
 
-#: kuma/wiki/views/document.py:698
+#: kuma/wiki/views/document.py:725 kuma/wiki/views/document.py:917
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Mësova rreth %(title)s te MDN-ja."
 
-#: kuma/wiki/views/document.py:819
+#: kuma/wiki/views/document.py:1042
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Lloj lënde i pambuluar: %s"
 
-#: kuma/wiki/views/document.py:826
+#: kuma/wiki/views/document.py:1049
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Gabim në përtypje kërkese: %s"
 
-#: kuma/wiki/views/document.py:849
+#: kuma/wiki/views/document.py:1072
 msgid "ETag precondition failed"
 msgstr "S’u plotësua parakushti ETag"
 
