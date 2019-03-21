@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-03-14 08:44-0700\n"
+"POT-Creation-Date: 2019-03-21 13:40-0700\n"
 "PO-Revision-Date: 2019-01-28 19:21+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -113,7 +113,7 @@ msgid "Internal Server Error"
 msgstr "Εσωτερικό σφάλμα διακομιστή"
 
 #: jinja2/base.html:10 jinja2/base.html:56 jinja2/base.html:61 jinja2/base.html:107 jinja2/react_base.html:10 jinja2/react_base.html:56 jinja2/react_base.html:61
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:40 kuma/wiki/jinja2/wiki/react_document.html:45
 msgid "MDN Web Docs"
 msgstr "Διαδικτυακά έγγραφα MDN"
 
@@ -125,19 +125,19 @@ msgstr "Το MDN είναι σε λειτουργία συντήρησης \"μ�
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
-#: jinja2/base.html:140 jinja2/react_base.html:133
+#: jinja2/base.html:141 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:121
 msgid "Terms"
 msgstr "Όροι"
 
-#: jinja2/base.html:141 jinja2/react_base.html:134 kuma/payments/jinja2/payments/email/thank_you/email.html:230
+#: jinja2/base.html:142 jinja2/react_base.html:134 kuma/payments/jinja2/payments/email/thank_you/email.html:230 kuma/wiki/jinja2/wiki/react_document.html:122
 msgid "Privacy"
 msgstr "Απόρρητο"
 
-#: jinja2/base.html:142 jinja2/react_base.html:135
+#: jinja2/base.html:143 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:123
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:146 jinja2/react_base.html:139
+#: jinja2/base.html:147 jinja2/react_base.html:139 kuma/wiki/jinja2/wiki/react_document.html:127
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla και μεμονωμένοι εθελοντές.</p> <p>Το περιεχόμενο είναι διαθέσιμο υπό <a href=\"%(copyright_url)s\">αυτές τις άδειες</a>.</p>"
@@ -163,7 +163,7 @@ msgid "Search Firefox Help"
 msgstr "Αναζήτηση βοήθειας Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/homepage.html:42 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
+#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16
 #: kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52 kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Αναζήτηση"
@@ -208,7 +208,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "Αναφορές & Οδηγοί"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:57
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61
 msgid "Learn web development"
 msgstr "Μάθετε προγραμματισμό ιστού"
 
@@ -289,11 +289,11 @@ msgstr "Πίνακας αναθεωρήσεων"
 msgid "Documentation status"
 msgstr "Κατάσταση τεκμηρίωσης"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91 kuma/wiki/jinja2/wiki/react_document.html:91
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
 msgid "Other languages:"
 msgstr "Άλλες γλώσσες:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102 kuma/wiki/jinja2/wiki/react_document.html:102
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
 msgid "Go"
 msgstr "Μετάβαση"
 
@@ -309,7 +309,7 @@ msgstr "Επεξεργασία προφίλ"
 msgid "Sign out"
 msgstr "Έξοδος"
 
-#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:84
+#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:85
 msgid "Sign in"
 msgstr "Είσοδος"
 
@@ -621,11 +621,11 @@ msgid "Unsubscribe from these emails:"
 msgstr "Κατάργηση συνδρομής από αυτά τα emails:"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:52
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56
 msgid "Web Technologies"
 msgstr "Διαδικτυακές τεχνολογίες"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:89
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93
 msgid "Learn Web Development"
 msgstr "Μάθετε προγραμματισμό ιστού"
 
@@ -795,7 +795,7 @@ msgid "File"
 msgstr "Αρχείο"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:72
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1878
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1951
 msgid "Title"
 msgstr "Τίτλος"
 
@@ -922,6 +922,32 @@ msgstr "ID κλειδιού"
 #: kuma/authkeys/jinja2/authkeys/new.html:32
 msgid "Secret"
 msgstr "Μυστικό"
+
+#: kuma/banners/jinja2/banners/cta-banners.html:18
+msgid ""
+"Minimize\n"
+"            banner"
+msgstr ""
+
+#: kuma/banners/jinja2/banners/cta-banners.html:27
+msgid ""
+"Close\n"
+"            banner"
+msgstr ""
+
+#: kuma/banners/jinja2/banners/includes/developer-needs.html:3
+#, fuzzy
+msgid "MDN Developer Survey"
+msgstr "Ταμπλό δημιουργών AMO"
+
+#: kuma/banners/jinja2/banners/includes/developer-needs.html:6
+msgid "We want to learn more about the needs of developers"
+msgstr ""
+
+#: kuma/banners/jinja2/banners/includes/developer-needs.html:15
+#, fuzzy
+msgid "Complete the survey"
+msgstr "Συμμετοχή στην έρευνα"
 
 #: kuma/core/apps.py:15
 msgid "Core"
@@ -1130,7 +1156,7 @@ msgstr "Φίλτρο"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1830
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1903
 msgid "Revision"
 msgstr "Αναθεώρηση"
 
@@ -1227,69 +1253,69 @@ msgstr "Ειδοποίηση μέσω email όταν βρίσκονται σε �
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/landing/jinja2/landing/homepage.html:17
+#: kuma/landing/jinja2/landing/homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:33
+#: kuma/landing/jinja2/landing/homepage.html:37
 msgid "Resources for developers, by developers."
 msgstr "Για προγραμματιστές, από προγραμματιστές."
 
-#: kuma/landing/jinja2/landing/homepage.html:41 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:45 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Αναζήτηση εγγράφων"
 
-#: kuma/landing/jinja2/landing/homepage.html:62
+#: kuma/landing/jinja2/landing/homepage.html:66
 msgid "Developer Tools"
 msgstr "Εργαλεία για προγραμματιστές"
 
-#: kuma/landing/jinja2/landing/homepage.html:76
+#: kuma/landing/jinja2/landing/homepage.html:80
 msgid "Featured"
 msgstr "Προβεβλημένα"
 
-#: kuma/landing/jinja2/landing/homepage.html:92
+#: kuma/landing/jinja2/landing/homepage.html:96
 msgid "Get The Browser For Developers Like You"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:106
+#: kuma/landing/jinja2/landing/homepage.html:110
 msgid "read more at hacks.mozilla.org"
 msgstr "διαβάστε περισσότερα στο hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:115
+#: kuma/landing/jinja2/landing/homepage.html:119
 msgid "Help improve MDN"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:116
+#: kuma/landing/jinja2/landing/homepage.html:120
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:118
+#: kuma/landing/jinja2/landing/homepage.html:122
 msgid "Getting started"
 msgstr "Ξεκινώντας"
 
-#: kuma/landing/jinja2/landing/homepage.html:119
+#: kuma/landing/jinja2/landing/homepage.html:123
 msgid "Editorial review"
 msgstr "Συντακτική αξιολόγηση"
 
-#: kuma/landing/jinja2/landing/homepage.html:120
+#: kuma/landing/jinja2/landing/homepage.html:124
 msgid "Technical review"
 msgstr "Τεχνική αξιολόγηση"
 
-#: kuma/landing/jinja2/landing/homepage.html:121
+#: kuma/landing/jinja2/landing/homepage.html:125
 msgid "Translating"
 msgstr "Μετάφραση"
 
-#: kuma/landing/jinja2/landing/homepage.html:122
+#: kuma/landing/jinja2/landing/homepage.html:126
 msgid "Promoting MDN"
 msgstr "Προώθηση του MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:123
+#: kuma/landing/jinja2/landing/homepage.html:127
 msgid "Contributing to the MDN codebase"
 msgstr "Συνεισφορά στη βάση κώδικα του MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:124
+#: kuma/landing/jinja2/landing/homepage.html:128
 msgid "Updating browser compatibility data"
 msgstr ""
 
@@ -1945,43 +1971,43 @@ msgstr ""
 msgid "Thank you for supporting MDN"
 msgstr "Ευχαριστούμε που υποστηρίζετε το MDN"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:19
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:20
 msgid "Collapse pop over window"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:21
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:23
 msgid "Close pop over window"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:31
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:32
 msgid "Help grow MDN"
 msgstr "Βοηθήστε με την ανάπτυξη του MDN"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:33
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:34
 msgid "Support MDN, and it comes back to you."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:35
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:36
 msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:45
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:46
 msgid "Learn more about payments to MDN"
 msgstr "Μάθετε περισσότερα σχετικά με τις πληρωμές στο MDN"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:48
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:49
 msgid "Provide feedback"
 msgstr "Αποστολή σχολίων"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:60 kuma/payments/jinja2/payments/includes/payments-banner.html:67
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:61 kuma/payments/jinja2/payments/includes/payments-banner.html:68
 msgid "One off payment"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:62 kuma/payments/jinja2/payments/includes/payments-banner.html:70
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:63 kuma/payments/jinja2/payments/includes/payments-banner.html:71
 msgid "Monthly payment"
 msgstr "Μηνιαία πληρωμή"
 
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:82
+#: kuma/payments/jinja2/payments/includes/payments-banner.html:83
 msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
 msgstr ""
 
@@ -3104,7 +3130,7 @@ msgstr "Σελίδα"
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290 kuma/wiki/jinja2/wiki/react_document.html:290
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
 msgid "Edit page"
 msgstr "Επεξεργασία σελίδας"
 
@@ -3112,7 +3138,7 @@ msgstr "Επεξεργασία σελίδας"
 msgid "View complete diff"
 msgstr "Προβολή πλήρους διαφοράς"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291 kuma/wiki/jinja2/wiki/react_document.html:291
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
 msgid "View page history"
 msgstr "Προβολή ιστορικού σελίδας"
 
@@ -3330,7 +3356,7 @@ msgstr "Έχει ήδη αναφερθεί ως ανεπιθύμητο."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Ο χρήστης αυτός δεν έχει δημιουργήσει αναθεωρήσεις τις τελευταίες τρεις ημέρες."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:743 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:741 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Επεξεργασία"
 
@@ -3396,7 +3422,7 @@ msgstr "Συντακτική - πεζός λόγος, γραμματική ή π
 msgid "Localization in progress - not completely translated yet."
 msgstr "Μετάφραση σε εξέλιξη - δεν έχει μεταφραστεί πλήρως ακόμα."
 
-#: kuma/wiki/content.py:724
+#: kuma/wiki/content.py:722
 msgid "Edit section"
 msgstr "Επεξεργασία ενότητας"
 
@@ -3566,12 +3592,12 @@ msgstr ""
 msgid "Changing this document's slug requires moving it and its children."
 msgstr ""
 
-#: kuma/wiki/forms.py:339 kuma/wiki/forms.py:410 kuma/wiki/forms.py:894 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:86 kuma/wiki/jinja2/wiki/edit.html:123
+#: kuma/wiki/forms.py:339 kuma/wiki/forms.py:410 kuma/wiki/forms.py:892 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:86 kuma/wiki/jinja2/wiki/edit.html:123
 #: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:66 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
 msgid "Title:"
 msgstr "Τίτλος:"
 
-#: kuma/wiki/forms.py:340 kuma/wiki/forms.py:411 kuma/wiki/forms.py:895
+#: kuma/wiki/forms.py:340 kuma/wiki/forms.py:411 kuma/wiki/forms.py:893
 msgid "Title of article"
 msgstr "Τίτλος άρθρου"
 
@@ -3624,15 +3650,15 @@ msgstr ""
 msgid "Tag this revision for localization?"
 msgstr ""
 
-#: kuma/wiki/forms.py:867
+#: kuma/wiki/forms.py:865
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr ""
 
-#: kuma/wiki/forms.py:901
+#: kuma/wiki/forms.py:899
 msgid "New slug:"
 msgstr "Νέο slug:"
 
-#: kuma/wiki/forms.py:902
+#: kuma/wiki/forms.py:900
 msgid "New article URL"
 msgstr "Νέο URL άρθρου"
 
@@ -3662,108 +3688,108 @@ msgstr ""
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr ""
 
-#: kuma/wiki/models.py:1503
+#: kuma/wiki/models.py:1567
 msgid "Review Tag"
 msgstr "Ετικέτα αξιολόγησης"
 
-#: kuma/wiki/models.py:1504
+#: kuma/wiki/models.py:1568
 msgid "Review Tags"
 msgstr "Ετικέτες αξιολόγησης"
 
-#: kuma/wiki/models.py:1510
+#: kuma/wiki/models.py:1574
 msgid "Localization Tag"
 msgstr "Ετικέτα μετάφρασης"
 
-#: kuma/wiki/models.py:1511
+#: kuma/wiki/models.py:1575
 msgid "Localization Tags"
 msgstr "Ετικέτες μετάφρασης"
 
-#: kuma/wiki/models.py:1550
+#: kuma/wiki/models.py:1614
 msgid "No table of contents"
 msgstr "Κανένας πίνακας περιεχομένων"
 
-#: kuma/wiki/models.py:1551
+#: kuma/wiki/models.py:1615
 msgid "All levels"
 msgstr "Όλα τα επίπεδα"
 
-#: kuma/wiki/models.py:1552
+#: kuma/wiki/models.py:1616
 msgid "H2 and higher"
 msgstr "H2 και υψηλότερο"
 
-#: kuma/wiki/models.py:1553
+#: kuma/wiki/models.py:1617
 msgid "H3 and higher"
 msgstr "H3 και υψηλότερο"
 
-#: kuma/wiki/models.py:1554
+#: kuma/wiki/models.py:1618
 msgid "H4 and higher"
 msgstr "H4 και υψηλότερο"
 
-#: kuma/wiki/models.py:1659
+#: kuma/wiki/models.py:1723
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Μια αναθεώρηση πρέπει να βασίζεται σε μια αναθεώρηση του εγγράφου στα %(locale)s. Το αναγνωριστικό αναθεώρησης %(id)s δεν πληροί αυτά τα κριτήρια."
 
-#: kuma/wiki/models.py:1790
+#: kuma/wiki/models.py:1863
 msgid "IP address"
 msgstr "Διεύθυνση IP"
 
-#: kuma/wiki/models.py:1798
+#: kuma/wiki/models.py:1871
 msgid "User-Agent"
 msgstr "Πλατφόρμα χρήστη"
 
-#: kuma/wiki/models.py:1803
+#: kuma/wiki/models.py:1876
 msgid "HTTP Referrer"
 msgstr ""
 
-#: kuma/wiki/models.py:1811 kuma/wiki/models.py:1897
+#: kuma/wiki/models.py:1884 kuma/wiki/models.py:1970
 msgid "Data submitted to Akismet"
 msgstr "Τα δεδομένα υποβλήθηκαν στο Akismet"
 
-#: kuma/wiki/models.py:1836
+#: kuma/wiki/models.py:1909
 msgid "Akismet submission"
 msgstr "Υποβολή Akismet"
 
-#: kuma/wiki/models.py:1837
+#: kuma/wiki/models.py:1910
 msgid "Akismet submissions"
 msgstr "Υποβολές Akismet"
 
-#: kuma/wiki/models.py:1882
+#: kuma/wiki/models.py:1955
 msgid "Slug"
 msgstr "Slug"
 
-#: kuma/wiki/models.py:1890
+#: kuma/wiki/models.py:1963
 msgid "Document (optional)"
 msgstr "Έγγραφο (προαιρετικό)"
 
-#: kuma/wiki/models.py:1900
+#: kuma/wiki/models.py:1973
 msgid "reviewed"
 msgstr "αξιολογήθηκε"
 
-#: kuma/wiki/models.py:1911
+#: kuma/wiki/models.py:1984
 msgid "Needs Review"
 msgstr "Χρειάζεται αξιολόγηση"
 
-#: kuma/wiki/models.py:1912
+#: kuma/wiki/models.py:1985
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:1913
+#: kuma/wiki/models.py:1986
 msgid "Confirmed as Spam"
 msgstr "Επιβεβαιώθηκε ως ανεπιθύμητο"
 
-#: kuma/wiki/models.py:1914
+#: kuma/wiki/models.py:1987
 msgid "Review Unavailable"
 msgstr "Μη διαθέσιμη αξιολόγηση"
 
-#: kuma/wiki/models.py:1915
+#: kuma/wiki/models.py:1988
 msgid "Akismet Error"
 msgstr "Σφάλμα Akismet"
 
-#: kuma/wiki/models.py:1920
+#: kuma/wiki/models.py:1993
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:2000
 msgid "Staff reviewer"
 msgstr ""
 
@@ -3919,71 +3945,71 @@ msgstr "Ανάκτηση εγγράφου"
 msgid "Purge this document"
 msgstr "Διαγραφή εγγράφου"
 
-#: kuma/wiki/jinja2/wiki/document.html:124 kuma/wiki/jinja2/wiki/react_document.html:124
+#: kuma/wiki/jinja2/wiki/document.html:124
 msgid "Jump to:"
 msgstr "Μετάβαση σε:"
 
-#: kuma/wiki/jinja2/wiki/document.html:147 kuma/wiki/jinja2/wiki/react_document.html:147
+#: kuma/wiki/jinja2/wiki/document.html:147
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:158 kuma/wiki/jinja2/wiki/react_document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:158
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:166 kuma/wiki/jinja2/wiki/react_document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:166
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
 "a> in a few minutes."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:175 kuma/wiki/jinja2/wiki/react_document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:175
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
 "in a few minutes."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:186 kuma/wiki/jinja2/wiki/react_document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:186
 msgid "This is an experimental page."
 msgstr "Αυτή είναι μια πειραματική σελίδα."
 
-#: kuma/wiki/jinja2/wiki/document.html:197 kuma/wiki/jinja2/wiki/react_document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:197
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:202 kuma/wiki/jinja2/wiki/react_document.html:202
+#: kuma/wiki/jinja2/wiki/document.html:202
 msgid "This translation is in progress."
 msgstr "Αυτή η μετάφραση βρίσκεται σε εξέλιξη."
 
-#: kuma/wiki/jinja2/wiki/document.html:209 kuma/wiki/jinja2/wiki/react_document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
 "<a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:221 kuma/wiki/jinja2/wiki/react_document.html:221
+#: kuma/wiki/jinja2/wiki/document.html:221
 msgid "This article doesn't have any content yet."
 msgstr "Αυτό το άρθρο δεν έχει κανένα περιεχόμενο ακόμα."
 
-#: kuma/wiki/jinja2/wiki/document.html:230 kuma/wiki/jinja2/wiki/react_document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:230
 msgid "This article doesn't have approved content yet."
 msgstr "Αυτό το άρθρο δεν έχει εγκεκριμένο περιεχόμενο ακόμα."
 
-#: kuma/wiki/jinja2/wiki/document.html:236 kuma/wiki/jinja2/wiki/react_document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "Document Tags and Contributors"
 msgstr "Εθελοντές και ετικέτες εγγράφου"
 
-#: kuma/wiki/jinja2/wiki/document.html:243 kuma/wiki/jinja2/wiki/react_document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:243
 msgid "Contributors to this page:"
 msgstr "Συνεισφέροντες σε αυτή τη σελίδα:"
 
-#: kuma/wiki/jinja2/wiki/document.html:251 kuma/wiki/jinja2/wiki/react_document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:251
 msgid "Last updated by:"
 msgstr "Τελευταία ενημέρωση από:"
 
@@ -4745,27 +4771,27 @@ msgstr "Προέκυψε σφάλμα με την δημιουργία του π
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Το έγγραφο υπάρχει ήδη. Σημείωση: Δεν μπορείτε να επαναφέρετε ένα έγγραφο που έχει μετακινηθεί, μέχρι να διαγράψετε την ανακατεύθυνσή του."
 
-#: kuma/wiki/views/document.py:671 kuma/wiki/views/document.py:863
+#: kuma/wiki/views/document.py:681 kuma/wiki/views/document.py:845
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Ανακατευθύνθηκε από %(url)s"
 
-#: kuma/wiki/views/document.py:725 kuma/wiki/views/document.py:917
+#: kuma/wiki/views/document.py:735 kuma/wiki/views/document.py:866
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Έμαθα σχετικά με το %(title)s στο MDN."
 
-#: kuma/wiki/views/document.py:1042
+#: kuma/wiki/views/document.py:974
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Μη υποστηριζόμενος τύπος περιεχομένου: %s"
 
-#: kuma/wiki/views/document.py:1049
+#: kuma/wiki/views/document.py:981
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Σφάλμα ανάλυσης αιτήματος: %s"
 
-#: kuma/wiki/views/document.py:1072
+#: kuma/wiki/views/document.py:1004
 msgid "ETag precondition failed"
 msgstr "Αποτυχία προϋπόθεσης ETag"
 
@@ -4789,9 +4815,6 @@ msgstr "Δεν μπορείτε να μεταφράσετε αυτό το έγγ
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Διακομιστής Elasticsearch: %(backend)s"
-
-#~ msgid "Take the Survey"
-#~ msgstr "Συμμετοχή στην έρευνα"
 
 #~ msgid "Only in Firefox"
 #~ msgstr "Μόνο στο Firefox"
@@ -5945,9 +5968,6 @@ msgstr "Διακομιστής Elasticsearch: %(backend)s"
 
 #~ msgid "Using geolocation"
 #~ msgstr "Χρήση γεωτοποθεσίας"
-
-#~ msgid "AMO Developer Hub"
-#~ msgstr "Ταμπλό δημιουργών AMO"
 
 #~ msgid "Plugins"
 #~ msgstr "Πρόσθετες λειτουργίες"
