@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-09 19:40+0000\n"
+"PO-Revision-Date: 2019-04-10 17:39+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
 "Language: sq\n"
@@ -1822,13 +1822,14 @@ msgid "How do I manage my monthly payment?"
 msgstr "Si t’i administroj pagesat e mija mujore?"
 
 #: kuma/payments/jinja2/payments/payments.html:202 kuma/payments/jinja2/payments/thank_you.html:88 kuma/payments/jinja2/payments/email/thank_you/email.html:127
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a "
 "href=\"%(manage_subscription_url)s\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
 msgstr ""
-"Nëse doni të administroni pagesën tuaj mujore, b.f., të ndryshoni hollësi llogarie për kartën tuaj të krediti apo sasinë që paguani, ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a>. Pajtimin"
-" tuaj mund ta anuloni te faqja <a href=\"%(manage_subscription_url)s\">Administroni pajtime mujore</a>."
+"Nëse doni të administroni pagesën tuaj mujore, fjala vjen, të ndryshoni hollësi llogarie për kartën tuaj të kreditit apo sasinë që paguani, ju lutemi, anuloni pajtimin tuaj te <a "
+"href=\"%(manage_subscription_url)s\">faqja e administrimit të pajtimeve mujore</a> dhe riregjistrohuni duke përdorur hollësitë e reja të kartës. Nëse keni ndonjë pyetje, ju lutemi, lidhuni me <a "
+"href=\"%(url)s\">%(email)s.</a>"
 
 #: kuma/payments/jinja2/payments/payments.html:213
 msgid "How do I apply for a refund or cancel my payment?"
@@ -1939,13 +1940,13 @@ msgid "Refunds and canceling your payments"
 msgstr "Rimbursim dhe anulim i pagesave tuaja"
 
 #: kuma/payments/jinja2/payments/thank_you.html:102
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to cancel, "
 "you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
 msgstr ""
-"Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a> që ta anuloni. Nëse "
-"zgjidhni anulimin, nuk do të aplikojmë pagesë te karta për muajt pasardhës."
+"Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, për rimbursim lidhuni me <a href=\"%(url)s\">%(email)s</a>. Nëse "
+"zgjidhni anulimin, mund ta bëni që nga faqja e <a href=\"%(manage_subscription_url)s\">administrimit të pajtimeve mujore</a>. Nuk do të aplikojmë pagesë te karta për muajt pasardhës."
 
 #: kuma/payments/jinja2/payments/thank_you.html:113
 msgid "Payment terms"
@@ -1987,11 +1988,13 @@ msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
 msgstr "Faleminderit %(username)s [%(user_email)s] për përkrahjen e MDN-së."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign up "
 "again using the new card details. If you have any questions please contact %(support_mail)s."
-msgstr "Nëse do të donit të administronit pagesën tuaj mujore, b.f., të ndryshoni hollësi llogarie për kartën tuaj të kreditit apo sasinë që paguani, ju lutemi, lidhuni me %(support_mail)s."
+msgstr ""
+"Nëse do të donit të administronit pagesën tuaj mujore, fjala vjen, të ndryshoni hollësi llogarie për kartën tuaj të kreditit apo sasinë që paguani, ju lutemi, anuloni pajtimin tuaj te "
+"%(recurring_payment_management)s dhe riregjistrohuni duke përdorur hollësitë e reja të kartës. Nëse keni ndonjë pyetje, ju lutemi, lidhuni me %(support_mail)s."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
 msgid "Cancelling your payments"
