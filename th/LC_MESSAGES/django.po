@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-12 10:24+0000\n"
+"PO-Revision-Date: 2019-04-12 15:53+0000\n"
 "Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
 "Language: th\n"
@@ -89,15 +89,15 @@ msgstr "คำขอมากเกินไป"
 #: jinja2/429.html:23
 #, python-format
 msgid "We're sorry %(name)s, you've made too many requests in a short time."
-msgstr ""
+msgstr "เราขออภัย %(name)s คุณได้ส่งคำขอมากเกินไปในเวลาอันสั้น"
 
 #: jinja2/429.html:26
 msgid "We're sorry, we've received too many requests from your IP address in a short time."
-msgstr ""
+msgstr "เราขออภัย เราได้รับคำขอจากที่อยู่ IP ของคุณมากเกินไปในเวลาอันสั้น"
 
 #: jinja2/429.html:28
 msgid "You can try again in about one minute."
-msgstr ""
+msgstr "คุณสามารถลองอีกครั้งในอีกประมาณ 1 นาที"
 
 #: jinja2/429.html:36
 #, python-format
@@ -115,7 +115,7 @@ msgstr "เอกสารเว็บของ MDN"
 
 #: jinja2/base.html:91 jinja2/react_base.html:91
 msgid "MDN is currently in read-only maintenance mode."
-msgstr ""
+msgstr "MDN กำลังอยู่ในโหมดบำรุงรักษาแบบอ่านอย่างเดียว"
 
 #: jinja2/base.html:93 jinja2/react_base.html:93
 msgid "Learn more"
@@ -320,7 +320,7 @@ msgstr "เรียนรู้ที่สุดของการพัฒน
 
 #: jinja2/includes/newsletter.html:5
 msgid "Get the latest and greatest from MDN delivered straight to your inbox."
-msgstr ""
+msgstr "รับข่าวสารล่าสุดที่ดีที่สุดจาก MDN ส่งตรงถึงกล่องขาเข้าของคุณ"
 
 #: jinja2/includes/newsletter.html:7
 msgid "The newsletter is offered in English only at the moment."
@@ -574,7 +574,7 @@ msgstr "ทมิฬ"
 
 #: jinja2/includes/translate_locales.html:56
 msgid "Telugu"
-msgstr "Telugu"
+msgstr "เตลูกู"
 
 #: jinja2/includes/translate_locales.html:57
 msgid "Thai"
@@ -783,7 +783,7 @@ msgstr "เอกสารนี้ไม่มีไฟล์แนบ"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:26
 msgid "Images can be attached, and then linked in the article."
-msgstr ""
+msgstr "สามารถแนบภาพแล้วนำมาลิงก์ในบทความ"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/attachments/jinja2/attachments/includes/attachment_list.html:87
 msgid "File"
@@ -829,9 +829,8 @@ msgid "Linked in article"
 msgstr "เชื่อมโยงในบทความ"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:95
-#, fuzzy
 msgid "Article attached to"
-msgstr "การสาธิตติดป้าย {tag}"
+msgstr "บทความที่แนบมากับ"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:108
 #, python-format
@@ -998,15 +997,15 @@ msgstr "30 วัน"
 
 #: kuma/dashboards/forms.py:25
 msgid "All Authors"
-msgstr ""
+msgstr "ผู้เขียนทั้งหมด"
 
 #: kuma/dashboards/forms.py:26
 msgid "Known Authors"
-msgstr ""
+msgstr "ผู้เขียนที่รู้จัก"
 
 #: kuma/dashboards/forms.py:27
 msgid "Unknown Authors"
-msgstr ""
+msgstr "ผู้เขียนที่ไม่รู้จัก"
 
 #: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:25
 msgid "Locale:"
@@ -1034,7 +1033,7 @@ msgstr ""
 
 #: kuma/dashboards/forms.py:59
 msgid "Authors"
-msgstr ""
+msgstr "ผู้เขียน"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:2
 msgid "Dashboards"
@@ -1046,12 +1045,12 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
 msgid "All articles in need of review"
-msgstr ""
+msgstr "บทความทั้งหมดที่จำเป็นต้องตรวจทาน"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
-#, fuzzy, python-format
+#, python-format
 msgid "Articles in need of review: %(tag)s"
-msgstr "การสาธิตติดป้าย {tag}"
+msgstr "บทความที่จำเป็นต้องตรวจทาน: %(tag)s"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
 msgid "All documents"
@@ -1117,15 +1116,15 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:31 kuma/dashboards/jinja2/dashboards/macros.html:66
 msgid "Macro Name"
-msgstr ""
+msgstr "ชื่อแมโคร"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:33
 msgid "English Page Count"
-msgstr ""
+msgstr "จำนวนหน้าภาษาอังกฤษ"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:34
 msgid "All Page Count"
-msgstr ""
+msgstr "จำนวนหน้าทั้งหมด"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:65
 msgid "Search for macro usage:"
@@ -1141,7 +1140,7 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/revisions.html:56
 msgid "Authors:"
-msgstr ""
+msgstr "ผู้เขียน:"
 
 #: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
 msgid "Filter"
