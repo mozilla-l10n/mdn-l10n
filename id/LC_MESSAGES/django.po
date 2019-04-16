@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-16 09:02+0000\n"
+"PO-Revision-Date: 2019-04-16 10:50+0000\n"
 "Last-Translator: Lidya Christina <id.lidya@gmail.com>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
 "Language: id\n"
@@ -1811,7 +1811,7 @@ msgid ""
 "href=\"%(manage_subscription_url)s\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
 msgstr ""
 "Jika Anda ingin mengelola pembayaran bulanan Anda, seperti mengubah detail akun kartu Anda atau jumlah yang Anda bayarkan, silakan batalkan melalui <a href=\"%(manage_subscription_url)s\">laman "
-"pengaturan berlangganan bulanan</a> dan daftar kembali menggunakan rincian kartu baru. Jika Anda memiliki pertanyaan sila hubungi <a href=\"%(url)s\">%(email)s.</a>"
+"pengaturan berlangganan bulanan</a> dan daftar kembali menggunakan rincian kartu baru. Jika Anda memiliki pertanyaan lain sila hubungi <a href=\"%(url)s\">%(email)s.</a>"
 
 #: kuma/payments/jinja2/payments/payments.html:213
 msgid "How do I apply for a refund or cancel my payment?"
@@ -1922,13 +1922,14 @@ msgid "Refunds and canceling your payments"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/thank_you.html:102
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to cancel, "
 "you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
 msgstr ""
-"Jika Anda ingin membatalkan pembayaran bulanan Anda atau mengajukan pengembalian uang, Anda bebas untuk melakukannya kapan saja. Silakan hubungi <a href=\"%(url)s\">%(email)s</a> untuk membatalkan. "
-"Jika Anda memilih untuk membatalkan, kami tidak akan menagih kartu pembayaran Anda untuk bulan-bulan berikutnya."
+"Jika Anda ingin membatalkan pembayaran bulanan Anda atau mengajukan pengembalian uang, Anda bebas untuk melakukannya kapan saja. Silakan hubungi <a href=\"%(url)s\">%(email)s</a> untuk pengembalian."
+" Jika Anda memilih untuk membatalkan, Anda dapat melakukannnya pada laman<a href=\"%(manage_subscription_url)s\">atur berlangganan bulanan</a>. Kami tidak akan menagih kartu pembayaran Anda untuk "
+"bulan-bulan berikutnya."
 
 #: kuma/payments/jinja2/payments/thank_you.html:113
 msgid "Payment terms"
@@ -1970,11 +1971,13 @@ msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
 msgstr "Terima kasih %(username)s [%(user_email)s] telah mendukung MDN."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign up "
 "again using the new card details. If you have any questions please contact %(support_mail)s."
-msgstr "Jika Anda ingin mengelola pembayaran bulanan Anda, seperti mengubah rincian rekening kartu Anda atau jumlah yang Anda bayar, silakan hubungi %(support_mail)s."
+msgstr ""
+"Jika Anda ingin mengelola pembayaran bulanan Anda, seperti mengubah rincian rekening kartu Anda atau jumlah yang Anda bayar, silakan batalkan langganan pada %(recurring_payment_management)s dan "
+"daftar kembali menggunakan rincian kartu baru. Jika Anda memiliki pertanyaan lain sila hubungi %(support_mail)s."
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
 msgid "Cancelling your payments"
