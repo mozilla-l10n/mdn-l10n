@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-23 18:13+0000\n"
+"PO-Revision-Date: 2019-04-23 18:34+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
 "Language: el\n"
@@ -2083,7 +2083,7 @@ msgstr ""
 
 #: kuma/search/admin.py:23
 msgid "Can't demote more than one index at once."
-msgstr ""
+msgstr "Αδυναμία υποβάθμισης περισσότερων από ένα ευρετηρίων ταυτόχρονα."
 
 #: kuma/search/admin.py:26
 msgid "Can't demote the index if there is only one. Create and populate a new one first."
@@ -3497,7 +3497,7 @@ msgstr "Έγγραφα MDN προς αξιολόγηση"
 #: kuma/wiki/feeds.py:250
 #, python-format
 msgid "MDN '%s' translations in need of update"
-msgstr ""
+msgstr "MDN '%s' μεταφράσεις χρειάζονται ενημέρωση"
 
 #: kuma/wiki/feeds.py:286
 msgid "MDN recent revisions"
@@ -3606,7 +3606,7 @@ msgstr ""
 
 #: kuma/wiki/forms.py:73
 msgid "Changing this document's slug requires moving it and its children."
-msgstr ""
+msgstr "Η αλλαγή του slug αυτού του εγγράφου απαιτεί την μετακίνησή αυτού και των τέκνων του."
 
 #: kuma/wiki/forms.py:339 kuma/wiki/forms.py:410 kuma/wiki/forms.py:892 kuma/wiki/jinja2/wiki/create.html:42 kuma/wiki/jinja2/wiki/edit.html:86 kuma/wiki/jinja2/wiki/edit.html:123
 #: kuma/wiki/jinja2/wiki/move.html:66 kuma/wiki/jinja2/wiki/includes/document_macros.html:66 kuma/wiki/jinja2/wiki/includes/translate_description.html:11
@@ -3660,11 +3660,11 @@ msgstr "Σχόλιο:"
 
 #: kuma/wiki/forms.py:481
 msgid "Tag this revision for review?"
-msgstr ""
+msgstr "Επισήμανση αναθεώρησης για αξιολόγηση;"
 
 #: kuma/wiki/forms.py:488
 msgid "Tag this revision for localization?"
-msgstr ""
+msgstr "Επισήμανση αναθεώρησης για μετάφραση;"
 
 #: kuma/wiki/forms.py:865
 msgid "Unable to make the Akismet submission (invalid revision)."
@@ -3693,11 +3693,11 @@ msgstr "Ετικέτες εγγράφου"
 
 #: kuma/wiki/models.py:156
 msgid "uploaded to the document"
-msgstr ""
+msgstr "μεταφορτώθηκε στο έγγραφο"
 
 #: kuma/wiki/models.py:162
 msgid "linked in the document content"
-msgstr ""
+msgstr "συνδέθηκε στο περιεχόμενο εγγράφου"
 
 #: kuma/wiki/models.py:176
 #, python-format
@@ -3755,7 +3755,7 @@ msgstr "Πλατφόρμα χρήστη"
 
 #: kuma/wiki/models.py:1884
 msgid "HTTP Referrer"
-msgstr ""
+msgstr "HTTP Referrer"
 
 #: kuma/wiki/models.py:1892 kuma/wiki/models.py:1978
 msgid "Data submitted to Akismet"
@@ -3787,7 +3787,7 @@ msgstr "Χρειάζεται αξιολόγηση"
 
 #: kuma/wiki/models.py:1993
 msgid "Ham / False Positive"
-msgstr ""
+msgstr "Επιθυμητό/Λάθος προειδοποίηση"
 
 #: kuma/wiki/models.py:1994
 msgid "Confirmed as Spam"
@@ -3996,7 +3996,7 @@ msgstr "Αυτή είναι μια πειραματική σελίδα."
 #: kuma/wiki/jinja2/wiki/document.html:197
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
-msgstr ""
+msgstr "Αυτή η μετάφραση είναι ελλιπής. Παρακαλούμε βοηθήστε <a href=\"%(translate_url)s\">στη μετάφραση αυτού του άρθρου</a> από τα Αγγλικά."
 
 #: kuma/wiki/jinja2/wiki/document.html:202
 msgid "This translation is in progress."
@@ -4079,7 +4079,7 @@ msgstr "Λεπτά"
 
 #: kuma/wiki/jinja2/wiki/edit.html:148
 msgid "Find the translation source with the lookup below and then click \"Publish.\""
-msgstr ""
+msgstr "Βρείτε την πηγή μετάφρασης με την παρακάτω αναζήτηση και κάντε κλικ στο \"Δημοσίευση\"."
 
 #: kuma/wiki/jinja2/wiki/edit.html:150 kuma/wiki/jinja2/wiki/includes/translate_description.html:60
 msgid "Lookup:"
@@ -4137,7 +4137,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/move.html:28
 msgid "Make sure the location you specify is located immediately under an existing page."
-msgstr ""
+msgstr "Βεβαιωθείτε ότι η τοποθεσία που προσδιορίσατε βρίσκεται άμεσα κάτω από την υπάρχουσα σελίδα."
 
 #: kuma/wiki/jinja2/wiki/move.html:29
 msgid "Don't include the URL scheme (\"https://\")."
@@ -4149,11 +4149,11 @@ msgstr "Εισάγετε μόνο το μέρος του URL μετά το \"/do
 
 #: kuma/wiki/jinja2/wiki/move.html:31
 msgid "Don't include a trailing slash (this will be removed for you if you include it, but you should leave it out)."
-msgstr ""
+msgstr "Μην συμπεριλάβετε κάθετο (θα αφαιρεθεί αυτόματα αν το κάνετε, αλλά θα πρέπει να μην την συμπεριλάβετε)."
 
 #: kuma/wiki/jinja2/wiki/move.html:37
 msgid "Your requested move cannot be completed due to the following slug conflicts:"
-msgstr ""
+msgstr "Η μετακίνηση που ζητήσατε δεν μπορεί να ολοκληρωθεί λόγω των εξής συμπλοκών slug:"
 
 #: kuma/wiki/jinja2/wiki/move.html:60
 msgid "Current Slug:"
@@ -4201,6 +4201,8 @@ msgstr "Ζητήθηκε μετακίνηση της σελίδας"
 #, python-format
 msgid "<h1>Page Move Scheduled</h1> <p>Moving %(old_slug)s to <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> You'll receive an email when it finishes, or if any errors occur during the move.</p>"
 msgstr ""
+"<h1>Προγραμματισμένη μετακίνηση σελίδας</h1> <p>Μετακίνηση του %(old_slug)s στο <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> Θα λάβετε ένα email όταν ολοκληρωθεί, ή αν προκύψουν τυχόν σφάλματα "
+"κατά τη διάρκεια της μετακίνησης.</p>"
 
 #: kuma/wiki/jinja2/wiki/preview.html:14
 msgid "This is a preview of an unsaved document."
@@ -4540,6 +4542,8 @@ msgstr[1] "Περισσότερες πληροφορίες σχετικά με �
 #, python-format
 msgid "Anyone with an MDN profile can edit a document to fix an error. Use the <a href=\"%(troubleshooting_url)s\">KumaScript troubleshooting guide</a> as a starting point."
 msgstr ""
+"Οποιοσδήποτε με ένα προφίλ MDN μπορεί να επεξεργαστεί ένα έγγραφο για να διορθώσει κάποιο σφάλμα. Χρησιμοποιήστε τον <a href=\"%(troubleshooting_url)s\">οδηγό αντιμετώπισης προβλημάτων "
+"KumaScript</a> ως σημείο εκκίνησης."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:29
 msgid "Error type:"
@@ -4599,21 +4603,23 @@ msgstr "Μάθετε πώς να χρησιμοποιείτε τα σχόλια 
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:8
 msgid "Tell us why you made additions and changes. It is optional, but will make page history easier to understand."
-msgstr ""
+msgstr "Πείτε μας γιατί έχετε κάνει προσθήκες και αλλαγές. Είναι προαιρετικό, αλλά θα κάνει πιο εύκολη την κατανόηση του ιστορικού της σελίδας."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:2
 #, python-format
 msgid "Sorry! We weren't able to save your contribution. Please copy and paste your changes into a safe place and <a href=\"%(admin_email)s\"> contact the site administrators</a>."
 msgstr ""
+"Συγγνώμη! Δεν μπορέσαμε να αποθηκεύσουμε τη συνεισφορά σας. Παρακαλούμε αντιγράψτε και επικολλήστε τις αλλαγές σας σε ένα ασφαλές μέρος και <a href=\"%(admin_email)s\">επικοινωνήστε με τους "
+"διαχειριστές της ιστοσελίδας</a>."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:9
 msgid "We'll try to resolve the problem, and after that you will be able to resubmit your contribution."
-msgstr ""
+msgstr "Θα προσπαθήσουμε να επιλύσουμε το πρόβλημα και ύστερα, θα μπορείτε να υποβάλετε εκ νέου τη συνεισφορά σας."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
 #, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\">mark this submission as ham</a> and try submitting it again."
-msgstr ""
+msgstr "Αν είστε διαχειριστής ανεπιθύμητων μηνυμάτων, μπορείτε να <a href=\"%(akismet_submission_url)s\" target=\"_blank\">επισημάνετε αυτή την υποβολή ως επιθυμητή</a> και δοκιμάστε να την υποβάλετε ξανά."
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
