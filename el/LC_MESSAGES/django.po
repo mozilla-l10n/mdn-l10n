@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-23 20:35+0000\n"
+"PO-Revision-Date: 2019-04-23 20:52+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
 "Language: el\n"
@@ -2895,7 +2895,7 @@ msgstr "Όροι και απόρρητο"
 #: kuma/users/jinja2/socialaccount/signup.html:185
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
-msgstr ""
+msgstr "τους <a href=\"%(terms_url)s\">όρους</a> και τη <a href=\"%(privacy_url)s\">σημείωση απορρήτου</a> της Mozilla."
 
 #: kuma/users/jinja2/socialaccount/signup.html:201
 msgid "Create my MDN profile"
@@ -2973,7 +2973,7 @@ msgstr "Αποκλεισμός χρήστη για άλλους λόγους."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:62
 msgid "User has not made any revisions to be reverted in the past three days, and this user was already banned."
-msgstr ""
+msgstr "Ο χρήστης δεν έχει κάνει καμία αναθεώρηση τις τελευταίες τρεις ημέρες για να γίνει επαναφορά και αυτός ο χρήστης έχει ήδη αποκλειστεί."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:20
 msgid "Summary"
@@ -3038,7 +3038,7 @@ msgstr "Τίποτα."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:119
 msgid "Revisions skipped due to newer non-spam revision:"
-msgstr ""
+msgstr "Οι αναθεωρήσεις έχουν παραλειφθεί λόγω νέας επιθυμητής αναθεώρησης:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:140
 msgid "Could not submit to Akismet:"
@@ -3119,10 +3119,12 @@ msgstr "Λυπούμαστε που φεύγετε."
 #: kuma/users/jinja2/users/user_delete.html:31
 msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
 msgstr ""
+"Αν και είναι δυνατό να διαγράψετε το λογαριασμό σας, δεν μπορούμε να διαγράψουμε τις αναθεωρήσεις (αλλαγές σελίδων) που έχετε κάνει και η άδεια περιεχομένου μας απαιτεί να αποδίδονται σε εσάς οι "
+"αναθεωρήσεις σας."
 
 #: kuma/users/jinja2/users/user_delete.html:38
 msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr ""
+msgstr "Παρακαλούμε υποβάλετε ένα σφάλμα για να ζητήσετε το κλείσιμο του λογαριασμού σας και βεβαιωθείτε ότι μια από αυτές τις επιλογές είναι στο πεδίο περιγραφής:"
 
 #: kuma/users/jinja2/users/user_delete.html:57
 msgid "I haven't changed any pages; just delete my account."
@@ -3130,11 +3132,11 @@ msgstr "Δεν έχω αλλάξει καμία σελίδα· απλά διαγ
 
 #: kuma/users/jinja2/users/user_delete.html:62
 msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr ""
+msgstr "Διατήρηση των αναφορών στο όνομα χρήστη μου για αλλαγές σελίδων· διαγραφή της διεύθυνσης email μου και διακοπή του λογαριασμού μου έτσι, ώστε να μην μπορώ να συνδεθώ ξανά."
 
 #: kuma/users/jinja2/users/user_delete.html:67
 msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr ""
+msgstr "Εναλλαγή όλων των αναφορών στο όνομα χρήστη μου για αλλαγές σελίδων σε \"Ανώνυμος\" και διαγραφή του λογαριασμού μου."
 
 #: kuma/users/jinja2/users/user_delete.html:70
 msgid "File a bug to close your account"
@@ -3211,7 +3213,7 @@ msgstr "Ενδιαφέροντα (ετικέτες)"
 
 #: kuma/users/jinja2/users/user_edit.html:76
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
-msgstr ""
+msgstr "Ξεχωρίστε τις ετικέτες με κόμματα ή κενά. Ενώστε ετικέτες πολλαπλών λέξεων με διπλά εισαγωγικά, όπως \"πρότυπα ιστού\"."
 
 #: kuma/users/jinja2/users/user_edit.html:82
 msgid "Areas of expertise"
@@ -3219,7 +3221,7 @@ msgstr "Τομείς εξειδίκευσης"
 
 #: kuma/users/jinja2/users/user_edit.html:83
 msgid "Add your interests first, then declare yourself an expert in selected topics."
-msgstr ""
+msgstr "Προσθέστε πρώτα τα ενδιαφέροντά σας κι έπειτα, δηλώστε ότι ειδικεύεστε σε επιλεγμένα θέματα."
 
 #: kuma/users/jinja2/users/user_edit.html:91
 msgid "Edit monthly subscription"
@@ -3289,7 +3291,7 @@ msgstr "Μιλήστε μας!"
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
-msgstr ""
+msgstr "Θέλετε να μιλήσετε σε κάποιον για το MDN; Υπάρχουν αρκετοί τρόποι για να το κάνετε αυτό:"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
@@ -3302,6 +3304,9 @@ msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
+"Συνομιλία σε πραγματικό χρόνο: <a href=\"%(channel_link)s\">κανάλι #mdn στο irc.mozilla.org</a>.  (Λάβετε περισσότερες πληροφορίες σχετικά με το <a href=\"%(irc_link)s\">IRC</a>.) Εκεί, μπορείτε να "
+"βρείτε τους διαχειριστές προσωπικού συντακτών του MDN: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) και εμένα (jswisher), διαχειριστής "
+"κοινότητας του MDN."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -3317,7 +3322,7 @@ msgstr "Γεια σας %(username)s"
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
 msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
-msgstr ""
+msgstr "Ευχαριστούμε που δημιουργήσατε ένα προφίλ στο MDN Web Docs -- μια κοινότητα που δημιουργεί εξαιρετικούς πόρους για προγραμματιστές όπως εσείς."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -3325,6 +3330,8 @@ msgid ""
 "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on your "
 "interests."
 msgstr ""
+"Έχετε ολοκληρώσει το πρώτο βήμα του \"Ξεκινώντας στο MDN\" δημιουργώντας ένα προφίλ. Τώρα, συνεχίστε να επιλέγετε και να κάνετε εργασίες στο MDN! Έχουμε πολλές εισαγωγικές εργασίες που μπορείτε να "
+"επιλέξετε βάσει των ενδιαφερόντων σας."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
