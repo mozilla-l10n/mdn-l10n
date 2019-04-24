@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-24 12:52+0000\n"
+"PO-Revision-Date: 2019-04-24 13:08+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
 "Language: el\n"
@@ -2035,11 +2035,11 @@ msgstr "Μηνιαία πληρωμή"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:94
 msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
-msgstr ""
+msgstr "Παρατηρήσαμε ότι δεν έχετε συνδεθεί στο MDN. Για να ολοκληρώσετε τη μηνιαία πληρωμή σας, θα χρειαστεί να συνδεθείτε πρώτα."
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:22
 msgid "Open tooltip for further email field information"
-msgstr ""
+msgstr "Άνοιγμα επεξήγησης για περαιτέρω πληροφορίες πεδίου email"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:26
 msgid "Close this tooltip"
@@ -2408,7 +2408,7 @@ msgstr "Χρήστης"
 
 #: kuma/users/constants.py:6
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
-msgstr ""
+msgstr "Το όνομα χρήστη μπορεί να περιέχει μόνο γράμματα, αριθμούς και τους χαρακτήρες: . - _ +"
 
 #: kuma/users/forms.py:31 kuma/users/models.py:48
 msgid "Timezone"
@@ -2837,29 +2837,33 @@ msgstr "Γιατί χρειάζομαι ένα προφίλ στο MDN για ν
 
 #: kuma/users/jinja2/socialaccount/signup.html:45
 msgid "An MDN profile allows us to communicate with you about your subscription. In the future, you can manage your payments from your MDN profile."
-msgstr ""
+msgstr "Ένα προφίλ MDN μάς επιτρέπει να επικοινωνήσουμε μαζί σας σχετικά με τη συνδρομή σας. Στο μέλλον, θα μπορείτε να διαχειριστείτε τις πληρωμές σας από το προφίλ MDN σας."
 
 #: kuma/users/jinja2/socialaccount/signup.html:53
 #, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. You have one more step to join MDN: <strong>create your MDN profile</strong>."
-msgstr ""
+msgstr "Ευχαριστούμε για τη σύνδεση στο MDN με το %(provider_name)s. Έχει απομείνει ακόμη ένα βήμα: <strong>δημιουργήστε το προφίλ MDN σας</strong>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:59
 msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
 msgstr ""
+"Μπορείτε να έχετε πρόσβαση σε όλο το περιεχόμενο της ιστοσελίδας MDN, ακόμη και χωρίς προφίλ MDN. Ωστόσο, κάνοντας εγγραφή στο MDN, θα μπορείτε να επεξεργαστείτε έγγραφα και να έχετε τη δική σας "
+"σελίδα προφίλ."
 
 #: kuma/users/jinja2/socialaccount/signup.html:66
 msgid "To set up your MDN profile, please <strong>choose a username</strong>. Your username will be displayed on MDN to identify any contributions that you make."
-msgstr ""
+msgstr "Για να ρυθμίσετε το προφίλ MDN σας, παρακαλούμε <strong>επιλέξτε ένα όνομα χρήστη</strong>. Το όνομα χρήστη σας θα εμφανίζεται στο MDN για να αναγνωριστούν οι συνεισφορές που κάνετε."
 
 #: kuma/users/jinja2/socialaccount/signup.html:72
 msgid "To set up your MDN profile, please <strong>choose a username and email address</strong>. Your username will be displayed on MDN to identify any contributions that you make."
 msgstr ""
+"Για να ρυθμίσετε το προφίλ MDN σας, παρακαλούμε <strong>επιλέξτε ένα όνομα χρήστη και μια διεύθυνση email</strong>. Το όνομα χρήστη σας θα εμφανίζεται στο MDN για να αναγνωριστούν οι συνεισφορές που"
+" κάνετε."
 
 #: kuma/users/jinja2/socialaccount/signup.html:80
 #, python-format
 msgid "If you're <strong>having trouble</strong> signing in or creating an MDN profile, <strong><a href=\"%(bug_href)s\" rel=\"external\">let us know</a></strong>."
-msgstr ""
+msgstr "Αν <strong>έχετε πρόβλημα</strong> με τη σύνδεση ή τη δημιουργία ενός προφίλ MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">ενημερώστε μας</a></strong>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:105
 #, python-format
@@ -3202,6 +3206,8 @@ msgstr "Πληροφορίες χρήστη"
 #: kuma/users/jinja2/users/user_edit.html:59
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
+"Θα θέλαμε να ακούσουμε τα σχόλιά σας σχετικά με τις αλλαγές στην ιστοσελίδα! Οι δοκιμαστές beta έχουν πρώτοι πρόσβαση σε νέες λειτουργίες και στέλνουμε περιστασιακά email, ζητώντας βοήθεια για τη "
+"δοκιμή συγκεκριμένων πραγμάτων."
 
 #: kuma/users/jinja2/users/user_edit.html:62
 msgid "Primary Email"
@@ -3261,6 +3267,8 @@ msgid ""
 "You are receiving this e-mail because you or someone else has requested access to your user account %(username)s at %(domain)s. It can be safely ignored if you did not make this request. Click the "
 "link below to access your account:"
 msgstr ""
+"Λαμβάνετε αυτό το email, επειδή εσείς ή κάποιος άλλος έχει ζητήσει πρόσβαση στο λογαριασμό χρήστη σας, %(username)s, στο %(domain)s. Μπορεί να παραβλεφθεί με ασφάλεια αν δεν κάνατε αυτό το αίτημα. "
+"Κάντε κλικ στον παρακάτω σύνδεσμο για πρόσβαση στο λογαριασμό σας:"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
 msgid "Thank you for using MDN!"
@@ -3274,12 +3282,12 @@ msgstr "Ανάκτηση προφίλ για %(username)s στο %(domain)s"
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr ""
+msgstr "Ευχαριστούμε που δημιουργήσατε ένα προφίλ στο <a href=\"%(mdn_link)s\">MDN Web Docs</a> - μια κοινότητα που δημιουργεί εξαιρετικούς πόρους για προγραμματιστές όπως εσείς."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, python-format
 msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr ""
+msgstr "Έχετε ολοκληρώσει το πρώτο βήμα του <a href=\"%(started_link)s\">\"Ξεκινώντας στο MDN\"</a> δημιουργώντας ένα προφίλ."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:21
 #, python-format
