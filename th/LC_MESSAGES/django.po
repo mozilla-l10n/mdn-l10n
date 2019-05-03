@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-04-28 06:22+0000\n"
-"Last-Translator: Top <teerapatxtop@yahoo.com>\n"
+"PO-Revision-Date: 2019-05-03 07:32+0000\n"
+"Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "คุณต้องลงชื่อเข้าเพื่อดู
 
 #: jinja2/403.html:27
 msgid "Your IP address has been banned."
-msgstr ""
+msgstr "ที่อยู่ IP ของคุณถูกแบน"
 
 #: jinja2/403.html:37 jinja2/handlers/400.html:21
 #, python-format
@@ -54,6 +54,8 @@ msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
 msgstr ""
+"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> โดย Matthew Inman ของ <a href=\"http://theoatmeal.com\" "
+"rel=\"nofollow\">The Oatmeal</a></small></p>"
 
 #: jinja2/404.html:6 jinja2/404.html:13
 msgid "Not Found"
@@ -80,7 +82,7 @@ msgstr "โปรไฟล์ผู้ใช้นี้ถูกแบน"
 #: jinja2/404.html:44
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
-msgstr ""
+msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> โดย Matthew Inman ของ <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
 
 #: jinja2/429.html:5 jinja2/429.html:19
 msgid "Too Many Requests"
@@ -102,7 +104,7 @@ msgstr "คุณสามารถลองอีกครั้งในอี
 #: jinja2/429.html:36
 #, python-format
 msgid "You may be interested in other ways to <a href=\"%(content_url)s\">download MDN Web Docs content</a>."
-msgstr ""
+msgstr "คุณอาจสนใจวิธีอื่นในการ<a href=\"%(content_url)s\">ดาวน์โหลดเนื้อหาเอกสารเว็บ MDN</a>"
 
 #: jinja2/500.html:5 jinja2/500.html:16
 msgid "Internal Server Error"
@@ -134,9 +136,9 @@ msgid "Cookies"
 msgstr "คุกกี้"
 
 #: jinja2/base.html:153 jinja2/react_base.html:140 kuma/wiki/jinja2/wiki/react_document.html:129
-#, fuzzy, python-format
+#, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
-msgstr "<p>&copy; 2005-%(thisyear)s Mozilla Developer Network และผู้มีส่วนร่วมแต่ละคน</p> <p>เนื้อหาใช้งานได้ภายใต้ <a href=\"%(copyright_url)s\">สัญญาอนุญาตเหล่านี้</a></p>"
+msgstr "<p>&copy; 2005-%(thisyear)s Mozilla และผู้มีส่วนร่วมแต่ละคน</p> <p>เนื้อหาใช้งานได้ภายใต้<a href=\"%(copyright_url)s\">สัญญาอนุญาตเหล่านี้</a></p>"
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -932,21 +934,20 @@ msgid ""
 msgstr ""
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:3
-#, fuzzy
 msgid "MDN Developer Survey"
-msgstr "คู่มือนักพัฒนา"
+msgstr "แบบสำรวจนักพัฒนา MDN"
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:6
 msgid "We want to learn more about the needs of developers"
-msgstr ""
+msgstr "เราต้องการเรียนรู้เพิ่มเติมเกี่ยวกับความต้องการของนักพัฒนา"
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:15
 msgid "Complete the survey"
-msgstr ""
+msgstr "ทำแบบสำรวจให้เสร็จสมบูรณ์"
 
 #: kuma/core/apps.py:15
 msgid "Core"
-msgstr ""
+msgstr "แกน"
 
 #: kuma/core/form_fields.py:59
 #, python-format
@@ -1081,9 +1082,8 @@ msgid "Top level documents"
 msgstr "เอกสารระดับบนสุด"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:22
-#, fuzzy
 msgid "Server charts"
-msgstr "บันทึกการเปลี่ยนแปลง"
+msgstr "แผนภูมิเซิร์ฟเวอร์"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
 msgid "Spam Dashboard"
@@ -1095,10 +1095,10 @@ msgid "Localized articles tagged with: %(tag)s"
 msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
-#, fuzzy, python-format
+#, python-format
 msgid "Found %(num)s active macro."
 msgid_plural "Found %(num)s active macros."
-msgstr[0] "พบ %(num)s แม่แบบ"
+msgstr[0] "พบ %(num)s แมโครที่ใช้งานอยู่"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:16
 #, python-format
@@ -1128,7 +1128,7 @@ msgstr "จำนวนหน้าทั้งหมด"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:65
 msgid "Search for macro usage:"
-msgstr ""
+msgstr "ค้นหาการใช้งานแมโคร:"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:68
 msgid "Search All Pages"
@@ -1136,7 +1136,7 @@ msgstr "ค้นหาหน้าทั้งหมด"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:69
 msgid "Search English Pages"
-msgstr ""
+msgstr "ค้นหาหน้าภาษาอังกฤษ"
 
 #: kuma/dashboards/jinja2/dashboards/revisions.html:56
 msgid "Authors:"
@@ -1308,43 +1308,41 @@ msgstr "การส่งเสริม MDN"
 
 #: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:127
 msgid "Contributing to the MDN codebase"
-msgstr ""
+msgstr "การมีส่วนร่วมกับฐานรหัส MDN"
 
 #: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:128
 msgid "Updating browser compatibility data"
-msgstr ""
+msgstr "การอัปเดตข้อมูลความเข้ากันได้ของเบราว์เซอร์"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:5 kuma/landing/jinja2/landing/maintenance-mode.html:13
 msgid "Maintenance Mode"
-msgstr ""
+msgstr "โหมดการบำรุงรักษา"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:18
 msgid ""
 "MDN is currently in maintenance mode. Content is being served from a backup database, which means some articles may show out-of-date information. Have no fear! All will be restored when maintenance "
 "has concluded."
-msgstr ""
+msgstr "ขณะนี้ MDN อยู่ในโหมดบำรุงรักษา กำลังแสดงเนื้อหาจากฐานข้อมูลสำรองซึ่งหมายความว่าบางบทความอาจแสดงข้อมูลที่ล้าสมัย ไม่ต้องกลัว! ทั้งหมดจะถูกกู้คืนเมื่อการบำรุงรักษาเสร็จแล้ว"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:27
 msgid "While in maintenance mode, the following actions are unavailable:"
-msgstr ""
+msgstr "ขณะที่อยู่ในโหมดการบำรุงรักษา การดำเนินการต่อไปนี้จะไม่สามารถใช้ได้:"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:33
-#, fuzzy
 msgid "editing articles"
-msgstr "เชื่อมโยงในบทความ"
+msgstr "การแก้ไขบทความ"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:34
-#, fuzzy
 msgid "creating accounts"
-msgstr "สร้างบัญชี"
+msgstr "การสร้างบัญชี"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:35
 msgid "logging in"
-msgstr ""
+msgstr "การเข้าสู่ระบบ"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:39
 msgid "We apologize for the inconvenience."
-msgstr ""
+msgstr "เราขออภัยในความไม่สะดวก"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:5 kuma/landing/jinja2/landing/promote_buttons.html:17
 msgid "Promote MDN"
@@ -1499,48 +1497,44 @@ msgid "Design sites without leaving the browser."
 msgstr ""
 
 #: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-#, fuzzy
 msgid "Learn More"
 msgstr "เรียนรู้เพิ่มเติม"
 
 #: kuma/payments/forms.py:38 kuma/payments/forms.py:42
 msgid "Your full name"
-msgstr ""
+msgstr "ชื่อเต็มของคุณ"
 
 #: kuma/payments/forms.py:43
 msgid "Required"
-msgstr ""
+msgstr "จำเป็น"
 
 #: kuma/payments/forms.py:48
-#, fuzzy
 msgid "Your email"
-msgstr "แก้ไขอีเมล"
+msgstr "อีเมลของคุณ"
 
 #: kuma/payments/forms.py:53
 msgid "Must be a valid email"
-msgstr ""
+msgstr "ต้องเป็นอีเมลที่ถูกต้อง"
 
 #: kuma/payments/forms.py:54
 msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
 msgstr ""
 
 #: kuma/payments/forms.py:63
-#, fuzzy
 msgid "Contribution choices"
-msgstr "มีส่วนร่วมกับโค้ด"
+msgstr "ทางเลือกการมีส่วนร่วม"
 
 #: kuma/payments/forms.py:84
 msgid "Other"
-msgstr ""
+msgstr "อื่น ๆ"
 
 #: kuma/payments/forms.py:85
 msgid "Must be more than $1"
-msgstr ""
+msgstr "ต้องมากกว่า $1"
 
 #: kuma/payments/forms.py:109
-#, fuzzy
 msgid "You must agree to the terms to continue"
-msgstr "คุณต้องยอมรับนโยบายความเป็นส่วนตัว"
+msgstr "คุณต้องยอมรับเงื่อนไขเพื่อดำเนินการต่อ"
 
 #: kuma/payments/forms.py:123
 msgid "Please enter an amount or choose from the pre-selected options"
@@ -1548,17 +1542,15 @@ msgstr ""
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
-msgstr ""
+msgstr "การจัดการการบอกรับ MDN"
 
 #: kuma/payments/jinja2/payments/management.html:25
-#, fuzzy
 msgid "Your MDN profile"
-msgstr "แก้ไขข้อมูลส่วนตัวของคุณ"
+msgstr "โปรไฟล์ MDN ของคุณ"
 
 #: kuma/payments/jinja2/payments/management.html:28
-#, fuzzy
 msgid "Back to profile"
-msgstr "กลับไปหน้าแรก"
+msgstr "กลับไปที่โปรไฟล์"
 
 #: kuma/payments/jinja2/payments/management.html:31
 msgid "Help"
@@ -1566,12 +1558,11 @@ msgstr "ช่วยเหลือ"
 
 #: kuma/payments/jinja2/payments/management.html:34
 msgid "Monthly subscriptions FAQ"
-msgstr ""
+msgstr "คำถามที่พบบ่อยเกี่ยวกับการบอกรับรายเดือน"
 
 #: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
-#, fuzzy
 msgid "Subscriptions"
-msgstr "คำอธิบาย"
+msgstr "การบอกรับ"
 
 #: kuma/payments/jinja2/payments/management.html:44
 #, python-format
@@ -1580,29 +1571,27 @@ msgstr ""
 
 #: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
 msgid "Monthly Subscription"
-msgstr ""
+msgstr "การบอกรับรายเดือน"
 
 #: kuma/payments/jinja2/payments/management.html:58
-#, fuzzy
 msgid "Amount"
-msgstr "ประเทศ"
+msgstr "จำนวนเงิน"
 
 #: kuma/payments/jinja2/payments/management.html:59
 msgid "Card Number"
-msgstr ""
+msgstr "หมายเลขบัตร"
 
 #: kuma/payments/jinja2/payments/management.html:60
 msgid "Expiry"
-msgstr ""
+msgstr "วันหมดอายุ"
 
 #: kuma/payments/jinja2/payments/management.html:74
-#, fuzzy
 msgid "Cancel your subscription"
-msgstr "จัดการการบอกรับจดหมายข่าว Mozilla ของคุณ"
+msgstr "ยกเลิกการบอกรับของคุณ"
 
 #: kuma/payments/jinja2/payments/management.html:77
 msgid "Are you sure?"
-msgstr ""
+msgstr "คุณแน่ใจหรือไม่?"
 
 #: kuma/payments/jinja2/payments/management.html:79
 msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
@@ -1627,36 +1616,32 @@ msgid "There was a problem canceling your subscription, please contact <a href=\
 msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:5
-#, fuzzy
 msgid "Contribute"
-msgstr "มีส่วนร่วมกับ MDN"
+msgstr "มีส่วนร่วม"
 
 #: kuma/payments/jinja2/payments/payments.html:9
-#, fuzzy
 msgid "Contribute to MDN Web Docs"
-msgstr "มีส่วนร่วมกับ MDN"
+msgstr "มีส่วนร่วมกับเอกสารเว็บ MDN"
 
 #: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:71 kuma/payments/jinja2/payments/includes/payments-form.html:78
-#, fuzzy
 msgid "Support MDN"
-msgstr "เกี่ยวกับ MDN"
+msgstr "สนับสนุน MDN"
 
 #: kuma/payments/jinja2/payments/payments.html:29
-#, fuzzy
 msgid "Was this useful?"
-msgstr "ย้ายบทความนี้"
+msgstr "สิ่งนี้มีประโยชน์หรือไม่?"
 
 #: kuma/payments/jinja2/payments/payments.html:32
 msgid "Yes, this answered my question"
-msgstr ""
+msgstr "ใช่ สิ่งนี้ตอบคำถามของฉัน"
 
 #: kuma/payments/jinja2/payments/payments.html:36
 msgid "No, this did not answer my question"
-msgstr ""
+msgstr "ไม่ สิ่งนี้ไม่ได้ตอบคำถามของฉัน"
 
 #: kuma/payments/jinja2/payments/payments.html:49
 msgid "FAQs"
-msgstr ""
+msgstr "คำถามที่พบบ่อย"
 
 #: kuma/payments/jinja2/payments/payments.html:52
 msgid "Why is MDN asking me for money?"
@@ -1820,9 +1805,9 @@ msgid "What are the payment terms?"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:226 kuma/payments/jinja2/payments/thank_you.html:115 kuma/payments/jinja2/payments/email/thank_you/email.html:171
-#, fuzzy, python-format
+#, python-format
 msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
-msgstr "โปรดยืนยันว่า <a href=\"mailto:%(email)s\">%(email)s</a> เป็นที่อยู่อีเมลสำหรับผู้ใช้ %(user_display)s"
+msgstr "โปรดอ่าน<a href=\"%(url)s\">เงื่อนไขการชำระเงิน</a>ของเราสำหรับข้อมูลเพิ่มเติม"
 
 #: kuma/payments/jinja2/payments/payments.html:231
 msgid "Does deleting my MDN account cancel my subscription?"
@@ -1838,26 +1823,23 @@ msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:248 kuma/payments/jinja2/payments/thank_you.html:145
 msgid "Send"
-msgstr ""
+msgstr "ส่ง"
 
 #: kuma/payments/jinja2/payments/payments.html:249 kuma/payments/jinja2/payments/thank_you.html:146
-#, fuzzy
 msgid "Thank you for submitting your feedback."
-msgstr "ขอบคุณสำหรับการใช้ MDN!"
+msgstr "ขอบคุณที่ส่งข้อคิดเห็นของคุณ"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
-#, fuzzy
 msgid "MDN payment terms"
-msgstr "การสาธิตของ MDN ล่าสุด"
+msgstr "เงื่อนไขการชำระเงิน MDN"
 
 #: kuma/payments/jinja2/payments/thank_you.html:5
 msgid "Thank You"
-msgstr ""
+msgstr "ขอบคุณ"
 
 #: kuma/payments/jinja2/payments/thank_you.html:22 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
-#, fuzzy
 msgid "Thank you for supporting MDN."
-msgstr "ขอบคุณสำหรับการใช้ MDN!"
+msgstr "ขอบคุณที่สนับสนุน MDN"
 
 #: kuma/payments/jinja2/payments/thank_you.html:25 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
 msgid ""
@@ -1866,42 +1848,38 @@ msgid ""
 msgstr ""
 
 #: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
-#, fuzzy
 msgid "Thank you again,"
-msgstr "ขอบคุณสำหรับการใช้ MDN!"
+msgstr "ขอบคุณอีกครั้ง"
 
 #: kuma/payments/jinja2/payments/thank_you.html:34 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
 msgid "The MDN Team"
-msgstr ""
+msgstr "ทีม MDN"
 
 #: kuma/payments/jinja2/payments/thank_you.html:37
 #, python-format
 msgid "I support MDN, and you can too: %(url)s"
-msgstr ""
+msgstr "ฉันสนับสนุน MDN และคุณก็ทำได้เช่นกัน: %(url)s"
 
 #: kuma/payments/jinja2/payments/thank_you.html:39
-#, fuzzy
 msgid "Share your support for MDN on Twitter"
-msgstr "แบ่งปันบน Twitter"
+msgstr "แบ่งปันการสนับสนุนของคุณสำหรับ MDN บน Twitter"
 
 #: kuma/payments/jinja2/payments/thank_you.html:40
-#, fuzzy
 msgid "Share your support for MDN on Facebook"
-msgstr "แบ่งปันบน Facebook"
+msgstr "แบ่งปันการสนับสนุนของคุณสำหรับ MDN บน Facebook"
 
 #: kuma/payments/jinja2/payments/thank_you.html:57
 msgid "Ooops, something went wrong"
-msgstr ""
+msgstr "อุ๊ปส์ มีบางอย่างผิดพลาด"
 
 #: kuma/payments/jinja2/payments/thank_you.html:60
-#, fuzzy, python-format
+#, python-format
 msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
-msgstr "โปรดยืนยันว่า <a href=\"mailto:%(email)s\">%(email)s</a> เป็นที่อยู่อีเมลสำหรับผู้ใช้ %(user_display)s"
+msgstr "โปรดติดต่อ <a href=\"%(mailto)s\">%(email)s</a> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับปัญหานี้"
 
 #: kuma/payments/jinja2/payments/thank_you.html:67
-#, fuzzy
 msgid "Click here to go back"
-msgstr "คลิกที่นี่เพื่อสมัครสมาชิก"
+msgstr "คลิกที่นี่เพื่อกลับไป"
 
 #: kuma/payments/jinja2/payments/thank_you.html:81
 msgid "Useful things"
@@ -1924,11 +1902,11 @@ msgstr ""
 
 #: kuma/payments/jinja2/payments/thank_you.html:113
 msgid "Payment terms"
-msgstr ""
+msgstr "เงื่อนไขการชำระเงิน"
 
 #: kuma/payments/jinja2/payments/thank_you.html:123 kuma/payments/jinja2/payments/email/thank_you/email.html:189 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
 msgid "FAQ"
-msgstr ""
+msgstr "คำถามที่พบบ่อย"
 
 #: kuma/payments/jinja2/payments/thank_you.html:125 kuma/payments/jinja2/payments/email/thank_you/email.html:191
 #, python-format
@@ -1946,15 +1924,15 @@ msgstr "สวัสดี %(username)s!"
 
 #: kuma/payments/jinja2/payments/email/thank_you/email.html:169 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:25
 msgid "Payment Terms"
-msgstr ""
+msgstr "เงื่อนไขการชำระเงิน"
 
 #: kuma/payments/jinja2/payments/email/thank_you/email.html:232
 msgid "331 E. Evelyn Avenue Mountain View CA 94041"
-msgstr ""
+msgstr "331 E. Evelyn Avenue Mountain View CA 94041"
 
 #: kuma/payments/jinja2/payments/email/thank_you/email.html:234
 msgid "Legal"
-msgstr ""
+msgstr "ข้อกฎหมาย"
 
 #: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:2
 #, python-format
@@ -1988,9 +1966,8 @@ msgid "To find out more about why MDN is raising money through the one time and 
 msgstr ""
 
 #: kuma/payments/jinja2/payments/email/thank_you/subject.ltxt:1
-#, fuzzy
 msgid "Thank you for supporting MDN"
-msgstr "ขอบคุณสำหรับการใช้ MDN!"
+msgstr "ขอบคุณที่สนับสนุน MDN"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:27
 msgid "Collapse pop over window"
@@ -2001,7 +1978,6 @@ msgid "Close pop over window"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:39
-#, fuzzy
 msgid "Help grow MDN"
 msgstr "ช่วยปรับปรุง MDN"
 
@@ -2014,13 +1990,12 @@ msgid "You come to MDN for information and assistance. Be a part of making MDN e
 msgstr ""
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:53
-#, fuzzy
 msgid "Learn more about payments to MDN"
-msgstr "ฉันได้อ่านเกี่ยวกับ %(title)s บน MDN"
+msgstr "เรียนรู้เพิ่มเติมเกี่ยวกับการชำระเงินให้กับ MDN"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:56
 msgid "Provide feedback"
-msgstr ""
+msgstr "เสนอข้อคิดเห็น"
 
 #: kuma/payments/jinja2/payments/includes/payments-banner.html:68 kuma/payments/jinja2/payments/includes/payments-banner.html:75
 msgid "One off payment"
