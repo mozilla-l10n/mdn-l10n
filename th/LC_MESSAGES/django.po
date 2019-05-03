@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-04-04 14:38-0700\n"
-"PO-Revision-Date: 2019-05-03 07:32+0000\n"
+"PO-Revision-Date: 2019-05-03 07:37+0000\n"
 "Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
 "Language: th\n"
@@ -2014,28 +2014,24 @@ msgid "Open tooltip for further email field information"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:26
-#, fuzzy
 msgid "Close this tooltip"
-msgstr "บทความนี้มีประโยชน์หรือไม่?"
+msgstr "ปิดคำแนะนำเครื่องมือนี้"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:27
-#, fuzzy
 msgid "Why do you need my email address?"
-msgstr "เพิ่มที่อยู่อีเมล"
+msgstr "ทำไมคุณจึงต้องการที่อยู่อีเมลของฉัน?"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:28
 msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
 msgstr ""
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:33
-#, fuzzy
 msgid "Other contribution amount"
-msgstr "ซ่อนผู้มีส่วนร่วม"
+msgstr "จำนวนเงินการมีส่วนร่วมอื่น ๆ"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:67
-#, fuzzy
 msgid "There has been an issue, please try again later."
-msgstr "เกิดข้อผิดพลาดที่ไม่รู้จักขึ้น โปรดลองอีกครั้งในภายหลัง"
+msgstr "มีปัญหาเกิดขึ้น โปรดลองอีกครั้งในภายหลัง"
 
 #: kuma/payments/jinja2/payments/includes/payments-form.html:73
 #, python-format
@@ -2126,9 +2122,8 @@ msgid "I'm an Expert"
 msgstr "ฉันเป็นผู้เชี่ยวชาญ"
 
 #: kuma/search/names.py:19
-#, fuzzy
 msgid "I'm an Intermediate"
-msgstr "ปานกลาง"
+msgstr "ฉันเป็นผู้ใช้ระดับปานกลาง"
 
 #: kuma/search/names.py:21
 msgid "Topics"
@@ -2253,16 +2248,16 @@ msgid "Results"
 msgstr "ผลลัพธ์"
 
 #: kuma/search/jinja2/search/results.html:70
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
-msgstr[0] "พบ %(count)s เอกสารสำหรับ \"%(query)s\" ในภาษา %(locale_native)s"
+msgstr[0] "พบ %(count)s เอกสารสำหรับ \"%(query)s\" ในภาษาทั้งหมด"
 
 #: kuma/search/jinja2/search/results.html:76
-#, fuzzy, python-format
+#, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] "พบ %(count)s เอกสารในภาษา %(locale_native)s"
+msgstr[0] "พบ %(count)s เอกสารในภาษาทั้งหมด"
 
 #: kuma/search/jinja2/search/results.html:86
 #, python-format
@@ -2327,27 +2322,24 @@ msgid "Filter by"
 msgstr "กรองด้วย"
 
 #: kuma/spam/forms.py:9
-#, fuzzy
 msgid "The submitted data contains invalid content."
-msgstr "นี่ประกอบด้วยเนื้อหาที่ไม่เหมาะสม"
+msgstr "ข้อมูลที่ส่งประกอบด้วยเนื้อหาที่ไม่ถูกต้อง"
 
 #: kuma/spam/forms.py:103
-#, fuzzy
 msgid "The submitted data contains invalid content. Please try again."
-msgstr "นี่ประกอบด้วยเนื้อหาที่ไม่เหมาะสม"
+msgstr "ข้อมูลที่ส่งประกอบด้วยเนื้อหาที่ไม่ถูกต้อง โปรดลองอีกครั้ง"
 
 #: kuma/spam/models.py:10
-#, fuzzy
 msgid "created"
-msgstr "สร้างแล้ว"
+msgstr "สร้างเมื่อ"
 
 #: kuma/spam/models.py:27 kuma/users/jinja2/users/includes/user_revision_history_form.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:71
 msgid "Spam"
-msgstr ""
+msgstr "สแปม"
 
 #: kuma/spam/models.py:28
 msgid "Ham"
-msgstr ""
+msgstr "เเฮม"
 
 #: kuma/spam/models.py:33
 msgid "sent at"
@@ -2418,9 +2410,8 @@ msgid "Mozillians"
 msgstr "Mozillians"
 
 #: kuma/users/forms.py:118 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:133
-#, fuzzy
 msgid "Discourse"
-msgstr "ละทิ้ง"
+msgstr "Discourse"
 
 #: kuma/users/forms.py:150
 msgid "Areas of expertise must be a subset of interests"
@@ -2515,18 +2506,16 @@ msgid "Enter a valid Facebook URL."
 msgstr "ป้อน URL ของ Facebook ที่ถูกต้อง"
 
 #: kuma/users/models.py:141
-#, fuzzy
 msgid "Enter a valid Discourse URL."
-msgstr "ป้อน URL ของ GitHub ที่ถูกต้อง"
+msgstr "ป้อน URL ของ Discourse ที่ถูกต้อง"
 
 #: kuma/users/models.py:148
 msgid "Website"
 msgstr "เว็บไซต์"
 
 #: kuma/users/models.py:163
-#, fuzzy
 msgid "Public GitHub URL"
-msgstr "ป้อน URL ของ GitHub ที่ถูกต้อง"
+msgstr "URL ของ GitHub แบบสาธารณะ"
 
 #: kuma/users/signal_handlers.py:45
 #, python-format
@@ -2569,7 +2558,7 @@ msgstr "ที่อยู่อีเมล"
 
 #: kuma/users/views.py:534 kuma/users/jinja2/socialaccount/signup.html:140
 msgid "Other:"
-msgstr ""
+msgstr "อื่น ๆ:"
 
 # 83%
 #: kuma/users/views.py:536
@@ -2577,13 +2566,12 @@ msgid "Email:"
 msgstr "อีเมล:"
 
 #: kuma/users/jinja2/account/account_inactive.html:3 kuma/users/jinja2/account/account_inactive.html:7
-#, fuzzy
 msgid "Profile Inactive"
-msgstr "ข้อมูลส่วนตัว"
+msgstr "โปรไฟล์ที่ไม่มีการใช้งาน"
 
 #: kuma/users/jinja2/account/account_inactive.html:9
 msgid "This profile is inactive."
-msgstr ""
+msgstr "โปรไฟล์นี้ไม่มีการใช้งาน"
 
 #: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:36
 msgid "Email addresses"
@@ -2695,9 +2683,8 @@ msgstr ""
 
 # 88%
 #: kuma/users/jinja2/account/password_reset.html:18
-#, fuzzy
 msgid "Reset My Password"
-msgstr "รหัสผ่าน"
+msgstr "ตั้งรหัสผ่านของฉันใหม่"
 
 #: kuma/users/jinja2/account/password_reset.html:21
 msgid "Please contact us if you have any trouble resetting your password."
@@ -2807,9 +2794,8 @@ msgid "An existing MDN profile matches your GitHub email. Click here to recover 
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:32
-#, fuzzy
 msgid "Recover my Profile"
-msgstr "ข้อมูลส่วนตัว"
+msgstr "กู้คืนโปรไฟล์ของฉัน"
 
 #: kuma/users/jinja2/socialaccount/signup.html:44
 msgid "Why do I need an MDN profile to complete my subscription?"
@@ -2896,9 +2882,9 @@ msgid "Sign in with GitHub"
 msgstr "ลงชื่อเข้าด้วย GitHub"
 
 #: kuma/users/jinja2/users/ban_user.html:7 kuma/users/jinja2/users/ban_user_and_cleanup.html:7 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:7
-#, fuzzy, python-format
+#, python-format
 msgid "Ban %(user)s"
-msgstr "ผู้ใช้"
+msgstr "แบน %(user)s"
 
 #: kuma/users/jinja2/users/ban_user.html:22
 #, python-format
@@ -2914,9 +2900,8 @@ msgid "or enter a reason in the text box below"
 msgstr "หรือป้อนเหตุผลในกล่องข้อความด้านล่าง"
 
 #: kuma/users/jinja2/users/ban_user.html:37
-#, fuzzy
 msgid "Ban user"
-msgstr "ผู้ใช้"
+msgstr "แบนผู้ใช้"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:23
 #, python-format
