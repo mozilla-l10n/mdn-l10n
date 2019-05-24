@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-05-14 14:19-0700\n"
+"POT-Creation-Date: 2019-05-24 14:58-0700\n"
 "PO-Revision-Date: 2019-05-15 13:53+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -55,8 +55,8 @@ msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
 msgstr ""
-"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> bởi Matthew Inman trên trang <a href=\"http://theoatmeal.com\" "
-"rel=\"nofollow\">The Oatmeal</a></small></p>"
+"<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> bởi Matthew Inman trên trang <a href=\"http://theoatmeal.com\" rel="
+"\"nofollow\">The Oatmeal</a></small></p>"
 
 #: jinja2/404.html:6 jinja2/404.html:13
 msgid "Not Found"
@@ -112,7 +112,7 @@ msgid "Internal Server Error"
 msgstr "Sự cố máy chủ"
 
 #: jinja2/base.html:11 jinja2/base.html:57 jinja2/base.html:62 jinja2/base.html:111 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:42 kuma/wiki/jinja2/wiki/react_document.html:47
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:59 kuma/wiki/jinja2/wiki/react_document.html:64
 msgid "MDN Web Docs"
 msgstr "Tài liệu Web MDN"
 
@@ -124,19 +124,19 @@ msgstr "MDN hiện tại đang ở chế độ bảo trì (chỉ có thể đọ
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
-#: jinja2/base.html:147 jinja2/react_base.html:134 kuma/wiki/jinja2/wiki/react_document.html:122
+#: jinja2/base.html:147 jinja2/react_base.html:134 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Terms"
 msgstr "Điều khoản"
 
-#: jinja2/base.html:148 jinja2/react_base.html:135 kuma/payments/jinja2/payments/email/thank_you/email.html:234 kuma/wiki/jinja2/wiki/react_document.html:123
+#: jinja2/base.html:148 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:134
 msgid "Privacy"
 msgstr "Chính sách bảo mật"
 
-#: jinja2/base.html:149 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:124
+#: jinja2/base.html:149 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Cookies"
 msgstr "Cookie"
 
-#: jinja2/base.html:153 jinja2/react_base.html:140 kuma/wiki/jinja2/wiki/react_document.html:128
+#: jinja2/base.html:153 jinja2/react_base.html:140 kuma/wiki/jinja2/wiki/react_document.html:139
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla và cá nhân đóng góp.</p> <p>Nội dung có sẵn theo <a href=\"%(copyright_url)s\">những giấy phép này</a>.</p>"
@@ -236,7 +236,7 @@ msgstr "Phát triển trò chơi"
 msgid "...more docs"
 msgstr "...xem thêm tài liệu khác"
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:243 kuma/payments/jinja2/payments/thank_you.html:139
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8
 msgid "Feedback"
 msgstr "Phản hồi"
 
@@ -308,7 +308,7 @@ msgstr "Chỉnh sửa hồ sơ"
 msgid "Sign out"
 msgstr "Đăng xuất"
 
-#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:96
+#: jinja2/includes/login.html:23
 msgid "Sign in"
 msgstr "Đăng nhập"
 
@@ -332,7 +332,7 @@ msgstr "Hiện tại các bản tin chỉ được viết bằng tiếng Anh."
 msgid "E-mail"
 msgstr "Email"
 
-#: jinja2/includes/newsletter.html:18 kuma/payments/forms.py:52
+#: jinja2/includes/newsletter.html:18
 msgid "you@example.com"
 msgstr "you@example.com"
 
@@ -357,7 +357,7 @@ msgstr "Nếu bạn chưa xác nhận đăng kí các thư mới liên quan đ�
 msgid "Hide Newsletter Sign-up"
 msgstr "Ẩn đăng kí nhận thông tin mới"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1328
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1315
 msgid "Previous"
 msgstr "Trang trước"
 
@@ -425,7 +425,7 @@ msgstr "Czech"
 msgid "Dutch"
 msgstr "Dutch (Hà Lan)"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1338
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1325
 msgid "English (US)"
 msgstr "Tiếng Anh (Mỹ)"
 
@@ -638,7 +638,7 @@ msgstr "Twitter"
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/includes/footer/moz-footer.html:1 kuma/payments/jinja2/payments/email/thank_you/email.html:231
+#: jinja2/includes/footer/moz-footer.html:1
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -873,8 +873,8 @@ msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
 msgstr ""
-"Đây là các khóa API của bạn. Chúng hữu ích để xây dựng các ứng dụng thực hiện các nhiệm vụ trên MDN thay mặt bạn. Nếu bạn đã ngừng sử dụng bất kỳ trong số họ, hoặc nghi ngờ ai đó đã tiếp xúc với các"
-" bên mà bạn không tin tưởng với tài khoản của mình, hãy xóa khóa. Thật dễ dàng để tạo một khóa thay thế bất cứ lúc nào."
+"Đây là các khóa API của bạn. Chúng hữu ích để xây dựng các ứng dụng thực hiện các nhiệm vụ trên MDN thay mặt bạn. Nếu bạn đã ngừng sử dụng bất kỳ trong số họ, hoặc nghi ngờ ai đó đã tiếp xúc với "
+"các bên mà bạn không tin tưởng với tài khoản của mình, hãy xóa khóa. Thật dễ dàng để tạo một khóa thay thế bất cứ lúc nào."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
@@ -900,8 +900,8 @@ msgstr "Bạn cần có sự cho phép đặc biệt để sử dụng các khó
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 "<p>Mô tả mục đích sử dụng của bạn cho khóa này ở bên dưới. <p><strong>LƯU Ý:</strong> Đây là cách duy nhất để xác định khóa này, ngoại trừ ngày và giờ tạo khóa. Do đó, xin vui lòng mô tả rõ ràng "
 "nhất có thể.</p>"
@@ -944,10 +944,12 @@ msgid "MDN Survey"
 msgstr "Khảo sát MDN"
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:6
-msgid "Help us understand the top 10 needs of Web developers and designers."
+msgid ""
+"Help us understand the top 10 needs of Web developers and\n"
+"        designers."
 msgstr ""
 
-#: kuma/banners/jinja2/banners/includes/developer-needs.html:14
+#: kuma/banners/jinja2/banners/includes/developer-needs.html:16
 msgid "Take the survey"
 msgstr ""
 
@@ -965,7 +967,7 @@ msgstr "Đảm bảo giá trị này có ít nhất %(limit_value)s kí tự (n�
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Đảm bảo giá trị này có nhiều nhất %(limit_value)s kí tự (nó có %(show_value)s)."
 
-#: kuma/core/utils.py:380
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "Hôm nay lúc %s"
@@ -1258,8 +1260,8 @@ msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
 msgstr ""
-"Trang web MDN Web Docs cung cấp thông tin về các công nghệ Web mở bao gồm HTML, CSS và API cho cả trang Web và ứng dụng web tiên tiến. Nó cũng có một số tài liệu hướng đến nhà phát triển cho các sản"
-" phẩm của Mozilla, chẳng hạn như công cụ dành cho nhà phát triển Firefox."
+"Trang web MDN Web Docs cung cấp thông tin về các công nghệ Web mở bao gồm HTML, CSS và API cho cả trang Web và ứng dụng web tiên tiến. Nó cũng có một số tài liệu hướng đến nhà phát triển cho các "
+"sản phẩm của Mozilla, chẳng hạn như công cụ dành cho nhà phát triển Firefox."
 
 #: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:37
 msgid "Resources for developers, by developers."
@@ -1364,8 +1366,8 @@ msgstr "Truyền bá một số tình yêu phát triển."
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:39
@@ -1509,46 +1511,6 @@ msgstr "Thiết kế trang web mà không cần rời khỏi trình duyệt."
 msgid "Learn More"
 msgstr "Tìm hiểu thêm"
 
-#: kuma/payments/forms.py:38 kuma/payments/forms.py:42
-msgid "Your full name"
-msgstr "Tên đầy đủ của bạn"
-
-#: kuma/payments/forms.py:43
-msgid "Required"
-msgstr "Bắt buộc"
-
-#: kuma/payments/forms.py:48
-msgid "Your email"
-msgstr "Email của bạn"
-
-#: kuma/payments/forms.py:53
-msgid "Must be a valid email"
-msgstr "Phải là một email hợp lệ"
-
-#: kuma/payments/forms.py:54
-msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
-msgstr "Tại sao bạn cần địa chỉ email của tôi? Điều này là để chúng tôi có thể gửi cho bạn biên nhận đóng góp của bạn. Điều này rất hữu ích nếu bạn muốn hoàn lại tiền."
-
-#: kuma/payments/forms.py:63
-msgid "Contribution choices"
-msgstr "Lựa chọn đóng góp"
-
-#: kuma/payments/forms.py:84
-msgid "Other"
-msgstr "Khác"
-
-#: kuma/payments/forms.py:85
-msgid "Must be more than $1"
-msgstr "Phải hơn $1"
-
-#: kuma/payments/forms.py:109
-msgid "You must agree to the terms to continue"
-msgstr "Bạn phải đồng ý với các điều khoản để tiếp tục"
-
-#: kuma/payments/forms.py:123
-msgid "Please enter an amount or choose from the pre-selected options"
-msgstr "Vui lòng nhập số tiền hoặc chọn từ các tùy chọn được định trước"
-
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
 msgstr "Quản lý thuê bao MDN"
@@ -1632,35 +1594,27 @@ msgstr "Đóng góp"
 msgid "Contribute to MDN Web Docs"
 msgstr "Đóng góp cho Tài liệu web MDN"
 
-#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:71 kuma/payments/jinja2/payments/includes/payments-form.html:78
+#: kuma/payments/jinja2/payments/payments.html:10
 msgid "Support MDN"
 msgstr "Hỗ trợ MDN"
 
-#: kuma/payments/jinja2/payments/payments.html:29
-msgid "Was this useful?"
-msgstr "Điều này có hữu ích không?"
+#: kuma/payments/jinja2/payments/payments.html:25
+msgid "Thank you for supporting MDN."
+msgstr "Cảm ơn bạn đã hỗ trợ MDN."
 
-#: kuma/payments/jinja2/payments/payments.html:32
-msgid "Yes, this answered my question"
-msgstr "Vâng, điều này đã trả lời câu hỏi của tôi"
-
-#: kuma/payments/jinja2/payments/payments.html:36
-msgid "No, this did not answer my question"
-msgstr "Không, điều này không trả lời câu hỏi của tôi"
-
-#: kuma/payments/jinja2/payments/payments.html:49
+#: kuma/payments/jinja2/payments/payments.html:47
 msgid "FAQs"
 msgstr "Câu hỏi thường gặp"
 
-#: kuma/payments/jinja2/payments/payments.html:52
+#: kuma/payments/jinja2/payments/payments.html:50
 msgid "Why is MDN asking me for money?"
 msgstr "Tại sao MDN hỏi tôi về tiền?"
 
-#: kuma/payments/jinja2/payments/payments.html:54
+#: kuma/payments/jinja2/payments/payments.html:52
 msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
 msgstr "MDN đang thử nghiệm tìm kiếm sự hỗ trợ trực tiếp từ người dùng của chúng tôi để tăng tốc phát triển và duy trì nội dung và nền tảng của chúng tôi, với sự hỗ trợ từ những người sử dụng nó."
 
-#: kuma/payments/jinja2/payments/payments.html:62
+#: kuma/payments/jinja2/payments/payments.html:60
 msgid ""
 "Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
 "wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
@@ -1670,11 +1624,11 @@ msgstr ""
 "dù MDN hiện được Mozilla tài trợ hoàn toàn và kể từ khi thành lập, chúng tôi đang tìm cách tạo ra một vòng lặp chặt chẽ hơn, lành mạnh hơn giữa khán giả của chúng tôi (bạn), nội dung của chúng tôi "
 "(viết cho bạn) và những người ủng hộ của chúng tôi (cũng là bạn, một lần nữa) cho phép chúng tôi tăng tốc những cải tiến đó."
 
-#: kuma/payments/jinja2/payments/payments.html:75
+#: kuma/payments/jinja2/payments/payments.html:73
 msgid "How is my payment handled? Is it secure?"
 msgstr "Thanh toán của tôi được xử lý như thế nào? Có an toàn không?"
 
-#: kuma/payments/jinja2/payments/payments.html:77
+#: kuma/payments/jinja2/payments/payments.html:75
 #, python-format
 msgid ""
 "All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
@@ -1683,27 +1637,27 @@ msgstr ""
 "Tất cả thông tin thanh toán đều thông qua bộ xử lý thanh toán <a href=\"%(url)s\">Stripe</a> và bản ghi thanh toán của bạn sẽ được Mozilla lưu trữ. Mozilla không nhận hoặc lưu trữ số thẻ tín dụng "
 "của bạn."
 
-#: kuma/payments/jinja2/payments/payments.html:85
+#: kuma/payments/jinja2/payments/payments.html:83
 msgid "What data is Mozilla collecting about me?"
 msgstr "Mozilla đang thu thập dữ liệu gì về tôi?"
 
-#: kuma/payments/jinja2/payments/payments.html:87
+#: kuma/payments/jinja2/payments/payments.html:85
 msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
 msgstr "Mozilla sẽ thu thập và lưu trữ tên và email của bạn, sẽ được sử dụng để gửi email giao dịch (ví dụ: biên nhận). Mozilla sẽ không có quyền truy cập hoặc lưu trữ số thẻ tín dụng của bạn."
 
-#: kuma/payments/jinja2/payments/payments.html:95
+#: kuma/payments/jinja2/payments/payments.html:93
 msgid "What does money go towards?"
 msgstr "Tiền đi về hướng nào?"
 
-#: kuma/payments/jinja2/payments/payments.html:97
+#: kuma/payments/jinja2/payments/payments.html:95
 msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
 msgstr "Tiền thu được thông qua MDN (trừ phí xử lý, thuế, v.v.) sẽ được tái đầu tư trở lại MDN. Chúng tôi sẽ xuất bản báo cáo hàng tháng trên Tài liệu Web MDN cho thấy công việc đã hoàn thành."
 
-#: kuma/payments/jinja2/payments/payments.html:105
+#: kuma/payments/jinja2/payments/payments.html:103
 msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
 msgstr "Nếu tôi chỉ quyên góp cho Tổ chức Mozilla, điều đó có giúp MDN không?"
 
-#: kuma/payments/jinja2/payments/payments.html:107
+#: kuma/payments/jinja2/payments/payments.html:105
 #, python-format
 msgid ""
 "The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in the "
@@ -1714,65 +1668,65 @@ msgstr ""
 "Kỳ</a> đến mức tối đa được pháp luật cho phép và đi đến hỗ trợ các chương trình từ thiện và công cộng của Mozilla trong một quỹ chung. MDN là một phần của <a href=\"%(corporation_url)s\">Tập đoàn "
 "Mozilla</a> và các khoản thanh toán cho MDN không được sử dụng trong các chương trình từ thiện của Mozilla, nhưng được tái đầu tư vào nội dung, công cụ và nền tảng MDN."
 
-#: kuma/payments/jinja2/payments/payments.html:124
+#: kuma/payments/jinja2/payments/payments.html:122
 msgid "Is support of MDN tax-deductible?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:126
+#: kuma/payments/jinja2/payments/payments.html:124
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
 msgstr "Không. Các khoản thanh toán cho Tập đoàn Mozilla cho việc hỗ trợ MDN không được khấu trừ thuế tại Hoa Kỳ hoặc các quốc gia khác."
 
-#: kuma/payments/jinja2/payments/payments.html:133
+#: kuma/payments/jinja2/payments/payments.html:131
 msgid "What will MDN user funding pay for?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:135
+#: kuma/payments/jinja2/payments/payments.html:133
 msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr ""
 "Hiện tại, Mozilla trả tiền cho các hoạt động của trang web và chi phí hoạt động (bao gồm cả người viết và nhà phát triển web). Thanh toán của người dùng MDN sẽ tài trợ cho việc tăng tốc các dự án "
 "hiện tại hoặc ra mắt các dự án mới, bao gồm:"
 
-#: kuma/payments/jinja2/payments/payments.html:143
+#: kuma/payments/jinja2/payments/payments.html:141
 msgid "Adding more content, and updating current content"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:144
+#: kuma/payments/jinja2/payments/payments.html:142
 msgid "Improving performance of the site"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:145
+#: kuma/payments/jinja2/payments/payments.html:143
 msgid "Modernizing the MDN platform"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:146
+#: kuma/payments/jinja2/payments/payments.html:144
 msgid "Adding offline access to MDN"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:147
+#: kuma/payments/jinja2/payments/payments.html:145
 msgid "Supporting integrations with popular developer tools"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:148
+#: kuma/payments/jinja2/payments/payments.html:146
 msgid "More tutorials and guides"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:149
+#: kuma/payments/jinja2/payments/payments.html:147
 msgid "Training and webinars"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:152
+#: kuma/payments/jinja2/payments/payments.html:150
 msgid "Why can’t you just open a Crowdsourcing campaign?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:154
+#: kuma/payments/jinja2/payments/payments.html:152
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:161
+#: kuma/payments/jinja2/payments/payments.html:159
 msgid "How has MDN been funded to date?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:163
+#: kuma/payments/jinja2/payments/payments.html:161
 msgid ""
 "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
 "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
@@ -1780,15 +1734,15 @@ msgstr ""
 "MDN được tài trợ từ ngân sách chung của Tập đoàn Mozilla (và kể từ khi nó được thành lập năm 2005). Tập đoàn Mozilla dự định sẽ tiếp tục hỗ trợ tài chính cho MDN trong tương lai, ngay cả khi chúng "
 "tôi mở rộng và đa dạng hóa các nguồn tài trợ MDN. Chúng tôi chỉ muốn làm nhiều thứ hơn với bạn và cho bạn!"
 
-#: kuma/payments/jinja2/payments/payments.html:173
+#: kuma/payments/jinja2/payments/payments.html:171
 msgid "How does Mozilla make money?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:175
+#: kuma/payments/jinja2/payments/payments.html:173
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
 msgstr "Tập đoàn Mozilla, vốn tài trợ MDN, kiếm tiền chủ yếu từ tiền bản quyền từ các nhà cung cấp dịch vụ tìm kiếm trên Firefox (như Google, Amazon, Duck Duck Go và các công ty khác)."
 
-#: kuma/payments/jinja2/payments/payments.html:183
+#: kuma/payments/jinja2/payments/payments.html:181
 #, python-format
 msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
@@ -1797,293 +1751,62 @@ msgstr ""
 "Một cách riêng biệt, Tổ chức Mozilla là một tổ chức phi lợi nhuận, kiếm tiền chủ yếu từ các khoản đóng góp và tiền bản quyền từ Tập đoàn Mozilla. Là một tổ chức phi lợi nhuận, Tổ chức Mozilla báo "
 "cáo công khai các khoản thu này mỗi năm, như trong <a href=\"%(url)s\">báo cáo thường niên năm 2016 của Mozilla</a>."
 
-#: kuma/payments/jinja2/payments/payments.html:197
+#: kuma/payments/jinja2/payments/payments.html:195
 msgid "Monthly payments"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:200
+#: kuma/payments/jinja2/payments/payments.html:198
 msgid "How do I manage my monthly payment?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:202 kuma/payments/jinja2/payments/thank_you.html:88 kuma/payments/jinja2/payments/email/thank_you/email.html:127
+#: kuma/payments/jinja2/payments/payments.html:200
 #, python-format
 msgid ""
-"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a "
-"href=\"%(manage_subscription_url)s\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
+"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
+"\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
 msgstr ""
-"Nếu bạn muốn quản lý khoản thanh toán hàng tháng của mình, chẳng hạn như thay đổi chi tiết tài khoản thẻ hoặc số tiền bạn phải trả, vui lòng hủy đăng ký của bạn trên <a "
-"href=\"%(manage_subscription_url)s\">quản lý trang đăng ký hàng tháng</a> và đăng ký lại bằng cách sử dụng các chi tiết thẻ mới. Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ vào email <a "
-"href=\"%(url)s\">%(email)s.</a>"
+"Nếu bạn muốn quản lý khoản thanh toán hàng tháng của mình, chẳng hạn như thay đổi chi tiết tài khoản thẻ hoặc số tiền bạn phải trả, vui lòng hủy đăng ký của bạn trên <a href="
+"\"%(manage_subscription_url)s\">quản lý trang đăng ký hàng tháng</a> và đăng ký lại bằng cách sử dụng các chi tiết thẻ mới. Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ vào email <a href="
+"\"%(url)s\">%(email)s.</a>"
 
-#: kuma/payments/jinja2/payments/payments.html:213
+#: kuma/payments/jinja2/payments/payments.html:211
 msgid "How do I apply for a refund or cancel my payment?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:215 kuma/payments/jinja2/payments/email/thank_you/email.html:151
-#, python-format
+#: kuma/payments/jinja2/payments/payments.html:213
+#, fuzzy, python-format
 msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
-"will not charge your payment card for subsequent months."
+"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
+"monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
 msgstr ""
+"Nếu bạn muốn hủy khoản thanh toán hàng tháng của mình hoặc xin hoàn trả, bạn có thể tự do làm điều đó bất cứ lúc nào. Vui lòng liên hệ %(support_mail)s để hủy. Nếu bạn chọn hủy, chúng tôi sẽ không "
+"tính phí thẻ thanh toán của bạn cho các tháng tiếp theo."
 
-#: kuma/payments/jinja2/payments/payments.html:224
+#: kuma/payments/jinja2/payments/payments.html:222
 msgid "What are the payment terms?"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:226 kuma/payments/jinja2/payments/thank_you.html:115 kuma/payments/jinja2/payments/email/thank_you/email.html:171
+#: kuma/payments/jinja2/payments/payments.html:224
 #, python-format
 msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
 msgstr ""
 
-#: kuma/payments/jinja2/payments/payments.html:231
+#: kuma/payments/jinja2/payments/payments.html:229
 msgid "Does deleting my MDN account cancel my subscription?"
 msgstr "Việc xóa tài khoản MDN của tôi có hủy đăng ký của tôi không?"
 
-#: kuma/payments/jinja2/payments/payments.html:233
+#: kuma/payments/jinja2/payments/payments.html:231
 msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
 msgstr "Khi bạn yêu cầu xóa tài khoản của bạn, chúng tôi cũng sẽ hủy đăng ký của bạn và không tính phí cho các tháng tiếp theo."
-
-#: kuma/payments/jinja2/payments/payments.html:247 kuma/payments/jinja2/payments/thank_you.html:144
-msgid "Your feedback goes here"
-msgstr "Phản hồi của bạn ở đây"
-
-#: kuma/payments/jinja2/payments/payments.html:248 kuma/payments/jinja2/payments/thank_you.html:145
-msgid "Send"
-msgstr "Gửi"
-
-#: kuma/payments/jinja2/payments/payments.html:249 kuma/payments/jinja2/payments/thank_you.html:146
-msgid "Thank you for submitting your feedback."
-msgstr "Cảm ơn bạn đã gửi phản hồi."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "MDN payment terms"
 msgstr "Điều khoản thanh toán MDN"
 
-#: kuma/payments/jinja2/payments/thank_you.html:5
-msgid "Thank You"
-msgstr "Cảm ơn bạn"
-
-#: kuma/payments/jinja2/payments/thank_you.html:22 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
-msgid "Thank you for supporting MDN."
-msgstr "Cảm ơn bạn đã hỗ trợ MDN."
-
-#: kuma/payments/jinja2/payments/thank_you.html:25 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
-msgid ""
-"We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
-"us make sure MDN can be available to everyone, everywhere."
-msgstr ""
-"Chúng tôi cam kết cung cấp nguồn thông tin tốt nhất về các tiêu chuẩn web. Hỗ trợ của bạn cho phép MDN di chuyển nhanh hơn nữa khi chúng tôi xây dựng nhiều nội dung và công cụ bạn sử dụng hàng ngày "
-"và giúp chúng tôi đảm bảo MDN có thể có sẵn cho mọi người, ở mọi nơi."
-
-#: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
-msgid "Thank you again,"
-msgstr "Cám ơn bạn một lần nữa,"
-
-#: kuma/payments/jinja2/payments/thank_you.html:34 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
-msgid "The MDN Team"
-msgstr "Nhóm MDN"
-
-#: kuma/payments/jinja2/payments/thank_you.html:37
-#, python-format
-msgid "I support MDN, and you can too: %(url)s"
-msgstr "Tôi hỗ trợ MDN và bạn cũng có thể: %(url)s"
-
-#: kuma/payments/jinja2/payments/thank_you.html:39
-msgid "Share your support for MDN on Twitter"
-msgstr "Chia sẻ hỗ trợ của bạn cho MDN trên Twitter"
-
-#: kuma/payments/jinja2/payments/thank_you.html:40
-msgid "Share your support for MDN on Facebook"
-msgstr "Chia sẻ hỗ trợ của bạn cho MDN trên Facebook"
-
-#: kuma/payments/jinja2/payments/thank_you.html:57
-msgid "Ooops, something went wrong"
-msgstr "Ooops, có gì đó không ổn"
-
-#: kuma/payments/jinja2/payments/thank_you.html:60
-#, python-format
-msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
-msgstr "Vui lòng liên hệ với <a href=\"%(mailto)s\">%(email)s</a> để biết thêm thông tin về vấn đề này."
-
-#: kuma/payments/jinja2/payments/thank_you.html:67
-msgid "Click here to go back"
-msgstr "Nhấp vào đây để quay lại"
-
-#: kuma/payments/jinja2/payments/thank_you.html:81
-msgid "Useful things"
-msgstr "Những điều có ích"
-
-#: kuma/payments/jinja2/payments/thank_you.html:86 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
-msgid "Managing your payments"
-msgstr "Quản lý thanh toán của bạn"
-
-#: kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:149
-msgid "Refunds and canceling your payments"
-msgstr "Hoàn tiền và hủy thanh toán của bạn"
-
-#: kuma/payments/jinja2/payments/thank_you.html:102
-#, python-format
-msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to cancel, "
-"you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
-msgstr ""
-"Nếu bạn muốn hủy khoản thanh toán hàng tháng của mình hoặc xin hoàn trả, bạn có thể tự do làm điều đó bất cứ lúc nào. Vui lòng liên hệ vào email <a href=\"%(url)s\">%(email)s</a> để được hoàn tiền. "
-"Nếu bạn chọn hủy, bạn có thể làm như vậy trên trang <a href=\"%(manage_subscription_url)s\">quản lý đăng ký hàng tháng</a>. Chúng tôi sẽ không tính phí thẻ thanh toán của bạn cho các tháng tiếp "
-"theo."
-
-#: kuma/payments/jinja2/payments/thank_you.html:113
-msgid "Payment terms"
-msgstr "Điều khoản thanh toán"
-
-#: kuma/payments/jinja2/payments/thank_you.html:123 kuma/payments/jinja2/payments/email/thank_you/email.html:189 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
-msgid "FAQ"
-msgstr "Câu hỏi thường gặp"
-
-#: kuma/payments/jinja2/payments/thank_you.html:125 kuma/payments/jinja2/payments/email/thank_you/email.html:191
-#, python-format
-msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
-msgstr "Để tìm hiểu thêm về lý do MDN huy động tiền thông qua các chương trình thanh toán một lần và hàng tháng, <a href=\"%(url)s\">vui lòng truy cập các câu hỏi thường gặp của chúng tôi</a>."
-
-#: kuma/payments/jinja2/payments/thank_you.html:143
-msgid "Is there anything else you’d like to know more about?"
-msgstr "Có điều gì khác mà bạn muốn biết thêm không?"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:70 kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
-msgstr "Xin chào %(username)s!"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:169 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:25
-msgid "Payment Terms"
-msgstr "Điều khoản thanh toán"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:232
-msgid "331 E. Evelyn Avenue Mountain View CA 94041"
-msgstr "331 E. Evelyn Avenue Mountain View CA 94041"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:234
-msgid "Legal"
-msgstr "Thông tin pháp lí"
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:2
-#, python-format
-msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
-msgstr "Cảm ơn bạn %(username)s [%(user_email)s] đã hỗ trợ MDN."
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
-#, python-format
-msgid ""
-"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign up "
-"again using the new card details. If you have any questions please contact %(support_mail)s."
-msgstr ""
-"Nếu bạn muốn quản lý khoản thanh toán hàng tháng của mình, chẳng hạn như thay đổi chi tiết tài khoản thẻ hoặc số tiền bạn phải trả, vui lòng hủy đăng ký của bạn trên %(recurring_payment_management)s"
-" và đăng ký lại bằng chi tiết thẻ mới. Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ vào email %(support_mail)s."
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
-msgid "Cancelling your payments"
-msgstr "Đang hủy thanh toán của bạn"
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
-#, python-format
-msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
-"your payment card for subsequent months."
-msgstr ""
-"Nếu bạn muốn hủy khoản thanh toán hàng tháng của mình hoặc xin hoàn trả, bạn có thể tự do làm điều đó bất cứ lúc nào. Vui lòng liên hệ %(support_mail)s để hủy. Nếu bạn chọn hủy, chúng tôi sẽ không "
-"tính phí thẻ thanh toán của bạn cho các tháng tiếp theo."
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
-msgid "Please read our payment terms for more information:"
-msgstr "Vui lòng đọc điều khoản thanh toán của chúng tôi để biết thêm thông tin:"
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:32
-msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, please visit our FAQ."
-msgstr "Để tìm hiểu thêm về lý do MDN huy động tiền thông qua các chương trình thanh toán một lần và hàng tháng, vui lòng truy cập các câu hỏi thường gặp của chúng tôi."
-
-#: kuma/payments/jinja2/payments/email/thank_you/subject.ltxt:1
-msgid "Thank you for supporting MDN"
-msgstr "Cảm ơn bạn đã hỗ trợ MDN"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:27
-msgid "Collapse pop over window"
-msgstr "Thu gọn cửa sổ bật lên"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:30
-msgid "Close pop over window"
-msgstr "Đóng cửa sổ bật lên"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:39
-msgid "Help grow MDN"
-msgstr "Giúp phát triển MDN"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:41
-msgid "Support MDN, and it comes back to you."
-msgstr "Hỗ trợ MDN và nó sẽ quay lại với bạn."
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:43
-msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Bạn đến MDN để biết thông tin và hỗ trợ. Hãy là một phần của việc làm cho MDN tốt hơn. Bạn sẽ nhận lại được nhiều kiến thức và công cụ hơn khi làm việc."
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:53
-msgid "Learn more about payments to MDN"
-msgstr "Tìm hiểu thêm về thanh toán cho MDN"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:56
-msgid "Provide feedback"
-msgstr "Gửi phản hồi"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:68 kuma/payments/jinja2/payments/includes/payments-banner.html:75
-msgid "One off payment"
-msgstr "Một lần thanh toán"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:70 kuma/payments/jinja2/payments/includes/payments-banner.html:78
-msgid "Monthly payment"
-msgstr "Thanh toán hàng tháng"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:94
-msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
-msgstr "Chúng tôi nhận thấy bạn không đăng nhập vào MDN. Để hoàn tất thanh toán hàng tháng của bạn, chúng tôi sẽ cần bạn đăng nhập trước."
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:22
-msgid "Open tooltip for further email field information"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:26
-msgid "Close this tooltip"
-msgstr "Đóng gợi ý này"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:27
-msgid "Why do you need my email address?"
-msgstr "Tại sao bạn cần địa chỉ email của tôi?"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:28
-msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
-msgstr "Điều này là để chúng tôi có thể gửi cho bạn một biên nhận. Điều này rất hữu ích nếu bạn muốn hoàn tiền."
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:33
-msgid "Other contribution amount"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:67
-msgid "There has been an issue, please try again later."
-msgstr "Đã có vấn đề, vui lòng thử lại sau."
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:73
-#, python-format
-msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:82
-msgid "We accept Mastercard payments"
-msgstr "Chúng tôi chấp nhận thanh toán bằng thẻ Mastercard"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:83
-msgid "We accept Visa payments"
-msgstr "Chúng tôi chấp nhận thanh toán bằng Visa"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:84
-msgid "We accept American Express payments"
-msgstr "Chúng tôi chấp nhận thanh toán bằng American Express"
+#: kuma/payments/jinja2/payments/terms.html:23
+#, fuzzy
+msgid "MDN Web Docs payment terms"
+msgstr "Điều khoản thanh toán MDN"
 
 #: kuma/search/admin.py:11
 msgid "Can't promote more than one index at once."
@@ -2384,11 +2107,11 @@ msgstr ""
 #: kuma/users/adapters.py:28
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
-"Xin lỗi, bạn phải có ít nhất một tài khoản được kết nối để bạn có thể đăng nhập. Để ngắt kết nối tài khoản này trước tiên hãy kết nối một tài khoản khác. Để xóa hồ sơ MDN của bạn, vui lòng <a "
-"href=\"%(bug_form_url)s\" rel=\"nofollow\">gửi một lỗi</a>."
+"Xin lỗi, bạn phải có ít nhất một tài khoản được kết nối để bạn có thể đăng nhập. Để ngắt kết nối tài khoản này trước tiên hãy kết nối một tài khoản khác. Để xóa hồ sơ MDN của bạn, vui lòng <a href="
+"\"%(bug_form_url)s\" rel=\"nofollow\">gửi một lỗi</a>."
 
 #: kuma/users/adapters.py:32
 msgid "An email address cannot be used as a username."
@@ -2880,8 +2603,8 @@ msgstr "Chưa được xác minh"
 #: kuma/users/jinja2/socialaccount/signup.html:161
 #, python-format
 msgid ""
-"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"What email address should we use to send you MDN-related messages and notifications? This address will <strong>not</strong> be displayed on MDN and will be used according to our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:177
@@ -3252,8 +2975,8 @@ msgid ""
 "You are receiving this e-mail because you or someone else has requested access to your user account %(username)s at %(domain)s. It can be safely ignored if you did not make this request. Click the "
 "link below to access your account:"
 msgstr ""
-"Bạn đang nhận được e-mail này vì bạn hoặc ai đó đã yêu cầu quyền truy cập vào tài khoản người dùng %(username)s của bạn tại %(domain)s. Nó có thể được bỏ qua một cách an toàn nếu bạn không thực hiện"
-" yêu cầu này. Nhấp vào liên kết bên dưới để truy cập vào tài khoản của bạn:"
+"Bạn đang nhận được e-mail này vì bạn hoặc ai đó đã yêu cầu quyền truy cập vào tài khoản người dùng %(username)s của bạn tại %(domain)s. Nó có thể được bỏ qua một cách an toàn nếu bạn không thực "
+"hiện yêu cầu này. Nhấp vào liên kết bên dưới để truy cập vào tài khoản của bạn:"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
 msgid "Thank you for using MDN!"
@@ -3263,6 +2986,11 @@ msgstr "Cảm ơn bạn đã sử dụng MDN!"
 #, python-format
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr ""
+
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
+#, python-format
+msgid "Hi %(username)s!"
+msgstr "Xin chào %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
@@ -3385,7 +3113,7 @@ msgstr "Đã báo cáo là spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Người dùng này đã không tạo ra bất kỳ sửa đổi nào trong ba ngày qua."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:754 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Chỉnh sửa"
 
@@ -3451,7 +3179,7 @@ msgstr "Biên tập - văn xuôi, ngữ pháp hoặc nội dung"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Bản địa hóa trong tiến trình - chưa được dịch hoàn toàn."
 
-#: kuma/wiki/content.py:735
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "Chỉnh sửa phần"
 
@@ -3834,8 +3562,8 @@ msgstr "Bạn đang cố gắng tạo một trang mới."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 
 #: kuma/wiki/jinja2/403-create-page.html:17
@@ -3991,15 +3719,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/document.html:166
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:175
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:186
@@ -4796,27 +4524,27 @@ msgstr "Có lỗi khi tạo nội dung."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Tài liệu đã tồn tại. Lưu ý: Bạn không thể hoàn nguyên tài liệu đã được di chuyển cho đến khi bạn xóa chuyển hướng của nó."
 
-#: kuma/wiki/views/document.py:681 kuma/wiki/views/document.py:843
+#: kuma/wiki/views/document.py:681 kuma/wiki/views/document.py:841
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Được chuyển hướng từ %(url)s"
 
-#: kuma/wiki/views/document.py:735 kuma/wiki/views/document.py:864
+#: kuma/wiki/views/document.py:735
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Tôi đã học về %(title)s trên MDN."
 
-#: kuma/wiki/views/document.py:985
+#: kuma/wiki/views/document.py:949
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Loại nội dung không được hỗ trợ: %s"
 
-#: kuma/wiki/views/document.py:992
+#: kuma/wiki/views/document.py:956
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Lỗi phân tích yêu cầu: %s"
 
-#: kuma/wiki/views/document.py:1015
+#: kuma/wiki/views/document.py:979
 msgid "ETag precondition failed"
 msgstr ""
 
@@ -4836,10 +4564,203 @@ msgstr "Tài liệu đã được chỉnh sửa; vui lòng xem lại."
 msgid "You cannot translate this document."
 msgstr "Bạn không thể dịch bài viết này."
 
-#: templates/admin/search/index/change_list.html:8
+#: templates/admin/search/index/change_list.html:10
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "Your full name"
+#~ msgstr "Tên đầy đủ của bạn"
+
+#~ msgid "Required"
+#~ msgstr "Bắt buộc"
+
+#~ msgid "Your email"
+#~ msgstr "Email của bạn"
+
+#~ msgid "Must be a valid email"
+#~ msgstr "Phải là một email hợp lệ"
+
+#~ msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
+#~ msgstr "Tại sao bạn cần địa chỉ email của tôi? Điều này là để chúng tôi có thể gửi cho bạn biên nhận đóng góp của bạn. Điều này rất hữu ích nếu bạn muốn hoàn lại tiền."
+
+#~ msgid "Contribution choices"
+#~ msgstr "Lựa chọn đóng góp"
+
+#~ msgid "Other"
+#~ msgstr "Khác"
+
+#~ msgid "Must be more than $1"
+#~ msgstr "Phải hơn $1"
+
+#~ msgid "You must agree to the terms to continue"
+#~ msgstr "Bạn phải đồng ý với các điều khoản để tiếp tục"
+
+#~ msgid "Please enter an amount or choose from the pre-selected options"
+#~ msgstr "Vui lòng nhập số tiền hoặc chọn từ các tùy chọn được định trước"
+
+#~ msgid "Was this useful?"
+#~ msgstr "Điều này có hữu ích không?"
+
+#~ msgid "Yes, this answered my question"
+#~ msgstr "Vâng, điều này đã trả lời câu hỏi của tôi"
+
+#~ msgid "No, this did not answer my question"
+#~ msgstr "Không, điều này không trả lời câu hỏi của tôi"
+
+#~ msgid "Your feedback goes here"
+#~ msgstr "Phản hồi của bạn ở đây"
+
+#~ msgid "Send"
+#~ msgstr "Gửi"
+
+#~ msgid "Thank you for submitting your feedback."
+#~ msgstr "Cảm ơn bạn đã gửi phản hồi."
+
+#~ msgid "Thank You"
+#~ msgstr "Cảm ơn bạn"
+
+#~ msgid ""
+#~ "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and "
+#~ "helps us make sure MDN can be available to everyone, everywhere."
+#~ msgstr ""
+#~ "Chúng tôi cam kết cung cấp nguồn thông tin tốt nhất về các tiêu chuẩn web. Hỗ trợ của bạn cho phép MDN di chuyển nhanh hơn nữa khi chúng tôi xây dựng nhiều nội dung và công cụ bạn sử dụng hàng "
+#~ "ngày và giúp chúng tôi đảm bảo MDN có thể có sẵn cho mọi người, ở mọi nơi."
+
+#~ msgid "Thank you again,"
+#~ msgstr "Cám ơn bạn một lần nữa,"
+
+#~ msgid "The MDN Team"
+#~ msgstr "Nhóm MDN"
+
+#~ msgid "I support MDN, and you can too: %(url)s"
+#~ msgstr "Tôi hỗ trợ MDN và bạn cũng có thể: %(url)s"
+
+#~ msgid "Share your support for MDN on Twitter"
+#~ msgstr "Chia sẻ hỗ trợ của bạn cho MDN trên Twitter"
+
+#~ msgid "Share your support for MDN on Facebook"
+#~ msgstr "Chia sẻ hỗ trợ của bạn cho MDN trên Facebook"
+
+#~ msgid "Ooops, something went wrong"
+#~ msgstr "Ooops, có gì đó không ổn"
+
+#~ msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
+#~ msgstr "Vui lòng liên hệ với <a href=\"%(mailto)s\">%(email)s</a> để biết thêm thông tin về vấn đề này."
+
+#~ msgid "Click here to go back"
+#~ msgstr "Nhấp vào đây để quay lại"
+
+#~ msgid "Useful things"
+#~ msgstr "Những điều có ích"
+
+#~ msgid "Managing your payments"
+#~ msgstr "Quản lý thanh toán của bạn"
+
+#~ msgid "Refunds and canceling your payments"
+#~ msgstr "Hoàn tiền và hủy thanh toán của bạn"
+
+#~ msgid ""
+#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to "
+#~ "cancel, you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
+#~ msgstr ""
+#~ "Nếu bạn muốn hủy khoản thanh toán hàng tháng của mình hoặc xin hoàn trả, bạn có thể tự do làm điều đó bất cứ lúc nào. Vui lòng liên hệ vào email <a href=\"%(url)s\">%(email)s</a> để được hoàn "
+#~ "tiền. Nếu bạn chọn hủy, bạn có thể làm như vậy trên trang <a href=\"%(manage_subscription_url)s\">quản lý đăng ký hàng tháng</a>. Chúng tôi sẽ không tính phí thẻ thanh toán của bạn cho các tháng "
+#~ "tiếp theo."
+
+#~ msgid "Payment terms"
+#~ msgstr "Điều khoản thanh toán"
+
+#~ msgid "FAQ"
+#~ msgstr "Câu hỏi thường gặp"
+
+#~ msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
+#~ msgstr "Để tìm hiểu thêm về lý do MDN huy động tiền thông qua các chương trình thanh toán một lần và hàng tháng, <a href=\"%(url)s\">vui lòng truy cập các câu hỏi thường gặp của chúng tôi</a>."
+
+#~ msgid "Is there anything else you’d like to know more about?"
+#~ msgstr "Có điều gì khác mà bạn muốn biết thêm không?"
+
+#~ msgid "Payment Terms"
+#~ msgstr "Điều khoản thanh toán"
+
+#~ msgid "331 E. Evelyn Avenue Mountain View CA 94041"
+#~ msgstr "331 E. Evelyn Avenue Mountain View CA 94041"
+
+#~ msgid "Legal"
+#~ msgstr "Thông tin pháp lí"
+
+#~ msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
+#~ msgstr "Cảm ơn bạn %(username)s [%(user_email)s] đã hỗ trợ MDN."
+
+#~ msgid ""
+#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign "
+#~ "up again using the new card details. If you have any questions please contact %(support_mail)s."
+#~ msgstr ""
+#~ "Nếu bạn muốn quản lý khoản thanh toán hàng tháng của mình, chẳng hạn như thay đổi chi tiết tài khoản thẻ hoặc số tiền bạn phải trả, vui lòng hủy đăng ký của bạn trên "
+#~ "%(recurring_payment_management)s và đăng ký lại bằng chi tiết thẻ mới. Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ vào email %(support_mail)s."
+
+#~ msgid "Cancelling your payments"
+#~ msgstr "Đang hủy thanh toán của bạn"
+
+#~ msgid "Please read our payment terms for more information:"
+#~ msgstr "Vui lòng đọc điều khoản thanh toán của chúng tôi để biết thêm thông tin:"
+
+#~ msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, please visit our FAQ."
+#~ msgstr "Để tìm hiểu thêm về lý do MDN huy động tiền thông qua các chương trình thanh toán một lần và hàng tháng, vui lòng truy cập các câu hỏi thường gặp của chúng tôi."
+
+#~ msgid "Thank you for supporting MDN"
+#~ msgstr "Cảm ơn bạn đã hỗ trợ MDN"
+
+#~ msgid "Collapse pop over window"
+#~ msgstr "Thu gọn cửa sổ bật lên"
+
+#~ msgid "Close pop over window"
+#~ msgstr "Đóng cửa sổ bật lên"
+
+#~ msgid "Help grow MDN"
+#~ msgstr "Giúp phát triển MDN"
+
+#~ msgid "Support MDN, and it comes back to you."
+#~ msgstr "Hỗ trợ MDN và nó sẽ quay lại với bạn."
+
+#~ msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
+#~ msgstr "Bạn đến MDN để biết thông tin và hỗ trợ. Hãy là một phần của việc làm cho MDN tốt hơn. Bạn sẽ nhận lại được nhiều kiến thức và công cụ hơn khi làm việc."
+
+#~ msgid "Learn more about payments to MDN"
+#~ msgstr "Tìm hiểu thêm về thanh toán cho MDN"
+
+#~ msgid "Provide feedback"
+#~ msgstr "Gửi phản hồi"
+
+#~ msgid "One off payment"
+#~ msgstr "Một lần thanh toán"
+
+#~ msgid "Monthly payment"
+#~ msgstr "Thanh toán hàng tháng"
+
+#~ msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
+#~ msgstr "Chúng tôi nhận thấy bạn không đăng nhập vào MDN. Để hoàn tất thanh toán hàng tháng của bạn, chúng tôi sẽ cần bạn đăng nhập trước."
+
+#~ msgid "Close this tooltip"
+#~ msgstr "Đóng gợi ý này"
+
+#~ msgid "Why do you need my email address?"
+#~ msgstr "Tại sao bạn cần địa chỉ email của tôi?"
+
+#~ msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
+#~ msgstr "Điều này là để chúng tôi có thể gửi cho bạn một biên nhận. Điều này rất hữu ích nếu bạn muốn hoàn tiền."
+
+#~ msgid "There has been an issue, please try again later."
+#~ msgstr "Đã có vấn đề, vui lòng thử lại sau."
+
+#~ msgid "We accept Mastercard payments"
+#~ msgstr "Chúng tôi chấp nhận thanh toán bằng thẻ Mastercard"
+
+#~ msgid "We accept Visa payments"
+#~ msgstr "Chúng tôi chấp nhận thanh toán bằng Visa"
+
+#~ msgid "We accept American Express payments"
+#~ msgstr "Chúng tôi chấp nhận thanh toán bằng American Express"
 
 #~ msgid "Only in Firefox"
 #~ msgstr "Chỉ trong Firefox"
@@ -4872,11 +4793,11 @@ msgstr ""
 #~ msgstr "Tại sao MDN trông rất lạ?"
 
 #~ msgid ""
-#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find the "
-#~ "web technology docs you’re looking for."
+#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find "
+#~ "the web technology docs you’re looking for."
 #~ msgstr ""
-#~ "Giao diện MDN đang thay đổi để tập trung vào việc ghi chép các công nghệ web. Tất cả những nội dung hay đều nằm ở đây; chúng tôi chỉ chỉnh sửa một số các phần tử trực quan và thanh điều hướng, để "
-#~ "giúp bạn có thể tìm thấy tài liệu về các công nghệ web cần tìm nhanh hơn."
+#~ "Giao diện MDN đang thay đổi để tập trung vào việc ghi chép các công nghệ web. Tất cả những nội dung hay đều nằm ở đây; chúng tôi chỉ chỉnh sửa một số các phần tử trực quan và thanh điều hướng, "
+#~ "để giúp bạn có thể tìm thấy tài liệu về các công nghệ web cần tìm nhanh hơn."
 
 #~ msgid "But don’t worry, MDN and Mozilla are still together! In fact, we're updating MDN’s look to reflect Mozilla's new logo and colors."
 #~ msgstr "Nhưng đừng lo, MDN và Mozilla vẫn ở cùng với nhau! Có một sự thật là, chúng tôi đang cập nhật giao diện MDN để hợp nhất với logo và màu mới của Mozilla."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-05-14 14:19-0700\n"
+"POT-Creation-Date: 2019-05-24 14:58-0700\n"
 "PO-Revision-Date: 2019-04-10 17:39+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -113,7 +113,7 @@ msgid "Internal Server Error"
 msgstr "Gabim i Brendshëm Shërbyesi"
 
 #: jinja2/base.html:11 jinja2/base.html:57 jinja2/base.html:62 jinja2/base.html:111 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:42 kuma/wiki/jinja2/wiki/react_document.html:47
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:59 kuma/wiki/jinja2/wiki/react_document.html:64
 msgid "MDN Web Docs"
 msgstr "Dokumentim Web i MDN-së"
 
@@ -125,19 +125,19 @@ msgstr "MDN-ja gjendet nën mënyrën mirëmbajtje, vetëm-lexim."
 msgid "Learn more"
 msgstr "Mësoni më tepër"
 
-#: jinja2/base.html:147 jinja2/react_base.html:134 kuma/wiki/jinja2/wiki/react_document.html:122
+#: jinja2/base.html:147 jinja2/react_base.html:134 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Terms"
 msgstr "Kushte"
 
-#: jinja2/base.html:148 jinja2/react_base.html:135 kuma/payments/jinja2/payments/email/thank_you/email.html:234 kuma/wiki/jinja2/wiki/react_document.html:123
+#: jinja2/base.html:148 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:134
 msgid "Privacy"
 msgstr "Privatësi"
 
-#: jinja2/base.html:149 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:124
+#: jinja2/base.html:149 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:153 jinja2/react_base.html:140 kuma/wiki/jinja2/wiki/react_document.html:128
+#: jinja2/base.html:153 jinja2/react_base.html:140 kuma/wiki/jinja2/wiki/react_document.html:139
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla dhe kontribues individualë.</p> <p>Lënda mund të përdoret sipas <a href=\"%(copyright_url)s\">këtyre licencave</a>.</p>"
@@ -237,7 +237,7 @@ msgstr "Programim lojërash"
 msgid "...more docs"
 msgstr "...më tepër dokumentim"
 
-#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8 kuma/payments/jinja2/payments/payments.html:243 kuma/payments/jinja2/payments/thank_you.html:139
+#: jinja2/includes/header-main-nav.html:41 jinja2/includes/footer/mdn-footer.html:8
 msgid "Feedback"
 msgstr "Përshtypje"
 
@@ -309,7 +309,7 @@ msgstr "Përpunoni profil"
 msgid "Sign out"
 msgstr "Dilni"
 
-#: jinja2/includes/login.html:23 kuma/payments/jinja2/payments/includes/payments-banner.html:96
+#: jinja2/includes/login.html:23
 msgid "Sign in"
 msgstr "Hyni"
 
@@ -333,7 +333,7 @@ msgstr "Buletini hëpërhë ofrohet vetëm në anglisht."
 msgid "E-mail"
 msgstr "Email"
 
-#: jinja2/includes/newsletter.html:18 kuma/payments/forms.py:52
+#: jinja2/includes/newsletter.html:18
 msgid "you@example.com"
 msgstr "you@example.com"
 
@@ -360,7 +360,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Fshihe Pajtimin te Buletini"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1328
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1315
 msgid "Previous"
 msgstr "E mëparshmja"
 
@@ -428,7 +428,7 @@ msgstr "Çekisht"
 msgid "Dutch"
 msgstr "Holandisht"
 
-#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1338
+#: jinja2/includes/translate_locales.html:18 kuma/wiki/tests/test_templates.py:1325
 msgid "English (US)"
 msgstr "Anglisht (US)"
 
@@ -641,7 +641,7 @@ msgstr "Twitter"
 msgid "GitHub"
 msgstr "Github"
 
-#: jinja2/includes/footer/moz-footer.html:1 kuma/payments/jinja2/payments/email/thank_you/email.html:231
+#: jinja2/includes/footer/moz-footer.html:1
 msgid "Mozilla"
 msgstr "Mozilla"
 
@@ -953,10 +953,12 @@ msgid "MDN Survey"
 msgstr "Pyetësor Zhvilluesish"
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:6
-msgid "Help us understand the top 10 needs of Web developers and designers."
+msgid ""
+"Help us understand the top 10 needs of Web developers and\n"
+"        designers."
 msgstr ""
 
-#: kuma/banners/jinja2/banners/includes/developer-needs.html:14
+#: kuma/banners/jinja2/banners/includes/developer-needs.html:16
 #, fuzzy
 msgid "Take the survey"
 msgstr "Plotësoni pyetësorin"
@@ -975,7 +977,7 @@ msgstr "Sigurohuni që kjo vlerë të ketë të paktën %(limit_value)s shenja (
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Sigurohuni që kjo vlerë të ketë të shumtën %(limit_value)s shenja (ka %(show_value)s)."
 
-#: kuma/core/utils.py:380
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "Sot më %s"
@@ -1523,46 +1525,6 @@ msgstr "Skiconi sajte pa dalë nga shfletuesi."
 msgid "Learn More"
 msgstr "Mësoni Më Tepër"
 
-#: kuma/payments/forms.py:38 kuma/payments/forms.py:42
-msgid "Your full name"
-msgstr "Emri juaj i plotë"
-
-#: kuma/payments/forms.py:43
-msgid "Required"
-msgstr "E domosdoshme"
-
-#: kuma/payments/forms.py:48
-msgid "Your email"
-msgstr "Email-i juaj"
-
-#: kuma/payments/forms.py:53
-msgid "Must be a valid email"
-msgstr "Duhet të jetë një email i vlefshëm"
-
-#: kuma/payments/forms.py:54
-msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
-msgstr "Ç’ju duhet adresa ime email? Na duhet që t’ju dërgojmë një faturë të dhurimit tuaj. Kjo është e volitshme kur doni një rimbursim."
-
-#: kuma/payments/forms.py:63
-msgid "Contribution choices"
-msgstr "Mundësi kontributi"
-
-#: kuma/payments/forms.py:84
-msgid "Other"
-msgstr "Tjetër"
-
-#: kuma/payments/forms.py:85
-msgid "Must be more than $1"
-msgstr "Duhet të jetë më shumë se $1"
-
-#: kuma/payments/forms.py:109
-msgid "You must agree to the terms to continue"
-msgstr "Duhet të pajtoheni me kushtet e shërbimit"
-
-#: kuma/payments/forms.py:123
-msgid "Please enter an amount or choose from the pre-selected options"
-msgstr "Ju lutemi, jepni një vlerë ose zgjidhni një nga të parapërzgjedhurat"
-
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
 msgstr "Administrim pajtimesh te MDN-ja"
@@ -1646,37 +1608,29 @@ msgstr "Kontribuoni"
 msgid "Contribute to MDN Web Docs"
 msgstr "Kontribuoni te Dokemente Web MDN-je"
 
-#: kuma/payments/jinja2/payments/payments.html:10 kuma/payments/jinja2/payments/includes/payments-form.html:71 kuma/payments/jinja2/payments/includes/payments-form.html:78
+#: kuma/payments/jinja2/payments/payments.html:10
 msgid "Support MDN"
 msgstr "Përkraheni MDN-në"
 
-#: kuma/payments/jinja2/payments/payments.html:29
-msgid "Was this useful?"
-msgstr "Qe e dobishme kjo?"
+#: kuma/payments/jinja2/payments/payments.html:25
+msgid "Thank you for supporting MDN."
+msgstr "Faleminderit që përkrahni MDN-në."
 
-#: kuma/payments/jinja2/payments/payments.html:32
-msgid "Yes, this answered my question"
-msgstr "Po, kjo i dha përgjigje pyetjes time"
-
-#: kuma/payments/jinja2/payments/payments.html:36
-msgid "No, this did not answer my question"
-msgstr "Jo, kjo s’i dha përgjigje pyetjes time"
-
-#: kuma/payments/jinja2/payments/payments.html:49
+#: kuma/payments/jinja2/payments/payments.html:47
 msgid "FAQs"
 msgstr "FAQ-e"
 
-#: kuma/payments/jinja2/payments/payments.html:52
+#: kuma/payments/jinja2/payments/payments.html:50
 msgid "Why is MDN asking me for money?"
 msgstr "Pse më kërkon para MDN-ja?"
 
-#: kuma/payments/jinja2/payments/payments.html:54
+#: kuma/payments/jinja2/payments/payments.html:52
 msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
 msgstr ""
 "MDN-ja po eksperimenton me kërkim mbështetjeje të drejtpërdrejtë nga përdoruesit tanë, me qëllim që të përshpejtohet shtimi dhe mirëmbajtja e lëndës dhe platformës tonë përmes asistencës prej atyre "
 "që e përdorin."
 
-#: kuma/payments/jinja2/payments/payments.html:62
+#: kuma/payments/jinja2/payments/payments.html:60
 msgid ""
 "Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
 "wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
@@ -1686,11 +1640,11 @@ msgstr ""
 "bënim. Edhe pse MDN-ja është ende e financuar tërësisht nga Mozilla, siç ka qenë që prej ngjizjes, po shohim për të krijuar një qerthull më të lidhur, më të shëndetshëm,,, mes publikut tonë (ju), "
 "lëndës tonë (shkruar për ju), dhe përkrahësve tanë (ju, gjithashtu, sërish) që na lejon t’i përshpejtojmë këto përmirësime."
 
-#: kuma/payments/jinja2/payments/payments.html:75
+#: kuma/payments/jinja2/payments/payments.html:73
 msgid "How is my payment handled? Is it secure?"
 msgstr "Si trajtohet pagesa ime? A është e sigurt?"
 
-#: kuma/payments/jinja2/payments/payments.html:77
+#: kuma/payments/jinja2/payments/payments.html:75
 #, python-format
 msgid ""
 "All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
@@ -1699,29 +1653,29 @@ msgstr ""
 "Krejt të dhënat e pagesës kalojnë përmes përpunuesit të pagesave <a href=\"%(url)s\">Stripe</a>, dhe një regjistrim i pagesës tuaj do të ruhet te Mozilla. Mozilla nuk e merr apo depoziton numrin "
 "tuaj të kartës së kreditit."
 
-#: kuma/payments/jinja2/payments/payments.html:85
+#: kuma/payments/jinja2/payments/payments.html:83
 msgid "What data is Mozilla collecting about me?"
 msgstr "Ç’të dhëna grumbullon Mozilla rreth meje?"
 
-#: kuma/payments/jinja2/payments/payments.html:87
+#: kuma/payments/jinja2/payments/payments.html:85
 msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
 msgstr ""
 "Mozilla do të grumbullojë dhe depozitojë emrin dhe email-in tuaj, që do të përdoren për të dërguar email-e lidhur me transaksione (p.sh. fatura). Mozilla s’do të mund të përdorë apo depozitojë diku "
 "numrin e kartës tuaj të kreditit."
 
-#: kuma/payments/jinja2/payments/payments.html:95
+#: kuma/payments/jinja2/payments/payments.html:93
 msgid "What does money go towards?"
 msgstr "Ku shkojnë paratë?"
 
-#: kuma/payments/jinja2/payments/payments.html:97
+#: kuma/payments/jinja2/payments/payments.html:95
 msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
 msgstr "Paraja e grumbulluar përmes MDN-së (hiq tarifa përpunimi, taksa, etj) do të ri-investohet në MDN. Te MDN Web Docs do të botojmë një raport mujor që shfaq se ç’punë është plotësuar."
 
-#: kuma/payments/jinja2/payments/payments.html:105
+#: kuma/payments/jinja2/payments/payments.html:103
 msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
 msgstr "Po nëse dhuroj thjesht për Mozilla Foundation, a i vjen kjo në ndihmë MDN-së?"
 
-#: kuma/payments/jinja2/payments/payments.html:107
+#: kuma/payments/jinja2/payments/payments.html:105
 #, python-format
 msgid ""
 "The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in the "
@@ -1732,65 +1686,65 @@ msgstr ""
 "</a> në atë shkallë sa e lejon ligji, dhe shkojnë për përkrahje të programeve publike dhe bamirëse të Mozilla-s, brenda një fondi të përgjithshëm. MDN-ja është pjesë e <a href=\"%(corporation_url)s"
 "\">Mozilla Corporation</a> dhe pagesat për MDN-në nuk përdoren në programe bamirësie të Mozilla-s, por ri-investohen në lëndë, mjete dhe platformën e MDN-s."
 
-#: kuma/payments/jinja2/payments/payments.html:124
+#: kuma/payments/jinja2/payments/payments.html:122
 msgid "Is support of MDN tax-deductible?"
 msgstr "A sjell lehtësim në taksa përkrahja financiare e MDN-së?"
 
-#: kuma/payments/jinja2/payments/payments.html:126
+#: kuma/payments/jinja2/payments/payments.html:124
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
 msgstr "Jo. Pagesat për Mozilla Corporation në përkrahje të MDN-së nuk sjellin lehtësim në taksa në Shtetet e Bashkuara apo vende të tjera."
 
-#: kuma/payments/jinja2/payments/payments.html:133
+#: kuma/payments/jinja2/payments/payments.html:131
 msgid "What will MDN user funding pay for?"
 msgstr "Çfarë do të paguhet me financime përdoruesi të MDN-së?"
 
-#: kuma/payments/jinja2/payments/payments.html:135
+#: kuma/payments/jinja2/payments/payments.html:133
 msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr ""
 "Sot për sot, Mozilla paguan për veprime sajti dhe shpenzime (përfshi artikujshkrues dhe zhvillues web). Pagesat nga përdorues të MDN-së do të financojnë përshpejtimin e projekteve të tanishme ose "
 "fillimin e të rinjve, përfshi:"
 
-#: kuma/payments/jinja2/payments/payments.html:143
+#: kuma/payments/jinja2/payments/payments.html:141
 msgid "Adding more content, and updating current content"
 msgstr "Shtim të më tepër lënde, dhe përditësim të lëndës së deritanishme"
 
-#: kuma/payments/jinja2/payments/payments.html:144
+#: kuma/payments/jinja2/payments/payments.html:142
 msgid "Improving performance of the site"
 msgstr "Përmirësim i funksionimit të sajtit"
 
-#: kuma/payments/jinja2/payments/payments.html:145
+#: kuma/payments/jinja2/payments/payments.html:143
 msgid "Modernizing the MDN platform"
 msgstr "Modernizim të platformës MDN"
 
-#: kuma/payments/jinja2/payments/payments.html:146
+#: kuma/payments/jinja2/payments/payments.html:144
 msgid "Adding offline access to MDN"
 msgstr "Shtim të aftësisë së përdorimit <em>offline</em> të MDN-së"
 
-#: kuma/payments/jinja2/payments/payments.html:147
+#: kuma/payments/jinja2/payments/payments.html:145
 msgid "Supporting integrations with popular developer tools"
 msgstr "Mbulim të integrimit me mjete popullore zhvilluesish"
 
-#: kuma/payments/jinja2/payments/payments.html:148
+#: kuma/payments/jinja2/payments/payments.html:146
 msgid "More tutorials and guides"
 msgstr "Më tepër përkujdesore dhe udhërrëfyes"
 
-#: kuma/payments/jinja2/payments/payments.html:149
+#: kuma/payments/jinja2/payments/payments.html:147
 msgid "Training and webinars"
 msgstr "Trajnim dhe seminare në internet"
 
-#: kuma/payments/jinja2/payments/payments.html:152
+#: kuma/payments/jinja2/payments/payments.html:150
 msgid "Why can’t you just open a Crowdsourcing campaign?"
 msgstr "Pse nuk hapni thjesht një fushatë në Crowdsourcing?"
 
-#: kuma/payments/jinja2/payments/payments.html:154
+#: kuma/payments/jinja2/payments/payments.html:152
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
 msgstr "Ngaqë s’po kërkojmë thjesht një dorë parash një herë dhe aq. Synimi ynë është krijojmë një bazë të gjerë përkrahjeje financiare nga personat që përfitojnë nga puna e MDN-së."
 
-#: kuma/payments/jinja2/payments/payments.html:161
+#: kuma/payments/jinja2/payments/payments.html:159
 msgid "How has MDN been funded to date?"
 msgstr "Si është financuar MDN-ja deri sot?"
 
-#: kuma/payments/jinja2/payments/payments.html:163
+#: kuma/payments/jinja2/payments/payments.html:161
 msgid ""
 "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
 "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
@@ -1798,15 +1752,15 @@ msgstr ""
 "MDN-ja është financuar nga buxheti i përgjithshëm i Mozilla Corporation-it (dhe kështu ka qenë qëkur u themelua më 2005-n). Mozilla Corporation ka ndër mend të vazhdojë të përkrahë financiarisht "
 "MDN-në në të ardhmen, edhe pse i zgjerojmë dhe bëjmë më të larmishme burimet e financimit të MDN-së. Thjesht duam të bëjmë më tepër gjëra me ju dhe për ju!"
 
-#: kuma/payments/jinja2/payments/payments.html:173
+#: kuma/payments/jinja2/payments/payments.html:171
 msgid "How does Mozilla make money?"
 msgstr "Nga i nxjerr Mozilla paratë e veta?"
 
-#: kuma/payments/jinja2/payments/payments.html:175
+#: kuma/payments/jinja2/payments/payments.html:173
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
 msgstr "Mozilla Corporation, që financon MDN-në, i nxjerr paratë pikësëpari nga tarifa për furnizues shërbimesh kërkimi në Firefox (të tillë si Google, Amazon, Duck Duck Go, etj)."
 
-#: kuma/payments/jinja2/payments/payments.html:183
+#: kuma/payments/jinja2/payments/payments.html:181
 #, python-format
 msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
@@ -1815,15 +1769,15 @@ msgstr ""
 "Veçmas prej kësaj, Mozilla Foundation është një ent jofitimprurës, që paratë e veta i nxjerr pikësëpari prej dhurimesh dhe tarifash nga Mozilla Corporation. Si ent jofitimprurës, Mozilla Foundation "
 "i bën të ditura publikisht të ardhurat e veta çdo vit, siç mund të shihet te <a href=\"%(url)s\">Raporti Vjetor i Mozilla-s për 2016-n</a>, më i freskëti prej nesh."
 
-#: kuma/payments/jinja2/payments/payments.html:197
+#: kuma/payments/jinja2/payments/payments.html:195
 msgid "Monthly payments"
 msgstr "Pagesa mujore"
 
-#: kuma/payments/jinja2/payments/payments.html:200
+#: kuma/payments/jinja2/payments/payments.html:198
 msgid "How do I manage my monthly payment?"
 msgstr "Si t’i administroj pagesat e mija mujore?"
 
-#: kuma/payments/jinja2/payments/payments.html:202 kuma/payments/jinja2/payments/thank_you.html:88 kuma/payments/jinja2/payments/email/thank_you/email.html:127
+#: kuma/payments/jinja2/payments/payments.html:200
 #, python-format
 msgid ""
 "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
@@ -1833,276 +1787,44 @@ msgstr ""
 "\"%(manage_subscription_url)s\">faqja e administrimit të pajtimeve mujore</a> dhe riregjistrohuni duke përdorur hollësitë e reja të kartës. Nëse keni ndonjë pyetje, ju lutemi, lidhuni me <a href="
 "\"%(url)s\">%(email)s.</a>"
 
-#: kuma/payments/jinja2/payments/payments.html:213
+#: kuma/payments/jinja2/payments/payments.html:211
 msgid "How do I apply for a refund or cancel my payment?"
 msgstr "Si të aplikoj për një rimbursim ose anulim të pagesës time?"
 
-#: kuma/payments/jinja2/payments/payments.html:215 kuma/payments/jinja2/payments/email/thank_you/email.html:151
-#, python-format
+#: kuma/payments/jinja2/payments/payments.html:213
+#, fuzzy, python-format
 msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> to cancel. If you choose to cancel, we "
-"will not charge your payment card for subsequent months."
+"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
+"monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
 msgstr ""
 "Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me <a href=\"%(url)s\">%(email)s</a> që ta anuloni. Nëse "
 "zgjidhni anulimin, nuk do të aplikojmë pagesë te karta për muajt pasardhës."
 
-#: kuma/payments/jinja2/payments/payments.html:224
+#: kuma/payments/jinja2/payments/payments.html:222
 msgid "What are the payment terms?"
 msgstr "Çfarë janë kushtet e pagesave?"
 
-#: kuma/payments/jinja2/payments/payments.html:226 kuma/payments/jinja2/payments/thank_you.html:115 kuma/payments/jinja2/payments/email/thank_you/email.html:171
+#: kuma/payments/jinja2/payments/payments.html:224
 #, python-format
 msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
 msgstr "Për më tepër të dhëna, ju lutemi, lexoni <a href=\"%(url)s\">kushtet tona për pagesat</a>."
 
-#: kuma/payments/jinja2/payments/payments.html:231
+#: kuma/payments/jinja2/payments/payments.html:229
 msgid "Does deleting my MDN account cancel my subscription?"
 msgstr "A e anulon pajtimin tim fshirja e llogarisë time MDN?"
 
-#: kuma/payments/jinja2/payments/payments.html:233
+#: kuma/payments/jinja2/payments/payments.html:231
 msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
 msgstr "Kur kërkoni fshirjen e llogarisë tuaj, do të anulojmë edhe pajtimin tuaj dhe nuk do t’ju faturojmë pagesë për muajt pasues."
-
-#: kuma/payments/jinja2/payments/payments.html:247 kuma/payments/jinja2/payments/thank_you.html:144
-msgid "Your feedback goes here"
-msgstr "Këtu jepni përshtypjet tuaja"
-
-#: kuma/payments/jinja2/payments/payments.html:248 kuma/payments/jinja2/payments/thank_you.html:145
-msgid "Send"
-msgstr "Dërgoje"
-
-#: kuma/payments/jinja2/payments/payments.html:249 kuma/payments/jinja2/payments/thank_you.html:146
-msgid "Thank you for submitting your feedback."
-msgstr "Faleminderit që parashtruat përshtypjet tuaja."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "MDN payment terms"
 msgstr "Kushte pagesash për MDN-në"
 
-#: kuma/payments/jinja2/payments/thank_you.html:5
-msgid "Thank You"
-msgstr "Faleminderit"
-
-#: kuma/payments/jinja2/payments/thank_you.html:22 kuma/payments/jinja2/payments/email/thank_you/email.html:5 kuma/payments/jinja2/payments/email/thank_you/email.html:57
-msgid "Thank you for supporting MDN."
-msgstr "Faleminderit që përkrahni MDN-në."
-
-#: kuma/payments/jinja2/payments/thank_you.html:25 kuma/payments/jinja2/payments/email/thank_you/email.html:83 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:6
-msgid ""
-"We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
-"us make sure MDN can be available to everyone, everywhere."
-msgstr ""
-"I jemi përkushtuar dhënies së burimit më të mirë të informacionit rreth standardeve web. Përkrahja juaj e bën MDN-në të zonjën të ecë edhe më shpejt, teksa krijojmë lëndë dhe mjete që i përdorni "
-"përditë, dhe na ndihmon të garantojmë që MDN-ja do të jetë për këdo, kudo."
-
-#: kuma/payments/jinja2/payments/thank_you.html:33 kuma/payments/jinja2/payments/email/thank_you/email.html:98 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:10
-msgid "Thank you again,"
-msgstr "Faleminderit sërish,"
-
-#: kuma/payments/jinja2/payments/thank_you.html:34 kuma/payments/jinja2/payments/email/thank_you/email.html:111 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:11
-msgid "The MDN Team"
-msgstr "Ekipi i MDN-së"
-
-#: kuma/payments/jinja2/payments/thank_you.html:37
-#, python-format
-msgid "I support MDN, and you can too: %(url)s"
-msgstr "Përkrah MDN-në, mund ta bëni dhe ju: %(url)s"
-
-#: kuma/payments/jinja2/payments/thank_you.html:39
-msgid "Share your support for MDN on Twitter"
-msgstr "Ndajeni me të tjerët në Twitter përkrahjen për MDN-në"
-
-#: kuma/payments/jinja2/payments/thank_you.html:40
-msgid "Share your support for MDN on Facebook"
-msgstr "Ndajeni me të tjerët në Facebook përkrahjen për MDN-në"
-
-#: kuma/payments/jinja2/payments/thank_you.html:57
-msgid "Ooops, something went wrong"
-msgstr "Oh, diç shkoi ters"
-
-#: kuma/payments/jinja2/payments/thank_you.html:60
-#, python-format
-msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
-msgstr "Për më tepër të dhëna rreth këtij problemi, ju lutemi, lidhuni me <a href=\"%(mailto)s\">%(email)s</a>."
-
-#: kuma/payments/jinja2/payments/thank_you.html:67
-msgid "Click here to go back"
-msgstr "Klikoni këtu për t’u kthyer mbrapsht"
-
-#: kuma/payments/jinja2/payments/thank_you.html:81
-msgid "Useful things"
-msgstr "Gjëra të dobishme"
-
-#: kuma/payments/jinja2/payments/thank_you.html:86 kuma/payments/jinja2/payments/email/thank_you/email.html:125 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:15
-msgid "Managing your payments"
-msgstr "Administrim i pagesave tuaja"
-
-#: kuma/payments/jinja2/payments/thank_you.html:100 kuma/payments/jinja2/payments/email/thank_you/email.html:149
-msgid "Refunds and canceling your payments"
-msgstr "Rimbursim dhe anulim i pagesave tuaja"
-
-#: kuma/payments/jinja2/payments/thank_you.html:102
-#, python-format
-msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to cancel, "
-"you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
-msgstr ""
-"Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, për rimbursim lidhuni me <a href=\"%(url)s\">%(email)s</a>. Nëse "
-"zgjidhni anulimin, mund ta bëni që nga faqja e <a href=\"%(manage_subscription_url)s\">administrimit të pajtimeve mujore</a>. Nuk do të aplikojmë pagesë te karta për muajt pasardhës."
-
-#: kuma/payments/jinja2/payments/thank_you.html:113
-msgid "Payment terms"
-msgstr "Kushte pagesash"
-
-#: kuma/payments/jinja2/payments/thank_you.html:123 kuma/payments/jinja2/payments/email/thank_you/email.html:189 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:31
-msgid "FAQ"
-msgstr "FAQ-e"
-
-#: kuma/payments/jinja2/payments/thank_you.html:125 kuma/payments/jinja2/payments/email/thank_you/email.html:191
-#, python-format
-msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
-msgstr "Për të mësuar më tepër se pse MDN-ja po grumbullon fonde përmes programesh pagese njëherësh dhe pagesash mujore, <a href=\"%(url)s\">ju lutemi, shihni te FAQ</a>."
-
-#: kuma/payments/jinja2/payments/thank_you.html:143
-msgid "Is there anything else you’d like to know more about?"
-msgstr "Ka ndonjë gjë tjetër për të cilën do të donit të dinit më shumë?"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:70 kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
-msgstr "Njatjeta %(username)s!"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:169 kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:25
-msgid "Payment Terms"
-msgstr "Kushte Pagesash"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:232
-msgid "331 E. Evelyn Avenue Mountain View CA 94041"
-msgstr "331 E. Evelyn Avenue Mountain View CA 94041"
-
-#: kuma/payments/jinja2/payments/email/thank_you/email.html:234
-msgid "Legal"
-msgstr "Ligjore"
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:2
-#, python-format
-msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
-msgstr "Faleminderit %(username)s [%(user_email)s] për përkrahjen e MDN-së."
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:16
-#, python-format
-msgid ""
-"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign up "
-"again using the new card details. If you have any questions please contact %(support_mail)s."
-msgstr ""
-"Nëse do të donit të administronit pagesën tuaj mujore, fjala vjen, të ndryshoni hollësi llogarie për kartën tuaj të kreditit apo sasinë që paguani, ju lutemi, anuloni pajtimin tuaj te "
-"%(recurring_payment_management)s dhe riregjistrohuni duke përdorur hollësitë e reja të kartës. Nëse keni ndonjë pyetje, ju lutemi, lidhuni me %(support_mail)s."
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:20
-msgid "Cancelling your payments"
-msgstr "Anulim i pagesave tuaja"
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:21
-#, python-format
-msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
-"your payment card for subsequent months."
-msgstr ""
-"Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me %(support_mail)s që ta anuloni. Nëse zgjidhni anulimin, "
-"s’do të aplikojmë në kartën tuaj pagesë për muajt pasardhës."
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:26
-msgid "Please read our payment terms for more information:"
-msgstr "Ju lutemi, për më tepër të dhëna, lexoni kushtet tona të pagesave:"
-
-#: kuma/payments/jinja2/payments/email/thank_you/plain.ltxt:32
-msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, please visit our FAQ."
-msgstr "Për të mësuar më tepër se pse MDN-ja po grumbullon fonde përmes programesh pagese njëherësh dhe pagesash mujore, ju lutemi, vizitoni ndarjen tonë FAQ."
-
-#: kuma/payments/jinja2/payments/email/thank_you/subject.ltxt:1
-msgid "Thank you for supporting MDN"
-msgstr "Faleminderit që përkrahni MDN-në"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:27
-msgid "Collapse pop over window"
-msgstr "Tkurre dritaren hapmbyll"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:30
-msgid "Close pop over window"
-msgstr "Mbylle dritaren hapmbyll"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:39
-msgid "Help grow MDN"
-msgstr "Ndihmoni të fuqizohet MDN-ja"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:41
-msgid "Support MDN, and it comes back to you."
-msgstr "Përkraheni MDN-në, dhe e mira ju rikthehet."
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:43
-msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Te MDN-ja vini për informacione dhe asistencë. Bëhuni pjesë e përmirësimit të MDN-së. Si shpërblim do të keni më tepër dije dhe mjete mbi të cilat bazoheni kur puna juaj duhet të funksionojë."
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:53
-msgid "Learn more about payments to MDN"
-msgstr "Mësoni më tepër rreth pagesash për MDN-në"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:56
-msgid "Provide feedback"
-msgstr "Jepni përshtypjet"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:68 kuma/payments/jinja2/payments/includes/payments-banner.html:75
-msgid "One off payment"
-msgstr "Pagesë njëherëshe"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:70 kuma/payments/jinja2/payments/includes/payments-banner.html:78
-msgid "Monthly payment"
-msgstr "Pagesë mujore"
-
-#: kuma/payments/jinja2/payments/includes/payments-banner.html:94
-msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
-msgstr "Kemi vënë re se s’jeni i futur në MDN. Që të plotësohet pagesa juaj mujore, na duhet që të bëni hyrjen së pari."
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:22
-msgid "Open tooltip for further email field information"
-msgstr "Për më tepër të dhëna rreth fushës së email-it, hapni ndihmëzën"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:26
-msgid "Close this tooltip"
-msgstr "Mbylle këtë ndihmëz"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:27
-msgid "Why do you need my email address?"
-msgstr "Ç’ju duhet adresa ime email?"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:28
-msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
-msgstr "Kjo bëhet me qëllim që të mund t’ju dërgojmë një faturë. Çka është e dobishme nëse do të donit një rimbursim."
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:33
-msgid "Other contribution amount"
-msgstr "Vlerë tjetër kontributi"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:67
-msgid "There has been an issue, please try again later."
-msgstr "Pati një problem, ju lutemi, riprovoni."
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:73
-#, python-format
-msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
-msgstr "Paguani <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:82
-msgid "We accept Mastercard payments"
-msgstr "Pranojmë pagesa me Mastercard"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:83
-msgid "We accept Visa payments"
-msgstr "Pranojmë pagesa me Visa"
-
-#: kuma/payments/jinja2/payments/includes/payments-form.html:84
-msgid "We accept American Express payments"
-msgstr "Pranojmë pagesa me American Express"
+#: kuma/payments/jinja2/payments/terms.html:23
+#, fuzzy
+msgid "MDN Web Docs payment terms"
+msgstr "Kushte pagesash për MDN-në"
 
 #: kuma/search/admin.py:11
 msgid "Can't promote more than one index at once."
@@ -3300,6 +3022,11 @@ msgstr "Faleminderit që përdorni MDN-në!"
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr "Rimarrje Profili për %(username)s te %(domain)s"
 
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
+#, python-format
+msgid "Hi %(username)s!"
+msgstr "Njatjeta %(username)s!"
+
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
 #, python-format
 msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
@@ -3425,7 +3152,7 @@ msgstr "I raportuar tashmë si i padëshiruar."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Ky përdorues s’ka krijuar ndonjë rishikim në tre ditët e fundit."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:754 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Përpunoni"
 
@@ -3491,7 +3218,7 @@ msgstr "Redaktoriale - prozë, gramatikë, ose lëndë"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Përkthimi është në rrugë e sipër - ende i papërkthyer plotësisht."
 
-#: kuma/wiki/content.py:735
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "Përpunoni ndarjen"
 
@@ -4869,27 +4596,27 @@ msgstr "Pati një gabim gjatë prodhimit të lëndës."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Dokumenti ekziston tashmë. Shënim: s’mund të ktheni një dokument që është lëvizur, pa fshirë ridrejtimin për të."
 
-#: kuma/wiki/views/document.py:681 kuma/wiki/views/document.py:843
+#: kuma/wiki/views/document.py:681 kuma/wiki/views/document.py:841
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Ridrejtuar prej %(url)s"
 
-#: kuma/wiki/views/document.py:735 kuma/wiki/views/document.py:864
+#: kuma/wiki/views/document.py:735
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Mësova rreth %(title)s te MDN-ja."
 
-#: kuma/wiki/views/document.py:985
+#: kuma/wiki/views/document.py:949
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Lloj lënde i pambuluar: %s"
 
-#: kuma/wiki/views/document.py:992
+#: kuma/wiki/views/document.py:956
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Gabim në përtypje kërkese: %s"
 
-#: kuma/wiki/views/document.py:1015
+#: kuma/wiki/views/document.py:979
 msgid "ETag precondition failed"
 msgstr "S’u plotësua parakushti ETag"
 
@@ -4909,10 +4636,219 @@ msgstr "Dokumenti është përpunuar; ju lutemi, rishqyrtojeni."
 msgid "You cannot translate this document."
 msgstr "S’ mund ta përktheni këtë dokument."
 
-#: templates/admin/search/index/change_list.html:8
+#: templates/admin/search/index/change_list.html:10
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Shërbyes Elasticsearch: %(backend)s"
+
+#~ msgid "Your full name"
+#~ msgstr "Emri juaj i plotë"
+
+#~ msgid "Required"
+#~ msgstr "E domosdoshme"
+
+#~ msgid "Your email"
+#~ msgstr "Email-i juaj"
+
+#~ msgid "Must be a valid email"
+#~ msgstr "Duhet të jetë një email i vlefshëm"
+
+#~ msgid "Why do you need my email address? This is so we can send you a receipt of your contribution. This is handy if you would like a refund."
+#~ msgstr "Ç’ju duhet adresa ime email? Na duhet që t’ju dërgojmë një faturë të dhurimit tuaj. Kjo është e volitshme kur doni një rimbursim."
+
+#~ msgid "Contribution choices"
+#~ msgstr "Mundësi kontributi"
+
+#~ msgid "Other"
+#~ msgstr "Tjetër"
+
+#~ msgid "Must be more than $1"
+#~ msgstr "Duhet të jetë më shumë se $1"
+
+#~ msgid "You must agree to the terms to continue"
+#~ msgstr "Duhet të pajtoheni me kushtet e shërbimit"
+
+#~ msgid "Please enter an amount or choose from the pre-selected options"
+#~ msgstr "Ju lutemi, jepni një vlerë ose zgjidhni një nga të parapërzgjedhurat"
+
+#~ msgid "Was this useful?"
+#~ msgstr "Qe e dobishme kjo?"
+
+#~ msgid "Yes, this answered my question"
+#~ msgstr "Po, kjo i dha përgjigje pyetjes time"
+
+#~ msgid "No, this did not answer my question"
+#~ msgstr "Jo, kjo s’i dha përgjigje pyetjes time"
+
+#~ msgid "Your feedback goes here"
+#~ msgstr "Këtu jepni përshtypjet tuaja"
+
+#~ msgid "Send"
+#~ msgstr "Dërgoje"
+
+#~ msgid "Thank you for submitting your feedback."
+#~ msgstr "Faleminderit që parashtruat përshtypjet tuaja."
+
+#~ msgid "Thank You"
+#~ msgstr "Faleminderit"
+
+#~ msgid ""
+#~ "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and "
+#~ "helps us make sure MDN can be available to everyone, everywhere."
+#~ msgstr ""
+#~ "I jemi përkushtuar dhënies së burimit më të mirë të informacionit rreth standardeve web. Përkrahja juaj e bën MDN-në të zonjën të ecë edhe më shpejt, teksa krijojmë lëndë dhe mjete që i përdorni "
+#~ "përditë, dhe na ndihmon të garantojmë që MDN-ja do të jetë për këdo, kudo."
+
+#~ msgid "Thank you again,"
+#~ msgstr "Faleminderit sërish,"
+
+#~ msgid "The MDN Team"
+#~ msgstr "Ekipi i MDN-së"
+
+#~ msgid "I support MDN, and you can too: %(url)s"
+#~ msgstr "Përkrah MDN-në, mund ta bëni dhe ju: %(url)s"
+
+#~ msgid "Share your support for MDN on Twitter"
+#~ msgstr "Ndajeni me të tjerët në Twitter përkrahjen për MDN-në"
+
+#~ msgid "Share your support for MDN on Facebook"
+#~ msgstr "Ndajeni me të tjerët në Facebook përkrahjen për MDN-në"
+
+#~ msgid "Ooops, something went wrong"
+#~ msgstr "Oh, diç shkoi ters"
+
+#~ msgid "Please contact <a href=\"%(mailto)s\">%(email)s</a> for more information on this problem."
+#~ msgstr "Për më tepër të dhëna rreth këtij problemi, ju lutemi, lidhuni me <a href=\"%(mailto)s\">%(email)s</a>."
+
+#~ msgid "Click here to go back"
+#~ msgstr "Klikoni këtu për t’u kthyer mbrapsht"
+
+#~ msgid "Useful things"
+#~ msgstr "Gjëra të dobishme"
+
+#~ msgid "Managing your payments"
+#~ msgstr "Administrim i pagesave tuaja"
+
+#~ msgid "Refunds and canceling your payments"
+#~ msgstr "Rimbursim dhe anulim i pagesave tuaja"
+
+#~ msgid ""
+#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to "
+#~ "cancel, you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
+#~ msgstr ""
+#~ "Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, për rimbursim lidhuni me <a href=\"%(url)s\">%(email)s</a>. Nëse "
+#~ "zgjidhni anulimin, mund ta bëni që nga faqja e <a href=\"%(manage_subscription_url)s\">administrimit të pajtimeve mujore</a>. Nuk do të aplikojmë pagesë te karta për muajt pasardhës."
+
+#~ msgid "Payment terms"
+#~ msgstr "Kushte pagesash"
+
+#~ msgid "FAQ"
+#~ msgstr "FAQ-e"
+
+#~ msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, <a href=\"%(url)s\">please visit our FAQ</a>."
+#~ msgstr "Për të mësuar më tepër se pse MDN-ja po grumbullon fonde përmes programesh pagese njëherësh dhe pagesash mujore, <a href=\"%(url)s\">ju lutemi, shihni te FAQ</a>."
+
+#~ msgid "Is there anything else you’d like to know more about?"
+#~ msgstr "Ka ndonjë gjë tjetër për të cilën do të donit të dinit më shumë?"
+
+#~ msgid "Payment Terms"
+#~ msgstr "Kushte Pagesash"
+
+#~ msgid "331 E. Evelyn Avenue Mountain View CA 94041"
+#~ msgstr "331 E. Evelyn Avenue Mountain View CA 94041"
+
+#~ msgid "Legal"
+#~ msgstr "Ligjore"
+
+#~ msgid "Thank you %(username)s [%(user_email)s] for supporting MDN."
+#~ msgstr "Faleminderit %(username)s [%(user_email)s] për përkrahjen e MDN-së."
+
+#~ msgid ""
+#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign "
+#~ "up again using the new card details. If you have any questions please contact %(support_mail)s."
+#~ msgstr ""
+#~ "Nëse do të donit të administronit pagesën tuaj mujore, fjala vjen, të ndryshoni hollësi llogarie për kartën tuaj të kreditit apo sasinë që paguani, ju lutemi, anuloni pajtimin tuaj te "
+#~ "%(recurring_payment_management)s dhe riregjistrohuni duke përdorur hollësitë e reja të kartës. Nëse keni ndonjë pyetje, ju lutemi, lidhuni me %(support_mail)s."
+
+#~ msgid "Cancelling your payments"
+#~ msgstr "Anulim i pagesave tuaja"
+
+#~ msgid ""
+#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact %(support_mail)s to cancel. If you choose to cancel, we will not charge "
+#~ "your payment card for subsequent months."
+#~ msgstr ""
+#~ "Nëse do të donit të anuloni pagesën tuaj mujore ose të kërkoni një rimbursim, jeni të lirë ta bëni në çfarëdo kohe. Ju lutemi, lidhuni me %(support_mail)s që ta anuloni. Nëse zgjidhni anulimin, "
+#~ "s’do të aplikojmë në kartën tuaj pagesë për muajt pasardhës."
+
+#~ msgid "Please read our payment terms for more information:"
+#~ msgstr "Ju lutemi, për më tepër të dhëna, lexoni kushtet tona të pagesave:"
+
+#~ msgid "To find out more about why MDN is raising money through the one time and monthly payment programs, please visit our FAQ."
+#~ msgstr "Për të mësuar më tepër se pse MDN-ja po grumbullon fonde përmes programesh pagese njëherësh dhe pagesash mujore, ju lutemi, vizitoni ndarjen tonë FAQ."
+
+#~ msgid "Thank you for supporting MDN"
+#~ msgstr "Faleminderit që përkrahni MDN-në"
+
+#~ msgid "Collapse pop over window"
+#~ msgstr "Tkurre dritaren hapmbyll"
+
+#~ msgid "Close pop over window"
+#~ msgstr "Mbylle dritaren hapmbyll"
+
+#~ msgid "Help grow MDN"
+#~ msgstr "Ndihmoni të fuqizohet MDN-ja"
+
+#~ msgid "Support MDN, and it comes back to you."
+#~ msgstr "Përkraheni MDN-në, dhe e mira ju rikthehet."
+
+#~ msgid "You come to MDN for information and assistance. Be a part of making MDN even better. You’ll get back more of the knowledge and tools you rely on for when your work has to work."
+#~ msgstr ""
+#~ "Te MDN-ja vini për informacione dhe asistencë. Bëhuni pjesë e përmirësimit të MDN-së. Si shpërblim do të keni më tepër dije dhe mjete mbi të cilat bazoheni kur puna juaj duhet të funksionojë."
+
+#~ msgid "Learn more about payments to MDN"
+#~ msgstr "Mësoni më tepër rreth pagesash për MDN-në"
+
+#~ msgid "Provide feedback"
+#~ msgstr "Jepni përshtypjet"
+
+#~ msgid "One off payment"
+#~ msgstr "Pagesë njëherëshe"
+
+#~ msgid "Monthly payment"
+#~ msgstr "Pagesë mujore"
+
+#~ msgid "We’ve noticed you’re not logged in to MDN. To complete your monthly payment, we’ll need you to log in first."
+#~ msgstr "Kemi vënë re se s’jeni i futur në MDN. Që të plotësohet pagesa juaj mujore, na duhet që të bëni hyrjen së pari."
+
+#~ msgid "Open tooltip for further email field information"
+#~ msgstr "Për më tepër të dhëna rreth fushës së email-it, hapni ndihmëzën"
+
+#~ msgid "Close this tooltip"
+#~ msgstr "Mbylle këtë ndihmëz"
+
+#~ msgid "Why do you need my email address?"
+#~ msgstr "Ç’ju duhet adresa ime email?"
+
+#~ msgid "This is so we can send you a receipt. This is handy if you’d like a refund."
+#~ msgstr "Kjo bëhet me qëllim që të mund t’ju dërgojmë një faturë. Çka është e dobishme nëse do të donit një rimbursim."
+
+#~ msgid "Other contribution amount"
+#~ msgstr "Vlerë tjetër kontributi"
+
+#~ msgid "There has been an issue, please try again later."
+#~ msgstr "Pati një problem, ju lutemi, riprovoni."
+
+#~ msgid "Pay <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
+#~ msgstr "Paguani <span data-dynamic-amount>%(amount)s</span>%(recurring)s"
+
+#~ msgid "We accept Mastercard payments"
+#~ msgstr "Pranojmë pagesa me Mastercard"
+
+#~ msgid "We accept Visa payments"
+#~ msgstr "Pranojmë pagesa me Visa"
+
+#~ msgid "We accept American Express payments"
+#~ msgstr "Pranojmë pagesa me American Express"
 
 #~ msgid "We want to learn more about the needs of developers"
 #~ msgstr "Duam të mësojmë më tepër mbi nevojat e zhvilluesve"
