@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-05-24 14:58-0700\n"
-"PO-Revision-Date: 2019-05-25 17:33+0000\n"
+"PO-Revision-Date: 2019-05-25 17:43+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish https://pontoon.mozilla.org/pl/\n"
 "Language: pl\n"
@@ -1548,7 +1548,7 @@ msgstr "Subskrypcje"
 #: kuma/payments/jinja2/payments/management.html:44
 #, python-format
 msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr "Lista aktywnych subskrypcji dokumentacji MDN. Jeśli chcesz zmienić informacje poniżej, skontaktuj się z adresem <a href=\"%(url)s\">%(email)s</a>."
+msgstr "Lista aktywnych subskrypcji dokumentacji MDN. Jeśli chcesz zmienić informacje poniżej, skontaktuj się z <a href=\"%(url)s\">%(email)s</a>."
 
 #: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
 msgid "Monthly Subscription"
@@ -1594,7 +1594,7 @@ msgstr "Pomyślnie anulowano miesięczną subskrypcję"
 #: kuma/payments/jinja2/payments/management.html:111
 #, python-format
 msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr "Wystąpił problem podczas anulowania subskrypcji. Prosimy skontaktować się z adresem <a href=\"%(url)s\">%(email)s</a> i podać swój numer klienta: %(reference_number)s."
+msgstr "Wystąpił problem podczas anulowania subskrypcji. Prosimy skontaktować się z <a href=\"%(url)s\">%(email)s</a> i podać swój numer klienta: %(reference_number)s."
 
 #: kuma/payments/jinja2/payments/payments.html:5
 msgid "Contribute"
@@ -1755,7 +1755,7 @@ msgstr "Jak Mozilla zarabia pieniądze?"
 
 #: kuma/payments/jinja2/payments/payments.html:173
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
-msgstr ""
+msgstr "Mozilla Corporation, która finansuje MDN, zarabia przede wszystkim na tantiemach od dostawców wyszukiwarek w Firefoksie (takich jak Google, Amazon, Duck Duck Go i inne)."
 
 #: kuma/payments/jinja2/payments/payments.html:181
 #, python-format
@@ -1763,6 +1763,8 @@ msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
 "revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
 msgstr ""
+"Oprócz tego, Fundacja Mozilli jest organizacją non-profit, zarabiającą głównie na datkach i tantiemach od Mozilla Corporation. Jako organizacja non-profit Fundacja Mozilli publicznie informuje o "
+"tych przychodach z każdego poprzedniego roku, tak jak w najnowszym <a href=\"%(url)s\">Raporcie rocznym Mozilli 2016</a>."
 
 #: kuma/payments/jinja2/payments/payments.html:195
 msgid "Monthly payments"
@@ -1770,7 +1772,7 @@ msgstr "Miesięczne płatności"
 
 #: kuma/payments/jinja2/payments/payments.html:198
 msgid "How do I manage my monthly payment?"
-msgstr ""
+msgstr "Jak zarządzać moją miesięczną płatnością?"
 
 #: kuma/payments/jinja2/payments/payments.html:200
 #, python-format
@@ -1778,10 +1780,12 @@ msgid ""
 "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a "
 "href=\"%(manage_subscription_url)s\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
 msgstr ""
+"Jeśli chcesz zarządzać swoją miesięczną płatnością, na przykład zmienić dane karty lub kwotę, którą płacisz, anuluj subskrypcję na <a href=\"%(manage_subscription_url)s\">stronie zarządzania "
+"miesięcznymi subskrypcjami</a> i zarejestruj się ponownie, używając danych nowej karty. Jeśli masz jakieś pytania, skontaktuj się z <a href=\"%(url)s\">%(email)s</a>."
 
 #: kuma/payments/jinja2/payments/payments.html:211
 msgid "How do I apply for a refund or cancel my payment?"
-msgstr ""
+msgstr "Jak złożyć wniosek o zwrot pieniędzy lub anulować płatność?"
 
 #: kuma/payments/jinja2/payments/payments.html:213
 #, python-format
@@ -1789,6 +1793,8 @@ msgid ""
 "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
 "monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
 msgstr ""
+"W każdej chwili możesz anulować miesięczną płatność lub złożyć wniosek o zwrot pieniędzy na <a href=\"%(manage_subscription_url)s\">stronie zarządzania miesięcznymi subskrypcjami</a>. Po anulowaniu "
+"nie pobierzemy opłat z karty za kolejne miesiące."
 
 #: kuma/payments/jinja2/payments/payments.html:222
 msgid "What are the payment terms?"
