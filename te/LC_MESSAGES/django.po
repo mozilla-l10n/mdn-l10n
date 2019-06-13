@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:53-0700\n"
+"POT-Creation-Date: 2019-06-13 15:15-0700\n"
 "PO-Revision-Date: 2019-05-24 16:44+0000\n"
 "Last-Translator: వీవెన్ <veeven@gmail.com>\n"
 "Language-Team: Telugu https://pontoon.mozilla.org/te/\n"
@@ -124,19 +124,19 @@ msgstr "MDN ప్రస్తుతానికి చదవడానికి 
 msgid "Learn more"
 msgstr "ఇంకా తెలుసుకోండి"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Terms"
 msgstr "షరతులు"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Privacy"
 msgstr "గోప్యత"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
 msgid "Cookies"
 msgstr "కుకీలు"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:141
+#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla, స్వతంత్ర తోడ్పాటుదారులు.</p><p>విషయం <a href=\"%(copyright_url)s\">ఈ లైసెన్సుల</a> కింద అందుబాటులో ఉంది.</p>"
@@ -162,8 +162,8 @@ msgid "Search Firefox Help"
 msgstr "ఫైర్ఫాక్స్ సహాయం కోసం వెతుకు"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/landing/jinja2/landing/react_homepage.html:43 kuma/landing/jinja2/landing/react_homepage.html:48
-#: kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
 #: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "వెతుకు"
@@ -208,7 +208,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "మూలాలు & సహాయకాలు"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:63
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
 msgid "Learn web development"
 msgstr "జాల అభివృద్ధి నేర్చుకోండి"
 
@@ -617,11 +617,11 @@ msgstr "జులు"
 msgid "Unsubscribe from these emails:"
 msgstr "ఈమెయిల్స్ నుండి చందా రద్దుచేయండి:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:58
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
 msgid "Web Technologies"
 msgstr "జాల సాంకేతికతలు"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:95
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
 msgid "Learn Web Development"
 msgstr "జాల అభివృద్ధి ని నేర్చుకో"
 
@@ -1259,63 +1259,63 @@ msgstr ""
 "MDN జాల పత్రాల సైటు HTML, CSS, వెబ్ సైట్లకీ ప్రోగ్గెసివ్ జాల అనువర్తనాలకీ పనికివచ్చే APIల వంటి స్వేచ్ఛాయుత జాల సాంకేతికతల గురించి సమాచారాన్ని అందిస్తుంది. దీనిలో Firefox Developer Tools వంటి మొజిల్లా ఉత్పత్తుల గురించి డెవలపర్లకు ఉద్దేశించిన కొంత పత్రావళిని కూడా "
 "ఉంది."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:39
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
 msgid "Resources for developers, by developers."
 msgstr "డెవలపర్స్ చేత, డెవలపర్లు కొరకు వనరులు."
 
-#: kuma/landing/jinja2/landing/homepage.html:45 kuma/landing/jinja2/landing/react_homepage.html:47 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:45 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "పత్రాలను వెతుకు"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:68
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
 msgid "Developer Tools"
 msgstr "డెవలపర్ పనిముట్లు"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:82
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
 msgid "Featured"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:98
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
 msgid "Get The Browser For Developers Like You"
 msgstr "మీ లాంటి అభివృద్ధికారుల కోసం తయారు చేయబడ్డ విహారిణిని పొందు"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
 msgid "read more at hacks.mozilla.org"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:121
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Help improve MDN"
 msgstr "MDNను మెరుగుపరచడంలో తోడ్పడండి"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:122
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "MDN యొక్క అన్ని భాగాలూ (పత్రాలు మరియు జాలగూటితో సహా) ఒక స్వేచ్ఛా జాల అభివృద్ధికారుల సంఘం చేత సృష్టింపబడ్డాయి. దయచేసి మీరూ మాతో చేరండి! సహాయం చేయటానికి కింది వాటిలో ఏదో ఒక మార్గాన్ని ఎన్నుకోండి:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:124
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Getting started"
 msgstr "మొదలుపెట్టడం"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:125
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Editorial review"
 msgstr "సంపాదక సమీక్ష"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:126
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Technical review"
 msgstr "సాంకేతిక సమీక్ష"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:127
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
 msgid "Translating"
 msgstr "అనువదించడం"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:128
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
 msgid "Promoting MDN"
 msgstr "MDN ను వృద్ధిపరచటం"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:129
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
 msgid "Contributing to the MDN codebase"
 msgstr "MDN కోడ్ బేస్ కి తోడ్పడటం"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:130
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
 msgid "Updating browser compatibility data"
 msgstr ""
 
@@ -1959,7 +1959,7 @@ msgstr "శోధన అందుబాటులో లేదు"
 msgid "Search MDN Web Docs"
 msgstr "MDN వెబ్ డాక్స్‌లో వెతకండి"
 
-#: kuma/search/jinja2/search/results.html:14
+#: kuma/search/jinja2/search/react.html:6 kuma/search/jinja2/search/results.html:14
 #, python-format
 msgid "Search Results for \"%(query)s\""
 msgstr "\"%(query)s\" కి శోధన ఫలితాలు"
@@ -3090,7 +3090,7 @@ msgstr "ఇప్పటికే స్పామ్గా నివేదిం�
 msgid "This user has not created any revisions in the past three days."
 msgstr "ఈ వాడుకరి గత మూడు రోజులలో ఎటువంటి పునర్విమర్శలను సృష్టించలేదు."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:749 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "సరిచేయు"
 
@@ -3156,7 +3156,7 @@ msgstr "ఎడిటోరియల్ - గద్య, వ్యాకరణం 
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
-#: kuma/wiki/content.py:730
+#: kuma/wiki/content.py:732
 msgid "Edit section"
 msgstr "విభాగం మార్చు"
 

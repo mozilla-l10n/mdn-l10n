@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:52-0700\n"
+"POT-Creation-Date: 2019-06-13 15:14-0700\n"
 "PO-Revision-Date: 2019-05-29 16:14+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
@@ -23,8 +23,7 @@ msgstr "დანართის არჩევა"
 msgid "No attachments available"
 msgstr "დანართები არაა ხელმისაწვდომი"
 
-#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23
-#: assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
+#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23 assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
 msgid "Attachments"
 msgstr "მიმაგრებული ფაილები"
 
@@ -44,8 +43,7 @@ msgstr "გადამისამართების გაკეთებ�
 msgid "MDN Redirect"
 msgstr "MDN გადამისამართება"
 
-#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23
-#: assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
+#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23 assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
 msgid "Document"
 msgstr "დოკუმენტი"
 
@@ -141,60 +139,70 @@ msgstr "შეყვანილი URL-მისამართი, არ ჰ�
 msgid "Default"
 msgstr "ნაგულისხმევი"
 
-#: kuma/javascript/src/article.jsx:117
+#: kuma/javascript/src/article.jsx:125
 msgid "Contributors to this page:"
 msgstr "ამ გვერდის შექმნაში, წვლილის შემტანები:"
 
-#: kuma/javascript/src/article.jsx:129
+#: kuma/javascript/src/article.jsx:137
 msgid "Last updated by:"
 msgstr "ბოლო განახლების ავტორი:"
 
-#: kuma/javascript/src/page.jsx:196
-msgid "Edit"
-msgstr "ჩასწორება"
-
-#: kuma/javascript/src/page.jsx:253
+#: kuma/javascript/src/document.jsx:164
 msgid "On this Page"
 msgstr ""
 
-#: kuma/javascript/src/page.jsx:265
+#: kuma/javascript/src/document.jsx:176
 msgid "Related Topics"
 msgstr "დაკავშირებული საკითხები"
 
-#: kuma/javascript/src/task-completion-survey.jsx:170
+#: kuma/javascript/src/search-results-page.jsx:69
+#, fuzzy
+msgid "Results"
+msgstr "შედეგი"
+
+#: kuma/javascript/src/search-results-page.jsx:183
+#, python-format
+msgid "Search results for \"%(query)s\""
+msgstr ""
+
+#: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:177
+#: kuma/javascript/src/task-completion-survey.jsx:181
 msgid "Open the survey in a new tab"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:186
+#: kuma/javascript/src/task-completion-survey.jsx:190
 msgid "Dismiss"
 msgstr ""
 
-#: kuma/javascript/src/header/language-menu.jsx:24
+#: kuma/javascript/src/titlebar.jsx:95
+msgid "Edit"
+msgstr "ჩასწორება"
+
+#: kuma/javascript/src/header/language-menu.jsx:26
 #, fuzzy
 msgid "English"
 msgstr "ინგლისური (აშშ)"
 
-#: kuma/javascript/src/header/login.jsx:92
+#: kuma/javascript/src/header/login.jsx:90
 msgid "View profile"
 msgstr "პროფილის ნახვა"
 
-#: kuma/javascript/src/header/login.jsx:95
+#: kuma/javascript/src/header/login.jsx:93
 msgid "Edit profile"
 msgstr "პროფილის ჩასწორება"
 
-#: kuma/javascript/src/header/login.jsx:104
+#: kuma/javascript/src/header/login.jsx:99
 msgid "Sign out"
 msgstr "გამოსვლა"
 
-#: kuma/javascript/src/header/login.jsx:120
+#: kuma/javascript/src/header/login.jsx:115
 msgid "Sign in"
 msgstr "შესვლა"
 
-#: kuma/javascript/src/header/search.jsx:75
+#: kuma/javascript/src/header/search.jsx:71
 #, fuzzy
 msgid "Search MDN"
 msgstr "ძიება"
@@ -256,12 +264,8 @@ msgstr "შეცდომა %(type)s გადაგზავნისას"
 
 #: kuma/static/js/lang-switcher.js:75
 #, python-format
-msgid ""
-"You are now viewing this site in %(localeName)s. Do you always want to view "
-"this site in %(localeName)s?"
-msgstr ""
-"თქვენ ამჟამად სარგებლობთ საიტის %(localeName)s ვერსიით. გსურთ ყოველთვის "
-"იხილოთ საიტის %(localeName)s ვარიანტი?"
+msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
+msgstr "თქვენ ამჟამად სარგებლობთ საიტის %(localeName)s ვერსიით. გსურთ ყოველთვის იხილოთ საიტის %(localeName)s ვარიანტი?"
 
 #: kuma/static/js/lang-switcher.js:79
 msgid "Yes"
@@ -285,12 +289,8 @@ msgstr "მონიშნულია: "
 
 #: kuma/static/js/task-completion.js:37
 #, python-format
-msgid ""
-"Would you answer 4 questions for us? <a %(url)s>Open the survey in a new "
-"tab</a> and fill it out when you are done on the site. Thanks!"
-msgstr ""
-"უპასუხებთ ამ 4 კითხვას? <a %(url)s>გახსენით კითხვარი ახალ ჩანართში</a> და "
-"შეავსეთ, როცა მუშაობას დაასრულებთ საიტზე. გმადლობთ!"
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr "უპასუხებთ ამ 4 კითხვას? <a %(url)s>გახსენით კითხვარი ახალ ჩანართში</a> და შეავსეთ, როცა მუშაობას დაასრულებთ საიტზე. გმადლობთ!"
 
 #: kuma/static/js/users.js:116
 msgid "New interest..."
@@ -329,14 +329,8 @@ msgid "Discard draft."
 msgstr "წინასწარი ნამუშევრის წაშლა."
 
 #: kuma/static/js/wiki-edit-draft.js:101
-msgid ""
-"A newer version of this article has been published since this draft was "
-"saved. You can restore the draft to view the content, but you will not be "
-"able to submit it for publishing."
-msgstr ""
-"ამ წინასწარი ნამუშევრის შენახვამდე, უკვე გამოქვეყნდა სტატიის უფრო ახალი "
-"ვერსია. თქვენ შეგიძლიათ ნამუშევრის აღდგენა შინაარსის სანახავად, თუმცა "
-"გამოსაქვეყნებლად ვეღარ გადააგზავნით."
+msgid "A newer version of this article has been published since this draft was saved. You can restore the draft to view the content, but you will not be able to submit it for publishing."
+msgstr "ამ წინასწარი ნამუშევრის შენახვამდე, უკვე გამოქვეყნდა სტატიის უფრო ახალი ვერსია. თქვენ შეგიძლიათ ნამუშევრის აღდგენა შინაარსის სანახავად, თუმცა გამოსაქვეყნებლად ვეღარ გადააგზავნით."
 
 #: kuma/static/js/wiki-edit-draft.js:102 kuma/static/js/wiki-edit-draft.js:117
 msgid "Revision history."
@@ -347,12 +341,8 @@ msgid "Published version"
 msgstr "გამოქვეყნებული ვერსია"
 
 #: kuma/static/js/wiki-edit-draft.js:116
-msgid ""
-"Compare this date to the latest revision date to ensure you're not "
-"overwriting later changes."
-msgstr ""
-"შეადარეთ ეს თარიღი, ბოლო გადამუშავების თარიღს, რომ ბოლო ცვლილებებს არ "
-"გადააწეროთ."
+msgid "Compare this date to the latest revision date to ensure you're not overwriting later changes."
+msgstr "შეადარეთ ეს თარიღი, ბოლო გადამუშავების თარიღს, რომ ბოლო ცვლილებებს არ გადააწეროთ."
 
 #: kuma/static/js/wiki-edit-draft.js:126
 #, python-format
@@ -361,8 +351,7 @@ msgstr "თქვენ გაქვთ წინასწარი ნამუ
 
 #: kuma/static/js/wiki-edit-draft.js:152
 msgid "Viewing old draft. This draft cannot be published."
-msgstr ""
-"ნახულობთ მოძველებულ წინასწარ ნამუშევარს. ეს ვერსია, ვეღარ გამოქვეყნდება."
+msgstr "ნახულობთ მოძველებულ წინასწარ ნამუშევარს. ეს ვერსია, ვეღარ გამოქვეყნდება."
 
 #: kuma/static/js/wiki-edit-draft.js:171
 msgid "Draft restored."
@@ -393,25 +382,16 @@ msgid "Publishing changes…"
 msgstr "ცვლილებების გამოქვეყნება…"
 
 #: kuma/static/js/wiki-edit.js:384
-msgid ""
-"Publishing failed. You are not currently signed in. Please use a new tab to "
-"sign in and try publishing again."
-msgstr ""
-"გამოქვეყნება ვერ მოხერხდა. თქვენ არ ხართ შესული ანგარიშზე. გთხოვთ, "
-"შესასვლელად ახალი ჩანართი გამოიყენოთ და შემდეგ სცადოთ ხელახლა გამოქვეყნება."
+msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
+msgstr "გამოქვეყნება ვერ მოხერხდა. თქვენ არ ხართ შესული ანგარიშზე. გთხოვთ, შესასვლელად ახალი ჩანართი გამოიყენოთ და შემდეგ სცადოთ ხელახლა გამოქვეყნება."
 
 #: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "ცვლილებები შენახულია."
 
 #: kuma/static/js/wiki-edit.js:416
-msgid ""
-"Publishing failed. Please copy and paste your changes into a safe place and "
-"try submitting the form using the \"Publish\" button."
-msgstr ""
-"გამოქვეყნება ვერ მოხერხდა. გთხოვთ თქვენი ცვლილებები დააკოპიროთ და უსაფრთხო "
-"ადგილას ჩასვათ, შემდეგ კი „გამოქვეყნების“ ღილაკით სცადოთ შევსებული ველების "
-"გადაგზავნა."
+msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
+msgstr "გამოქვეყნება ვერ მოხერხდა. გთხოვთ თქვენი ცვლილებები დააკოპიროთ და უსაფრთხო ადგილას ჩასვათ, შემდეგ კი „გამოქვეყნების“ ღილაკით სცადოთ შევსებული ველების გადაგზავნა."
 
 #: kuma/static/js/wiki-samples.js:99
 #, python-format
@@ -422,18 +402,15 @@ msgstr "გახსნა %(site)s-ში"
 msgid "New tag..."
 msgstr "ახალი ჭდე..."
 
-#: kuma/static/js/wiki.js:261
+#: kuma/static/js/wiki.js:234
 msgid "Search Stack Overflow"
 msgstr "Stack Overflow-ზე მოძიება"
 
-#: kuma/static/js/wiki.js:292
-msgid ""
-"Your browser does not support MathML. A CSS fallback has been used instead."
-msgstr ""
-"MathML არაა მხარდაჭერილი თქვენს ბრაუზერში. მის ნაცვლად გამოყენებული იქნება "
-"CSS fallback."
+#: kuma/static/js/wiki.js:265
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
+msgstr "MathML არაა მხარდაჭერილი თქვენს ბრაუზერში. მის ნაცვლად გამოყენებული იქნება CSS fallback."
 
-#: kuma/static/js/wiki.js:501
+#: kuma/static/js/wiki.js:474
 msgid "Details"
 msgstr "ვრცლად"
 

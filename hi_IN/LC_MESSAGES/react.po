@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:52-0700\n"
+"POT-Creation-Date: 2019-06-13 15:14-0700\n"
 "PO-Revision-Date: 2017-09-30 07:25+0000\n"
 "Last-Translator: Arpit Jaiswal <arpit.jaiswal@protonmail.com>\n"
 "Language-Team: Hindi (India) https://pontoon.mozilla.org/hi_IN/\n"
@@ -22,8 +22,7 @@ msgstr "अनुलग्नक का चयन करें"
 msgid "No attachments available"
 msgstr "कोई अनुलग्नक नहीं उपलब्ध"
 
-#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23
-#: assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
+#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23 assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
 msgid "Attachments"
 msgstr "संलग्नक"
 
@@ -43,8 +42,7 @@ msgstr "एक अनुप्रेषित बनाएँ"
 msgid "MDN Redirect"
 msgstr "MDN अनुप्रेषण"
 
-#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23
-#: assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
+#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23 assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
 msgid "Document"
 msgstr "दस्तावेज़"
 
@@ -140,62 +138,72 @@ msgstr ""
 msgid "Default"
 msgstr "तयशुदा"
 
-#: kuma/javascript/src/article.jsx:117
+#: kuma/javascript/src/article.jsx:125
 msgid "Contributors to this page:"
 msgstr "इस पृष्ठ के लिए योगदानकर्ता:"
 
-#: kuma/javascript/src/article.jsx:129
+#: kuma/javascript/src/article.jsx:137
 msgid "Last updated by:"
 msgstr "अंतिम अद्यतन:"
 
-#: kuma/javascript/src/page.jsx:196
-msgid "Edit"
-msgstr "संपादित करें"
-
-#: kuma/javascript/src/page.jsx:253
+#: kuma/javascript/src/document.jsx:164
 #, fuzzy
 msgid "On this Page"
 msgstr "इस आलेख को मुद्रित करें"
 
-#: kuma/javascript/src/page.jsx:265
+#: kuma/javascript/src/document.jsx:176
 #, fuzzy
 msgid "Related Topics"
 msgstr "सभी प्रसंग"
 
-#: kuma/javascript/src/task-completion-survey.jsx:170
+#: kuma/javascript/src/search-results-page.jsx:69
+#, fuzzy
+msgid "Results"
+msgstr "परिणाम"
+
+#: kuma/javascript/src/search-results-page.jsx:183
+#, python-format
+msgid "Search results for \"%(query)s\""
+msgstr ""
+
+#: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:177
+#: kuma/javascript/src/task-completion-survey.jsx:181
 msgid "Open the survey in a new tab"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:186
+#: kuma/javascript/src/task-completion-survey.jsx:190
 msgid "Dismiss"
 msgstr ""
 
-#: kuma/javascript/src/header/language-menu.jsx:24
+#: kuma/javascript/src/titlebar.jsx:95
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: kuma/javascript/src/header/language-menu.jsx:26
 #, fuzzy
 msgid "English"
 msgstr "अंग्रेज़ी (यूएस)"
 
-#: kuma/javascript/src/header/login.jsx:92
+#: kuma/javascript/src/header/login.jsx:90
 msgid "View profile"
 msgstr "प्रोफ़ाइल देखें"
 
-#: kuma/javascript/src/header/login.jsx:95
+#: kuma/javascript/src/header/login.jsx:93
 msgid "Edit profile"
 msgstr "प्रालेख को संपादित करे"
 
-#: kuma/javascript/src/header/login.jsx:104
+#: kuma/javascript/src/header/login.jsx:99
 msgid "Sign out"
 msgstr "साइन आउट करें"
 
-#: kuma/javascript/src/header/login.jsx:120
+#: kuma/javascript/src/header/login.jsx:115
 msgid "Sign in"
 msgstr "साइन इन करें"
 
-#: kuma/javascript/src/header/search.jsx:75
+#: kuma/javascript/src/header/search.jsx:71
 #, fuzzy
 msgid "Search MDN"
 msgstr "खोज"
@@ -257,9 +265,7 @@ msgstr ""
 
 #: kuma/static/js/lang-switcher.js:75
 #, python-format
-msgid ""
-"You are now viewing this site in %(localeName)s. Do you always want to view "
-"this site in %(localeName)s?"
+msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
 msgstr ""
 
 #: kuma/static/js/lang-switcher.js:79
@@ -285,9 +291,7 @@ msgstr "चयनित: "
 
 #: kuma/static/js/task-completion.js:37
 #, python-format
-msgid ""
-"Would you answer 4 questions for us? <a %(url)s>Open the survey in a new "
-"tab</a> and fill it out when you are done on the site. Thanks!"
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
 msgstr ""
 
 #: kuma/static/js/users.js:116
@@ -330,10 +334,7 @@ msgid "Discard draft."
 msgstr "मसौदा निरस्त"
 
 #: kuma/static/js/wiki-edit-draft.js:101
-msgid ""
-"A newer version of this article has been published since this draft was "
-"saved. You can restore the draft to view the content, but you will not be "
-"able to submit it for publishing."
+msgid "A newer version of this article has been published since this draft was saved. You can restore the draft to view the content, but you will not be able to submit it for publishing."
 msgstr ""
 
 #: kuma/static/js/wiki-edit-draft.js:102 kuma/static/js/wiki-edit-draft.js:117
@@ -346,9 +347,7 @@ msgid "Published version"
 msgstr "प्रकाशित"
 
 #: kuma/static/js/wiki-edit-draft.js:116
-msgid ""
-"Compare this date to the latest revision date to ensure you're not "
-"overwriting later changes."
+msgid "Compare this date to the latest revision date to ensure you're not overwriting later changes."
 msgstr ""
 
 #: kuma/static/js/wiki-edit-draft.js:126
@@ -394,9 +393,7 @@ msgid "Publishing changes…"
 msgstr ""
 
 #: kuma/static/js/wiki-edit.js:384
-msgid ""
-"Publishing failed. You are not currently signed in. Please use a new tab to "
-"sign in and try publishing again."
+msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
 msgstr ""
 
 #: kuma/static/js/wiki-edit.js:387
@@ -404,9 +401,7 @@ msgid "Changes saved."
 msgstr "परिवर्तन सहेजे गए."
 
 #: kuma/static/js/wiki-edit.js:416
-msgid ""
-"Publishing failed. Please copy and paste your changes into a safe place and "
-"try submitting the form using the \"Publish\" button."
+msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
 msgstr ""
 
 #: kuma/static/js/wiki-samples.js:99
@@ -418,16 +413,15 @@ msgstr "%(site)s में खोलें"
 msgid "New tag..."
 msgstr "नया टैग..."
 
-#: kuma/static/js/wiki.js:261
+#: kuma/static/js/wiki.js:234
 msgid "Search Stack Overflow"
 msgstr "स्टैक ओवरफ़्लो खोजें"
 
-#: kuma/static/js/wiki.js:292
-msgid ""
-"Your browser does not support MathML. A CSS fallback has been used instead."
+#: kuma/static/js/wiki.js:265
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
 msgstr ""
 
-#: kuma/static/js/wiki.js:501
+#: kuma/static/js/wiki.js:474
 msgid "Details"
 msgstr "विवरण"
 

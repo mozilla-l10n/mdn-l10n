@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:53-0700\n"
+"POT-Creation-Date: 2019-06-13 15:15-0700\n"
 "PO-Revision-Date: 2019-05-26 15:49+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -127,19 +127,19 @@ msgstr "Az MDN jelenleg csak olvasható, karbantartási módban van."
 msgid "Learn more"
 msgstr "Tudjon meg többet"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Terms"
 msgstr "Feltételek"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Privacy"
 msgstr "Adatvédelem"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
 msgid "Cookies"
 msgstr "Sütik"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:141
+#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla és egyéni hozzájárulók.</p> <p>A tartalom <a href=\"%(copyright_url)s\">ezen licencek</a> alatt érhető el.</p>"
@@ -166,8 +166,8 @@ msgstr "Firefox súgó keresése"
 
 # 100%
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/landing/jinja2/landing/react_homepage.html:43 kuma/landing/jinja2/landing/react_homepage.html:48
-#: kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
 #: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Keresés"
@@ -215,7 +215,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "Referenciák és útmutatók"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:63
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
 msgid "Learn web development"
 msgstr "Tanuljon a webfejlesztésről"
 
@@ -631,11 +631,11 @@ msgstr "zulu"
 msgid "Unsubscribe from these emails:"
 msgstr "Leiratkozás ezekről az e-mailekről:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:58
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
 msgid "Web Technologies"
 msgstr "Webes technológiák"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:95
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
 msgid "Learn Web Development"
 msgstr "Tanuljon a webfejlesztésről"
 
@@ -1287,63 +1287,63 @@ msgstr ""
 "Az MDN webes dokumentáció információkat szolgáltat a nyílt webes technológiákról, beleértve a HTML-t, a CSS-t, és az alkalmazásinterfészeket weboldalakhoz és a progresszív webalkalmazásokhoz. "
 "Fejlesztőknek szóló dokumentációkat is tartalmaz a Mozilla termékekről, például a Firefox fejlesztői eszközökről."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:39
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
 msgid "Resources for developers, by developers."
 msgstr "Erőforrások fejlesztőknek, fejlesztőktől."
 
-#: kuma/landing/jinja2/landing/homepage.html:45 kuma/landing/jinja2/landing/react_homepage.html:47 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:45 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Keresés a dokumentációkban"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:68
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
 msgid "Developer Tools"
 msgstr "Fejlesztői eszközök"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:82
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
 msgid "Featured"
 msgstr "Kiemelt"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:98
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
 msgid "Get The Browser For Developers Like You"
 msgstr "Szerezze be az Önhöz hasonló fejlesztőknek készült böngészőt"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
 msgid "read more at hacks.mozilla.org"
 msgstr "Bővebben: hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:121
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Help improve MDN"
 msgstr "Segítsen az MDN tökéletesítésében"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:122
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Az MDN minden részét (a dokumentációkat és az oldat magát is) egy fejlesztőkből álló nyílt közösség hozza létre. Kérjük csatlakozzon hozzánk! Válasszon egyet ezek közül, hogy segítsen:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:124
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Getting started"
 msgstr "Első lépések"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:125
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Editorial review"
 msgstr "Szerkesztői felülvizsgálat"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:126
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Technical review"
 msgstr "Műszaki felülvizsgálat"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:127
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
 msgid "Translating"
 msgstr "Fordítás"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:128
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
 msgid "Promoting MDN"
 msgstr "Az MDN népszerűsítése"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:129
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
 msgid "Contributing to the MDN codebase"
 msgstr "Hozzájárulás az MDN kódbázisához"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:130
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
 msgid "Updating browser compatibility data"
 msgstr "Böngésző kompatibilitási adatainak frissítése"
 
@@ -2020,7 +2020,7 @@ msgid "Search MDN Web Docs"
 msgstr "Keresés az MDN webes dokumentációban"
 
 # 100%
-#: kuma/search/jinja2/search/results.html:14
+#: kuma/search/jinja2/search/react.html:6 kuma/search/jinja2/search/results.html:14
 #, python-format
 msgid "Search Results for \"%(query)s\""
 msgstr "Eredmények a következőre: „%(query)s”"
@@ -3168,7 +3168,7 @@ msgid "This user has not created any revisions in the past three days."
 msgstr "Ez a felhasználó nem hozott létre egy verziót sem az elmúlt három napban."
 
 # 100%
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:749 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Szerkesztés"
 
@@ -3234,7 +3234,7 @@ msgstr "Szerkesztői – szöveg, nyelvtan vagy tartalom"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Honosítás folyamatban – nincs teljesen lefordítva."
 
-#: kuma/wiki/content.py:730
+#: kuma/wiki/content.py:732
 msgid "Edit section"
 msgstr "Fejezet szerkesztése"
 

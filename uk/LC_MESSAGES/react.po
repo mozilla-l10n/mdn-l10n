@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:52-0700\n"
+"POT-Creation-Date: 2019-06-13 15:14-0700\n"
 "PO-Revision-Date: 2019-05-04 14:37+0000\n"
 "Last-Translator: Lashmanov Artem <foxcitizen.info@gmail.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -11,8 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.1.1\n"
 "X-Generator: Pontoon\n"
 
@@ -24,8 +23,7 @@ msgstr "Вибрати прикріплення"
 msgid "No attachments available"
 msgstr "Немає доступних прикріплень"
 
-#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23
-#: assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
+#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23 assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
 msgid "Attachments"
 msgstr "Вкладені файли"
 
@@ -45,8 +43,7 @@ msgstr "Створити перенаправлення"
 msgid "MDN Redirect"
 msgstr "MDN перенаправлення"
 
-#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23
-#: assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
+#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23 assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
 msgid "Document"
 msgstr "Документ"
 
@@ -142,60 +139,70 @@ msgstr "Схоже, ви ввели недійсний URL"
 msgid "Default"
 msgstr "Типово"
 
-#: kuma/javascript/src/article.jsx:117
+#: kuma/javascript/src/article.jsx:125
 msgid "Contributors to this page:"
 msgstr "Зробили внесок у цю сторінку:"
 
-#: kuma/javascript/src/article.jsx:129
+#: kuma/javascript/src/article.jsx:137
 msgid "Last updated by:"
 msgstr "Востаннє оновлена:"
 
-#: kuma/javascript/src/page.jsx:196
-msgid "Edit"
-msgstr "Редагувати"
-
-#: kuma/javascript/src/page.jsx:253
+#: kuma/javascript/src/document.jsx:164
 msgid "On this Page"
 msgstr ""
 
-#: kuma/javascript/src/page.jsx:265
+#: kuma/javascript/src/document.jsx:176
 msgid "Related Topics"
 msgstr "Пов'язані теми"
 
-#: kuma/javascript/src/task-completion-survey.jsx:170
+#: kuma/javascript/src/search-results-page.jsx:69
+#, fuzzy
+msgid "Results"
+msgstr "Результат"
+
+#: kuma/javascript/src/search-results-page.jsx:183
+#, python-format
+msgid "Search results for \"%(query)s\""
+msgstr ""
+
+#: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:177
+#: kuma/javascript/src/task-completion-survey.jsx:181
 msgid "Open the survey in a new tab"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:186
+#: kuma/javascript/src/task-completion-survey.jsx:190
 msgid "Dismiss"
 msgstr ""
 
-#: kuma/javascript/src/header/language-menu.jsx:24
+#: kuma/javascript/src/titlebar.jsx:95
+msgid "Edit"
+msgstr "Редагувати"
+
+#: kuma/javascript/src/header/language-menu.jsx:26
 #, fuzzy
 msgid "English"
 msgstr "Англійська (США)"
 
-#: kuma/javascript/src/header/login.jsx:92
+#: kuma/javascript/src/header/login.jsx:90
 msgid "View profile"
 msgstr "Переглянути профіль"
 
-#: kuma/javascript/src/header/login.jsx:95
+#: kuma/javascript/src/header/login.jsx:93
 msgid "Edit profile"
 msgstr "Редагувати профіль"
 
-#: kuma/javascript/src/header/login.jsx:104
+#: kuma/javascript/src/header/login.jsx:99
 msgid "Sign out"
 msgstr "Вийти"
 
-#: kuma/javascript/src/header/login.jsx:120
+#: kuma/javascript/src/header/login.jsx:115
 msgid "Sign in"
 msgstr "Увійти"
 
-#: kuma/javascript/src/header/search.jsx:75
+#: kuma/javascript/src/header/search.jsx:71
 #, fuzzy
 msgid "Search MDN"
 msgstr "Пошук"
@@ -257,11 +264,8 @@ msgstr "Помилка надсилання від %(type)s"
 
 #: kuma/static/js/lang-switcher.js:75
 #, python-format
-msgid ""
-"You are now viewing this site in %(localeName)s. Do you always want to view "
-"this site in %(localeName)s?"
-msgstr ""
-"Зараз обрано мову: %(localeName)s. Хочете завжди переглядати сайт цією мовою?"
+msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
+msgstr "Зараз обрано мову: %(localeName)s. Хочете завжди переглядати сайт цією мовою?"
 
 #: kuma/static/js/lang-switcher.js:79
 msgid "Yes"
@@ -285,12 +289,8 @@ msgstr "Вибрано: "
 
 #: kuma/static/js/task-completion.js:37
 #, python-format
-msgid ""
-"Would you answer 4 questions for us? <a %(url)s>Open the survey in a new "
-"tab</a> and fill it out when you are done on the site. Thanks!"
-msgstr ""
-"Не хочете відповісти на 4 наші питання? <a %(url)s>Відкрийте опитування в "
-"новій вкладці</a> і пройдіть його, після роботи з сайтом. Дякуємо!"
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
+msgstr "Не хочете відповісти на 4 наші питання? <a %(url)s>Відкрийте опитування в новій вкладці</a> і пройдіть його, після роботи з сайтом. Дякуємо!"
 
 #: kuma/static/js/users.js:116
 msgid "New interest..."
@@ -329,14 +329,8 @@ msgid "Discard draft."
 msgstr "Видалити чернетку."
 
 #: kuma/static/js/wiki-edit-draft.js:101
-msgid ""
-"A newer version of this article has been published since this draft was "
-"saved. You can restore the draft to view the content, but you will not be "
-"able to submit it for publishing."
-msgstr ""
-"Новішу версію цієї статті було оприлюднено після збереження цієї чернетки. "
-"Ви можете відновити чернетку для перегляду її вмісту, але її оприлюднення "
-"вже неможливе."
+msgid "A newer version of this article has been published since this draft was saved. You can restore the draft to view the content, but you will not be able to submit it for publishing."
+msgstr "Новішу версію цієї статті було оприлюднено після збереження цієї чернетки. Ви можете відновити чернетку для перегляду її вмісту, але її оприлюднення вже неможливе."
 
 #: kuma/static/js/wiki-edit-draft.js:102 kuma/static/js/wiki-edit-draft.js:117
 msgid "Revision history."
@@ -347,12 +341,8 @@ msgid "Published version"
 msgstr "Оприлюднена версія"
 
 #: kuma/static/js/wiki-edit-draft.js:116
-msgid ""
-"Compare this date to the latest revision date to ensure you're not "
-"overwriting later changes."
-msgstr ""
-"Порівняйте цю дату з датою останньої редакції, аби впевнитись, що ви не "
-"перезапишете пізніші зміни."
+msgid "Compare this date to the latest revision date to ensure you're not overwriting later changes."
+msgstr "Порівняйте цю дату з датою останньої редакції, аби впевнитись, що ви не перезапишете пізніші зміни."
 
 #: kuma/static/js/wiki-edit-draft.js:126
 #, python-format
@@ -392,25 +382,16 @@ msgid "Publishing changes…"
 msgstr "Оприлюднення змін…"
 
 #: kuma/static/js/wiki-edit.js:384
-msgid ""
-"Publishing failed. You are not currently signed in. Please use a new tab to "
-"sign in and try publishing again."
-msgstr ""
-"Оприлюднення не вдалося, бо термін дії сеансу сплив. Будь ласка, "
-"скористайтесь новою вкладкою, щоб здійснити вхід, та спробуйте оприлюднити "
-"знову."
+msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
+msgstr "Оприлюднення не вдалося, бо термін дії сеансу сплив. Будь ласка, скористайтесь новою вкладкою, щоб здійснити вхід, та спробуйте оприлюднити знову."
 
 #: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "Зміни збережено."
 
 #: kuma/static/js/wiki-edit.js:416
-msgid ""
-"Publishing failed. Please copy and paste your changes into a safe place and "
-"try submitting the form using the \"Publish\" button."
-msgstr ""
-"Не вдалося оприлюднити. Будь ласка, скопіюйте свої зміни в безпечне місце та "
-"спробуйте надіслати форму скориставшись кнопкою \"Оприлюднити\"."
+msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
+msgstr "Не вдалося оприлюднити. Будь ласка, скопіюйте свої зміни в безпечне місце та спробуйте надіслати форму скориставшись кнопкою \"Оприлюднити\"."
 
 #: kuma/static/js/wiki-samples.js:99
 #, python-format
@@ -421,18 +402,15 @@ msgstr "Відкрити на %(site)s"
 msgid "New tag..."
 msgstr "Нова мітка..."
 
-#: kuma/static/js/wiki.js:261
+#: kuma/static/js/wiki.js:234
 msgid "Search Stack Overflow"
 msgstr "Пошук на Stack Overflow"
 
-#: kuma/static/js/wiki.js:292
-msgid ""
-"Your browser does not support MathML. A CSS fallback has been used instead."
-msgstr ""
-"Ваш браузер не підтримує MathML. Натомість використовується запасне "
-"вирішення на CSS."
+#: kuma/static/js/wiki.js:265
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
+msgstr "Ваш браузер не підтримує MathML. Натомість використовується запасне вирішення на CSS."
 
-#: kuma/static/js/wiki.js:501
+#: kuma/static/js/wiki.js:474
 msgid "Details"
 msgstr "Докладно"
 

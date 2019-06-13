@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:53-0700\n"
+"POT-Creation-Date: 2019-06-13 15:15-0700\n"
 "PO-Revision-Date: 2019-05-28 08:08+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -126,19 +126,19 @@ msgstr "Al momento MDN è disponibile in sola lettura a causa della manutenzione
 msgid "Learn more"
 msgstr "Ulteriori informazioni"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Terms"
 msgstr "Termini"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Privacy"
 msgstr "Privacy"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
 msgid "Cookies"
 msgstr "Cookie"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:141
+#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla e di singoli collaboratori al progetto.</p> <p>I contenuti sono disponibili secondo <a href=\"%(copyright_url)s\">queste licenze</a>.</p>"
@@ -164,8 +164,8 @@ msgid "Search Firefox Help"
 msgstr "Cerca nel supporto di Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/landing/jinja2/landing/react_homepage.html:43 kuma/landing/jinja2/landing/react_homepage.html:48
-#: kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
 #: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Cerca"
@@ -210,7 +210,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "Manuali di riferimento e guide"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:63
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
 msgid "Learn web development"
 msgstr "Imparare lo sviluppo web"
 
@@ -621,11 +621,11 @@ msgstr "Zulu"
 msgid "Unsubscribe from these emails:"
 msgstr "Annulla l’iscrizione a queste email:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:58
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
 msgid "Web Technologies"
 msgstr "Tecnologie web"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:95
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
 msgid "Learn Web Development"
 msgstr "Impara lo sviluppo web"
 
@@ -1265,63 +1265,63 @@ msgstr ""
 "MDN Web Docs è un sito che raccoglie informazioni sulle tecnologie open web come HTML, CSS e API per lo sviluppo di siti e progressive web app. Inoltre contiene documentazione rivolta agli "
 "sviluppatori sui prodotti Mozilla come gli strumenti di sviluppo di Firefox."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:39
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
 msgid "Resources for developers, by developers."
 msgstr "Per sviluppatori, da sviluppatori"
 
-#: kuma/landing/jinja2/landing/homepage.html:45 kuma/landing/jinja2/landing/react_homepage.html:47 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:45 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Ricerca nella documentazione"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:68
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
 msgid "Developer Tools"
 msgstr "Strumenti di sviluppo"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:82
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
 msgid "Featured"
 msgstr "Consigliati"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:98
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
 msgid "Get The Browser For Developers Like You"
 msgstr "Scarica il browser dedicato agli sviluppatori come te"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
 msgid "read more at hacks.mozilla.org"
 msgstr "Scopri di più su hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:121
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Help improve MDN"
 msgstr "Collabora per migliorare MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:122
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Tutti i contenuti di MDN (documentazione, demo e il sito stesso) sono stati creati da una comunità aperta di sviluppatori. Unisciti a noi. Scegli uno dei seguenti modi per contribuire:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:124
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Getting started"
 msgstr "Per iniziare"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:125
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Editorial review"
 msgstr "Revisione stilistica"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:126
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Technical review"
 msgstr "Revisione tecnica"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:127
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
 msgid "Translating"
 msgstr "Traduzione"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:128
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
 msgid "Promoting MDN"
 msgstr "Promuovere MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:129
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
 msgid "Contributing to the MDN codebase"
 msgstr "Collaborare al codice sorgente di MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:130
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
 msgid "Updating browser compatibility data"
 msgstr "Aggiornamento dati di compatibilità browser"
 
@@ -1993,7 +1993,7 @@ msgstr "Ricerca non disponibile"
 msgid "Search MDN Web Docs"
 msgstr "Cerca nella documentazione MDN Web Docs"
 
-#: kuma/search/jinja2/search/results.html:14
+#: kuma/search/jinja2/search/react.html:6 kuma/search/jinja2/search/results.html:14
 #, python-format
 msgid "Search Results for \"%(query)s\""
 msgstr "Risultati di ricerca per “%(query)s”"
@@ -3154,7 +3154,7 @@ msgstr "È già stato segnalato come spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Questo utente non ha effettuato modifiche ai documenti negli ultimi tre giorni."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:749 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Modifica"
 
@@ -3220,7 +3220,7 @@ msgstr "Stilistica – stile, grammatica o contenuto"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Traduzione in corso… L’attuale versione non è definitiva."
 
-#: kuma/wiki/content.py:730
+#: kuma/wiki/content.py:732
 msgid "Edit section"
 msgstr "Modifica sezione"
 

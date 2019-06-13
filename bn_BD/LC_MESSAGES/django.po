@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:53-0700\n"
+"POT-Creation-Date: 2019-06-13 15:15-0700\n"
 "PO-Revision-Date: 2018-01-22 14:33+0000\n"
 "Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) https://pontoon.mozilla.org/bn_BD/\n"
@@ -122,19 +122,19 @@ msgstr ""
 msgid "Learn more"
 msgstr "আরও জানুন"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Terms"
 msgstr "শর্তসমূহ"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Privacy"
 msgstr "গোপনীয়তা"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
 msgid "Cookies"
 msgstr "কুকিস"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:141
+#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr ""
@@ -160,8 +160,8 @@ msgid "Search Firefox Help"
 msgstr "Firefox সাহায্য খুঁজুন"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/landing/jinja2/landing/react_homepage.html:43 kuma/landing/jinja2/landing/react_homepage.html:48
-#: kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/landing/jinja2/landing/homepage.html:41 kuma/landing/jinja2/landing/homepage.html:46 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
 #: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "খোঁজা"
@@ -206,7 +206,7 @@ msgstr "ম্যাথএমএল"
 msgid "References & Guides"
 msgstr "তথ্যসূত্র এবং নির্দেশিকা"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:63
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
 msgid "Learn web development"
 msgstr "ওয়েব ডেভেলপমেন্ট শিখুন"
 
@@ -616,11 +616,11 @@ msgstr "জুলু"
 msgid "Unsubscribe from these emails:"
 msgstr "আনসাবস্ক্রাইব করুন এই ইমেইল থেকে:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:58
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
 msgid "Web Technologies"
 msgstr "ওয়েব প্রযুক্তিসমূহ"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:95
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
 msgid "Learn Web Development"
 msgstr "ওয়েব ডেভেলপমেন্ট শিখুন"
 
@@ -1264,64 +1264,64 @@ msgid ""
 msgstr ""
 "মজিলা ডেভেলপার নেটওয়ার্ক (MDN) এ এইচটিএমএল, সিএসএস এবং এইচটিএমএলফাইফ এপস এবং ওয়েবসাইটগুলোর API সংক্রান্ত ওপেন ওয়েব টেকনোলজিগুলো সম্পর্কে তথ্য প্রদান করে। এটি মজিলা প্রোডাক্ট যেমন ফায়ারফক্স ওএস'কেও ব্যাখ্যা করে।"
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:39
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
 #, fuzzy
 msgid "Resources for developers, by developers."
 msgstr "ডেভালোপারদের জন্য, ডেভেলপারদের দ্বারা"
 
-#: kuma/landing/jinja2/landing/homepage.html:45 kuma/landing/jinja2/landing/react_homepage.html:47 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:45 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "ডকুমেন্টেশন খুঁজুন"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:68
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
 msgid "Developer Tools"
 msgstr "Developer Tools"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:82
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
 msgid "Featured"
 msgstr "ফিচার করা"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:98
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
 msgid "Get The Browser For Developers Like You"
 msgstr "আপনার মত ডেভেলপারদের জন্য ব্রাউজার পান"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
 msgid "read more at hacks.mozilla.org"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:121
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Help improve MDN"
 msgstr "এমডিএন উন্নিতকরণে সাহায্য করুন"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:122
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "MDN (নথিসমূহ এবং সাইটটি) এর সবগুলো অংশ ডেভেলপারদের একটি ওপেন কম্যুনিটি তৈরি করেছেন। অনুগ্রহ করে আমাদের সাথে যোগ দিন! আমাদের সাহায্য করার জন্য যেকোন একটি ক্ষেত্র নির্বাচন করুন:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:124
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Getting started"
 msgstr "শুরু"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:125
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Editorial review"
 msgstr "সম্পাদকীয় পর্যালোচনা"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:126
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Technical review"
 msgstr "প্রযুক্তি সংক্রান্ত পর্যালোচনা"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:127
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
 msgid "Translating"
 msgstr "অনুবাদ করা হচ্ছে"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:128
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
 msgid "Promoting MDN"
 msgstr "MDN প্রচার করা"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:129
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
 msgid "Contributing to the MDN codebase"
 msgstr "MDN কোডবেসে অবদান রাখা"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:130
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
 msgid "Updating browser compatibility data"
 msgstr ""
 
@@ -1990,7 +1990,7 @@ msgstr "অনুসন্ধান পাওয়া যাচ্ছে না"
 msgid "Search MDN Web Docs"
 msgstr "MDN ওয়েব ডক"
 
-#: kuma/search/jinja2/search/results.html:14
+#: kuma/search/jinja2/search/react.html:6 kuma/search/jinja2/search/results.html:14
 #, python-format
 msgid "Search Results for \"%(query)s\""
 msgstr "অনুসন্ধান ফলাফল \"%(query)s\" এর জন্য"
@@ -3140,7 +3140,7 @@ msgstr "ইতিমধ্যে স্প্যাম হিসেবে রি
 msgid "This user has not created any revisions in the past three days."
 msgstr "এটা লেখক তৈরি করেননি"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:749 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "সম্পাদনা"
 
@@ -3207,7 +3207,7 @@ msgstr "সম্পাদকীয় - গদ্য, ব্যাকরণ, অ�
 msgid "Localization in progress - not completely translated yet."
 msgstr "অগ্রগতি স্থানীয়করণ - সম্পূর্ণ এখনো অনুবাদ না."
 
-#: kuma/wiki/content.py:730
+#: kuma/wiki/content.py:732
 msgid "Edit section"
 msgstr "সম্পাদনা বিভাগ"
 

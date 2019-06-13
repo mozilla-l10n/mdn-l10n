@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-10 14:52-0700\n"
+"POT-Creation-Date: 2019-06-13 15:14-0700\n"
 "PO-Revision-Date: 2019-03-28 14:42+0000\n"
 "Last-Translator: Amir Farsi <amir_farsi@ymail.com>\n"
 "Language-Team: Persian https://pontoon.mozilla.org/fa/\n"
@@ -23,8 +23,7 @@ msgstr "انتخاب یک پروندهٔ ضمیمه"
 msgid "No attachments available"
 msgstr "هیچ ضمیمه‌ای موجود نیست"
 
-#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23
-#: assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
+#: assets/ckeditor4/source/plugins/mdn-image-attachment/plugin.js:23 assets/ckeditor4/source/plugins/mdn-link-customization/plugin.js:130
 msgid "Attachments"
 msgstr "پیوست‌ها"
 
@@ -44,8 +43,7 @@ msgstr "ایجاد یک تغییر مسیر"
 msgid "MDN Redirect"
 msgstr "تغییر مسیر MDN"
 
-#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23
-#: assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
+#: assets/ckeditor4/source/plugins/mdn-redirect/dialogs/mdn-redirect.js:23 assets/ckeditor4/source/plugins/mdn-sample-finder/dialogs/mdn-sample-finder.js:44
 msgid "Document"
 msgstr "سند"
 
@@ -141,63 +139,73 @@ msgstr "آدرسی که وارد کرده‌اید به نظر صحیح نیست
 msgid "Default"
 msgstr "پیش فرض"
 
-#: kuma/javascript/src/article.jsx:117
+#: kuma/javascript/src/article.jsx:125
 #, fuzzy
 msgid "Contributors to this page:"
 msgstr "کمک کردن به کد پایه‌ی MDN"
 
-#: kuma/javascript/src/article.jsx:129
+#: kuma/javascript/src/article.jsx:137
 msgid "Last updated by:"
 msgstr ""
 
-#: kuma/javascript/src/page.jsx:196
-msgid "Edit"
-msgstr "ویرایش"
-
-#: kuma/javascript/src/page.jsx:253
+#: kuma/javascript/src/document.jsx:164
 #, fuzzy
 msgid "On this Page"
 msgstr "رونوشت از این مقاله"
 
-#: kuma/javascript/src/page.jsx:265
+#: kuma/javascript/src/document.jsx:176
 #, fuzzy
 msgid "Related Topics"
 msgstr "تمام موضوعات"
 
-#: kuma/javascript/src/task-completion-survey.jsx:170
+#: kuma/javascript/src/search-results-page.jsx:69
+#, fuzzy
+msgid "Results"
+msgstr "نتیجه"
+
+#: kuma/javascript/src/search-results-page.jsx:183
+#, python-format
+msgid "Search results for \"%(query)s\""
+msgstr ""
+
+#: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:177
+#: kuma/javascript/src/task-completion-survey.jsx:181
 msgid "Open the survey in a new tab"
 msgstr ""
 
-#: kuma/javascript/src/task-completion-survey.jsx:186
+#: kuma/javascript/src/task-completion-survey.jsx:190
 msgid "Dismiss"
 msgstr ""
 
-#: kuma/javascript/src/header/language-menu.jsx:24
+#: kuma/javascript/src/titlebar.jsx:95
+msgid "Edit"
+msgstr "ویرایش"
+
+#: kuma/javascript/src/header/language-menu.jsx:26
 #, fuzzy
 msgid "English"
 msgstr "انگلیسی (ایالات متحده)"
 
-#: kuma/javascript/src/header/login.jsx:92
+#: kuma/javascript/src/header/login.jsx:90
 msgid "View profile"
 msgstr "نمایش نمایه"
 
-#: kuma/javascript/src/header/login.jsx:95
+#: kuma/javascript/src/header/login.jsx:93
 msgid "Edit profile"
 msgstr "ویرایش نمایه"
 
-#: kuma/javascript/src/header/login.jsx:104
+#: kuma/javascript/src/header/login.jsx:99
 msgid "Sign out"
 msgstr "خروج"
 
-#: kuma/javascript/src/header/login.jsx:120
+#: kuma/javascript/src/header/login.jsx:115
 msgid "Sign in"
 msgstr "ورود"
 
-#: kuma/javascript/src/header/search.jsx:75
+#: kuma/javascript/src/header/search.jsx:71
 msgid "Search MDN"
 msgstr "جستجوی MDN"
 
@@ -258,9 +266,7 @@ msgstr "خطا در هنگام ثبت به عنوان %(type)s"
 
 #: kuma/static/js/lang-switcher.js:75
 #, python-format
-msgid ""
-"You are now viewing this site in %(localeName)s. Do you always want to view "
-"this site in %(localeName)s?"
+msgid "You are now viewing this site in %(localeName)s. Do you always want to view this site in %(localeName)s?"
 msgstr ""
 
 #: kuma/static/js/lang-switcher.js:79
@@ -286,9 +292,7 @@ msgstr "انتخاب شده: "
 
 #: kuma/static/js/task-completion.js:37
 #, python-format
-msgid ""
-"Would you answer 4 questions for us? <a %(url)s>Open the survey in a new "
-"tab</a> and fill it out when you are done on the site. Thanks!"
+msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
 msgstr ""
 
 #: kuma/static/js/users.js:116
@@ -328,14 +332,8 @@ msgid "Discard draft."
 msgstr "حذف پیش‌نویس."
 
 #: kuma/static/js/wiki-edit-draft.js:101
-msgid ""
-"A newer version of this article has been published since this draft was "
-"saved. You can restore the draft to view the content, but you will not be "
-"able to submit it for publishing."
-msgstr ""
-"یک نسخه جدید از این مقاله از زمان ذخیره پیش‌نویس آن منتشر شده است. شما "
-"می‌توانید پیش‌نویس را بازآوری کنید تا محتویات آن را ببینید، اما نمی‌توانید آن "
-"را برای انتشار ثبت کنید."
+msgid "A newer version of this article has been published since this draft was saved. You can restore the draft to view the content, but you will not be able to submit it for publishing."
+msgstr "یک نسخه جدید از این مقاله از زمان ذخیره پیش‌نویس آن منتشر شده است. شما می‌توانید پیش‌نویس را بازآوری کنید تا محتویات آن را ببینید، اما نمی‌توانید آن را برای انتشار ثبت کنید."
 
 #: kuma/static/js/wiki-edit-draft.js:102 kuma/static/js/wiki-edit-draft.js:117
 msgid "Revision history."
@@ -346,12 +344,8 @@ msgid "Published version"
 msgstr "نسخه منتشر شده"
 
 #: kuma/static/js/wiki-edit-draft.js:116
-msgid ""
-"Compare this date to the latest revision date to ensure you're not "
-"overwriting later changes."
-msgstr ""
-"این تاریخ را با تاریخ آخرین تغییر مقایسه کنید تا مطمئن شوید که تغییرات بعدی "
-"را رونویسی نمی‌کنید."
+msgid "Compare this date to the latest revision date to ensure you're not overwriting later changes."
+msgstr "این تاریخ را با تاریخ آخرین تغییر مقایسه کنید تا مطمئن شوید که تغییرات بعدی را رونویسی نمی‌کنید."
 
 #: kuma/static/js/wiki-edit-draft.js:126
 #, python-format
@@ -391,24 +385,16 @@ msgid "Publishing changes…"
 msgstr "در حال انتشار تغییرات…"
 
 #: kuma/static/js/wiki-edit.js:384
-msgid ""
-"Publishing failed. You are not currently signed in. Please use a new tab to "
-"sign in and try publishing again."
-msgstr ""
-"انتشار شکست خورد. شما در حال حاضر وارد سیستم نشده‌اید. لطفاً سعی کنید در یک "
-"زبانه دیگر وارد شوید و مجددا برای انتشار در اینجا تلاش کنید."
+msgid "Publishing failed. You are not currently signed in. Please use a new tab to sign in and try publishing again."
+msgstr "انتشار شکست خورد. شما در حال حاضر وارد سیستم نشده‌اید. لطفاً سعی کنید در یک زبانه دیگر وارد شوید و مجددا برای انتشار در اینجا تلاش کنید."
 
 #: kuma/static/js/wiki-edit.js:387
 msgid "Changes saved."
 msgstr "تغییرات ذخیره شد."
 
 #: kuma/static/js/wiki-edit.js:416
-msgid ""
-"Publishing failed. Please copy and paste your changes into a safe place and "
-"try submitting the form using the \"Publish\" button."
-msgstr ""
-"انتشار شکست خورد. لطفاً تغییرات خود را در یک محل امن رونوشت و ذخیره کنید و "
-"سعی کنید فُرم را از طریق دکمه «انتشار» ثبت کنید."
+msgid "Publishing failed. Please copy and paste your changes into a safe place and try submitting the form using the \"Publish\" button."
+msgstr "انتشار شکست خورد. لطفاً تغییرات خود را در یک محل امن رونوشت و ذخیره کنید و سعی کنید فُرم را از طریق دکمه «انتشار» ثبت کنید."
 
 #: kuma/static/js/wiki-samples.js:99
 #, python-format
@@ -419,18 +405,15 @@ msgstr "باز کردن در %(site)s"
 msgid "New tag..."
 msgstr "تگ جدید…"
 
-#: kuma/static/js/wiki.js:261
+#: kuma/static/js/wiki.js:234
 msgid "Search Stack Overflow"
 msgstr "جست‌وجو در Stack Overflow"
 
-#: kuma/static/js/wiki.js:292
-msgid ""
-"Your browser does not support MathML. A CSS fallback has been used instead."
-msgstr ""
-"مرورگر شما از MathML پشتیبانی نمی‌کند. یک روش یدکی از طریق CSS بجای آن "
-"استفاده می‌شود."
+#: kuma/static/js/wiki.js:265
+msgid "Your browser does not support MathML. A CSS fallback has been used instead."
+msgstr "مرورگر شما از MathML پشتیبانی نمی‌کند. یک روش یدکی از طریق CSS بجای آن استفاده می‌شود."
 
-#: kuma/static/js/wiki.js:501
+#: kuma/static/js/wiki.js:474
 msgid "Details"
 msgstr "جزئیات"
 
