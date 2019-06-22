@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-06-13 15:15-0700\n"
-"PO-Revision-Date: 2019-06-16 06:52+0000\n"
-"Last-Translator: Sami Vänttinen <sami.vanttinen@gmail.com>\n"
+"PO-Revision-Date: 2019-06-22 14:36+0000\n"
+"Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish https://pontoon.mozilla.org/fi/\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -90,11 +90,11 @@ msgstr "Liian monta pyyntöä"
 #: jinja2/429.html:23
 #, python-format
 msgid "We're sorry %(name)s, you've made too many requests in a short time."
-msgstr ""
+msgstr "Olemme pahoillamme %(name)s, olet tehnyt liian monta pyyntöä lyhyen ajan sisään."
 
 #: jinja2/429.html:26
 msgid "We're sorry, we've received too many requests from your IP address in a short time."
-msgstr ""
+msgstr "Olemme pahoillamme, olemme saaneet liian monta pyyntöä IP-osoitteestasi lyhyen ajan sisään."
 
 #: jinja2/429.html:28
 msgid "You can try again in about one minute."
@@ -613,7 +613,7 @@ msgstr ""
 
 #: jinja2/includes/unsubscribe_text.ltxt:3
 msgid "Unsubscribe from these emails:"
-msgstr ""
+msgstr "Lopeta näiden sähköpostien tilaus:"
 
 #: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
 msgid "Web Technologies"
@@ -667,13 +667,15 @@ msgstr "Peruuta"
 
 #: jinja2/tidings/unsubscribe_error.html:7
 msgid "Unsubscribe Error"
-msgstr ""
+msgstr "Tilauksen lopetus epäonnistui"
 
 #: jinja2/tidings/unsubscribe_error.html:10
 msgid ""
 "We could not find your subscription. Either it has already been cancelled, or there was a mistake in the unsubscribe link. Please make sure the entire link from the email made it into the browser. "
 "If the last part of the link wraps onto a second line in the email, try copying and pasting the link into the browser."
 msgstr ""
+"Emme löytäneet tilaustasi. Se on joko peruutettu, tai tilauksen lopetuksen linkissä on virhe. Ole hyvä ja varmista, että sähköpostissa annettu linkki on syötetty selaimeen kokonaan. Jos linkin "
+"loppuosa katkeaa seuraavalle riville, kokeile kopioida ja liittää linkki selaimeen."
 
 #: jinja2/tidings/unsubscribe_success.html:7
 msgid "Unsubscribed"
@@ -703,7 +705,7 @@ msgstr "Liitteet"
 
 #: kuma/attachments/feeds.py:9
 msgid "MDN recent file changes"
-msgstr ""
+msgstr "MDN:n viimeisimmät tiedostomuutokset"
 
 #: kuma/attachments/feeds.py:10
 msgid "Recent revisions to MDN file attachments"
@@ -758,19 +760,19 @@ msgstr "Liitteet | %(title)s"
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:21
 #, python-format
 msgid "Upload file to article %(title)s"
-msgstr ""
+msgstr "Lataa tiedosto artikkeliin %(title)s"
 
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:32
 msgid "Upload files"
-msgstr ""
+msgstr "Lataa tiedostoja"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:9
 msgid "Learn how to use Attachments"
-msgstr ""
+msgstr "Opi kuinka liitetiedostoja käytetään"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:18 kuma/attachments/jinja2/attachments/includes/attachment_list.html:30
 msgid "Upload Files"
-msgstr ""
+msgstr "Lataa tiedostoja"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:24
 msgid "This document has no attachments."
@@ -778,7 +780,7 @@ msgstr "Tällä dokumentilla ei ole liitteitä."
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:26
 msgid "Images can be attached, and then linked in the article."
-msgstr ""
+msgstr "Kuvia voidaan liittää ja sitten linkittää ne artikkeliin."
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/attachments/jinja2/attachments/includes/attachment_list.html:87
 msgid "File"
@@ -824,7 +826,7 @@ msgstr "Linkitetty artikkelissa"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:95
 msgid "Article attached to"
-msgstr ""
+msgstr "Artikkeli liitetty"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:108
 #, python-format
@@ -876,7 +878,7 @@ msgstr "Sinulla ei ole vielä API-avaimia."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:25
 msgid "View key usage history"
-msgstr ""
+msgstr "Näytä avainten käyttöhistoria"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:26
 #, python-format
@@ -1088,7 +1090,7 @@ msgstr ""
 #: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
 #, python-format
 msgid "Localized articles tagged with: %(tag)s"
-msgstr ""
+msgstr "Lokalisoidut artikkelit, joissa on tunniste: %(tag)s"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:14
 #, python-format
@@ -1409,7 +1411,7 @@ msgstr "Lisää mukautettu painike verkkosivuillesi"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:125
 msgid "Your source code:"
-msgstr ""
+msgstr "Lähdekoodisi:"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:127
 msgid "Your button will take people to:"
@@ -1543,7 +1545,7 @@ msgstr ""
 
 #: kuma/payments/jinja2/payments/management.html:74
 msgid "Cancel your subscription"
-msgstr ""
+msgstr "Peruuta tilauksesi"
 
 #: kuma/payments/jinja2/payments/management.html:77
 msgid "Are you sure?"
@@ -1585,7 +1587,7 @@ msgstr "Tue MDN:ää"
 
 #: kuma/payments/jinja2/payments/payments.html:25
 msgid "Thank you for supporting MDN."
-msgstr ""
+msgstr "Kiitos kun tuet MDN:ää."
 
 #: kuma/payments/jinja2/payments/payments.html:47
 msgid "FAQs"
@@ -2836,7 +2838,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
-msgstr ""
+msgstr "Viimeisten dokumenttien toiminta"
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "View all activity"
@@ -4306,7 +4308,7 @@ msgstr "Muutoksen kommentti"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:4
 msgid "Learn how to use Revision Comments"
-msgstr ""
+msgstr "Opi käyttämään muutoksen kommenttia"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:8
 msgid "Tell us why you made additions and changes. It is optional, but will make page history easier to understand."
@@ -4354,7 +4356,7 @@ msgstr[1] ""
 #: kuma/wiki/jinja2/wiki/list/documents.html:4
 #, python-format
 msgid "Articles tagged: %(tag)s"
-msgstr ""
+msgstr "Artikkelit tunnisteella: %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:28
 msgid "Translation updates needed"
@@ -4427,7 +4429,7 @@ msgstr "Ei tunnisteita."
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
 msgid "Articles tagged with any localization tags"
-msgstr ""
+msgstr "Artikkelit merkitty mihin tahansa lokalisointitunnisteeseen"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:15
 #, python-format
