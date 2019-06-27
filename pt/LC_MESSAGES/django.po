@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-13 15:15-0700\n"
+"POT-Creation-Date: 2019-06-27 14:11-0700\n"
 "PO-Revision-Date: 2018-06-22 14:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) https://pontoon.mozilla.org/pt_PT/\n"
@@ -113,32 +113,32 @@ msgstr "Pode estar interessado(a) noutras formas de <a href=\"%(content_url)s\">
 msgid "Internal Server Error"
 msgstr "Erro Interno do Servidor"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:61 jinja2/react_base.html:66
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:63 kuma/wiki/jinja2/wiki/react_document.html:68
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
 
-#: jinja2/base.html:95 jinja2/react_base.html:95
+#: jinja2/base.html:95 jinja2/react_base.html:91
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "A MDN está atualmente em modo de manutenção de só de leitura."
 
-#: jinja2/base.html:97 jinja2/react_base.html:97
+#: jinja2/base.html:97 jinja2/react_base.html:93
 msgid "Learn more"
 msgstr "Saber mais"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:151 jinja2/react_base.html:131 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Terms"
 msgstr "Termos"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:152 jinja2/react_base.html:132 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Privacy"
 msgstr "Privacidade"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
+#: jinja2/base.html:153 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
+#: jinja2/base.html:157 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:141
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla e colaboradores individuais.</p> <p>O conteúdo é disponibilizado sob <a href=\"%(copyright_url)s\">estas licenças</a>.</p>"
@@ -217,7 +217,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "Guias e referências"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:46
 msgid "Learn web development"
 msgstr "Aprender programação da web"
 
@@ -635,11 +635,11 @@ msgstr "Zulu"
 msgid "Unsubscribe from these emails:"
 msgstr "Anular subscrição destes emails:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:41
 msgid "Web Technologies"
 msgstr "Tecnologias da web"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Learn Web Development"
 msgstr "Aprender programação Web"
 
@@ -812,7 +812,7 @@ msgid "File"
 msgstr "Ficheiro"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:76
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1971
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1973
 msgid "Title"
 msgstr "Título"
 
@@ -977,7 +977,7 @@ msgstr ""
 msgid "Take the survey"
 msgstr "Preencha o nosso inquérito"
 
-#: kuma/core/apps.py:15
+#: kuma/core/apps.py:17
 msgid "Core"
 msgstr "Núcleo"
 
@@ -1187,7 +1187,7 @@ msgstr "Filtrar"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Tendências ao longo do tempo, terminam a %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1921
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1923
 msgid "Revision"
 msgstr "Revisão"
 
@@ -1281,11 +1281,20 @@ msgstr "Parar de receber emails quando as revisões em Inglês estão em espera"
 msgid "Get emailed when English reviews are waiting"
 msgstr "Receber emails quando as revisões em Inglês estão em espera"
 
+#: kuma/feeder/apps.py:15
+#, fuzzy
+msgid "Feeder"
+msgstr "Feed"
+
 #: kuma/feeder/sections.py:8
 msgid "Moz Hacks"
 msgstr "Hacks Moz"
 
-#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
+#: kuma/humans/apps.py:16
+msgid "Humans"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:17
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
@@ -1293,7 +1302,7 @@ msgstr ""
 "O site MDN Web Docs fornece informação acerca de tecnologias da Internet aberta, tais como HTML, CSS e APIs, para ambos websites e aplicações web progressivas. Também contém alguma documentação "
 "orientada para o programador para produtos da Mozilla, como as Ferramentas de Programação do Firefox."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:36
 msgid "Resources for developers, by developers."
 msgstr "Recursos para programadores, por programadores."
 
@@ -1301,55 +1310,55 @@ msgstr "Recursos para programadores, por programadores."
 msgid "Search the docs"
 msgstr "Procurar na documentação"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:51
 msgid "Developer Tools"
 msgstr "Ferramentas de programador"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:65
 msgid "Featured"
 msgstr "Em destaque"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
 msgid "Get The Browser For Developers Like You"
 msgstr "Obter o navegador para programadores como você"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
 msgid "read more at hacks.mozilla.org"
 msgstr "leia mais em hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Help improve MDN"
 msgstr "Ajude a melhorar a MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Todas as partes da MDN (documentação e o próprio site) são criadas por uma comunidade aberta de programadores. Por favor, junte-se a nós! Escolha uma das seguintes formas para ajudar:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Getting started"
 msgstr "Começar"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Editorial review"
 msgstr "Revisão editorial"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "Technical review"
 msgstr "Revisão técnica"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
 msgid "Translating"
 msgstr "Tradução"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Promoting MDN"
 msgstr "Promover a MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Contributing to the MDN codebase"
 msgstr "Contribuir para a base de código da MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Updating browser compatibility data"
 msgstr ""
 
@@ -3236,7 +3245,7 @@ msgstr "Banir utilizador e limpar"
 msgid "Admin"
 msgstr "Administrador"
 
-#: kuma/wiki/apps.py:11 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
+#: kuma/wiki/apps.py:14 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
 msgid "Wiki"
 msgstr "Wiki"
 
@@ -3520,109 +3529,109 @@ msgstr "associado no conteúdo do documento"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "O anexo %(attachment_id)s não pode ser anexado múltiplas vezes ao documento %(document_id)s"
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1585
 msgid "Review Tag"
 msgstr "Etiqueta de revisão"
 
-#: kuma/wiki/models.py:1584
+#: kuma/wiki/models.py:1586
 msgid "Review Tags"
 msgstr "Etiquetas de revisão"
 
-#: kuma/wiki/models.py:1590
+#: kuma/wiki/models.py:1592
 msgid "Localization Tag"
 msgstr "Etiqueta de tradução"
 
-#: kuma/wiki/models.py:1591
+#: kuma/wiki/models.py:1593
 msgid "Localization Tags"
 msgstr "Etiquetas de tradução"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1633
 msgid "No table of contents"
 msgstr "Sem tabela de conteúdos"
 
-#: kuma/wiki/models.py:1632
+#: kuma/wiki/models.py:1634
 msgid "All levels"
 msgstr "Todos os níveis"
 
-#: kuma/wiki/models.py:1633
+#: kuma/wiki/models.py:1635
 msgid "H2 and higher"
 msgstr "H2 e superior"
 
-#: kuma/wiki/models.py:1634
+#: kuma/wiki/models.py:1636
 msgid "H3 and higher"
 msgstr "H3 e superior"
 
-#: kuma/wiki/models.py:1635
+#: kuma/wiki/models.py:1637
 msgid "H4 and higher"
 msgstr "H4 e superior"
 
-#: kuma/wiki/models.py:1739
+#: kuma/wiki/models.py:1741
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Uma revisão tem de ser baseada numa revisão do documento em  %(locale)s. A revisão com o ID %(id)s não cumpre estes critérios."
 
-#: kuma/wiki/models.py:1880
+#: kuma/wiki/models.py:1882
 msgid "IP address"
 msgstr "Endereço IP"
 
-#: kuma/wiki/models.py:1888
+#: kuma/wiki/models.py:1890
 msgid "User-Agent"
 msgstr "Agente do utilizador"
 
-#: kuma/wiki/models.py:1893
+#: kuma/wiki/models.py:1895
 msgid "HTTP Referrer"
 msgstr "Referente HTTP"
 
-#: kuma/wiki/models.py:1901 kuma/wiki/models.py:1990
+#: kuma/wiki/models.py:1903 kuma/wiki/models.py:1992
 msgid "Data submitted to Akismet"
 msgstr "Dados enviados para o Akismet"
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1929
 msgid "Akismet submission"
 msgstr "Submissão Akismet"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1930
 msgid "Akismet submissions"
 msgstr "Submissões Akismet"
 
-#: kuma/wiki/models.py:1975
+#: kuma/wiki/models.py:1977
 msgid "Slug"
 msgstr "Slug"
 
 # 100%
-#: kuma/wiki/models.py:1983
+#: kuma/wiki/models.py:1985
 msgid "Document (optional)"
 msgstr "Documento (opcional)"
 
-#: kuma/wiki/models.py:1993
+#: kuma/wiki/models.py:1995
 msgid "reviewed"
 msgstr "revisto"
 
-#: kuma/wiki/models.py:2004
+#: kuma/wiki/models.py:2006
 msgid "Needs Review"
 msgstr "Precisa de revisão"
 
-#: kuma/wiki/models.py:2005
+#: kuma/wiki/models.py:2007
 msgid "Ham / False Positive"
 msgstr "Ham / Falso positivo"
 
-#: kuma/wiki/models.py:2006
+#: kuma/wiki/models.py:2008
 msgid "Confirmed as Spam"
 msgstr "Confirmado como spam"
 
-#: kuma/wiki/models.py:2007
+#: kuma/wiki/models.py:2009
 msgid "Review Unavailable"
 msgstr "Revisão indisponível"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2010
 msgid "Akismet Error"
 msgstr "Erro Akismet"
 
-#: kuma/wiki/models.py:2013
+#: kuma/wiki/models.py:2015
 msgid "Review of Akismet's classification as spam"
 msgstr "Revisão da classificação como spam do Akismet"
 
-#: kuma/wiki/models.py:2020
+#: kuma/wiki/models.py:2022
 msgid "Staff reviewer"
 msgstr "Revisor administrativo"
 
@@ -6608,9 +6617,6 @@ msgstr "Servidor elasticsearch: %(backend)s"
 
 #~ msgid "Last"
 #~ msgstr "Última"
-
-#~ msgid "Feed"
-#~ msgstr "Feed"
 
 #~ msgid "Launch %(title)s"
 #~ msgstr "Executar %(title)s"

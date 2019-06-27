@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-13 15:15-0700\n"
+"POT-Creation-Date: 2019-06-27 14:11-0700\n"
 "PO-Revision-Date: 2019-05-25 04:39+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (Traditional) https://pontoon.mozilla.org/zh_TW/\n"
@@ -111,32 +111,32 @@ msgstr "您可能會對其他<a href=\"%(content_url)s\">下載 MDN Web 文件�
 msgid "Internal Server Error"
 msgstr "伺服器內部錯誤"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:61 jinja2/react_base.html:66
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:63 kuma/wiki/jinja2/wiki/react_document.html:68
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
 
-#: jinja2/base.html:95 jinja2/react_base.html:95
+#: jinja2/base.html:95 jinja2/react_base.html:91
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN 目前正在唯讀的維護模式。"
 
-#: jinja2/base.html:97 jinja2/react_base.html:97
+#: jinja2/base.html:97 jinja2/react_base.html:93
 msgid "Learn more"
 msgstr "了解更多"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:151 jinja2/react_base.html:131 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Terms"
 msgstr "使用條款"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:152 jinja2/react_base.html:132 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Privacy"
 msgstr "隱私權"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
+#: jinja2/base.html:153 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
+#: jinja2/base.html:157 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:141
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla 與各貢獻者。</p> <p>內容依照<a href=\"%(copyright_url)s\">這些授權條款</a>提供大眾使用。</p>"
@@ -208,7 +208,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "參考資料與導覽"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:46
 msgid "Learn web development"
 msgstr "學習網頁開發"
 
@@ -617,11 +617,11 @@ msgstr "祖魯語"
 msgid "Unsubscribe from these emails:"
 msgstr "退訂下列郵件:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:41
 msgid "Web Technologies"
 msgstr "網頁技術"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Learn Web Development"
 msgstr "學習網頁開發"
 
@@ -790,7 +790,7 @@ msgid "File"
 msgstr "檔案"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:76
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1971
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1973
 msgid "Title"
 msgstr "頭銜"
 
@@ -947,7 +947,7 @@ msgstr "請幫助我們了解網頁開發者與設計師最重要的 10 個需�
 msgid "Take the survey"
 msgstr "完成問卷"
 
-#: kuma/core/apps.py:15
+#: kuma/core/apps.py:17
 msgid "Core"
 msgstr "核心"
 
@@ -1153,7 +1153,7 @@ msgstr "過濾"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "隨時間趨勢，結束於 %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1921
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1923
 msgid "Revision"
 msgstr "修改"
 
@@ -1246,17 +1246,26 @@ msgstr "停止在有英語文章等待審核時接收 Email 通知"
 msgid "Get emailed when English reviews are waiting"
 msgstr "有英語文章等待審核時接收 Email 通知"
 
+#: kuma/feeder/apps.py:15
+#, fuzzy
+msgid "Feeder"
+msgstr "Feed"
+
 #: kuma/feeder/sections.py:8
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
+#: kuma/humans/apps.py:16
+msgid "Humans"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:17
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
 msgstr "MDN Web Docs 提供關於網站與漸進式網頁應用程式（progressive web apps）的 Open Web 技術相關資訊，包含 HTML、CSS 及 API 等。本站也為 Firefox 開發者工具等 Mozilla 產品提供開發者技術文件。"
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:36
 msgid "Resources for developers, by developers."
 msgstr "由開發者撰寫的開發資源。"
 
@@ -1264,55 +1273,55 @@ msgstr "由開發者撰寫的開發資源。"
 msgid "Search the docs"
 msgstr "搜尋文件"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:51
 msgid "Developer Tools"
 msgstr "開發者工具"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:65
 msgid "Featured"
 msgstr "精選"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
 msgid "Get The Browser For Developers Like You"
 msgstr "取得為像您一樣的開發者所設計的瀏覽器"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
 msgid "read more at hacks.mozilla.org"
 msgstr "到 hacks.mozilla.org 閱讀更多"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Help improve MDN"
 msgstr "協助改善 MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "MDN 的所有部分（包含文件及網站本身）都是由開發者所組成的開放社群所提供。快來加入我們！你可透過下列方法之一提供協助："
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Getting started"
 msgstr "開始使用"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Editorial review"
 msgstr "編輯審核"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "Technical review"
 msgstr "技術審核"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
 msgid "Translating"
 msgstr "翻譯"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Promoting MDN"
 msgstr "宣傳 MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Contributing to the MDN codebase"
 msgstr "貢獻至 MDN codebase"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Updating browser compatibility data"
 msgstr "正在更新瀏覽器相容性資料"
 
@@ -3149,7 +3158,7 @@ msgstr "封鎖使用者與清理"
 msgid "Admin"
 msgstr "管理"
 
-#: kuma/wiki/apps.py:11 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
+#: kuma/wiki/apps.py:14 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
 msgid "Wiki"
 msgstr "Wiki"
 
@@ -3437,108 +3446,108 @@ msgstr "連結至文件內容"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "無法多次新增附件 %(attachment_id)s 至文件 %(document_id)s"
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1585
 msgid "Review Tag"
 msgstr "檢查標籤"
 
-#: kuma/wiki/models.py:1584
+#: kuma/wiki/models.py:1586
 msgid "Review Tags"
 msgstr "檢查標籤"
 
-#: kuma/wiki/models.py:1590
+#: kuma/wiki/models.py:1592
 msgid "Localization Tag"
 msgstr "在地化標籤"
 
-#: kuma/wiki/models.py:1591
+#: kuma/wiki/models.py:1593
 msgid "Localization Tags"
 msgstr "在地化標籤"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1633
 msgid "No table of contents"
 msgstr "沒有目錄"
 
-#: kuma/wiki/models.py:1632
+#: kuma/wiki/models.py:1634
 msgid "All levels"
 msgstr "所有層級"
 
-#: kuma/wiki/models.py:1633
+#: kuma/wiki/models.py:1635
 msgid "H2 and higher"
 msgstr "H2 以上"
 
-#: kuma/wiki/models.py:1634
+#: kuma/wiki/models.py:1636
 msgid "H3 and higher"
 msgstr "H3 以上"
 
-#: kuma/wiki/models.py:1635
+#: kuma/wiki/models.py:1637
 msgid "H4 and higher"
 msgstr "H4 以上"
 
-#: kuma/wiki/models.py:1739
+#: kuma/wiki/models.py:1741
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "修改必須基於 %(locale)s 的修訂文件。 版本編號 %(id)s 不符合這些規範。"
 
-#: kuma/wiki/models.py:1880
+#: kuma/wiki/models.py:1882
 msgid "IP address"
 msgstr "IP 地址"
 
-#: kuma/wiki/models.py:1888
+#: kuma/wiki/models.py:1890
 msgid "User-Agent"
 msgstr "使用者代理字串"
 
-#: kuma/wiki/models.py:1893
+#: kuma/wiki/models.py:1895
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1901 kuma/wiki/models.py:1990
+#: kuma/wiki/models.py:1903 kuma/wiki/models.py:1992
 msgid "Data submitted to Akismet"
 msgstr "送出給 Akismet 的資料"
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1929
 msgid "Akismet submission"
 msgstr "送出 Akismet"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1930
 msgid "Akismet submissions"
 msgstr "送出 Akismet"
 
-#: kuma/wiki/models.py:1975
+#: kuma/wiki/models.py:1977
 msgid "Slug"
 msgstr "Slug"
 
-#: kuma/wiki/models.py:1983
+#: kuma/wiki/models.py:1985
 msgid "Document (optional)"
 msgstr "文件（非必填）"
 
-#: kuma/wiki/models.py:1993
+#: kuma/wiki/models.py:1995
 msgid "reviewed"
 msgstr "已審查"
 
-#: kuma/wiki/models.py:2004
+#: kuma/wiki/models.py:2006
 msgid "Needs Review"
 msgstr "需要審查"
 
-#: kuma/wiki/models.py:2005
+#: kuma/wiki/models.py:2007
 msgid "Ham / False Positive"
 msgstr "Ham / 被誤分為垃圾信"
 
-#: kuma/wiki/models.py:2006
+#: kuma/wiki/models.py:2008
 msgid "Confirmed as Spam"
 msgstr "已確認為垃圾信"
 
-#: kuma/wiki/models.py:2007
+#: kuma/wiki/models.py:2009
 msgid "Review Unavailable"
 msgstr "無法審查"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2010
 msgid "Akismet Error"
 msgstr "Akismet 錯誤"
 
-#: kuma/wiki/models.py:2013
+#: kuma/wiki/models.py:2015
 msgid "Review of Akismet's classification as spam"
 msgstr "Akismet 錯誤分類成垃圾信"
 
-#: kuma/wiki/models.py:2020
+#: kuma/wiki/models.py:2022
 msgid "Staff reviewer"
 msgstr "職員審核"
 
@@ -6574,9 +6583,6 @@ msgstr "Elasticsearch 伺服器: %(backend)s"
 
 #~ msgid "Last"
 #~ msgstr "最後"
-
-#~ msgid "Feed"
-#~ msgstr "Feed"
 
 #~ msgid "Launch %(title)s"
 #~ msgstr "執行 %(title)s"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-13 15:15-0700\n"
+"POT-Creation-Date: 2019-06-27 14:11-0700\n"
 "PO-Revision-Date: 2019-05-26 15:49+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -114,32 +114,32 @@ msgstr "Esetleg érdekelhetik az <a href=\"%(content_url)s\">MDN webes dokument�
 msgid "Internal Server Error"
 msgstr "Belső kiszolgálóhiba"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:61 jinja2/react_base.html:66
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:63 kuma/wiki/jinja2/wiki/react_document.html:68
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN webes dokumentáció"
 
-#: jinja2/base.html:95 jinja2/react_base.html:95
+#: jinja2/base.html:95 jinja2/react_base.html:91
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "Az MDN jelenleg csak olvasható, karbantartási módban van."
 
-#: jinja2/base.html:97 jinja2/react_base.html:97
+#: jinja2/base.html:97 jinja2/react_base.html:93
 msgid "Learn more"
 msgstr "Tudjon meg többet"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:151 jinja2/react_base.html:131 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Terms"
 msgstr "Feltételek"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:152 jinja2/react_base.html:132 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Privacy"
 msgstr "Adatvédelem"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
+#: jinja2/base.html:153 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Cookies"
 msgstr "Sütik"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
+#: jinja2/base.html:157 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:141
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla és egyéni hozzájárulók.</p> <p>A tartalom <a href=\"%(copyright_url)s\">ezen licencek</a> alatt érhető el.</p>"
@@ -215,7 +215,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "Referenciák és útmutatók"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:46
 msgid "Learn web development"
 msgstr "Tanuljon a webfejlesztésről"
 
@@ -631,11 +631,11 @@ msgstr "zulu"
 msgid "Unsubscribe from these emails:"
 msgstr "Leiratkozás ezekről az e-mailekről:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:41
 msgid "Web Technologies"
 msgstr "Webes technológiák"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Learn Web Development"
 msgstr "Tanuljon a webfejlesztésről"
 
@@ -806,7 +806,7 @@ msgid "File"
 msgstr "Fájl"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:76
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1971
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1973
 msgid "Title"
 msgstr "Cím"
 
@@ -974,7 +974,7 @@ msgstr ""
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
 
-#: kuma/core/apps.py:15
+#: kuma/core/apps.py:17
 msgid "Core"
 msgstr "Mag"
 
@@ -1181,7 +1181,7 @@ msgstr "Szűrés"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Tendenciák az időben, eddig: %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1921
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1923
 msgid "Revision"
 msgstr "Verzió"
 
@@ -1275,11 +1275,20 @@ msgstr "Ne kapjon több e-mailt amikor magyar véleményezések várakoznak"
 msgid "Get emailed when English reviews are waiting"
 msgstr "Kapjon e-mailt amikor magyar véleményezések várakoznak"
 
+#: kuma/feeder/apps.py:15
+#, fuzzy
+msgid "Feeder"
+msgstr "Hírfolyam"
+
 #: kuma/feeder/sections.py:8
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
+#: kuma/humans/apps.py:16
+msgid "Humans"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:17
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
@@ -1287,7 +1296,7 @@ msgstr ""
 "Az MDN webes dokumentáció információkat szolgáltat a nyílt webes technológiákról, beleértve a HTML-t, a CSS-t, és az alkalmazásinterfészeket weboldalakhoz és a progresszív webalkalmazásokhoz. "
 "Fejlesztőknek szóló dokumentációkat is tartalmaz a Mozilla termékekről, például a Firefox fejlesztői eszközökről."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:36
 msgid "Resources for developers, by developers."
 msgstr "Erőforrások fejlesztőknek, fejlesztőktől."
 
@@ -1295,55 +1304,55 @@ msgstr "Erőforrások fejlesztőknek, fejlesztőktől."
 msgid "Search the docs"
 msgstr "Keresés a dokumentációkban"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:51
 msgid "Developer Tools"
 msgstr "Fejlesztői eszközök"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:65
 msgid "Featured"
 msgstr "Kiemelt"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
 msgid "Get The Browser For Developers Like You"
 msgstr "Szerezze be az Önhöz hasonló fejlesztőknek készült böngészőt"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
 msgid "read more at hacks.mozilla.org"
 msgstr "Bővebben: hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Help improve MDN"
 msgstr "Segítsen az MDN tökéletesítésében"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Az MDN minden részét (a dokumentációkat és az oldat magát is) egy fejlesztőkből álló nyílt közösség hozza létre. Kérjük csatlakozzon hozzánk! Válasszon egyet ezek közül, hogy segítsen:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Getting started"
 msgstr "Első lépések"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Editorial review"
 msgstr "Szerkesztői felülvizsgálat"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "Technical review"
 msgstr "Műszaki felülvizsgálat"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
 msgid "Translating"
 msgstr "Fordítás"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Promoting MDN"
 msgstr "Az MDN népszerűsítése"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Contributing to the MDN codebase"
 msgstr "Hozzájárulás az MDN kódbázisához"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Updating browser compatibility data"
 msgstr "Böngésző kompatibilitási adatainak frissítése"
 
@@ -3218,7 +3227,7 @@ msgstr "Felhasználó kitiltása és takarítás"
 msgid "Admin"
 msgstr "Admin"
 
-#: kuma/wiki/apps.py:11 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
+#: kuma/wiki/apps.py:14 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
 msgid "Wiki"
 msgstr "Wiki"
 
@@ -3504,108 +3513,108 @@ msgstr "hivatkozva a dokumentum tartalmában"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "A(z) %(attachment_id)s melléklet nem adható hozzá többször a(z) %(document_id)s dokumentumhoz"
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1585
 msgid "Review Tag"
 msgstr "Felülvizsgálat címke"
 
-#: kuma/wiki/models.py:1584
+#: kuma/wiki/models.py:1586
 msgid "Review Tags"
 msgstr "Felülvizsgálat címkék"
 
-#: kuma/wiki/models.py:1590
+#: kuma/wiki/models.py:1592
 msgid "Localization Tag"
 msgstr "Honosítási címke"
 
-#: kuma/wiki/models.py:1591
+#: kuma/wiki/models.py:1593
 msgid "Localization Tags"
 msgstr "Honosítási címkék"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1633
 msgid "No table of contents"
 msgstr "Nincs tartalomjegyzék"
 
-#: kuma/wiki/models.py:1632
+#: kuma/wiki/models.py:1634
 msgid "All levels"
 msgstr "Minden vázlatszintre"
 
-#: kuma/wiki/models.py:1633
+#: kuma/wiki/models.py:1635
 msgid "H2 and higher"
 msgstr "H2 és nagyobb"
 
-#: kuma/wiki/models.py:1634
+#: kuma/wiki/models.py:1636
 msgid "H3 and higher"
 msgstr "H3 és nagyobb"
 
-#: kuma/wiki/models.py:1635
+#: kuma/wiki/models.py:1637
 msgid "H4 and higher"
 msgstr "H4 és nagyobb"
 
-#: kuma/wiki/models.py:1739
+#: kuma/wiki/models.py:1741
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Egy verziónak a %(locale)s dokumentum egy verzióján kell alapulnia. A %(id)s verzióazonosítóra nem teljesül ez a feltétel."
 
-#: kuma/wiki/models.py:1880
+#: kuma/wiki/models.py:1882
 msgid "IP address"
 msgstr "IP-cím"
 
-#: kuma/wiki/models.py:1888
+#: kuma/wiki/models.py:1890
 msgid "User-Agent"
 msgstr "Böngészőazonosító"
 
-#: kuma/wiki/models.py:1893
+#: kuma/wiki/models.py:1895
 msgid "HTTP Referrer"
 msgstr "HTTP hivatkozó"
 
-#: kuma/wiki/models.py:1901 kuma/wiki/models.py:1990
+#: kuma/wiki/models.py:1903 kuma/wiki/models.py:1992
 msgid "Data submitted to Akismet"
 msgstr "Akismetnek beküldött adatok"
 
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1929
 msgid "Akismet submission"
 msgstr "Akismet beküldés"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1930
 msgid "Akismet submissions"
 msgstr "Akismet beküldések"
 
-#: kuma/wiki/models.py:1975
+#: kuma/wiki/models.py:1977
 msgid "Slug"
 msgstr "SEO URL"
 
-#: kuma/wiki/models.py:1983
+#: kuma/wiki/models.py:1985
 msgid "Document (optional)"
 msgstr "Dokumentum (nem kötelező)"
 
-#: kuma/wiki/models.py:1993
+#: kuma/wiki/models.py:1995
 msgid "reviewed"
 msgstr "felülvizsgálva"
 
-#: kuma/wiki/models.py:2004
+#: kuma/wiki/models.py:2006
 msgid "Needs Review"
 msgstr "Felülvizsgálat szükséges"
 
-#: kuma/wiki/models.py:2005
+#: kuma/wiki/models.py:2007
 msgid "Ham / False Positive"
 msgstr "Nem levélszemét / hamis pozitív"
 
-#: kuma/wiki/models.py:2006
+#: kuma/wiki/models.py:2008
 msgid "Confirmed as Spam"
 msgstr "Levélszemétként megerősítve"
 
-#: kuma/wiki/models.py:2007
+#: kuma/wiki/models.py:2009
 msgid "Review Unavailable"
 msgstr "A felülvizsgálat nem érhető el"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2010
 msgid "Akismet Error"
 msgstr "Akismet hiba"
 
-#: kuma/wiki/models.py:2013
+#: kuma/wiki/models.py:2015
 msgid "Review of Akismet's classification as spam"
 msgstr "Az Akismet levélszemétként osztályozásának felülvizsgálata"
 
-#: kuma/wiki/models.py:2020
+#: kuma/wiki/models.py:2022
 msgid "Staff reviewer"
 msgstr "Szerkesztői felülvizsgáló"
 
@@ -5857,9 +5866,6 @@ msgstr "Elasticsearch kiszolgáló: %(backend)s"
 
 #~ msgid "Last"
 #~ msgstr "Utolsó"
-
-#~ msgid "Feed"
-#~ msgstr "Hírfolyam"
 
 #~ msgid "Explanation URL (optional):"
 #~ msgstr "Magyarázat:"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-13 15:15-0700\n"
+"POT-Creation-Date: 2019-06-27 14:11-0700\n"
 "PO-Revision-Date: 2019-03-09 13:30+0000\n"
 "Last-Translator: myeongjun.ko <myeongjun.ko@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -118,32 +118,32 @@ msgstr "<a href=\"%(content_url)s\">MDN Web Docs 콘텐츠</a>를 다운로드�
 msgid "Internal Server Error"
 msgstr "내부 서버 오류"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:61 jinja2/react_base.html:66
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:63 kuma/wiki/jinja2/wiki/react_document.html:68
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN 웹 문서"
 
-#: jinja2/base.html:95 jinja2/react_base.html:95
+#: jinja2/base.html:95 jinja2/react_base.html:91
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN은 현재 보수 작업 중으로 읽기-전용으로만 사용하실 수 있습니다."
 
-#: jinja2/base.html:97 jinja2/react_base.html:97
+#: jinja2/base.html:97 jinja2/react_base.html:93
 msgid "Learn more"
 msgstr "더 알아보기"
 
-#: jinja2/base.html:151 jinja2/react_base.html:135 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:151 jinja2/react_base.html:131 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Terms"
 msgstr "이용약관"
 
-#: jinja2/base.html:152 jinja2/react_base.html:136 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:152 jinja2/react_base.html:132 kuma/wiki/jinja2/wiki/react_document.html:136
 msgid "Privacy"
 msgstr "개인 정보 보호"
 
-#: jinja2/base.html:153 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:138
+#: jinja2/base.html:153 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:137
 msgid "Cookies"
 msgstr "쿠키"
 
-#: jinja2/base.html:157 jinja2/react_base.html:141 kuma/wiki/jinja2/wiki/react_document.html:142
+#: jinja2/base.html:157 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:141
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla와 개별 공헌자에게 있습니다.</p> <p> 콘텐츠는 <a href=\"%(copyright_url)s\">이 라이센스</a> 아래 이용할 수 있습니다.</p>"
@@ -218,7 +218,7 @@ msgstr "MathML"
 msgid "References & Guides"
 msgstr "참조문서 및 가이드"
 
-#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:50
+#: jinja2/includes/header-main-nav.html:29 kuma/landing/jinja2/landing/homepage.html:61 kuma/landing/jinja2/landing/react_homepage.html:46
 msgid "Learn web development"
 msgstr "웹 개발 배우기"
 
@@ -628,11 +628,11 @@ msgstr "줄루어"
 msgid "Unsubscribe from these emails:"
 msgstr "현재 메일 구독 취소:"
 
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:45
+#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:41
 msgid "Web Technologies"
 msgstr "웹 기술"
 
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:82
+#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Learn Web Development"
 msgstr "웹 개발 배우기"
 
@@ -812,7 +812,7 @@ msgstr "파일"
 
 # https://github.com/mozilla/kuma/blob/master/apps/devmo/models.py
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8 kuma/users/models.py:76
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1971
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/wiki/models.py:1973
 msgid "Title"
 msgstr "직함"
 
@@ -976,7 +976,7 @@ msgstr ""
 msgid "Take the survey"
 msgstr "설문 참여"
 
-#: kuma/core/apps.py:15
+#: kuma/core/apps.py:17
 msgid "Core"
 msgstr "코어"
 
@@ -1183,7 +1183,7 @@ msgstr "항목"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "시간경과에 따른 동향, 종료 %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1921
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1923
 msgid "Revision"
 msgstr "개정판"
 
@@ -1275,11 +1275,20 @@ msgstr "영문 리뷰가 대기 중인 경우 메일 받지 않기"
 msgid "Get emailed when English reviews are waiting"
 msgstr "한국어 리뷰가 대기중이면 메일 받기"
 
+#: kuma/feeder/apps.py:15
+#, fuzzy
+msgid "Feeder"
+msgstr "피드"
+
 #: kuma/feeder/sections.py:8
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
+#: kuma/humans/apps.py:16
+msgid "Humans"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:17
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
 "for Mozilla products, such as Firefox Developer Tools."
@@ -1287,7 +1296,7 @@ msgstr ""
 "MDN 웹 문서 사이트는 HTML, CSS, 및 웹 사이트와 프로그레시브 웹 앱을 위한 API를 포함한 오픈 웹 기술에 대한 정보를 제공합니다. 또한 Firefox 개발자 도구와 같은 Mozilla 제품을 위한 개발자 지향 문서도 포"
 "함합니다."
 
-#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:40
+#: kuma/landing/jinja2/landing/homepage.html:37 kuma/landing/jinja2/landing/react_homepage.html:36
 msgid "Resources for developers, by developers."
 msgstr "개발자에 의한, 개발자를 위한 자료입니다."
 
@@ -1295,55 +1304,55 @@ msgstr "개발자에 의한, 개발자를 위한 자료입니다."
 msgid "Search the docs"
 msgstr "문서 검색"
 
-#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:55
+#: kuma/landing/jinja2/landing/homepage.html:66 kuma/landing/jinja2/landing/react_homepage.html:51
 msgid "Developer Tools"
 msgstr "개발자 도구"
 
-#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:69
+#: kuma/landing/jinja2/landing/homepage.html:80 kuma/landing/jinja2/landing/react_homepage.html:65
 msgid "Featured"
 msgstr "중요"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:85
+#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
 msgid "Get The Browser For Developers Like You"
 msgstr "개발자를 위한 웹 브라우저"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:99
+#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
 msgid "read more at hacks.mozilla.org"
 msgstr "hacks.mozilla.org에서 더 자세히 보기"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Help improve MDN"
 msgstr "MDN 참여하기"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "MDN의 모든 영역(문서, 데모, 웹 사이트)는 개발자 커뮤니티에 의해 만들어집니다! 지금 참여하셔서 함께 만들어 주십시오:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Getting started"
 msgstr "시작하기"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Editorial review"
 msgstr "편집 검토"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:113
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "Technical review"
 msgstr "기술 검토"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:114
+#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
 msgid "Translating"
 msgstr "번역하기"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:115
+#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
 msgid "Promoting MDN"
 msgstr "MDN 홍보하기"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:116
+#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
 msgid "Contributing to the MDN codebase"
 msgstr "MDN 웹 사이트 개발 참여"
 
-#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:117
+#: kuma/landing/jinja2/landing/homepage.html:128 kuma/landing/jinja2/landing/react_homepage.html:113
 msgid "Updating browser compatibility data"
 msgstr "브라우저 호환성 데이터 업데이트"
 
@@ -3195,7 +3204,7 @@ msgstr "사용자 금지 & 초기화"
 msgid "Admin"
 msgstr "관리자"
 
-#: kuma/wiki/apps.py:11 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
+#: kuma/wiki/apps.py:14 kuma/wiki/templates/admin/wiki/purge_documents.html:23 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23
 msgid "Wiki"
 msgstr "위키"
 
@@ -3489,114 +3498,114 @@ msgstr "문서 내용에 링크됨"
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "첨부파일 %(attachment_id)s는 문서 %(document_id)s에 여러 번 첨부될 수 없습니다"
 
-#: kuma/wiki/models.py:1583
+#: kuma/wiki/models.py:1585
 msgid "Review Tag"
 msgstr "검토 태그"
 
-#: kuma/wiki/models.py:1584
+#: kuma/wiki/models.py:1586
 msgid "Review Tags"
 msgstr "검토 태그"
 
 # docs, Mozilla - 목록 항목,
 # mozilla, Popular Mozilla Documentation - 링크 텍스트
-#: kuma/wiki/models.py:1590
+#: kuma/wiki/models.py:1592
 msgid "Localization Tag"
 msgstr "지역화 태그"
 
 # docs, Mozilla - 목록 항목,
 # mozilla, Popular Mozilla Documentation - 링크 텍스트
-#: kuma/wiki/models.py:1591
+#: kuma/wiki/models.py:1593
 msgid "Localization Tags"
 msgstr "지역화 태그"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1633
 msgid "No table of contents"
 msgstr "목차 없음"
 
-#: kuma/wiki/models.py:1632
+#: kuma/wiki/models.py:1634
 msgid "All levels"
 msgstr "전체 등급"
 
-#: kuma/wiki/models.py:1633
+#: kuma/wiki/models.py:1635
 msgid "H2 and higher"
 msgstr "H2 이상"
 
-#: kuma/wiki/models.py:1634
+#: kuma/wiki/models.py:1636
 msgid "H3 and higher"
 msgstr "H3 이상"
 
-#: kuma/wiki/models.py:1635
+#: kuma/wiki/models.py:1637
 msgid "H4 and higher"
 msgstr "H4 이상"
 
-#: kuma/wiki/models.py:1739
+#: kuma/wiki/models.py:1741
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "개정판은 %(locale)s 문서의 개정판을 기초로 해야 합니다. 개정판 ID %(id)s는 그 기준에 적합하지 않습니다."
 
-#: kuma/wiki/models.py:1880
+#: kuma/wiki/models.py:1882
 msgid "IP address"
 msgstr "IP 주소"
 
-#: kuma/wiki/models.py:1888
+#: kuma/wiki/models.py:1890
 msgid "User-Agent"
 msgstr "사용자 도구"
 
-#: kuma/wiki/models.py:1893
+#: kuma/wiki/models.py:1895
 msgid "HTTP Referrer"
 msgstr "HTTP 레퍼러"
 
-#: kuma/wiki/models.py:1901 kuma/wiki/models.py:1990
+#: kuma/wiki/models.py:1903 kuma/wiki/models.py:1992
 msgid "Data submitted to Akismet"
 msgstr "Akismet에 제출된 데이터"
 
 # DevDerby 부메뉴
-#: kuma/wiki/models.py:1927
+#: kuma/wiki/models.py:1929
 msgid "Akismet submission"
 msgstr "Akismet 제출"
 
 # DevDerby 부메뉴
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1930
 msgid "Akismet submissions"
 msgstr "Akismet 제출"
 
-#: kuma/wiki/models.py:1975
+#: kuma/wiki/models.py:1977
 msgid "Slug"
 msgstr "슬러그"
 
-#: kuma/wiki/models.py:1983
+#: kuma/wiki/models.py:1985
 msgid "Document (optional)"
 msgstr "문서(선택사항)"
 
-#: kuma/wiki/models.py:1993
+#: kuma/wiki/models.py:1995
 msgid "reviewed"
 msgstr "검토됨"
 
-#: kuma/wiki/models.py:2004
+#: kuma/wiki/models.py:2006
 msgid "Needs Review"
 msgstr "검토 필요"
 
-#: kuma/wiki/models.py:2005
+#: kuma/wiki/models.py:2007
 msgid "Ham / False Positive"
 msgstr "스팸아님 / 오판"
 
-#: kuma/wiki/models.py:2006
+#: kuma/wiki/models.py:2008
 msgid "Confirmed as Spam"
 msgstr "스팸으로 확인"
 
-#: kuma/wiki/models.py:2007
+#: kuma/wiki/models.py:2009
 msgid "Review Unavailable"
 msgstr "검토 이용 불가"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2010
 msgid "Akismet Error"
 msgstr "Akismet 오류"
 
-#: kuma/wiki/models.py:2013
+#: kuma/wiki/models.py:2015
 msgid "Review of Akismet's classification as spam"
 msgstr "Akismet 스팸 분류 검토"
 
-#: kuma/wiki/models.py:2020
+#: kuma/wiki/models.py:2022
 msgid "Staff reviewer"
 msgstr "검토 담당 스태프"
 
@@ -6498,9 +6507,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 
 #~ msgid "Last"
 #~ msgstr "마지막"
-
-#~ msgid "Feed"
-#~ msgstr "피드"
 
 #~ msgid "Launch %(title)s"
 #~ msgstr "{title} 실행"
