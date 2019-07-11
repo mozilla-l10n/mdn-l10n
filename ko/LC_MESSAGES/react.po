@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-27 14:10-0700\n"
+"POT-Creation-Date: 2019-07-11 14:45-0700\n"
 "PO-Revision-Date: 2019-03-09 13:30+0000\n"
 "Last-Translator: myeongjun.ko <myeongjun.ko@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -72,7 +72,7 @@ msgstr "문서 내 섹션"
 msgid "What should the sample title be?"
 msgstr "샘플 제목을 무엇으로 할까요?"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:91
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:107
 msgid "HTML"
 msgstr "HTML"
 
@@ -82,7 +82,7 @@ msgstr "HTML 콘텐츠 예제"
 
 # docs, Key Topics for Web Developers - 목록 항목,
 # web, Popular Web Documentation - 링크 텍스트
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:92
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:108
 msgid "CSS"
 msgstr "CSS"
 
@@ -90,7 +90,7 @@ msgstr "CSS"
 msgid "Sample CSS Content"
 msgstr "CSS 콘텐츠 예제"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:93
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:111
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -142,16 +142,16 @@ msgstr "입력한 URL이 유효하게 보이지 않습니다"
 msgid "Default"
 msgstr "기본 설정"
 
-#: kuma/javascript/src/article.jsx:164
+#: kuma/javascript/src/article.jsx:179
 msgid "Tags:"
 msgstr ""
 
-#: kuma/javascript/src/article.jsx:173
+#: kuma/javascript/src/article.jsx:191
 msgid "Contributors to this page:"
 msgstr "이 페이지의 공헌자:"
 
 # 100%
-#: kuma/javascript/src/article.jsx:188
+#: kuma/javascript/src/article.jsx:209
 msgid "Last updated by:"
 msgstr "최종 변경자:"
 
@@ -172,16 +172,28 @@ msgstr ""
 msgid "Take the survey"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd.js:26 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "열기"
 
-#: kuma/javascript/src/document.jsx:166
+#: kuma/javascript/src/bcd.js:277
+msgid "Flag as incorrect"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:295
+msgid "Thank you for letting us know!"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:300
+msgid "Something went wrong!"
+msgstr ""
+
+#: kuma/javascript/src/document.jsx:167
 #, fuzzy
 msgid "On this Page"
 msgstr "현재 페이지"
 
-#: kuma/javascript/src/document.jsx:182
+#: kuma/javascript/src/document.jsx:183
 msgid "Related Topics"
 msgstr "관련 주제"
 
@@ -204,6 +216,11 @@ msgstr "결과"
 msgid "Search results for \"%(query)s\""
 msgstr ""
 
+#: kuma/javascript/src/section-link.jsx:20
+#, fuzzy
+msgid "Link to"
+msgstr "링크"
+
 #: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr ""
@@ -216,91 +233,104 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: kuma/javascript/src/titlebar.jsx:95
+#: kuma/javascript/src/titlebar.jsx:93
 msgid "Edit"
 msgstr "편집"
 
-#: kuma/javascript/src/header/header.jsx:88
+#: kuma/javascript/src/a11y/a11y-nav.jsx:11
+msgid "Skip to main content"
+msgstr ""
+
+#: kuma/javascript/src/a11y/a11y-nav.jsx:16
+#, fuzzy
+msgid "Select language"
+msgstr "첨부 파일 선택"
+
+#: kuma/javascript/src/a11y/a11y-nav.jsx:21
+msgid "Skip to search"
+msgstr ""
+
+#: kuma/javascript/src/header/header.jsx:104
 msgid "Technologies"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:94
+#: kuma/javascript/src/header/header.jsx:115
 msgid "Graphics"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:95
+#: kuma/javascript/src/header/header.jsx:117
 msgid "HTTP"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:96
+#: kuma/javascript/src/header/header.jsx:120
 msgid "APIs / DOM"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:99
+#: kuma/javascript/src/header/header.jsx:124
 msgid "Browser Extensions"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:101
+#: kuma/javascript/src/header/header.jsx:128
 msgid "MathML"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:105
+#: kuma/javascript/src/header/header.jsx:133
 msgid "References & Guides"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:108
+#: kuma/javascript/src/header/header.jsx:138
 msgid "Learn web development"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:109
+#: kuma/javascript/src/header/header.jsx:142
 msgid "Tutorials"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:110
+#: kuma/javascript/src/header/header.jsx:146
 msgid "References"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:111
+#: kuma/javascript/src/header/header.jsx:150
 msgid "Developer Guides"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:112
+#: kuma/javascript/src/header/header.jsx:154
 msgid "Accessibility"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:113
+#: kuma/javascript/src/header/header.jsx:158
 msgid "Game development"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:114
+#: kuma/javascript/src/header/header.jsx:162
 msgid "...more docs"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:118
+#: kuma/javascript/src/header/header.jsx:167
 msgid "Feedback"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:123
+#: kuma/javascript/src/header/header.jsx:172
 msgid "Get Firefox help"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:128
+#: kuma/javascript/src/header/header.jsx:177
 msgid "Get web development help"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:131
+#: kuma/javascript/src/header/header.jsx:182
 msgid "Join the MDN community"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:133
+#: kuma/javascript/src/header/header.jsx:185
 msgid "Report a content problem"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:140
+#: kuma/javascript/src/header/header.jsx:191
 msgid "Report a bug"
 msgstr ""
 
-#: kuma/javascript/src/header/language-menu.jsx:26
+#: kuma/javascript/src/header/language-menu.jsx:30
 #, fuzzy
 msgid "English"
 msgstr "영어 (미국)"
@@ -321,7 +351,7 @@ msgstr "로그 아웃"
 msgid "Sign in"
 msgstr "로그인"
 
-#: kuma/javascript/src/header/search.jsx:71
+#: kuma/javascript/src/header/search.jsx:66
 msgid "Search MDN"
 msgstr "MDN 검색"
 

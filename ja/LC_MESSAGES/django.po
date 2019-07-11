@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-27 14:11-0700\n"
+"POT-Creation-Date: 2019-07-11 14:46-0700\n"
 "PO-Revision-Date: 2019-04-08 01:51+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -125,19 +125,19 @@ msgstr "MDN は現在、読み取り専用のメンテナンスモードにな�
 msgid "Learn more"
 msgstr "詳細"
 
-#: jinja2/base.html:151 jinja2/react_base.html:131 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:151 jinja2/react_base.html:127 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Terms"
 msgstr "利用規約"
 
-#: jinja2/base.html:152 jinja2/react_base.html:132 kuma/wiki/jinja2/wiki/react_document.html:136
+#: jinja2/base.html:152 jinja2/react_base.html:128 kuma/wiki/jinja2/wiki/react_document.html:134
 msgid "Privacy"
 msgstr "プライバシー"
 
-#: jinja2/base.html:153 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:137
+#: jinja2/base.html:153 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:135
 msgid "Cookies"
 msgstr "Cookie"
 
-#: jinja2/base.html:157 jinja2/react_base.html:137 kuma/wiki/jinja2/wiki/react_document.html:141
+#: jinja2/base.html:157 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:139
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla および各貢献者</p> <p>コンテンツは <a href=\"%(copyright_url)s\">これらのライセンス</a> の下で公開されています。</p>"
@@ -295,12 +295,12 @@ msgid "Documentation status"
 msgstr "ドキュメント翻訳状況"
 
 # フッタ右下
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:95
 msgid "Other languages:"
 msgstr "他の言語:"
 
 # JavaScript オフ時の表示言語切り替えボタン
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:106
 msgid "Go"
 msgstr "移動"
 
@@ -2917,7 +2917,7 @@ msgstr "ページ"
 msgid "Date"
 msgstr "日時"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:294
 msgid "Edit page"
 msgstr "ページを編集"
 
@@ -2925,7 +2925,7 @@ msgstr "ページを編集"
 msgid "View complete diff"
 msgstr "すべての差分を表示"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:295
 msgid "View page history"
 msgstr "ページの履歴を表示"
 
@@ -3581,7 +3581,7 @@ msgstr "Akismet 投稿"
 msgid "Slug"
 msgstr "スラグ"
 
-#: kuma/wiki/models.py:1985
+#: kuma/wiki/models.py:1985 kuma/wiki/models.py:2037
 msgid "Document (optional)"
 msgstr "ドキュメント (オプション)"
 
@@ -3783,11 +3783,11 @@ msgstr "このドキュメントを復元"
 msgid "Purge this document"
 msgstr "このドキュメントを削除"
 
-#: kuma/wiki/jinja2/wiki/document.html:124
+#: kuma/wiki/jinja2/wiki/document.html:128
 msgid "Jump to:"
 msgstr "ジャンプ先:"
 
-#: kuma/wiki/jinja2/wiki/document.html:147
+#: kuma/wiki/jinja2/wiki/document.html:151
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "このドキュメントはまだ出力されておらず、また MDN が <a href=\"%(url)s\">メンテナンスモード</a> の間は出力できません。メンテナンス終了後に再度確認しに来てください。"
@@ -3795,14 +3795,14 @@ msgstr "このドキュメントはまだ出力されておらず、また MDN �
 # 「このドキュメントはシステムによる完全なレンダリングが行われる前の状態です。完全なコンテンツを表示するには数分たってから<a
 # href="%(url)s">このページを再度読み込む</a>か、スーパーリロード (<kbd><kbd>ctlr</kbd> +
 # <kbd>F5</kbd></kbd>)をお試しください。」…意訳及び捏造。今の所はおそらくこれで良いでしょう。
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:162
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr ""
 "このドキュメントはシステムによる完全なレンダリングが行われる前の状態です。完全な内容を表示するには数分たってから <a href=\"%(url)s\">このページを再度読み込む</a> か、スーパーリロード (<kbd>ctlr</"
 "kbd> + <kbd>F5</kbd>) をお試しください。"
 
-#: kuma/wiki/jinja2/wiki/document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:170
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3811,28 +3811,28 @@ msgstr ""
 "このドキュメントへの更新が <abbr title=\"%(started_at)s\">現在進行中</abbr> です。以下の内容が最新でなかったり一部欠けている場合は、数分後に <a href=\"%(url)s\">ページを再読み込み</a> してみてくださ"
 "い。"
 
-#: kuma/wiki/jinja2/wiki/document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:179
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
 "in a few minutes."
 msgstr "このドキュメントは <abbr title=\"%(scheduled_at)s\">更新が予定されています</abbr>。内容に欠落などの問題がある場合は、数分後に <a href=\"%(url)s\">このページを再読み込み</a> してください。"
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:190
 msgid "This is an experimental page."
 msgstr "これは実験的なページです。"
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:201
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "この翻訳は不完全です。英語から <a href=\"%(translate_url)s\">この記事を翻訳</a> してください。"
 
-#: kuma/wiki/jinja2/wiki/document.html:202
+#: kuma/wiki/jinja2/wiki/document.html:206
 msgid "This translation is in progress."
 msgstr "この記事は翻訳作業中です。"
 
 # 主語の変更、並べ替え、簡略化などを行っています。
-#: kuma/wiki/jinja2/wiki/document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:213
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3841,23 +3841,23 @@ msgstr ""
 "この記事はまだボランティアによって <bdi>%(locale)s</bdi> に翻訳されていません。<a href=\"%(help_link)s\" rel=\"nofollow\">ぜひ MDN に参加して翻訳を手伝ってください！</a><br>この記事を <a href="
 "\"%(doc_abs_url)s\">%(parent_language)s</a> で読むこともできます。"
 
-#: kuma/wiki/jinja2/wiki/document.html:221
+#: kuma/wiki/jinja2/wiki/document.html:225
 msgid "This article doesn't have any content yet."
 msgstr "この記事にはまだ内容がありません。"
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:234
 msgid "This article doesn't have approved content yet."
 msgstr "この記事の内容は未承認です。"
 
-#: kuma/wiki/jinja2/wiki/document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:240
 msgid "Document Tags and Contributors"
 msgstr "ドキュメントのタグと貢献者"
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:247
 msgid "Contributors to this page:"
 msgstr "このページの貢献者:"
 
-#: kuma/wiki/jinja2/wiki/document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:255
 msgid "Last updated by:"
 msgstr "最終更新者:"
 

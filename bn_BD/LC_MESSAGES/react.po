@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-27 14:10-0700\n"
+"POT-Creation-Date: 2019-07-11 14:45-0700\n"
 "PO-Revision-Date: 2018-01-22 14:33+0000\n"
 "Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) https://pontoon.mozilla.org/bn_BD/\n"
@@ -71,7 +71,7 @@ msgstr ""
 msgid "What should the sample title be?"
 msgstr ""
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:91
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:107
 msgid "HTML"
 msgstr "এইচটিএমএল"
 
@@ -79,7 +79,7 @@ msgstr "এইচটিএমএল"
 msgid "Sample HTML Content"
 msgstr ""
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:92
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:108
 msgid "CSS"
 msgstr "সিএসএস"
 
@@ -87,7 +87,7 @@ msgstr "সিএসএস"
 msgid "Sample CSS Content"
 msgstr ""
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:93
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:111
 msgid "JavaScript"
 msgstr "জাভাস্ক্রিপ্ট"
 
@@ -139,16 +139,16 @@ msgstr ""
 msgid "Default"
 msgstr "স্বাভাবিক"
 
-#: kuma/javascript/src/article.jsx:164
+#: kuma/javascript/src/article.jsx:179
 msgid "Tags:"
 msgstr ""
 
-#: kuma/javascript/src/article.jsx:173
+#: kuma/javascript/src/article.jsx:191
 #, fuzzy
 msgid "Contributors to this page:"
 msgstr "MDN কোডবেসে অবদান রাখা"
 
-#: kuma/javascript/src/article.jsx:188
+#: kuma/javascript/src/article.jsx:209
 msgid "Last updated by:"
 msgstr "সর্বশেষ হালনাগাদ করেছেন:"
 
@@ -169,16 +169,28 @@ msgstr ""
 msgid "Take the survey"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd.js:26 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "খুলুন"
 
-#: kuma/javascript/src/document.jsx:166
+#: kuma/javascript/src/bcd.js:277
+msgid "Flag as incorrect"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:295
+msgid "Thank you for letting us know!"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:300
+msgid "Something went wrong!"
+msgstr ""
+
+#: kuma/javascript/src/document.jsx:167
 #, fuzzy
 msgid "On this Page"
 msgstr "নিবন্ধটি নকল করুন"
 
-#: kuma/javascript/src/document.jsx:182
+#: kuma/javascript/src/document.jsx:183
 #, fuzzy
 msgid "Related Topics"
 msgstr "সকল বিষয়"
@@ -201,6 +213,10 @@ msgstr "ফলাফল"
 msgid "Search results for \"%(query)s\""
 msgstr ""
 
+#: kuma/javascript/src/section-link.jsx:20
+msgid "Link to"
+msgstr ""
+
 #: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr ""
@@ -213,91 +229,104 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: kuma/javascript/src/titlebar.jsx:95
+#: kuma/javascript/src/titlebar.jsx:93
 msgid "Edit"
 msgstr "সম্পাদনা"
 
-#: kuma/javascript/src/header/header.jsx:88
+#: kuma/javascript/src/a11y/a11y-nav.jsx:11
+msgid "Skip to main content"
+msgstr ""
+
+#: kuma/javascript/src/a11y/a11y-nav.jsx:16
+#, fuzzy
+msgid "Select language"
+msgstr "একটি সংযুক্তি নির্বাচন করুন"
+
+#: kuma/javascript/src/a11y/a11y-nav.jsx:21
+msgid "Skip to search"
+msgstr ""
+
+#: kuma/javascript/src/header/header.jsx:104
 msgid "Technologies"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:94
+#: kuma/javascript/src/header/header.jsx:115
 msgid "Graphics"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:95
+#: kuma/javascript/src/header/header.jsx:117
 msgid "HTTP"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:96
+#: kuma/javascript/src/header/header.jsx:120
 msgid "APIs / DOM"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:99
+#: kuma/javascript/src/header/header.jsx:124
 msgid "Browser Extensions"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:101
+#: kuma/javascript/src/header/header.jsx:128
 msgid "MathML"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:105
+#: kuma/javascript/src/header/header.jsx:133
 msgid "References & Guides"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:108
+#: kuma/javascript/src/header/header.jsx:138
 msgid "Learn web development"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:109
+#: kuma/javascript/src/header/header.jsx:142
 msgid "Tutorials"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:110
+#: kuma/javascript/src/header/header.jsx:146
 msgid "References"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:111
+#: kuma/javascript/src/header/header.jsx:150
 msgid "Developer Guides"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:112
+#: kuma/javascript/src/header/header.jsx:154
 msgid "Accessibility"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:113
+#: kuma/javascript/src/header/header.jsx:158
 msgid "Game development"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:114
+#: kuma/javascript/src/header/header.jsx:162
 msgid "...more docs"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:118
+#: kuma/javascript/src/header/header.jsx:167
 msgid "Feedback"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:123
+#: kuma/javascript/src/header/header.jsx:172
 msgid "Get Firefox help"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:128
+#: kuma/javascript/src/header/header.jsx:177
 msgid "Get web development help"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:131
+#: kuma/javascript/src/header/header.jsx:182
 msgid "Join the MDN community"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:133
+#: kuma/javascript/src/header/header.jsx:185
 msgid "Report a content problem"
 msgstr ""
 
-#: kuma/javascript/src/header/header.jsx:140
+#: kuma/javascript/src/header/header.jsx:191
 msgid "Report a bug"
 msgstr ""
 
-#: kuma/javascript/src/header/language-menu.jsx:26
+#: kuma/javascript/src/header/language-menu.jsx:30
 #, fuzzy
 msgid "English"
 msgstr "English (US)"
@@ -318,7 +347,7 @@ msgstr "সাইন আউট"
 msgid "Sign in"
 msgstr "সাইন ইন"
 
-#: kuma/javascript/src/header/search.jsx:71
+#: kuma/javascript/src/header/search.jsx:66
 #, fuzzy
 msgid "Search MDN"
 msgstr "খোঁজা"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-06-27 14:10-0700\n"
+"POT-Creation-Date: 2019-07-11 14:45-0700\n"
 "PO-Revision-Date: 2019-06-28 08:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -72,7 +72,7 @@ msgid "What should the sample title be?"
 msgstr "Mi legyen a minta címe?"
 
 # 100%
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:91
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:107
 msgid "HTML"
 msgstr "HTML"
 
@@ -81,7 +81,7 @@ msgid "Sample HTML Content"
 msgstr "Minta HTML tartalom"
 
 # 100%
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:92
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:108
 msgid "CSS"
 msgstr "CSS"
 
@@ -90,7 +90,7 @@ msgid "Sample CSS Content"
 msgstr "Minta CSS tartalom"
 
 # 100%
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:93
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:111
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -142,16 +142,16 @@ msgstr "A megadott URL valószínűleg érvénytelen"
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: kuma/javascript/src/article.jsx:164
+#: kuma/javascript/src/article.jsx:179
 msgid "Tags:"
 msgstr "Címkék:"
 
 # 100%
-#: kuma/javascript/src/article.jsx:173
+#: kuma/javascript/src/article.jsx:191
 msgid "Contributors to this page:"
 msgstr "Ezen oldal közreműködői:"
 
-#: kuma/javascript/src/article.jsx:188
+#: kuma/javascript/src/article.jsx:209
 msgid "Last updated by:"
 msgstr "Utoljára frissítve:"
 
@@ -171,15 +171,27 @@ msgstr "Segítsen megérteni a webfejlesztők és dizájnerek 10 legfontosabb ig
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd.js:26 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "Megnyitás"
 
-#: kuma/javascript/src/document.jsx:166
+#: kuma/javascript/src/bcd.js:277
+msgid "Flag as incorrect"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:295
+msgid "Thank you for letting us know!"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:300
+msgid "Something went wrong!"
+msgstr ""
+
+#: kuma/javascript/src/document.jsx:167
 msgid "On this Page"
 msgstr "Ezen az oldalon"
 
-#: kuma/javascript/src/document.jsx:182
+#: kuma/javascript/src/document.jsx:183
 msgid "Related Topics"
 msgstr "Kapcsolódó témák"
 
@@ -200,6 +212,11 @@ msgstr "Találatok"
 msgid "Search results for \"%(query)s\""
 msgstr "Találatok a következőre: „%(query)s”"
 
+#: kuma/javascript/src/section-link.jsx:20
+#, fuzzy
+msgid "Link to"
+msgstr "Hivatkozás"
+
 #: kuma/javascript/src/task-completion-survey.jsx:174
 msgid "Would you answer 4 questions for us?"
 msgstr "Válaszolna 4 kérdésünkre?"
@@ -213,91 +230,104 @@ msgid "Dismiss"
 msgstr "Elutasítás"
 
 # 100%
-#: kuma/javascript/src/titlebar.jsx:95
+#: kuma/javascript/src/titlebar.jsx:93
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: kuma/javascript/src/header/header.jsx:88
+#: kuma/javascript/src/a11y/a11y-nav.jsx:11
+msgid "Skip to main content"
+msgstr ""
+
+#: kuma/javascript/src/a11y/a11y-nav.jsx:16
+#, fuzzy
+msgid "Select language"
+msgstr "Melléklet kiválasztása"
+
+#: kuma/javascript/src/a11y/a11y-nav.jsx:21
+msgid "Skip to search"
+msgstr ""
+
+#: kuma/javascript/src/header/header.jsx:104
 msgid "Technologies"
 msgstr "Technológiák"
 
-#: kuma/javascript/src/header/header.jsx:94
+#: kuma/javascript/src/header/header.jsx:115
 msgid "Graphics"
 msgstr "Grafika"
 
-#: kuma/javascript/src/header/header.jsx:95
+#: kuma/javascript/src/header/header.jsx:117
 msgid "HTTP"
 msgstr "HTTP"
 
-#: kuma/javascript/src/header/header.jsx:96
+#: kuma/javascript/src/header/header.jsx:120
 msgid "APIs / DOM"
 msgstr "API-k / DOM"
 
-#: kuma/javascript/src/header/header.jsx:99
+#: kuma/javascript/src/header/header.jsx:124
 msgid "Browser Extensions"
 msgstr "Böngészőkiegészítők"
 
-#: kuma/javascript/src/header/header.jsx:101
+#: kuma/javascript/src/header/header.jsx:128
 msgid "MathML"
 msgstr "MathML"
 
-#: kuma/javascript/src/header/header.jsx:105
+#: kuma/javascript/src/header/header.jsx:133
 msgid "References & Guides"
 msgstr "Referenciák és útmutatók"
 
-#: kuma/javascript/src/header/header.jsx:108
+#: kuma/javascript/src/header/header.jsx:138
 msgid "Learn web development"
 msgstr "Tanuljon a webfejlesztésről"
 
-#: kuma/javascript/src/header/header.jsx:109
+#: kuma/javascript/src/header/header.jsx:142
 msgid "Tutorials"
 msgstr "Ismertetők"
 
-#: kuma/javascript/src/header/header.jsx:110
+#: kuma/javascript/src/header/header.jsx:146
 msgid "References"
 msgstr "Hivatkozások"
 
-#: kuma/javascript/src/header/header.jsx:111
+#: kuma/javascript/src/header/header.jsx:150
 msgid "Developer Guides"
 msgstr "Fejlesztői leírások"
 
-#: kuma/javascript/src/header/header.jsx:112
+#: kuma/javascript/src/header/header.jsx:154
 msgid "Accessibility"
 msgstr "Akadálymentesítés"
 
-#: kuma/javascript/src/header/header.jsx:113
+#: kuma/javascript/src/header/header.jsx:158
 msgid "Game development"
 msgstr "Játékfejlesztés"
 
-#: kuma/javascript/src/header/header.jsx:114
+#: kuma/javascript/src/header/header.jsx:162
 msgid "...more docs"
 msgstr "…további dokumentáció"
 
-#: kuma/javascript/src/header/header.jsx:118
+#: kuma/javascript/src/header/header.jsx:167
 msgid "Feedback"
 msgstr "Visszajelzés"
 
-#: kuma/javascript/src/header/header.jsx:123
+#: kuma/javascript/src/header/header.jsx:172
 msgid "Get Firefox help"
 msgstr "Segítség a Firefoxhoz"
 
-#: kuma/javascript/src/header/header.jsx:128
+#: kuma/javascript/src/header/header.jsx:177
 msgid "Get web development help"
 msgstr "Segítség webfejlesztéshez"
 
-#: kuma/javascript/src/header/header.jsx:131
+#: kuma/javascript/src/header/header.jsx:182
 msgid "Join the MDN community"
 msgstr "Csatlakozás az MDN közösséghez"
 
-#: kuma/javascript/src/header/header.jsx:133
+#: kuma/javascript/src/header/header.jsx:185
 msgid "Report a content problem"
 msgstr "Tartalmi hiba jelentése"
 
-#: kuma/javascript/src/header/header.jsx:140
+#: kuma/javascript/src/header/header.jsx:191
 msgid "Report a bug"
 msgstr "Hiba jelentése"
 
-#: kuma/javascript/src/header/language-menu.jsx:26
+#: kuma/javascript/src/header/language-menu.jsx:30
 msgid "English"
 msgstr "angol"
 
@@ -318,7 +348,7 @@ msgid "Sign in"
 msgstr "Bejelentkezés"
 
 # 100%
-#: kuma/javascript/src/header/search.jsx:71
+#: kuma/javascript/src/header/search.jsx:66
 msgid "Search MDN"
 msgstr "Keresés az MDN-en"
 
