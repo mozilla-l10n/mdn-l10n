@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-11 14:45-0700\n"
+"POT-Creation-Date: 2019-07-15 09:53-0700\n"
 "PO-Revision-Date: 2019-06-29 01:11+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
@@ -139,17 +139,9 @@ msgstr "შეყვანილი URL-მისამართი, არ ჰ�
 msgid "Default"
 msgstr "ნაგულისხმევი"
 
-#: kuma/javascript/src/article.jsx:179
+#: kuma/javascript/src/article.jsx:171
 msgid "Tags:"
 msgstr "ჭდეები:"
-
-#: kuma/javascript/src/article.jsx:191
-msgid "Contributors to this page:"
-msgstr "ამ გვერდის შექმნაში, წვლილის შემტანები:"
-
-#: kuma/javascript/src/article.jsx:209
-msgid "Last updated by:"
-msgstr "ბოლო განახლების ავტორი:"
 
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
@@ -167,21 +159,25 @@ msgstr "დაგვეხმარეთ, გამოვარკვიოთ 
 msgid "Take the survey"
 msgstr "კითხვარის შევსება"
 
-#: kuma/javascript/src/bcd.js:26 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd.js:28 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "გახსნა"
 
-#: kuma/javascript/src/bcd.js:277
+#: kuma/javascript/src/bcd.js:283
 msgid "Flag as incorrect"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:295
+#: kuma/javascript/src/bcd.js:301
 msgid "Thank you for letting us know!"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:300
+#: kuma/javascript/src/bcd.js:306
 msgid "Something went wrong!"
 msgstr ""
+
+#: kuma/javascript/src/contributors.jsx:21
+msgid "Contributors to this page:"
+msgstr "ამ გვერდის შექმნაში, წვლილის შემტანები:"
 
 #: kuma/javascript/src/document.jsx:167
 msgid "On this Page"
@@ -190,6 +186,10 @@ msgstr "ამ გვერდზე"
 #: kuma/javascript/src/document.jsx:183
 msgid "Related Topics"
 msgstr "დაკავშირებული საკითხები"
+
+#: kuma/javascript/src/last-modified-by.jsx:36
+msgid "Last updated by:"
+msgstr "ბოლო განახლების ავტორი:"
 
 #: kuma/javascript/src/live-examples.js:72
 msgid "Open in CodePen"
@@ -208,7 +208,7 @@ msgstr "შედეგები"
 msgid "Search results for \"%(query)s\""
 msgstr "ძიების შედეგები ფრაზისთვის „%(query)s“"
 
-#: kuma/javascript/src/section-link.jsx:20
+#: kuma/javascript/src/section-anchor.jsx:20
 #, fuzzy
 msgid "Link to"
 msgstr "ბმული"
@@ -225,7 +225,7 @@ msgstr "კითხვარის ახალ ჩანართში გა
 msgid "Dismiss"
 msgstr "უარყოფა"
 
-#: kuma/javascript/src/titlebar.jsx:93
+#: kuma/javascript/src/titlebar.jsx:78
 msgid "Edit"
 msgstr "ჩასწორება"
 

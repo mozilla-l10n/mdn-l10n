@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-11 14:45-0700\n"
+"POT-Creation-Date: 2019-07-15 09:53-0700\n"
 "PO-Revision-Date: 2019-07-14 09:57+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -142,18 +142,9 @@ msgstr "A megadott URL valószínűleg érvénytelen"
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: kuma/javascript/src/article.jsx:179
+#: kuma/javascript/src/article.jsx:171
 msgid "Tags:"
 msgstr "Címkék:"
-
-# 100%
-#: kuma/javascript/src/article.jsx:191
-msgid "Contributors to this page:"
-msgstr "Ezen oldal közreműködői:"
-
-#: kuma/javascript/src/article.jsx:209
-msgid "Last updated by:"
-msgstr "Utoljára frissítve:"
 
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
@@ -171,21 +162,26 @@ msgstr "Segítsen megérteni a webfejlesztők és dizájnerek 10 legfontosabb ig
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
 
-#: kuma/javascript/src/bcd.js:26 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd.js:28 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "Megnyitás"
 
-#: kuma/javascript/src/bcd.js:277
+#: kuma/javascript/src/bcd.js:283
 msgid "Flag as incorrect"
 msgstr "Megjelölés helytelenként"
 
-#: kuma/javascript/src/bcd.js:295
+#: kuma/javascript/src/bcd.js:301
 msgid "Thank you for letting us know!"
 msgstr "Köszönjük, hogy tudatta velünk!"
 
-#: kuma/javascript/src/bcd.js:300
+#: kuma/javascript/src/bcd.js:306
 msgid "Something went wrong!"
 msgstr "Valami hiba történt."
+
+# 100%
+#: kuma/javascript/src/contributors.jsx:21
+msgid "Contributors to this page:"
+msgstr "Ezen oldal közreműködői:"
 
 #: kuma/javascript/src/document.jsx:167
 msgid "On this Page"
@@ -194,6 +190,10 @@ msgstr "Ezen az oldalon"
 #: kuma/javascript/src/document.jsx:183
 msgid "Related Topics"
 msgstr "Kapcsolódó témák"
+
+#: kuma/javascript/src/last-modified-by.jsx:36
+msgid "Last updated by:"
+msgstr "Utoljára frissítve:"
 
 #: kuma/javascript/src/live-examples.js:72
 msgid "Open in CodePen"
@@ -212,7 +212,7 @@ msgstr "Találatok"
 msgid "Search results for \"%(query)s\""
 msgstr "Találatok a következőre: „%(query)s”"
 
-#: kuma/javascript/src/section-link.jsx:20
+#: kuma/javascript/src/section-anchor.jsx:20
 msgid "Link to"
 msgstr "Hivatkozás ehhez:"
 
@@ -229,7 +229,7 @@ msgid "Dismiss"
 msgstr "Elutasítás"
 
 # 100%
-#: kuma/javascript/src/titlebar.jsx:93
+#: kuma/javascript/src/titlebar.jsx:78
 msgid "Edit"
 msgstr "Szerkesztés"
 

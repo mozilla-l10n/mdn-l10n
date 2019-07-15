@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-11 14:45-0700\n"
+"POT-Creation-Date: 2019-07-15 09:53-0700\n"
 "PO-Revision-Date: 2019-07-12 15:07+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
@@ -139,17 +139,9 @@ msgstr "您输入的网址看上去无效"
 msgid "Default"
 msgstr "默认"
 
-#: kuma/javascript/src/article.jsx:179
+#: kuma/javascript/src/article.jsx:171
 msgid "Tags:"
 msgstr "标签："
-
-#: kuma/javascript/src/article.jsx:191
-msgid "Contributors to this page:"
-msgstr "此页面的贡献者："
-
-#: kuma/javascript/src/article.jsx:209
-msgid "Last updated by:"
-msgstr "最后编辑者:"
 
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
@@ -167,21 +159,25 @@ msgstr "请帮助我们了解网页开发者与设计师最重要的 10 个需�
 msgid "Take the survey"
 msgstr "填写问卷"
 
-#: kuma/javascript/src/bcd.js:26 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd.js:28 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "打开"
 
-#: kuma/javascript/src/bcd.js:277
+#: kuma/javascript/src/bcd.js:283
 msgid "Flag as incorrect"
 msgstr "标记为不正确"
 
-#: kuma/javascript/src/bcd.js:295
+#: kuma/javascript/src/bcd.js:301
 msgid "Thank you for letting us know!"
 msgstr "感谢您的反馈！"
 
-#: kuma/javascript/src/bcd.js:300
+#: kuma/javascript/src/bcd.js:306
 msgid "Something went wrong!"
 msgstr "某些地方出错！"
+
+#: kuma/javascript/src/contributors.jsx:21
+msgid "Contributors to this page:"
+msgstr "此页面的贡献者："
 
 #: kuma/javascript/src/document.jsx:167
 msgid "On this Page"
@@ -190,6 +186,10 @@ msgstr "在此页面"
 #: kuma/javascript/src/document.jsx:183
 msgid "Related Topics"
 msgstr "相关主题"
+
+#: kuma/javascript/src/last-modified-by.jsx:36
+msgid "Last updated by:"
+msgstr "最后编辑者:"
 
 #: kuma/javascript/src/live-examples.js:72
 msgid "Open in CodePen"
@@ -208,7 +208,7 @@ msgstr "结果"
 msgid "Search results for \"%(query)s\""
 msgstr "“%(query)s”的搜索结果"
 
-#: kuma/javascript/src/section-link.jsx:20
+#: kuma/javascript/src/section-anchor.jsx:20
 msgid "Link to"
 msgstr "链接到"
 
@@ -224,7 +224,7 @@ msgstr "在新标签页打开问卷"
 msgid "Dismiss"
 msgstr "消除"
 
-#: kuma/javascript/src/titlebar.jsx:93
+#: kuma/javascript/src/titlebar.jsx:78
 msgid "Edit"
 msgstr "编辑"
 
