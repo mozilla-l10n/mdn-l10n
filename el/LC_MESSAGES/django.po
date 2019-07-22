@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-11 14:46-0700\n"
+"POT-Creation-Date: 2019-07-22 15:14-0700\n"
 "PO-Revision-Date: 2019-05-25 22:55+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -290,11 +290,11 @@ msgstr "Πίνακας αναθεωρήσεων"
 msgid "Documentation status"
 msgstr "Κατάσταση τεκμηρίωσης"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:95
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
 msgid "Other languages:"
 msgstr "Άλλες γλώσσες:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:106
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
 msgid "Go"
 msgstr "Μετάβαση"
 
@@ -2929,7 +2929,7 @@ msgstr "Σελίδα"
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:294
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
 msgid "Edit page"
 msgstr "Επεξεργασία σελίδας"
 
@@ -2937,7 +2937,7 @@ msgstr "Επεξεργασία σελίδας"
 msgid "View complete diff"
 msgstr "Προβολή πλήρους διαφοράς"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:295
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
 msgid "View page history"
 msgstr "Προβολή ιστορικού σελίδας"
 
@@ -3174,7 +3174,7 @@ msgstr "Έχει ήδη αναφερθεί ως ανεπιθύμητο."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Ο χρήστης αυτός δεν έχει δημιουργήσει αναθεωρήσεις τις τελευταίες τρεις ημέρες."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:755 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Επεξεργασία"
 
@@ -3240,7 +3240,7 @@ msgstr "Συντακτική - πεζός λόγος, γραμματική ή π
 msgid "Localization in progress - not completely translated yet."
 msgstr "Μετάφραση σε εξέλιξη - δεν έχει μεταφραστεί πλήρως ακόμα."
 
-#: kuma/wiki/content.py:732
+#: kuma/wiki/content.py:736
 msgid "Edit section"
 msgstr "Επεξεργασία ενότητας"
 
@@ -3770,21 +3770,21 @@ msgstr "Ανάκτηση εγγράφου"
 msgid "Purge this document"
 msgstr "Διαγραφή εγγράφου"
 
-#: kuma/wiki/jinja2/wiki/document.html:128
+#: kuma/wiki/jinja2/wiki/document.html:124
 msgid "Jump to:"
 msgstr "Μετάβαση σε:"
 
-#: kuma/wiki/jinja2/wiki/document.html:151
+#: kuma/wiki/jinja2/wiki/document.html:147
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Αυτό το έγγραφο δεν έχει ακόμη αποτυπωθεί και δεν μπορεί να αποτυπωθεί, ενώ το MDN είναι σε <a href=\"%(url)s\">λειτουργία συντήρησης</a>. Παρακαλούμε ελάτε πάλι όταν ολοκληρωθεί η συντήρηση."
 
-#: kuma/wiki/jinja2/wiki/document.html:162
+#: kuma/wiki/jinja2/wiki/document.html:158
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Αυτό το έγγραφο αποτυπώνεται για πρώτη φορά από το σύστημα. Παρακαλούμε <a href=\"%(url)s\">ανανεώστε αυτή τη σελίδα</a> σε μερικά λεπτά για να δείτε το πλήρες περιεχόμενο."
 
-#: kuma/wiki/jinja2/wiki/document.html:170
+#: kuma/wiki/jinja2/wiki/document.html:166
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3793,7 +3793,7 @@ msgstr ""
 "Μια ενημέρωση σε αυτό το έγγραφο <abbr title=\"%(started_at)s\">είναι υπό εξέλιξη αυτή τη στιγμή</abbr>. Αν το παρακάτω περιεχόμενο φαίνεται παρωχημένο ή λείπει κάτι, παρακαλούμε <a href=\"%(url)s"
 "\">ανανεώστε αυτή τη σελίδα</a> σε μερικά λεπτά."
 
-#: kuma/wiki/jinja2/wiki/document.html:179
+#: kuma/wiki/jinja2/wiki/document.html:175
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3802,20 +3802,20 @@ msgstr ""
 "Μια ενημέρωση σε αυτό το έγγραφο<abbr title=\"%(scheduled_at)s\">έχει προγραμματιστεί</abbr>. Αν το παρακάτω περιεχόμενο φαίνεται παρωχημένο ή λείπει κάτι, παρακαλούμε <a href=\"%(url)s\">ανανεώστε "
 "αυτή τη σελίδα</a> σε μερικά λεπτά."
 
-#: kuma/wiki/jinja2/wiki/document.html:190
+#: kuma/wiki/jinja2/wiki/document.html:186
 msgid "This is an experimental page."
 msgstr "Αυτή είναι μια πειραματική σελίδα."
 
-#: kuma/wiki/jinja2/wiki/document.html:201
+#: kuma/wiki/jinja2/wiki/document.html:197
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Αυτή η μετάφραση είναι ελλιπής. Παρακαλούμε βοηθήστε <a href=\"%(translate_url)s\">στη μετάφραση αυτού του άρθρου</a> από τα Αγγλικά."
 
-#: kuma/wiki/jinja2/wiki/document.html:206
+#: kuma/wiki/jinja2/wiki/document.html:202
 msgid "This translation is in progress."
 msgstr "Αυτή η μετάφραση βρίσκεται σε εξέλιξη."
 
-#: kuma/wiki/jinja2/wiki/document.html:213
+#: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3824,23 +3824,23 @@ msgstr ""
 "Οι εθελοντές μας δεν έχουν μεταφράσει αυτό το άρθρο στα <bdi>%(locale)s</bdi>, ακόμα. <a href=\"%(help_link)s\" rel=\"nofollow\">Γίνετε μέλος και βοηθήστε στη μετάφραση!</a><br> Μπορείτε επίσης να "
 "διαβάσετε το άρθρο στα <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:225
+#: kuma/wiki/jinja2/wiki/document.html:221
 msgid "This article doesn't have any content yet."
 msgstr "Αυτό το άρθρο δεν έχει κανένα περιεχόμενο ακόμα."
 
-#: kuma/wiki/jinja2/wiki/document.html:234
+#: kuma/wiki/jinja2/wiki/document.html:230
 msgid "This article doesn't have approved content yet."
 msgstr "Αυτό το άρθρο δεν έχει εγκεκριμένο περιεχόμενο ακόμα."
 
-#: kuma/wiki/jinja2/wiki/document.html:240
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "Document Tags and Contributors"
 msgstr "Εθελοντές και ετικέτες εγγράφου"
 
-#: kuma/wiki/jinja2/wiki/document.html:247
+#: kuma/wiki/jinja2/wiki/document.html:243
 msgid "Contributors to this page:"
 msgstr "Συνεισφέροντες σε αυτή τη σελίδα:"
 
-#: kuma/wiki/jinja2/wiki/document.html:255
+#: kuma/wiki/jinja2/wiki/document.html:251
 msgid "Last updated by:"
 msgstr "Τελευταία ενημέρωση από:"
 

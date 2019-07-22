@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-11 14:46-0700\n"
+"POT-Creation-Date: 2019-07-22 15:14-0700\n"
 "PO-Revision-Date: 2018-11-23 15:35+0000\n"
 "Last-Translator: Michal Stanke <mstanke@mozilla.cz>\n"
 "Language-Team: Czech https://pontoon.mozilla.org/cs/\n"
@@ -288,11 +288,11 @@ msgstr "Panel revizí"
 msgid "Documentation status"
 msgstr "Stav dokumentů"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:95
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
 msgid "Other languages:"
 msgstr "Ostatní jazyky:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:106
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
 msgid "Go"
 msgstr "Přejít"
 
@@ -2901,7 +2901,7 @@ msgstr "Stránka"
 msgid "Date"
 msgstr "Datum"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:294
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
 msgid "Edit page"
 msgstr "Upravit stránku"
 
@@ -2909,7 +2909,7 @@ msgstr "Upravit stránku"
 msgid "View complete diff"
 msgstr "Zobrazit kompletní diff"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:295
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
 msgid "View page history"
 msgstr "Zobrazit historii stránky"
 
@@ -3144,7 +3144,7 @@ msgstr "Již nahlášeno jako spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Tento uživatel v uplynulých třech dnech nevytvořil žádné revize."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:755 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Upravit"
 
@@ -3210,7 +3210,7 @@ msgstr "Redakce - próza, gramatika nebo obsah"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Lokalizace probíhá - zatím nepřeloženo."
 
-#: kuma/wiki/content.py:732
+#: kuma/wiki/content.py:736
 msgid "Edit section"
 msgstr "Upravit sekci"
 
@@ -3740,21 +3740,21 @@ msgstr "Obnovit tento dokument"
 msgid "Purge this document"
 msgstr "Pročistit tento dokument"
 
-#: kuma/wiki/jinja2/wiki/document.html:128
+#: kuma/wiki/jinja2/wiki/document.html:124
 msgid "Jump to:"
 msgstr "Přejít na:"
 
-#: kuma/wiki/jinja2/wiki/document.html:151
+#: kuma/wiki/jinja2/wiki/document.html:147
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Tento dokument nebyl zatím vygenerován a nemůže být vygenerován, když je MDN v <a href=\"%(url)s\">režimu údržby</a>. Prosím, vraťte se, až údržba skončí."
 
-#: kuma/wiki/jinja2/wiki/document.html:162
+#: kuma/wiki/jinja2/wiki/document.html:158
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Tento dokument je systémem vykreslován poprvé. <a href=\"%(url)s\">Načtěte prosím tuto stránku znovu</a> za pár minut pro zobrazení celého obsahu."
 
-#: kuma/wiki/jinja2/wiki/document.html:170
+#: kuma/wiki/jinja2/wiki/document.html:166
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3763,7 +3763,7 @@ msgstr ""
 "<abbr title=\"%(started_at)s\">Právě probíhá</abbr> aktualizace tohoto dokumentu. Pokud se obsah níže zdá být neaktuální nebo něco chybí, <a href=\"%(url)s\">načtěte prosím tuto stránku znovu</a> "
 "za pár minut."
 
-#: kuma/wiki/jinja2/wiki/document.html:179
+#: kuma/wiki/jinja2/wiki/document.html:175
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3772,20 +3772,20 @@ msgstr ""
 "<abbr title=\"%(scheduled_at)s\">Byla naplánována</abbr> aktualizace tohoto dokumentu. Pokud se obsah níže zdá být neaktuální nebo něco chybí, <a href=\"%(url)s\">načtěte prosím tuto stránku znovu</"
 "a> za pár minut."
 
-#: kuma/wiki/jinja2/wiki/document.html:190
+#: kuma/wiki/jinja2/wiki/document.html:186
 msgid "This is an experimental page."
 msgstr "Toto je experimentální stránka."
 
-#: kuma/wiki/jinja2/wiki/document.html:201
+#: kuma/wiki/jinja2/wiki/document.html:197
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Tento překlad není kompletní. Prosím pomozte <a href=\"%(translate_url)s\">přeložit tento článek</a> z angličtiny."
 
-#: kuma/wiki/jinja2/wiki/document.html:206
+#: kuma/wiki/jinja2/wiki/document.html:202
 msgid "This translation is in progress."
 msgstr "Probíhá překlad."
 
-#: kuma/wiki/jinja2/wiki/document.html:213
+#: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3794,23 +3794,23 @@ msgstr ""
 "Naši dobrovolníci ještě tento článek do jazyka <bdi>%(locale)s</bdi> nepřeložili. <a href=\"%(help_link)s\" rel=\"nofollow\">Přidejte se a pomozte nám tuto práci dokončit!</a><br> Tento článek si "
 "můžete přečíst také v jazyce <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:225
+#: kuma/wiki/jinja2/wiki/document.html:221
 msgid "This article doesn't have any content yet."
 msgstr "Tento článek dosud nemá žádný obsah."
 
-#: kuma/wiki/jinja2/wiki/document.html:234
+#: kuma/wiki/jinja2/wiki/document.html:230
 msgid "This article doesn't have approved content yet."
 msgstr "Tento článek dosud neobsahuje schválený obsah."
 
-#: kuma/wiki/jinja2/wiki/document.html:240
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "Document Tags and Contributors"
 msgstr "Štítky a přispěvatelé do dokumentace"
 
-#: kuma/wiki/jinja2/wiki/document.html:247
+#: kuma/wiki/jinja2/wiki/document.html:243
 msgid "Contributors to this page:"
 msgstr "Přispěvatelé této stránky:"
 
-#: kuma/wiki/jinja2/wiki/document.html:255
+#: kuma/wiki/jinja2/wiki/document.html:251
 msgid "Last updated by:"
 msgstr "Poslední aktualizace od:"
 

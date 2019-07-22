@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-17 14:54-0700\n"
+"POT-Creation-Date: 2019-07-22 15:13-0700\n"
 "PO-Revision-Date: 2019-07-18 13:20+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German https://pontoon.mozilla.org/de/\n"
@@ -71,7 +71,7 @@ msgstr "Abschnitte im Dokument"
 msgid "What should the sample title be?"
 msgstr "Welchen Titel sollte das Beispiel haben?"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:107
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:39
 msgid "HTML"
 msgstr "HTML"
 
@@ -79,7 +79,7 @@ msgstr "HTML"
 msgid "Sample HTML Content"
 msgstr "HTML-Beispielinhalt"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:108
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:43
 msgid "CSS"
 msgstr "CSS"
 
@@ -87,7 +87,7 @@ msgstr "CSS"
 msgid "Sample CSS Content"
 msgstr "CSS-Beispielinhalt"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:111
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:47
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -139,10 +139,6 @@ msgstr "Die eingegebene URL scheint ungültig zu sein"
 msgid "Default"
 msgstr "Standard"
 
-#: kuma/javascript/src/article.jsx:171
-msgid "Tags:"
-msgstr "Schlagwörter:"
-
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr "Banner schließen"
@@ -179,11 +175,7 @@ msgstr "Aktion fehlgeschlagen."
 msgid "Contributors to this page:"
 msgstr "Mitwirkende an dieser Seite:"
 
-#: kuma/javascript/src/document.jsx:167
-msgid "On this Page"
-msgstr "Auf dieser Seite"
-
-#: kuma/javascript/src/document.jsx:183
+#: kuma/javascript/src/document.jsx:140
 msgid "Related Topics"
 msgstr "Verwandte Themen"
 
@@ -199,11 +191,15 @@ msgstr "In CodePen öffnen"
 msgid "Open in JSFiddle"
 msgstr "In JSFiddle öffnen"
 
-#: kuma/javascript/src/search-results-page.jsx:105
+#: kuma/javascript/src/search-results-page.jsx:89
 msgid "Results"
 msgstr "Ergebnisse"
 
-#: kuma/javascript/src/search-results-page.jsx:259
+#: kuma/javascript/src/search-results-page.jsx:126
+msgid "No matching documents found."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:232
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Suchergebnisse für „%(query)s“"
@@ -228,6 +224,10 @@ msgstr "Schließen"
 msgid "Edit"
 msgstr "Bearbeiten"
 
+#: kuma/javascript/src/toc.jsx:14
+msgid "On this Page"
+msgstr "Auf dieser Seite"
+
 #: kuma/javascript/src/a11y/a11y-nav.jsx:11
 msgid "Skip to main content"
 msgstr "Zum Hauptinhalt springen"
@@ -240,87 +240,7 @@ msgstr "Sprache wählen"
 msgid "Skip to search"
 msgstr "Zur Suche springen"
 
-#: kuma/javascript/src/header/header.jsx:104
-msgid "Technologies"
-msgstr "Technologien"
-
-#: kuma/javascript/src/header/header.jsx:115
-msgid "Graphics"
-msgstr "Grafik"
-
-#: kuma/javascript/src/header/header.jsx:117
-msgid "HTTP"
-msgstr "HTTP"
-
-#: kuma/javascript/src/header/header.jsx:120
-msgid "APIs / DOM"
-msgstr "APIs / DOM"
-
-#: kuma/javascript/src/header/header.jsx:124
-msgid "Browser Extensions"
-msgstr "Browser-Erweiterungen"
-
-#: kuma/javascript/src/header/header.jsx:128
-msgid "MathML"
-msgstr "MathML"
-
-#: kuma/javascript/src/header/header.jsx:133
-msgid "References & Guides"
-msgstr "Referenzen & Leitfäden"
-
-#: kuma/javascript/src/header/header.jsx:138
-msgid "Learn web development"
-msgstr "Web-Entwicklung lernen"
-
-#: kuma/javascript/src/header/header.jsx:142
-msgid "Tutorials"
-msgstr "Anleitungen"
-
-#: kuma/javascript/src/header/header.jsx:146
-msgid "References"
-msgstr "Nachschlagewerke"
-
-#: kuma/javascript/src/header/header.jsx:150
-msgid "Developer Guides"
-msgstr "Entwickler-Leitfäden"
-
-#: kuma/javascript/src/header/header.jsx:154
-msgid "Accessibility"
-msgstr "Barrierefreiheit"
-
-#: kuma/javascript/src/header/header.jsx:158
-msgid "Game development"
-msgstr "Spieleentwicklung"
-
-#: kuma/javascript/src/header/header.jsx:162
-msgid "...more docs"
-msgstr "…weitere Dokumente"
-
-#: kuma/javascript/src/header/header.jsx:167
-msgid "Feedback"
-msgstr "Feedback"
-
-#: kuma/javascript/src/header/header.jsx:172
-msgid "Get Firefox help"
-msgstr "Holen Sie sich Hilfe zu Firefox"
-
-#: kuma/javascript/src/header/header.jsx:177
-msgid "Get web development help"
-msgstr "Holen Sie sich Hilfe zu Web-Entwicklung"
-
-#: kuma/javascript/src/header/header.jsx:182
-msgid "Join the MDN community"
-msgstr "Werden Sie Teil der MDN-Gemeinschaft"
-
-#: kuma/javascript/src/header/header.jsx:185
-msgid "Report a content problem"
-msgstr "Melden Sie ein Inhaltsproblem"
-
-#: kuma/javascript/src/header/header.jsx:191
-msgid "Report a bug"
-msgstr "Fehler melden"
-
-#: kuma/javascript/src/header/header.jsx:212
+#: kuma/javascript/src/header/header.jsx:90
 msgid "MDN Web Docs"
 msgstr "MDN-Web-Dokumentation"
 
@@ -345,7 +265,97 @@ msgstr "Abmelden"
 msgid "Sign in"
 msgstr "Anmelden"
 
-#: kuma/javascript/src/header/search.jsx:66
+#: kuma/javascript/src/header/main-menu.jsx:31
+msgid "Technologies"
+msgstr "Technologien"
+
+#: kuma/javascript/src/header/main-menu.jsx:35
+#, fuzzy
+msgid "Technologies Overview"
+msgstr "Technologien"
+
+#: kuma/javascript/src/header/main-menu.jsx:51
+msgid "Graphics"
+msgstr "Grafik"
+
+#: kuma/javascript/src/header/main-menu.jsx:55
+msgid "HTTP"
+msgstr "HTTP"
+
+#: kuma/javascript/src/header/main-menu.jsx:59
+msgid "APIs / DOM"
+msgstr "APIs / DOM"
+
+#: kuma/javascript/src/header/main-menu.jsx:63
+msgid "Browser Extensions"
+msgstr "Browser-Erweiterungen"
+
+#: kuma/javascript/src/header/main-menu.jsx:67
+msgid "MathML"
+msgstr "MathML"
+
+#: kuma/javascript/src/header/main-menu.jsx:72
+msgid "References & Guides"
+msgstr "Referenzen & Leitfäden"
+
+#: kuma/javascript/src/header/main-menu.jsx:76
+msgid "Learn web development"
+msgstr "Web-Entwicklung lernen"
+
+#: kuma/javascript/src/header/main-menu.jsx:80
+msgid "Tutorials"
+msgstr "Anleitungen"
+
+#: kuma/javascript/src/header/main-menu.jsx:84
+msgid "References"
+msgstr "Nachschlagewerke"
+
+#: kuma/javascript/src/header/main-menu.jsx:88
+msgid "Developer Guides"
+msgstr "Entwickler-Leitfäden"
+
+#: kuma/javascript/src/header/main-menu.jsx:92
+msgid "Accessibility"
+msgstr "Barrierefreiheit"
+
+#: kuma/javascript/src/header/main-menu.jsx:96
+msgid "Game development"
+msgstr "Spieleentwicklung"
+
+#: kuma/javascript/src/header/main-menu.jsx:100
+msgid "...more docs"
+msgstr "…weitere Dokumente"
+
+#: kuma/javascript/src/header/main-menu.jsx:105
+msgid "Feedback"
+msgstr "Feedback"
+
+#: kuma/javascript/src/header/main-menu.jsx:109
+#, fuzzy
+msgid "Send Feedback"
+msgstr "Feedback"
+
+#: kuma/javascript/src/header/main-menu.jsx:113
+msgid "Get Firefox help"
+msgstr "Holen Sie sich Hilfe zu Firefox"
+
+#: kuma/javascript/src/header/main-menu.jsx:118
+msgid "Get web development help"
+msgstr "Holen Sie sich Hilfe zu Web-Entwicklung"
+
+#: kuma/javascript/src/header/main-menu.jsx:123
+msgid "Join the MDN community"
+msgstr "Werden Sie Teil der MDN-Gemeinschaft"
+
+#: kuma/javascript/src/header/main-menu.jsx:126
+msgid "Report a content problem"
+msgstr "Melden Sie ein Inhaltsproblem"
+
+#: kuma/javascript/src/header/main-menu.jsx:132
+msgid "Report a bug"
+msgstr "Fehler melden"
+
+#: kuma/javascript/src/header/search.jsx:67
 msgid "Search MDN"
 msgstr "MDN durchsuchen"
 
@@ -563,3 +573,6 @@ msgstr "Link"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Abschnitt"
+
+#~ msgid "Tags:"
+#~ msgstr "Schlagwörter:"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-11 14:46-0700\n"
+"POT-Creation-Date: 2019-07-22 15:14-0700\n"
 "PO-Revision-Date: 2019-06-29 01:03+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
@@ -288,11 +288,11 @@ msgstr "გადამუშავებული ვერსიები"
 msgid "Documentation status"
 msgstr "მასალების მდგომარეობა"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:95
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
 msgid "Other languages:"
 msgstr "სხვა ენები:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:106
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
 msgid "Go"
 msgstr "გადასვლა"
 
@@ -2905,7 +2905,7 @@ msgstr "გვერდი"
 msgid "Date"
 msgstr "თარიღი"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:294
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
 msgid "Edit page"
 msgstr "გვერდის ჩასწორება"
 
@@ -2913,7 +2913,7 @@ msgstr "გვერდის ჩასწორება"
 msgid "View complete diff"
 msgstr "განსხვავებების სრულად ნახვა"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:295
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
 msgid "View page history"
 msgstr "გვერდის ისტორიის ნახვა"
 
@@ -3148,7 +3148,7 @@ msgstr "უკვე გაგზავნილია მოხსენებ�
 msgid "This user has not created any revisions in the past three days."
 msgstr "ამ მომხმარებელს, არ აქვს გადამუშავებული ვერსიები, ბოლო სამი დღის განმავლობაში."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:751 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:755 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "ჩასწორება"
 
@@ -3214,7 +3214,7 @@ msgstr "შესასწორებელი – ტექსტი, გრ�
 msgid "Localization in progress - not completely translated yet."
 msgstr "მიმდინარეობს თარგმნა – ჯერ არ დასრულებულა."
 
-#: kuma/wiki/content.py:732
+#: kuma/wiki/content.py:736
 msgid "Edit section"
 msgstr "ამ ნაწილის ჩასწორება"
 
@@ -3744,21 +3744,21 @@ msgstr "დოკუმენტის აღდგენა"
 msgid "Purge this document"
 msgstr "დოკუმენტების გასუფთავება"
 
-#: kuma/wiki/jinja2/wiki/document.html:128
+#: kuma/wiki/jinja2/wiki/document.html:124
 msgid "Jump to:"
 msgstr "გადასვლა:"
 
-#: kuma/wiki/jinja2/wiki/document.html:151
+#: kuma/wiki/jinja2/wiki/document.html:147
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "დოკუმენტი ჯერ არ შემუშავებულა და ვერ შემუშავდება, MDN-ზე <a href=\"%(url)s\">ტექნიკური სამუშაობის მიმდინარეობისას</a>. გთხოვთ, შესამოწმებლად დაბრუნდეთ სამუშაოების დასრულების შემდეგ."
 
-#: kuma/wiki/jinja2/wiki/document.html:162
+#: kuma/wiki/jinja2/wiki/document.html:158
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "დოკუმენტი პირველად მუშავდება სისტემის მიერ. გთხოვთ, <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> სრული შიგთავსის სანახავად, ცოტა ხანში."
 
-#: kuma/wiki/jinja2/wiki/document.html:170
+#: kuma/wiki/jinja2/wiki/document.html:166
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3766,7 +3766,7 @@ msgid ""
 msgstr ""
 "<abbr title=\"%(started_at)s\">მიმდინარეობს</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
 
-#: kuma/wiki/jinja2/wiki/document.html:179
+#: kuma/wiki/jinja2/wiki/document.html:175
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3774,20 +3774,20 @@ msgid ""
 msgstr ""
 "<abbr title=\"%(scheduled_at)s\">დაგეგმილია</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
 
-#: kuma/wiki/jinja2/wiki/document.html:190
+#: kuma/wiki/jinja2/wiki/document.html:186
 msgid "This is an experimental page."
 msgstr "ეს საცდელი გვერდია."
 
-#: kuma/wiki/jinja2/wiki/document.html:201
+#: kuma/wiki/jinja2/wiki/document.html:197
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "ეს თარგმანი არასრულია. გთხოვთ, დაგვეხმაროთ <a href=\"%(translate_url)s\">სტატიის გადმოთარგმნაში</a> ინგლისურიდან."
 
-#: kuma/wiki/jinja2/wiki/document.html:206
+#: kuma/wiki/jinja2/wiki/document.html:202
 msgid "This translation is in progress."
 msgstr "მიმდინარეობს თარგმნა."
 
-#: kuma/wiki/jinja2/wiki/document.html:213
+#: kuma/wiki/jinja2/wiki/document.html:209
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3796,23 +3796,23 @@ msgstr ""
 "ჩვენს მოხალისეებს, ჯერ არ შეუმუშავებიათ ამ სტატიის <bdi>%(locale)s</bdi> ვარიანტი. <a href=\"%(help_link)s\" rel=\"nofollow\">შემოგვიერთდით და დაგვეხმარეთ გადათარგმნაში!</a><br> ამასთან, შეგიძლიათ "
 "იხილოთ სტატიის <a href=\"%(doc_abs_url)s\">%(parent_language)s</a> ვერსია."
 
-#: kuma/wiki/jinja2/wiki/document.html:225
+#: kuma/wiki/jinja2/wiki/document.html:221
 msgid "This article doesn't have any content yet."
 msgstr "ამ სტატიას ჯერჯერობით არ გააჩნია შიგთავსი."
 
-#: kuma/wiki/jinja2/wiki/document.html:234
+#: kuma/wiki/jinja2/wiki/document.html:230
 msgid "This article doesn't have approved content yet."
 msgstr "ამ სტატიას ჯერჯერობით არ გააჩნია დამოწმებული შიგთავსი."
 
-#: kuma/wiki/jinja2/wiki/document.html:240
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "Document Tags and Contributors"
 msgstr "დოკუმენტების ჭდეები და წვლილის შემტანები"
 
-#: kuma/wiki/jinja2/wiki/document.html:247
+#: kuma/wiki/jinja2/wiki/document.html:243
 msgid "Contributors to this page:"
 msgstr "ამ გვერდის შექმნაში, წვლილის შემტანები:"
 
-#: kuma/wiki/jinja2/wiki/document.html:255
+#: kuma/wiki/jinja2/wiki/document.html:251
 msgid "Last updated by:"
 msgstr "ბოლო განახლების ავტორი:"
 

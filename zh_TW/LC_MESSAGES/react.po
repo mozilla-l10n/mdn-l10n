@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-17 14:54-0700\n"
+"POT-Creation-Date: 2019-07-22 15:13-0700\n"
 "PO-Revision-Date: 2019-07-18 01:55+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (Traditional) https://pontoon.mozilla.org/zh_TW/\n"
@@ -71,7 +71,7 @@ msgstr "文件中的段落"
 msgid "What should the sample title be?"
 msgstr "範例的標題是什麼？"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/header.jsx:107
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:39
 msgid "HTML"
 msgstr "HTML"
 
@@ -79,7 +79,7 @@ msgstr "HTML"
 msgid "Sample HTML Content"
 msgstr "HTML 範例內容"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/header.jsx:108
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:43
 msgid "CSS"
 msgstr "CSS"
 
@@ -87,7 +87,7 @@ msgstr "CSS"
 msgid "Sample CSS Content"
 msgstr "CSS 範例內容"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/header.jsx:111
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:47
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -139,10 +139,6 @@ msgstr "您輸入的網址看起來不正確"
 msgid "Default"
 msgstr "預設"
 
-#: kuma/javascript/src/article.jsx:171
-msgid "Tags:"
-msgstr "標籤:"
-
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr "關閉橫幅"
@@ -179,11 +175,7 @@ msgstr "某些東西怪怪的！"
 msgid "Contributors to this page:"
 msgstr "此頁面的貢獻者:"
 
-#: kuma/javascript/src/document.jsx:167
-msgid "On this Page"
-msgstr "在這一頁"
-
-#: kuma/javascript/src/document.jsx:183
+#: kuma/javascript/src/document.jsx:140
 msgid "Related Topics"
 msgstr "相關主題"
 
@@ -199,11 +191,15 @@ msgstr "在 CodePen 開啟"
 msgid "Open in JSFiddle"
 msgstr "於 JSFiddle 開啟"
 
-#: kuma/javascript/src/search-results-page.jsx:105
+#: kuma/javascript/src/search-results-page.jsx:89
 msgid "Results"
 msgstr "結果"
 
-#: kuma/javascript/src/search-results-page.jsx:259
+#: kuma/javascript/src/search-results-page.jsx:126
+msgid "No matching documents found."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:232
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "「%(query)s」的搜尋結果"
@@ -228,6 +224,10 @@ msgstr "知道了！"
 msgid "Edit"
 msgstr "編輯"
 
+#: kuma/javascript/src/toc.jsx:14
+msgid "On this Page"
+msgstr "在這一頁"
+
 #: kuma/javascript/src/a11y/a11y-nav.jsx:11
 msgid "Skip to main content"
 msgstr "跳到主要內容"
@@ -240,87 +240,7 @@ msgstr "選擇語言"
 msgid "Skip to search"
 msgstr "跳到搜尋"
 
-#: kuma/javascript/src/header/header.jsx:104
-msgid "Technologies"
-msgstr "技術"
-
-#: kuma/javascript/src/header/header.jsx:115
-msgid "Graphics"
-msgstr "圖形"
-
-#: kuma/javascript/src/header/header.jsx:117
-msgid "HTTP"
-msgstr "HTTP"
-
-#: kuma/javascript/src/header/header.jsx:120
-msgid "APIs / DOM"
-msgstr "API / DOM"
-
-#: kuma/javascript/src/header/header.jsx:124
-msgid "Browser Extensions"
-msgstr "瀏覽器擴充套件"
-
-#: kuma/javascript/src/header/header.jsx:128
-msgid "MathML"
-msgstr "MathML"
-
-#: kuma/javascript/src/header/header.jsx:133
-msgid "References & Guides"
-msgstr "參考資料與導覽"
-
-#: kuma/javascript/src/header/header.jsx:138
-msgid "Learn web development"
-msgstr "學習網頁開發"
-
-#: kuma/javascript/src/header/header.jsx:142
-msgid "Tutorials"
-msgstr "教學"
-
-#: kuma/javascript/src/header/header.jsx:146
-msgid "References"
-msgstr "參考資料"
-
-#: kuma/javascript/src/header/header.jsx:150
-msgid "Developer Guides"
-msgstr "開發者指南"
-
-#: kuma/javascript/src/header/header.jsx:154
-msgid "Accessibility"
-msgstr "輔助功能"
-
-#: kuma/javascript/src/header/header.jsx:158
-msgid "Game development"
-msgstr "遊戲開發"
-
-#: kuma/javascript/src/header/header.jsx:162
-msgid "...more docs"
-msgstr "…更多文件"
-
-#: kuma/javascript/src/header/header.jsx:167
-msgid "Feedback"
-msgstr "意見回饋"
-
-#: kuma/javascript/src/header/header.jsx:172
-msgid "Get Firefox help"
-msgstr "取得 Firefox 說明"
-
-#: kuma/javascript/src/header/header.jsx:177
-msgid "Get web development help"
-msgstr "取得網頁開發說明"
-
-#: kuma/javascript/src/header/header.jsx:182
-msgid "Join the MDN community"
-msgstr "加入 MDN 社群"
-
-#: kuma/javascript/src/header/header.jsx:185
-msgid "Report a content problem"
-msgstr "回報內容問題"
-
-#: kuma/javascript/src/header/header.jsx:191
-msgid "Report a bug"
-msgstr "回報 Bug"
-
-#: kuma/javascript/src/header/header.jsx:212
+#: kuma/javascript/src/header/header.jsx:90
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
 
@@ -344,7 +264,97 @@ msgstr "登出"
 msgid "Sign in"
 msgstr "登入"
 
-#: kuma/javascript/src/header/search.jsx:66
+#: kuma/javascript/src/header/main-menu.jsx:31
+msgid "Technologies"
+msgstr "技術"
+
+#: kuma/javascript/src/header/main-menu.jsx:35
+#, fuzzy
+msgid "Technologies Overview"
+msgstr "技術"
+
+#: kuma/javascript/src/header/main-menu.jsx:51
+msgid "Graphics"
+msgstr "圖形"
+
+#: kuma/javascript/src/header/main-menu.jsx:55
+msgid "HTTP"
+msgstr "HTTP"
+
+#: kuma/javascript/src/header/main-menu.jsx:59
+msgid "APIs / DOM"
+msgstr "API / DOM"
+
+#: kuma/javascript/src/header/main-menu.jsx:63
+msgid "Browser Extensions"
+msgstr "瀏覽器擴充套件"
+
+#: kuma/javascript/src/header/main-menu.jsx:67
+msgid "MathML"
+msgstr "MathML"
+
+#: kuma/javascript/src/header/main-menu.jsx:72
+msgid "References & Guides"
+msgstr "參考資料與導覽"
+
+#: kuma/javascript/src/header/main-menu.jsx:76
+msgid "Learn web development"
+msgstr "學習網頁開發"
+
+#: kuma/javascript/src/header/main-menu.jsx:80
+msgid "Tutorials"
+msgstr "教學"
+
+#: kuma/javascript/src/header/main-menu.jsx:84
+msgid "References"
+msgstr "參考資料"
+
+#: kuma/javascript/src/header/main-menu.jsx:88
+msgid "Developer Guides"
+msgstr "開發者指南"
+
+#: kuma/javascript/src/header/main-menu.jsx:92
+msgid "Accessibility"
+msgstr "輔助功能"
+
+#: kuma/javascript/src/header/main-menu.jsx:96
+msgid "Game development"
+msgstr "遊戲開發"
+
+#: kuma/javascript/src/header/main-menu.jsx:100
+msgid "...more docs"
+msgstr "…更多文件"
+
+#: kuma/javascript/src/header/main-menu.jsx:105
+msgid "Feedback"
+msgstr "意見回饋"
+
+#: kuma/javascript/src/header/main-menu.jsx:109
+#, fuzzy
+msgid "Send Feedback"
+msgstr "意見回饋"
+
+#: kuma/javascript/src/header/main-menu.jsx:113
+msgid "Get Firefox help"
+msgstr "取得 Firefox 說明"
+
+#: kuma/javascript/src/header/main-menu.jsx:118
+msgid "Get web development help"
+msgstr "取得網頁開發說明"
+
+#: kuma/javascript/src/header/main-menu.jsx:123
+msgid "Join the MDN community"
+msgstr "加入 MDN 社群"
+
+#: kuma/javascript/src/header/main-menu.jsx:126
+msgid "Report a content problem"
+msgstr "回報內容問題"
+
+#: kuma/javascript/src/header/main-menu.jsx:132
+msgid "Report a bug"
+msgstr "回報 Bug"
+
+#: kuma/javascript/src/header/search.jsx:67
 msgid "Search MDN"
 msgstr "搜尋 MDN"
 
@@ -559,3 +569,6 @@ msgstr "鏈結"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "區段"
+
+#~ msgid "Tags:"
+#~ msgstr "標籤:"
