@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-22 15:14-0700\n"
+"POT-Creation-Date: 2019-07-30 16:41-0700\n"
 "PO-Revision-Date: 2018-01-22 14:33+0000\n"
 "Last-Translator: S M Sarwar Nobin <smsarwar1996@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) https://pontoon.mozilla.org/bn_BD/\n"
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Internal Server Error"
 msgstr "অভ্যন্তরীণ সার্ভার ত্রুটির সম্মুখিন হয়েছে"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:118 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
 #: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN ওয়েব ডক"
@@ -122,19 +122,19 @@ msgstr ""
 msgid "Learn more"
 msgstr "আরও জানুন"
 
-#: jinja2/base.html:151 jinja2/react_base.html:127 kuma/wiki/jinja2/wiki/react_document.html:133
+#: jinja2/base.html:154 jinja2/react_base.html:123 kuma/wiki/jinja2/wiki/react_document.html:131
 msgid "Terms"
 msgstr "শর্তসমূহ"
 
-#: jinja2/base.html:152 jinja2/react_base.html:128 kuma/wiki/jinja2/wiki/react_document.html:134
+#: jinja2/base.html:155 jinja2/react_base.html:124 kuma/wiki/jinja2/wiki/react_document.html:132
 msgid "Privacy"
 msgstr "গোপনীয়তা"
 
-#: jinja2/base.html:153 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:156 jinja2/react_base.html:125 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Cookies"
 msgstr "কুকিস"
 
-#: jinja2/base.html:157 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:139
+#: jinja2/base.html:160 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:137
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr ""
@@ -286,11 +286,11 @@ msgstr "ড্যাশবোর্ড সংশোধন করুন"
 msgid "Documentation status"
 msgstr "ডকুমেন্টেশনের অবস্থা"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:97
 msgid "Other languages:"
 msgstr "অন্যান্য ভাষাসমূহ:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:108
 msgid "Go"
 msgstr "যান"
 
@@ -2915,7 +2915,7 @@ msgstr "পৃষ্ঠা"
 msgid "Date"
 msgstr "তারিখ"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:296
 msgid "Edit page"
 msgstr "পৃষ্ঠা সম্পাদন"
 
@@ -2923,7 +2923,7 @@ msgstr "পৃষ্ঠা সম্পাদন"
 msgid "View complete diff"
 msgstr "সম্পূর্ণ পরিবর্তন দেখুন"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:297
 msgid "View page history"
 msgstr "পৃষ্ঠার ইতিহাস দেখুন"
 
@@ -3747,21 +3747,21 @@ msgstr "এই ডকুমেন্টটি পুনরূদ্ধার ক
 msgid "Purge this document"
 msgstr "এমডিএন ডকুমেন্ট"
 
-#: kuma/wiki/jinja2/wiki/document.html:124
+#: kuma/wiki/jinja2/wiki/document.html:130
 msgid "Jump to:"
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:147
+#: kuma/wiki/jinja2/wiki/document.html:153
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:164
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "এই নথিটি প্রথমবারের মতো সিস্টেম রেন্ডার করেছে। পরিবর্তনগুলো দেখতে কিছু মিনিটের মধ্যে <a href=\"%(url)s\">পাতাটি রিলোড করুন</a>।"
 
-#: kuma/wiki/jinja2/wiki/document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:172
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3769,7 +3769,7 @@ msgid ""
 msgstr ""
 "বর্তমানে নথিটির একটু হালনাগাদ<abbr title=\"%(started_at)s\">এইমুহুর্তে চলছে</abbr>। নিচের কন্টেন্ট যদি নতুনত্বহীন বা এটাতে কিছু নেই বলে মনে হয় তবে কিছু মিনিটের মধ্যে <a href=\"%(url)s\">পাতাটি রিলোড করুন</a>।"
 
-#: kuma/wiki/jinja2/wiki/document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:181
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3777,45 +3777,45 @@ msgid ""
 msgstr ""
 "এই নথিটির একটি হালনাগাদ <abbr title=\"%(scheduled_at)s\">শিডিউল করা হয়েছে</abbr>। নিচের কন্টেন্ট যদি নতুনত্বহীন বা এটাতে কিছু নেই বলে মনে হয় তবে কিছু মিনিটের মধ্যে <a href=\"%(url)s\">পাতাটি রিলোড করুন</a>।"
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:192
 msgid "This is an experimental page."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:203
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "অনুবাদ অসম্পূর্ণ। দয়া করে ইংরেজি থেকে <a href=\"%(translate_url)s\">নিবন্ধটি অনুবাদ করুন </a>।"
 
-#: kuma/wiki/jinja2/wiki/document.html:202
+#: kuma/wiki/jinja2/wiki/document.html:208
 #, fuzzy
 msgid "This translation is in progress."
 msgstr "এই নিবন্ধটি অনুবাদ প্রক্রিয়ার মধ্যে রয়েছে।"
 
-#: kuma/wiki/jinja2/wiki/document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:215
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
 "<a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:221
+#: kuma/wiki/jinja2/wiki/document.html:227
 msgid "This article doesn't have any content yet."
 msgstr "এই নিবন্ধটির এখনো কোনো বিষয়বস্তু নেই।"
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "This article doesn't have approved content yet."
 msgstr ""
 
-#: kuma/wiki/jinja2/wiki/document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:242
 msgid "Document Tags and Contributors"
 msgstr "ডকুমেন্ট ট্যাগ এবং অবদানকারী"
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:249
 #, fuzzy
 msgid "Contributors to this page:"
 msgstr "MDN কোডবেসে অবদান রাখা"
 
-#: kuma/wiki/jinja2/wiki/document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:257
 msgid "Last updated by:"
 msgstr "সর্বশেষ হালনাগাদ করেছেন:"
 
@@ -4435,6 +4435,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:64
 msgid "Find the translation source with the lookup above and then click \"Save\"."
 msgstr ""
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:3
+msgid "You are on the <strong>editable</strong> version of MDN Web Docs"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:4
+#, fuzzy
+msgid "View as an MDN Web Docs user:"
+msgstr "MDN ওয়েব ডক"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format

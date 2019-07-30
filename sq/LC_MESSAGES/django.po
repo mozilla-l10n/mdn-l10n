@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-22 15:14-0700\n"
+"POT-Creation-Date: 2019-07-30 16:41-0700\n"
 "PO-Revision-Date: 2019-06-21 11:36+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian https://pontoon.mozilla.org/sq/\n"
@@ -112,7 +112,7 @@ msgstr "Mund t’ju interesonin mënyra të tjera <a href=\"%(content_url)s\">sh
 msgid "Internal Server Error"
 msgstr "Gabim i Brendshëm Shërbyesi"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:118 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
 #: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "Dokumentim Web i MDN-së"
@@ -125,19 +125,19 @@ msgstr "MDN-ja gjendet nën mënyrën mirëmbajtje, vetëm-lexim."
 msgid "Learn more"
 msgstr "Mësoni më tepër"
 
-#: jinja2/base.html:151 jinja2/react_base.html:127 kuma/wiki/jinja2/wiki/react_document.html:133
+#: jinja2/base.html:154 jinja2/react_base.html:123 kuma/wiki/jinja2/wiki/react_document.html:131
 msgid "Terms"
 msgstr "Kushte"
 
-#: jinja2/base.html:152 jinja2/react_base.html:128 kuma/wiki/jinja2/wiki/react_document.html:134
+#: jinja2/base.html:155 jinja2/react_base.html:124 kuma/wiki/jinja2/wiki/react_document.html:132
 msgid "Privacy"
 msgstr "Privatësi"
 
-#: jinja2/base.html:153 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:156 jinja2/react_base.html:125 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:157 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:139
+#: jinja2/base.html:160 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:137
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla dhe kontribues individualë.</p> <p>Lënda mund të përdoret sipas <a href=\"%(copyright_url)s\">këtyre licencave</a>.</p>"
@@ -289,11 +289,11 @@ msgstr "Pult rishikimesh"
 msgid "Documentation status"
 msgstr "Gjendje dokumentimi"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:97
 msgid "Other languages:"
 msgstr "Gjuhë të tjera:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:108
 msgid "Go"
 msgstr "Shko tek"
 
@@ -2914,7 +2914,7 @@ msgstr "Faqe"
 msgid "Date"
 msgstr "Datë"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:296
 msgid "Edit page"
 msgstr "Përpunoni faqen"
 
@@ -2922,7 +2922,7 @@ msgstr "Përpunoni faqen"
 msgid "View complete diff"
 msgstr "Shihni plotësisht dallimet"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:297
 msgid "View page history"
 msgstr "Shihni historik faqeje"
 
@@ -3753,23 +3753,23 @@ msgstr "Riktheje këtë dokument"
 msgid "Purge this document"
 msgstr "Spastroje këtë dokument"
 
-#: kuma/wiki/jinja2/wiki/document.html:124
+#: kuma/wiki/jinja2/wiki/document.html:130
 msgid "Jump to:"
 msgstr "Hidhu te:"
 
-#: kuma/wiki/jinja2/wiki/document.html:147
+#: kuma/wiki/jinja2/wiki/document.html:153
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr ""
 "Ky dokument s’është rikrijuar ende dhe s’mund të rikrijohet ndërkohë që MDN-ja gjendet nën <a href=\"%(url)s\">mënyrën mirëmbajtje</a>. Ju lutemi, kontrolloni sërish kur të ketë përfunduar "
 "mirëmbajtja."
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:164
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Ky dokument po prodhohet për herë të parë nga sistemi. Ju lutemi, <a href=\"%(url)s\">ringarkojeni këtë faqe</a> pas pak minutash që të shihni lëndën e plotë."
 
-#: kuma/wiki/jinja2/wiki/document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:172
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3778,7 +3778,7 @@ msgstr ""
 "Për këtë dokument <abbr title=\"%(started_at)s\">ka një përditësim në kryerje e sipër</abbr>. Nëse lënda më poshtë duke e vjetruar ose i mungon diçka, ju lutemi, <a href=\"%(url)s\">ringarkojeni "
 "këtë faqe</a> pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:181
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3787,20 +3787,20 @@ msgstr ""
 "Për këtë dokument <abbr title=\"%(scheduled_at)s\">është planifikuar një përditësim</abbr>. Nëse lënda më poshtë duke e vjetruar ose i mungon diçka, ju lutemi, <a href=\"%(url)s\">ringarkojeni këtë "
 "faqe</a> pas pak minutash."
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:192
 msgid "This is an experimental page."
 msgstr "Kjo është një faqe eksperimentale."
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:203
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Ky përkthim është i paplotë. Ju lutemi, ndihmoni <a href=\"%(translate_url)s\">të përkthehet ky artikull</a> nga Anglishtja."
 
-#: kuma/wiki/jinja2/wiki/document.html:202
+#: kuma/wiki/jinja2/wiki/document.html:208
 msgid "This translation is in progress."
 msgstr "Përkthimi është në kryerje e sipër."
 
-#: kuma/wiki/jinja2/wiki/document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:215
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3809,23 +3809,23 @@ msgstr ""
 "Vullnetarët tanë s’e kanë përkthyer ende në <bdi>%(locale)s</bdi> këtë artikull. <a href=\"%(help_link)s\" rel=\"nofollow\">Merrni pjesë dhe ndihmoni të mbarohet kjo punë!</a><br> Mund ta lexoni "
 "artikullin edhe në <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:221
+#: kuma/wiki/jinja2/wiki/document.html:227
 msgid "This article doesn't have any content yet."
 msgstr "Ky artikull s’ka ende lëndë."
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "This article doesn't have approved content yet."
 msgstr "Ky artikull s’ka ende lëndë të miratuar."
 
-#: kuma/wiki/jinja2/wiki/document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:242
 msgid "Document Tags and Contributors"
 msgstr "Etiketa dhe Kontribues Dokumentesh"
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:249
 msgid "Contributors to this page:"
 msgstr "Kontributorë te kjo faqe:"
 
-#: kuma/wiki/jinja2/wiki/document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:257
 msgid "Last updated by:"
 msgstr "Përditësuar së fundi nga:"
 
@@ -4445,6 +4445,15 @@ msgstr "Identifikues për %(locale)s:"
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:64
 msgid "Find the translation source with the lookup above and then click \"Save\"."
 msgstr "Gjeni burimin e përkthimit përmes kërkimeve më sipër dhe mandej klikoni mbi \"Ruaje\"."
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:3
+msgid "You are on the <strong>editable</strong> version of MDN Web Docs"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:4
+#, fuzzy
+msgid "View as an MDN Web Docs user:"
+msgstr "Kërkoni te Dokumentim Web i MDN-së"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format

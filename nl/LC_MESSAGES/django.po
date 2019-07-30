@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-22 15:14-0700\n"
+"POT-Creation-Date: 2019-07-30 16:41-0700\n"
 "PO-Revision-Date: 2019-06-28 08:55+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Dutch https://pontoon.mozilla.org/nl/\n"
@@ -116,7 +116,7 @@ msgstr "Mogelijk bent u geïnteresseerd in andere manieren om <a href=\"%(conten
 msgid "Internal Server Error"
 msgstr "Interne serverfout"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:118 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
 #: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN-webdocumenten"
@@ -129,19 +129,19 @@ msgstr "MDN bevindt zich momenteel in onderhoudsmodus (alleen-lezen)."
 msgid "Learn more"
 msgstr "Meer info"
 
-#: jinja2/base.html:151 jinja2/react_base.html:127 kuma/wiki/jinja2/wiki/react_document.html:133
+#: jinja2/base.html:154 jinja2/react_base.html:123 kuma/wiki/jinja2/wiki/react_document.html:131
 msgid "Terms"
 msgstr "Voorwaarden"
 
-#: jinja2/base.html:152 jinja2/react_base.html:128 kuma/wiki/jinja2/wiki/react_document.html:134
+#: jinja2/base.html:155 jinja2/react_base.html:124 kuma/wiki/jinja2/wiki/react_document.html:132
 msgid "Privacy"
 msgstr "Privacy"
 
-#: jinja2/base.html:153 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:156 jinja2/react_base.html:125 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:157 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:139
+#: jinja2/base.html:160 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:137
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla en individuele medewerkers.</p> <p>Inhoud is beschikbaar onder <a href=\"%(copyright_url)s\">deze licenties</a>.</p>"
@@ -299,12 +299,12 @@ msgid "Documentation status"
 msgstr "Documentatiestatus"
 
 # 100%
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:97
 msgid "Other languages:"
 msgstr "Andere talen:"
 
 # 100%
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:108
 msgid "Go"
 msgstr "Ga"
 
@@ -2935,7 +2935,7 @@ msgstr "Pagina"
 msgid "Date"
 msgstr "Datum"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:296
 msgid "Edit page"
 msgstr "Pagina bewerken"
 
@@ -2943,7 +2943,7 @@ msgstr "Pagina bewerken"
 msgid "View complete diff"
 msgstr "Volledige diff bekijken"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:297
 msgid "View page history"
 msgstr "Paginageschiedenis weergeven"
 
@@ -3781,21 +3781,21 @@ msgstr "Dit document terugzetten"
 msgid "Purge this document"
 msgstr "Dit document opschonen"
 
-#: kuma/wiki/jinja2/wiki/document.html:124
+#: kuma/wiki/jinja2/wiki/document.html:130
 msgid "Jump to:"
 msgstr "Springen naar:"
 
-#: kuma/wiki/jinja2/wiki/document.html:147
+#: kuma/wiki/jinja2/wiki/document.html:153
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Dit document is nog niet weergegeven, wat ook niet kan zolang MDN zich in <a href=\"%(url)s\">onderhoudsmodus</a> bevindt. Kijk later nog eens zodra het onderhoud is afgesloten."
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:164
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Dit document wordt voor het eerst door het systeem weergegeven. <a href=\"%(url)s\">Vernieuw deze pagina</a> over enkele minuten om de volledige inhoud te bekijken."
 
-#: kuma/wiki/jinja2/wiki/document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:172
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3804,7 +3804,7 @@ msgstr ""
 "Er wordt momenteel een <abbr title=\"%(started_at)s\">update van dit document</abbr> uitgevoerd. Als de onderstaande inhoud er vreemd uitziet of als er iets ontbreekt, <a href=\"%(url)s\">vernieuw "
 "dan deze pagina</a> over enkele minuten."
 
-#: kuma/wiki/jinja2/wiki/document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:181
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3813,20 +3813,20 @@ msgstr ""
 "Er is een update van dit document <abbr title=\"%(scheduled_at)s\">gepland</abbr>. Als de onderstaande inhoud er vreemd uitziet of als er iets ontbreekt, <a href=\"%(url)s\">vernieuw dan deze "
 "pagina</a> over enkele minuten."
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:192
 msgid "This is an experimental page."
 msgstr "Dit is een experimentele pagina."
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:203
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Deze vertaling is niet volledig. Help <a href=\"%(translate_url)s\">dit artikel te vertalen</a> vanuit het Engels."
 
-#: kuma/wiki/jinja2/wiki/document.html:202
+#: kuma/wiki/jinja2/wiki/document.html:208
 msgid "This translation is in progress."
 msgstr "Aan deze vertaling wordt gewerkt."
 
-#: kuma/wiki/jinja2/wiki/document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:215
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3835,23 +3835,23 @@ msgstr ""
 "Onze vrijwilligers hebben dit artikel nog niet naar het <bdi>%(locale)s</bdi> vertaald. <a href=\"%(help_link)s\" rel=\"nofollow\">Doe mee en help de klus te klaren!</a><br> U kunt het artikel ook "
 "in het <a href=\"%(doc_abs_url)s\">%(parent_language)s</a> lezen."
 
-#: kuma/wiki/jinja2/wiki/document.html:221
+#: kuma/wiki/jinja2/wiki/document.html:227
 msgid "This article doesn't have any content yet."
 msgstr "Dit artikel heeft nog geen inhoud."
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "This article doesn't have approved content yet."
 msgstr "Dit artikel heeft nog geen goedgekeurde inhoud."
 
-#: kuma/wiki/jinja2/wiki/document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:242
 msgid "Document Tags and Contributors"
 msgstr "Documentlabels en -medewerkers"
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:249
 msgid "Contributors to this page:"
 msgstr "Aan deze pagina hebben bijgedragen:"
 
-#: kuma/wiki/jinja2/wiki/document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:257
 msgid "Last updated by:"
 msgstr "Laatst bijgewerkt door:"
 
@@ -4465,6 +4465,15 @@ msgstr "Identificator in het %(locale)s:"
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:64
 msgid "Find the translation source with the lookup above and then click \"Save\"."
 msgstr "Zoek de bron van de vertaling via het bovenstaande zoekveld en klik daarna op ‘Opslaan’."
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:3
+msgid "You are on the <strong>editable</strong> version of MDN Web Docs"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:4
+#, fuzzy
+msgid "View as an MDN Web Docs user:"
+msgstr "MDN Web Docs doorzoeken"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format

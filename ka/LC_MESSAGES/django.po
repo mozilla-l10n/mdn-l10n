@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-22 15:14-0700\n"
+"POT-Creation-Date: 2019-07-30 16:41-0700\n"
 "PO-Revision-Date: 2019-06-29 01:03+0000\n"
 "Last-Translator: G12r <georgianization@outlook.com>\n"
 "Language-Team: Georgian https://pontoon.mozilla.org/ka/\n"
@@ -111,7 +111,7 @@ msgstr "შეგიძლიათ იხილოთ სხვა გზებ
 msgid "Internal Server Error"
 msgstr "სერვერის შიდა შეცდომა"
 
-#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:115 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
+#: jinja2/base.html:11 jinja2/base.html:61 jinja2/base.html:66 jinja2/base.html:118 jinja2/react_base.html:11 jinja2/react_base.html:57 jinja2/react_base.html:62
 #: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
 msgid "MDN Web Docs"
 msgstr "MDN ვებმასალა"
@@ -124,19 +124,19 @@ msgstr "MDN ამჟამად მხოლოდ კითხვის რ�
 msgid "Learn more"
 msgstr "ვრცლად"
 
-#: jinja2/base.html:151 jinja2/react_base.html:127 kuma/wiki/jinja2/wiki/react_document.html:133
+#: jinja2/base.html:154 jinja2/react_base.html:123 kuma/wiki/jinja2/wiki/react_document.html:131
 msgid "Terms"
 msgstr "პირობები"
 
-#: jinja2/base.html:152 jinja2/react_base.html:128 kuma/wiki/jinja2/wiki/react_document.html:134
+#: jinja2/base.html:155 jinja2/react_base.html:124 kuma/wiki/jinja2/wiki/react_document.html:132
 msgid "Privacy"
 msgstr "პირადულობა"
 
-#: jinja2/base.html:153 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:135
+#: jinja2/base.html:156 jinja2/react_base.html:125 kuma/wiki/jinja2/wiki/react_document.html:133
 msgid "Cookies"
 msgstr "ფუნთუშები"
 
-#: jinja2/base.html:157 jinja2/react_base.html:133 kuma/wiki/jinja2/wiki/react_document.html:139
+#: jinja2/base.html:160 jinja2/react_base.html:129 kuma/wiki/jinja2/wiki/react_document.html:137
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla და მისი მოხალისეები.</p> <p>მასალა ვრცელდება <a href=\"%(copyright_url)s\">მოცემული ლიცენზიებით</a>.</p>"
@@ -288,11 +288,11 @@ msgstr "გადამუშავებული ვერსიები"
 msgid "Documentation status"
 msgstr "მასალების მდგომარეობა"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:91
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:97
 msgid "Other languages:"
 msgstr "სხვა ენები:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:102
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:108
 msgid "Go"
 msgstr "გადასვლა"
 
@@ -2905,7 +2905,7 @@ msgstr "გვერდი"
 msgid "Date"
 msgstr "თარიღი"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:290
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:296
 msgid "Edit page"
 msgstr "გვერდის ჩასწორება"
 
@@ -2913,7 +2913,7 @@ msgstr "გვერდის ჩასწორება"
 msgid "View complete diff"
 msgstr "განსხვავებების სრულად ნახვა"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:291
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:297
 msgid "View page history"
 msgstr "გვერდის ისტორიის ნახვა"
 
@@ -3744,21 +3744,21 @@ msgstr "დოკუმენტის აღდგენა"
 msgid "Purge this document"
 msgstr "დოკუმენტების გასუფთავება"
 
-#: kuma/wiki/jinja2/wiki/document.html:124
+#: kuma/wiki/jinja2/wiki/document.html:130
 msgid "Jump to:"
 msgstr "გადასვლა:"
 
-#: kuma/wiki/jinja2/wiki/document.html:147
+#: kuma/wiki/jinja2/wiki/document.html:153
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "დოკუმენტი ჯერ არ შემუშავებულა და ვერ შემუშავდება, MDN-ზე <a href=\"%(url)s\">ტექნიკური სამუშაობის მიმდინარეობისას</a>. გთხოვთ, შესამოწმებლად დაბრუნდეთ სამუშაოების დასრულების შემდეგ."
 
-#: kuma/wiki/jinja2/wiki/document.html:158
+#: kuma/wiki/jinja2/wiki/document.html:164
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "დოკუმენტი პირველად მუშავდება სისტემის მიერ. გთხოვთ, <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> სრული შიგთავსის სანახავად, ცოტა ხანში."
 
-#: kuma/wiki/jinja2/wiki/document.html:166
+#: kuma/wiki/jinja2/wiki/document.html:172
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3766,7 +3766,7 @@ msgid ""
 msgstr ""
 "<abbr title=\"%(started_at)s\">მიმდინარეობს</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
 
-#: kuma/wiki/jinja2/wiki/document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:181
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3774,20 +3774,20 @@ msgid ""
 msgstr ""
 "<abbr title=\"%(scheduled_at)s\">დაგეგმილია</abbr> ამ დოკუმენტის განახლება. თუ ქვემოთ არსებული შიგთავსი მოძველებულია ან რამე აკლია, გთხოვთ <a href=\"%(url)s\">გადატვირთოთ გვერდი</a> რამდენიმე წუთში."
 
-#: kuma/wiki/jinja2/wiki/document.html:186
+#: kuma/wiki/jinja2/wiki/document.html:192
 msgid "This is an experimental page."
 msgstr "ეს საცდელი გვერდია."
 
-#: kuma/wiki/jinja2/wiki/document.html:197
+#: kuma/wiki/jinja2/wiki/document.html:203
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "ეს თარგმანი არასრულია. გთხოვთ, დაგვეხმაროთ <a href=\"%(translate_url)s\">სტატიის გადმოთარგმნაში</a> ინგლისურიდან."
 
-#: kuma/wiki/jinja2/wiki/document.html:202
+#: kuma/wiki/jinja2/wiki/document.html:208
 msgid "This translation is in progress."
 msgstr "მიმდინარეობს თარგმნა."
 
-#: kuma/wiki/jinja2/wiki/document.html:209
+#: kuma/wiki/jinja2/wiki/document.html:215
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3796,23 +3796,23 @@ msgstr ""
 "ჩვენს მოხალისეებს, ჯერ არ შეუმუშავებიათ ამ სტატიის <bdi>%(locale)s</bdi> ვარიანტი. <a href=\"%(help_link)s\" rel=\"nofollow\">შემოგვიერთდით და დაგვეხმარეთ გადათარგმნაში!</a><br> ამასთან, შეგიძლიათ "
 "იხილოთ სტატიის <a href=\"%(doc_abs_url)s\">%(parent_language)s</a> ვერსია."
 
-#: kuma/wiki/jinja2/wiki/document.html:221
+#: kuma/wiki/jinja2/wiki/document.html:227
 msgid "This article doesn't have any content yet."
 msgstr "ამ სტატიას ჯერჯერობით არ გააჩნია შიგთავსი."
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:236
 msgid "This article doesn't have approved content yet."
 msgstr "ამ სტატიას ჯერჯერობით არ გააჩნია დამოწმებული შიგთავსი."
 
-#: kuma/wiki/jinja2/wiki/document.html:236
+#: kuma/wiki/jinja2/wiki/document.html:242
 msgid "Document Tags and Contributors"
 msgstr "დოკუმენტების ჭდეები და წვლილის შემტანები"
 
-#: kuma/wiki/jinja2/wiki/document.html:243
+#: kuma/wiki/jinja2/wiki/document.html:249
 msgid "Contributors to this page:"
 msgstr "ამ გვერდის შექმნაში, წვლილის შემტანები:"
 
-#: kuma/wiki/jinja2/wiki/document.html:251
+#: kuma/wiki/jinja2/wiki/document.html:257
 msgid "Last updated by:"
 msgstr "ბოლო განახლების ავტორი:"
 
@@ -4431,6 +4431,15 @@ msgstr "ბმულის დაბოლოება %(locale)s ენის�
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:64
 msgid "Find the translation source with the lookup above and then click \"Save\"."
 msgstr "მონახეთ აღწერილობის პირველწყარო, ზემოთ არსებული ძიების ველის საშუალებით და შემდეგ დააწკაპეთ \"შენახვას\"."
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:3
+msgid "You are on the <strong>editable</strong> version of MDN Web Docs"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:4
+#, fuzzy
+msgid "View as an MDN Web Docs user:"
+msgstr "MDN ვებმასალის მოძიება"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format
