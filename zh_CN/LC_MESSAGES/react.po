@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-30 16:40-0700\n"
+"POT-Creation-Date: 2019-08-29 13:33-0700\n"
 "PO-Revision-Date: 2019-07-25 00:55+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
@@ -171,16 +171,13 @@ msgstr "感谢您的反馈！"
 msgid "Something went wrong!"
 msgstr "某些地方出错！"
 
-#: kuma/javascript/src/contributors.jsx:21
-msgid "Contributors to this page:"
-msgstr "此页面的贡献者："
-
-#: kuma/javascript/src/document.jsx:140
+#: kuma/javascript/src/document.jsx:101
 msgid "Related Topics"
 msgstr "相关主题"
 
-#: kuma/javascript/src/last-modified-by.jsx:36
-msgid "Last updated by:"
+#: kuma/javascript/src/last-modified.jsx:34
+#, fuzzy
+msgid "Last modified:"
 msgstr "最后编辑者:"
 
 #: kuma/javascript/src/live-examples.js:72
@@ -199,7 +196,7 @@ msgstr "结果"
 msgid "No matching documents found."
 msgstr "未找到匹配的文档。"
 
-#: kuma/javascript/src/search-results-page.jsx:234
+#: kuma/javascript/src/search-results-page.jsx:232
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "“%(query)s”的搜索结果"
@@ -220,7 +217,7 @@ msgstr "在新标签页打开问卷"
 msgid "Dismiss"
 msgstr "消除"
 
-#: kuma/javascript/src/titlebar.jsx:64
+#: kuma/javascript/src/titlebar.jsx:60
 msgid "Edit in wiki"
 msgstr "在 Wiki 中编辑"
 
@@ -240,7 +237,7 @@ msgstr "选择语言"
 msgid "Skip to search"
 msgstr "跳转到搜索"
 
-#: kuma/javascript/src/header/header.jsx:90
+#: kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
 msgstr "MDN Web 文档"
 
@@ -248,19 +245,19 @@ msgstr "MDN Web 文档"
 msgid "English"
 msgstr "英语"
 
-#: kuma/javascript/src/header/login.jsx:90
+#: kuma/javascript/src/header/login.jsx:92
 msgid "View profile"
 msgstr "查看个人资料"
 
-#: kuma/javascript/src/header/login.jsx:93
+#: kuma/javascript/src/header/login.jsx:95
 msgid "Edit profile"
 msgstr "编辑个人资料"
 
-#: kuma/javascript/src/header/login.jsx:99
+#: kuma/javascript/src/header/login.jsx:101
 msgid "Sign out"
 msgstr "退出"
 
-#: kuma/javascript/src/header/login.jsx:115
+#: kuma/javascript/src/header/login.jsx:117
 msgid "Sign in"
 msgstr "登录"
 
@@ -352,7 +349,7 @@ msgstr "报告内容问题"
 msgid "Report a bug"
 msgstr "报告缺陷"
 
-#: kuma/javascript/src/header/search.jsx:67
+#: kuma/javascript/src/header/search.jsx:69
 msgid "Search MDN"
 msgstr "搜索 MDN"
 
@@ -566,6 +563,9 @@ msgstr "链接"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "节"
+
+#~ msgid "Contributors to this page:"
+#~ msgstr "此页面的贡献者："
 
 #~ msgid "Edit"
 #~ msgstr "编辑"

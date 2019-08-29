@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-30 16:40-0700\n"
+"POT-Creation-Date: 2019-08-29 13:33-0700\n"
 "PO-Revision-Date: 2019-08-10 12:38+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -171,16 +171,13 @@ msgstr "Grazie per la segnalazione."
 msgid "Something went wrong!"
 msgstr "Si è verificato un errore."
 
-#: kuma/javascript/src/contributors.jsx:21
-msgid "Contributors to this page:"
-msgstr "Hanno collaborato alla realizzazione di questa pagina:"
-
-#: kuma/javascript/src/document.jsx:140
+#: kuma/javascript/src/document.jsx:101
 msgid "Related Topics"
 msgstr "Argomenti correlati"
 
-#: kuma/javascript/src/last-modified-by.jsx:36
-msgid "Last updated by:"
+#: kuma/javascript/src/last-modified.jsx:34
+#, fuzzy
+msgid "Last modified:"
 msgstr "Ultima modifica di:"
 
 #: kuma/javascript/src/live-examples.js:72
@@ -199,7 +196,7 @@ msgstr "Risultati"
 msgid "No matching documents found."
 msgstr "Nessun documento trovato."
 
-#: kuma/javascript/src/search-results-page.jsx:234
+#: kuma/javascript/src/search-results-page.jsx:232
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Risultati di ricerca per “%(query)s”"
@@ -220,7 +217,7 @@ msgstr "Apri il sondaggio in una nuova scheda"
 msgid "Dismiss"
 msgstr "Ignora"
 
-#: kuma/javascript/src/titlebar.jsx:64
+#: kuma/javascript/src/titlebar.jsx:60
 msgid "Edit in wiki"
 msgstr "Modifica nella wiki"
 
@@ -240,7 +237,7 @@ msgstr "Seleziona una lingua"
 msgid "Skip to search"
 msgstr "Vai alla ricerca"
 
-#: kuma/javascript/src/header/header.jsx:90
+#: kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
 
@@ -248,19 +245,19 @@ msgstr "MDN Web Docs"
 msgid "English"
 msgstr "Inglese"
 
-#: kuma/javascript/src/header/login.jsx:90
+#: kuma/javascript/src/header/login.jsx:92
 msgid "View profile"
 msgstr "Visualizza Profilo"
 
-#: kuma/javascript/src/header/login.jsx:93
+#: kuma/javascript/src/header/login.jsx:95
 msgid "Edit profile"
 msgstr "Modifica profilo"
 
-#: kuma/javascript/src/header/login.jsx:99
+#: kuma/javascript/src/header/login.jsx:101
 msgid "Sign out"
 msgstr "Esci"
 
-#: kuma/javascript/src/header/login.jsx:115
+#: kuma/javascript/src/header/login.jsx:117
 msgid "Sign in"
 msgstr "Accedi"
 
@@ -352,7 +349,7 @@ msgstr "Segnala errori dei contenuti"
 msgid "Report a bug"
 msgstr "Segnala un problema"
 
-#: kuma/javascript/src/header/search.jsx:67
+#: kuma/javascript/src/header/search.jsx:69
 msgid "Search MDN"
 msgstr "Cerca in MDN"
 
@@ -440,8 +437,8 @@ msgstr "Selezionato: "
 #, python-format
 msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
 msgstr ""
-"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie in"
-" anticipo per la tua disponibilità."
+"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie "
+"in anticipo per la tua disponibilità."
 
 #: kuma/static/js/users.js:116
 msgid "New interest..."
@@ -569,6 +566,9 @@ msgstr "Link"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Sezione"
+
+#~ msgid "Contributors to this page:"
+#~ msgstr "Hanno collaborato alla realizzazione di questa pagina:"
 
 #~ msgid "Edit"
 #~ msgstr "Modifica"

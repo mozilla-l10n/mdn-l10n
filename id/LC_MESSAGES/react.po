@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-07-30 16:40-0700\n"
+"POT-Creation-Date: 2019-08-29 13:33-0700\n"
 "PO-Revision-Date: 2019-08-20 05:48+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
@@ -173,16 +173,13 @@ msgstr "Terima kasih telah memberi tahu kami!"
 msgid "Something went wrong!"
 msgstr "Ada yang salah!"
 
-#: kuma/javascript/src/contributors.jsx:21
-msgid "Contributors to this page:"
-msgstr "Kontributor untuk laman ini:"
-
-#: kuma/javascript/src/document.jsx:140
+#: kuma/javascript/src/document.jsx:101
 msgid "Related Topics"
 msgstr "Topik Terkait"
 
-#: kuma/javascript/src/last-modified-by.jsx:36
-msgid "Last updated by:"
+#: kuma/javascript/src/last-modified.jsx:34
+#, fuzzy
+msgid "Last modified:"
 msgstr "Terakhir diperbarui oleh:"
 
 #: kuma/javascript/src/live-examples.js:72
@@ -201,7 +198,7 @@ msgstr "Hasil"
 msgid "No matching documents found."
 msgstr "Tidak ditemukan dokumen yang cocok."
 
-#: kuma/javascript/src/search-results-page.jsx:234
+#: kuma/javascript/src/search-results-page.jsx:232
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Hasil pencarian untuk \"%(query)s\""
@@ -222,7 +219,7 @@ msgstr "Buka survei di tab baru"
 msgid "Dismiss"
 msgstr "Tutup"
 
-#: kuma/javascript/src/titlebar.jsx:64
+#: kuma/javascript/src/titlebar.jsx:60
 msgid "Edit in wiki"
 msgstr "Sunting di wiki"
 
@@ -242,7 +239,7 @@ msgstr "Pilih bahasa"
 msgid "Skip to search"
 msgstr "Loncat ke pencarian"
 
-#: kuma/javascript/src/header/header.jsx:90
+#: kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
 
@@ -250,19 +247,19 @@ msgstr "MDN Web Docs"
 msgid "English"
 msgstr "Bahasa Inggris"
 
-#: kuma/javascript/src/header/login.jsx:90
+#: kuma/javascript/src/header/login.jsx:92
 msgid "View profile"
 msgstr "Tampilkan profil"
 
-#: kuma/javascript/src/header/login.jsx:93
+#: kuma/javascript/src/header/login.jsx:95
 msgid "Edit profile"
 msgstr "Sunting profil"
 
-#: kuma/javascript/src/header/login.jsx:99
+#: kuma/javascript/src/header/login.jsx:101
 msgid "Sign out"
 msgstr "Keluar"
 
-#: kuma/javascript/src/header/login.jsx:115
+#: kuma/javascript/src/header/login.jsx:117
 msgid "Sign in"
 msgstr "Masuk"
 
@@ -355,7 +352,7 @@ msgstr "Laporkan masalah konten"
 msgid "Report a bug"
 msgstr "Laporkan kutu"
 
-#: kuma/javascript/src/header/search.jsx:67
+#: kuma/javascript/src/header/search.jsx:69
 msgid "Search MDN"
 msgstr "Cari MDN"
 
@@ -569,6 +566,9 @@ msgstr "Tautan"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Bagian"
+
+#~ msgid "Contributors to this page:"
+#~ msgstr "Kontributor untuk laman ini:"
 
 #~ msgid "Edit"
 #~ msgstr "Sunting"
