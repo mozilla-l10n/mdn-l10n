@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-08-29 13:33-0700\n"
+"POT-Creation-Date: 2019-09-12 13:30-0700\n"
 "PO-Revision-Date: 2019-08-26 15:38+0000\n"
 "Last-Translator: kko <kko.firefox@pinedaserna.org>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -171,53 +171,120 @@ msgstr "Merci de nous avoir informés !"
 msgid "Something went wrong!"
 msgstr "Quelque chose s'est mal passé !"
 
-#: kuma/javascript/src/document.jsx:101
+#: kuma/javascript/src/document.jsx:57
 msgid "Related Topics"
 msgstr "Sujets associés"
+
+#: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
+msgid "MDN Web Docs"
+msgstr "Documentation du Web - MDN"
+
+#: kuma/javascript/src/footer.jsx:23
+#, fuzzy
+msgid "Web Technologies"
+msgstr "Technologies"
+
+#: kuma/javascript/src/footer.jsx:28
+#, fuzzy
+msgid "Learn Web Development"
+msgstr "Apprendre le développement web"
+
+#: kuma/javascript/src/footer.jsx:33
+msgid "About MDN"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:105
+msgid "Feedback"
+msgstr "Votre avis"
+
+#: kuma/javascript/src/footer.jsx:54
+msgid "Mozilla"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:61
+msgid "About"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:66
+msgid "Contact Us"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:89
+msgid "Terms"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:94
+msgid "Privacy"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:99
+msgid "Cookies"
+msgstr ""
 
 #: kuma/javascript/src/last-modified.jsx:34
 #, fuzzy
 msgid "Last modified:"
 msgstr "Dernière mise à jour par :"
 
-#: kuma/javascript/src/live-examples.js:72
+#: kuma/javascript/src/live-examples.js:83
 msgid "Open in CodePen"
 msgstr "Ouvrir dans CodePen"
 
-#: kuma/javascript/src/live-examples.js:76
+#: kuma/javascript/src/live-examples.js:87
 msgid "Open in JSFiddle"
 msgstr "Ouvrir dans JSFiddle"
 
-#: kuma/javascript/src/search-results-page.jsx:89
+#: kuma/javascript/src/newsletter.jsx:175
+msgid "Thanks! Please check your inbox to confirm your subscription."
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:201
+#, fuzzy
+msgid "Learn the best of web development"
+msgstr "Apprendre le développement web"
+
+#: kuma/javascript/src/newsletter.jsx:216
+msgid "The newsletter is offered in English only at the moment."
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:255
+msgid "you@example.com"
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:276
+msgid "I’m okay with Mozilla handling my info as explained in this "
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:280
+msgid "Privacy Policy"
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:35
 msgid "Results"
 msgstr "Résultats"
 
-#: kuma/javascript/src/search-results-page.jsx:128
+#: kuma/javascript/src/search-results-page.jsx:74
 msgid "No matching documents found."
 msgstr "Aucun document correspondant trouvé."
 
-#: kuma/javascript/src/search-results-page.jsx:232
+#: kuma/javascript/src/search-results-page.jsx:178
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Résultats pour « %(query)s »"
 
-#: kuma/javascript/src/section-anchor.jsx:20
-msgid "Link to"
-msgstr "Lien vers"
-
-#: kuma/javascript/src/task-completion-survey.jsx:174
+#: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
 msgstr "Pourriez-vous répondre à 4 questions ?"
 
-#: kuma/javascript/src/task-completion-survey.jsx:181
+#: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Ouvrir le sondage dans un nouvel onglet"
 
-#: kuma/javascript/src/task-completion-survey.jsx:190
+#: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
 msgstr "Masquer"
 
-#: kuma/javascript/src/titlebar.jsx:60
+#: kuma/javascript/src/titlebar.jsx:14
 msgid "Edit in wiki"
 msgstr "Modifier dans le wiki"
 
@@ -237,28 +304,24 @@ msgstr "Sélectionnez une langue"
 msgid "Skip to search"
 msgstr "Passer à la recherche"
 
-#: kuma/javascript/src/header/header.jsx:25
-msgid "MDN Web Docs"
-msgstr "Documentation du Web - MDN"
-
 #: kuma/javascript/src/header/language-menu.jsx:30
 msgid "English"
 msgstr "Anglais"
 
-#: kuma/javascript/src/header/login.jsx:92
+#: kuma/javascript/src/header/login.jsx:47
 msgid "View profile"
 msgstr "Afficher le profil"
 
-#: kuma/javascript/src/header/login.jsx:95
+#: kuma/javascript/src/header/login.jsx:50
 msgid "Edit profile"
 msgstr "Modifier le profil"
 
 # 87%
-#: kuma/javascript/src/header/login.jsx:101
+#: kuma/javascript/src/header/login.jsx:56
 msgid "Sign out"
 msgstr "Déconnexion"
 
-#: kuma/javascript/src/header/login.jsx:117
+#: kuma/javascript/src/header/login.jsx:72
 msgid "Sign in"
 msgstr "Connexion"
 
@@ -322,10 +385,6 @@ msgstr "Développement de jeux"
 msgid "...more docs"
 msgstr "… plus de documentation"
 
-#: kuma/javascript/src/header/main-menu.jsx:105
-msgid "Feedback"
-msgstr "Votre avis"
-
 #: kuma/javascript/src/header/main-menu.jsx:109
 msgid "Send Feedback"
 msgstr "Donner mon avis"
@@ -350,7 +409,7 @@ msgstr "Signaler un problème de contenu"
 msgid "Report a bug"
 msgstr "Signaler un problème"
 
-#: kuma/javascript/src/header/search.jsx:69
+#: kuma/javascript/src/header/search.jsx:34
 msgid "Search MDN"
 msgstr "Rechercher sur MDN"
 
@@ -570,6 +629,9 @@ msgstr "Lien"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Section"
+
+#~ msgid "Link to"
+#~ msgstr "Lien vers"
 
 #~ msgid "Contributors to this page:"
 #~ msgstr "Contributeurs à cette page&nbsp;:"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-08-29 13:33-0700\n"
+"POT-Creation-Date: 2019-09-12 13:30-0700\n"
 "PO-Revision-Date: 2019-08-30 01:02+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: Swedish https://pontoon.mozilla.org/sv_SE/\n"
@@ -170,52 +170,119 @@ msgstr "Tack för att du meddelar!"
 msgid "Something went wrong!"
 msgstr "Något gick fel!"
 
-#: kuma/javascript/src/document.jsx:101
+#: kuma/javascript/src/document.jsx:57
 msgid "Related Topics"
 msgstr "Relaterade ämnen"
+
+#: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
+msgid "MDN Web Docs"
+msgstr "MDN webbdokument"
+
+#: kuma/javascript/src/footer.jsx:23
+#, fuzzy
+msgid "Web Technologies"
+msgstr "Tekniker"
+
+#: kuma/javascript/src/footer.jsx:28
+#, fuzzy
+msgid "Learn Web Development"
+msgstr "Lär dig webbutveckling"
+
+#: kuma/javascript/src/footer.jsx:33
+msgid "About MDN"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:105
+msgid "Feedback"
+msgstr "Återkoppling"
+
+#: kuma/javascript/src/footer.jsx:54
+msgid "Mozilla"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:61
+msgid "About"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:66
+msgid "Contact Us"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:89
+msgid "Terms"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:94
+msgid "Privacy"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:99
+msgid "Cookies"
+msgstr ""
 
 #: kuma/javascript/src/last-modified.jsx:34
 msgid "Last modified:"
 msgstr "Senast ändrad:"
 
-#: kuma/javascript/src/live-examples.js:72
+#: kuma/javascript/src/live-examples.js:83
 msgid "Open in CodePen"
 msgstr "Öppna i CodePen"
 
-#: kuma/javascript/src/live-examples.js:76
+#: kuma/javascript/src/live-examples.js:87
 msgid "Open in JSFiddle"
 msgstr "Öppna i JSFiddle"
 
-#: kuma/javascript/src/search-results-page.jsx:89
+#: kuma/javascript/src/newsletter.jsx:175
+msgid "Thanks! Please check your inbox to confirm your subscription."
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:201
+#, fuzzy
+msgid "Learn the best of web development"
+msgstr "Lär dig webbutveckling"
+
+#: kuma/javascript/src/newsletter.jsx:216
+msgid "The newsletter is offered in English only at the moment."
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:255
+msgid "you@example.com"
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:276
+msgid "I’m okay with Mozilla handling my info as explained in this "
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:280
+msgid "Privacy Policy"
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:35
 msgid "Results"
 msgstr "Resultat"
 
-#: kuma/javascript/src/search-results-page.jsx:128
+#: kuma/javascript/src/search-results-page.jsx:74
 msgid "No matching documents found."
 msgstr "Inga matchande dokument hittades."
 
-#: kuma/javascript/src/search-results-page.jsx:232
+#: kuma/javascript/src/search-results-page.jsx:178
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Sökresultat för \"%(query)s\""
 
-#: kuma/javascript/src/section-anchor.jsx:20
-msgid "Link to"
-msgstr "Länk till"
-
-#: kuma/javascript/src/task-completion-survey.jsx:174
+#: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
 msgstr "Vill du svara på 4 frågor för att hjälpa oss?"
 
-#: kuma/javascript/src/task-completion-survey.jsx:181
+#: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Öppna den här undersökningen i en ny flik"
 
-#: kuma/javascript/src/task-completion-survey.jsx:190
+#: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
 msgstr "Ignorera"
 
-#: kuma/javascript/src/titlebar.jsx:60
+#: kuma/javascript/src/titlebar.jsx:14
 msgid "Edit in wiki"
 msgstr "Redigera i wiki"
 
@@ -235,27 +302,23 @@ msgstr "Välj ett språk"
 msgid "Skip to search"
 msgstr "Gå till sök"
 
-#: kuma/javascript/src/header/header.jsx:25
-msgid "MDN Web Docs"
-msgstr "MDN webbdokument"
-
 #: kuma/javascript/src/header/language-menu.jsx:30
 msgid "English"
 msgstr "Engelska"
 
-#: kuma/javascript/src/header/login.jsx:92
+#: kuma/javascript/src/header/login.jsx:47
 msgid "View profile"
 msgstr "Visa profil"
 
-#: kuma/javascript/src/header/login.jsx:95
+#: kuma/javascript/src/header/login.jsx:50
 msgid "Edit profile"
 msgstr "Redigera profil"
 
-#: kuma/javascript/src/header/login.jsx:101
+#: kuma/javascript/src/header/login.jsx:56
 msgid "Sign out"
 msgstr "Logga ut"
 
-#: kuma/javascript/src/header/login.jsx:117
+#: kuma/javascript/src/header/login.jsx:72
 msgid "Sign in"
 msgstr "Logga in"
 
@@ -319,10 +382,6 @@ msgstr "Spelutveckling"
 msgid "...more docs"
 msgstr "...fler dokument"
 
-#: kuma/javascript/src/header/main-menu.jsx:105
-msgid "Feedback"
-msgstr "Återkoppling"
-
 #: kuma/javascript/src/header/main-menu.jsx:109
 msgid "Send Feedback"
 msgstr "Skicka återkoppling"
@@ -347,7 +406,7 @@ msgstr "Rapportera ett innehållsproblem"
 msgid "Report a bug"
 msgstr "Rapportera en bugg"
 
-#: kuma/javascript/src/header/search.jsx:69
+#: kuma/javascript/src/header/search.jsx:34
 msgid "Search MDN"
 msgstr "Sök på MDN"
 
@@ -562,6 +621,9 @@ msgstr "Länk"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Avsnitt"
+
+#~ msgid "Link to"
+#~ msgstr "Länk till"
 
 #~ msgid "Contributors to this page:"
 #~ msgstr "Bidragare till denna sida:"
