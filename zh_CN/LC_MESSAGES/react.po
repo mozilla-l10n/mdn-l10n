@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-12 13:30-0700\n"
+"POT-Creation-Date: 2019-09-25 06:23-0700\n"
 "PO-Revision-Date: 2019-09-13 15:29+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
@@ -159,15 +159,15 @@ msgstr "填写问卷"
 msgid "Open"
 msgstr "打开"
 
-#: kuma/javascript/src/bcd.js:283
+#: kuma/javascript/src/bcd.js:279
 msgid "Flag as incorrect"
 msgstr "标记为不正确"
 
-#: kuma/javascript/src/bcd.js:301
+#: kuma/javascript/src/bcd.js:297
 msgid "Thank you for letting us know!"
 msgstr "感谢您的反馈！"
 
-#: kuma/javascript/src/bcd.js:306
+#: kuma/javascript/src/bcd.js:302
 msgid "Something went wrong!"
 msgstr "某些地方出错！"
 
@@ -231,39 +231,62 @@ msgstr "在 CodePen 中打开"
 msgid "Open in JSFiddle"
 msgstr "在 JSFiddle 中打开"
 
-#: kuma/javascript/src/newsletter.jsx:175
+#: kuma/javascript/src/newsletter.jsx:189
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "谢谢！请检查您的收件箱以确认您的订阅。"
 
-#: kuma/javascript/src/newsletter.jsx:201
+#: kuma/javascript/src/newsletter.jsx:215
 msgid "Learn the best of web development"
 msgstr "学习 Web 开发的最佳实践"
 
-#: kuma/javascript/src/newsletter.jsx:216
+#: kuma/javascript/src/newsletter.jsx:230
 msgid "The newsletter is offered in English only at the moment."
 msgstr "目前仅提供英文版新闻通讯。"
 
-#: kuma/javascript/src/newsletter.jsx:255
+#: kuma/javascript/src/newsletter.jsx:269
 msgid "you@example.com"
 msgstr "you@example.com"
 
-#: kuma/javascript/src/newsletter.jsx:276
+#: kuma/javascript/src/newsletter.jsx:290
 msgid "I’m okay with Mozilla handling my info as explained in this "
 msgstr "我接受 Mozilla 按如下所述方式处理我的信息"
 
-#: kuma/javascript/src/newsletter.jsx:280
+#: kuma/javascript/src/newsletter.jsx:294
 msgid "Privacy Policy"
 msgstr "隐私政策"
 
-#: kuma/javascript/src/search-results-page.jsx:35
-msgid "Results"
-msgstr "结果"
+#: kuma/javascript/src/search-results-page.jsx:62
+msgid "Nothing found if nothing searched."
+msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:74
+#: kuma/javascript/src/search-results-page.jsx:93
+msgid "Next"
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:131
+#, python-format
+msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
+msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
+msgstr[0] ""
+
+#: kuma/javascript/src/search-results-page.jsx:147
+msgid "Showing all results."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:151
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:167
 msgid "No matching documents found."
 msgstr "未找到匹配的文档。"
 
-#: kuma/javascript/src/search-results-page.jsx:178
+#: kuma/javascript/src/search-results-page.jsx:188
+msgid "Results"
+msgstr "结果"
+
+#: kuma/javascript/src/search-results-page.jsx:306
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "“%(query)s”的搜索结果"
@@ -303,6 +326,11 @@ msgstr "跳转到搜索"
 #: kuma/javascript/src/header/language-menu.jsx:30
 msgid "English"
 msgstr "英语"
+
+#: kuma/javascript/src/header/language-menu.jsx:32
+#, python-format
+msgid "Current language is %s. Choose your preferred language."
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:47
 msgid "View profile"
@@ -401,7 +429,8 @@ msgid "Report a content problem"
 msgstr "报告内容问题"
 
 #: kuma/javascript/src/header/main-menu.jsx:132
-msgid "Report a bug"
+#, fuzzy
+msgid "Report an issue"
 msgstr "报告缺陷"
 
 #: kuma/javascript/src/header/search.jsx:34

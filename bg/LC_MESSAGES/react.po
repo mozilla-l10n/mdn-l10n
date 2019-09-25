@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-12 13:30-0700\n"
+"POT-Creation-Date: 2019-09-25 06:23-0700\n"
 "PO-Revision-Date: 2018-11-18 14:18+0000\n"
 "Last-Translator: k.berov <k.berov@gmail.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
@@ -160,15 +160,15 @@ msgstr ""
 msgid "Open"
 msgstr "Отваряне"
 
-#: kuma/javascript/src/bcd.js:283
+#: kuma/javascript/src/bcd.js:279
 msgid "Flag as incorrect"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:301
+#: kuma/javascript/src/bcd.js:297
 msgid "Thank you for letting us know!"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:306
+#: kuma/javascript/src/bcd.js:302
 msgid "Something went wrong!"
 msgstr ""
 
@@ -234,40 +234,64 @@ msgstr ""
 msgid "Open in JSFiddle"
 msgstr "Отваряне в %(site)s"
 
-#: kuma/javascript/src/newsletter.jsx:175
+#: kuma/javascript/src/newsletter.jsx:189
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:201
+#: kuma/javascript/src/newsletter.jsx:215
 msgid "Learn the best of web development"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:216
+#: kuma/javascript/src/newsletter.jsx:230
 msgid "The newsletter is offered in English only at the moment."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:255
+#: kuma/javascript/src/newsletter.jsx:269
 msgid "you@example.com"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:276
+#: kuma/javascript/src/newsletter.jsx:290
 msgid "I’m okay with Mozilla handling my info as explained in this "
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:280
+#: kuma/javascript/src/newsletter.jsx:294
 msgid "Privacy Policy"
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:35
+#: kuma/javascript/src/search-results-page.jsx:62
+msgid "Nothing found if nothing searched."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:93
+msgid "Next"
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:131
+#, python-format
+msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
+msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: kuma/javascript/src/search-results-page.jsx:147
+msgid "Showing all results."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:151
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:167
+msgid "No matching documents found."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:188
 #, fuzzy
 msgid "Results"
 msgstr "Резултат"
 
-#: kuma/javascript/src/search-results-page.jsx:74
-msgid "No matching documents found."
-msgstr ""
-
-#: kuma/javascript/src/search-results-page.jsx:178
+#: kuma/javascript/src/search-results-page.jsx:306
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr ""
@@ -310,6 +334,11 @@ msgstr ""
 #, fuzzy
 msgid "English"
 msgstr "Английски (САЩ)"
+
+#: kuma/javascript/src/header/language-menu.jsx:32
+#, python-format
+msgid "Current language is %s. Choose your preferred language."
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:47
 msgid "View profile"
@@ -408,7 +437,7 @@ msgid "Report a content problem"
 msgstr ""
 
 #: kuma/javascript/src/header/main-menu.jsx:132
-msgid "Report a bug"
+msgid "Report an issue"
 msgstr ""
 
 #: kuma/javascript/src/header/search.jsx:34
