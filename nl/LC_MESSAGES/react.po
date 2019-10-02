@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:23-0700\n"
+"POT-Creation-Date: 2019-10-02 15:08-0700\n"
 "PO-Revision-Date: 2019-09-26 13:16+0000\n"
 "Last-Translator: Fjoerfoks <fryskefirefox@gmail.com>\n"
 "Language-Team: Dutch https://pontoon.mozilla.org/nl/\n"
@@ -144,6 +144,14 @@ msgstr "De URL die u hebt ingevoerd lijkt niet geldig te zijn"
 msgid "Default"
 msgstr "Standaard"
 
+#: kuma/javascript/src/article.jsx:85
+msgid "You’re reading the English version of this content since no translation exists yet for this locale."
+msgstr ""
+
+#: kuma/javascript/src/article.jsx:90
+msgid "Help us translate this article!"
+msgstr ""
+
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr "Banner sluiten"
@@ -260,39 +268,36 @@ msgstr "Ik ben het eens met hoe Mozilla met mijn gegevens omgaat, zoals uitgeleg
 msgid "Privacy Policy"
 msgstr "Privacybeleid"
 
-#: kuma/javascript/src/search-results-page.jsx:62
-msgid "Nothing found if nothing searched."
-msgstr "Niets gevonden als er niets is gezocht."
+#: kuma/javascript/src/search-results-page.jsx:59
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
+msgstr "Resultaten van %(start)s tot %(end)s."
 
-#: kuma/javascript/src/search-results-page.jsx:93
-msgid "Next"
-msgstr "Volgende"
+#: kuma/javascript/src/search-results-page.jsx:63
+#, fuzzy
+msgid "Showing all "
+msgstr "Alle resultaten."
 
-#: kuma/javascript/src/search-results-page.jsx:131
+#: kuma/javascript/src/search-results-page.jsx:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
 msgstr[0] "%(count)s document gevonden voor ‘%(query)s’ in het %(locale)s."
 msgstr[1] "%(count)s documenten gevonden voor ‘%(query)s’ in het %(locale)s."
 
-#: kuma/javascript/src/search-results-page.jsx:147
-msgid "Showing all results."
-msgstr "Alle resultaten."
+#: kuma/javascript/src/search-results-page.jsx:132
+msgid "Previous"
+msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:151
-#, python-format
-msgid "Showing results %(start)s to %(end)s."
-msgstr "Resultaten van %(start)s tot %(end)s."
-
-#: kuma/javascript/src/search-results-page.jsx:167
-msgid "No matching documents found."
-msgstr "Geen overeenkomende documenten gevonden."
-
-#: kuma/javascript/src/search-results-page.jsx:188
+#: kuma/javascript/src/search-results-page.jsx:154
 msgid "Results"
 msgstr "Resultaten"
 
-#: kuma/javascript/src/search-results-page.jsx:306
+#: kuma/javascript/src/search-results-page.jsx:175
+msgid "No matching documents found."
+msgstr "Geen overeenkomende documenten gevonden."
+
+#: kuma/javascript/src/search-results-page.jsx:307
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Zoekresultaten voor ‘%(query)s’"
@@ -652,6 +657,12 @@ msgstr "Koppeling"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Sectie"
+
+#~ msgid "Nothing found if nothing searched."
+#~ msgstr "Niets gevonden als er niets is gezocht."
+
+#~ msgid "Next"
+#~ msgstr "Volgende"
 
 #~ msgid "Link to"
 #~ msgstr "Koppeling naar"

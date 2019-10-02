@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:23-0700\n"
+"POT-Creation-Date: 2019-10-02 15:08-0700\n"
 "PO-Revision-Date: 2019-10-02 17:09+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -139,6 +139,14 @@ msgstr "L’indirizzo inserito non sembra essere valido."
 msgid "Default"
 msgstr "Predefinito"
 
+#: kuma/javascript/src/article.jsx:85
+msgid "You’re reading the English version of this content since no translation exists yet for this locale."
+msgstr ""
+
+#: kuma/javascript/src/article.jsx:90
+msgid "Help us translate this article!"
+msgstr ""
+
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr "Chiudi banner"
@@ -255,39 +263,36 @@ msgstr "Acconsento al trattamento dei miei dati personali da parte di Mozilla co
 msgid "Privacy Policy"
 msgstr "Informativa sulla privacy"
 
-#: kuma/javascript/src/search-results-page.jsx:62
-msgid "Nothing found if nothing searched."
-msgstr "Nessun termine di ricerca inserito, nessun risultato trovato."
+#: kuma/javascript/src/search-results-page.jsx:59
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
+msgstr "Risultati di ricerca da %(start)s a %(end)s."
 
-#: kuma/javascript/src/search-results-page.jsx:93
-msgid "Next"
-msgstr "Avanti"
+#: kuma/javascript/src/search-results-page.jsx:63
+#, fuzzy
+msgid "Showing all "
+msgstr "Tutti i risultati di ricerca."
 
-#: kuma/javascript/src/search-results-page.jsx:131
+#: kuma/javascript/src/search-results-page.jsx:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
 msgstr[0] "La ricerca di \"%(query)s\" ha trovato %(count)s documento in %(locale)s."
 msgstr[1] "La ricerca di \"%(query)s\" ha trovato %(count)s documenti in %(locale)s."
 
-#: kuma/javascript/src/search-results-page.jsx:147
-msgid "Showing all results."
-msgstr "Tutti i risultati di ricerca."
+#: kuma/javascript/src/search-results-page.jsx:132
+msgid "Previous"
+msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:151
-#, python-format
-msgid "Showing results %(start)s to %(end)s."
-msgstr "Risultati di ricerca da %(start)s a %(end)s."
-
-#: kuma/javascript/src/search-results-page.jsx:167
-msgid "No matching documents found."
-msgstr "Nessun documento trovato."
-
-#: kuma/javascript/src/search-results-page.jsx:188
+#: kuma/javascript/src/search-results-page.jsx:154
 msgid "Results"
 msgstr "Risultati"
 
-#: kuma/javascript/src/search-results-page.jsx:306
+#: kuma/javascript/src/search-results-page.jsx:175
+msgid "No matching documents found."
+msgstr "Nessun documento trovato."
+
+#: kuma/javascript/src/search-results-page.jsx:307
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Risultati di ricerca per “%(query)s”"
@@ -521,8 +526,8 @@ msgstr "Selezionato: "
 #, python-format
 msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
 msgstr ""
-"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie in"
-" anticipo per la tua disponibilità."
+"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie "
+"in anticipo per la tua disponibilità."
 
 #: kuma/static/js/users.js:116
 msgid "New interest..."
@@ -650,6 +655,12 @@ msgstr "Link"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Sezione"
+
+#~ msgid "Nothing found if nothing searched."
+#~ msgstr "Nessun termine di ricerca inserito, nessun risultato trovato."
+
+#~ msgid "Next"
+#~ msgstr "Avanti"
 
 #~ msgid "Link to"
 #~ msgstr "Collegamento a"

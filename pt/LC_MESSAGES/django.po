@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:24-0700\n"
+"POT-Creation-Date: 2019-10-02 15:09-0700\n"
 "PO-Revision-Date: 2018-06-22 14:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) https://pontoon.mozilla.org/pt_PT/\n"
@@ -167,8 +167,8 @@ msgstr "Pesquisar ajuda do Firefox"
 # 100%
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:40 kuma/landing/jinja2/landing/homepage.html:45 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
-#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
-#: kuma/search/jinja2/search/results.html:57
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:53
+#: kuma/search/jinja2/search/results.html:58
 msgid "Search"
 msgstr "Pesquisar"
 
@@ -375,12 +375,12 @@ msgid "Hide Newsletter Sign-up"
 msgstr "Ocultar o registo de newsletter"
 
 # 100%
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
 msgid "Previous"
 msgstr "Anterior"
 
 # 100%
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:175
 msgid "Next"
 msgstr "Seguinte"
 
@@ -1068,7 +1068,7 @@ msgstr "Pesquisar páginas inglesas"
 msgid "Authors:"
 msgstr "Autores:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:240
 msgid "Filter"
 msgstr "Filtrar"
 
@@ -1196,7 +1196,7 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "Recursos para programadores, por programadores."
 
-#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:57
 msgid "Search the docs"
 msgstr "Procurar na documentação"
 
@@ -1930,98 +1930,98 @@ msgstr "Pesquisar MDN Web Docs"
 msgid "Search Results for \"%(query)s\""
 msgstr "Resultados da pesquisa por \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:36
+#: kuma/search/jinja2/search/results.html:37
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "traduzido de <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
-#: kuma/search/jinja2/search/results.html:48
+#: kuma/search/jinja2/search/results.html:49
 msgid "MDN Site Search"
 msgstr "Pesquisa no site da MDN"
 
-#: kuma/search/jinja2/search/results.html:66
+#: kuma/search/jinja2/search/results.html:67
 msgid "Results"
 msgstr "Resultados"
 
-#: kuma/search/jinja2/search/results.html:70
+#: kuma/search/jinja2/search/results.html:71
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\" em todos os idiomas."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\" em todos os idiomas."
 
-#: kuma/search/jinja2/search/results.html:76
+#: kuma/search/jinja2/search/results.html:77
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "%(count)s documento encontrado em todos os idiomas."
 msgstr[1] "%(count)s documentos encontrados em todos os idiomas."
 
-#: kuma/search/jinja2/search/results.html:86
+#: kuma/search/jinja2/search/results.html:87
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\" em %(locale_native)s."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\" em %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:92
+#: kuma/search/jinja2/search/results.html:93
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\" em %(locale_native)s e %(default_locale_native)s."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\" em %(locale_native)s e %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:100
+#: kuma/search/jinja2/search/results.html:101
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "%(count)s documento encontrado em %(locale_native)s."
 msgstr[1] "%(count)s documentos encontrados em %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:106
+#: kuma/search/jinja2/search/results.html:107
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s documento encontrado em %(locale_native)s e %(default_locale_native)s."
 msgstr[1] "%(count)s documentos encontrados em %(locale_native)s e %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:116
+#: kuma/search/jinja2/search/results.html:117
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\"."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\"."
 
-#: kuma/search/jinja2/search/results.html:122
+#: kuma/search/jinja2/search/results.html:123
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "%(count)s documento encontrado."
 msgstr[1] "%(count)s documentos encontrados."
 
-#: kuma/search/jinja2/search/results.html:132
+#: kuma/search/jinja2/search/results.html:133
 msgid "Showing all results."
 msgstr "A mostrar todos os resultados."
 
-#: kuma/search/jinja2/search/results.html:134
+#: kuma/search/jinja2/search/results.html:135
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "A apresentar resultados de %(start)s a %(end)s."
 
-#: kuma/search/jinja2/search/results.html:140
+#: kuma/search/jinja2/search/results.html:141
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "Pesquisar novamente apenas em %(default_locale_native)s"
 
-#: kuma/search/jinja2/search/results.html:155
+#: kuma/search/jinja2/search/results.html:156
 msgid "Docs"
 msgstr "Documentação"
 
-#: kuma/search/jinja2/search/results.html:198
+#: kuma/search/jinja2/search/results.html:199
 msgid "All Topics"
 msgstr "Todos os tópicos"
 
-#: kuma/search/jinja2/search/results.html:205
+#: kuma/search/jinja2/search/results.html:206
 msgid "Filter by"
 msgstr "Filtrar por"
 
@@ -2229,7 +2229,7 @@ msgstr "Website"
 msgid "Public GitHub URL"
 msgstr "URL GitHub público"
 
-#: kuma/users/signal_handlers.py:46
+#: kuma/users/signal_handlers.py:25
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 msgstr "Concluiu o primeiro passo de <a href=\"%s\">introdução à MDN</a>"
@@ -2701,12 +2701,12 @@ msgstr "Nova ação peço utilizador:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:97 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:129 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:150
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:170 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:189 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:212
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:367
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:375
 msgid "View Page"
 msgstr "Ver página"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:101 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:216 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:240
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:87
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:399 kuma/wiki/jinja2/wiki/includes/buttons.html:87
 msgid "History"
 msgstr "Histórico"
 
@@ -3109,28 +3109,28 @@ msgstr "Áreas de especialização"
 msgid "Member since %(date_joined)s"
 msgstr "Membro desde %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:37
+#: kuma/users/templatetags/jinja_helpers.py:41
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Banido a %(ban_date)s por %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:44
+#: kuma/users/templatetags/jinja_helpers.py:48
 msgid "Banned"
 msgstr "Banido"
 
-#: kuma/users/templatetags/jinja_helpers.py:47
+#: kuma/users/templatetags/jinja_helpers.py:51
 msgid "Clean Up Revisions"
 msgstr "Limpar revisões"
 
-#: kuma/users/templatetags/jinja_helpers.py:52
+#: kuma/users/templatetags/jinja_helpers.py:56
 msgid "Ban User"
 msgstr "Banir utilizador"
 
-#: kuma/users/templatetags/jinja_helpers.py:55
+#: kuma/users/templatetags/jinja_helpers.py:59
 msgid "Ban User & Clean Up"
 msgstr "Banir utilizador e limpar"
 
-#: kuma/users/templatetags/jinja_helpers.py:67
+#: kuma/users/templatetags/jinja_helpers.py:71
 msgid "Admin"
 msgstr "Administrador"
 
@@ -3176,54 +3176,54 @@ msgstr "Documentos da autoria de utilizadores da MDN"
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:175
+#: kuma/wiki/feeds.py:183
 msgid "MDN recent document changes"
 msgstr "Alterações recentes nos documentos da MDN"
 
-#: kuma/wiki/feeds.py:176
+#: kuma/wiki/feeds.py:184
 msgid "Recent changes to MDN documents"
 msgstr "Alterações recentes a documentos da MDN"
 
-#: kuma/wiki/feeds.py:182
+#: kuma/wiki/feeds.py:190
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "Alterações recentes em documentos da MDN marcados como %s"
 
-#: kuma/wiki/feeds.py:209
+#: kuma/wiki/feeds.py:217
 msgid "MDN documents in need of review"
 msgstr "Documentos da MDN que precisam de revisão"
 
-#: kuma/wiki/feeds.py:210
+#: kuma/wiki/feeds.py:218
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "Alterações recentes a documentos da MDN que precisam de revisão"
 
-#: kuma/wiki/feeds.py:216
+#: kuma/wiki/feeds.py:224
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "Documentos da MDN para revisão %s"
 
-#: kuma/wiki/feeds.py:220
+#: kuma/wiki/feeds.py:228
 msgid "MDN documents for review"
 msgstr "Documentos da MDN para revisão"
 
-#: kuma/wiki/feeds.py:250
+#: kuma/wiki/feeds.py:258
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr "'%s' traduções MDN que necessitam de atualização"
 
-#: kuma/wiki/feeds.py:286
+#: kuma/wiki/feeds.py:294
 msgid "MDN recent revisions"
 msgstr "Revisões recentes na MDN"
 
-#: kuma/wiki/feeds.py:287
+#: kuma/wiki/feeds.py:295
 msgid "Recent revisions to MDN documents"
 msgstr "Revisões recentes a documentos da MDN"
 
-#: kuma/wiki/feeds.py:370
+#: kuma/wiki/feeds.py:378
 msgid "Edit Page"
 msgstr "Editar página"
 
-#: kuma/wiki/feeds.py:378
+#: kuma/wiki/feeds.py:386
 msgid "Show comparison"
 msgstr "Mostrar comparação"
 

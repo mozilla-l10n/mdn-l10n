@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:23-0700\n"
+"POT-Creation-Date: 2019-10-02 15:08-0700\n"
 "PO-Revision-Date: 2019-09-25 15:17+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -142,6 +142,14 @@ msgstr "A megadott URL valószínűleg érvénytelen"
 msgid "Default"
 msgstr "Alapértelmezett"
 
+#: kuma/javascript/src/article.jsx:85
+msgid "You’re reading the English version of this content since no translation exists yet for this locale."
+msgstr ""
+
+#: kuma/javascript/src/article.jsx:90
+msgid "Help us translate this article!"
+msgstr ""
+
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr "Banner bezárása"
@@ -258,39 +266,36 @@ msgstr "Elfogadom, hogy a Mozilla a következőknek megfelelően kezelje az adat
 msgid "Privacy Policy"
 msgstr "Adatvédelmi irányelvek"
 
-#: kuma/javascript/src/search-results-page.jsx:62
-msgid "Nothing found if nothing searched."
-msgstr "Semmi sem található, ha nem keres semmire."
+#: kuma/javascript/src/search-results-page.jsx:59
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
+msgstr "Találatok megjelenítése ettől: %(start)s, eddig: %(end)s."
 
-#: kuma/javascript/src/search-results-page.jsx:93
-msgid "Next"
-msgstr "Tovább"
+#: kuma/javascript/src/search-results-page.jsx:63
+#, fuzzy
+msgid "Showing all "
+msgstr "Összes találat megjelenítése."
 
-#: kuma/javascript/src/search-results-page.jsx:131
+#: kuma/javascript/src/search-results-page.jsx:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
 msgstr[0] "%(count)s dokumentum találva erre: „%(query)s” a(z) %(locale)s nyelven."
 msgstr[1] "%(count)s dokumentum találva erre: „%(query)s” a(z) %(locale)s nyelven."
 
-#: kuma/javascript/src/search-results-page.jsx:147
-msgid "Showing all results."
-msgstr "Összes találat megjelenítése."
+#: kuma/javascript/src/search-results-page.jsx:132
+msgid "Previous"
+msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:151
-#, python-format
-msgid "Showing results %(start)s to %(end)s."
-msgstr "Találatok megjelenítése ettől: %(start)s, eddig: %(end)s."
-
-#: kuma/javascript/src/search-results-page.jsx:167
-msgid "No matching documents found."
-msgstr "Nem található egyező dokumentum."
-
-#: kuma/javascript/src/search-results-page.jsx:188
+#: kuma/javascript/src/search-results-page.jsx:154
 msgid "Results"
 msgstr "Találatok"
 
-#: kuma/javascript/src/search-results-page.jsx:306
+#: kuma/javascript/src/search-results-page.jsx:175
+msgid "No matching documents found."
+msgstr "Nem található egyező dokumentum."
+
+#: kuma/javascript/src/search-results-page.jsx:307
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Találatok a következőre: „%(query)s”"
@@ -651,6 +656,12 @@ msgstr "Hivatkozás"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Szakasz"
+
+#~ msgid "Nothing found if nothing searched."
+#~ msgstr "Semmi sem található, ha nem keres semmire."
+
+#~ msgid "Next"
+#~ msgstr "Tovább"
 
 #~ msgid "Link to"
 #~ msgstr "Hivatkozás ehhez:"

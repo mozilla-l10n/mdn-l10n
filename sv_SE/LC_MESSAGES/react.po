@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:23-0700\n"
+"POT-Creation-Date: 2019-10-02 15:08-0700\n"
 "PO-Revision-Date: 2019-09-25 17:08+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: Swedish https://pontoon.mozilla.org/sv_SE/\n"
@@ -138,6 +138,14 @@ msgstr "Den URL som du har angett verkar inte vara giltig"
 msgid "Default"
 msgstr "Standard"
 
+#: kuma/javascript/src/article.jsx:85
+msgid "You’re reading the English version of this content since no translation exists yet for this locale."
+msgstr ""
+
+#: kuma/javascript/src/article.jsx:90
+msgid "Help us translate this article!"
+msgstr ""
+
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr "Stäng banner"
@@ -254,39 +262,36 @@ msgstr "Jag är okej med att Mozilla hanterar min information som förklaras i d
 msgid "Privacy Policy"
 msgstr "sekretesspolicy"
 
-#: kuma/javascript/src/search-results-page.jsx:62
-msgid "Nothing found if nothing searched."
-msgstr "Ingenting hittades om ingenting söks."
+#: kuma/javascript/src/search-results-page.jsx:59
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
+msgstr "Visar resultat %(start)s till %(end)s."
 
-#: kuma/javascript/src/search-results-page.jsx:93
-msgid "Next"
-msgstr "Nästa"
+#: kuma/javascript/src/search-results-page.jsx:63
+#, fuzzy
+msgid "Showing all "
+msgstr "Visar alla resultat."
 
-#: kuma/javascript/src/search-results-page.jsx:131
+#: kuma/javascript/src/search-results-page.jsx:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
 msgstr[0] "%(count)s dokument hittades för \"%(query)s\" för %(locale)s."
 msgstr[1] "%(count)s dokument hittades för \"%(query)s\" för %(locale)s."
 
-#: kuma/javascript/src/search-results-page.jsx:147
-msgid "Showing all results."
-msgstr "Visar alla resultat."
+#: kuma/javascript/src/search-results-page.jsx:132
+msgid "Previous"
+msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:151
-#, python-format
-msgid "Showing results %(start)s to %(end)s."
-msgstr "Visar resultat %(start)s till %(end)s."
-
-#: kuma/javascript/src/search-results-page.jsx:167
-msgid "No matching documents found."
-msgstr "Inga matchande dokument hittades."
-
-#: kuma/javascript/src/search-results-page.jsx:188
+#: kuma/javascript/src/search-results-page.jsx:154
 msgid "Results"
 msgstr "Resultat"
 
-#: kuma/javascript/src/search-results-page.jsx:306
+#: kuma/javascript/src/search-results-page.jsx:175
+msgid "No matching documents found."
+msgstr "Inga matchande dokument hittades."
+
+#: kuma/javascript/src/search-results-page.jsx:307
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr "Sökresultat för \"%(query)s\""
@@ -647,6 +652,12 @@ msgstr "Länk"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Avsnitt"
+
+#~ msgid "Nothing found if nothing searched."
+#~ msgstr "Ingenting hittades om ingenting söks."
+
+#~ msgid "Next"
+#~ msgstr "Nästa"
 
 #~ msgid "Link to"
 #~ msgstr "Länk till"

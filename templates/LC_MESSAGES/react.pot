@@ -2,9 +2,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MDN 2019.17\n"
+"Project-Id-Version: MDN 2019.19\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:23-0700\n"
+"POT-Creation-Date: 2019-10-02 15:08-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,6 +142,16 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
+#: kuma/javascript/src/article.jsx:85
+msgid ""
+"You’re reading the English version of this content since no translation "
+"exists yet for this locale."
+msgstr ""
+
+#: kuma/javascript/src/article.jsx:90
+msgid "Help us translate this article!"
+msgstr ""
+
 #: kuma/javascript/src/banners.jsx:164
 msgid "Close banner"
 msgstr ""
@@ -258,39 +268,35 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:62
-msgid "Nothing found if nothing searched."
+#: kuma/javascript/src/search-results-page.jsx:59
+#, python-format
+msgid "Showing results %(start)s to %(end)s."
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:93
-msgid "Next"
+#: kuma/javascript/src/search-results-page.jsx:63
+msgid "Showing all "
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:131
+#: kuma/javascript/src/search-results-page.jsx:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale)s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kuma/javascript/src/search-results-page.jsx:147
-msgid "Showing all results."
+#: kuma/javascript/src/search-results-page.jsx:132
+msgid "Previous"
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:151
-#, python-format
-msgid "Showing results %(start)s to %(end)s."
-msgstr ""
-
-#: kuma/javascript/src/search-results-page.jsx:167
-msgid "No matching documents found."
-msgstr ""
-
-#: kuma/javascript/src/search-results-page.jsx:188
+#: kuma/javascript/src/search-results-page.jsx:154
 msgid "Results"
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:306
+#: kuma/javascript/src/search-results-page.jsx:175
+msgid "No matching documents found."
+msgstr ""
+
+#: kuma/javascript/src/search-results-page.jsx:307
 #, python-format
 msgid "Search results for \"%(query)s\""
 msgstr ""

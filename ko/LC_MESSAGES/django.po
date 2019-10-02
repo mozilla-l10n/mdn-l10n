@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-09-25 06:24-0700\n"
+"POT-Creation-Date: 2019-10-02 15:09-0700\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -171,8 +171,8 @@ msgstr "Firefox 도움말 검색"
 # 검색 버튼
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:40 kuma/landing/jinja2/landing/homepage.html:45 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
-#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
-#: kuma/search/jinja2/search/results.html:57
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:53
+#: kuma/search/jinja2/search/results.html:58
 msgid "Search"
 msgstr "검색"
 
@@ -369,11 +369,11 @@ msgstr "이전에 Mozilla 관련 뉴스레터 구독을 확인하지 않은 경�
 msgid "Hide Newsletter Sign-up"
 msgstr "뉴스레터 신청 숨기기"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
 msgid "Previous"
 msgstr "이전"
 
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:175
 msgid "Next"
 msgstr "다음"
 
@@ -1064,7 +1064,7 @@ msgstr "영문 페이지 검색"
 msgid "Authors:"
 msgstr "저자:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:240
 msgid "Filter"
 msgstr "항목"
 
@@ -1190,7 +1190,7 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "개발자에 의한, 개발자를 위한 자료입니다."
 
-#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:56
+#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:57
 msgid "Search the docs"
 msgstr "문서 검색"
 
@@ -1906,91 +1906,91 @@ msgstr "MDN 웹 문서 검색"
 msgid "Search Results for \"%(query)s\""
 msgstr "검색 결과: \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:36
+#: kuma/search/jinja2/search/results.html:37
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "<a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>에서 번역됨"
 
-#: kuma/search/jinja2/search/results.html:48
+#: kuma/search/jinja2/search/results.html:49
 msgid "MDN Site Search"
 msgstr "MDN 사이트 검색"
 
-#: kuma/search/jinja2/search/results.html:66
+#: kuma/search/jinja2/search/results.html:67
 msgid "Results"
 msgstr "검색 결과"
 
-#: kuma/search/jinja2/search/results.html:70
+#: kuma/search/jinja2/search/results.html:71
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "모든 언어에서 \"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:76
+#: kuma/search/jinja2/search/results.html:77
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "모든 언어에서 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:86
+#: kuma/search/jinja2/search/results.html:87
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "%(locale_native)s 언어에서 \"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:92
+#: kuma/search/jinja2/search/results.html:93
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(locale_native)s 언어와 %(default_locale_native)s 언어에서 \"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:100
+#: kuma/search/jinja2/search/results.html:101
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "%(locale_native)s 언어에서 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:106
+#: kuma/search/jinja2/search/results.html:107
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(locale_native)s 언어와 %(default_locale_native)s 언어에서 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:116
+#: kuma/search/jinja2/search/results.html:117
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "\"%(query)s\"에 대한 문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:122
+#: kuma/search/jinja2/search/results.html:123
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "문서 %(count)s개를 찾았습니다."
 
-#: kuma/search/jinja2/search/results.html:132
+#: kuma/search/jinja2/search/results.html:133
 msgid "Showing all results."
 msgstr "전체 결과 보기"
 
-#: kuma/search/jinja2/search/results.html:134
+#: kuma/search/jinja2/search/results.html:135
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "결과 보기:  %(start)s - %(end)s."
 
-#: kuma/search/jinja2/search/results.html:140
+#: kuma/search/jinja2/search/results.html:141
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "%(default_locale_native)s 만 다시 검색하기"
 
 # 메인 페이지 DOCS 탭
-#: kuma/search/jinja2/search/results.html:155
+#: kuma/search/jinja2/search/results.html:156
 msgid "Docs"
 msgstr "기술 문서"
 
-#: kuma/search/jinja2/search/results.html:198
+#: kuma/search/jinja2/search/results.html:199
 msgid "All Topics"
 msgstr "모든 주제"
 
-#: kuma/search/jinja2/search/results.html:205
+#: kuma/search/jinja2/search/results.html:206
 msgid "Filter by"
 msgstr "검색 설정"
 
@@ -2200,7 +2200,7 @@ msgstr "웹 사이트"
 msgid "Public GitHub URL"
 msgstr "공개된 GitHub URL"
 
-#: kuma/users/signal_handlers.py:46
+#: kuma/users/signal_handlers.py:25
 #, python-format
 msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 msgstr "<a href=\"%s\">MDN 시작하기</a>의 첫 단계를 완료하였습니다"
@@ -2671,12 +2671,12 @@ msgstr "사용자 새로운 행동:"
 # 77%
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:97 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:129 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:150
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:170 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:189 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:212
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:367
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:236 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:267 kuma/wiki/feeds.py:375
 msgid "View Page"
 msgstr "페이지 보기"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:101 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:216 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:240
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:391 kuma/wiki/jinja2/wiki/includes/buttons.html:87
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:271 kuma/wiki/feeds.py:399 kuma/wiki/jinja2/wiki/includes/buttons.html:87
 msgid "History"
 msgstr "이력"
 
@@ -3069,28 +3069,28 @@ msgstr "전문 영역"
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s 이후로 멤버"
 
-#: kuma/users/templatetags/jinja_helpers.py:37
+#: kuma/users/templatetags/jinja_helpers.py:41
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "%(ban_date)s에 %(ban_admin)s에 의해 차단되었습니다."
 
-#: kuma/users/templatetags/jinja_helpers.py:44
+#: kuma/users/templatetags/jinja_helpers.py:48
 msgid "Banned"
 msgstr "금지됨"
 
-#: kuma/users/templatetags/jinja_helpers.py:47
+#: kuma/users/templatetags/jinja_helpers.py:51
 msgid "Clean Up Revisions"
 msgstr "리비전 초기화"
 
-#: kuma/users/templatetags/jinja_helpers.py:52
+#: kuma/users/templatetags/jinja_helpers.py:56
 msgid "Ban User"
 msgstr "차단된 사용자"
 
-#: kuma/users/templatetags/jinja_helpers.py:55
+#: kuma/users/templatetags/jinja_helpers.py:59
 msgid "Ban User & Clean Up"
 msgstr "사용자 금지 & 초기화"
 
-#: kuma/users/templatetags/jinja_helpers.py:67
+#: kuma/users/templatetags/jinja_helpers.py:71
 msgid "Admin"
 msgstr "관리자"
 
@@ -3136,58 +3136,58 @@ msgstr "MDN 회원이 작성한 문서"
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:175
+#: kuma/wiki/feeds.py:183
 msgid "MDN recent document changes"
 msgstr "MDN 최신 문서 변경 사항"
 
-#: kuma/wiki/feeds.py:176
+#: kuma/wiki/feeds.py:184
 msgid "Recent changes to MDN documents"
 msgstr "MDN 문서의 최신 변경 사항"
 
-#: kuma/wiki/feeds.py:182
+#: kuma/wiki/feeds.py:190
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "%s로 태그된 문서에 대한 MDN 최근 변경"
 
-#: kuma/wiki/feeds.py:209
+#: kuma/wiki/feeds.py:217
 msgid "MDN documents in need of review"
 msgstr "검토 필요 MDN 문서"
 
-#: kuma/wiki/feeds.py:210
+#: kuma/wiki/feeds.py:218
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "검토 필요 MDN 문서의 최신 변경 사항"
 
-#: kuma/wiki/feeds.py:216
+#: kuma/wiki/feeds.py:224
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "%s 리뷰를 위한 MDN 문서"
 
-#: kuma/wiki/feeds.py:220
+#: kuma/wiki/feeds.py:228
 msgid "MDN documents for review"
 msgstr "리뷰를 위한 MDN 문서"
 
-#: kuma/wiki/feeds.py:250
+#: kuma/wiki/feeds.py:258
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr "MDN '%s' 번역 업데이트 필요함"
 
 # 100%
-#: kuma/wiki/feeds.py:286
+#: kuma/wiki/feeds.py:294
 msgid "MDN recent revisions"
 msgstr "MDN 최근 개정판"
 
 # 75%
-#: kuma/wiki/feeds.py:287
+#: kuma/wiki/feeds.py:295
 msgid "Recent revisions to MDN documents"
 msgstr "MDN 문서의 최신 개정판"
 
 # 88%
-#: kuma/wiki/feeds.py:370
+#: kuma/wiki/feeds.py:378
 msgid "Edit Page"
 msgstr "페이지 편집"
 
 # 100%
-#: kuma/wiki/feeds.py:378
+#: kuma/wiki/feeds.py:386
 msgid "Show comparison"
 msgstr "비교한 문서 보여주기"
 
