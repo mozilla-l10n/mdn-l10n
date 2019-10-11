@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-06-23 18:38+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: Hindi (India) https://pontoon.mozilla.org/hi_IN/\n"
@@ -360,7 +360,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "न्यूज़लेटर साइन अप छुपाएँ"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "पिछला"
 
@@ -406,7 +406,7 @@ msgstr "चीनी (पारम्परिक)"
 msgid "Dutch"
 msgstr "डच"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "अंग्रेज़ी (यूएस)"
 
@@ -852,7 +852,7 @@ msgstr ""
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr ""
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr ""
@@ -1848,6 +1848,14 @@ msgstr ""
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "नाम"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "समूहनाम"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr ""
@@ -1855,14 +1863,6 @@ msgstr ""
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr ""
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "नाम"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "समूहनाम"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"

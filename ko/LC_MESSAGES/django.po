@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -369,7 +369,7 @@ msgstr "이전에 Mozilla 관련 뉴스레터 구독을 확인하지 않은 경�
 msgid "Hide Newsletter Sign-up"
 msgstr "뉴스레터 신청 숨기기"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "이전"
 
@@ -414,7 +414,7 @@ msgstr "중국어 (번체)"
 msgid "Dutch"
 msgstr "네델란드어"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "영어 (미국)"
 
@@ -880,7 +880,7 @@ msgstr "이 값은 최소 %(limit_value)s자 이상이어야 합니다(현재 %(
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "이 값은 최대 %(limit_value)s 자까지 입력 가능합니다(현재 %(show_value)s 자)."
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "%s의 오늘"
@@ -1876,6 +1876,14 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "이름"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "그룹명"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "검색이 일시적으로 사용할 수 없습니다. 몇 분 후 다시 시도하세요."
@@ -1883,14 +1891,6 @@ msgstr "검색이 일시적으로 사용할 수 없습니다. 몇 분 후 다시
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "검색 쿼리의 무엇인가가 잘 못 되었습니다. 몇 분 후 다시 시도하세요."
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "이름"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "그룹명"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"

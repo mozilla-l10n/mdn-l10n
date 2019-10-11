@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-10-02 12:49+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -361,7 +361,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Nascondi la sezione di iscrizione alla newsletter"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "Indietro"
 
@@ -405,7 +405,7 @@ msgstr "Cinese (tradizionale)"
 msgid "Dutch"
 msgstr "Olandese"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "Inglese (USA)"
 
@@ -856,7 +856,7 @@ msgstr "Questo campo deve contenere almeno %(limit_value)s caratteri. Caratteri 
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Questo campo deve contenere almeno %(limit_value)s caratteri. Caratteri attuali: %(show_value)s."
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "Oggi alle %s"
@@ -1864,6 +1864,14 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "nome"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "nome gruppo"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "La funzione di ricerca non è disponibile al momento. Riprova tra qualche minuto."
@@ -1871,14 +1879,6 @@ msgstr "La funzione di ricerca non è disponibile al momento. Riprova tra qualch
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "Si è verificato un errore con la query di ricerca specificata. Riprova tra qualche minuto."
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "nome"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "nome gruppo"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"

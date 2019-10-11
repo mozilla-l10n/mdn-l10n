@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-09-28 16:54+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
@@ -360,7 +360,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Скрыть подписку на новостную рассылку"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "Назад"
 
@@ -404,7 +404,7 @@ msgstr "Китайский (Традиционный)"
 msgid "Dutch"
 msgstr "Голландский"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "Английский (США)"
 
@@ -861,7 +861,7 @@ msgstr "Убедитесь, что длина этого значения не �
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Убедитесь, что длина этого значения не более %(limit_value)s символов (оно содержит %(show_value)s)."
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "Сегодня в %s"
@@ -1869,6 +1869,14 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "имя"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "название группы"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "Поиск временно недоступен. Пожалуйста, попробуйте снова через несколько минут."
@@ -1876,14 +1884,6 @@ msgstr "Поиск временно недоступен. Пожалуйста, 
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "Что-то пошло не так с поисковым запросом. Пожалуйста, попробуйте снова через несколько минут."
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "имя"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "название группы"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"

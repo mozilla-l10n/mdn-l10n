@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-09-05 22:24+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian https://pontoon.mozilla.org/fa/\n"
@@ -362,7 +362,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "مخفی کردن ثبت‌نامِ خبرنامه"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "قبلی"
 
@@ -407,7 +407,7 @@ msgstr "چینی (سنتی)"
 msgid "Dutch"
 msgstr "هلندی"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "انگلیسی (ایالات متحده)"
 
@@ -853,7 +853,7 @@ msgstr ""
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "آدرس پست الکترونیکی بسیار بلند است (%(show_value)s characters). آن باید %(limit_value)s کارکتر یا کمتر باشد."
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "امروز در %s"
@@ -1855,6 +1855,14 @@ msgstr ""
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "نام"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "نام گروه"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "جست‌وجو بطور موقت در دسترس نیست. لطفا چند دقیقه دیگر مجددا تلاش کنید."
@@ -1862,14 +1870,6 @@ msgstr "جست‌وجو بطور موقت در دسترس نیست. لطفا چ�
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "درخواست جست‌وجو به مشکل برخورد. چند دقیقه دیگر مجددا تلاش کنید."
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "نام"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "نام گروه"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-08-09 21:23+0000\n"
 "Last-Translator: Peiying Mo [:CocoMo] <pmo@mozilla.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -367,7 +367,7 @@ msgstr "これまでに Mozilla 関連のニュースレターを購読したこ
 msgid "Hide Newsletter Sign-up"
 msgstr "ニュースレター購読リンクを隠す"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "前へ"
 
@@ -412,7 +412,7 @@ msgstr "中国語 (繁体字)"
 msgid "Dutch"
 msgstr "オランダ語"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "英語 (アメリカ)"
 
@@ -868,7 +868,7 @@ msgstr "この値は %(limit_value)s 文字以上でなければなりません 
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "この値は %(limit_value)s 文字以下でなければなりません (現在 %(show_value)s 文字入力されています)。"
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "今日 %s"
@@ -1871,6 +1871,14 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "名前"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "グループ名"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "検索は一時的に利用できなくなっています。後で再度試してください。"
@@ -1878,14 +1886,6 @@ msgstr "検索は一時的に利用できなくなっています。後で再度
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "検索語句に問題があります。後で再度試してください。"
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "名前"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "グループ名"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"

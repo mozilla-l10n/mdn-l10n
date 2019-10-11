@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-02 15:09-0700\n"
+"POT-Creation-Date: 2019-10-10 18:38-0700\n"
 "PO-Revision-Date: 2019-07-15 11:22+0000\n"
 "Last-Translator: Vitaliy Krutko <asmforce@ukr.net>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -359,7 +359,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Приховати підписку на розсилку"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1314
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1359
 msgid "Previous"
 msgstr "Назад"
 
@@ -404,7 +404,7 @@ msgstr "Китайська (традиційне письмо)"
 msgid "Dutch"
 msgstr "Голландська"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1324
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1369
 msgid "English (US)"
 msgstr "Англійська (США)"
 
@@ -863,7 +863,7 @@ msgstr "Переконайтеся, що це значення має не ме�
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Переконайтеся, що це значення має не більше ніж %(limit_value)s символів (зараз %(show_value)s)."
 
-#: kuma/core/utils.py:384
+#: kuma/core/utils.py:381
 #, python-format
 msgid "Today at %s"
 msgstr "Сьогодні о %s"
@@ -1862,6 +1862,14 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
+#: kuma/search/search.py:90
+msgid "name"
+msgstr "ім'я"
+
+#: kuma/search/search.py:91
+msgid "groupname"
+msgstr "назва групи"
+
 #: kuma/search/utils.py:15
 msgid "Search is temporarily unavailable. Please try again in a few minutes."
 msgstr "Пошук тимчасово неможливий. Спробуйте через декілька хвилин."
@@ -1869,14 +1877,6 @@ msgstr "Пошук тимчасово неможливий. Спробуйте �
 #: kuma/search/utils.py:18
 msgid "Something went wrong with the search query. Please try again in a few minutes."
 msgstr "Щось пішло не так з пошуковим запитом. Будь ласка, спробуйте знову за декілька хвилин."
-
-#: kuma/search/views.py:111
-msgid "name"
-msgstr "ім'я"
-
-#: kuma/search/views.py:112
-msgid "groupname"
-msgstr "назва групи"
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"
