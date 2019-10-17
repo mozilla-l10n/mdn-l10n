@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-10 18:37-0700\n"
+"POT-Creation-Date: 2019-10-17 15:44-0700\n"
 "PO-Revision-Date: 2017-09-30 07:25+0000\n"
 "Last-Translator: Arpit Jaiswal <arpit.jaiswal@protonmail.com>\n"
 "Language-Team: Hindi (India) https://pontoon.mozilla.org/hi_IN/\n"
@@ -138,11 +138,11 @@ msgstr ""
 msgid "Default"
 msgstr "तयशुदा"
 
-#: kuma/javascript/src/article.jsx:85
+#: kuma/javascript/src/article.jsx:99
 msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 msgstr ""
 
-#: kuma/javascript/src/article.jsx:90
+#: kuma/javascript/src/article.jsx:104
 msgid "Help us translate this article!"
 msgstr ""
 
@@ -162,21 +162,118 @@ msgstr ""
 msgid "Take the survey"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:28 kuma/static/js/wiki-compat-tables.js:8
+#: kuma/javascript/src/bcd-signal.jsx:47
+#, python-format
+msgid "Step %(current)s of %(total)s"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:294
+msgid "Optional"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:315
+msgid "Which browsers are affected?"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:316
+msgid "Please select the browser or browsers which are affected."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:377
+msgid "Which table row is affected?"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:408
+msgid "Can you provide a brief explanation?"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:409
+msgid "Briefly outline the issue you are highlighting."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:437
+msgid "Do you have any supporting material?"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:442
+msgid ""
+"Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:467
+msgid "Connection error:"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:470
+msgid "Sorry, we can’t seem to reach the server. We are working to fix the problem. Please try again later."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:505
+msgid "Tell us what’s wrong with this table"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:512
+#, python-format
+msgid ""
+"Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
+"values to the developer community."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:515
+msgid "Thank you for helping."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:572
+msgid "Next step (2 of 2)"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:601
+msgid "Send report"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:607
+msgid "Previous step"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:682
+msgid "Finish"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:685
+msgid "Thank you!"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:686
+msgid "Report sent"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:689
+msgid "https://github.com/mdn/browser-compat-data "
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:694
+msgid "What happens next?"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:695
+msgid "Our team will review your report. Once we verify the information you have supplied we will update this browser compatability table accordingly."
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:698
+msgid "Can I keep track of my report?"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:701
+msgid "You can join the GitHub repository to see updates and commits for this table data:"
+msgstr ""
+
+#: kuma/javascript/src/bcd-signal.jsx:804
+msgid "What are we missing?"
+msgstr ""
+
+#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
 msgid "Open"
 msgstr "खोलिए"
-
-#: kuma/javascript/src/bcd.js:279
-msgid "Flag as incorrect"
-msgstr ""
-
-#: kuma/javascript/src/bcd.js:297
-msgid "Thank you for letting us know!"
-msgstr ""
-
-#: kuma/javascript/src/bcd.js:302
-msgid "Something went wrong!"
-msgstr ""
 
 #: kuma/javascript/src/document.jsx:58
 #, fuzzy
@@ -245,27 +342,27 @@ msgstr ""
 msgid "Open in JSFiddle"
 msgstr "%(site)s में खोलें"
 
-#: kuma/javascript/src/newsletter.jsx:189
+#: kuma/javascript/src/newsletter.jsx:159
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:215
+#: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:230
+#: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:269
+#: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:290
+#: kuma/javascript/src/newsletter.jsx:259
 msgid "I’m okay with Mozilla handling my info as explained in this "
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:294
+#: kuma/javascript/src/newsletter.jsx:263
 msgid "Privacy Policy"
 msgstr ""
 

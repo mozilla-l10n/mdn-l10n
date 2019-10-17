@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-10-10 18:38-0700\n"
+"POT-Creation-Date: 2019-10-17 15:45-0700\n"
 "PO-Revision-Date: 2019-07-15 11:22+0000\n"
 "Last-Translator: Vitaliy Krutko <asmforce@ukr.net>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -111,32 +111,32 @@ msgstr "Можливо, вас зацікавить інший спосіб <a h
 msgid "Internal Server Error"
 msgstr "Внутрішня помилка сервера"
 
-#: jinja2/base.html:11 jinja2/base.html:63 jinja2/base.html:68 jinja2/base.html:120 jinja2/react_base.html:11 jinja2/react_base.html:52 jinja2/react_base.html:57
-#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:62 kuma/wiki/jinja2/wiki/react_document.html:67
+#: jinja2/base.html:11 jinja2/base.html:63 jinja2/base.html:68 jinja2/base.html:116 jinja2/react_base.html:11 jinja2/react_base.html:52 jinja2/react_base.html:57
+#: jinja2/includes/footer/mdn-footer.html:1 kuma/search/jinja2/search/plugin.html:3 kuma/wiki/jinja2/wiki/react_document.html:64 kuma/wiki/jinja2/wiki/react_document.html:69
 msgid "MDN Web Docs"
 msgstr "Веб-документація MDN"
 
-#: jinja2/base.html:100 jinja2/react_base.html:89
+#: jinja2/base.html:96 jinja2/react_base.html:85
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "Цієї миті відбувається обслуговування MDN, дозволено лише читання."
 
-#: jinja2/base.html:102
+#: jinja2/base.html:98
 msgid "Learn more"
 msgstr "Докладніше"
 
-#: jinja2/base.html:155 jinja2/react_base.html:124
+#: jinja2/base.html:151 jinja2/react_base.html:120
 msgid "Terms"
 msgstr "Умови"
 
-#: jinja2/base.html:156 jinja2/react_base.html:125
+#: jinja2/base.html:152 jinja2/react_base.html:121
 msgid "Privacy"
 msgstr "Конфіденційність"
 
-#: jinja2/base.html:157 jinja2/react_base.html:126
+#: jinja2/base.html:153 jinja2/react_base.html:122
 msgid "Cookies"
 msgstr "Куки"
 
-#: jinja2/base.html:161 jinja2/react_base.html:130
+#: jinja2/base.html:157 jinja2/react_base.html:126
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla та окремі учасники.</p> <p>Вміст доступний на умовах <a href=\"%(copyright_url)s\">цих ліцензій</a>.</p>"
@@ -289,11 +289,11 @@ msgstr "Дошка редагувань"
 msgid "Documentation status"
 msgstr "Стан документації"
 
-#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:100
+#: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:101
 msgid "Other languages:"
 msgstr "Інші мови:"
 
-#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:111
+#: jinja2/includes/lang_switcher.html:23 kuma/wiki/jinja2/wiki/document.html:112
 msgid "Go"
 msgstr "Перейти"
 
@@ -2804,7 +2804,7 @@ msgstr "Сторінка"
 msgid "Date"
 msgstr "Дата"
 
-#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:299
+#: kuma/users/jinja2/users/user_detail.html:52 kuma/wiki/jinja2/wiki/document.html:300
 msgid "Edit page"
 msgstr "Редагувати сторінку"
 
@@ -2812,7 +2812,7 @@ msgstr "Редагувати сторінку"
 msgid "View complete diff"
 msgstr "Переглянути повну різницю"
 
-#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:300
+#: kuma/users/jinja2/users/user_detail.html:54 kuma/wiki/jinja2/wiki/document.html:301
 msgid "View page history"
 msgstr "Переглянути історію сторінки"
 
@@ -3640,21 +3640,21 @@ msgstr "Відновити цей документ"
 msgid "Purge this document"
 msgstr "Видалити цей документ"
 
-#: kuma/wiki/jinja2/wiki/document.html:133
+#: kuma/wiki/jinja2/wiki/document.html:134
 msgid "Jump to:"
 msgstr "Перейти до:"
 
-#: kuma/wiki/jinja2/wiki/document.html:156
+#: kuma/wiki/jinja2/wiki/document.html:157
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
 msgstr "Цей документ не був оброблений, і не може бути показаний, поки MDN знаходиться в <a href=\"%(url)s\">режимі обслуговування</a>. Будь ласка, спробуйте знову, коли обслуговування завершиться."
 
-#: kuma/wiki/jinja2/wiki/document.html:167
+#: kuma/wiki/jinja2/wiki/document.html:168
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
 msgstr "Цей документ був оброблений системою вперше. Будь ласка, <a href=\"%(url)s\">оновіть цю сторінку</a> за декілька хвилин для перегляду повного вмісту."
 
-#: kuma/wiki/jinja2/wiki/document.html:175
+#: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
@@ -3663,7 +3663,7 @@ msgstr ""
 "<abbr title=\"%(started_at)s\">Триває</abbr> оновлення цього документа. Якщо вміст нижче здається застарілим, або чогось бракує, будь ласка, <a href=\"%(url)s\">перезавантажте цю сторінку</a> за "
 "кілька хвилин."
 
-#: kuma/wiki/jinja2/wiki/document.html:184
+#: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
@@ -3672,20 +3672,20 @@ msgstr ""
 "<abbr title=\"%(scheduled_at)s\">Було заплановано</abbr> оновлення даного документа. Якщо вміст нижче здається застарілим, або чогось не вистачає, будь ласка, <a href=\"%(url)s\">перезавантажте цю "
 "сторінку</a> за декілька хвилин."
 
-#: kuma/wiki/jinja2/wiki/document.html:195
+#: kuma/wiki/jinja2/wiki/document.html:196
 msgid "This is an experimental page."
 msgstr "Це експериментальна сторінка."
 
-#: kuma/wiki/jinja2/wiki/document.html:206
+#: kuma/wiki/jinja2/wiki/document.html:207
 #, python-format
 msgid "This translation is incomplete. Please help <a href=\"%(translate_url)s\">translate this article</a> from English."
 msgstr "Переклад не закінчено. Будь ласка, допоможіть <a href=\"%(translate_url)s\">перекласти цю статтю</a> з англійської."
 
-#: kuma/wiki/jinja2/wiki/document.html:211
+#: kuma/wiki/jinja2/wiki/document.html:212
 msgid "This translation is in progress."
 msgstr "Переклад цієї статті ще триває."
 
-#: kuma/wiki/jinja2/wiki/document.html:218
+#: kuma/wiki/jinja2/wiki/document.html:219
 #, python-format
 msgid ""
 "Our volunteers haven't translated this article into <bdi>%(locale)s</bdi> yet. <a href=\"%(help_link)s\" rel=\"nofollow\">Join us and help get the job done!</a><br> You can also read the article in "
@@ -3694,23 +3694,23 @@ msgstr ""
 "Наші добровольці ще не переклали статтю цією мовою: <bdi>%(locale)s</bdi>. <a href=\"%(help_link)s\" rel=\"nofollow\">Долучайтеся й допоможіть це зробити!</a><br>Ви також можете прочитати цю статтю "
 "іншою мовою: <a href=\"%(doc_abs_url)s\">%(parent_language)s</a>."
 
-#: kuma/wiki/jinja2/wiki/document.html:230
+#: kuma/wiki/jinja2/wiki/document.html:231
 msgid "This article doesn't have any content yet."
 msgstr "Ця стаття поки не має вмісту."
 
-#: kuma/wiki/jinja2/wiki/document.html:239
+#: kuma/wiki/jinja2/wiki/document.html:240
 msgid "This article doesn't have approved content yet."
 msgstr "Ця стаття ще не має затвердженого вмісту."
 
-#: kuma/wiki/jinja2/wiki/document.html:245
+#: kuma/wiki/jinja2/wiki/document.html:246
 msgid "Document Tags and Contributors"
 msgstr "Мітки документа й учасники"
 
-#: kuma/wiki/jinja2/wiki/document.html:252
+#: kuma/wiki/jinja2/wiki/document.html:253
 msgid "Contributors to this page:"
 msgstr "Зробили внесок у цю сторінку:"
 
-#: kuma/wiki/jinja2/wiki/document.html:260
+#: kuma/wiki/jinja2/wiki/document.html:261
 msgid "Last updated by:"
 msgstr "Востаннє оновлена:"
 
