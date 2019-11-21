@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2019-09-30 15:10+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
@@ -1153,10 +1153,6 @@ msgstr "Pengumpan"
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr "Manusia"
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2178,11 +2174,6 @@ msgstr "Website"
 msgid "Public GitHub URL"
 msgstr "URL GitHub Publik"
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "Anda telah menyelesaikan langkah pertama untuk <a href=\"%s\">memulai dengan MDN</a>"
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "Nama pengguna wajib diisi."
@@ -2495,16 +2486,20 @@ msgstr ""
 "Alamat surel apa yang harus kami gunakan untuk mengirim pesan terkait MDN dan notifikasi? Alamat ini tidak <strong>akan</strong> ditampilkan di MDN dan akan digunakan sesuai <a href="
 "\"%(privacy_url)s\">kebijakan privasi</a>kami."
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "untuk <a href=\"%(terms_url)s\">Syarat</a> dan <a href=\"%(privacy_url)s\">Ketentuan Mozilla</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 msgid "Create profile"
 msgstr "Buat profil"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Jika anda <strong>memiliki masalah</strong> saat masuk atau membuat profil MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">beritahu kami</a></strong>."
@@ -3030,28 +3025,28 @@ msgstr "Bidang Keahlian"
 msgid "Member since %(date_joined)s"
 msgstr "Anggota sejak %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Dicekal %(ban_date)s oleh %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr "Dicekal"
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Clean Up Revisions"
 msgstr "Membenahi Revisi"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr "Mencekal Pengguna"
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr "Cekal Pengguna & Bersihkan"
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr "Admin"
 
@@ -4485,6 +4480,12 @@ msgstr "Anda tidak dapat menerjemahkan dokumen ini."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Server elasticsearch: %(backend)s"
+
+#~ msgid "Humans"
+#~ msgstr "Manusia"
+
+#~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
+#~ msgstr "Anda telah menyelesaikan langkah pertama untuk <a href=\"%s\">memulai dengan MDN</a>"
 
 #~ msgid "An existing MDN profile matches your GitHub email. Click here to recover a profile:"
 #~ msgstr "Sudah ada profil MDN dengan surel yang sama dengan surel GitHub Anda. Klik di sini untuk memulihkan profil:"

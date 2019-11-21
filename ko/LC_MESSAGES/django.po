@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -1175,10 +1175,6 @@ msgstr "피드"
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr ""
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2201,11 +2197,6 @@ msgstr "웹 사이트"
 msgid "Public GitHub URL"
 msgstr "공개된 GitHub URL"
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "<a href=\"%s\">MDN 시작하기</a>의 첫 단계를 완료하였습니다"
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "사용자이름을 입력해주세요."
@@ -2518,17 +2509,21 @@ msgid ""
 msgstr ""
 "MDN 관련 메시지와 알림을 보내는 데 어떤 이메일 주소를 사용해야 합니까? 이 주소는 MDN 상에 표시되지 <strong>않</strong>으며 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>에 따라 사용됩니다."
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "Mozilla의 <a href=\"%(terms_url)s\">이용 약관</a>과 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>을 확인하세요."
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 #, fuzzy
 msgid "Create profile"
 msgstr "MDN 프로필 만들기"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "로그인이나 MDN 프로필 생성에 <strong>문제가 있다</strong>면, <strong><a href=\"%(bug_href)s\" rel=\"external\">알려주세요</a></strong>."
@@ -3051,28 +3046,28 @@ msgstr "전문 영역"
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s 이후로 멤버"
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "%(ban_date)s에 %(ban_admin)s에 의해 차단되었습니다."
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr "금지됨"
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Clean Up Revisions"
 msgstr "리비전 초기화"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr "차단된 사용자"
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr "사용자 금지 & 초기화"
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr "관리자"
 
@@ -4528,6 +4523,9 @@ msgstr "이 문서를 번역할 수 없습니다."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
+
+#~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
+#~ msgstr "<a href=\"%s\">MDN 시작하기</a>의 첫 단계를 완료하였습니다"
 
 #~ msgid "An existing MDN profile matches your GitHub email. Click here to recover a profile:"
 #~ msgstr "기존 MDN 프로필이 GitHub 메일 주소와 일치합니다. 프로필을 복구하려면 여기를 클릭하세요:"

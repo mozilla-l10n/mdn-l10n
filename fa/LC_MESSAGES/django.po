@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2019-09-05 22:24+0000\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian https://pontoon.mozilla.org/fa/\n"
@@ -1154,10 +1154,6 @@ msgstr "خوراک"
 msgid "Moz Hacks"
 msgstr "هک‌های موزیلا"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr ""
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2183,11 +2179,6 @@ msgstr "پایگاه اینترنتی"
 msgid "Public GitHub URL"
 msgstr "یک آدرس GitHub معتبر وارد کنید."
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "شما اولین قدم از <a href=\"%s\">شروع به کار با MDN</a> را کامل کردید"
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "نام کاربری لازم است."
@@ -2498,17 +2489,21 @@ msgid ""
 "\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 #, fuzzy
 msgid "Create profile"
 msgstr "ایجاد نمایهٔ MDN من"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr ""
@@ -3033,29 +3028,29 @@ msgstr ""
 msgid "Member since %(date_joined)s"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 #, fuzzy
 msgid "Clean Up Revisions"
 msgstr "توضیح بازبینی"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr ""
 
@@ -4503,6 +4498,9 @@ msgstr ""
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
+#~ msgstr "شما اولین قدم از <a href=\"%s\">شروع به کار با MDN</a> را کامل کردید"
 
 #~ msgid "Recover my Profile"
 #~ msgstr "بازگردانی نمایهٔ من"

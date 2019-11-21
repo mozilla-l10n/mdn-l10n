@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2018-11-21 20:55+0000\n"
 "Last-Translator: Othman Wagiman <manxmensch@gmail.com>\n"
 "Language-Team: Malay https://pontoon.mozilla.org/ms/\n"
@@ -1149,10 +1149,6 @@ msgstr ""
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr ""
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2183,11 +2179,6 @@ msgstr "Laman web"
 msgid "Public GitHub URL"
 msgstr "URL GitHub Umum"
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "Anda telah lengkapkan langkah pertama <a href=\"%s\">mulakan MDN</a>"
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "Nama pengguna diperlukan."
@@ -2503,17 +2494,21 @@ msgstr ""
 "Apa alamat e-mel yang perlu kami guna untuk menghantar mesej dan notifikasi berkaitan MDN? Alamat ini akan <strong>not</strong> dipapar di MDN dan akan digunakan mengikut <a href=\"%(privacy_url)s"
 "\">polisi privasi</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "ke <a href=\"%(terms_url)s\">Terma</a> dan <a href=\"%(privacy_url)s\">Notis Privasi</a> Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 #, fuzzy
 msgid "Create profile"
 msgstr "Cipta profil MDN saya"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Jika anda <strong>menghadapi masalah</strong> mendaftar masuk atau mencipta profil MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">maklumkan kepada kami</a></strong>."
@@ -3044,28 +3039,28 @@ msgstr "Bidang Kepakaran"
 msgid "Member since %(date_joined)s"
 msgstr "Menjadi anggota sejak %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Disekat pada %(ban_date)s oleh %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr "Disekat"
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Clean Up Revisions"
 msgstr "Bersihkan Semakan"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr "Sekat Pengguna"
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr "Sekat Pengguna & Bersihkan"
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr "Pentadbir"
 
@@ -4499,6 +4494,9 @@ msgstr "Anda tidak boleh terjemahkan dokumen ini."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Pelayan Elasticsearch: %(backend)s"
+
+#~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
+#~ msgstr "Anda telah lengkapkan langkah pertama <a href=\"%s\">mulakan MDN</a>"
 
 #~ msgid "An existing MDN profile matches your GitHub email. Click here to recover a profile:"
 #~ msgstr "Ada profil MDN yang sepadan dengan e-mel GitHub anda. Klik sini untuk mendapatkan semula profil:"

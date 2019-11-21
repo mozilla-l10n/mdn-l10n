@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2019-07-15 11:22+0000\n"
 "Last-Translator: Vitaliy Krutko <asmforce@ukr.net>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -1158,10 +1158,6 @@ msgstr "Feeder"
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr "Люди"
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2196,11 +2192,6 @@ msgstr "Веб-сайт"
 msgid "Public GitHub URL"
 msgstr "Адреса прилюдного профілю GitHub"
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "Ви завершили перший крок <a href=\"%s\">початку роботи з MDN</a>"
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "Ім'я користувача обов'язкове."
@@ -2516,17 +2507,21 @@ msgstr ""
 "На яку адресу електронної пошти нам слід надсилати повідомлення та сповіщення MDN? Ця адреса <strong>не буде</strong> відображена на MDN і буде використовуватися відповідно до нашої <a href="
 "\"%(privacy_url)s\">політики приватності</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "з <a href=\"%(terms_url)s\">Умовами користування</a> й <a href=\"%(privacy_url)s\">Політикою приватності</a> Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 #, fuzzy
 msgid "Create profile"
 msgstr "Створити свій MDN профіль"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Якщо у вас <strong>виникли проблеми</strong> з входом або створенням облікового запису MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">дайте нам знати</a></strong>."
@@ -3050,28 +3045,28 @@ msgstr "Області знань"
 msgid "Member since %(date_joined)s"
 msgstr "Учасник з %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Заблокував %(ban_admin)s %(ban_date)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr "Заблокований"
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Clean Up Revisions"
 msgstr "Очистити редакції"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr "Заблокувати користувача"
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr "Заблокувати користувача та очистити редакції"
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr "Адмін"
 
@@ -4513,6 +4508,12 @@ msgstr "Ви не можете перекладати цей документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сервер Elasticsearch: %(backend)s"
+
+#~ msgid "Humans"
+#~ msgstr "Люди"
+
+#~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
+#~ msgstr "Ви завершили перший крок <a href=\"%s\">початку роботи з MDN</a>"
 
 #~ msgid "An existing MDN profile matches your GitHub email. Click here to recover a profile:"
 #~ msgstr "Існуючий обліковий запис MDN співпадає з вашою ел. поштою GitHub. Натисніть тут, щоб відновити обліковий запис:"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2019-09-26 17:35+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -1158,10 +1158,6 @@ msgstr "Feeder"
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr "Άνθρωποι"
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2204,11 +2200,6 @@ msgstr "Ιστοσελίδα"
 msgid "Public GitHub URL"
 msgstr "Δημόσιο GitHub URL"
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr "Έχετε ολοκληρώσει το πρώτο βήμα της <a href=\"%s\">έναρξης με το MDN</a>"
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "Απαιτείται το όνομα χρήστη."
@@ -2520,16 +2511,20 @@ msgstr ""
 "Αυτή θα είναι η διεύθυνση email που θα αποστέλλονται τα μηνύματα και οι ειδοποιήσεις του MDN Web Docs. <strong>Δεν</strong> θα εμφανίζεται στο MDN Web Docs και θα χρησιμοποιηθεί σύμφωνα με την <a "
 "href=\"%(privacy_url)s\">πολιτική απορρήτου</a> μας."
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "τους <a href=\"%(terms_url)s\">όρους</a> και τη <a href=\"%(privacy_url)s\">σημείωση απορρήτου</a> της Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 msgid "Create profile"
 msgstr "Δημιουργία προφίλ"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Έχετε πρόβλημα με τη δημιουργία ενός λογαριασμού; <a href=\"%(bug_href)s\" rel=\"external\">Ας βοηθήσουμε</a>."
@@ -3061,28 +3056,28 @@ msgstr "Τομείς ειδίκευσης"
 msgid "Member since %(date_joined)s"
 msgstr "Μέλος από %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Αποκλείστηκε στις %(ban_date)s από το χρήστη %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr "Αποκλείστηκε"
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Clean Up Revisions"
 msgstr "Εκκαθάριση αναθεωρήσεων"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr "Αποκλεισμός χρήστη"
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr "Αποκλεισμός χρήστη & εκκαθάριση"
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr "Διαχειριστής"
 
@@ -4529,6 +4524,12 @@ msgstr "Δεν μπορείτε να μεταφράσετε αυτό το έγγ
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Διακομιστής Elasticsearch: %(backend)s"
+
+#~ msgid "Humans"
+#~ msgstr "Άνθρωποι"
+
+#~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
+#~ msgstr "Έχετε ολοκληρώσει το πρώτο βήμα της <a href=\"%s\">έναρξης με το MDN</a>"
 
 #~ msgid "An existing MDN profile matches your GitHub email. Click here to recover a profile:"
 #~ msgstr "Ένα υπάρχον προφίλ MDN αντιστοιχεί με το email σας στο GitHub. Κάντε κλικ εδώ για να ανακτήσετε ένα προφίλ:"

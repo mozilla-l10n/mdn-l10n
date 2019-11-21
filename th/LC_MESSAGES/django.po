@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-13 10:57-0800\n"
+"POT-Creation-Date: 2019-11-21 12:09-0800\n"
 "PO-Revision-Date: 2019-08-19 11:01+0000\n"
 "Last-Translator: Can <udomc.can@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
@@ -1143,10 +1143,6 @@ msgstr ""
 msgid "Moz Hacks"
 msgstr "Moz Hacks"
 
-#: kuma/humans/apps.py:16
-msgid "Humans"
-msgstr "มนุษย์"
-
 #: kuma/landing/jinja2/landing/homepage.html:21 kuma/landing/jinja2/landing/react_homepage.html:21
 msgid ""
 "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation "
@@ -2148,11 +2144,6 @@ msgstr "เว็บไซต์"
 msgid "Public GitHub URL"
 msgstr "URL ของ GitHub แบบสาธารณะ"
 
-#: kuma/users/signal_handlers.py:25
-#, python-format
-msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
-msgstr ""
-
 #: kuma/users/signup.py:7
 msgid "Username is required."
 msgstr "ต้องการชื่อผู้ใช้"
@@ -2469,17 +2460,21 @@ msgid ""
 "\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:130
+#: kuma/users/jinja2/socialaccount/signup.html:128
+msgid "Get updates on what’s new with MDN to your inbox."
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:139
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:137
+#: kuma/users/jinja2/socialaccount/signup.html:146
 #, fuzzy
 msgid "Create profile"
 msgstr "สร้างโปรไฟล์ MDN ของฉัน"
 
-#: kuma/users/jinja2/socialaccount/signup.html:142
+#: kuma/users/jinja2/socialaccount/signup.html:151
 #, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr ""
@@ -3005,28 +3000,28 @@ msgstr ""
 msgid "Member since %(date_joined)s"
 msgstr "เป็นสมาชิกตั้งแต่ %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:41
+#: kuma/users/templatetags/jinja_helpers.py:43
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "ห้ามเมื่อ %(ban_date)s โดย %(ban_admin)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:48
+#: kuma/users/templatetags/jinja_helpers.py:50
 msgid "Banned"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:51
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Clean Up Revisions"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Ban User"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:59
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User & Clean Up"
 msgstr ""
 
-#: kuma/users/templatetags/jinja_helpers.py:71
+#: kuma/users/templatetags/jinja_helpers.py:73
 msgid "Admin"
 msgstr "ผู้ดูแล"
 
@@ -4467,6 +4462,9 @@ msgstr "คุณไม่สามารถแปลเอกสารนี้
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "เซิร์ฟเวอร์ Elasticsearch: %(backend)s"
+
+#~ msgid "Humans"
+#~ msgstr "มนุษย์"
 
 #~ msgid "Recover my Profile"
 #~ msgstr "กู้คืนโปรไฟล์ของฉัน"
