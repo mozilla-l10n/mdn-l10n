@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-06-14 10:34+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -608,39 +608,39 @@ msgstr "Aɛiwed n tmuɣli n melmi kan n ifuyla yeddan di MDN"
 msgid "Files of this type are not permitted."
 msgstr "Ifuyla s wanaw agi ur ttwasirgen ara."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "Anaw MIME yettwaseqdac di tuzna n ufaylu yeddan ɣer umsaɣ. Yettwarna s wudem awurman deg useddu n ufaylu. ttxil-ek, ur s-rennu  ma yella ur tesrid ara."
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "aɛiwed n tmuwli deg umedday"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "aɛiwed n tmuwli deg umedday"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "Afaylu yeddan yuɣal ɣer tqecwalt n iḍumman"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "Azemz akked wakud anida afaylu yeddan yuɣal ɣer tqecwalt n iḍumman"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "Isem n useqdac i yerran afaylu yeddan ɣer tqecwalt n iḍumman"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Yemmal-d ma yella afaylu yeddan d aɛiwed n tmuɣli tamirant n umedday maken yettwazen ɣer tqecwalt n iḍuman."
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "Amedday yuɣal ɣer tqecwalt n iḍumman"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "Amedday yuɣal ɣer tqecwalt n iḍumman"
 
@@ -1386,6 +1386,15 @@ msgstr "MDN s tidett d tabwaṭ n ifecka i uneflay web akked isemliyen ɣef HTML
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Yettwazen %(entrydate)s sɣuṛ %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Sis-d tallalt n Firefox"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "Nettzuxxu, ur neṭṭafaṛ ara adrim."
@@ -1397,18 +1406,6 @@ msgstr "Mudd send 31 Duj."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Mudd tura"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "Issin ugar"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4485,6 +4482,9 @@ msgstr "Ur tezmireḍ ara ad tessuqleḍ isemli agi."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Aqeddac Elasticsearch : %(backend)s"
+
+#~ msgid "Learn More"
+#~ msgstr "Issin ugar"
 
 #~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 #~ msgstr "Tfukked amecwaṛ amezwaru n umnir n <a href=\"%s\">bdu di MDN </a>"

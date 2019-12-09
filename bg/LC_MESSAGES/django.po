@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2016-10-17 15:23+0000\n"
 "Last-Translator: Пламен <plamen_mbx@yahoo.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
@@ -606,39 +606,39 @@ msgstr "Скорошни версии на прикачените файлове
 msgid "Files of this type are not permitted."
 msgstr "Не са разрешени файлове от този тип."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr ""
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "версия на прикачения файл"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "версии на прикачения файл"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "Прикаченият файл, преместен в кошчето"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "Датата и времето на изхвърляне в кошчето на прикачения файл"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "Потребителското име на потребителя, който изхвърли прикачения файл в кошчето"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Дали този прикачен файл е бил текуща версия по време на изхвърлянето в кошчето."
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "Прикачен файл, изхвърлен в кошчето"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "Прикачени файлове, изхвърлени в кошчето"
 
@@ -1374,6 +1374,15 @@ msgstr "MDN е вашият набор от инструменти и докум
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Публикувано на %(entrydate)s от %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Помощ за Firefox"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "С идеална цел."
@@ -1385,18 +1394,6 @@ msgstr "Дарете преди 31-ви декември."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Дарете сега"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "Още"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4443,6 +4440,9 @@ msgstr "Не може да превеждате този документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сървър Elasticsearch %(backend)s"
+
+#~ msgid "Learn More"
+#~ msgstr "Още"
 
 #~ msgid "An existing MDN profile matches your GitHub email. Click here to recover a profile:"
 #~ msgstr "В MDN има профил, съвпадащ с вашата е-поща от GitHub. Щракнете тук, за да възстановите профила:"

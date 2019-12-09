@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-07-17 16:45+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish https://pontoon.mozilla.org/fi/\n"
@@ -606,39 +606,39 @@ msgstr ""
 msgid "Files of this type are not permitted."
 msgstr ""
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr ""
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr ""
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr ""
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr ""
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr ""
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr ""
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr ""
 
@@ -1369,6 +1369,15 @@ msgstr ""
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Lähetetty %(entrydate)s, tekijä %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Siirry Firefox-tukisivustolle"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr ""
@@ -1380,18 +1389,6 @@ msgstr "Lahjoita ennen 31.12."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Lahjoita nyt"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "Lue lisää"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4422,6 +4419,9 @@ msgstr "Et voi kääntää tätä dokumenttia."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch-palvelin: %(backend)s"
+
+#~ msgid "Learn More"
+#~ msgstr "Lue lisää"
 
 #~ msgid "Recover my Profile"
 #~ msgstr "Palauta profiilini"

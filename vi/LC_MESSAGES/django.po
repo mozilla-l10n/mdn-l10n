@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-09-26 02:13+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -607,39 +607,39 @@ msgstr "Sửa đổi gần đây đối với tập tin đính kèm MDN"
 msgid "Files of this type are not permitted."
 msgstr "Không cho phép loại tập tin này."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "Kiểu MIME được sử dụng khi phục vụ tập tin đính kèm. Tự động điền bằng cách kiểm tra tập tin khi tải lên. Vui lòng chỉ ghi đè nếu cần."
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "tập tin đính kèm"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "các tập tin đính kèm"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "Tập tin đính kèm đã được đưa vào thùng rác"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "Ngày và giờ khi tập tin đính kèm được chuyển vào thùng rác"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "Tên của người dùng đã di chuyển tập tin đính kèm vào thùng rác"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Cho biết tập tin đính kèm này có phải là tập tin đính kèm sửa đổi hiện tại khi nó được chuyển vào thùng rác hay không."
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "Đã chuyển tập tin đính kèm vào thùng rác"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "Đã chuyển các tập tin đính kèm vào thùng rác"
 
@@ -1383,6 +1383,15 @@ msgstr "MDN là hộp công cụ dành cho nhà phát triển web của bạn d�
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Đã đăng lúc %(entrydate)s bởi %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Trợ giúp về Firefox"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "Tự hào là một tổ chức phi lợi nhuận."
@@ -1394,18 +1403,6 @@ msgstr "Quyên góp trước ngày 31/12."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Quyên góp ngay"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr "Xây dựng trong trình duyệt."
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr "Thiết kế trang web mà không cần rời khỏi trình duyệt."
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "Tìm hiểu thêm"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4455,6 +4452,15 @@ msgstr "Bạn không thể dịch bài viết này."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "Build in the Browser."
+#~ msgstr "Xây dựng trong trình duyệt."
+
+#~ msgid "Design sites without leaving the browser."
+#~ msgstr "Thiết kế trang web mà không cần rời khỏi trình duyệt."
+
+#~ msgid "Learn More"
+#~ msgstr "Tìm hiểu thêm"
 
 #~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 #~ msgstr "Bạn đã hoàn thành bước đầu tiên của <a href=\"%s\">bắt đầu với MDN</a>"

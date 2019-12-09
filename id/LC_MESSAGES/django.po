@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-09-30 15:10+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
@@ -608,39 +608,39 @@ msgstr "Revisi terkini terhadap lampiran berkas MDN"
 msgid "Files of this type are not permitted."
 msgstr "Berkas dengan tipe ini tidak diizinkan."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "Tipe MIME digunakan untuk melayani lampiran. Secara otomatis dikumpulkan dengan memeriksa berkas saat pengunggahan. Mohon batalkan hanya jika dibutuhkan."
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "pratinjau lampiran"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "pratinjau lampiran"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "Berkas lampiran yang dibuang"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "Tanggal dan waktu lampiran dibuang"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "Nama pengguna dari pengguna yang membuang lampiran"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Apakah ya atau tidak lampiran ini adalah revisi lampiran saat ini ketika masa pembuangan."
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "Lampiran terbuang"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "Lampiran terbuang"
 
@@ -1388,6 +1388,15 @@ msgstr "MDN adalah Kotak Peralatan Pengembang Web untuk dokumen dan lain sebagai
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Memuat %(entrydate)s oleh %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Dapatkan bantuan Firefox"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "Nirlaba dengan bangga."
@@ -1399,18 +1408,6 @@ msgstr "Donasi sebelum 31 Des."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Donasi Sekarang"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr "Bangun di Peramban."
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr "Rancang situs tanpa meninggalkan peramban."
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "Pelajari Lebih Lanjut"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4480,6 +4477,15 @@ msgstr "Anda tidak dapat menerjemahkan dokumen ini."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Server elasticsearch: %(backend)s"
+
+#~ msgid "Build in the Browser."
+#~ msgstr "Bangun di Peramban."
+
+#~ msgid "Design sites without leaving the browser."
+#~ msgstr "Rancang situs tanpa meninggalkan peramban."
+
+#~ msgid "Learn More"
+#~ msgstr "Pelajari Lebih Lanjut"
 
 #~ msgid "Humans"
 #~ msgstr "Manusia"

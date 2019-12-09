@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-11-02 08:06+0000\n"
 "Last-Translator: Belayet Hossain <bellayet@gmail.com>\n"
 "Language-Team: Bengali (Bangladesh) https://pontoon.mozilla.org/bn_BD/\n"
@@ -602,39 +602,39 @@ msgstr "MDN ফাইল এট্যাচমেন্টের সাম্প
 msgid "Files of this type are not permitted."
 msgstr "এই ধরনের ফাইল অনুমোদিত নয়।"
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr ""
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "রিভিসন সংযুক্ত"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "রিভিসনগুলো সংযুক্ত"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "সংযুক্ত ফাইলটি মুছে দেওয়া হয়েছে"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr ""
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr ""
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr ""
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "সংযুক্তি মুছে ফেলা হয়েছে"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "সংযুক্তি মুছে ফেলা হয়েছে"
 
@@ -1372,6 +1372,15 @@ msgstr ""
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "পোস্ট করেছেন %(entrydate)s তারিখে  %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Firefox এর সহায়তা নিন"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "গর্বের সহিত অলাভজনক।"
@@ -1383,18 +1392,6 @@ msgstr "31 শে ডিসেম্বরের পূর্বে দান �
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "দান করুন"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr "ব্রাউজারে তৈরী করুন।"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "আরও জানুন"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4420,6 +4417,12 @@ msgstr "আপনি এই ডকুমেন্ট অনুবাদ কর�
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "ইলাস্টিকসার্চ সার্ভার: %(backend)s"
+
+#~ msgid "Build in the Browser."
+#~ msgstr "ব্রাউজারে তৈরী করুন।"
+
+#~ msgid "Learn More"
+#~ msgstr "আরও জানুন"
 
 #~ msgid "Recover my Profile"
 #~ msgstr "আমার প্রোফাইল পুনরুদ্ধার করুন"

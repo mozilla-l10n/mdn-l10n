@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -623,43 +623,43 @@ msgstr "MDN 파일 첨부된 최근의 리비전"
 msgid "Files of this type are not permitted."
 msgstr "현재 형식 파일을 사용할 수 없습니다."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "첨부파일을 제공할 때 MIME 타입이 사용됩니다. 업로드시 자동으로 파일을 검사하여 채워집니다. 필요한 경우에만 덮어써 주세요."
 
 # 100%
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "첨부파일 리비전"
 
 # 100%
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "첨부파일 리비전"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "삭제된 첨부파일"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "첨부파일이 휴지통에 버려진 일시"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "파일을 삭제한 사용자 이름"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "이 첨부파일이 휴지통에 버려질 때 현재 개정판 첨부파일이었는지 여부를 나타냅니다."
 
 # 100%
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "삭제된 첨부 자료"
 
 # 100%
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "삭제된 첨부 자료"
 
@@ -1410,6 +1410,16 @@ msgstr "MDN은 HTML, CSS, Javascript와 다른 웹 표준 그리고 공개 기�
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "제출일: %(entrydate)s  개발자: %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+#, fuzzy
+msgid "The browser built for devs"
+msgstr "잊지 않는 웹 브라우저"
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Firefox 도움 받기"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "비영리 단체입니다."
@@ -1421,19 +1431,6 @@ msgstr "12월 31일 전에 기부하세요."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "지금 기부하기"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-#, fuzzy
-msgid "Build in the Browser."
-msgstr "BrowserID 로 로그인"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "자세히 보기"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4523,6 +4520,13 @@ msgstr "이 문서를 번역할 수 없습니다."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
+
+#, fuzzy
+#~ msgid "Build in the Browser."
+#~ msgstr "BrowserID 로 로그인"
+
+#~ msgid "Learn More"
+#~ msgstr "자세히 보기"
 
 #~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 #~ msgstr "<a href=\"%s\">MDN 시작하기</a>의 첫 단계를 완료하였습니다"
@@ -8925,9 +8929,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 
 #~ msgid "August"
 #~ msgstr "8월"
-
-#~ msgid "A browser never forgets"
-#~ msgstr "잊지 않는 웹 브라우저"
 
 #~ msgid "September"
 #~ msgstr "9월"

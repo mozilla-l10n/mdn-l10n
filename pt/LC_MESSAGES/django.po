@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2018-06-22 14:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) https://pontoon.mozilla.org/pt_PT/\n"
@@ -629,39 +629,39 @@ msgstr "Revisões recentes a ficheiros anexados na MDN"
 msgid "Files of this type are not permitted."
 msgstr "Não são permitidos ficheiros deste tipo."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "O tipo MIME é utilizado ao servir o ficheiro. É preenchido de forma automática ao inspecionar o ficheiro no envio. Por favor, apenas o substitua quando for necessário."
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "revisão do anexo"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "revisões do anexo"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "O ficheiro anexo que foi eliminado"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "A data e hora quando o anexo foi eliminado"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "O nome do utilizador que eliminou o anexo"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Se este anexo era ou não a revisão atual do anexo no momento de eliminação."
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "Anexo descartado"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "Anexos descartados"
 
@@ -1419,6 +1419,15 @@ msgstr "A MDN é a sua Caixa de ferramentas de Programador da Web para documenta
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Publicado a %(entrydate)s por %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+msgid "The browser built for devs"
+msgstr ""
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Obter ajuda para o Firefox"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "Orgulhosamente, sem fins lucrativos."
@@ -1430,19 +1439,6 @@ msgstr "Doe antes de 31 de dezembro."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Doar agora"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr ""
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-#, fuzzy
-msgid "Learn More"
-msgstr "Saber mais"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4554,6 +4550,10 @@ msgstr "Não pode traduzir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor elasticsearch: %(backend)s"
+
+#, fuzzy
+#~ msgid "Learn More"
+#~ msgstr "Saber mais"
 
 #~ msgid "You have completed the first step of <a href=\"%s\">getting started with MDN</a>"
 #~ msgstr "Concluiu o primeiro passo de <a href=\"%s\">introdução à MDN</a>"

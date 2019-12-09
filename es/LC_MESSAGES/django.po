@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-11-21 12:09-0800\n"
+"POT-Creation-Date: 2019-12-09 08:56-0800\n"
 "PO-Revision-Date: 2019-10-13 11:46+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: Spanish https://pontoon.mozilla.org/es/\n"
@@ -616,39 +616,39 @@ msgstr "Revisiones recientes en archivos adjuntos de MDN"
 msgid "Files of this type are not permitted."
 msgstr "No se permiten archivos de este tipo."
 
-#: kuma/attachments/models.py:112
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "Se ha usado tipo MIME al proporcionar el archivo adjunto. Ha sido rellenado automáticamente mediante la inspección del archivo durante su carga. Por favor, reemplácelo sólo si es necesario."
 
-#: kuma/attachments/models.py:141
+#: kuma/attachments/models.py:173
 msgid "attachment revision"
 msgstr "revisión del adjunto"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:174
 msgid "attachment revisions"
 msgstr "revisiones del adjunto"
 
-#: kuma/attachments/models.py:215
+#: kuma/attachments/models.py:248
 msgid "The attachment file that was trashed"
 msgstr "El archivo adjunto que fue borrado"
 
-#: kuma/attachments/models.py:220
+#: kuma/attachments/models.py:253
 msgid "The date and time the attachment was trashed"
 msgstr "El día y la hora en que el adjunto fue borrado"
 
-#: kuma/attachments/models.py:225
+#: kuma/attachments/models.py:258
 msgid "The username of the user who trashed the attachment"
 msgstr "El nombre del usuario que borró el adjunto"
 
-#: kuma/attachments/models.py:230
+#: kuma/attachments/models.py:263
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Si el adjunto era la misma revisión del adjunto actual en el momento de borrarlo."
 
-#: kuma/attachments/models.py:235
+#: kuma/attachments/models.py:268
 msgid "Trashed attachment"
 msgstr "Adjunto borrado"
 
-#: kuma/attachments/models.py:236
+#: kuma/attachments/models.py:269
 msgid "Trashed attachments"
 msgstr "Adjuntos borrados"
 
@@ -1402,6 +1402,16 @@ msgstr "MDN es tu caja de herramientas de desarrollador web para documentos, dem
 msgid "Posted %(entrydate)s by %(authorlink)s"
 msgstr "Subido el %(entrydate)s por %(authorlink)s"
 
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:4
+#, fuzzy
+msgid "The browser built for devs"
+msgstr "Un navegador nunca olvida"
+
+#: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
+#, fuzzy
+msgid "Get Firefox DevEdition"
+msgstr "Obtén ayuda de Firefox"
+
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
 msgstr "Sin ánimo de lucro."
@@ -1413,18 +1423,6 @@ msgstr "Dona antes del 31 de dic."
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Donate Now"
 msgstr "Donar ahora"
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Build in the Browser."
-msgstr "Crear en el navegador."
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:4
-msgid "Design sites without leaving the browser."
-msgstr "Diseña sitios web sin salir del navegador."
-
-#: kuma/landing/jinja2/landing/includes/callouts/grid-tools.html:5
-msgid "Learn More"
-msgstr "Descubre más"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
@@ -4549,6 +4547,15 @@ msgstr "No puedes traducir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor de Elasticsearch: %(backend)s"
+
+#~ msgid "Build in the Browser."
+#~ msgstr "Crear en el navegador."
+
+#~ msgid "Design sites without leaving the browser."
+#~ msgstr "Diseña sitios web sin salir del navegador."
+
+#~ msgid "Learn More"
+#~ msgstr "Descubre más"
 
 #~ msgid "Humans"
 #~ msgstr "Humanos"
@@ -9493,9 +9500,6 @@ msgstr "Servidor de Elasticsearch: %(backend)s"
 
 #~ msgid "August"
 #~ msgstr "agosto"
-
-#~ msgid "A browser never forgets"
-#~ msgstr "Un navegador nunca olvida"
 
 #~ msgid "September"
 #~ msgstr "septiembre"
