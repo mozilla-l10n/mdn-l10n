@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2019-11-28 11:35+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: Hindi (India) https://pontoon.mozilla.org/hi_IN/\n"
@@ -1968,18 +1968,18 @@ msgstr "पर भेजा गया"
 msgid "type"
 msgstr "प्रकार"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
 "\"nofollow\">file a bug</a>."
 msgstr ""
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr ""
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr ""
 
@@ -2050,6 +2050,14 @@ msgstr ""
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "ईमेल"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr ""
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr ""
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2168,15 +2176,15 @@ msgstr "मैं अपना GitHub प्रोफ़ाइल URL सार�
 msgid "Take the next step to get involved on MDN!"
 msgstr ""
 
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "ई-मेल पता"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "अन्य:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "ईमेल:"
 
@@ -2666,36 +2674,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr ""
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "अपनी प्रोफ़ाइल हटाएँ"
+#, fuzzy
+msgid "Delete your account"
+msgstr "अपना खाता हटाएँ."
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "हमें खेद है कि आप जा रहे हैं."
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
 msgstr ""
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr ""
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr ""
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr ""
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr ""
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "अपने खाते को बंद करने के लिए एक बग फाइल करें"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "अपना खाता हटाएँ."
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -2944,7 +2939,7 @@ msgstr "पहले से ही स्पैम के रूप में �
 msgid "This user has not created any revisions in the past three days."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "संपादित करें"
 
@@ -3010,7 +3005,7 @@ msgstr ""
 msgid "Localization in progress - not completely translated yet."
 msgstr ""
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr ""
 
@@ -4408,6 +4403,12 @@ msgstr "आप इस दस्तावेज़ का अनुवाद न�
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "Delete your profile"
+#~ msgstr "अपनी प्रोफ़ाइल हटाएँ"
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "अपने खाते को बंद करने के लिए एक बग फाइल करें"
 
 #~ msgid "Recover my Profile"
 #~ msgstr "मेरी प्रोफ़ाइल पुनर्प्राप्त करें"

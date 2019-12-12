@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2019-10-19 11:09+0000\n"
 "Last-Translator: mfuji <mfujimot@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -2008,7 +2008,7 @@ msgstr "投稿先"
 msgid "type"
 msgstr "タイプ"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -2017,11 +2017,11 @@ msgstr ""
 "申し訳ありませんが、ログインするには少なくとも 1 つの接続されたアカウントが必要です。このアカウントを切断するには、別のアカウントを先に接続してください。MDN アカウントを削除するには、<a href="
 "\"%(bug_form_url)s\" rel=\"nofollow\">バグ登録</a> してください。"
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr "メールアドレスをユーザー名として使用することはできません。"
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr "このユーザー名はすでに使用されています。"
 
@@ -2093,6 +2093,14 @@ msgstr "このユーザー名はすでに使用されています。"
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "メールアドレス"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr "私が行ったページの変更について帰属を残します。私が再度ログインできないよう、メールアドレスを削除し、アカウントを凍結してください。"
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr "私が行ったページの変更について帰属をすべて「匿名」に切り替え、アカウントを削除してください。"
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2214,15 +2222,15 @@ msgstr "次のステップへ進んで MDN に参加しましょう！"
 
 # 92%
 # 100%
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "メールアドレス"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "その他:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "メールアドレス:"
 
@@ -2731,36 +2739,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p>この追放に抗議するには <a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">ここをクリックしてメールで報告</a> してください。</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "プロファイルを削除"
+#, fuzzy
+msgid "Delete your account"
+msgstr "アカウントを削除する。"
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "あなたが離れてしまうのは残念です。"
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
-msgstr "アカウントを削除することは可能ですが、あなたが編集したリビジョン (ページの変更) は削除できません。また、コンテンツのライセンスにより、リビジョンに帰属を明示することが求められています。"
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
+msgstr ""
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr "アカウントの削除を要求するにはバグを報告してください。その際はコメントに以下のオプションのいずれかを記載してください。"
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr "私はページの編集を一切行っていません。単純にアカウントを削除してください。"
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "私が行ったページの変更について帰属を残します。私が再度ログインできないよう、メールアドレスを削除し、アカウントを凍結してください。"
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr "私が行ったページの変更について帰属をすべて「匿名」に切り替え、アカウントを削除してください。"
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "アカウントを閉じるためにバグを報告"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "アカウントを削除する。"
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -3020,7 +3015,7 @@ msgstr "すでにスパムとして報告されています。"
 msgid "This user has not created any revisions in the past three days."
 msgstr "このユーザーが過去 3 日間に作成したリビジョンはありません。"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "編集"
 
@@ -3086,7 +3081,7 @@ msgstr "編集レビュー - 表現、文法、内容について"
 msgid "Localization in progress - not completely translated yet."
 msgstr "翻訳途中 - まだ翻訳が完了していない"
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "セクションを編集"
 
@@ -4543,6 +4538,21 @@ msgstr "あなたはこのドキュメントを翻訳できません。"
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch サーバー: %(backend)s"
+
+#~ msgid "Delete your profile"
+#~ msgstr "プロファイルを削除"
+
+#~ msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#~ msgstr "アカウントを削除することは可能ですが、あなたが編集したリビジョン (ページの変更) は削除できません。また、コンテンツのライセンスにより、リビジョンに帰属を明示することが求められています。"
+
+#~ msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
+#~ msgstr "アカウントの削除を要求するにはバグを報告してください。その際はコメントに以下のオプションのいずれかを記載してください。"
+
+#~ msgid "I haven't changed any pages; just delete my account."
+#~ msgstr "私はページの編集を一切行っていません。単純にアカウントを削除してください。"
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "アカウントを閉じるためにバグを報告"
 
 #~ msgid "Build in the Browser."
 #~ msgstr "ブラウザー内でサイトを構築。"

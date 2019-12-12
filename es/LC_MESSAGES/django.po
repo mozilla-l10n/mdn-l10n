@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2019-10-13 11:46+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: Spanish https://pontoon.mozilla.org/es/\n"
@@ -2032,7 +2032,7 @@ msgstr "enviado el"
 msgid "type"
 msgstr "tipo"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -2041,11 +2041,11 @@ msgstr ""
 "Lo sentimos, pero debes tener al menos una cuenta conectada para iniciar sesión. Si quieres desconectar esta, primero tienes que conectarte a otra diferente. Para eliminar tu perfil de MDN, <a href="
 "\"%(bug_form_url)s\" rel=\"nofollow\">envía un bug</a>, por favor."
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr "No se puede utilizar una dirección de correo como nombre de usuario."
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr "El nombre de usuario que usaste ya existe."
 
@@ -2118,6 +2118,14 @@ msgstr "Ya existe el nombre de usuario."
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "Correo electrónico"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr "Mantener mi colaboración en la página de cambios; eliminar mi correo electrónico y congelar mi cuenta para que no pueda volver a acceder."
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2236,15 +2244,15 @@ msgstr "Me gustaría que mi la URL de mi perfil de GitHub fuera pública"
 msgid "Take the next step to get involved on MDN!"
 msgstr "¡Da un paso adelante e involúcrate con MDN!"
 
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "Dirección de correo electrónico"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Otro:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "Correo electrónico:"
 
@@ -2744,36 +2752,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Haz clic aquí</a> para recurrir esta prohibición.</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "Elimina tu perfil"
+#, fuzzy
+msgid "Delete your account"
+msgstr "Eliminar tu cuenta."
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "Sentimos que te vayas."
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
-msgstr "Aunque puedes eliminar tu cuenta, no podemos eliminar las revisiones que has hecho y, según nuestra licencia de contenido, tenemos que atribuir esas revisiones a alguien."
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
+msgstr ""
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr "Envía un bug para cerrar la cuenta y asegúrate de que una de las siguientes opciones está incluida en el campo de descripción:"
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr "No he cambiado ninguna página; eliminar mi cuenta."
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "Mantener mi colaboración en la página de cambios; eliminar mi correo electrónico y congelar mi cuenta para que no pueda volver a acceder."
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "Envía un bug para cerrar la cuenta"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "Eliminar tu cuenta."
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -3031,7 +3026,7 @@ msgstr "Ya identificada como spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Este usuario no ha creado ninguna revisión en los últimos tres días."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Editar"
 
@@ -3097,7 +3092,7 @@ msgstr "Editorial: prosa, gramática o contenido"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Localización en curso - aún no está traducido completamente."
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "Editar sección"
 
@@ -4547,6 +4542,21 @@ msgstr "No puedes traducir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor de Elasticsearch: %(backend)s"
+
+#~ msgid "Delete your profile"
+#~ msgstr "Elimina tu perfil"
+
+#~ msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#~ msgstr "Aunque puedes eliminar tu cuenta, no podemos eliminar las revisiones que has hecho y, según nuestra licencia de contenido, tenemos que atribuir esas revisiones a alguien."
+
+#~ msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
+#~ msgstr "Envía un bug para cerrar la cuenta y asegúrate de que una de las siguientes opciones está incluida en el campo de descripción:"
+
+#~ msgid "I haven't changed any pages; just delete my account."
+#~ msgstr "No he cambiado ninguna página; eliminar mi cuenta."
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "Envía un bug para cerrar la cuenta"
 
 #~ msgid "Build in the Browser."
 #~ msgstr "Crear en el navegador."

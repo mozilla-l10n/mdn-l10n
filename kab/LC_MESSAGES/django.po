@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2019-06-14 10:34+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -1999,7 +1999,7 @@ msgstr "yettwazen di"
 msgid "type"
 msgstr "anaw"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -2008,11 +2008,11 @@ msgstr ""
 "Suref-aɣ, acku yessefk ad tesɛuḍ ɣarsum yiwen n umiḍan yeqqnen akked ad teqqned. Qqen di tazwara s umiḍan akken ad tekksed wagi. Akken ad tekkseḍ amaɣnu-ik MDN, ma ulac aɣilif <a href="
 "\"%(bug_form_url)s\" rel=\"nofollow\">azen-d abug</a>."
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr "Tansa imayl ur tettwaseqdac ara deg umḍiq n yisem n useqdac."
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr "Isem n useqdac i teskecmeḍ yella yakan."
 
@@ -2083,6 +2083,14 @@ msgstr "Isem n useqdac yettuseqdac yakan."
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "Imayl"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr "Eǧǧ ayen akk s wayes ttekkaɣ deg usnifel n usebter; kkes tansa yinu imayl sakin sbek amiḍan inu akken werǧin ad kecmeɣ."
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr "Cudd asnifel inu ɣer umidan \"Udrig\", sakin kkes amiḍan inu."
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2201,15 +2209,15 @@ msgstr "Bɣiɣ ad erreɣ d azayaz URL n umaɣnu-iw GitHub"
 msgid "Take the next step to get involved on MDN!"
 msgstr "Ddu ɣer umecwar wis sin akken ad tettekkiḍ di MDN!"
 
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "Tansa imayl"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Wayeḍ:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "Imayl:"
 
@@ -2710,36 +2718,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Sit dagii</a> akken ad berriḍ ɣef ugdel agi.</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "Kkes amaɣnu yinek"
+#, fuzzy
+msgid "Delete your account"
+msgstr "Kkes amiḍan inek."
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "Neḥzen imi truḥeḍ."
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
-msgstr "Akken tzemreḍ ad tekkseḍ amiḍan inek, ur nezmir ara ad nekkes akk aɛiwed n tmuɣli yinek (isnifal n usebter), acku turagt nneɣ n ugbur tesra d akken yal aɛiwen n tmuɣli ad yesɛu bab-is."
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
+msgstr ""
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr "Ma ulac aɣilif, azen-d abug nusuter n umdal n umiḍan inek sakin senqed ma yella yiwen seg iɣewwaṛen yettunefk-d deg urti n uglam:"
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr "Ur snifleɣ ala yiwen nusebter; kkes kan amiḍan inu."
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "Eǧǧ ayen akk s wayes ttekkaɣ deg usnifel n usebter; kkes tansa yinu imayl sakin sbek amiḍan inu akken werǧin ad kecmeɣ."
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr "Cudd asnifel inu ɣer umidan \"Udrig\", sakin kkes amiḍan inu."
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "Azen-d abug akken ad nemdel amiḍan inek"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "Kkes amiḍan inek."
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -3001,7 +2996,7 @@ msgstr "Yettwassen yakan d aspam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Aseqdac agi ur d-imudd ara aɛiwed n tmuɣli di kraḍ agi n wussan yezrin."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Ẓreg"
 
@@ -3067,7 +3062,7 @@ msgstr "Tira - aḍris, tajeṛṛumt, neɣ agbur"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Tasuqilt tetteddu - ur yettwasuqel ara yakan imeṛṛa."
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "Ẓreg tigezmi"
 
@@ -4482,6 +4477,21 @@ msgstr "Ur tezmireḍ ara ad tessuqleḍ isemli agi."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Aqeddac Elasticsearch : %(backend)s"
+
+#~ msgid "Delete your profile"
+#~ msgstr "Kkes amaɣnu yinek"
+
+#~ msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#~ msgstr "Akken tzemreḍ ad tekkseḍ amiḍan inek, ur nezmir ara ad nekkes akk aɛiwed n tmuɣli yinek (isnifal n usebter), acku turagt nneɣ n ugbur tesra d akken yal aɛiwen n tmuɣli ad yesɛu bab-is."
+
+#~ msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
+#~ msgstr "Ma ulac aɣilif, azen-d abug nusuter n umdal n umiḍan inek sakin senqed ma yella yiwen seg iɣewwaṛen yettunefk-d deg urti n uglam:"
+
+#~ msgid "I haven't changed any pages; just delete my account."
+#~ msgstr "Ur snifleɣ ala yiwen nusebter; kkes kan amiḍan inu."
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "Azen-d abug akken ad nemdel amiḍan inek"
 
 #~ msgid "Learn More"
 #~ msgstr "Issin ugar"

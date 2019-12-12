@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2019-09-26 02:13+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -1996,7 +1996,7 @@ msgstr "gửi tại"
 msgid "type"
 msgstr "kiểu"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -2005,11 +2005,11 @@ msgstr ""
 "Xin lỗi, bạn phải có ít nhất một tài khoản được kết nối để bạn có thể đăng nhập. Để ngắt kết nối tài khoản này trước tiên hãy kết nối một tài khoản khác. Để xóa hồ sơ MDN của bạn, vui lòng <a href="
 "\"%(bug_form_url)s\" rel=\"nofollow\">gửi một lỗi</a>."
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr "Một địa chỉ email không thể được sử dụng làm tên người dùng."
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr "Tên người dùng bạn đã nhập đã tồn tại."
 
@@ -2080,6 +2080,14 @@ msgstr "Tên đăng nhập đã được sử dụng."
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "Email"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr "Giữ thuộc tính của tôi cho những thay đổi trang của tôi; xóa địa chỉ email của tôi và đóng băng tài khoản của tôi để tôi không thể đăng nhập lại."
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr "Chuyển tất cả các bản phân phối của tôi để thay đổi trang thành \"vô danh\" và xóa tài khoản của tôi."
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2198,15 +2206,15 @@ msgstr "Tôi muốn công khai URL hồ sơ GitHub của mình"
 msgid "Take the next step to get involved on MDN!"
 msgstr "Bước tiếp để tham gia MDN!"
 
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "Địa chỉ email"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Khác:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "Email:"
 
@@ -2701,38 +2709,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Nhấp vào đây</a> để kháng cáo lệnh cấm này.</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "Xóa trang cá nhân của bạn"
+#, fuzzy
+msgid "Delete your account"
+msgstr "Xóa tài khoản của bạn."
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "Chúng tôi rất tiếc khi bạn rời đi."
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
 msgstr ""
-"Mặc dù có thể xóa tài khoản của bạn, chúng tôi không thể xóa bất kỳ sửa đổi nào (thay đổi trang) bạn đã thực hiện và giấy phép nội dung của chúng tôi yêu cầu các bản sửa đổi của bạn phải có thẩm "
-"quyền."
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr "Vui lòng gửi một lỗi để yêu cầu đóng tài khoản của bạn và đảm bảo một trong các tùy chọn này nằm trong trường mô tả:"
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr "Tôi đã không thay đổi bất kỳ trang nào; chỉ cần xóa tài khoản của tôi."
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "Giữ thuộc tính của tôi cho những thay đổi trang của tôi; xóa địa chỉ email của tôi và đóng băng tài khoản của tôi để tôi không thể đăng nhập lại."
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr "Chuyển tất cả các bản phân phối của tôi để thay đổi trang thành \"vô danh\" và xóa tài khoản của tôi."
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "Gửi một lỗi để đóng tài khoản của bạn"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "Xóa tài khoản của bạn."
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -2987,7 +2980,7 @@ msgstr "Đã báo cáo là spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Người dùng này đã không tạo ra bất kỳ sửa đổi nào trong ba ngày qua."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Chỉnh sửa"
 
@@ -3053,7 +3046,7 @@ msgstr "Biên tập - văn xuôi, ngữ pháp hoặc nội dung"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Bản địa hóa trong tiến trình - chưa được dịch hoàn toàn."
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "Chỉnh sửa phần"
 
@@ -4452,6 +4445,23 @@ msgstr "Bạn không thể dịch bài viết này."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "Delete your profile"
+#~ msgstr "Xóa trang cá nhân của bạn"
+
+#~ msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#~ msgstr ""
+#~ "Mặc dù có thể xóa tài khoản của bạn, chúng tôi không thể xóa bất kỳ sửa đổi nào (thay đổi trang) bạn đã thực hiện và giấy phép nội dung của chúng tôi yêu cầu các bản sửa đổi của bạn phải có thẩm "
+#~ "quyền."
+
+#~ msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
+#~ msgstr "Vui lòng gửi một lỗi để yêu cầu đóng tài khoản của bạn và đảm bảo một trong các tùy chọn này nằm trong trường mô tả:"
+
+#~ msgid "I haven't changed any pages; just delete my account."
+#~ msgstr "Tôi đã không thay đổi bất kỳ trang nào; chỉ cần xóa tài khoản của tôi."
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "Gửi một lỗi để đóng tài khoản của bạn"
 
 #~ msgid "Build in the Browser."
 #~ msgstr "Xây dựng trong trình duyệt."

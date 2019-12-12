@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -2016,7 +2016,7 @@ msgstr "보낸일"
 msgid "type"
 msgstr "형식"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -2025,11 +2025,11 @@ msgstr ""
 "죄송합니다, 적어도 하나 이상의 연결된 계정을 사용해야 로그인을 할 수 있습니다. 이 계정을 끊기 위해서는 다른 계정을 먼저 연결해주세요. 당신의 MDN 프로필을 삭제하려면 <a href=\"%(bug_form_url)s\" rel="
 "\"nofollow\">버그를 작성해주세요</a>."
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr "이메일 주소는 사용자 이름으로 사용할 수 없습니다."
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr "입력하신 사용자 이름이 이미 사용중입니다."
 
@@ -2103,6 +2103,14 @@ msgstr "이미 사용 중인 사용자 이름입니다."
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "메일 주소"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr "내가 변경한 페이지에 대한 저작자 표시를 유지하세요. 하지만 메일 주소를 지우고 다시 로그인할 수 없도록 계정을 동결해 주세요."
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2224,15 +2232,15 @@ msgstr "GitHub 프로필 URL을 공개하고 싶습니다"
 msgid "Take the next step to get involved on MDN!"
 msgstr "MDN 참여하기 위한 다음 단계"
 
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "이메일 주소"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "또 다른 것들:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "이메일:"
 
@@ -2734,36 +2742,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">차단 해제 요청</a> (영문 작성 필요)</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "프로필 삭제"
+#, fuzzy
+msgid "Delete your account"
+msgstr "계정을 삭제합니다."
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "당신이 떠나는 것을 보게 되어 유감입니다."
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
-msgstr "계정 삭제는 가능하지만 만들어진 리비전(페이지 변경)은 삭제할 수 없고 콘텐츠 라이센스 상 리비전에 저작자가 표시 됩니다."
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
+msgstr ""
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr "계정 폐쇄를 요청하는 버그를 제출하고, 아래 옵션 중 하나가 설명난에 놓이도록 확인해 주세요:"
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr "나는 페이지를 바꾼 적이 없습니다. 그러니 그냥 계정을 삭제해 주세요."
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "내가 변경한 페이지에 대한 저작자 표시를 유지하세요. 하지만 메일 주소를 지우고 다시 로그인할 수 없도록 계정을 동결해 주세요."
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "계정을 닫기 위해 버그 제출"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "계정을 삭제합니다."
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -3018,7 +3013,7 @@ msgstr "스팸으로 신고됨."
 msgid "This user has not created any revisions in the past three days."
 msgstr "이 사용자는 지난 3일간 어떤 리비전도 만들지 않았습니다."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "편집"
 
@@ -3084,7 +3079,7 @@ msgstr "편집 - 산문, 문법, 내용"
 msgid "Localization in progress - not completely translated yet."
 msgstr "지역화 진행 중 - 아직 완전히 번역되지 않았습니다."
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "섹션 편집"
 
@@ -4520,6 +4515,21 @@ msgstr "이 문서를 번역할 수 없습니다."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
+
+#~ msgid "Delete your profile"
+#~ msgstr "프로필 삭제"
+
+#~ msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#~ msgstr "계정 삭제는 가능하지만 만들어진 리비전(페이지 변경)은 삭제할 수 없고 콘텐츠 라이센스 상 리비전에 저작자가 표시 됩니다."
+
+#~ msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
+#~ msgstr "계정 폐쇄를 요청하는 버그를 제출하고, 아래 옵션 중 하나가 설명난에 놓이도록 확인해 주세요:"
+
+#~ msgid "I haven't changed any pages; just delete my account."
+#~ msgstr "나는 페이지를 바꾼 적이 없습니다. 그러니 그냥 계정을 삭제해 주세요."
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "계정을 닫기 위해 버그 제출"
 
 #, fuzzy
 #~ msgid "Build in the Browser."

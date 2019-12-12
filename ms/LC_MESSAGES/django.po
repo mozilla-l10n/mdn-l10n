@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-09 08:56-0800\n"
+"POT-Creation-Date: 2019-12-12 15:47-0800\n"
 "PO-Revision-Date: 2018-11-21 20:55+0000\n"
 "Last-Translator: Othman Wagiman <manxmensch@gmail.com>\n"
 "Language-Team: Malay https://pontoon.mozilla.org/ms/\n"
@@ -2004,7 +2004,7 @@ msgstr "dihantar pada"
 msgid "type"
 msgstr "jenis"
 
-#: kuma/users/adapters.py:28
+#: kuma/users/adapters.py:31
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -2013,11 +2013,11 @@ msgstr ""
 "Maaf, anda perlu ada sekurang-kurangnya satu akaun yang dihubungkan supaya anda boleh mendaftar masuk. Untuk memutuskan hubungan akaun ini, hubungkan dengan akaun lain terlebih dahulu. Untuk "
 "menghapuskan profil MDN sila <a href=\"%(bug_form_url)s\" rel=\"nofollow\">failkan pepijat</a>."
 
-#: kuma/users/adapters.py:32
+#: kuma/users/adapters.py:35
 msgid "An email address cannot be used as a username."
 msgstr "Alamat e-mel tidak boleh digunakan sebagai nama pengguna."
 
-#: kuma/users/adapters.py:59
+#: kuma/users/adapters.py:62
 msgid "The username you entered already exists."
 msgstr "Nama pengguna yang anda masukkan telah wujud."
 
@@ -2088,6 +2088,14 @@ msgstr "Nama pengguna sedang digunakan."
 #: kuma/users/forms.py:175
 msgid "Email"
 msgstr "E-mel"
+
+#: kuma/users/forms.py:210
+msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
+msgstr "Kekalkan sumbangan saya meminda halaman; hapus alamat e-mel saya dan bekukan akaun saya supaya saya tidak boleh lagi log masuk."
+
+#: kuma/users/forms.py:216
+msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
+msgstr "Tukar semua sumbangan pindaan halaman saya menjadi \"Anonimus\", dan hapus akaun saya."
 
 #: kuma/users/models.py:36
 #, python-format
@@ -2206,15 +2214,15 @@ msgstr "Saya mahu URL profil GitHub saya umum"
 msgid "Take the next step to get involved on MDN!"
 msgstr "Teruskan langkah berikut untuk libatkan diri dengan MDN!"
 
-#: kuma/users/views.py:479
+#: kuma/users/views.py:563
 msgid "Email address"
 msgstr "Alamat e-mel"
 
-#: kuma/users/views.py:537 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Lain:"
 
-#: kuma/users/views.py:539
+#: kuma/users/views.py:634
 msgid "Email:"
 msgstr "E-mel:"
 
@@ -2717,38 +2725,23 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Klik sini here</a> untuk merayu sekatan ini.</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-msgid "Delete your profile"
-msgstr "Buang profil anda"
+#, fuzzy
+msgid "Delete your account"
+msgstr "Buang akaun anda."
 
-#: kuma/users/jinja2/users/user_delete.html:28
+#: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
 msgstr "Kami sedih kerana kehilangan anda."
 
-#: kuma/users/jinja2/users/user_delete.html:31
-msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#: kuma/users/jinja2/users/user_delete.html:32
+#, python-format
+msgid "You have made %(count)s wiki revisions."
 msgstr ""
-"Walaupun anda boleh hapus akaun anda, kami tidak akan menghapuskan sebarang semakan (pindaan dalam halaman) yang telah anda buat kerana kandungan lesen kami mensyaratkan bahawa semakan anda itu "
-"diiktiraf sebagai sumbangan."
 
-#: kuma/users/jinja2/users/user_delete.html:38
-msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
-msgstr "Sila failkan pepijat untuk permintaan menutup akaun anda, dan pastikan salah satu pilihan ini ada dalam bidang keterangan:"
-
-#: kuma/users/jinja2/users/user_delete.html:57
-msgid "I haven't changed any pages; just delete my account."
-msgstr "Saya tidak pernah meminda mana-mana halaman; hapus sahaja akaun saya."
-
-#: kuma/users/jinja2/users/user_delete.html:62
-msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
-msgstr "Kekalkan sumbangan saya meminda halaman; hapus alamat e-mel saya dan bekukan akaun saya supaya saya tidak boleh lagi log masuk."
-
-#: kuma/users/jinja2/users/user_delete.html:67
-msgid "Switch all my attributions for page changes to \"Anonymous\", and delete my account."
-msgstr "Tukar semua sumbangan pindaan halaman saya menjadi \"Anonimus\", dan hapus akaun saya."
-
-#: kuma/users/jinja2/users/user_delete.html:70
-msgid "File a bug to close your account"
-msgstr "Failkan pepijat untuk menutup akaun anda"
+#: kuma/users/jinja2/users/user_delete.html:45
+#, fuzzy
+msgid "Delete my account"
+msgstr "Buang akaun anda."
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -3011,7 +3004,7 @@ msgstr "Telah dilaporkan sebagai spam."
 msgid "This user has not created any revisions in the past three days."
 msgstr "Pengguna ini tidak membuat semakan sejak tiga hari lalu."
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:742 kuma/wiki/jinja2/wiki/includes/buttons.html:57
+#: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:747 kuma/wiki/jinja2/wiki/includes/buttons.html:57
 msgid "Edit"
 msgstr "Edit"
 
@@ -3077,7 +3070,7 @@ msgstr "Editorial - prosa, tatabahasa atau kandungan"
 msgid "Localization in progress - not completely translated yet."
 msgstr "Lokalisasi sedang berjalan - belum diterjemahkan sepenuhnya lagi."
 
-#: kuma/wiki/content.py:723
+#: kuma/wiki/content.py:728
 msgid "Edit section"
 msgstr "Edit bahagian"
 
@@ -4491,6 +4484,23 @@ msgstr "Anda tidak boleh terjemahkan dokumen ini."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Pelayan Elasticsearch: %(backend)s"
+
+#~ msgid "Delete your profile"
+#~ msgstr "Buang profil anda"
+
+#~ msgid "While it's possible delete your account, we can't delete any revisions (page changes) you've made, and our content license requires that your revisions have an attribution."
+#~ msgstr ""
+#~ "Walaupun anda boleh hapus akaun anda, kami tidak akan menghapuskan sebarang semakan (pindaan dalam halaman) yang telah anda buat kerana kandungan lesen kami mensyaratkan bahawa semakan anda itu "
+#~ "diiktiraf sebagai sumbangan."
+
+#~ msgid "Please file a bug to request closing your account, and ensure one of these options is in the the description field:"
+#~ msgstr "Sila failkan pepijat untuk permintaan menutup akaun anda, dan pastikan salah satu pilihan ini ada dalam bidang keterangan:"
+
+#~ msgid "I haven't changed any pages; just delete my account."
+#~ msgstr "Saya tidak pernah meminda mana-mana halaman; hapus sahaja akaun saya."
+
+#~ msgid "File a bug to close your account"
+#~ msgstr "Failkan pepijat untuk menutup akaun anda"
 
 #~ msgid "Learn More"
 #~ msgstr "Ketahui Selanjutnya"
