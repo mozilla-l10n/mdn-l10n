@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-12 15:47-0800\n"
+"POT-Creation-Date: 2019-12-19 14:41-0800\n"
 "PO-Revision-Date: 2019-11-23 21:23+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -159,14 +159,32 @@ msgstr "Επιλέξτε γλώσσα"
 msgid "Skip to search"
 msgstr "Μεταπήδηση στην αναζήτηση"
 
+#: jinja2/includes/auth-modal-content.html:2
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgstr ""
+
+#: jinja2/includes/auth-modal-content.html:6
+#, fuzzy
+msgid "Sign in with Github"
+msgstr "Είσοδος με GitHub"
+
+#: jinja2/includes/auth-modal-content.html:9
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Είσοδος με GitHub"
+
+#: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
+msgid "Sign In"
+msgstr "Είσοδος"
+
 #: jinja2/includes/common_macros.html:18
 msgid "Search Firefox Help"
 msgstr "Αναζήτηση βοήθειας Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:40 kuma/landing/jinja2/landing/homepage.html:45 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
-#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:53
-#: kuma/search/jinja2/search/results.html:58
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Αναζήτηση"
 
@@ -315,6 +333,11 @@ msgstr "Έξοδος"
 msgid "Sign in"
 msgstr "Είσοδος"
 
+#: jinja2/includes/modal.html:9
+#, fuzzy
+msgid "Close modal"
+msgstr "Κλείσιμο"
+
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
 msgstr "Κλείσιμο αναζήτησης"
@@ -362,11 +385,11 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Απόκρυψη εγγραφής newsletter"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
 msgid "Previous"
 msgstr "Προηγούμενη"
 
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:175
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
 msgid "Next"
 msgstr "Επόμενο"
 
@@ -1048,7 +1071,7 @@ msgstr "Αναζήτηση αγγλικών σελίδων"
 msgid "Authors:"
 msgstr "Δημιουργοί:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:240
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
 msgid "Filter"
 msgstr "Φίλτρο"
 
@@ -1170,7 +1193,7 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "Για προγραμματιστές, από προγραμματιστές."
 
-#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:57
+#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Αναζήτηση εγγράφων"
 
@@ -1901,99 +1924,99 @@ msgstr "Αναζήτηση στα διαδικτυακά έγγραφα MDN"
 msgid "Search Results for \"%(query)s\""
 msgstr "Αποτελέσματα αναζήτησης για \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:37
+#: kuma/search/jinja2/search/results.html:36
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "μεταφράστηκε από <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
-#: kuma/search/jinja2/search/results.html:49
+#: kuma/search/jinja2/search/results.html:48
 msgid "MDN Site Search"
 msgstr "Αναζήτηση ιστοσελίδας MDN"
 
-#: kuma/search/jinja2/search/results.html:67
+#: kuma/search/jinja2/search/results.html:66
 msgid "Results"
 msgstr "Αποτελέσματα"
 
-#: kuma/search/jinja2/search/results.html:71
+#: kuma/search/jinja2/search/results.html:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο για \"%(query)s\" σε όλες τις γλώσσες."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα για \"%(query)s\" σε όλες τις γλώσσες."
 
-#: kuma/search/jinja2/search/results.html:77
+#: kuma/search/jinja2/search/results.html:76
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο σε όλες τις γλώσσες."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα σε όλες τις γλώσσες."
 
-#: kuma/search/jinja2/search/results.html:87
+#: kuma/search/jinja2/search/results.html:86
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο για \"%(query)s\" στα %(locale_native)s."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα για \"%(query)s\" στα %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:93
+#: kuma/search/jinja2/search/results.html:92
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο για \"%(query)s\" στα %(locale_native)s και στα %(default_locale_native)s."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα για \"%(query)s\" στα %(locale_native)s και στα %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:101
+#: kuma/search/jinja2/search/results.html:100
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο στα %(locale_native)s."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα στα %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:107
+#: kuma/search/jinja2/search/results.html:106
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο στα %(locale_native)s και στα %(default_locale_native)s."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα στα %(locale_native)s και στα %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:117
+#: kuma/search/jinja2/search/results.html:116
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο για \"%(query)s\"."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα για \"%(query)s\"."
 
-#: kuma/search/jinja2/search/results.html:123
+#: kuma/search/jinja2/search/results.html:122
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "Βρέθηκε %(count)s έγγραφο."
 msgstr[1] "Βρέθηκαν %(count)s έγγραφα."
 
-#: kuma/search/jinja2/search/results.html:133
+#: kuma/search/jinja2/search/results.html:132
 msgid "Showing all results."
 msgstr "Προβάλλονται όλα τα αποτελέσματα."
 
-#: kuma/search/jinja2/search/results.html:135
+#: kuma/search/jinja2/search/results.html:134
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "Προβάλλονται τα αποτελέσματα %(start)s έως %(end)s."
 
-#: kuma/search/jinja2/search/results.html:141
+#: kuma/search/jinja2/search/results.html:140
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "Αναζήτηση ξανά μόνο σε %(default_locale_native)s"
 
 # Χωρίς τόνους λόγω του text-transform: uppercase στο CSS.
-#: kuma/search/jinja2/search/results.html:156
+#: kuma/search/jinja2/search/results.html:155
 msgid "Docs"
 msgstr "Έγγραφα"
 
-#: kuma/search/jinja2/search/results.html:199
+#: kuma/search/jinja2/search/results.html:198
 msgid "All Topics"
 msgstr "Όλα τα θέματα"
 
-#: kuma/search/jinja2/search/results.html:206
+#: kuma/search/jinja2/search/results.html:205
 msgid "Filter by"
 msgstr "Φιλτράρισμα κατά"
 
@@ -2232,18 +2255,19 @@ msgid "I would like to make my GitHub profile URL public"
 msgstr "Θα ήθελα να κάνω δημόσιο το URL του προφίλ μου στο GitHub"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
-msgid "Take the next step to get involved on MDN!"
-msgstr "Κάντε το επόμενο βήμα για να συμμετάσχετε στο MDN!"
+#, fuzzy
+msgid "Getting started with your new MDN account"
+msgstr "Ξεκινώντας με τον ιστό"
 
-#: kuma/users/views.py:563
+#: kuma/users/views.py:567
 msgid "Email address"
 msgstr "Διεύθυνση email"
 
-#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:636 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Άλλο:"
 
-#: kuma/users/views.py:634
+#: kuma/users/views.py:638
 msgid "Email:"
 msgstr "Email:"
 
@@ -2314,10 +2338,6 @@ msgstr "Αυτός ο σύνδεσμος επιβεβαίωσης email έχει
 #, python-format
 msgid "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Έχετε επιβεβαιώσει ότι το <a href=\"mailto:%(email)s\">%(email)s</a> είναι μια διεύθυνση email για το χρήστη %(user_display)s."
-
-#: kuma/users/jinja2/account/login.html:3
-msgid "Sign In"
-msgstr "Είσοδος"
 
 #: kuma/users/jinja2/account/login.html:17
 msgid "Please sign in"
@@ -2469,6 +2489,23 @@ msgstr "Η σύνδεση ακυρώθηκε"
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr "Αποφασίσατε να ακυρώσετε την είσοδο στην ιστοσελίδα μας με έναν από τους υπάρχοντες λογαριασμούς σας. Αν αυτό ήταν λάθος, παρακαλούμε προχωρήστε στη <a href=\"%(login_url)s\">σύνδεση</a>."
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:15
+#, fuzzy
+msgid "Create your MDN Web Docs Account"
+msgstr "Δημιουργήστε το προφίλ MDN σας για συνέχεια"
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:29
+msgid "Benefits of an MDN account"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:32
+msgid "Be the first to try new features coming to MDN"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:33
+msgid "Help contribute to the continued improvement of MDN’s content"
+msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 msgid "Authorize with Github"
@@ -2885,46 +2922,43 @@ msgstr "Σάς ευχαριστούμε που χρησιμοποιήσατε τ
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr "Ανάκτηση προφίλ για %(username)s στο %(domain)s"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
+#. This is an email. Whitespace matters!
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
+#, fuzzy, python-format
+msgid "Hey %(username)s!"
 msgstr "Γεια σας, %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, python-format
-msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
+#, fuzzy, python-format
+msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
 msgstr "Ευχαριστούμε που δημιουργήσατε ένα προφίλ στο <a href=\"%(mdn_link)s\">MDN Web Docs</a> - μια κοινότητα που δημιουργεί εξαιρετικούς πόρους για προγραμματιστές όπως εσείς."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, python-format
-msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr "Έχετε ολοκληρώσει το πρώτο βήμα του <a href=\"%(started_link)s\">\"Ξεκινώντας στο MDN\"</a> δημιουργώντας ένα προφίλ."
-
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:21
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
-"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
+"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
 "Έχετε ολοκληρώσει το πρώτο βήμα του \"Ξεκινώντας στο MDN\" δημιουργώντας ένα προφίλ. Τώρα, συνεχίστε να επιλέγετε και να κάνετε εργασίες στο MDN! Έχουμε πολλές εισαγωγικές εργασίες που μπορείτε να "
 "επιλέξετε, είτε σάς αρέσουν <a href=\"%(words_link)s\">οι λέξεις</a>, <a href=\"%(code_link)s\">ο κώδικας</a>, <a href=\"%(both_link)s\">ή και τα δύο</a>, είτε θέλετε να <a href=\"%(translate_link)s"
 "\">μεταφράσετε το MDN στη γλώσσα σας</a>."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:34
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
 msgstr "Μιλήστε μας!"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:30 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
 msgstr "Θέλετε να μιλήσετε σε κάποιον για το MDN; Υπάρχουν αρκετοί τρόποι για να το κάνετε αυτό:"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:33
 #, python-format
 msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
 msgstr "Φόρουμ συζήτησης: <a href=\"%(list_link)s\">γίνετε μέλος</a> για να μάς μιλήσετε για τα ενδιαφέροντά σας στο MDN και να κάνετε ερωτήσεις για την ιστοσελίδα."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:43
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
@@ -2935,29 +2969,22 @@ msgstr ""
 "κοινότητας του MDN."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "Μην ντρέπεστε, αν έχετε αμφιβολίες, προβλήματα, απορίες: επικοινωνήστε μαζί μας! Είμαστε για να βοηθήσουμε."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, python-format
-msgid "Hi %(username)s"
-msgstr "Γεια σας %(username)s"
-
-#. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
+#, fuzzy
+msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
 msgstr "Ευχαριστούμε που δημιουργήσατε ένα προφίλ στο MDN Web Docs -- μια κοινότητα που δημιουργεί εξαιρετικούς πόρους για προγραμματιστές όπως εσείς."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
 msgid ""
-"You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on your "
-"interests."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us."
 msgstr ""
-"Έχετε ολοκληρώσει το πρώτο βήμα του \"Ξεκινώντας στο MDN\" δημιουργώντας ένα προφίλ. Τώρα, συνεχίστε να επιλέγετε και να κάνετε εργασίες στο MDN! Έχουμε πολλές εισαγωγικές εργασίες που μπορείτε να "
-"επιλέξετε βάσει των ενδιαφερόντων σας."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
@@ -3042,28 +3069,28 @@ msgstr "Τομείς ειδίκευσης"
 msgid "Member since %(date_joined)s"
 msgstr "Μέλος από %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:43
+#: kuma/users/templatetags/jinja_helpers.py:46
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Αποκλείστηκε στις %(ban_date)s από το χρήστη %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:50
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Banned"
 msgstr "Αποκλείστηκε"
 
-#: kuma/users/templatetags/jinja_helpers.py:53
+#: kuma/users/templatetags/jinja_helpers.py:56
 msgid "Clean Up Revisions"
 msgstr "Εκκαθάριση αναθεωρήσεων"
 
-#: kuma/users/templatetags/jinja_helpers.py:58
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User"
 msgstr "Αποκλεισμός χρήστη"
 
-#: kuma/users/templatetags/jinja_helpers.py:61
+#: kuma/users/templatetags/jinja_helpers.py:64
 msgid "Ban User & Clean Up"
 msgstr "Αποκλεισμός χρήστη & εκκαθάριση"
 
-#: kuma/users/templatetags/jinja_helpers.py:73
+#: kuma/users/templatetags/jinja_helpers.py:76
 msgid "Admin"
 msgstr "Διαχειριστής"
 
@@ -4511,6 +4538,22 @@ msgstr "Δεν μπορείτε να μεταφράσετε αυτό το έγγ
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Διακομιστής Elasticsearch: %(backend)s"
 
+#~ msgid "Take the next step to get involved on MDN!"
+#~ msgstr "Κάντε το επόμενο βήμα για να συμμετάσχετε στο MDN!"
+
+#~ msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
+#~ msgstr "Έχετε ολοκληρώσει το πρώτο βήμα του <a href=\"%(started_link)s\">\"Ξεκινώντας στο MDN\"</a> δημιουργώντας ένα προφίλ."
+
+#~ msgid "Hi %(username)s"
+#~ msgstr "Γεια σας %(username)s"
+
+#~ msgid ""
+#~ "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on "
+#~ "your interests."
+#~ msgstr ""
+#~ "Έχετε ολοκληρώσει το πρώτο βήμα του \"Ξεκινώντας στο MDN\" δημιουργώντας ένα προφίλ. Τώρα, συνεχίστε να επιλέγετε και να κάνετε εργασίες στο MDN! Έχουμε πολλές εισαγωγικές εργασίες που μπορείτε "
+#~ "να επιλέξετε βάσει των ενδιαφερόντων σας."
+
 #~ msgid "Delete your profile"
 #~ msgstr "Διαγραφή προφίλ"
 
@@ -4654,9 +4697,6 @@ msgstr "Διακομιστής Elasticsearch: %(backend)s"
 
 #~ msgid "Zulu"
 #~ msgstr "Ζουλού"
-
-#~ msgid "Create your MDN profile to continue"
-#~ msgstr "Δημιουργήστε το προφίλ MDN σας για συνέχεια"
 
 #~ msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
 #~ msgstr ""
@@ -4979,9 +5019,6 @@ msgstr "Διακομιστής Elasticsearch: %(backend)s"
 
 #~ msgid "Learn"
 #~ msgstr "Εκμάθηση"
-
-#~ msgid "Getting started with the Web"
-#~ msgstr "Ξεκινώντας με τον ιστό"
 
 #~ msgid "Learn HTML"
 #~ msgstr "Μάθετε HTML"
@@ -6664,9 +6701,6 @@ msgstr "Διακομιστής Elasticsearch: %(backend)s"
 
 #~ msgid "{timedelta} ago"
 #~ msgstr "{timedelta} πριν"
-
-#~ msgid "Close"
-#~ msgstr "Κλείσιμο"
 
 #~ msgid "Download Formats:"
 #~ msgstr "Μορφές για λήψη:"

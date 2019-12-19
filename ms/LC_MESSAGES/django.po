@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-12 15:47-0800\n"
+"POT-Creation-Date: 2019-12-19 14:41-0800\n"
 "PO-Revision-Date: 2018-11-21 20:55+0000\n"
 "Last-Translator: Othman Wagiman <manxmensch@gmail.com>\n"
 "Language-Team: Malay https://pontoon.mozilla.org/ms/\n"
@@ -157,14 +157,32 @@ msgstr "Pilih bahasa"
 msgid "Skip to search"
 msgstr "Langkau ke carian"
 
+#: jinja2/includes/auth-modal-content.html:2
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgstr ""
+
+#: jinja2/includes/auth-modal-content.html:6
+#, fuzzy
+msgid "Sign in with Github"
+msgstr "Daftar masuk dengan GitHub"
+
+#: jinja2/includes/auth-modal-content.html:9
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Daftar masuk dengan GitHub"
+
+#: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
+msgid "Sign In"
+msgstr "Daftar masuk"
+
 #: jinja2/includes/common_macros.html:18
 msgid "Search Firefox Help"
 msgstr "Cari Bantuan Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:40 kuma/landing/jinja2/landing/homepage.html:45 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
-#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:53
-#: kuma/search/jinja2/search/results.html:58
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Cari"
 
@@ -313,6 +331,11 @@ msgstr "Daftar keluar"
 msgid "Sign in"
 msgstr "Daftar masuk"
 
+#: jinja2/includes/modal.html:9
+#, fuzzy
+msgid "Close modal"
+msgstr "Tutup carian"
+
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
 msgstr "Tutup carian"
@@ -360,11 +383,11 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Sorok Pendaftaran Surat Berita"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
 msgid "Previous"
 msgstr "Sebelumnya"
 
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:175
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
 msgid "Next"
 msgstr "Seterusnya"
 
@@ -1040,7 +1063,7 @@ msgstr "Cari Halaman Bahasa Inggeris"
 msgid "Authors:"
 msgstr "Pengarang:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:240
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
 msgid "Filter"
 msgstr "Tapis"
 
@@ -1161,7 +1184,7 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "Sumber untuk pembangun, oleh pembangun."
 
-#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:57
+#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Cari dalam dokumen"
 
@@ -1889,90 +1912,90 @@ msgstr "Carian Dokumen Web MDN"
 msgid "Search Results for \"%(query)s\""
 msgstr "Hasil Carian untuk \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:37
+#: kuma/search/jinja2/search/results.html:36
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "diterjemah dari <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
-#: kuma/search/jinja2/search/results.html:49
+#: kuma/search/jinja2/search/results.html:48
 msgid "MDN Site Search"
 msgstr "Carian Laman MDN"
 
-#: kuma/search/jinja2/search/results.html:67
+#: kuma/search/jinja2/search/results.html:66
 msgid "Results"
 msgstr "Hasil"
 
-#: kuma/search/jinja2/search/results.html:71
+#: kuma/search/jinja2/search/results.html:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "%(count)s dokumen ditemui untuk \"%(query)s\" dalam semua lokaliti."
 
-#: kuma/search/jinja2/search/results.html:77
+#: kuma/search/jinja2/search/results.html:76
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "%(count)s dokumen ditemui dalam semua lokaliti."
 
-#: kuma/search/jinja2/search/results.html:87
+#: kuma/search/jinja2/search/results.html:86
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "%(count)s dokumen ditemui untuk \"%(query)s\" dalam %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:93
+#: kuma/search/jinja2/search/results.html:92
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s dokumen ditemui untuk \"%(query)s\" dalam %(locale_native)s dan %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:101
+#: kuma/search/jinja2/search/results.html:100
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "%(count)s dokumen ditemui dalam %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:107
+#: kuma/search/jinja2/search/results.html:106
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s dokumen ditemui dalam %(locale_native)s dan %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:117
+#: kuma/search/jinja2/search/results.html:116
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "%(count)s dokumen ditemui untuk \"%(query)s\"."
 
-#: kuma/search/jinja2/search/results.html:123
+#: kuma/search/jinja2/search/results.html:122
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "%(count)s dokumen ditemui."
 
-#: kuma/search/jinja2/search/results.html:133
+#: kuma/search/jinja2/search/results.html:132
 msgid "Showing all results."
 msgstr "Paparan semua hasil."
 
-#: kuma/search/jinja2/search/results.html:135
+#: kuma/search/jinja2/search/results.html:134
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "Paparan hasil %(start)s ke %(end)s."
 
-#: kuma/search/jinja2/search/results.html:141
+#: kuma/search/jinja2/search/results.html:140
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "Cari lagi hanya dalam %(default_locale_native)s"
 
-#: kuma/search/jinja2/search/results.html:156
+#: kuma/search/jinja2/search/results.html:155
 msgid "Docs"
 msgstr "Dokumen"
 
-#: kuma/search/jinja2/search/results.html:199
+#: kuma/search/jinja2/search/results.html:198
 msgid "All Topics"
 msgstr "Semua Topik"
 
-#: kuma/search/jinja2/search/results.html:206
+#: kuma/search/jinja2/search/results.html:205
 msgid "Filter by"
 msgstr "Tapis mengikut"
 
@@ -2211,18 +2234,19 @@ msgid "I would like to make my GitHub profile URL public"
 msgstr "Saya mahu URL profil GitHub saya umum"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
-msgid "Take the next step to get involved on MDN!"
-msgstr "Teruskan langkah berikut untuk libatkan diri dengan MDN!"
+#, fuzzy
+msgid "Getting started with your new MDN account"
+msgstr "Mulakan menggunakan Web"
 
-#: kuma/users/views.py:563
+#: kuma/users/views.py:567
 msgid "Email address"
 msgstr "Alamat e-mel"
 
-#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:636 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Lain:"
 
-#: kuma/users/views.py:634
+#: kuma/users/views.py:638
 msgid "Email:"
 msgstr "E-mel:"
 
@@ -2293,10 +2317,6 @@ msgstr "Pautan pengesahan e-mel ini sudah tamat tempoh atau tidak sah. Sila <a h
 #, python-format
 msgid "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Anda telah sahkkan bahawa <a href=\"mailto:%(email)s\">%(email)s</a> adalah alamat e-mel bagi pengguna %(user_display)s."
-
-#: kuma/users/jinja2/account/login.html:3
-msgid "Sign In"
-msgstr "Daftar masuk"
 
 #: kuma/users/jinja2/account/login.html:17
 msgid "Please sign in"
@@ -2449,6 +2469,23 @@ msgstr "Log masuk Dibatalkan"
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
 "Anda membuat keputusan untuk batalkan log masuk ke laman kami menggunakan salah satu akaun sdia ada anda. Jika ini adalah satu kesilapan, sila teruskan ke <a href=\"%(login_url)s\">daftar masuk</a>."
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:15
+#, fuzzy
+msgid "Create your MDN Web Docs Account"
+msgstr "Cipta profil MDN anda untuk meneruskan"
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:29
+msgid "Benefits of an MDN account"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:32
+msgid "Be the first to try new features coming to MDN"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:33
+msgid "Help contribute to the continued improvement of MDN’s content"
+msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 #, fuzzy
@@ -2874,45 +2911,42 @@ msgstr "Terima kasih kerana menggunakan MDN!"
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr "Pemulihan Profil untuk %(username)s di %(domain)s"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
+#. This is an email. Whitespace matters!
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
+#, fuzzy, python-format
+msgid "Hey %(username)s!"
 msgstr "Hai %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, python-format
-msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
+#, fuzzy, python-format
+msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
 msgstr "Terima kasih kerana mencipta profil dalam <a href=\"%(mdn_link)s\">Dokumen Web MDN</a> - sebuah komuniti yang menghasilkan sumber hebat untuk pembangun seperti anda."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, python-format
-msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr "Anda telah lengkapkan langkah pertama <a href=\"%(started_link)s\">Mulakan MDN</a> dengan mencipta profil."
-
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:21
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
-"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
+"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
 "Sekarang, teruskan dengan memilih tugasan di MDN, laksanakannya! Kami ada pelbagai tugasan pengenalan yang boleh anda pilih, samada anda <a href=\"%(words_link)s\">sukakan perkataan</a>, <a href="
 "\"%(code_link)s\">sukakan kod</a>, <a href=\"%(both_link)s\">sukakan kedua-dua perkataan dan kod</a>, atau anda mahu <a href=\"%(translate_link)s\">terjemahkan MDN ke bahasa anda</a>."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:34
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
 msgstr "Maklumkan kepada kami!"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:30 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
 msgstr "Mahu berbincang dengan seseorang perihal MDN? Ada beberapa cara yang anda boleh lakukan:"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:33
 #, python-format
 msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
 msgstr "Forum perbincangan: <a href=\"%(list_link)s\">sertai</a> kami untuk memaklumkan minat anda dalam MDN dan tanya soalan perihal laman ini."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:43
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
@@ -2922,29 +2956,22 @@ msgstr ""
 "bahagian penulisan MDN di sana: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dan saya (jswisher), pengurus komuniti MDN."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "Jangan rasa malu, jika anda ada keraguan, masalah, pertanyaan: hubungi kami! Kami ada di sini untuk membantu anda."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, python-format
-msgid "Hi %(username)s"
-msgstr "Hai %(username)s"
-
-#. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
+#, fuzzy
+msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
 msgstr "Terima kasih kerana mencipta profil dalam Dokumen Web MDN - sebuah komuniti yang menghasilkan sumber hebat untuk pembangun seperti anda."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
 msgid ""
-"You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on your "
-"interests."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us."
 msgstr ""
-"Anda telah melengkapkan langkah pertama Memulakan MDN dengan mencipta profil. Sekarang, teruskan dengan memilih tugas di MDN, dan laksanakannya! Kami ada pelbagai tugasan pengenalan yang anda boleh "
-"pilih berdasarkan minat anda."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
@@ -3029,28 +3056,28 @@ msgstr "Bidang Kepakaran"
 msgid "Member since %(date_joined)s"
 msgstr "Menjadi anggota sejak %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:43
+#: kuma/users/templatetags/jinja_helpers.py:46
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Disekat pada %(ban_date)s oleh %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:50
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Banned"
 msgstr "Disekat"
 
-#: kuma/users/templatetags/jinja_helpers.py:53
+#: kuma/users/templatetags/jinja_helpers.py:56
 msgid "Clean Up Revisions"
 msgstr "Bersihkan Semakan"
 
-#: kuma/users/templatetags/jinja_helpers.py:58
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User"
 msgstr "Sekat Pengguna"
 
-#: kuma/users/templatetags/jinja_helpers.py:61
+#: kuma/users/templatetags/jinja_helpers.py:64
 msgid "Ban User & Clean Up"
 msgstr "Sekat Pengguna & Bersihkan"
 
-#: kuma/users/templatetags/jinja_helpers.py:73
+#: kuma/users/templatetags/jinja_helpers.py:76
 msgid "Admin"
 msgstr "Pentadbir"
 
@@ -4485,6 +4512,22 @@ msgstr "Anda tidak boleh terjemahkan dokumen ini."
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Pelayan Elasticsearch: %(backend)s"
 
+#~ msgid "Take the next step to get involved on MDN!"
+#~ msgstr "Teruskan langkah berikut untuk libatkan diri dengan MDN!"
+
+#~ msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
+#~ msgstr "Anda telah lengkapkan langkah pertama <a href=\"%(started_link)s\">Mulakan MDN</a> dengan mencipta profil."
+
+#~ msgid "Hi %(username)s"
+#~ msgstr "Hai %(username)s"
+
+#~ msgid ""
+#~ "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on "
+#~ "your interests."
+#~ msgstr ""
+#~ "Anda telah melengkapkan langkah pertama Memulakan MDN dengan mencipta profil. Sekarang, teruskan dengan memilih tugas di MDN, dan laksanakannya! Kami ada pelbagai tugasan pengenalan yang anda "
+#~ "boleh pilih berdasarkan minat anda."
+
 #~ msgid "Delete your profile"
 #~ msgstr "Buang profil anda"
 
@@ -4618,9 +4661,6 @@ msgstr "Pelayan Elasticsearch: %(backend)s"
 
 #~ msgid "Zulu"
 #~ msgstr "Zulu"
-
-#~ msgid "Create your MDN profile to continue"
-#~ msgstr "Cipta profil MDN anda untuk meneruskan"
 
 #~ msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
 #~ msgstr ""
@@ -5013,9 +5053,6 @@ msgstr "Pelayan Elasticsearch: %(backend)s"
 
 #~ msgid "Learn"
 #~ msgstr "Belajar"
-
-#~ msgid "Getting started with the Web"
-#~ msgstr "Mulakan menggunakan Web"
 
 #~ msgid "Learn HTML"
 #~ msgstr "Belajar HTML"

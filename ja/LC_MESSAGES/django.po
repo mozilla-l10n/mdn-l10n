@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-12 15:47-0800\n"
+"POT-Creation-Date: 2019-12-19 14:41-0800\n"
 "PO-Revision-Date: 2019-10-19 11:09+0000\n"
 "Last-Translator: mfuji <mfujimot@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -159,6 +159,24 @@ msgstr "言語の選択"
 msgid "Skip to search"
 msgstr "検索へ移動"
 
+#: jinja2/includes/auth-modal-content.html:2
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgstr ""
+
+#: jinja2/includes/auth-modal-content.html:6
+#, fuzzy
+msgid "Sign in with Github"
+msgstr "GitHub でログイン"
+
+#: jinja2/includes/auth-modal-content.html:9
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "ログイン:"
+
+#: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
+msgid "Sign In"
+msgstr "ログイン"
+
 #: jinja2/includes/common_macros.html:18
 msgid "Search Firefox Help"
 msgstr "Firefox ヘルプを検索"
@@ -166,8 +184,8 @@ msgstr "Firefox ヘルプを検索"
 # 検索ボタン
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:40 kuma/landing/jinja2/landing/homepage.html:45 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
-#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:53
-#: kuma/search/jinja2/search/results.html:58
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "検索"
 
@@ -322,6 +340,11 @@ msgstr "ログアウト"
 msgid "Sign in"
 msgstr "ログイン"
 
+#: jinja2/includes/modal.html:9
+#, fuzzy
+msgid "Close modal"
+msgstr "検索を閉じる"
+
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
 msgstr "検索を閉じる"
@@ -367,11 +390,11 @@ msgstr "これまでに Mozilla 関連のニュースレターを購読したこ
 msgid "Hide Newsletter Sign-up"
 msgstr "ニュースレター購読リンクを隠す"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
 msgid "Previous"
 msgstr "前へ"
 
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:175
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
 msgid "Next"
 msgstr "次へ"
 
@@ -1057,7 +1080,7 @@ msgstr "英語のページを検索"
 msgid "Authors:"
 msgstr "著者:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:240
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
 msgid "Filter"
 msgstr "絞り込み"
 
@@ -1179,7 +1202,7 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "開発者による開発者のためのリソース。"
 
-#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:57
+#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "ドキュメントを検索"
 
@@ -1892,91 +1915,91 @@ msgstr "MDN Web Docs を検索"
 msgid "Search Results for \"%(query)s\""
 msgstr "「%(query)s」の検索結果"
 
-#: kuma/search/jinja2/search/results.html:37
+#: kuma/search/jinja2/search/results.html:36
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "<a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a> から翻訳"
 
-#: kuma/search/jinja2/search/results.html:49
+#: kuma/search/jinja2/search/results.html:48
 msgid "MDN Site Search"
 msgstr "MDN サイト検索"
 
-#: kuma/search/jinja2/search/results.html:67
+#: kuma/search/jinja2/search/results.html:66
 msgid "Results"
 msgstr "検索結果"
 
-#: kuma/search/jinja2/search/results.html:71
+#: kuma/search/jinja2/search/results.html:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "「%(query)s」を含む記事が全言語で %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:77
+#: kuma/search/jinja2/search/results.html:76
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "全言語で %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:87
+#: kuma/search/jinja2/search/results.html:86
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "「%(query)s」を含む %(locale_native)s の記事が %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:93
+#: kuma/search/jinja2/search/results.html:92
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "「%(query)s」を含む %(locale_native)s と %(default_locale_native)s の記事が %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:101
+#: kuma/search/jinja2/search/results.html:100
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "%(locale_native)s の記事が %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:107
+#: kuma/search/jinja2/search/results.html:106
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(locale_native)s と %(default_locale_native)s の記事が %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:117
+#: kuma/search/jinja2/search/results.html:116
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "「%(query)s」を含む記事が %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:123
+#: kuma/search/jinja2/search/results.html:122
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "記事が %(count)s ページ見つかりました。"
 
-#: kuma/search/jinja2/search/results.html:133
+#: kuma/search/jinja2/search/results.html:132
 msgid "Showing all results."
 msgstr "すべての結果を表示しています。"
 
-#: kuma/search/jinja2/search/results.html:135
+#: kuma/search/jinja2/search/results.html:134
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "%(start)s 件目から %(end)s 件目までの検索結果を表示しています。"
 
-#: kuma/search/jinja2/search/results.html:141
+#: kuma/search/jinja2/search/results.html:140
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "%(default_locale_native)s の記事のみを再検索"
 
 # メインページ, DOCS タブ
-#: kuma/search/jinja2/search/results.html:156
+#: kuma/search/jinja2/search/results.html:155
 msgid "Docs"
 msgstr "ドキュメント"
 
-#: kuma/search/jinja2/search/results.html:199
+#: kuma/search/jinja2/search/results.html:198
 msgid "All Topics"
 msgstr "すべてのトピック"
 
-#: kuma/search/jinja2/search/results.html:206
+#: kuma/search/jinja2/search/results.html:205
 msgid "Filter by"
 msgstr "絞り込み:"
 
@@ -2217,20 +2240,21 @@ msgid "I would like to make my GitHub profile URL public"
 msgstr "自分の GitHub プロファイル URL を公開する"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
-msgid "Take the next step to get involved on MDN!"
-msgstr "次のステップへ進んで MDN に参加しましょう！"
+#, fuzzy
+msgid "Getting started with your new MDN account"
+msgstr "はじめてのウェブ開発"
 
 # 92%
 # 100%
-#: kuma/users/views.py:563
+#: kuma/users/views.py:567
 msgid "Email address"
 msgstr "メールアドレス"
 
-#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:636 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "その他:"
 
-#: kuma/users/views.py:634
+#: kuma/users/views.py:638
 msgid "Email:"
 msgstr "メールアドレス:"
 
@@ -2305,10 +2329,6 @@ msgstr "このメールの確認リンクは有効期限切れか不正です。
 #, python-format
 msgid "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "<a href=\"mailto:%(email)s\">%(email)s</a> が %(user_display)s のメールアドレスであることを確認しました。"
-
-#: kuma/users/jinja2/account/login.html:3
-msgid "Sign In"
-msgstr "ログイン"
 
 #: kuma/users/jinja2/account/login.html:17
 msgid "Please sign in"
@@ -2461,6 +2481,23 @@ msgstr "ログインをキャンセルしました"
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr "あなたの既存のアカウントを利用した MDN へのログインをキャンセルしました。これが間違いであれば、<a href=\"%(login_url)s\">ログイン</a> へ進んでください。"
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:15
+#, fuzzy
+msgid "Create your MDN Web Docs Account"
+msgstr "続けるには MDN プロファイルを作成してください"
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:29
+msgid "Benefits of an MDN account"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:32
+msgid "Be the first to try new features coming to MDN"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:33
+msgid "Help contribute to the continued improvement of MDN’s content"
+msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 #, fuzzy
@@ -2885,45 +2922,42 @@ msgstr "MDN を使っていただきありがとうございます！"
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr "%(domain)s プロファイル %(username)s の復元"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
+#. This is an email. Whitespace matters!
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
+#, fuzzy, python-format
+msgid "Hey %(username)s!"
 msgstr "%(username)s さん、こんにちは！"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, python-format
-msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
+#, fuzzy, python-format
+msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
 msgstr "<a href=\"%(mdn_link)s\">MDN Web Docs</a> にプロファイルを作成していただき、ありがとうございます。ここはあなたのような開発者のために優れた資料を作成しているコミュニティです。"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, python-format
-msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr "あなたはプロファイルを作成することで <a href=\"%(started_link)s\">MDN に参加する</a> 最初のステップを完了しました。"
-
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:21
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
-"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
+"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
 "次に、MDN で取り組みたいタスクを選んで、実際に始めてみましょう！ 選択可能な入門的タスクはたくさんあります。例えば <a href=\"%(words_link)s\">単語</a>、<a href=\"%(code_link)s\">コード</a>、あるいは "
 "<a href=\"%(both_link)s\">単語とコードの両方</a> を書いたり、<a href=\"%(translate_link)s\">MDN をあなたの言語に翻訳</a> したりできます。"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:34
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
 msgstr "話しましょう！"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:30 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
 msgstr "MDN について誰かと話がしたいですか？ それにはいくつかの方法があります。"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:33
 #, python-format
 msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
 msgstr "ディスカッションフォーラム: <a href=\"%(list_link)s\">参加</a> して、MDN 上であなたが興味のあることを教えてください。サイトに関する質問もお気軽にどうぞ。"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:43
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
@@ -2933,29 +2967,22 @@ msgstr ""
 "(sheppy)、Will Bamberg (wbamberg)、Florian Scholz (fscholz)、Chris Mills (chrismills)、そして MDN のコミュニティマネージャを務める Janet Swisher (jms) が常駐しています。"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "遠慮はいりません。疑問や問題があればぜひご連絡ください。私たちはいつでもお手伝いします。"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, python-format
-msgid "Hi %(username)s"
-msgstr "%(username)s さん、こんにちは"
-
-#. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
+#, fuzzy
+msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
 msgstr "MDN Web Docs にプロファイルを作成していただき、ありがとうございます。ここはあなたのような開発者のための優れた資料を作成しているコミュニティです。"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
 msgid ""
-"You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on your "
-"interests."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us."
 msgstr ""
-"あなたはプロファイルを作成することで MDN に参加する最初のステップを完了しました。次に、MDN で取り組みたいタスクを選んで、実際に始めてみましょう！ 興味に応じて選択可能な入門的タスクはたくさんありま"
-"す。"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
@@ -3040,28 +3067,28 @@ msgstr "専門分野"
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s からのメンバー"
 
-#: kuma/users/templatetags/jinja_helpers.py:43
+#: kuma/users/templatetags/jinja_helpers.py:46
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "%(ban_admin)s により %(ban_date)s にアカウントが停止されました。"
 
-#: kuma/users/templatetags/jinja_helpers.py:50
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Banned"
 msgstr "アカウント停止"
 
-#: kuma/users/templatetags/jinja_helpers.py:53
+#: kuma/users/templatetags/jinja_helpers.py:56
 msgid "Clean Up Revisions"
 msgstr "リビジョンを整理"
 
-#: kuma/users/templatetags/jinja_helpers.py:58
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User"
 msgstr "ユーザーをアカウント停止にする"
 
-#: kuma/users/templatetags/jinja_helpers.py:61
+#: kuma/users/templatetags/jinja_helpers.py:64
 msgid "Ban User & Clean Up"
 msgstr "ユーザーをアカウント停止にし、整理する"
 
-#: kuma/users/templatetags/jinja_helpers.py:73
+#: kuma/users/templatetags/jinja_helpers.py:76
 msgid "Admin"
 msgstr "管理者"
 
@@ -4539,6 +4566,22 @@ msgstr "あなたはこのドキュメントを翻訳できません。"
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch サーバー: %(backend)s"
 
+#~ msgid "Take the next step to get involved on MDN!"
+#~ msgstr "次のステップへ進んで MDN に参加しましょう！"
+
+#~ msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
+#~ msgstr "あなたはプロファイルを作成することで <a href=\"%(started_link)s\">MDN に参加する</a> 最初のステップを完了しました。"
+
+#~ msgid "Hi %(username)s"
+#~ msgstr "%(username)s さん、こんにちは"
+
+#~ msgid ""
+#~ "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on "
+#~ "your interests."
+#~ msgstr ""
+#~ "あなたはプロファイルを作成することで MDN に参加する最初のステップを完了しました。次に、MDN で取り組みたいタスクを選んで、実際に始めてみましょう！ 興味に応じて選択可能な入門的タスクはたくさんあり"
+#~ "ます。"
+
 #~ msgid "Delete your profile"
 #~ msgstr "プロファイルを削除"
 
@@ -4678,9 +4721,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 
 #~ msgid "Zulu"
 #~ msgstr "ズールー語"
-
-#~ msgid "Create your MDN profile to continue"
-#~ msgstr "続けるには MDN プロファイルを作成してください"
 
 #~ msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
 #~ msgstr "アカウントがなくても MDN のすべてのページにアクセスできます。登録すると、ドキュメントの編集やプロファイルの作成が可能になります。"
@@ -4938,9 +4978,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 
 #~ msgid "Learn"
 #~ msgstr "学ぶ"
-
-#~ msgid "Getting started with the Web"
-#~ msgstr "はじめてのウェブ開発"
 
 #~ msgid "Learn HTML"
 #~ msgstr "HTML について学ぶ"
@@ -5236,9 +5273,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 
 #~ msgid "Discard Changes"
 #~ msgstr "変更を破棄"
-
-#~ msgid "Sign in with"
-#~ msgstr "ログイン:"
 
 #~ msgid "Firefox Apps & Hacks Newsletter"
 #~ msgstr "Firefox Apps & Hacks ニュースレター"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-12 15:47-0800\n"
+"POT-Creation-Date: 2019-12-19 14:41-0800\n"
 "PO-Revision-Date: 2018-06-22 14:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) https://pontoon.mozilla.org/pt_PT/\n"
@@ -160,6 +160,24 @@ msgstr "Selecionar idioma"
 msgid "Skip to search"
 msgstr "Saltar para a pesquisa"
 
+#: jinja2/includes/auth-modal-content.html:2
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgstr ""
+
+#: jinja2/includes/auth-modal-content.html:6
+#, fuzzy
+msgid "Sign in with Github"
+msgstr "Iniciar sessão com o GitHub"
+
+#: jinja2/includes/auth-modal-content.html:9
+#, fuzzy
+msgid "Sign in with Google"
+msgstr "Iniciar sessão com"
+
+#: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
+msgid "Sign In"
+msgstr "Iniciar sessão"
+
 #: jinja2/includes/common_macros.html:18
 msgid "Search Firefox Help"
 msgstr "Pesquisar ajuda do Firefox"
@@ -168,8 +186,8 @@ msgstr "Pesquisar ajuda do Firefox"
 # 100%
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
 #: kuma/landing/jinja2/landing/homepage.html:40 kuma/landing/jinja2/landing/homepage.html:45 kuma/search/apps.py:10 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
-#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:50 kuma/search/jinja2/search/results.html:53
-#: kuma/search/jinja2/search/results.html:58
+#: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:49 kuma/search/jinja2/search/results.html:52
+#: kuma/search/jinja2/search/results.html:57
 msgid "Search"
 msgstr "Pesquisar"
 
@@ -329,6 +347,11 @@ msgstr "Terminar sessão"
 msgid "Sign in"
 msgstr "Iniciar sessão"
 
+#: jinja2/includes/modal.html:9
+#, fuzzy
+msgid "Close modal"
+msgstr "Fechar pesquisa"
+
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
 msgstr "Fechar pesquisa"
@@ -376,12 +399,12 @@ msgid "Hide Newsletter Sign-up"
 msgstr "Ocultar o registo de newsletter"
 
 # 100%
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:170 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1358
 msgid "Previous"
 msgstr "Anterior"
 
 # 100%
-#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:175
+#: jinja2/includes/paginator.html:30 kuma/search/jinja2/search/results.html:174
 msgid "Next"
 msgstr "Seguinte"
 
@@ -1069,7 +1092,7 @@ msgstr "Pesquisar páginas inglesas"
 msgid "Authors:"
 msgstr "Autores:"
 
-#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:240
+#: kuma/dashboards/jinja2/dashboards/revisions.html:60 kuma/search/jinja2/search/results.html:239
 msgid "Filter"
 msgstr "Filtrar"
 
@@ -1193,7 +1216,7 @@ msgstr ""
 msgid "Resources for developers, by developers."
 msgstr "Recursos para programadores, por programadores."
 
-#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:57
+#: kuma/landing/jinja2/landing/homepage.html:44 kuma/search/jinja2/search/results.html:56
 msgid "Search the docs"
 msgstr "Procurar na documentação"
 
@@ -1923,98 +1946,98 @@ msgstr "Pesquisar MDN Web Docs"
 msgid "Search Results for \"%(query)s\""
 msgstr "Resultados da pesquisa por \"%(query)s\""
 
-#: kuma/search/jinja2/search/results.html:37
+#: kuma/search/jinja2/search/results.html:36
 #, python-format
 msgid "translated from <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 msgstr "traduzido de <a href=\"%(parent_url)s\" title=\"%(parent_title)s\">%(parent_title)s (%(parent_language)s)</a>"
 
-#: kuma/search/jinja2/search/results.html:49
+#: kuma/search/jinja2/search/results.html:48
 msgid "MDN Site Search"
 msgstr "Pesquisa no site da MDN"
 
-#: kuma/search/jinja2/search/results.html:67
+#: kuma/search/jinja2/search/results.html:66
 msgid "Results"
 msgstr "Resultados"
 
-#: kuma/search/jinja2/search/results.html:71
+#: kuma/search/jinja2/search/results.html:70
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in all locales."
 msgid_plural "%(count)s documents found for \"%(query)s\" in all locales."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\" em todos os idiomas."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\" em todos os idiomas."
 
-#: kuma/search/jinja2/search/results.html:77
+#: kuma/search/jinja2/search/results.html:76
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
 msgstr[0] "%(count)s documento encontrado em todos os idiomas."
 msgstr[1] "%(count)s documentos encontrados em todos os idiomas."
 
-#: kuma/search/jinja2/search/results.html:87
+#: kuma/search/jinja2/search/results.html:86
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\" em %(locale_native)s."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\" em %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:93
+#: kuma/search/jinja2/search/results.html:92
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\" em %(locale_native)s e %(default_locale_native)s."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\" em %(locale_native)s e %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:101
+#: kuma/search/jinja2/search/results.html:100
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
 msgstr[0] "%(count)s documento encontrado em %(locale_native)s."
 msgstr[1] "%(count)s documentos encontrados em %(locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:107
+#: kuma/search/jinja2/search/results.html:106
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
 msgstr[0] "%(count)s documento encontrado em %(locale_native)s e %(default_locale_native)s."
 msgstr[1] "%(count)s documentos encontrados em %(locale_native)s e %(default_locale_native)s."
 
-#: kuma/search/jinja2/search/results.html:117
+#: kuma/search/jinja2/search/results.html:116
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
 msgstr[0] "%(count)s documento encontrado para \"%(query)s\"."
 msgstr[1] "%(count)s documentos encontrados para \"%(query)s\"."
 
-#: kuma/search/jinja2/search/results.html:123
+#: kuma/search/jinja2/search/results.html:122
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
 msgstr[0] "%(count)s documento encontrado."
 msgstr[1] "%(count)s documentos encontrados."
 
-#: kuma/search/jinja2/search/results.html:133
+#: kuma/search/jinja2/search/results.html:132
 msgid "Showing all results."
 msgstr "A mostrar todos os resultados."
 
-#: kuma/search/jinja2/search/results.html:135
+#: kuma/search/jinja2/search/results.html:134
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
 msgstr "A apresentar resultados de %(start)s a %(end)s."
 
-#: kuma/search/jinja2/search/results.html:141
+#: kuma/search/jinja2/search/results.html:140
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
 msgstr "Pesquisar novamente apenas em %(default_locale_native)s"
 
-#: kuma/search/jinja2/search/results.html:156
+#: kuma/search/jinja2/search/results.html:155
 msgid "Docs"
 msgstr "Documentação"
 
-#: kuma/search/jinja2/search/results.html:199
+#: kuma/search/jinja2/search/results.html:198
 msgid "All Topics"
 msgstr "Todos os tópicos"
 
-#: kuma/search/jinja2/search/results.html:206
+#: kuma/search/jinja2/search/results.html:205
 msgid "Filter by"
 msgstr "Filtrar por"
 
@@ -2257,18 +2280,19 @@ msgid "I would like to make my GitHub profile URL public"
 msgstr "Gostaria de fazer o URL do meu perfil GitHub público"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
-msgid "Take the next step to get involved on MDN!"
-msgstr "Siga o passo seguinte para participar na MDN!"
+#, fuzzy
+msgid "Getting started with your new MDN account"
+msgstr "Introdução à Web"
 
-#: kuma/users/views.py:563
+#: kuma/users/views.py:567
 msgid "Email address"
 msgstr "Endereço de email"
 
-#: kuma/users/views.py:632 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:636 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Outro:"
 
-#: kuma/users/views.py:634
+#: kuma/users/views.py:638
 msgid "Email:"
 msgstr "Email:"
 
@@ -2340,10 +2364,6 @@ msgstr "Esta ligação de confirmação do e-mail expirou ou é inválida. Por f
 #, python-format
 msgid "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Confirmou que <a href=\"mailto:%(email)s\">%(email)s</a> é um endereço de e-mail para o utilizador %(user_display)s."
-
-#: kuma/users/jinja2/account/login.html:3
-msgid "Sign In"
-msgstr "Iniciar sessão"
 
 #: kuma/users/jinja2/account/login.html:17
 msgid "Please sign in"
@@ -2494,6 +2514,23 @@ msgstr "Autenticação cancelada"
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr "Decidiu cancelar o início de sessão no nosso site utilizando uma das suas contas existentes. Se isto foi um erro, por favor continue para o <a href=\"%(login_url)s\">início de sessão</a>."
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:15
+#, fuzzy
+msgid "Create your MDN Web Docs Account"
+msgstr "Crie o seu perfil MDN para continuar"
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:29
+msgid "Benefits of an MDN account"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:32
+msgid "Be the first to try new features coming to MDN"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup-landing.html:33
+msgid "Help contribute to the continued improvement of MDN’s content"
+msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 #, fuzzy
@@ -2920,45 +2957,42 @@ msgstr "Obrigado por utilizar a MDN!"
 msgid "Profile Recovery for %(username)s at %(domain)s"
 msgstr "Recuperação de perfil para %(username)s em %(domain)s"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:9
-#, python-format
-msgid "Hi %(username)s!"
+#. This is an email. Whitespace matters!
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
+#, fuzzy, python-format
+msgid "Hey %(username)s!"
 msgstr "Olá %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, python-format
-msgid "Thanks for creating a profile on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
+#, fuzzy, python-format
+msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
 msgstr "Obrigado por criar um perfil na <a href=\"%(mdn_link)s\">MDN Web Docs</a> - uma comunidade que faz excelentes recursos para programadores como você."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, python-format
-msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
-msgstr "Concluiu o primeiro passo para <a href=\"%(started_link)s\">começar na MDN</a> criando um perfil."
-
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:21
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose from, whether you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
-"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or you want to <a href=\"%(translate_link)s\">translate MDN to your language</a>."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
+"code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
 "Agora, continue escolhendo e concluindo uma tarefa na MDN! Temos uma série de tarefas introdutórias que pode escolher, quer <a href=\"%(words_link)s\">goste de palavras</a>, <a href=\"%(code_link)s"
 "\">goste de código</a>, <a href=\"%(both_link)s\">goste tanto de palavras como de código</a> ou se quiser <a href=\"%(translate_link)s\">traduzir a MDN para o seu idioma</a>."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:34
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
 msgstr "Fale connosco!"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:35 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:30 kuma/users/jinja2/users/email/welcome/plain.ltxt:30
 msgid "Want to talk to someone about MDN? There are a few ways you can do that:"
 msgstr "Quer falar com alguém acerca da MDN? Existem algumas coisas que pode fazer:"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:33
 #, python-format
 msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about what you're interested in on MDN and ask questions about the site."
 msgstr "Fórum de discussão: <a href=\"%(list_link)s\">participe</a> para nos dizer quais os seus interesses na MDN e colocar questões acerca do site."
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:43
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid ""
 "Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
@@ -2968,29 +3002,22 @@ msgstr ""
 "administradores da equipa editorial da MDN: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) e eu (jswisher), gestor da comunidade MDN."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:53 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "Não seja tímido, se tiver qualquer dúvida, problema, questões: contacte-nos! Estamos aqui para ajudar."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, python-format
-msgid "Hi %(username)s"
-msgstr "Olá %(username)s"
-
-#. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-msgid "Thanks for creating a profile on MDN Web Docs -- a community making great resources for developers like you."
+#, fuzzy
+msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
 msgstr "Obrigado por criar um perfil na MDN Web Docs -- uma comunidade que faz excelentes recursos para programadores como você."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
 msgid ""
-"You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on your "
-"interests."
+"Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
+"you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us."
 msgstr ""
-"Ao criar um perfil na MDN, concluiu o primeiro passo para começar. Agora, continue escolhendo e terminando uma tarefa na MDN! Temos um conjunto de tarefas introdutórias que pode escolher com base "
-"nos seus interesses."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
@@ -3076,28 +3103,28 @@ msgstr "Áreas de especialização"
 msgid "Member since %(date_joined)s"
 msgstr "Membro desde %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:43
+#: kuma/users/templatetags/jinja_helpers.py:46
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Banido a %(ban_date)s por %(ban_admin)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:50
+#: kuma/users/templatetags/jinja_helpers.py:53
 msgid "Banned"
 msgstr "Banido"
 
-#: kuma/users/templatetags/jinja_helpers.py:53
+#: kuma/users/templatetags/jinja_helpers.py:56
 msgid "Clean Up Revisions"
 msgstr "Limpar revisões"
 
-#: kuma/users/templatetags/jinja_helpers.py:58
+#: kuma/users/templatetags/jinja_helpers.py:61
 msgid "Ban User"
 msgstr "Banir utilizador"
 
-#: kuma/users/templatetags/jinja_helpers.py:61
+#: kuma/users/templatetags/jinja_helpers.py:64
 msgid "Ban User & Clean Up"
 msgstr "Banir utilizador e limpar"
 
-#: kuma/users/templatetags/jinja_helpers.py:73
+#: kuma/users/templatetags/jinja_helpers.py:76
 msgid "Admin"
 msgstr "Administrador"
 
@@ -4545,6 +4572,22 @@ msgstr "Não pode traduzir este documento."
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor elasticsearch: %(backend)s"
 
+#~ msgid "Take the next step to get involved on MDN!"
+#~ msgstr "Siga o passo seguinte para participar na MDN!"
+
+#~ msgid "You've completed the first step of <a href=\"%(started_link)s\">Getting Started on MDN</a> by creating a profile."
+#~ msgstr "Concluiu o primeiro passo para <a href=\"%(started_link)s\">começar na MDN</a> criando um perfil."
+
+#~ msgid "Hi %(username)s"
+#~ msgstr "Olá %(username)s"
+
+#~ msgid ""
+#~ "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on "
+#~ "your interests."
+#~ msgstr ""
+#~ "Ao criar um perfil na MDN, concluiu o primeiro passo para começar. Agora, continue escolhendo e terminando uma tarefa na MDN! Temos um conjunto de tarefas introdutórias que pode escolher com "
+#~ "base nos seus interesses."
+
 #~ msgid "Delete your profile"
 #~ msgstr "Apagar o seu perfil"
 
@@ -4672,9 +4715,6 @@ msgstr "Servidor elasticsearch: %(backend)s"
 
 #~ msgid "Zulu"
 #~ msgstr "Zulu"
-
-#~ msgid "Create your MDN profile to continue"
-#~ msgstr "Crie o seu perfil MDN para continuar"
 
 #~ msgid "You can access everything on the MDN website even without an MDN profile. However, by joining MDN, you'll be able to edit docs and have your own profile page."
 #~ msgstr "Pode aceder a tudo no website da MDN, mesmo sem ter um perfil. No entanto, ao se juntar à MDN, poderá editar documentação e ter a sua própria página de perfil."
@@ -4929,9 +4969,6 @@ msgstr "Servidor elasticsearch: %(backend)s"
 
 #~ msgid "Learn"
 #~ msgstr "Aprender"
-
-#~ msgid "Getting started with the Web"
-#~ msgstr "Introdução à Web"
 
 #~ msgid "Learn HTML"
 #~ msgstr "Aprender HTML"
@@ -5223,9 +5260,6 @@ msgstr "Servidor elasticsearch: %(backend)s"
 
 #~ msgid "Discard Changes"
 #~ msgstr "Descartar alterações"
-
-#~ msgid "Sign in with"
-#~ msgstr "Iniciar sessão com"
 
 #~ msgid "Firefox Apps & Hacks Newsletter"
 #~ msgstr "Newsletter de aplicações e hacks do Firefox"
