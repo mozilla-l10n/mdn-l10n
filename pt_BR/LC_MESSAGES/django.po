@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2019-12-19 14:41-0800\n"
-"PO-Revision-Date: 2019-12-25 11:08+0000\n"
+"PO-Revision-Date: 2019-12-25 11:18+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: Portuguese (Brazilian) https://pontoon.mozilla.org/pt_BR/\n"
 "Language: pt_BR\n"
@@ -171,14 +171,12 @@ msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already
 msgstr "Entre para aproveitar os benefícios de uma conta MDN. Se você ainda não criou um perfil MDN, será solicitado fazer isso após entrar."
 
 #: jinja2/includes/auth-modal-content.html:6
-#, fuzzy
 msgid "Sign in with Github"
 msgstr "Entrar com GitHub"
 
 #: jinja2/includes/auth-modal-content.html:9
-#, fuzzy
 msgid "Sign in with Google"
-msgstr "Entrar com"
+msgstr "Entrar com Google"
 
 #: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
 msgid "Sign In"
@@ -340,9 +338,8 @@ msgid "Sign in"
 msgstr "Entrar"
 
 #: jinja2/includes/modal.html:9
-#, fuzzy
 msgid "Close modal"
-msgstr "Fechar"
+msgstr "Fechar modal"
 
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
@@ -2256,9 +2253,8 @@ msgid "I would like to make my GitHub profile URL public"
 msgstr "Quero deixar pública a URL do meu perfil do GitHub"
 
 #: kuma/users/tasks.py:55 kuma/users/jinja2/users/email/welcome/html.ltxt:6
-#, fuzzy
 msgid "Getting started with your new MDN account"
-msgstr "Começando com a Web"
+msgstr "Introdução à sua nova conta MDN"
 
 #: kuma/users/views.py:567
 msgid "Email address"
@@ -2491,9 +2487,8 @@ msgid "You decided to cancel logging in to our site using one of your existing a
 msgstr "Você optou por não usar uma conta existente para entrar no site. Se for um erro, vá para a <a href=\"%(login_url)s\">pagina de acesso</a>."
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:15
-#, fuzzy
 msgid "Create your MDN Web Docs Account"
-msgstr "Crie seu perfil MDN para continuar"
+msgstr "Crie sua conta na MDN Web Docs"
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:29
 msgid "Benefits of an MDN account"
@@ -2921,14 +2916,14 @@ msgstr "Recuperação de perfil para %(username)s no %(domain)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, fuzzy, python-format
+#, python-format
 msgid "Hey %(username)s!"
-msgstr "Oi, %(username)s!"
+msgstr "Olá %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr "Obrigado por criar um perfil na <a href=\"%(mdn_link)s\">MDN Web Docs</a> - uma comunidade com grandes recursos para desenvolvedores como você."
+msgstr "Obrigado por criar uma conta na <a href=\"%(mdn_link)s\">MDN Web Docs</a> - uma comunidade com ótimos recursos para desenvolvedores como você."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
 #, fuzzy, python-format
@@ -2970,9 +2965,8 @@ msgstr "Não tenha vergonha, se você tiver alguma dúvida, problemas, pergunta:
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "Obrigado por criar um perfil na MDN Web Docs -- uma comunidade com grades recursos para desenvolvedores como você."
+msgstr "Obrigado por criar uma conta na MDN Web Docs -- uma comunidade com ótimos recursos para desenvolvedores como você."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -2980,6 +2974,8 @@ msgid ""
 "Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
 "you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us."
 msgstr ""
+"Em breve, compartilharemos com você oportunidades de personalizar a MDN para aproveitar ao máximo. Enquanto isso, a MDN é feita por desenvolvedores web para desenvolvedores web e se beneficia de "
+"contribuições de desenvolvedores como você. Temos várias tarefas de introdução que você pode escolher com base em seus interesses e mal podemos esperar para você se juntar a nós."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
