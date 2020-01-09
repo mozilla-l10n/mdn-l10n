@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-19 14:41-0800\n"
+"POT-Creation-Date: 2020-01-09 11:54-0800\n"
 "PO-Revision-Date: 2019-06-14 10:34+0000\n"
 "Last-Translator: Muhend Belkacem <taqbaylitassa@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -316,7 +316,7 @@ msgstr "Tutlayin nniḍen:"
 msgid "Go"
 msgstr "Bdu"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:35
 msgid "View profile"
 msgstr "Sken amaɣnu"
 
@@ -1452,7 +1452,7 @@ msgstr ""
 msgid "Monthly subscriptions FAQ"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:86
 #, fuzzy
 msgid "Subscriptions"
 msgstr "Aglam"
@@ -2063,7 +2063,7 @@ msgstr "Innekniyen"
 msgid "Expertise"
 msgstr "Tamussni leqqayen"
 
-#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:64
+#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "Isem n useqdac"
 
@@ -2449,7 +2449,7 @@ msgstr "Tuqqna n umiḍan ur teddi ara"
 msgid "An error occurred while attempting to sign in with your account."
 msgstr "Tedra-d tuccḍa deg uɛraḍ n tuqqna ɣer umiḍan inek."
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:21
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
 #, fuzzy
 msgid "Create your MDN profile"
 msgstr "Rnu amaqnu yinu MDN"
@@ -2485,42 +2485,47 @@ msgstr ""
 msgid "Authorize with Github"
 msgstr "Qqen s GitHub"
 
-#: kuma/users/jinja2/socialaccount/signup.html:34
+#: kuma/users/jinja2/socialaccount/signup.html:36
+#, fuzzy
+msgid "Authorize with Google"
+msgstr "Qqen s GitHub"
+
+#: kuma/users/jinja2/socialaccount/signup.html:40
 #, fuzzy
 msgid "User avatar"
 msgstr "Ameggi aseqdac:"
 
-#: kuma/users/jinja2/socialaccount/signup.html:35
+#: kuma/users/jinja2/socialaccount/signup.html:41
 #, fuzzy
 msgid "Create MDN Profile"
 msgstr "Rnu amaqnu yinu MDN"
 
-#: kuma/users/jinja2/socialaccount/signup.html:40
+#: kuma/users/jinja2/socialaccount/signup.html:46
 #, fuzzy, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. To finish setting up your MDN Web Docs account, please choose a username and email address."
 msgstr "Tanemmirt ɣef ujerred inek di MDN s %(provider_name)s. Yeqqim-d kan yiwen n umecwaṛ akken ad tedduḍ ɣer MDN: <strong>rnu amaɣnu MDN</strong>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:76
+#: kuma/users/jinja2/socialaccount/signup.html:82
 #, fuzzy
 msgid "change username"
 msgstr "Isem n useqdac"
 
-#: kuma/users/jinja2/socialaccount/signup.html:83
+#: kuma/users/jinja2/socialaccount/signup.html:89
 #, fuzzy
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
 msgstr "Ma ulac aɣilif sekcem isem i tebɣiḍ ad sekneḍ i yiseqdacen nniḍen akken ad tesulud attekki yinek."
 
-#: kuma/users/jinja2/socialaccount/signup.html:90
+#: kuma/users/jinja2/socialaccount/signup.html:96
 #, fuzzy
 msgid "Email Address"
 msgstr "Tansa imayl"
 
-#: kuma/users/jinja2/socialaccount/signup.html:102 kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:108 kuma/users/jinja2/socialaccount/signup.html:114
 #, fuzzy
 msgid "change email address"
 msgstr "Rnu tansa imayl"
 
-#: kuma/users/jinja2/socialaccount/signup.html:119
+#: kuma/users/jinja2/socialaccount/signup.html:125
 #, fuzzy, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
@@ -2529,21 +2534,21 @@ msgstr ""
 "Anta tansa imayl i tebɣiḍ ad tesqedceḍ akken ad d-remseḍ iznan akked ilɣa n MDN? tansa agi imayl ur <strong>pas</strong> d-ttwaskan ara di MDN udiɣ ad tettwasefrek akken tella <a href="
 "\"%(privacy_url)s\">tasertit-nneɣ n tbaḍnit</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:128
+#: kuma/users/jinja2/socialaccount/signup.html:134
 msgid "Get updates on what’s new with MDN to your inbox."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:139
+#: kuma/users/jinja2/socialaccount/signup.html:145
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "ar <a href=\"%(terms_url)s\">Tewtilin n useqdec</a> akked <a href=\"%(privacy_url)s\">tsertit n tbaḍnit</a> n Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:146
+#: kuma/users/jinja2/socialaccount/signup.html:152
 #, fuzzy
 msgid "Create profile"
 msgstr "Rnu amaqnu yinu MDN"
 
-#: kuma/users/jinja2/socialaccount/signup.html:151
+#: kuma/users/jinja2/socialaccount/signup.html:157
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Ma yella <strong>temmuggreḍ-d uguren</strong> di tuqqna yinek neɣ di tmerna n umaɣnu yinek MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">nermes-aɣ-d</a></strong>."
@@ -2814,71 +2819,67 @@ msgstr "Aseqdac agi ulac ɣur-s armud."
 msgid "Edit Your Profile"
 msgstr "Ẓreg amaɣnu yinek"
 
-#: kuma/users/jinja2/users/user_edit.html:34
-msgid "Change your avatar at"
-msgstr "Snifel avaṭaṛ inek di"
-
-#: kuma/users/jinja2/users/user_edit.html:44
+#: kuma/users/jinja2/users/user_edit.html:39
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Aqlak tesnifleḍ amaɣnu mačči yinek. Ɛur-k!"
 
-#: kuma/users/jinja2/users/user_edit.html:54
+#: kuma/users/jinja2/users/user_edit.html:49
 #, fuzzy
 msgid "User Information"
 msgstr "Talɣut ɣef tɣuri/awali nniḍen"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:54
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Nebɣa ad nẓeṛ tikti yinek ɣef usnifel deg usmel ! Imsekyaden beta aemren ad kecmen ɣer tmahilin timaynutin send ad d-ffɣent udiɣ ad d-remsen si sya ɣer da iznan yessuturen tallalt nneɣ deg usekyed "
 "n kra n tɣawsiwin."
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Primary Email"
 msgstr "Imayl amezwaru"
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Edit email"
 msgstr "Snifel imayl"
 
-#: kuma/users/jinja2/users/user_edit.html:75
+#: kuma/users/jinja2/users/user_edit.html:70
 msgid "Interests (tags)"
 msgstr "Innekniyen (tibzimin)"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:71
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "Frez gar tecraḍ inek s tuccar neɣ isekkilen imellalen.  Err ticraḍ igebren ugar n yiwen n wawal gar snat n tuccar am \"tizaɣin n web\"."
 
-#: kuma/users/jinja2/users/user_edit.html:82
+#: kuma/users/jinja2/users/user_edit.html:77
 msgid "Areas of expertise"
 msgstr "Tiɣula n tmusni leqqayen"
 
-#: kuma/users/jinja2/users/user_edit.html:83
+#: kuma/users/jinja2/users/user_edit.html:78
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "Rnu innekniyen inek di tazwara, sakin ini-d d akken kečč d amusnaw s telqayt deg isentalen yettwafernen."
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:86
 #, fuzzy
 msgid "Edit monthly subscription"
 msgstr "Aleqqem n waddad n ujerred"
 
-#: kuma/users/jinja2/users/user_edit.html:95
+#: kuma/users/jinja2/users/user_edit.html:90
 msgid "My Profiles"
 msgstr "Imeɣna yinu"
 
-#: kuma/users/jinja2/users/user_edit.html:117
+#: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
 msgstr "Seqdec amiḍan inek GitHub akken ad tkecmeḍ."
 
-#: kuma/users/jinja2/users/user_edit.html:141 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Suffeɣ-d"
 
-#: kuma/users/jinja2/users/user_edit.html:145
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "Kkes amiḍan inek."
 
-#: kuma/users/jinja2/users/user_edit.html:153
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Sefrek ajerred inek ɣer tebraṭṭ n isallen Mozilla."
 
@@ -4505,6 +4506,9 @@ msgstr "Ur tezmireḍ ara ad tessuqleḍ isemli agi."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Aqeddac Elasticsearch : %(backend)s"
+
+#~ msgid "Change your avatar at"
+#~ msgstr "Snifel avaṭaṛ inek di"
 
 #~ msgid "Take the next step to get involved on MDN!"
 #~ msgstr "Ddu ɣer umecwar wis sin akken ad tettekkiḍ di MDN!"

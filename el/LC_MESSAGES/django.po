@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-19 14:41-0800\n"
+"POT-Creation-Date: 2020-01-09 11:54-0800\n"
 "PO-Revision-Date: 2019-11-23 21:23+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -317,7 +317,7 @@ msgstr "Άλλες γλώσσες:"
 msgid "Go"
 msgstr "Μετάβαση"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:35
 msgid "View profile"
 msgstr "Προβολή προφίλ"
 
@@ -1458,7 +1458,7 @@ msgstr "Βοήθεια"
 msgid "Monthly subscriptions FAQ"
 msgstr "Συχνές ερωτήσεις για τις μηνιαίες συνδρομές"
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:86
 msgid "Subscriptions"
 msgstr "Συνδρομές"
 
@@ -2089,7 +2089,7 @@ msgstr "Ενδιαφέροντα"
 msgid "Expertise"
 msgstr "Ειδίκευση"
 
-#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:64
+#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "Όνομα χρήστη"
 
@@ -2477,7 +2477,7 @@ msgstr "Αποτυχία σύνδεσης λογαριασμού"
 msgid "An error occurred while attempting to sign in with your account."
 msgstr "Προέκυψε σφάλμα κατά την απόπειρα σύνδεσης στο λογαριασμό σας."
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:21
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
 msgid "Create your MDN profile"
 msgstr "Δημιουργία προφίλ MDN"
 
@@ -2511,36 +2511,41 @@ msgstr ""
 msgid "Authorize with Github"
 msgstr "Ταυτοποίηση με GitHub"
 
-#: kuma/users/jinja2/socialaccount/signup.html:34
+#: kuma/users/jinja2/socialaccount/signup.html:36
+#, fuzzy
+msgid "Authorize with Google"
+msgstr "Ταυτοποίηση με GitHub"
+
+#: kuma/users/jinja2/socialaccount/signup.html:40
 msgid "User avatar"
 msgstr "Εικόνα χρήστη"
 
-#: kuma/users/jinja2/socialaccount/signup.html:35
+#: kuma/users/jinja2/socialaccount/signup.html:41
 msgid "Create MDN Profile"
 msgstr "Δημιουργία προφίλ MDN"
 
-#: kuma/users/jinja2/socialaccount/signup.html:40
+#: kuma/users/jinja2/socialaccount/signup.html:46
 #, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. To finish setting up your MDN Web Docs account, please choose a username and email address."
 msgstr "Ευχαριστούμε για τη σύνδεση στο MDN με το %(provider_name)s. Για να ολοκληρώσετε το λογαριασμό MDN Web Docs σας, παρακαλούμε επιλέξτε ένα όνομα χρήστη και μια διεύθυνση email."
 
-#: kuma/users/jinja2/socialaccount/signup.html:76
+#: kuma/users/jinja2/socialaccount/signup.html:82
 msgid "change username"
 msgstr "αλλαγή ονόματος χρήστη"
 
-#: kuma/users/jinja2/socialaccount/signup.html:83
+#: kuma/users/jinja2/socialaccount/signup.html:89
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
 msgstr "Αυτό θα είναι το όνομα που θα εμφανίζεται στο MDN Web Docs για να αναγνωρίζονται οι συνεισφορές σας."
 
-#: kuma/users/jinja2/socialaccount/signup.html:90
+#: kuma/users/jinja2/socialaccount/signup.html:96
 msgid "Email Address"
 msgstr "Διεύθυνση email"
 
-#: kuma/users/jinja2/socialaccount/signup.html:102 kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:108 kuma/users/jinja2/socialaccount/signup.html:114
 msgid "change email address"
 msgstr "αλλαγή διεύθυνσης email"
 
-#: kuma/users/jinja2/socialaccount/signup.html:119
+#: kuma/users/jinja2/socialaccount/signup.html:125
 #, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
@@ -2549,20 +2554,20 @@ msgstr ""
 "Αυτή θα είναι η διεύθυνση email που θα αποστέλλονται τα μηνύματα και οι ειδοποιήσεις του MDN Web Docs. <strong>Δεν</strong> θα εμφανίζεται στο MDN Web Docs και θα χρησιμοποιηθεί σύμφωνα με την <a "
 "href=\"%(privacy_url)s\">πολιτική απορρήτου</a> μας."
 
-#: kuma/users/jinja2/socialaccount/signup.html:128
+#: kuma/users/jinja2/socialaccount/signup.html:134
 msgid "Get updates on what’s new with MDN to your inbox."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:139
+#: kuma/users/jinja2/socialaccount/signup.html:145
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "τους <a href=\"%(terms_url)s\">όρους</a> και τη <a href=\"%(privacy_url)s\">σημείωση απορρήτου</a> της Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:146
+#: kuma/users/jinja2/socialaccount/signup.html:152
 msgid "Create profile"
 msgstr "Δημιουργία προφίλ"
 
-#: kuma/users/jinja2/socialaccount/signup.html:151
+#: kuma/users/jinja2/socialaccount/signup.html:157
 #, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Έχετε πρόβλημα με τη δημιουργία λογαριασμού; <a href=\"%(bug_href)s\" rel=\"external nofollow\">Θα σάς βοηθήσουμε</a>."
@@ -2834,69 +2839,65 @@ msgstr "Ο χρήστης δεν έχει καμία δραστηριότητα.
 msgid "Edit Your Profile"
 msgstr "Επεξεργασία προφίλ"
 
-#: kuma/users/jinja2/users/user_edit.html:34
-msgid "Change your avatar at"
-msgstr "Αλλαγή εικόνας χρήστη στο"
-
-#: kuma/users/jinja2/users/user_edit.html:44
+#: kuma/users/jinja2/users/user_edit.html:39
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Επεξεργάζεστε ένα διαφορετικό προφίλ από το δικό σας. Παρακαλούμε προσέξτε!"
 
-#: kuma/users/jinja2/users/user_edit.html:54
+#: kuma/users/jinja2/users/user_edit.html:49
 msgid "User Information"
 msgstr "Πληροφορίες χρήστη"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:54
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Θα θέλαμε να ακούσουμε τα σχόλιά σας σχετικά με τις αλλαγές στην ιστοσελίδα! Οι δοκιμαστές beta έχουν πρώτοι πρόσβαση σε νέες λειτουργίες και στέλνουμε περιστασιακά email, ζητώντας βοήθεια για τη "
 "δοκιμή συγκεκριμένων πραγμάτων."
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Primary Email"
 msgstr "Πρωτεύον email"
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Edit email"
 msgstr "Επεξεργασία email"
 
-#: kuma/users/jinja2/users/user_edit.html:75
+#: kuma/users/jinja2/users/user_edit.html:70
 msgid "Interests (tags)"
 msgstr "Ενδιαφέροντα (ετικέτες)"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:71
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "Ξεχωρίστε τις ετικέτες με κόμματα ή κενά. Ενώστε ετικέτες πολλαπλών λέξεων με διπλά εισαγωγικά, όπως \"πρότυπα ιστού\"."
 
-#: kuma/users/jinja2/users/user_edit.html:82
+#: kuma/users/jinja2/users/user_edit.html:77
 msgid "Areas of expertise"
 msgstr "Τομείς εξειδίκευσης"
 
-#: kuma/users/jinja2/users/user_edit.html:83
+#: kuma/users/jinja2/users/user_edit.html:78
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "Προσθέστε πρώτα τα ενδιαφέροντά σας κι έπειτα, δηλώστε ότι ειδικεύεστε σε επιλεγμένα θέματα."
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:86
 msgid "Edit monthly subscription"
 msgstr "Επεξεργασία μηνιαίας συνδρομής"
 
-#: kuma/users/jinja2/users/user_edit.html:95
+#: kuma/users/jinja2/users/user_edit.html:90
 msgid "My Profiles"
 msgstr "Τα προφίλ μου"
 
-#: kuma/users/jinja2/users/user_edit.html:117
+#: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
 msgstr "Χρησιμοποιήστε το λογαριασμό GitHub σας για σύνδεση."
 
-#: kuma/users/jinja2/users/user_edit.html:141 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Δημοσίευση"
 
-#: kuma/users/jinja2/users/user_edit.html:145
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "Διαγραφή του λογαριασμού σας."
 
-#: kuma/users/jinja2/users/user_edit.html:153
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Διαχείριση συνδρομών newsletter της Mozilla."
 
@@ -4537,6 +4538,9 @@ msgstr "Δεν μπορείτε να μεταφράσετε αυτό το έγγ
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Διακομιστής Elasticsearch: %(backend)s"
+
+#~ msgid "Change your avatar at"
+#~ msgstr "Αλλαγή εικόνας χρήστη στο"
 
 #~ msgid "Take the next step to get involved on MDN!"
 #~ msgstr "Κάντε το επόμενο βήμα για να συμμετάσχετε στο MDN!"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-19 14:41-0800\n"
+"POT-Creation-Date: 2020-01-09 11:54-0800\n"
 "PO-Revision-Date: 2019-12-14 07:46+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
@@ -317,7 +317,7 @@ msgstr "Bahasa lainnya:"
 msgid "Go"
 msgstr "Buka"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:35
 msgid "View profile"
 msgstr "Tampilkan profil"
 
@@ -1451,7 +1451,7 @@ msgstr "Bantuan"
 msgid "Monthly subscriptions FAQ"
 msgstr "Tanya jawab langganan bulanan"
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:86
 msgid "Subscriptions"
 msgstr "Langganan"
 
@@ -2062,7 +2062,7 @@ msgstr "Minat"
 msgid "Expertise"
 msgstr "Keahlian"
 
-#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:64
+#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "Nama pengguna"
 
@@ -2450,7 +2450,7 @@ msgstr "Akun Masuk Gagal"
 msgid "An error occurred while attempting to sign in with your account."
 msgstr "Kesalahan terjadi saat berusaha masuk dengan akun anda."
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:21
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
 msgid "Create your MDN profile"
 msgstr "Buat profil MDN Anda"
 
@@ -2484,36 +2484,41 @@ msgstr ""
 msgid "Authorize with Github"
 msgstr "Otorisasi dengan GitHub"
 
-#: kuma/users/jinja2/socialaccount/signup.html:34
+#: kuma/users/jinja2/socialaccount/signup.html:36
+#, fuzzy
+msgid "Authorize with Google"
+msgstr "Otorisasi dengan GitHub"
+
+#: kuma/users/jinja2/socialaccount/signup.html:40
 msgid "User avatar"
 msgstr "Avatar pengguna"
 
-#: kuma/users/jinja2/socialaccount/signup.html:35
+#: kuma/users/jinja2/socialaccount/signup.html:41
 msgid "Create MDN Profile"
 msgstr "Buat Profil MDN"
 
-#: kuma/users/jinja2/socialaccount/signup.html:40
+#: kuma/users/jinja2/socialaccount/signup.html:46
 #, fuzzy, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. To finish setting up your MDN Web Docs account, please choose a username and email address."
 msgstr "Terima kasih karena telah mendaftar ke MDN dengan sekian %(provider_name)s. Anda perlu satu langkah lagi untuk bergabung dengan MDN: <strong>buat profil MDN anda</strong>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:76
+#: kuma/users/jinja2/socialaccount/signup.html:82
 msgid "change username"
 msgstr "ubah nama pengguna"
 
-#: kuma/users/jinja2/socialaccount/signup.html:83
+#: kuma/users/jinja2/socialaccount/signup.html:89
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
 msgstr "Nama inilah yang akan ditampilkan di MDN Web Docs untuk mengidentifikasi kontribusi Anda."
 
-#: kuma/users/jinja2/socialaccount/signup.html:90
+#: kuma/users/jinja2/socialaccount/signup.html:96
 msgid "Email Address"
 msgstr "Alamat Surel"
 
-#: kuma/users/jinja2/socialaccount/signup.html:102 kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:108 kuma/users/jinja2/socialaccount/signup.html:114
 msgid "change email address"
 msgstr "ubah alamat surel"
 
-#: kuma/users/jinja2/socialaccount/signup.html:119
+#: kuma/users/jinja2/socialaccount/signup.html:125
 #, fuzzy, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
@@ -2522,20 +2527,20 @@ msgstr ""
 "Alamat surel apa yang harus kami gunakan untuk mengirim pesan terkait MDN dan notifikasi? Alamat ini tidak <strong>akan</strong> ditampilkan di MDN dan akan digunakan sesuai <a href="
 "\"%(privacy_url)s\">kebijakan privasi</a>kami."
 
-#: kuma/users/jinja2/socialaccount/signup.html:128
+#: kuma/users/jinja2/socialaccount/signup.html:134
 msgid "Get updates on what’s new with MDN to your inbox."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:139
+#: kuma/users/jinja2/socialaccount/signup.html:145
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "untuk <a href=\"%(terms_url)s\">Syarat</a> dan <a href=\"%(privacy_url)s\">Ketentuan Mozilla</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:146
+#: kuma/users/jinja2/socialaccount/signup.html:152
 msgid "Create profile"
 msgstr "Buat profil"
 
-#: kuma/users/jinja2/socialaccount/signup.html:151
+#: kuma/users/jinja2/socialaccount/signup.html:157
 #, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Kesulitan membuat akun? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Izinkan kami membantu</a>."
@@ -2804,69 +2809,65 @@ msgstr "Pengguna ini tidak memiliki aktivitas."
 msgid "Edit Your Profile"
 msgstr "Sunting Profil Anda"
 
-#: kuma/users/jinja2/users/user_edit.html:34
-msgid "Change your avatar at"
-msgstr "Ubah avatar anda di"
-
-#: kuma/users/jinja2/users/user_edit.html:44
+#: kuma/users/jinja2/users/user_edit.html:39
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Anda menyunting profil yang berbeda dengan milik anda. Berhati-hatilah!"
 
-#: kuma/users/jinja2/users/user_edit.html:54
+#: kuma/users/jinja2/users/user_edit.html:49
 msgid "User Information"
 msgstr "Informasi Pengguna"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:54
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Kami ingin mendapatkan masukan anda atas perubahan dalam situs! Pengetes beta akan mendapatkan akses terhadap fitur baru terlebih dahulu dan kami mengirimkan surel secara berkala meminta anda "
 "mengetes hal-hal tertentu."
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Primary Email"
 msgstr "Email Utama"
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Edit email"
 msgstr "Sunting email"
 
-#: kuma/users/jinja2/users/user_edit.html:75
+#: kuma/users/jinja2/users/user_edit.html:70
 msgid "Interests (tags)"
 msgstr "Minat (tag)"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:71
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "Pisahkan tag dengan koma atau spasi. Gabungkan tag yang terdiri dari beberapa kata dengan tanda kutip ganda, misalnya \"standar web\"."
 
-#: kuma/users/jinja2/users/user_edit.html:82
+#: kuma/users/jinja2/users/user_edit.html:77
 msgid "Areas of expertise"
 msgstr "Bidang keahlian"
 
-#: kuma/users/jinja2/users/user_edit.html:83
+#: kuma/users/jinja2/users/user_edit.html:78
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "Tambahkan minat anda terlebih dahulu, lalu nyatakan diri anda sebagai ahli dalam topik terpilih."
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:86
 msgid "Edit monthly subscription"
 msgstr "Sunting langganan bulanan"
 
-#: kuma/users/jinja2/users/user_edit.html:95
+#: kuma/users/jinja2/users/user_edit.html:90
 msgid "My Profiles"
 msgstr "Profil Saya"
 
-#: kuma/users/jinja2/users/user_edit.html:117
+#: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
 msgstr "Gunakan akun Github anda untuk masuk."
 
-#: kuma/users/jinja2/users/user_edit.html:141 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Terbitkan"
 
-#: kuma/users/jinja2/users/user_edit.html:145
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "Hapus akun Anda."
 
-#: kuma/users/jinja2/users/user_edit.html:153
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Kelola Langganan Nawala Mozilla Anda."
 
@@ -4491,6 +4492,9 @@ msgstr "Anda tidak dapat menerjemahkan dokumen ini."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Server elasticsearch: %(backend)s"
+
+#~ msgid "Change your avatar at"
+#~ msgstr "Ubah avatar anda di"
 
 #~ msgid "Take the next step to get involved on MDN!"
 #~ msgstr "Mengambil langkah berikutnya untuk terlibat dalam MDN!"

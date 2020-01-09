@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-19 14:41-0800\n"
+"POT-Creation-Date: 2020-01-09 11:54-0800\n"
 "PO-Revision-Date: 2019-07-15 11:22+0000\n"
 "Last-Translator: Vitaliy Krutko <asmforce@ukr.net>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -316,7 +316,7 @@ msgstr "Інші мови:"
 msgid "Go"
 msgstr "Перейти"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:35
 msgid "View profile"
 msgstr "Переглянути профіль"
 
@@ -1458,7 +1458,7 @@ msgstr "Довідка"
 msgid "Monthly subscriptions FAQ"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:86
 msgid "Subscriptions"
 msgstr "Підписки"
 
@@ -2081,7 +2081,7 @@ msgstr "Зацікавлення"
 msgid "Expertise"
 msgstr "Фахові знання"
 
-#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:64
+#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "Ім'я користувача"
 
@@ -2469,7 +2469,7 @@ msgstr "Не вдалося увійти в обліковий запис"
 msgid "An error occurred while attempting to sign in with your account."
 msgstr "Під час входу до облікового запису сталася помилка."
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:21
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
 #, fuzzy
 msgid "Create your MDN profile"
 msgstr "Створити свій MDN профіль"
@@ -2505,42 +2505,47 @@ msgstr ""
 msgid "Authorize with Github"
 msgstr "З'єднатися з GitHub"
 
-#: kuma/users/jinja2/socialaccount/signup.html:34
+#: kuma/users/jinja2/socialaccount/signup.html:36
+#, fuzzy
+msgid "Authorize with Google"
+msgstr "З'єднатися з GitHub"
+
+#: kuma/users/jinja2/socialaccount/signup.html:40
 #, fuzzy
 msgid "User avatar"
 msgstr "Браузер:"
 
-#: kuma/users/jinja2/socialaccount/signup.html:35
+#: kuma/users/jinja2/socialaccount/signup.html:41
 #, fuzzy
 msgid "Create MDN Profile"
 msgstr "Створити свій MDN профіль"
 
-#: kuma/users/jinja2/socialaccount/signup.html:40
+#: kuma/users/jinja2/socialaccount/signup.html:46
 #, fuzzy, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. To finish setting up your MDN Web Docs account, please choose a username and email address."
 msgstr "Дякуємо за вхід на MDN за допомогою %(provider_name)s. Залишився ще один крок до приєднання до MDN: <strong>створіть свій обліковий запис MDN</strong>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:76
+#: kuma/users/jinja2/socialaccount/signup.html:82
 #, fuzzy
 msgid "change username"
 msgstr "Ім'я користувача"
 
-#: kuma/users/jinja2/socialaccount/signup.html:83
+#: kuma/users/jinja2/socialaccount/signup.html:89
 #, fuzzy
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
 msgstr "Будь ласка, введіть ім'я, яке б ви хотіли відображати іншим користувачам, щоб вони побачили ваш вклад."
 
-#: kuma/users/jinja2/socialaccount/signup.html:90
+#: kuma/users/jinja2/socialaccount/signup.html:96
 #, fuzzy
 msgid "Email Address"
 msgstr "Адреса ел. пошти"
 
-#: kuma/users/jinja2/socialaccount/signup.html:102 kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:108 kuma/users/jinja2/socialaccount/signup.html:114
 #, fuzzy
 msgid "change email address"
 msgstr "Додайте адресу електронної пошти"
 
-#: kuma/users/jinja2/socialaccount/signup.html:119
+#: kuma/users/jinja2/socialaccount/signup.html:125
 #, fuzzy, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
@@ -2549,21 +2554,21 @@ msgstr ""
 "На яку адресу електронної пошти нам слід надсилати повідомлення та сповіщення MDN? Ця адреса <strong>не буде</strong> відображена на MDN і буде використовуватися відповідно до нашої <a href="
 "\"%(privacy_url)s\">політики приватності</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:128
+#: kuma/users/jinja2/socialaccount/signup.html:134
 msgid "Get updates on what’s new with MDN to your inbox."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:139
+#: kuma/users/jinja2/socialaccount/signup.html:145
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "з <a href=\"%(terms_url)s\">Умовами користування</a> й <a href=\"%(privacy_url)s\">Політикою приватності</a> Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:146
+#: kuma/users/jinja2/socialaccount/signup.html:152
 #, fuzzy
 msgid "Create profile"
 msgstr "Створити свій MDN профіль"
 
-#: kuma/users/jinja2/socialaccount/signup.html:151
+#: kuma/users/jinja2/socialaccount/signup.html:157
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Якщо у вас <strong>виникли проблеми</strong> з входом або створенням облікового запису MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">дайте нам знати</a></strong>."
@@ -2834,68 +2839,64 @@ msgstr "Цей користувач не має ніякої активност�
 msgid "Edit Your Profile"
 msgstr "Змінити свій профіль"
 
-#: kuma/users/jinja2/users/user_edit.html:34
-msgid "Change your avatar at"
-msgstr "Змінити аватар на"
-
-#: kuma/users/jinja2/users/user_edit.html:44
+#: kuma/users/jinja2/users/user_edit.html:39
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Ви змінюєте інший профіль, а не свій! Будь ласка, будьте уважні!"
 
-#: kuma/users/jinja2/users/user_edit.html:54
+#: kuma/users/jinja2/users/user_edit.html:49
 msgid "User Information"
 msgstr "Відомості користувача"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:54
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Ми були б раді, якби ви залишили відгук про зміни на сайті. Бета тестери отримують доступ до нових фішок першими, а ми іноді відправляємо лист, запитуючи допомогу в тестуванні специфічних штук."
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Primary Email"
 msgstr "Адреса електронної пошти"
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Edit email"
 msgstr "Редагувати адресу ел. пошти"
 
-#: kuma/users/jinja2/users/user_edit.html:75
+#: kuma/users/jinja2/users/user_edit.html:70
 msgid "Interests (tags)"
 msgstr "Зацікавлення (позначки)"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:71
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "Розділяйте теги комами або пропусками. Теги, що складаються з декількох слів укладайте в лапки, наприклад \"веб стандарти\"."
 
-#: kuma/users/jinja2/users/user_edit.html:82
+#: kuma/users/jinja2/users/user_edit.html:77
 msgid "Areas of expertise"
 msgstr "Області знань"
 
-#: kuma/users/jinja2/users/user_edit.html:83
+#: kuma/users/jinja2/users/user_edit.html:78
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "Наведіть перелік своїх зацікавлень, а тоді оберіть ті, на яких добре знаєтесь."
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:86
 msgid "Edit monthly subscription"
 msgstr "Змінити місячну підписку"
 
-#: kuma/users/jinja2/users/user_edit.html:95
+#: kuma/users/jinja2/users/user_edit.html:90
 msgid "My Profiles"
 msgstr "Мої профілі"
 
-#: kuma/users/jinja2/users/user_edit.html:117
+#: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
 msgstr "Увійдіть за допомогою облікового запису GitHub."
 
-#: kuma/users/jinja2/users/user_edit.html:141 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Оприлюднити"
 
-#: kuma/users/jinja2/users/user_edit.html:145
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "Видалити свій обліковий запис."
 
-#: kuma/users/jinja2/users/user_edit.html:153
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Керувати підписками на розсилки Mozilla."
 
@@ -4527,6 +4528,9 @@ msgstr "Ви не можете перекладати цей документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сервер Elasticsearch: %(backend)s"
+
+#~ msgid "Change your avatar at"
+#~ msgstr "Змінити аватар на"
 
 #~ msgid "Take the next step to get involved on MDN!"
 #~ msgstr "Зробіть наступний крок до участі в MDN!"

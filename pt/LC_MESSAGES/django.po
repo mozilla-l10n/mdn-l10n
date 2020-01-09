@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2019-12-19 14:41-0800\n"
+"POT-Creation-Date: 2020-01-09 11:54-0800\n"
 "PO-Revision-Date: 2018-06-22 14:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) https://pontoon.mozilla.org/pt_PT/\n"
@@ -331,7 +331,7 @@ msgstr "Outros idiomas:"
 msgid "Go"
 msgstr "Ir"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:40
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:35
 msgid "View profile"
 msgstr "Ver perfil"
 
@@ -1485,7 +1485,7 @@ msgstr ""
 msgid "Monthly subscriptions FAQ"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:91
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:86
 #, fuzzy
 msgid "Subscriptions"
 msgstr "Descrição"
@@ -2112,7 +2112,7 @@ msgstr "Interesses"
 msgid "Expertise"
 msgstr "Especialidade"
 
-#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:64
+#: kuma/users/forms.py:53 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "Nome de utilizador"
 
@@ -2501,7 +2501,7 @@ msgstr "Falha do início de sessão na conta"
 msgid "An error occurred while attempting to sign in with your account."
 msgstr "Ocorreu um erro ao tentar iniciar sessão com a sua conta."
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:21
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
 #, fuzzy
 msgid "Create your MDN profile"
 msgstr "Criar o meu perfil MDN"
@@ -2537,41 +2537,46 @@ msgstr ""
 msgid "Authorize with Github"
 msgstr "Ligar com o GitHub"
 
-#: kuma/users/jinja2/socialaccount/signup.html:34
+#: kuma/users/jinja2/socialaccount/signup.html:36
+#, fuzzy
+msgid "Authorize with Google"
+msgstr "Ligar com o GitHub"
+
+#: kuma/users/jinja2/socialaccount/signup.html:40
 #, fuzzy
 msgid "User avatar"
 msgstr "Eliminar avatar"
 
-#: kuma/users/jinja2/socialaccount/signup.html:35
+#: kuma/users/jinja2/socialaccount/signup.html:41
 #, fuzzy
 msgid "Create MDN Profile"
 msgstr "Criar o meu perfil MDN"
 
-#: kuma/users/jinja2/socialaccount/signup.html:40
+#: kuma/users/jinja2/socialaccount/signup.html:46
 #, fuzzy, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. To finish setting up your MDN Web Docs account, please choose a username and email address."
 msgstr "Obrigado por iniciar sessão com a MDN com o %(provider_name)s. Falta apenas mais um passo para se juntar à MDN: <strong>criar o seu perfil MDN</strong>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:76
+#: kuma/users/jinja2/socialaccount/signup.html:82
 #, fuzzy
 msgid "change username"
 msgstr "Email alterado para o utilizador {username}"
 
-#: kuma/users/jinja2/socialaccount/signup.html:83
+#: kuma/users/jinja2/socialaccount/signup.html:89
 #, fuzzy
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
 msgstr "Por favor introduza o nome que gostaria de ver apresentado aos outros utilizadores para identificar as suas contribuições."
 
-#: kuma/users/jinja2/socialaccount/signup.html:90
+#: kuma/users/jinja2/socialaccount/signup.html:96
 msgid "Email Address"
 msgstr "Endereço de email"
 
-#: kuma/users/jinja2/socialaccount/signup.html:102 kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:108 kuma/users/jinja2/socialaccount/signup.html:114
 #, fuzzy
 msgid "change email address"
 msgstr "Adicionar endereço de e-mail"
 
-#: kuma/users/jinja2/socialaccount/signup.html:119
+#: kuma/users/jinja2/socialaccount/signup.html:125
 #, fuzzy, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
@@ -2580,21 +2585,21 @@ msgstr ""
 "Que endereço de e-mail devemos utilizar para lhe enviar mensagens e notificações relacionadas com a MDN? Este endereço <strong>não</strong> será apresentado publicamente na MDN e será utilizado de "
 "acordo com a nossa <a href=\"%(privacy_url)s\">política de privacidade</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:128
+#: kuma/users/jinja2/socialaccount/signup.html:134
 msgid "Get updates on what’s new with MDN to your inbox."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/signup.html:139
+#: kuma/users/jinja2/socialaccount/signup.html:145
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "aos <a href=\"%(terms_url)s\">Termos</a> e o <a href=\"%(privacy_url)s\">Aviso de privacidade</a> da Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:146
+#: kuma/users/jinja2/socialaccount/signup.html:152
 #, fuzzy
 msgid "Create profile"
 msgstr "Criar o meu perfil MDN"
 
-#: kuma/users/jinja2/socialaccount/signup.html:151
+#: kuma/users/jinja2/socialaccount/signup.html:157
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "Se está a <strong>ter problemas</strong> na autenticação ou na criação de um perfil na MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">diga-nos</a></strong>."
@@ -2866,72 +2871,68 @@ msgstr "Este utilizador não tem atividade."
 msgid "Edit Your Profile"
 msgstr "Editar o seu perfil"
 
-#: kuma/users/jinja2/users/user_edit.html:34
-msgid "Change your avatar at"
-msgstr "Alterar o seu avatar em"
-
-#: kuma/users/jinja2/users/user_edit.html:44
+#: kuma/users/jinja2/users/user_edit.html:39
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Está a editar com um perfil diferente do seu. Tenha isso em consideração!"
 
-#: kuma/users/jinja2/users/user_edit.html:54
+#: kuma/users/jinja2/users/user_edit.html:49
 #, fuzzy
 msgid "User Information"
 msgstr "Informação da revisão"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:54
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Adoraríamos receber o seu feedback acerca das alterações no site! Os beta testers têm acesso privilegiado a novas funcionalidades e enviamos mensagens ocasionais a pedir que testem coisas "
 "específicas."
 
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Primary Email"
 msgstr "E-mail principal"
 
 # 100%
-#: kuma/users/jinja2/users/user_edit.html:62
+#: kuma/users/jinja2/users/user_edit.html:57
 msgid "Edit email"
 msgstr "Editar e-mail"
 
-#: kuma/users/jinja2/users/user_edit.html:75
+#: kuma/users/jinja2/users/user_edit.html:70
 msgid "Interests (tags)"
 msgstr "Interesses (etiquetas)"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:71
 msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
 msgstr "Separe as etiquetas com vírgulas ou espaços. Junte etiquetas com múltiplas palavras com aspas, como em \"normas web\"."
 
-#: kuma/users/jinja2/users/user_edit.html:82
+#: kuma/users/jinja2/users/user_edit.html:77
 msgid "Areas of expertise"
 msgstr "Áreas de especialização"
 
-#: kuma/users/jinja2/users/user_edit.html:83
+#: kuma/users/jinja2/users/user_edit.html:78
 msgid "Add your interests first, then declare yourself an expert in selected topics."
 msgstr "Adicione os seus interesses primeiro e depois defina-se como especialista nos tópicos selecionados."
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:86
 #, fuzzy
 msgid "Edit monthly subscription"
 msgstr "A atualizar o estado da subscrição"
 
-#: kuma/users/jinja2/users/user_edit.html:95
+#: kuma/users/jinja2/users/user_edit.html:90
 msgid "My Profiles"
 msgstr "Os meus outros perfis"
 
-#: kuma/users/jinja2/users/user_edit.html:117
+#: kuma/users/jinja2/users/user_edit.html:112
 msgid "Use your GitHub account to sign in."
 msgstr "Utilize a sua conta GitHub para iniciar sessão."
 
-#: kuma/users/jinja2/users/user_edit.html:141 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:136 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Publicar"
 
-#: kuma/users/jinja2/users/user_edit.html:145
+#: kuma/users/jinja2/users/user_edit.html:140
 msgid "Delete your account."
 msgstr "Apagar a sua conta."
 
-#: kuma/users/jinja2/users/user_edit.html:153
+#: kuma/users/jinja2/users/user_edit.html:148
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Gerir a suas subscrições à newsletter da Mozilla."
 
@@ -4571,6 +4572,9 @@ msgstr "Não pode traduzir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor elasticsearch: %(backend)s"
+
+#~ msgid "Change your avatar at"
+#~ msgstr "Alterar o seu avatar em"
 
 #~ msgid "Take the next step to get involved on MDN!"
 #~ msgstr "Siga o passo seguinte para participar na MDN!"
