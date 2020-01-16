@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-09 11:54-0800\n"
+"POT-Creation-Date: 2020-01-16 15:01-0800\n"
 "PO-Revision-Date: 2019-11-23 21:23+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -546,11 +546,11 @@ msgstr "Μάθετε προγραμματισμό ιστού"
 msgid "About MDN"
 msgstr "Σχετικά με το MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:82
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:82
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:161 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:163 kuma/users/jinja2/users/includes/user_title_info.html:90
 #: kuma/users/jinja2/users/includes/user_title_info.html:97
 msgid "GitHub"
 msgstr "GitHub"
@@ -887,7 +887,7 @@ msgstr "Βεβαιωθείτε ότι αυτή η τιμή έχει τουλάχ
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "Βεβαιωθείτε ότι αυτή η τιμή έχει το πολύ %(limit_value)s χαρακτήρες (έχει %(show_value)s)."
 
-#: kuma/core/utils.py:386
+#: kuma/core/utils.py:389
 #, python-format
 msgid "Today at %s"
 msgstr "Σήμερα στις %s"
@@ -1673,7 +1673,8 @@ msgid "How does Mozilla make money?"
 msgstr "Πώς κερδίζει χρήματα η Mozilla;"
 
 #: kuma/payments/jinja2/payments/payments.html:173
-msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
+#, fuzzy
+msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
 msgstr "Η Mozilla Corporation, η οποία χρηματοδοτεί το MDN, κερδίζει χρήματα κυρίως από τα δικαιώματα παρόχων αναζήτησης στο Firefox (όπως οι Google, Amazon, Duck Duck Go και άλλοι)."
 
 #: kuma/payments/jinja2/payments/payments.html:181
@@ -2097,23 +2098,23 @@ msgstr "Όνομα χρήστη"
 msgid "Display a link to GitHub on my profile"
 msgstr "Προβολή συνδέσμου για το GitHub στο προφίλ μου"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:185 kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/forms.py:82 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:105
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:112
+#: kuma/users/forms.py:91 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:156 kuma/users/jinja2/users/includes/user_title_info.html:119
+#: kuma/users/forms.py:100 kuma/users/models.py:158 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:109 kuma/users/models.py:180 kuma/users/jinja2/users/includes/user_title_info.html:126
+#: kuma/users/forms.py:109 kuma/users/models.py:182 kuma/users/jinja2/users/includes/user_title_info.html:126
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:118 kuma/users/models.py:190 kuma/users/jinja2/users/includes/user_title_info.html:133
+#: kuma/users/forms.py:118 kuma/users/models.py:192 kuma/users/jinja2/users/includes/user_title_info.html:133
 msgid "Discourse"
 msgstr "Discourse"
 
@@ -2183,48 +2184,48 @@ msgstr "Σχετικά με εμένα"
 msgid "IRC nickname"
 msgstr "Ψευδώνυμο IRC"
 
-#: kuma/users/models.py:104 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
+#: kuma/users/models.py:106 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
 #: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
 msgstr "Ετικέτες"
 
-#: kuma/users/models.py:109
+#: kuma/users/models.py:111
 msgid "Enter a valid website URL."
 msgstr "Εισάγετε ένα έγκυρο URL ιστοσελίδας."
 
-#: kuma/users/models.py:114
+#: kuma/users/models.py:116
 msgid "Enter a valid Twitter URL."
 msgstr "Εισάγετε ένα έγκυρο Twitter URL."
 
-#: kuma/users/models.py:119
+#: kuma/users/models.py:121
 msgid "Enter a valid GitHub URL."
 msgstr "Εισάγετε ένα έγκυρο GitHub URL."
 
-#: kuma/users/models.py:124
+#: kuma/users/models.py:126
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Εισάγετε ένα έγκυρο Stack Overflow URL."
 
-#: kuma/users/models.py:129
+#: kuma/users/models.py:131
 msgid "Enter a valid LinkedIn URL."
 msgstr "Εισάγετε ένα έγκυρο LinkedIn URL."
 
-#: kuma/users/models.py:134
+#: kuma/users/models.py:136
 msgid "Enter a valid Mozillians URL."
 msgstr "Εισάγετε ένα έγκυρο Mozillians URL."
 
-#: kuma/users/models.py:139
+#: kuma/users/models.py:141
 msgid "Enter a valid Facebook URL."
 msgstr "Εισάγετε ένα έγκυρο Facebook URL."
 
-#: kuma/users/models.py:144
+#: kuma/users/models.py:146
 msgid "Enter a valid Discourse URL."
 msgstr "Εισάγετε ένα έγκυρο Discourse URL."
 
-#: kuma/users/models.py:151
+#: kuma/users/models.py:153
 msgid "Website"
 msgstr "Ιστοσελίδα"
 
-#: kuma/users/models.py:166
+#: kuma/users/models.py:168
 msgid "Public GitHub URL"
 msgstr "Δημόσιο GitHub URL"
 
@@ -2259,15 +2260,15 @@ msgstr "Θα ήθελα να κάνω δημόσιο το URL του προφί�
 msgid "Getting started with your new MDN account"
 msgstr "Ξεκινώντας με τον ιστό"
 
-#: kuma/users/views.py:567
+#: kuma/users/views.py:572
 msgid "Email address"
 msgstr "Διεύθυνση email"
 
-#: kuma/users/views.py:636 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:641 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "Άλλο:"
 
-#: kuma/users/views.py:638
+#: kuma/users/views.py:643
 msgid "Email:"
 msgstr "Email:"
 

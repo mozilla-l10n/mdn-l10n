@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-09 11:54-0800\n"
+"POT-Creation-Date: 2020-01-16 15:01-0800\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -555,11 +555,11 @@ msgid "About MDN"
 msgstr "MDN 소개"
 
 # 각 페이지 2단째 헤더 - Twitter 링크
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:170 kuma/users/jinja2/users/includes/user_title_info.html:82
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:60 kuma/users/models.py:172 kuma/users/jinja2/users/includes/user_title_info.html:82
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:161 kuma/users/jinja2/users/includes/user_title_info.html:90
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/models.py:163 kuma/users/jinja2/users/includes/user_title_info.html:90
 #: kuma/users/jinja2/users/includes/user_title_info.html:97
 msgid "GitHub"
 msgstr "GitHub"
@@ -904,7 +904,7 @@ msgstr "이 값은 최소 %(limit_value)s자 이상이어야 합니다(현재 %(
 msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
 msgstr "이 값은 최대 %(limit_value)s 자까지 입력 가능합니다(현재 %(show_value)s 자)."
 
-#: kuma/core/utils.py:386
+#: kuma/core/utils.py:389
 #, python-format
 msgid "Today at %s"
 msgstr "%s의 오늘"
@@ -1675,7 +1675,7 @@ msgid "How does Mozilla make money?"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:173
-msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, Duck Duck Go, and others)."
+msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
 msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:181
@@ -2090,23 +2090,23 @@ msgstr "사용자이름"
 msgid "Display a link to GitHub on my profile"
 msgstr "프로필에 GitHub 링크 표시하기"
 
-#: kuma/users/forms.py:82 kuma/users/models.py:185 kuma/users/jinja2/users/includes/user_title_info.html:105
+#: kuma/users/forms.py:82 kuma/users/models.py:187 kuma/users/jinja2/users/includes/user_title_info.html:105
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/models.py:175 kuma/users/jinja2/users/includes/user_title_info.html:112
+#: kuma/users/forms.py:91 kuma/users/models.py:177 kuma/users/jinja2/users/includes/user_title_info.html:112
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:100 kuma/users/models.py:156 kuma/users/jinja2/users/includes/user_title_info.html:119
+#: kuma/users/forms.py:100 kuma/users/models.py:158 kuma/users/jinja2/users/includes/user_title_info.html:119
 msgid "Mozillians"
 msgstr "Mozilla 공헌자"
 
-#: kuma/users/forms.py:109 kuma/users/models.py:180 kuma/users/jinja2/users/includes/user_title_info.html:126
+#: kuma/users/forms.py:109 kuma/users/models.py:182 kuma/users/jinja2/users/includes/user_title_info.html:126
 msgid "Facebook"
 msgstr "페이스북"
 
-#: kuma/users/forms.py:118 kuma/users/models.py:190 kuma/users/jinja2/users/includes/user_title_info.html:133
+#: kuma/users/forms.py:118 kuma/users/models.py:192 kuma/users/jinja2/users/includes/user_title_info.html:133
 msgid "Discourse"
 msgstr "Discourse"
 
@@ -2180,48 +2180,48 @@ msgstr "자기 소개"
 msgid "IRC nickname"
 msgstr "IRC 닉네임"
 
-#: kuma/users/models.py:104 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
+#: kuma/users/models.py:106 kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
 #: kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
 msgstr "태그"
 
-#: kuma/users/models.py:109
+#: kuma/users/models.py:111
 msgid "Enter a valid website URL."
 msgstr "유효한 웹사이트 URL을 입력해주세요."
 
-#: kuma/users/models.py:114
+#: kuma/users/models.py:116
 msgid "Enter a valid Twitter URL."
 msgstr "유효한 Twitter URL을 입력해주세요."
 
-#: kuma/users/models.py:119
+#: kuma/users/models.py:121
 msgid "Enter a valid GitHub URL."
 msgstr "유효한 GitHub URL을 입력해주세요."
 
-#: kuma/users/models.py:124
+#: kuma/users/models.py:126
 msgid "Enter a valid Stack Overflow URL."
 msgstr "유효한 Stack Overflow URL을 입력해주세요."
 
-#: kuma/users/models.py:129
+#: kuma/users/models.py:131
 msgid "Enter a valid LinkedIn URL."
 msgstr "유효한 LinkedIn URL을 입력해주세요."
 
-#: kuma/users/models.py:134
+#: kuma/users/models.py:136
 msgid "Enter a valid Mozillians URL."
 msgstr "유효한 Mozillians URL을 입력해주세요."
 
-#: kuma/users/models.py:139
+#: kuma/users/models.py:141
 msgid "Enter a valid Facebook URL."
 msgstr "유효한 Facebook URL을 입력해주세요."
 
-#: kuma/users/models.py:144
+#: kuma/users/models.py:146
 msgid "Enter a valid Discourse URL."
 msgstr "유효한 Discourse URL을 입력해주세요."
 
-#: kuma/users/models.py:151
+#: kuma/users/models.py:153
 msgid "Website"
 msgstr "웹 사이트"
 
-#: kuma/users/models.py:166
+#: kuma/users/models.py:168
 msgid "Public GitHub URL"
 msgstr "공개된 GitHub URL"
 
@@ -2256,15 +2256,15 @@ msgstr "GitHub 프로필 URL을 공개하고 싶습니다"
 msgid "Getting started with your new MDN account"
 msgstr "웹 시작하기"
 
-#: kuma/users/views.py:567
+#: kuma/users/views.py:572
 msgid "Email address"
 msgstr "이메일 주소"
 
-#: kuma/users/views.py:636 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
+#: kuma/users/views.py:641 kuma/users/jinja2/socialaccount/includes/email_choices.html:9
 msgid "Other:"
 msgstr "또 다른 것들:"
 
-#: kuma/users/views.py:638
+#: kuma/users/views.py:643
 msgid "Email:"
 msgstr "이메일:"
 
