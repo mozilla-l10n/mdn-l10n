@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-01-16 15:01-0800\n"
-"PO-Revision-Date: 2020-01-24 13:52+0000\n"
+"PO-Revision-Date: 2020-01-24 14:12+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
 "Language: uk\n"
@@ -2498,43 +2498,38 @@ msgid "User avatar"
 msgstr "Аватар користувача"
 
 #: kuma/users/jinja2/socialaccount/signup.html:41
-#, fuzzy
 msgid "Create MDN Profile"
-msgstr "Створити свій MDN профіль"
+msgstr "Створення профілю MDN"
 
 #: kuma/users/jinja2/socialaccount/signup.html:46
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for signing in to MDN with %(provider_name)s. To finish setting up your MDN Web Docs account, please choose a username and email address."
-msgstr "Дякуємо за вхід на MDN за допомогою %(provider_name)s. Залишився ще один крок до приєднання до MDN: <strong>створіть свій обліковий запис MDN</strong>."
+msgstr "Дякуємо, що увійшли в MDN за допомогою %(provider_name)s. Щоб закінчити налаштування свого облікового запису MDN Web Docs, оберіть ім'я користувача та електронну адресу."
 
 #: kuma/users/jinja2/socialaccount/signup.html:82
-#, fuzzy
 msgid "change username"
-msgstr "Ім'я користувача"
+msgstr "змінити ім’я користувача"
 
 #: kuma/users/jinja2/socialaccount/signup.html:89
-#, fuzzy
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
-msgstr "Будь ласка, введіть ім'я, яке б ви хотіли відображати іншим користувачам, щоб вони побачили ваш вклад."
+msgstr "Це ім'я відображатиметься у веб-документах MDN для визначення ваших внесків."
 
 #: kuma/users/jinja2/socialaccount/signup.html:96
-#, fuzzy
 msgid "Email Address"
-msgstr "Адреса ел. пошти"
+msgstr "Адреса електронної пошти"
 
 #: kuma/users/jinja2/socialaccount/signup.html:108 kuma/users/jinja2/socialaccount/signup.html:114
-#, fuzzy
 msgid "change email address"
-msgstr "Додайте адресу електронної пошти"
+msgstr "змініть адресу електронної пошти"
 
 #: kuma/users/jinja2/socialaccount/signup.html:125
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a "
 "href=\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
-"На яку адресу електронної пошти нам слід надсилати повідомлення та сповіщення MDN? Ця адреса <strong>не буде</strong> відображена на MDN і буде використовуватися відповідно до нашої <a "
-"href=\"%(privacy_url)s\">політики приватності</a>."
+"На цю електронну адресу надсилатимуться повідомлення та сповіщення від MDN Web Docs. Вона <strong>не відображатиметься</strong> на MDN Web Docs та використовуватиметься у відповідності з нашою <a "
+"href=\"%(privacy_url)s\">політикою приватності</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:134
 msgid "Get updates on what’s new with MDN to your inbox."
@@ -2546,14 +2541,13 @@ msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_
 msgstr "з <a href=\"%(terms_url)s\">Умовами користування</a> й <a href=\"%(privacy_url)s\">Політикою приватності</a> Mozilla."
 
 #: kuma/users/jinja2/socialaccount/signup.html:152
-#, fuzzy
 msgid "Create profile"
-msgstr "Створити свій MDN профіль"
+msgstr "Створити профіль"
 
 #: kuma/users/jinja2/socialaccount/signup.html:157
-#, fuzzy, python-format
+#, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
-msgstr "Якщо у вас <strong>виникли проблеми</strong> з входом або створенням облікового запису MDN, <strong><a href=\"%(bug_href)s\" rel=\"external\">дайте нам знати</a></strong>."
+msgstr "Виникли проблеми зі створенням облікового запису? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Дозвольте нам допомогти</a>."
 
 #: kuma/users/jinja2/socialaccount/snippets/login_service_icon.html:2
 msgid "Signed in with GitHub"
@@ -2762,9 +2756,8 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Натисніть тут</a>, щоб оскаржити блокування.</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-#, fuzzy
 msgid "Delete your account"
-msgstr "Видалити свій обліковий запис."
+msgstr "Видалити обліковий запис"
 
 #: kuma/users/jinja2/users/user_delete.html:29
 msgid "We're sorry to see you go."
@@ -2776,9 +2769,8 @@ msgid "You have made %(count)s wiki revisions."
 msgstr ""
 
 #: kuma/users/jinja2/users/user_delete.html:45
-#, fuzzy
 msgid "Delete my account"
-msgstr "Видалити свій обліковий запис."
+msgstr "Видалити мій обліковий запис"
 
 #: kuma/users/jinja2/users/user_detail.html:37
 msgid "Recent Docs Activity"
@@ -2906,24 +2898,25 @@ msgstr "Відновлення облікового запису для %(userna
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, fuzzy, python-format
+#, python-format
 msgid "Hey %(username)s!"
 msgstr "Привіт, %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr "Дякуємо за створення профілю в <a href=\"%(mdn_link)s\">MDN Web Docs</a> — спільноті, яка створює чудові ресурси саме для таких розробників, як ви."
+msgstr "Дякуємо, що створили обліковий запис на <a href=\"%(mdn_link)s\">MDN Web Docs</a> - спільноті, яка створює чудові ресурси саме для таких розробників, як ви."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
 "you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
-"Тепер продовжимо вибором завдання на MDN і виконаємо його! У нас є купа вступних завдань, які ви можете вибрати, якщо ви: <a href=\"%(words_link)s\">любите слова</a>, <a "
-"href=\"%(code_link)s\">любите код</a>, <a href=\"%(both_link)s\">любите слова і код</a> або ви хочете <a href=\"%(translate_link)s\">перекласти MDN вашою мовою</a>."
+"Невдовзі ми розповімо вам про можливості налаштування MDN для отримання всіх переваг. А тим часом MDN розвивається завдяки допомозі таких розробників, як ви. У нас є чимало завдань, які ви можете "
+"обрати на основі своїх інтересів, тож ми з нетерпінням чекаємо, коли ви приєднаєтеся до нас. Ви <a href=\"%(words_link)s\">любите писати</a>, <a href=\"%(code_link)s\">любите код</a>, або <a "
+"href=\"%(both_link)s\">любите писати й кодити</a>, чи хочете <a href=\"%(translate_link)s\">перекладати MDN своєю мовою</a>?"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
@@ -2955,9 +2948,8 @@ msgstr "Не соромтеся, якщо у вас є якісь сумніви
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "Дякуємо за створення профілю в MDN Web Docs — спільноті, яка створює чудові ресурси саме для таких розробників, як ви."
+msgstr "Дякуємо, що створили обліковий запис на MDN Web Docs — спільноті, яка створює чудові ресурси саме для таких розробників, як ви."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -3755,9 +3747,9 @@ msgid "Thank you for taking the time to improve MDN!"
 msgstr "Спасибі вам за час, витрачений на поліпшення MDN!"
 
 #: kuma/wiki/jinja2/wiki/edit.html:168
-#, fuzzy, python-format
+#, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Editor Guide</a>."
-msgstr "Схоже, що це ваш перший внесок у MDN. Ви можете знайти відповіді на загальні питання з редагування в нашому <a target=\"_blank\" href=\"%(url)s\">Керівництві редактора</a>."
+msgstr "Схоже, що це ваш перший внесок у MDN. Ви можете знайти відповіді на загальні питання з редагування в наших <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Настановах для редакторів</a>."
 
 #: kuma/wiki/jinja2/wiki/edit.html:172
 msgid "Don't be afraid to break something, you can always revert your changes."
@@ -3772,9 +3764,9 @@ msgid "Learn how to tag an article"
 msgstr "Дізнайтеся, як додати мітки до статті"
 
 #: kuma/wiki/jinja2/wiki/edit.html:197 kuma/wiki/jinja2/wiki/translate.html:120
-#, fuzzy, python-format
+#, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Read the Tagging Guide</a>."
-msgstr "Класифікуйте статтю. Це зробить її доступною для пошуку через правильні фільтри в пошуковій системі. <a target=\"_blank\" href=\"%(url)s\">Прочитайте керівництво з міток</a>."
+msgstr "Класифікуйте статтю. Це зробить її доступною для пошуку через правильні фільтри в пошуковому засобі. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Ознайомтеся з настановами щодо міток</a>."
 
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:3
 #, python-format
@@ -4280,9 +4272,9 @@ msgid "We'll try to resolve the problem, and after that you will be able to resu
 msgstr "Ми спробуємо вирішити цю проблему і після цього ви зможете повторно відправити ваш внесок."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
-#, fuzzy, python-format
+#, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">mark this submission as ham</a> and try submitting it again."
-msgstr "Якщо ви модератор спаму, то ви можете <a href=\"%(akismet_submission_url)s\" target=\"_blank\">позначити це подання як не спам</a> та спробувати подати його знову."
+msgstr "Якщо ви модератор спаму, то ви можете <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">позначити це подання як не спам</a> та спробувати подати його знову."
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
