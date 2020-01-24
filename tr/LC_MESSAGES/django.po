@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:01-0800\n"
+"POT-Creation-Date: 2020-01-24 09:03-0800\n"
 "PO-Revision-Date: 2020-01-21 18:18+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: Turkish https://pontoon.mozilla.org/tr/\n"
@@ -157,7 +157,7 @@ msgid "Skip to search"
 msgstr "Aramaya git"
 
 #: jinja2/includes/auth-modal-content.html:2
-msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an account, you will be prompted to do so after signing in."
 msgstr ""
 
 #: jinja2/includes/auth-modal-content.html:6
@@ -800,8 +800,8 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
@@ -1263,8 +1263,8 @@ msgstr ""
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:39
@@ -1642,8 +1642,8 @@ msgstr ""
 #: kuma/payments/jinja2/payments/payments.html:200
 #, python-format
 msgid ""
-"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a "
-"href=\"%(manage_subscription_url)s\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
+"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
+"\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/payments.html:211
@@ -1989,8 +1989,8 @@ msgstr ""
 #: kuma/users/adapters.py:31
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
 
 #: kuma/users/adapters.py:35
@@ -2410,8 +2410,8 @@ msgstr ""
 msgid "An error occurred while attempting to sign in with your account."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
-msgid "Create your MDN profile"
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup-landing.html:15
+msgid "Create your MDN Web Docs Account"
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
@@ -2421,10 +2421,6 @@ msgstr ""
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:9
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
-msgstr ""
-
-#: kuma/users/jinja2/socialaccount/signup-landing.html:15
-msgid "Create your MDN Web Docs Account"
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:29
@@ -2437,6 +2433,10 @@ msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:33
 msgid "Help contribute to the continued improvement of MDN’s content"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:20
+msgid "Create your MDN profile"
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
@@ -2479,8 +2479,8 @@ msgstr ""
 #: kuma/users/jinja2/socialaccount/signup.html:125
 #, python-format
 msgid ""
-"This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:134
@@ -3407,8 +3407,8 @@ msgstr ""
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 
 #: kuma/wiki/jinja2/403-create-page.html:17
@@ -3564,15 +3564,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:185
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:196

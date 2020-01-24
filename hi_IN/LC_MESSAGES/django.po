@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:01-0800\n"
+"POT-Creation-Date: 2020-01-24 09:03-0800\n"
 "PO-Revision-Date: 2019-11-28 11:35+0000\n"
 "Last-Translator: ravi <ravi.103151@gmail.com>\n"
 "Language-Team: Hindi (India) https://pontoon.mozilla.org/hi_IN/\n"
@@ -158,7 +158,7 @@ msgid "Skip to search"
 msgstr "खोज पर छोड़ें"
 
 #: jinja2/includes/auth-modal-content.html:2
-msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an account, you will be prompted to do so after signing in."
 msgstr ""
 
 #: jinja2/includes/auth-modal-content.html:6
@@ -2415,9 +2415,10 @@ msgstr "खाता साइन इन असफल"
 msgid "An error occurred while attempting to sign in with your account."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
-msgid "Create your MDN profile"
-msgstr "मेरे MDN प्रोफ़ाइल बनाएँ"
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup-landing.html:15
+#, fuzzy
+msgid "Create your MDN Web Docs Account"
+msgstr "जारी रखने के लिए अपनी MDN प्रोफ़ाइल बनाएँ"
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
 msgid "Login Cancelled"
@@ -2427,11 +2428,6 @@ msgstr "प्रवेश रद्द कर दिया"
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
-
-#: kuma/users/jinja2/socialaccount/signup-landing.html:15
-#, fuzzy
-msgid "Create your MDN Web Docs Account"
-msgstr "जारी रखने के लिए अपनी MDN प्रोफ़ाइल बनाएँ"
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:29
 msgid "Benefits of an MDN account"
@@ -2444,6 +2440,10 @@ msgstr ""
 #: kuma/users/jinja2/socialaccount/signup-landing.html:33
 msgid "Help contribute to the continued improvement of MDN’s content"
 msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:20
+msgid "Create your MDN profile"
+msgstr "मेरे MDN प्रोफ़ाइल बनाएँ"
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 msgid "Authorize with Github"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:01-0800\n"
+"POT-Creation-Date: 2020-01-24 09:03-0800\n"
 "PO-Revision-Date: 2019-07-17 16:45+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish https://pontoon.mozilla.org/fi/\n"
@@ -157,7 +157,7 @@ msgid "Skip to search"
 msgstr "Siirry hakuun"
 
 #: jinja2/includes/auth-modal-content.html:2
-msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an MDN profile, you will be prompted to do so after signing in."
+msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an account, you will be prompted to do so after signing in."
 msgstr ""
 
 #: jinja2/includes/auth-modal-content.html:6
@@ -2419,10 +2419,10 @@ msgstr ""
 msgid "An error occurred while attempting to sign in with your account."
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup.html:20
+#: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup-landing.html:15
 #, fuzzy
-msgid "Create your MDN profile"
-msgstr "MDN-profiilisi"
+msgid "Create your MDN Web Docs Account"
+msgstr "Osallistu MDN Web Docsiin"
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
 msgid "Login Cancelled"
@@ -2432,11 +2432,6 @@ msgstr "Kirjautuminen peruttu"
 #, python-format
 msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
 msgstr ""
-
-#: kuma/users/jinja2/socialaccount/signup-landing.html:15
-#, fuzzy
-msgid "Create your MDN Web Docs Account"
-msgstr "Osallistu MDN Web Docsiin"
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:29
 msgid "Benefits of an MDN account"
@@ -2449,6 +2444,11 @@ msgstr ""
 #: kuma/users/jinja2/socialaccount/signup-landing.html:33
 msgid "Help contribute to the continued improvement of MDN’s content"
 msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:20
+#, fuzzy
+msgid "Create your MDN profile"
+msgstr "MDN-profiilisi"
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 #, fuzzy
