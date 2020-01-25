@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-01-24 09:03-0800\n"
-"PO-Revision-Date: 2020-01-24 20:12+0000\n"
+"PO-Revision-Date: 2020-01-25 09:09+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
 "Language: uk\n"
@@ -1004,7 +1004,7 @@ msgstr "Документи верхнього рівня"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:22
 msgid "Server charts"
-msgstr ""
+msgstr "Графіки сервера"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
 msgid "Spam Dashboard"
@@ -1431,7 +1431,7 @@ msgstr "Зробити внесок"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13
 msgid "MDN subscription management"
-msgstr ""
+msgstr "Керування передплатою MDN"
 
 #: kuma/payments/jinja2/payments/management.html:25
 msgid "Your MDN profile"
@@ -1447,7 +1447,7 @@ msgstr "Довідка"
 
 #: kuma/payments/jinja2/payments/management.html:34
 msgid "Monthly subscriptions FAQ"
-msgstr ""
+msgstr "Часті питання про щомісячну передплату"
 
 #: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:86
 msgid "Subscriptions"
@@ -1456,7 +1456,7 @@ msgstr "Підписки"
 #: kuma/payments/jinja2/payments/management.html:44
 #, python-format
 msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr ""
+msgstr "Це список ваших активних передплат на MDN Web Docs. Якщо ви бажаєте змінити будь-які деталі нижче, будь ласка, напишіть на <a href=\"%(url)s\">%(email)s</a>."
 
 #: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
 msgid "Monthly Subscription"
@@ -1484,7 +1484,7 @@ msgstr "Ви впевнені?"
 
 #: kuma/payments/jinja2/payments/management.html:79
 msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr ""
+msgstr "Якщо ви бажаєте відновити платежі на MDN Web Docs, вам необхідно налаштувати нову передплату."
 
 #: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
 msgid "Confirm"
@@ -1502,7 +1502,7 @@ msgstr "Вашу щомісячну підписку успішно скасов
 #: kuma/payments/jinja2/payments/management.html:111
 #, python-format
 msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr ""
+msgstr "Виникла проблема при скасуванні вашої передплати. Будь ласка, напишіть на <a href=\"%(url)s\">%(email)s</a> і вкажіть свій номер клієнта %(reference_number)s."
 
 #: kuma/payments/jinja2/payments/payments.html:5
 msgid "Contribute"
@@ -1574,7 +1574,7 @@ msgstr "Гроші, зібрані через MDN (мінус плата за о
 
 #: kuma/payments/jinja2/payments/payments.html:103
 msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
-msgstr ""
+msgstr "Якщо я просто зроблю внесок на користь Mozilla Foundation, це допоможе MDN?"
 
 #: kuma/payments/jinja2/payments/payments.html:105
 #, python-format
@@ -1583,10 +1583,13 @@ msgid ""
 "U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> "
 "and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
+"<a href=\"%(foundation_url)s\">Mozilla Foundation</a> та MDN - це окремі організації та програми. Внески на користь Mozilla Foundation <a href=\"%(tax_faq_url)s\">підлягають виключенню з "
+"оподаткування в США</a>, що цілком дозволено законодавством, і надходять на підтримку громадських і благодійних програм Mozilla в один загальний фонд. MDN є частиною <a "
+"href=\"%(corporation_url)s\">Mozilla Corporation</a>, і платежі на користь MDN не використовуються в благодійних програмах Mozilla, але рефінансуються в матеріали, засоби та платформу MDN."
 
 #: kuma/payments/jinja2/payments/payments.html:122
 msgid "Is support of MDN tax-deductible?"
-msgstr ""
+msgstr "Чи підтримка MDN виключається з оподаткування?"
 
 #: kuma/payments/jinja2/payments/payments.html:124
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
@@ -1594,15 +1597,17 @@ msgstr "Ні. Платежі корпорації Mozilla на підтримк�
 
 #: kuma/payments/jinja2/payments/payments.html:131
 msgid "What will MDN user funding pay for?"
-msgstr ""
+msgstr "На що йдуть кошти користувачів MDN?"
 
 #: kuma/payments/jinja2/payments/payments.html:133
 msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr ""
+"В даний час Mozilla платить за операції сайту й накладні витрати (включаючи оплату авторам та веброзробникам). Платежі користувачів MDN фінансуватимуть прискорення поточних проектів та запуск нових,"
+" в тому числі:"
 
 #: kuma/payments/jinja2/payments/payments.html:141
 msgid "Adding more content, and updating current content"
-msgstr ""
+msgstr "Розширення та оновлення бази матеріалів"
 
 #: kuma/payments/jinja2/payments/payments.html:142
 msgid "Improving performance of the site"
@@ -1630,7 +1635,7 @@ msgstr "Навчання та вебінари"
 
 #: kuma/payments/jinja2/payments/payments.html:150
 msgid "Why can’t you just open a Crowdsourcing campaign?"
-msgstr ""
+msgstr "Чому б вам просто не відкрити кампанію з краудсорсингу?"
 
 #: kuma/payments/jinja2/payments/payments.html:152
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
