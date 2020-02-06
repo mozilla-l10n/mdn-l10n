@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-27 09:17+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -208,8 +208,8 @@ msgstr "Чи є у вас допоміжні матеріали?"
 msgid ""
 "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
 msgstr ""
-"Документація браузера та примітки до випуску - це хороші допоміжні матеріали для вашого повідомлення. Демо, розміщені на таких сервісах, як Codepen або JSBin, ідеально підходить для надання реальних"
-" прикладів ваших висновків."
+"Документація браузера та примітки до випуску - це хороші допоміжні матеріали для вашого повідомлення. Демо, розміщені на таких сервісах, як Codepen або JSBin, ідеально підходить для надання "
+"реальних прикладів ваших висновків."
 
 #: kuma/javascript/src/bcd-signal.jsx:467
 msgid "Connection error:"
@@ -284,10 +284,6 @@ msgstr "Ви можете приєднатися до репозиторію Git
 msgid "What are we missing?"
 msgstr "Чого нам не вистачає?"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Відкрити"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Пов'язані теми"
@@ -295,6 +291,15 @@ msgstr "Пов'язані теми"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Помилка візуалізації програми"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Помилка візуалізації програми"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -360,13 +365,25 @@ msgstr "Відкрити в JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Дякуємо! Будь ласка, перевірте свої вхідні для підтвердження підписування."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Вивчайне найкраще з веб-розробки"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "В поточний момент розсилка пропонується лише англійською мовою."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -409,18 +426,17 @@ msgstr[2] "Знайдено %(count)s документів за запитом \
 msgid "Previous"
 msgstr "Назад"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Результати"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Далі"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Не знайдено відповідних документів."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Результати пошуку для \"%(query)s\""
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Нічого не знайдено, якщо нічого не шукали."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -429,6 +445,10 @@ msgstr "Ви б відповіли нам на 4 питання?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Відкрити опитування в новій вкладці"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -462,6 +482,10 @@ msgstr "Англійська"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "Поточна мова %s. Оберіть бажану мову."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -563,7 +587,7 @@ msgstr "Повідомити про проблему з вмістом"
 msgid "Report an issue"
 msgstr "Повідомити про проблему"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Пошук на MDN"
 
@@ -659,6 +683,10 @@ msgstr "Нове зацікавлення..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Відкрити примітки реалізації"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Відкрити"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -778,6 +806,12 @@ msgstr "Посилання"
 msgid "Section"
 msgstr "Розділ"
 
+#~ msgid "Results"
+#~ msgstr "Результати"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Результати пошуку для \"%(query)s\""
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "Ви читаєте англійську версію цього вмісту, бо ще не існує перекладу для цієї мови."
 
@@ -786,12 +820,6 @@ msgstr "Розділ"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Щось пішло не так!"
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Нічого не знайдено, якщо нічого не шукали."
-
-#~ msgid "Next"
-#~ msgstr "Далі"
 
 #~ msgid "Link to"
 #~ msgstr "Посилання"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2019-12-07 23:36+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -280,10 +280,6 @@ msgstr ""
 msgid "What are we missing?"
 msgstr "Τι λείπει;"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Άνοιγμα"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Σχετικά θέματα"
@@ -291,6 +287,15 @@ msgstr "Σχετικά θέματα"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Σφάλμα απεικόνισης εφαρμογής"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Σφάλμα απεικόνισης εφαρμογής"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -356,13 +361,25 @@ msgstr "Άνοιγμα σε JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Σας ευχαριστούμε! Παρακαλούμε ελέγξτε την αλληλογραφία σας για να επιβεβαιώσετε τη συνδρομή σας."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Μάθετε τα καλύτερα της ανάπτυξης ιστού"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "Το newsletter προσφέρεται μόνο στα Αγγλικά προς το παρόν."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -404,18 +421,17 @@ msgstr[1] "Βρέθηκαν %(count)s έγγραφα για \"%(query)s\" στα
 msgid "Previous"
 msgstr "Προηγούμενο"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Αποτελέσματα"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Επόμενο"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Δεν βρέθηκαν αντίστοιχα έγγραφα."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Αποτελέσματα αναζήτησης για \"%(query)s\""
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Δεν βρέθηκε τίποτα, αν δεν αναζητήθηκε τίποτα."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -424,6 +440,10 @@ msgstr "Θα απαντήσετε σε 4 ερωτήσεις για εμάς;"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Άνοιγμα έρευνας σε νέα καρτέλα"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -457,6 +477,10 @@ msgstr "Αγγλικά"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "Η τρέχουσα γλώσσα είναι %s. Επιλέξτε την επιθυμητή σας γλώσσα."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -558,7 +582,7 @@ msgstr "Αναφορά προβλήματος περιεχομένου"
 msgid "Report an issue"
 msgstr "Αναφορά σφάλματος"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Αναζήτηση στο MDN"
 
@@ -654,6 +678,10 @@ msgstr "Νέο ενδιαφέρον..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Άνοιγμα σημειώσεων υλοποίησης"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Άνοιγμα"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -775,6 +803,12 @@ msgstr "Σύνδεσμος"
 msgid "Section"
 msgstr "Ενότητα"
 
+#~ msgid "Results"
+#~ msgstr "Αποτελέσματα"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Αποτελέσματα αναζήτησης για \"%(query)s\""
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "Διαβάζετε την αγγλική έκδοση αυτού του περιεχομένου, καθώς δεν διατίθεται ακόμη σε αυτή τη γλώσσα."
 
@@ -783,12 +817,6 @@ msgstr "Ενότητα"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Κάτι πήγε στραβά!"
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Δεν βρέθηκε τίποτα, αν δεν αναζητήθηκε τίποτα."
-
-#~ msgid "Next"
-#~ msgstr "Επόμενο"
 
 #~ msgid "Link to"
 #~ msgstr "Σύνδεσμος για"

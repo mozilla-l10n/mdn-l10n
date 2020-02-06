@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-17 11:47+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
@@ -280,10 +280,6 @@ msgstr "您可以加入 GitHub 仓库以查看此表格数据的更新和提交�
 msgid "What are we missing?"
 msgstr "还缺少什么东西？"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "打开"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "相关主题"
@@ -291,6 +287,15 @@ msgstr "相关主题"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "应用程序呈现出错"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "应用程序呈现出错"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -356,13 +361,25 @@ msgstr "在 JSFiddle 中打开"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "谢谢！请检查您的收件箱以确认您的订阅。"
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "学习 Web 开发的最佳实践"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "目前仅提供英文版新闻通讯。"
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -403,18 +420,17 @@ msgstr[0] "在 %(locale)s 版本中找到 %(count)s 篇关于“%(query)s”的�
 msgid "Previous"
 msgstr "上一页"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "结果"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "下一个"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "未找到匹配的文档。"
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "“%(query)s”的搜索结果"
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "如果没有搜索，什么东西也找不到。"
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -423,6 +439,10 @@ msgstr "愿意回答我们的 4 个问卷问题吗？"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "在新标签页打开问卷"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -456,6 +476,10 @@ msgstr "英语"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "当前语言为 %s。请选择您偏好的语言。"
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -557,7 +581,7 @@ msgstr "报告内容问题"
 msgid "Report an issue"
 msgstr "报告问题"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "搜索 MDN"
 
@@ -653,6 +677,10 @@ msgstr "新的兴趣..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "打开实现笔记"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "打开"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -772,6 +800,12 @@ msgstr "链接"
 msgid "Section"
 msgstr "节"
 
+#~ msgid "Results"
+#~ msgstr "结果"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "“%(query)s”的搜索结果"
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "您正在阅读此内容的英文版本，因为该语系尚未翻译。"
 
@@ -780,12 +814,6 @@ msgstr "节"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "某些地方出错！"
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "如果没有搜索，什么东西也找不到。"
-
-#~ msgid "Next"
-#~ msgstr "下一个"
 
 #~ msgid "Link to"
 #~ msgstr "链接到"

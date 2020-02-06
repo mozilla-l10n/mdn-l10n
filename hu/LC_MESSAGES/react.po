@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-18 09:42+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -287,10 +287,6 @@ msgstr "Csatlakozhat a GitHub tárólónkhoz, hogy lássa az adattáblázat fris
 msgid "What are we missing?"
 msgstr "Mi hiányzik?"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Megnyitás"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Kapcsolódó témák"
@@ -298,6 +294,15 @@ msgstr "Kapcsolódó témák"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Alkalmazás megjelenítési hibája"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Alkalmazás megjelenítési hibája"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -363,13 +368,25 @@ msgstr "Megnyitás a JSFiddle-ben"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Köszönjük! Keresse meg postafiókjában a jóváhagyó levelet."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Tanulja meg a webfejlesztés legjavát"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "A hírlevél pillanatnyilag csak angolul érhető el."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -411,18 +428,17 @@ msgstr[1] "%(count)s dokumentum találva erre: „%(query)s” a(z) %(locale)s n
 msgid "Previous"
 msgstr "Előző"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Találatok"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Tovább"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Nem található egyező dokumentum."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Találatok a következőre: „%(query)s”"
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Semmi sem található, ha nem keres semmire."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -431,6 +447,10 @@ msgstr "Válaszolna 4 kérdésünkre?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Kérdőív megnyitása új lapon"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -464,6 +484,10 @@ msgstr "angol"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "A jelenlegi nyelv: %s. Válassza ki a kívánt nyelvet."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -566,7 +590,7 @@ msgid "Report an issue"
 msgstr "Hiba jelentése"
 
 # 100%
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Keresés az MDN-en"
 
@@ -662,6 +686,10 @@ msgstr "Új érdeklődési kör…"
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Megvalósítási megjegyzések megnyitása"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Megnyitás"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -781,6 +809,12 @@ msgstr "Hivatkozás"
 msgid "Section"
 msgstr "Szakasz"
 
+#~ msgid "Results"
+#~ msgstr "Találatok"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Találatok a következőre: „%(query)s”"
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "A tartalom angol verzióját olvassa, mert még nincs fordítás ehhez a területi beállításhoz."
 
@@ -789,12 +823,6 @@ msgstr "Szakasz"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Valami hiba történt."
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Semmi sem található, ha nem keres semmire."
-
-#~ msgid "Next"
-#~ msgstr "Tovább"
 
 #~ msgid "Link to"
 #~ msgstr "Hivatkozás ehhez:"

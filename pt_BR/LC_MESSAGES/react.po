@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-23 17:58+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: Portuguese (Brazilian) https://pontoon.mozilla.org/pt_BR/\n"
@@ -229,8 +229,8 @@ msgid ""
 "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
 "values to the developer community."
 msgstr ""
-"Nosso objetivo é fornecer valores reais e precisos em todas as nossas tabelas de dados de compatibilidade. Notificar a MDN  sobre dados imprecisos ou fornecer novos dados nos impulsiona em direção à"
-" meta de fornecer valores 100% reais à comunidade de desenvolvedores."
+"Nosso objetivo é fornecer valores reais e precisos em todas as nossas tabelas de dados de compatibilidade. Notificar a MDN  sobre dados imprecisos ou fornecer novos dados nos impulsiona em direção "
+"à meta de fornecer valores 100% reais à comunidade de desenvolvedores."
 
 #: kuma/javascript/src/bcd-signal.jsx:515
 msgid "Thank you for helping."
@@ -284,10 +284,6 @@ msgstr "Você pode ingressar no repositório GitHub para ver notícias e atualiz
 msgid "What are we missing?"
 msgstr "O que está faltando?"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Abrir"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Tópicos relacionados"
@@ -295,6 +291,15 @@ msgstr "Tópicos relacionados"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Erro de renderização do aplicativo"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Erro de renderização do aplicativo"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -360,13 +365,25 @@ msgstr "Abrir no JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Obrigado! Verifique sua caixa de entrada para confirmar sua inscrição."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Aprenda o melhor em desenvolvimento web"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "O boletim informativo é oferecido somente em inglês no momento."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -408,18 +425,17 @@ msgstr[1] "%(count)s documentos encontrados de \"%(query)s\" em %(locale)s."
 msgid "Previous"
 msgstr "Anterior"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Resultados"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Avançar"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Nenhum documento correspondente foi encontrado."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Resultados da pesquisa \"%(query)s\""
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Nada é encontrado se nada for pesquisado."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -428,6 +444,10 @@ msgstr "Você responderia 4 perguntas?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Abrir a pesquisa de opinião em uma nova aba"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -461,6 +481,10 @@ msgstr "Inglês"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "O idioma atual é %s. Escolha seu idioma preferido."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -562,7 +586,7 @@ msgstr "Relate um problema de conteúdo"
 msgid "Report an issue"
 msgstr "Relatar um problema"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Pesquisar na MDN"
 
@@ -658,6 +682,10 @@ msgstr "Novo interesse..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Abrir notas de implementação"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Abrir"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -777,6 +805,12 @@ msgstr "Link"
 msgid "Section"
 msgstr "Seção"
 
+#~ msgid "Results"
+#~ msgstr "Resultados"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Resultados da pesquisa \"%(query)s\""
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "Você está lendo a versão em inglês deste conteúdo porque ainda não há uma tradução para este idioma."
 
@@ -785,12 +819,6 @@ msgstr "Seção"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Algo deu errado!"
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Nada é encontrado se nada for pesquisado."
-
-#~ msgid "Next"
-#~ msgstr "Avançar"
 
 #~ msgid "Link to"
 #~ msgstr "Link para"

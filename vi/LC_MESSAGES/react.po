@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2019-09-26 02:07+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -282,16 +282,20 @@ msgstr ""
 msgid "What are we missing?"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Mở"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Các chủ đề liên quan"
 
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
+msgstr ""
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+msgid "Content rendering error"
+msgstr ""
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
 msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
@@ -358,13 +362,25 @@ msgstr "Mở trong JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Cảm ơn! Vui lòng kiểm tra hộp thư đến để xác nhận việc đăng ký của bạn."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Tìm hiểu cách phát triển web tốt nhất"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "Hiện tại các bản tin chỉ được viết bằng tiếng Anh."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -408,18 +424,17 @@ msgstr[0] "%(count)s tài liệu được tìm thấy cho \"%(query)s\" trong %(
 msgid "Previous"
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Kết quả"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Tiếp"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Không tìm thấy tài liệu phù hợp."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Kiếm quả tìm kiếm cho \"%(query)s\""
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Không tìm thấy gì nếu không tìm kiếm gì."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -428,6 +443,10 @@ msgstr "Bạn sẽ trả lời 4 câu hỏi cho chúng tôi?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Mở khảo sát trong một thẻ mới"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -461,6 +480,10 @@ msgstr "Tiếng Anh"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "Ngôn ngữ hiện tại là %s. Chọn ngôn ngữ ưa thích của bạn."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -562,7 +585,7 @@ msgstr "Báo cáo vấn đề về nội dung"
 msgid "Report an issue"
 msgstr "Báo cáo lỗi"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Tìm kiếm MDN"
 
@@ -658,6 +681,10 @@ msgstr "Quan tâm mới..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Mở ghi chú thực hiện"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Mở"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -777,17 +804,17 @@ msgstr "Liên kết"
 msgid "Section"
 msgstr "Phần"
 
+#~ msgid "Results"
+#~ msgstr "Kết quả"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Kiếm quả tìm kiếm cho \"%(query)s\""
+
 #~ msgid "Flag as incorrect"
 #~ msgstr "Gắn cờ là không đúng"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Đã xảy ra lỗi!"
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Không tìm thấy gì nếu không tìm kiếm gì."
-
-#~ msgid "Next"
-#~ msgstr "Tiếp"
 
 #~ msgid "Link to"
 #~ msgstr "Liên kết đến"

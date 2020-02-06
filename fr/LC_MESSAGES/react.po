@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-22 14:16+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -208,8 +208,8 @@ msgstr "Disposez-vous de documents justificatifs ?"
 msgid ""
 "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
 msgstr ""
-"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite pour"
-" donner des exemples en situation de votre trouvaille."
+"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite "
+"pour donner des exemples en situation de votre trouvaille."
 
 #: kuma/javascript/src/bcd-signal.jsx:467
 msgid "Connection error:"
@@ -284,10 +284,6 @@ msgstr "Vous pouvez rejoindre le dépôt GitHub pour vous informer des mises à 
 msgid "What are we missing?"
 msgstr "Que manque-t-il ?"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Ouvrir"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Sujets associés"
@@ -295,6 +291,15 @@ msgstr "Sujets associés"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Erreur de rendu de l’application"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Erreur de rendu de l’application"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -360,13 +365,25 @@ msgstr "Ouvrir dans JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Merci ! Veuillez consulter votre boîte de réception pour confirmer votre inscription."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Recevez le meilleur du développement web"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "Cette lettre d’information est uniquement disponible en anglais pour l’instant."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -408,18 +425,17 @@ msgstr[1] "%(count)s documents trouvés pour « %(query)s » dans %(locale)s."
 msgid "Previous"
 msgstr "Précédent"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Résultats"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Suivant"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Aucun document correspondant trouvé."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Résultats pour « %(query)s »"
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -428,6 +444,10 @@ msgstr "Pourriez-vous répondre à 4 questions ?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Ouvrir le sondage dans un nouvel onglet"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -461,6 +481,10 @@ msgstr "Anglais"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "Langue actuelle : %s. Choisissez votre langue préférée."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -563,7 +587,7 @@ msgstr "Signaler un problème de contenu"
 msgid "Report an issue"
 msgstr "Signaler un problème"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Rechercher sur MDN"
 
@@ -663,6 +687,10 @@ msgstr "Nouvel intérêt…"
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Ouvrir les notes d'implémentation"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Ouvrir"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -784,6 +812,12 @@ msgstr "Lien"
 msgid "Section"
 msgstr "Section"
 
+#~ msgid "Results"
+#~ msgstr "Résultats"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Résultats pour « %(query)s »"
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "Vous lisez la version anglaise de ce contenu car il n’existe pas encore de traduction dans cette langue."
 
@@ -792,9 +826,6 @@ msgstr "Section"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Quelque chose s'est mal passé !"
-
-#~ msgid "Next"
-#~ msgstr "Suivant"
 
 #~ msgid "Link to"
 #~ msgstr "Lien vers"

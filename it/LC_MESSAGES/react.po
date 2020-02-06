@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-31 13:27+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -284,10 +284,6 @@ msgstr "Sul repository GitHub puoi seguire aggiornamenti e commit per i dati di 
 msgid "What are we missing?"
 msgstr "Manca qualcosa?"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Apri"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Argomenti correlati"
@@ -295,6 +291,15 @@ msgstr "Argomenti correlati"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Errore di rendering dell’applicazione"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Errore di rendering dell’applicazione"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -360,13 +365,25 @@ msgstr "Apri in JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Grazie! Controlla la tua casella di posta elettronica per confermare l’iscrizione."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Impara il meglio dello sviluppo web"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "Attualmente la newsletter è disponibile solo in lingua inglese."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -408,18 +425,17 @@ msgstr[1] "La ricerca di \"%(query)s\" ha trovato %(count)s documenti in %(local
 msgid "Previous"
 msgstr "Indietro"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Risultati"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Avanti"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Nessun documento trovato."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Risultati di ricerca per “%(query)s”"
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Nessun termine di ricerca inserito, nessun risultato trovato."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -428,6 +444,10 @@ msgstr "Vuoi aiutarci rispondendo a 4 domande?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Apri il sondaggio in una nuova scheda"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -461,6 +481,10 @@ msgstr "Inglese"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "La lingua corrente è %s. Seleziona lingua preferita."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -562,7 +586,7 @@ msgstr "Segnala errori dei contenuti"
 msgid "Report an issue"
 msgstr "Segnala un problema"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Cerca in MDN"
 
@@ -650,8 +674,8 @@ msgstr "Selezionato: "
 #, python-format
 msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
 msgstr ""
-"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie in"
-" anticipo per la tua disponibilità."
+"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie "
+"in anticipo per la tua disponibilità."
 
 #: kuma/static/js/users.js:116
 msgid "New interest..."
@@ -660,6 +684,10 @@ msgstr "Nuovo interesse."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Apri note di implementazione"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Apri"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -780,6 +808,12 @@ msgstr "Link"
 msgid "Section"
 msgstr "Sezione"
 
+#~ msgid "Results"
+#~ msgstr "Risultati"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Risultati di ricerca per “%(query)s”"
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "Questo contenuto viene visualizzato in inglese perché non è ancora disponibile una versione tradotta nella lingua selezionata."
 
@@ -788,12 +822,6 @@ msgstr "Sezione"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Si è verificato un errore."
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Nessun termine di ricerca inserito, nessun risultato trovato."
-
-#~ msgid "Next"
-#~ msgstr "Avanti"
 
 #~ msgid "Link to"
 #~ msgstr "Collegamento a"

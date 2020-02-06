@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2019-03-09 13:30+0000\n"
 "Last-Translator: myeongjun.ko <myeongjun.ko@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -284,16 +284,20 @@ msgstr ""
 msgid "What are we missing?"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "열기"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "관련 주제"
 
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
+msgstr ""
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+msgid "Content rendering error"
+msgstr ""
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
 msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
@@ -363,12 +367,24 @@ msgstr "%(site)s에서 열기 "
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr ""
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr ""
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
+msgstr ""
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
 msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
@@ -411,18 +427,16 @@ msgstr[0] ""
 msgid "Previous"
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:153
-#, fuzzy
-msgid "Results"
-msgstr "결과"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr ""
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr ""
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
 msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
@@ -431,6 +445,10 @@ msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
+msgstr ""
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
 msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
@@ -467,6 +485,10 @@ msgstr "영어 (미국)"
 #: kuma/javascript/src/header/language-menu.jsx:32
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
+msgstr ""
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
 msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
@@ -569,7 +591,7 @@ msgstr ""
 msgid "Report an issue"
 msgstr ""
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "MDN 검색"
 
@@ -667,6 +689,10 @@ msgstr "새로운 관심사..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "구현 노트 열기"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "열기"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -785,6 +811,10 @@ msgstr "링크"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "섹션"
+
+#, fuzzy
+#~ msgid "Results"
+#~ msgstr "결과"
 
 #, fuzzy
 #~ msgid "Link to"

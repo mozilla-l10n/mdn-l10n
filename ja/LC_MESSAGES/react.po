@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-24 11:04+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -282,16 +282,21 @@ msgstr ""
 msgid "What are we missing?"
 msgstr ""
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "開く"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "関連トピック"
 
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
+msgstr ""
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "接続エラー:"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
 msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
@@ -358,13 +363,25 @@ msgstr "JSFiddle で開く"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "ありがとうございます！受信ボックスを確認して、購読を認証してください。"
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "ウェブ開発のベストプラクティスを学ぶ"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "現在、ニュースレターは英語でのみ提供されています。"
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -405,18 +422,17 @@ msgstr[0] "「%(query)s」を含む %(locale)s のドキュメントが %(count)
 msgid "Previous"
 msgstr "前へ"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "検索結果"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr ""
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "一致するドキュメントは見つかりませんでした。"
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "「%(query)s」の検索結果"
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -425,6 +441,10 @@ msgstr "4 つの質問にお答えください。"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "アンケートを新しいタブで開く"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -458,6 +478,10 @@ msgstr "英語"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "現在の言語は %s です。ご使用の言語を選択してください。"
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -561,7 +585,7 @@ msgid "Report an issue"
 msgstr "問題を報告"
 
 # 検索ボタン
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "MDN を検索"
 
@@ -657,6 +681,10 @@ msgstr "新たな興味..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "実装メモを開く"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "開く"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -775,6 +803,12 @@ msgstr "リンク"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "セクション"
+
+#~ msgid "Results"
+#~ msgstr "検索結果"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "「%(query)s」の検索結果"
 
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "このロケールの翻訳が存在しないため、英語バージョンのコンテンツを表示しています。"

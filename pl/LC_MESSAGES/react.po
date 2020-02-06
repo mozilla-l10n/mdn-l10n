@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-01-16 15:02-0800\n"
+"POT-Creation-Date: 2020-02-06 15:23-0800\n"
 "PO-Revision-Date: 2020-01-17 14:47+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish https://pontoon.mozilla.org/pl/\n"
@@ -208,8 +208,8 @@ msgstr "Czy masz jakieś informacje to potwierdzające?"
 msgid ""
 "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
 msgstr ""
-"Dokumentacja i informacje o wydaniu przeglądarki to dobre źródła do dodania do wiadomości. Program demonstracyjny umieszczony w serwisie takim jak Codepen lub JSBin jest idealny do podania przykładu"
-" swojego odkrycia w działaniu."
+"Dokumentacja i informacje o wydaniu przeglądarki to dobre źródła do dodania do wiadomości. Program demonstracyjny umieszczony w serwisie takim jak Codepen lub JSBin jest idealny do podania "
+"przykładu swojego odkrycia w działaniu."
 
 #: kuma/javascript/src/bcd-signal.jsx:467
 msgid "Connection error:"
@@ -229,8 +229,8 @@ msgid ""
 "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
 "values to the developer community."
 msgstr ""
-"Naszym celem jest dostarczanie dokładnych, rzeczywistych danych we wszystkich naszych tabelach zgodności. Powiadomienie serwisu MDN o niedokładnych danych lub podanie nowych przybliża nas do naszego"
-" celu, jakim jest dostarczanie społeczności deweloperów stuprocentowo rzeczywistych danych."
+"Naszym celem jest dostarczanie dokładnych, rzeczywistych danych we wszystkich naszych tabelach zgodności. Powiadomienie serwisu MDN o niedokładnych danych lub podanie nowych przybliża nas do "
+"naszego celu, jakim jest dostarczanie społeczności deweloperów stuprocentowo rzeczywistych danych."
 
 #: kuma/javascript/src/bcd-signal.jsx:515
 msgid "Thank you for helping."
@@ -284,10 +284,6 @@ msgstr "Możesz dołączyć do repozytorium w serwisie GitHub, aby zobaczyć ak
 msgid "What are we missing?"
 msgstr "Czego nam brakuje?"
 
-#: kuma/javascript/src/bcd.js:25 kuma/static/js/wiki-compat-tables.js:8
-msgid "Open"
-msgstr "Otwórz"
-
 #: kuma/javascript/src/document.jsx:59
 msgid "Related Topics"
 msgstr "Powiązane tematy"
@@ -295,6 +291,15 @@ msgstr "Powiązane tematy"
 #: kuma/javascript/src/error-boundaries.jsx:39
 msgid "Application rendering error"
 msgstr "Błąd renderowania aplikacji"
+
+#: kuma/javascript/src/error-boundaries.jsx:57
+#, fuzzy
+msgid "Content rendering error"
+msgstr "Błąd renderowania aplikacji"
+
+#: kuma/javascript/src/error-boundaries.jsx:80
+msgid "An unhandled error occurred in the application. We apologize for the inconvenience!"
+msgstr ""
 
 #: kuma/javascript/src/footer.jsx:16 kuma/javascript/src/header/header.jsx:25
 msgid "MDN Web Docs"
@@ -360,13 +365,25 @@ msgstr "Otwórz w JSFiddle"
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr "Dziękujemy! W skrzynce znajdziesz wiadomość do potwierdzenia subskrypcji."
 
+#: kuma/javascript/src/newsletter.jsx:164
+msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:184
 msgid "Learn the best of web development"
 msgstr "Poznaj najlepsze metody tworzenia stron"
 
+#: kuma/javascript/src/newsletter.jsx:187
+msgid "Get the latest and greatest from MDN delivered straight to your inbox."
+msgstr ""
+
 #: kuma/javascript/src/newsletter.jsx:199
 msgid "The newsletter is offered in English only at the moment."
 msgstr "Obecnie biuletyn jest dostępny tylko po angielsku."
+
+#: kuma/javascript/src/newsletter.jsx:230
+msgid "E-mail"
+msgstr ""
 
 #: kuma/javascript/src/newsletter.jsx:238
 msgid "you@example.com"
@@ -409,18 +426,17 @@ msgstr[2] "Frazę „%(query)s” znaleziono w %(count)s dokumentach w języku
 msgid "Previous"
 msgstr "Poprzednie"
 
-#: kuma/javascript/src/search-results-page.jsx:153
-msgid "Results"
-msgstr "Wyniki"
+#: kuma/javascript/src/search-results-page.jsx:140
+msgid "Next"
+msgstr "Następne"
 
 #: kuma/javascript/src/search-results-page.jsx:174
 msgid "No matching documents found."
 msgstr "Nie odnaleziono pasujących dokumentów."
 
-#: kuma/javascript/src/search-results-page.jsx:306
-#, python-format
-msgid "Search results for \"%(query)s\""
-msgstr "Wyniki wyszukiwania dla „%(query)s”"
+#: kuma/javascript/src/search-results-page.jsx:197
+msgid "Nothing found if nothing searched."
+msgstr "Nic nie znajdziesz, jeśli nic nie szukasz."
 
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
@@ -429,6 +445,10 @@ msgstr "Czy odpowiesz nam na cztery pytania?"
 #: kuma/javascript/src/task-completion-survey.jsx:151
 msgid "Open the survey in a new tab"
 msgstr "Otwórz ankietę w nowej karcie"
+
+#: kuma/javascript/src/task-completion-survey.jsx:153
+msgid "and fill it out when you are done on the site. Thanks!"
+msgstr ""
 
 #: kuma/javascript/src/task-completion-survey.jsx:160
 msgid "Dismiss"
@@ -462,6 +482,10 @@ msgstr "Angielski"
 #, python-format
 msgid "Current language is %s. Choose your preferred language."
 msgstr "Obecny język to: %s. Wybierz preferowany język."
+
+#: kuma/javascript/src/header/language-menu.jsx:58
+msgid "Add a translation"
+msgstr ""
 
 #: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
@@ -563,7 +587,7 @@ msgstr "Zgłoś problem z zawartością"
 msgid "Report an issue"
 msgstr "Zgłoś problem"
 
-#: kuma/javascript/src/header/search.jsx:34
+#: kuma/javascript/src/header/search.jsx:34 kuma/javascript/src/header/search.jsx:42
 msgid "Search MDN"
 msgstr "Szukaj na MDN"
 
@@ -659,6 +683,10 @@ msgstr "Nowe zainteresowanie..."
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"
 msgstr "Otwórz notatki implementacyjne"
+
+#: kuma/static/js/wiki-compat-tables.js:8
+msgid "Open"
+msgstr "Otwórz"
 
 #: kuma/static/js/wiki-compat-tables.js:11
 msgid "Return to compatibility table."
@@ -778,6 +806,12 @@ msgstr "Odnośnik"
 msgid "Section"
 msgstr "Sekcja"
 
+#~ msgid "Results"
+#~ msgstr "Wyniki"
+
+#~ msgid "Search results for \"%(query)s\""
+#~ msgstr "Wyniki wyszukiwania dla „%(query)s”"
+
 #~ msgid "You’re reading the English version of this content since no translation exists yet for this locale."
 #~ msgstr "Czytasz angielską wersję tego artykułu, ponieważ nie ma jeszcze tłumaczenia dla tego języka."
 
@@ -786,12 +820,6 @@ msgstr "Sekcja"
 
 #~ msgid "Something went wrong!"
 #~ msgstr "Coś się nie powiodło."
-
-#~ msgid "Nothing found if nothing searched."
-#~ msgstr "Nic nie znajdziesz, jeśli nic nie szukasz."
-
-#~ msgid "Next"
-#~ msgstr "Następne"
 
 #~ msgid "Link to"
 #~ msgstr "Odnośnik do"
