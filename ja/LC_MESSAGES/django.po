@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-02-11 15:36-0800\n"
+"POT-Creation-Date: 2020-02-13 14:27-0800\n"
 "PO-Revision-Date: 2020-01-25 01:37+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -81,7 +81,12 @@ msgstr ""
 msgid "This user's profile has been banned."
 msgstr "このユーザーアカウントは停止されています。"
 
-#: jinja2/404.html:41
+#: jinja2/404.html:39
+#, fuzzy, python-format
+msgid "<p><a href=\"%(login_url)s\">Sign in</a> to try again.</p>"
+msgstr "<li><a href=\"%(login_url)s\">ログイン</a> して再度試してください。</li>"
+
+#: jinja2/404.html:47
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
 msgstr "<a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a> の Matthew Inman による <a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a>"
@@ -321,7 +326,7 @@ msgstr "他の言語:"
 msgid "Go"
 msgstr "移動"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:37
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:36
 msgid "View profile"
 msgstr "プロファイルを表示"
 
@@ -334,7 +339,7 @@ msgstr "プロファイルを編集"
 msgid "Sign out"
 msgstr "ログアウト"
 
-#: jinja2/includes/login.html:23
+#: jinja2/includes/login.html:24 jinja2/includes/login.html:29
 msgid "Sign in"
 msgstr "ログイン"
 
@@ -387,7 +392,7 @@ msgstr "これまでに Mozilla 関連のニュースレターを購読したこ
 msgid "Hide Newsletter Sign-up"
 msgstr "ニュースレター購読リンクを隠す"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1421
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1403
 msgid "Previous"
 msgstr "前へ"
 
@@ -431,7 +436,7 @@ msgstr "中国語 (繁体字)"
 msgid "Dutch"
 msgstr "オランダ語"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1431
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1413
 msgid "English (US)"
 msgstr "英語 (アメリカ)"
 
@@ -549,12 +554,12 @@ msgid "About MDN"
 msgstr "MDN について"
 
 # 各ページ, 2段目ヘッダ - Twitter リンク
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:82 kuma/users/models.py:145
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:142
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:90 kuma/users/jinja2/users/includes/user_title_info.html:97
-#: kuma/users/models.py:141
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64 kuma/users/jinja2/users/includes/user_title_info.html:71
+#: kuma/users/models.py:138
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -714,7 +719,7 @@ msgstr "ファイル"
 
 # https://github.com/mdn/kuma/blob/master/apps/devmo/models.py
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:81 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:80 kuma/wiki/models.py:2009
 msgid "Title"
 msgstr "タイトル"
 
@@ -1086,7 +1091,7 @@ msgstr "絞り込み"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "時間の経過に伴うトレンド: %(date)s まで"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1961
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1963
 msgid "Revision"
 msgstr "リビジョン"
 
@@ -1128,7 +1133,7 @@ msgstr "ユーザーエージェント:"
 msgid "Referrer:"
 msgstr "リファラー:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:142
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:116
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "%(user)s により %(ban_date)s にアカウントが停止されました"
@@ -1465,7 +1470,7 @@ msgstr "ヘルプ"
 msgid "Monthly subscriptions FAQ"
 msgstr "毎月のサブスクリプションに関する FAQ"
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:87
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:72
 msgid "Subscriptions"
 msgstr "寄付"
 
@@ -2053,161 +2058,144 @@ msgstr "ユーザー"
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr "ユーザー名で利用できる文字は半角英数字と . - _ + のみです。"
 
-#: kuma/users/forms.py:32 kuma/users/models.py:53
+#: kuma/users/forms.py:30 kuma/users/models.py:52
 msgid "Timezone"
 msgstr "タイムゾーン"
 
-#: kuma/users/forms.py:37
+#: kuma/users/forms.py:35
 msgid "Beta tester"
 msgstr "ベータテストに参加する"
 
-#: kuma/users/forms.py:39 kuma/users/jinja2/users/includes/user_title_info.html:56
-msgid "Interests"
-msgstr "興味があること"
-
-#: kuma/users/forms.py:45
-msgid "Expertise"
-msgstr "専門分野"
-
 # 88%
-#: kuma/users/forms.py:51 kuma/users/jinja2/socialaccount/signup.html:70
+#: kuma/users/forms.py:37 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "ユーザー名"
 
-#: kuma/users/forms.py:77
+#: kuma/users/forms.py:63
 msgid "Display a link to GitHub on my profile"
 msgstr "自分のプロファイルに GitHub へのリンクを表示する"
 
-#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:105 kuma/users/models.py:154
+#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:151
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:112 kuma/users/models.py:148
+#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:145
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:119 kuma/users/models.py:138
+#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:135
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:126 kuma/users/models.py:151
+#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:148
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:124 kuma/users/jinja2/users/includes/user_title_info.html:133 kuma/users/models.py:159
+#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:156
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:176
-msgid "Areas of expertise must be a subset of interests"
-msgstr "「専門分野」は「興味があること」のサブセットとしてください"
-
-#: kuma/users/forms.py:185
+#: kuma/users/forms.py:157
 msgid "This field cannot be blank."
 msgstr "この項目は入力必須です。"
 
-#: kuma/users/forms.py:193
+#: kuma/users/forms.py:165
 msgid "Username already in use."
 msgstr "このユーザー名はすでに使用されています。"
 
-#: kuma/users/forms.py:204
+#: kuma/users/forms.py:176
 msgid "Email"
 msgstr "メールアドレス"
 
-#: kuma/users/forms.py:239
+#: kuma/users/forms.py:211
 msgid "Keep my attribution for my page changes"
 msgstr ""
 
-#: kuma/users/forms.py:242
+#: kuma/users/forms.py:214
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "私が行ったページの変更について帰属をすべて「匿名」に切り替え、アカウントを削除してください。"
 
-#: kuma/users/models.py:38
+#: kuma/users/models.py:37
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr "%(banned_user)s は %(banned_by)s によってアカウントを停止されています"
 
-#: kuma/users/models.py:43
+#: kuma/users/models.py:42
 #, python-format
 msgid "%s (no longer active)"
 msgstr "%s (非アクティブ)"
 
-#: kuma/users/models.py:66
+#: kuma/users/models.py:65
 msgid "Language"
 msgstr "言語"
 
-#: kuma/users/models.py:71
+#: kuma/users/models.py:70
 msgid "Homepage"
 msgstr "ホームページ"
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:74
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "この URL の書式は正しくありません。正しい URL は http://example.com/my_page のようになります。"
 
-#: kuma/users/models.py:82
+#: kuma/users/models.py:81
 msgid "Name"
 msgstr "名前"
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:83
 msgid "Organization"
 msgstr "所属組織"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:85
 msgid "Location"
 msgstr "所在地"
 
 # ユーザプロフィールの編集ページ
-#: kuma/users/models.py:87
+#: kuma/users/models.py:86
 msgid "About Me"
 msgstr "自己紹介"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:88
 msgid "IRC nickname"
 msgstr "IRC ニックネーム"
 
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/users/models.py:94 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
-#: kuma/wiki/jinja2/wiki/edit.html:191
-msgid "Tags"
-msgstr "タグ"
-
-#: kuma/users/models.py:98
+#: kuma/users/models.py:95
 msgid "Enter a valid website URL."
 msgstr "ウェブサイトの URL を正しく入力してください。"
 
-#: kuma/users/models.py:101
+#: kuma/users/models.py:98
 msgid "Enter a valid Twitter URL."
 msgstr "Twitter の URL を正しく入力してください。"
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:101
 msgid "Enter a valid GitHub URL."
 msgstr "GitHub の URL を正しく入力してください。"
 
-#: kuma/users/models.py:108
+#: kuma/users/models.py:105
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Stack Overflow の URL を正しく入力してください。"
 
-#: kuma/users/models.py:113
+#: kuma/users/models.py:110
 msgid "Enter a valid LinkedIn URL."
 msgstr "LinkedIn の URL を正しく入力してください。"
 
-#: kuma/users/models.py:118
+#: kuma/users/models.py:115
 msgid "Enter a valid Mozillians URL."
 msgstr "Mozillians の URL を正しく入力してください。"
 
-#: kuma/users/models.py:123
+#: kuma/users/models.py:120
 msgid "Enter a valid Facebook URL."
 msgstr "Facebook の URL を正しく入力してください。"
 
-#: kuma/users/models.py:128
+#: kuma/users/models.py:125
 msgid "Enter a valid Discourse URL."
 msgstr "Discourse の URL を正しく入力してください。"
 
-#: kuma/users/models.py:135
+#: kuma/users/models.py:132
 msgid "Website"
 msgstr "ウェブサイト"
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:140
 msgid "Public GitHub URL"
 msgstr "公開 GitHub URL"
 
@@ -2243,15 +2231,15 @@ msgstr "新しい MDN アカウントではじめる"
 
 # 92%
 # 100%
-#: kuma/users/views.py:646
+#: kuma/users/views.py:594
 msgid "Email address"
 msgstr "メールアドレス"
 
-#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:717
+#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:665
 msgid "Other:"
 msgstr "その他:"
 
-#: kuma/users/views.py:719
+#: kuma/users/views.py:667
 msgid "Email:"
 msgstr "メールアドレス:"
 
@@ -2346,6 +2334,11 @@ msgstr "申し訳ありませんが、現在プロファイルの作成は無効
 #: kuma/users/jinja2/account/login.html:31
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
 msgstr "貢献するためには MDN にログインする必要があります。GitHub を利用してログインでき、まだお持ちでない場合は MDN プロファイルが作成されます。"
+
+#: kuma/users/jinja2/account/login.html:40
+#, fuzzy, python-format
+msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
+msgstr "<li><a href=\"%(login_url)s\">ログイン</a> して再度試してください。</li>"
 
 #: kuma/users/jinja2/account/logout.html:3 kuma/users/jinja2/account/logout.html:8 kuma/users/jinja2/account/logout.html:17
 msgid "Sign Out"
@@ -2813,64 +2806,44 @@ msgstr "このユーザーは活動履歴がありません。"
 msgid "Edit Your Profile"
 msgstr "プロファイルを編集"
 
-#: kuma/users/jinja2/users/user_edit.html:41
+#: kuma/users/jinja2/users/user_edit.html:40
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "編集中のプロファイルはあなたのプロファイルではありません。注意してください！"
 
-#: kuma/users/jinja2/users/user_edit.html:51
+#: kuma/users/jinja2/users/user_edit.html:50
 msgid "User Information"
 msgstr "ユーザー情報"
 
-#: kuma/users/jinja2/users/user_edit.html:56
+#: kuma/users/jinja2/users/user_edit.html:55
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr "このサイトの様々な変更についてあなたの意見を聞かせてください！ ベータテスターはいち早く新機能を試すことができ、特定の機能のテストに協力をお願いするメールを時々お送りします。"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:58
 msgid "Primary Email"
 msgstr "優先メールアドレス"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:58
 msgid "Edit email"
 msgstr "メールアドレスを編集"
 
 #: kuma/users/jinja2/users/user_edit.html:72
-msgid "Interests (tags)"
-msgstr "興味のある分野 (タグ)"
-
-#: kuma/users/jinja2/users/user_edit.html:73
-msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
-msgstr "タグを複数入力する際はカンマか半角スペースで区切ってください。複数の単語で構成されるタグは、\"web standards\" のようにダブルクォートで囲んでください。"
-
-#: kuma/users/jinja2/users/user_edit.html:79
-msgid "Areas of expertise"
-msgstr "専門分野"
-
-#: kuma/users/jinja2/users/user_edit.html:80
-msgid "Add your interests first, then declare yourself an expert in selected topics."
-msgstr "まず興味のある分野を追加し、そして選択肢から自身の専門分野を宣言します。"
-
-#: kuma/users/jinja2/users/user_edit.html:87
 msgid "Edit monthly subscription"
 msgstr "毎月の購読を編集"
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "My Profiles"
 msgstr "自分のプロファイル"
 
-#: kuma/users/jinja2/users/user_edit.html:113
-msgid "Use your GitHub account to sign in."
-msgstr "GitHub アカウントを利用してログインしてください。"
-
-#: kuma/users/jinja2/users/user_edit.html:138 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:120 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "公開"
 
-#: kuma/users/jinja2/users/user_edit.html:144
+#: kuma/users/jinja2/users/user_edit.html:126
 #, fuzzy
 msgid "Delete Account."
 msgstr "自分のアカウントを削除"
 
-#: kuma/users/jinja2/users/user_edit.html:157
+#: kuma/users/jinja2/users/user_edit.html:139
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 関連ニュースレターの購読を管理"
 
@@ -3100,6 +3073,10 @@ msgid ""
 "To cancel your subscription, please <a href=\"%(support_email)s\">contact support</a>. <br>If you have questions, please read the <a href=\"%(terms_url)s\">FAQ</a> or you can also contact support."
 msgstr ""
 
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75 kuma/wiki/jinja2/wiki/edit.html:191
+msgid "Tags"
+msgstr "タグ"
+
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
 msgstr "すでにスパムとして報告されています。"
@@ -3124,37 +3101,33 @@ msgstr "管理"
 msgid "API keys"
 msgstr "API キー"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:69
-msgid "Areas of Expertise"
-msgstr "専門分野"
-
-#: kuma/users/jinja2/users/includes/user_title_info.html:139
+#: kuma/users/jinja2/users/includes/user_title_info.html:113
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s からのメンバー"
 
-#: kuma/users/templatetags/jinja_helpers.py:47
+#: kuma/users/templatetags/jinja_helpers.py:49
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "%(ban_admin)s により %(ban_date)s にアカウントが停止されました。"
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Banned"
 msgstr "アカウント停止"
 
-#: kuma/users/templatetags/jinja_helpers.py:61
+#: kuma/users/templatetags/jinja_helpers.py:63
 msgid "Clean Up Revisions"
 msgstr "リビジョンを整理"
 
-#: kuma/users/templatetags/jinja_helpers.py:68
+#: kuma/users/templatetags/jinja_helpers.py:70
 msgid "Ban User"
 msgstr "ユーザーをアカウント停止にする"
 
-#: kuma/users/templatetags/jinja_helpers.py:73
+#: kuma/users/templatetags/jinja_helpers.py:75
 msgid "Ban User & Clean Up"
 msgstr "ユーザーをアカウント停止にし、整理する"
 
-#: kuma/users/templatetags/jinja_helpers.py:87
+#: kuma/users/templatetags/jinja_helpers.py:89
 msgid "Admin"
 msgstr "管理者"
 
@@ -3427,142 +3400,142 @@ msgstr "新しい URL スラグ:"
 msgid "New article URL"
 msgstr "新しい記事 URL"
 
-#: kuma/wiki/models.py:111
+#: kuma/wiki/models.py:112
 #, python-format
 msgid "Parent %s does not exist."
 msgstr "親 %s は存在しません。"
 
-#: kuma/wiki/models.py:122
+#: kuma/wiki/models.py:123
 msgid "Document Tag"
 msgstr "ドキュメントのタグ"
 
-#: kuma/wiki/models.py:123
+#: kuma/wiki/models.py:124
 msgid "Document Tags"
 msgstr "ドキュメントのタグ"
 
-#: kuma/wiki/models.py:179
+#: kuma/wiki/models.py:180
 msgid "uploaded to the document"
 msgstr "ドキュメントに添付されています"
 
-#: kuma/wiki/models.py:184
+#: kuma/wiki/models.py:185
 msgid "linked in the document content"
 msgstr "ドキュメント本文でリンクされています"
 
-#: kuma/wiki/models.py:198
+#: kuma/wiki/models.py:199
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "添付ファイル %(attachment_id)s をドキュメント %(document_id)s へ複数回添付することはできません"
 
-#: kuma/wiki/models.py:1622
+#: kuma/wiki/models.py:1624
 msgid "Review Tag"
 msgstr "タグのレビュー"
 
-#: kuma/wiki/models.py:1623
+#: kuma/wiki/models.py:1625
 msgid "Review Tags"
 msgstr "タグのレビュー"
 
 # docs, Mozilla - リスト項目、
 # mozilla, Popular Mozilla Documentation - リンクテキスト
-#: kuma/wiki/models.py:1630
+#: kuma/wiki/models.py:1632
 msgid "Localization Tag"
 msgstr "ローカライズタグ"
 
 # docs, Mozilla - リスト項目、
 # mozilla, Popular Mozilla Documentation - リンクテキスト
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1633
 msgid "Localization Tags"
 msgstr "ローカライズタグ"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1677
 msgid "No table of contents"
 msgstr "目次がありません"
 
-#: kuma/wiki/models.py:1676
+#: kuma/wiki/models.py:1678
 msgid "All levels"
 msgstr "全レベル"
 
-#: kuma/wiki/models.py:1677
+#: kuma/wiki/models.py:1679
 msgid "H2 and higher"
 msgstr "H2 以上"
 
-#: kuma/wiki/models.py:1678
+#: kuma/wiki/models.py:1680
 msgid "H3 and higher"
 msgstr "H3 以上"
 
-#: kuma/wiki/models.py:1679
+#: kuma/wiki/models.py:1681
 msgid "H4 and higher"
 msgstr "H4 以上"
 
-#: kuma/wiki/models.py:1790
+#: kuma/wiki/models.py:1792
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "ひとつのリビジョンは %(locale)s ドキュメントのひとつのリビジョンに基づかなければなりません。リビジョン ID %(id)s はこの基準に当てはまりません。"
 
 # 92%
 # 100%
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1930
 msgid "IP address"
 msgstr "IP アドレス"
 
-#: kuma/wiki/models.py:1935
+#: kuma/wiki/models.py:1937
 msgid "User-Agent"
 msgstr "ユーザーエージェント"
 
-#: kuma/wiki/models.py:1936
+#: kuma/wiki/models.py:1938
 msgid "HTTP Referrer"
 msgstr "HTTP リファラー"
 
-#: kuma/wiki/models.py:1941 kuma/wiki/models.py:2021
+#: kuma/wiki/models.py:1943 kuma/wiki/models.py:2023
 msgid "Data submitted to Akismet"
 msgstr "Akismet 登録日"
 
 # DevDerby サブメニュー
-#: kuma/wiki/models.py:1967
+#: kuma/wiki/models.py:1969
 msgid "Akismet submission"
 msgstr "Akismet 投稿"
 
 # DevDerby サブメニュー
-#: kuma/wiki/models.py:1968
+#: kuma/wiki/models.py:1970
 msgid "Akismet submissions"
 msgstr "Akismet 投稿"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2010
 msgid "Slug"
 msgstr "スラグ"
 
-#: kuma/wiki/models.py:2014 kuma/wiki/models.py:2063
+#: kuma/wiki/models.py:2016 kuma/wiki/models.py:2065
 msgid "Document (optional)"
 msgstr "ドキュメント (オプション)"
 
-#: kuma/wiki/models.py:2023
+#: kuma/wiki/models.py:2025
 msgid "reviewed"
 msgstr "レビュー済み"
 
-#: kuma/wiki/models.py:2031
+#: kuma/wiki/models.py:2033
 msgid "Needs Review"
 msgstr "要レビュー"
 
-#: kuma/wiki/models.py:2032
+#: kuma/wiki/models.py:2034
 msgid "Ham / False Positive"
 msgstr "誇張 / 誤判定"
 
-#: kuma/wiki/models.py:2033
+#: kuma/wiki/models.py:2035
 msgid "Confirmed as Spam"
 msgstr "スパム認定済み"
 
-#: kuma/wiki/models.py:2034
+#: kuma/wiki/models.py:2036
 msgid "Review Unavailable"
 msgstr "レビューは利用できません"
 
-#: kuma/wiki/models.py:2035
+#: kuma/wiki/models.py:2037
 msgid "Akismet Error"
 msgstr "Akismet エラー"
 
-#: kuma/wiki/models.py:2040
+#: kuma/wiki/models.py:2042
 msgid "Review of Akismet's classification as spam"
 msgstr "Akismet スパム分類レビュー"
 
-#: kuma/wiki/models.py:2047
+#: kuma/wiki/models.py:2049
 msgid "Staff reviewer"
 msgstr "レビュー担当スタッフ"
 
@@ -3885,7 +3858,7 @@ msgstr "自分の貢献を楽しみ、誇りを持ってください！"
 msgid "Learn how to tag an article"
 msgstr "記事へのタグの付け方"
 
-#: kuma/wiki/jinja2/wiki/edit.html:197 kuma/wiki/jinja2/wiki/translate.html:120
+#: kuma/wiki/jinja2/wiki/edit.html:197 kuma/wiki/jinja2/wiki/translate.html:132
 #, fuzzy, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Read the Tagging Guide</a>."
 msgstr ""
@@ -4055,62 +4028,67 @@ msgstr "記事の翻訳 | %(document)s"
 msgid "Translating article to %(locale)s"
 msgstr "記事を %(locale)s に翻訳中"
 
-#: kuma/wiki/jinja2/wiki/translate.html:49
+#: kuma/wiki/jinja2/wiki/translate.html:37
+#, python-format
+msgid "<b>Note!</b> The <a href=\"%(parent_url)s\">parent document</a> is deleted."
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/translate.html:61
 msgid "Translate Content"
 msgstr "内容を翻訳"
 
-#: kuma/wiki/jinja2/wiki/translate.html:89
+#: kuma/wiki/jinja2/wiki/translate.html:101
 #, python-format
 msgid "Approved %(locale)s version:"
 msgstr "承認された %(locale)s 版:"
 
-#: kuma/wiki/jinja2/wiki/translate.html:91
+#: kuma/wiki/jinja2/wiki/translate.html:103
 msgid "View Rendered"
 msgstr "レンダリング結果を表示"
 
-#: kuma/wiki/jinja2/wiki/translate.html:91
+#: kuma/wiki/jinja2/wiki/translate.html:103
 msgid "View Source"
 msgstr "ソースを表示"
 
-#: kuma/wiki/jinja2/wiki/translate.html:92
+#: kuma/wiki/jinja2/wiki/translate.html:104
 #, python-format
 msgid "Show %(locale)s"
 msgstr "%(locale)s を表示"
 
-#: kuma/wiki/jinja2/wiki/translate.html:92
+#: kuma/wiki/jinja2/wiki/translate.html:104
 #, python-format
 msgid "Hide %(locale)s"
 msgstr "%(locale)s を隠す"
 
-#: kuma/wiki/jinja2/wiki/translate.html:104
+#: kuma/wiki/jinja2/wiki/translate.html:116
 #, python-format
 msgid "%(locale)s translation:"
 msgstr "%(locale)s の翻訳:"
 
-#: kuma/wiki/jinja2/wiki/translate.html:117
+#: kuma/wiki/jinja2/wiki/translate.html:129
 msgid "Translate Tags"
 msgstr "タグの翻訳"
 
-#: kuma/wiki/jinja2/wiki/translate.html:126
+#: kuma/wiki/jinja2/wiki/translate.html:138
 msgid "English tags"
 msgstr "英語のタグ"
 
-#: kuma/wiki/jinja2/wiki/translate.html:138
+#: kuma/wiki/jinja2/wiki/translate.html:150
 msgid "This document has no tags."
 msgstr "このドキュメントはタグ付けされていません。"
 
-#: kuma/wiki/jinja2/wiki/translate.html:145
+#: kuma/wiki/jinja2/wiki/translate.html:157
 #, python-format
 msgid "%(locale)s tags"
 msgstr "%(locale)s のタグ"
 
-#: kuma/wiki/jinja2/wiki/translate.html:152
+#: kuma/wiki/jinja2/wiki/translate.html:164
 msgid "Version Notes"
 msgstr "バージョンノート"
 
 # docs, Mozilla - リスト項目、
 # mozilla, Popular Mozilla Documentation - リンクテキスト
-#: kuma/wiki/jinja2/wiki/translate.html:154
+#: kuma/wiki/jinja2/wiki/translate.html:166
 msgid "Localization flags"
 msgstr "ローカライズフラグ"
 
@@ -4615,11 +4593,11 @@ msgstr "セクションはインラインのみで編集できます。"
 msgid "Autosuggest requires a partial title. For a full document index, see the main page."
 msgstr "自動提案には部分タイトルが必要です。完全なドキュメントインデックスに関してはメインページを参照してください。"
 
-#: kuma/wiki/views/revision.py:172
+#: kuma/wiki/views/revision.py:173
 msgid "Document has been edited; please re-review."
 msgstr "ドキュメントが編集されました。再度レビューしてください。"
 
-#: kuma/wiki/views/translate.py:88
+#: kuma/wiki/views/translate.py:94
 msgid "You cannot translate this document."
 msgstr "あなたはこのドキュメントを翻訳できません。"
 
@@ -4627,6 +4605,33 @@ msgstr "あなたはこのドキュメントを翻訳できません。"
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch サーバー: %(backend)s"
+
+#~ msgid "Interests"
+#~ msgstr "興味があること"
+
+#~ msgid "Expertise"
+#~ msgstr "専門分野"
+
+#~ msgid "Areas of expertise must be a subset of interests"
+#~ msgstr "「専門分野」は「興味があること」のサブセットとしてください"
+
+#~ msgid "Interests (tags)"
+#~ msgstr "興味のある分野 (タグ)"
+
+#~ msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
+#~ msgstr "タグを複数入力する際はカンマか半角スペースで区切ってください。複数の単語で構成されるタグは、\"web standards\" のようにダブルクォートで囲んでください。"
+
+#~ msgid "Areas of expertise"
+#~ msgstr "専門分野"
+
+#~ msgid "Add your interests first, then declare yourself an expert in selected topics."
+#~ msgstr "まず興味のある分野を追加し、そして選択肢から自身の専門分野を宣言します。"
+
+#~ msgid "Use your GitHub account to sign in."
+#~ msgstr "GitHub アカウントを利用してログインしてください。"
+
+#~ msgid "Areas of Expertise"
+#~ msgstr "専門分野"
 
 #~ msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
 #~ msgstr "私が行ったページの変更について帰属を残します。私が再度ログインできないよう、メールアドレスを削除し、アカウントを凍結してください。"

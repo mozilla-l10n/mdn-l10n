@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-02-11 15:36-0800\n"
+"POT-Creation-Date: 2020-02-13 14:27-0800\n"
 "PO-Revision-Date: 2020-01-18 22:18+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
@@ -81,7 +81,12 @@ msgstr ""
 msgid "This user's profile has been banned."
 msgstr "Профиль этого пользователя был заблокирован."
 
-#: jinja2/404.html:41
+#: jinja2/404.html:39
+#, fuzzy, python-format
+msgid "<p><a href=\"%(login_url)s\">Sign in</a> to try again.</p>"
+msgstr "<li><a href=\"%(login_url)s\">Войдите</a> и попробуйте снова.</li>"
+
+#: jinja2/404.html:47
 #, python-format
 msgid "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
 msgstr "<a href=\"%(tumbeasts_url)s\" rel=\"nofollow\">Tumbeasts</a> от Matthew Inman из <a href=\"%(oatmeal_url)s\" rel=\"nofollow\">The Oatmeal</a>"
@@ -315,7 +320,7 @@ msgstr "На других языках:"
 msgid "Go"
 msgstr "Перейти"
 
-#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:37
+#: jinja2/includes/login.html:11 kuma/users/jinja2/users/user_edit.html:36
 msgid "View profile"
 msgstr "Просмотреть профиль"
 
@@ -327,7 +332,7 @@ msgstr "Редактировать профиль"
 msgid "Sign out"
 msgstr "Выйти"
 
-#: jinja2/includes/login.html:23
+#: jinja2/includes/login.html:24 jinja2/includes/login.html:29
 msgid "Sign in"
 msgstr "Войти"
 
@@ -382,7 +387,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Скрыть подписку на новостную рассылку"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1421
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:169 kuma/wiki/jinja2/wiki/list/revisions.html:59 kuma/wiki/tests/test_templates.py:1403
 msgid "Previous"
 msgstr "Назад"
 
@@ -426,7 +431,7 @@ msgstr "Китайский (Традиционный)"
 msgid "Dutch"
 msgstr "Голландский"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1431
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1413
 msgid "English (US)"
 msgstr "Английский (США)"
 
@@ -542,12 +547,12 @@ msgstr "Изучите веб-разработку"
 msgid "About MDN"
 msgstr "О MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:82 kuma/users/models.py:145
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:142
 msgid "Twitter"
 msgstr "Твиттер"
 
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:90 kuma/users/jinja2/users/includes/user_title_info.html:97
-#: kuma/users/models.py:141
+#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64 kuma/users/jinja2/users/includes/user_title_info.html:71
+#: kuma/users/models.py:138
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -703,7 +708,7 @@ msgid "File"
 msgstr "Файл"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:81 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:80 kuma/wiki/models.py:2009
 msgid "Title"
 msgstr "Заголовок"
 
@@ -1078,7 +1083,7 @@ msgstr "Отфильтровать"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Тренды во времени, заканчивая %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1961
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1963
 msgid "Revision"
 msgstr "Ревизия"
 
@@ -1119,7 +1124,7 @@ msgstr "Браузер:"
 msgid "Referrer:"
 msgstr "Реферер:"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:142
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:116
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
 msgstr "заблокировал %(user)s %(ban_date)s"
@@ -1453,7 +1458,7 @@ msgstr "Справка"
 msgid "Monthly subscriptions FAQ"
 msgstr "ЧЗВ по ежемесячным подпискам"
 
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:87
+#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:72
 msgid "Subscriptions"
 msgstr "Подписки"
 
@@ -2070,159 +2075,142 @@ msgstr "Пользователь"
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr "Имя пользователя может содержать только буквы, цифры и эти символы: . - _ +"
 
-#: kuma/users/forms.py:32 kuma/users/models.py:53
+#: kuma/users/forms.py:30 kuma/users/models.py:52
 msgid "Timezone"
 msgstr "Часовой пояс"
 
-#: kuma/users/forms.py:37
+#: kuma/users/forms.py:35
 msgid "Beta tester"
 msgstr "Бета-тестер"
 
-#: kuma/users/forms.py:39 kuma/users/jinja2/users/includes/user_title_info.html:56
-msgid "Interests"
-msgstr "Интересы"
-
-#: kuma/users/forms.py:45
-msgid "Expertise"
-msgstr "Эксперт в"
-
-#: kuma/users/forms.py:51 kuma/users/jinja2/socialaccount/signup.html:70
+#: kuma/users/forms.py:37 kuma/users/jinja2/socialaccount/signup.html:70
 msgid "Username"
 msgstr "Имя пользователя"
 
-#: kuma/users/forms.py:77
+#: kuma/users/forms.py:63
 msgid "Display a link to GitHub on my profile"
 msgstr "Отображать ссылку на GitHub в моём профиле"
 
-#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:105 kuma/users/models.py:154
+#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:151
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:112 kuma/users/models.py:148
+#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:145
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:119 kuma/users/models.py:138
+#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:135
 msgid "Mozillians"
 msgstr "Мозилльцы"
 
-#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:126 kuma/users/models.py:151
+#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:148
 msgid "Facebook"
 msgstr "Фейсбук"
 
-#: kuma/users/forms.py:124 kuma/users/jinja2/users/includes/user_title_info.html:133 kuma/users/models.py:159
+#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:156
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:176
-msgid "Areas of expertise must be a subset of interests"
-msgstr "Вы должны быть экспертом в области, входящей в область интересов"
-
-#: kuma/users/forms.py:185
+#: kuma/users/forms.py:157
 msgid "This field cannot be blank."
 msgstr "Это поле не может быть пустым."
 
-#: kuma/users/forms.py:193
+#: kuma/users/forms.py:165
 msgid "Username already in use."
 msgstr "Имя пользователя уже используется."
 
-#: kuma/users/forms.py:204
+#: kuma/users/forms.py:176
 msgid "Email"
 msgstr "Эл. почта"
 
-#: kuma/users/forms.py:239
+#: kuma/users/forms.py:211
 msgid "Keep my attribution for my page changes"
 msgstr ""
 
-#: kuma/users/forms.py:242
+#: kuma/users/forms.py:214
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Сделать весь мой вклад анонимным и удалить мой аккаунт."
 
-#: kuma/users/models.py:38
+#: kuma/users/models.py:37
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr "%(banned_user)s заблокирован %(banned_by)s"
 
-#: kuma/users/models.py:43
+#: kuma/users/models.py:42
 #, python-format
 msgid "%s (no longer active)"
 msgstr "%s (больше не активен)"
 
-#: kuma/users/models.py:66
+#: kuma/users/models.py:65
 msgid "Language"
 msgstr "Язык"
 
-#: kuma/users/models.py:71
+#: kuma/users/models.py:70
 msgid "Homepage"
 msgstr "Домашняя страница"
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:74
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "Введенный URL некорректен. Он должен выглядеть примерно так: http://example.com/my_page."
 
-#: kuma/users/models.py:82
+#: kuma/users/models.py:81
 msgid "Name"
 msgstr "Имя"
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:83
 msgid "Organization"
 msgstr "Организация"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:85
 msgid "Location"
 msgstr "Местоположение"
 
-#: kuma/users/models.py:87
+#: kuma/users/models.py:86
 msgid "About Me"
 msgstr "Обо мне"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:88
 msgid "IRC nickname"
 msgstr "Ник в IRC"
 
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/users/models.py:94 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75
-#: kuma/wiki/jinja2/wiki/edit.html:191
-msgid "Tags"
-msgstr "Метки"
-
-#: kuma/users/models.py:98
+#: kuma/users/models.py:95
 msgid "Enter a valid website URL."
 msgstr "Введите действительный URL сайта."
 
-#: kuma/users/models.py:101
+#: kuma/users/models.py:98
 msgid "Enter a valid Twitter URL."
 msgstr "Введите действительный URL Твиттер."
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:101
 msgid "Enter a valid GitHub URL."
 msgstr "Введите действительный GitHub URL."
 
-#: kuma/users/models.py:108
+#: kuma/users/models.py:105
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Введите действительный Stack Overflow URL."
 
-#: kuma/users/models.py:113
+#: kuma/users/models.py:110
 msgid "Enter a valid LinkedIn URL."
 msgstr "Введите действительный LinkedIn URL."
 
-#: kuma/users/models.py:118
+#: kuma/users/models.py:115
 msgid "Enter a valid Mozillians URL."
 msgstr "Введите действительный Mozillians URL."
 
-#: kuma/users/models.py:123
+#: kuma/users/models.py:120
 msgid "Enter a valid Facebook URL."
 msgstr "Введите действительный URL Фейсбука."
 
-#: kuma/users/models.py:128
+#: kuma/users/models.py:125
 msgid "Enter a valid Discourse URL."
 msgstr "Введите действительный Discourse URL."
 
-#: kuma/users/models.py:135
+#: kuma/users/models.py:132
 msgid "Website"
 msgstr "Веб-сайт"
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:140
 msgid "Public GitHub URL"
 msgstr "Публичная ссылка GitHub"
 
@@ -2256,15 +2244,15 @@ msgstr "Я хочу сделать ссылку в профиле на мой Gi
 msgid "Getting started with your new MDN account"
 msgstr "Начало работы с вашим аккаунтом MDN"
 
-#: kuma/users/views.py:646
+#: kuma/users/views.py:594
 msgid "Email address"
 msgstr "Адрес электронной почты"
 
-#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:717
+#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:665
 msgid "Other:"
 msgstr "Другое:"
 
-#: kuma/users/views.py:719
+#: kuma/users/views.py:667
 msgid "Email:"
 msgstr "Эл. почта:"
 
@@ -2355,6 +2343,11 @@ msgstr "Извините, но создание профиля сейчас не
 #: kuma/users/jinja2/account/login.html:31
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
 msgstr "Для внесения вклада, вам нужно войти на MDN. Вы можете войти, используя GitHub, и для вас будет создан MDN профиль, если у вас его ещё нет."
+
+#: kuma/users/jinja2/account/login.html:40
+#, fuzzy, python-format
+msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
+msgstr "<li><a href=\"%(login_url)s\">Войдите</a> и попробуйте снова.</li>"
 
 #: kuma/users/jinja2/account/logout.html:3 kuma/users/jinja2/account/logout.html:8 kuma/users/jinja2/account/logout.html:17
 msgid "Sign Out"
@@ -2818,66 +2811,46 @@ msgstr "Этот пользователь не имеет никакой акт�
 msgid "Edit Your Profile"
 msgstr "Редактировать Ваш профиль"
 
-#: kuma/users/jinja2/users/user_edit.html:41
+#: kuma/users/jinja2/users/user_edit.html:40
 msgid "You're editing a different profile than your own. Please take care!"
 msgstr "Вы изменяете другой профиль, а не свой! Пожалуйста, будьте внимательны!"
 
-#: kuma/users/jinja2/users/user_edit.html:51
+#: kuma/users/jinja2/users/user_edit.html:50
 msgid "User Information"
 msgstr "Информация о пользователе"
 
-#: kuma/users/jinja2/users/user_edit.html:56
+#: kuma/users/jinja2/users/user_edit.html:55
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
 "Мы были бы рады, если бы вы оставили отзыв об изменениях на сайте. Бета тестеры получают доступ к новым фишкам первыми, а мы иногда отправляем письмо, запрашивая помощь в тестировании специфичных "
 "штук."
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:58
 msgid "Primary Email"
 msgstr "Основной адрес электронной почты"
 
-#: kuma/users/jinja2/users/user_edit.html:59
+#: kuma/users/jinja2/users/user_edit.html:58
 msgid "Edit email"
 msgstr "Изменить электронную почту"
 
 #: kuma/users/jinja2/users/user_edit.html:72
-msgid "Interests (tags)"
-msgstr "Интересы (метки)"
-
-#: kuma/users/jinja2/users/user_edit.html:73
-msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
-msgstr "Разделяйте метки запятыми или пробелами. Метки, состоящие из нескольких слов заключайте в кавычки, например, \"веб стандарты\"."
-
-#: kuma/users/jinja2/users/user_edit.html:79
-msgid "Areas of expertise"
-msgstr "Экспертные области"
-
-#: kuma/users/jinja2/users/user_edit.html:80
-msgid "Add your interests first, then declare yourself an expert in selected topics."
-msgstr "Добавьте сначала свои интересы, а уже потом провозглашайте себя экспертом в выбранных темах."
-
-#: kuma/users/jinja2/users/user_edit.html:87
 msgid "Edit monthly subscription"
 msgstr "Изменить ежемесячную подписку"
 
-#: kuma/users/jinja2/users/user_edit.html:91
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "My Profiles"
 msgstr "Мои профили"
 
-#: kuma/users/jinja2/users/user_edit.html:113
-msgid "Use your GitHub account to sign in."
-msgstr "Используйте ваш GitHub аккаунт, чтобы войти."
-
-#: kuma/users/jinja2/users/user_edit.html:138 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+#: kuma/users/jinja2/users/user_edit.html:120 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Опубликовать"
 
-#: kuma/users/jinja2/users/user_edit.html:144
+#: kuma/users/jinja2/users/user_edit.html:126
 #, fuzzy
 msgid "Delete Account."
 msgstr "Удалить мой аккаунт"
 
-#: kuma/users/jinja2/users/user_edit.html:157
+#: kuma/users/jinja2/users/user_edit.html:139
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Управление моими новостными рассылками от Mozilla."
 
@@ -3108,6 +3081,10 @@ msgid ""
 "To cancel your subscription, please <a href=\"%(support_email)s\">contact support</a>. <br>If you have questions, please read the <a href=\"%(terms_url)s\">FAQ</a> or you can also contact support."
 msgstr ""
 
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75 kuma/wiki/jinja2/wiki/edit.html:191
+msgid "Tags"
+msgstr "Метки"
+
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
 msgstr "Уже обозначено как спам."
@@ -3132,37 +3109,33 @@ msgstr "Управление"
 msgid "API keys"
 msgstr "Ключи API"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:69
-msgid "Areas of Expertise"
-msgstr "Экспертные области"
-
-#: kuma/users/jinja2/users/includes/user_title_info.html:139
+#: kuma/users/jinja2/users/includes/user_title_info.html:113
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "Участник с %(date_joined)s"
 
-#: kuma/users/templatetags/jinja_helpers.py:47
+#: kuma/users/templatetags/jinja_helpers.py:49
 #, python-format
 msgid "Banned on %(ban_date)s by %(ban_admin)s."
 msgstr "Заблокировал %(ban_admin)s %(ban_date)s."
 
-#: kuma/users/templatetags/jinja_helpers.py:56
+#: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Banned"
 msgstr "Заблокирован"
 
-#: kuma/users/templatetags/jinja_helpers.py:61
+#: kuma/users/templatetags/jinja_helpers.py:63
 msgid "Clean Up Revisions"
 msgstr "Удалить ревизии"
 
-#: kuma/users/templatetags/jinja_helpers.py:68
+#: kuma/users/templatetags/jinja_helpers.py:70
 msgid "Ban User"
 msgstr "Заблокировать пользователя"
 
-#: kuma/users/templatetags/jinja_helpers.py:73
+#: kuma/users/templatetags/jinja_helpers.py:75
 msgid "Ban User & Clean Up"
 msgstr "Заблокировать пользователя и прибраться"
 
-#: kuma/users/templatetags/jinja_helpers.py:87
+#: kuma/users/templatetags/jinja_helpers.py:89
 msgid "Admin"
 msgstr "Админ"
 
@@ -3424,134 +3397,134 @@ msgstr "Новый url:"
 msgid "New article URL"
 msgstr "Новый URL статьи"
 
-#: kuma/wiki/models.py:111
+#: kuma/wiki/models.py:112
 #, python-format
 msgid "Parent %s does not exist."
 msgstr "Родитель %s не существует."
 
-#: kuma/wiki/models.py:122
+#: kuma/wiki/models.py:123
 msgid "Document Tag"
 msgstr "Метка"
 
-#: kuma/wiki/models.py:123
+#: kuma/wiki/models.py:124
 msgid "Document Tags"
 msgstr "Метки документа"
 
-#: kuma/wiki/models.py:179
+#: kuma/wiki/models.py:180
 msgid "uploaded to the document"
 msgstr "выгружено в документ"
 
-#: kuma/wiki/models.py:184
+#: kuma/wiki/models.py:185
 msgid "linked in the document content"
 msgstr "прикреплено к содержимому документа"
 
-#: kuma/wiki/models.py:198
+#: kuma/wiki/models.py:199
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Вложение %(attachment_id)s не может быть присоединено несколько раз к документу %(document_id)s"
 
-#: kuma/wiki/models.py:1622
+#: kuma/wiki/models.py:1624
 msgid "Review Tag"
 msgstr "Просмотреть метку"
 
-#: kuma/wiki/models.py:1623
+#: kuma/wiki/models.py:1625
 msgid "Review Tags"
 msgstr "Просмотреть тэги"
 
-#: kuma/wiki/models.py:1630
+#: kuma/wiki/models.py:1632
 msgid "Localization Tag"
 msgstr "Тэг локализации"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1633
 msgid "Localization Tags"
 msgstr "Тэги локализации"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1677
 msgid "No table of contents"
 msgstr "Нет содержания"
 
-#: kuma/wiki/models.py:1676
+#: kuma/wiki/models.py:1678
 msgid "All levels"
 msgstr "Все уровни"
 
-#: kuma/wiki/models.py:1677
+#: kuma/wiki/models.py:1679
 msgid "H2 and higher"
 msgstr "H2 и выше"
 
-#: kuma/wiki/models.py:1678
+#: kuma/wiki/models.py:1680
 msgid "H3 and higher"
 msgstr "H3 и выше"
 
-#: kuma/wiki/models.py:1679
+#: kuma/wiki/models.py:1681
 msgid "H4 and higher"
 msgstr "H4 и выше"
 
-#: kuma/wiki/models.py:1790
+#: kuma/wiki/models.py:1792
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Ревизия должна основываться на ревизии документа с локалью %(locale)s. ID ревизии %(id)s не подходит по этому критерию."
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1930
 msgid "IP address"
 msgstr "IP адрес"
 
-#: kuma/wiki/models.py:1935
+#: kuma/wiki/models.py:1937
 msgid "User-Agent"
 msgstr "Браузер"
 
-#: kuma/wiki/models.py:1936
+#: kuma/wiki/models.py:1938
 msgid "HTTP Referrer"
 msgstr "HTTP реферер"
 
-#: kuma/wiki/models.py:1941 kuma/wiki/models.py:2021
+#: kuma/wiki/models.py:1943 kuma/wiki/models.py:2023
 msgid "Data submitted to Akismet"
 msgstr "Данные, отправленные в Akismet"
 
-#: kuma/wiki/models.py:1967
+#: kuma/wiki/models.py:1969
 msgid "Akismet submission"
 msgstr "Представление Akismet"
 
-#: kuma/wiki/models.py:1968
+#: kuma/wiki/models.py:1970
 msgid "Akismet submissions"
 msgstr "Представления Akismet"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2010
 msgid "Slug"
 msgstr "Url"
 
-#: kuma/wiki/models.py:2014 kuma/wiki/models.py:2063
+#: kuma/wiki/models.py:2016 kuma/wiki/models.py:2065
 msgid "Document (optional)"
 msgstr "Документ (необязательно)"
 
-#: kuma/wiki/models.py:2023
+#: kuma/wiki/models.py:2025
 msgid "reviewed"
 msgstr "проверено"
 
-#: kuma/wiki/models.py:2031
+#: kuma/wiki/models.py:2033
 msgid "Needs Review"
 msgstr "Требует проверки"
 
-#: kuma/wiki/models.py:2032
+#: kuma/wiki/models.py:2034
 msgid "Ham / False Positive"
 msgstr "Не спам / Ложное срабатывание"
 
-#: kuma/wiki/models.py:2033
+#: kuma/wiki/models.py:2035
 msgid "Confirmed as Spam"
 msgstr "Подтверждённый спам"
 
-#: kuma/wiki/models.py:2034
+#: kuma/wiki/models.py:2036
 msgid "Review Unavailable"
 msgstr "Проверка недоступна"
 
-#: kuma/wiki/models.py:2035
+#: kuma/wiki/models.py:2037
 msgid "Akismet Error"
 msgstr "Ошибка Akismet"
 
-#: kuma/wiki/models.py:2040
+#: kuma/wiki/models.py:2042
 msgid "Review of Akismet's classification as spam"
 msgstr "Проверка определения как спама с помощью Akismet"
 
-#: kuma/wiki/models.py:2047
+#: kuma/wiki/models.py:2049
 msgid "Staff reviewer"
 msgstr "Штатный редактор"
 
@@ -3861,7 +3834,7 @@ msgstr "Получайте удовольствие и гордитесь сво
 msgid "Learn how to tag an article"
 msgstr "Узнайте, как добавить метки к статье"
 
-#: kuma/wiki/jinja2/wiki/edit.html:197 kuma/wiki/jinja2/wiki/translate.html:120
+#: kuma/wiki/jinja2/wiki/edit.html:197 kuma/wiki/jinja2/wiki/translate.html:132
 #, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Read the Tagging Guide</a>."
 msgstr "Категоризируйте статью. Это сделает статью находимой через правильные фильтры в поисковом движке. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Прочитайте руководство по меткам</a>."
@@ -4026,60 +3999,65 @@ msgstr "Перевод статьи | %(document)s"
 msgid "Translating article to %(locale)s"
 msgstr "Перевод статьи на %(locale)s"
 
-#: kuma/wiki/jinja2/wiki/translate.html:49
+#: kuma/wiki/jinja2/wiki/translate.html:37
+#, python-format
+msgid "<b>Note!</b> The <a href=\"%(parent_url)s\">parent document</a> is deleted."
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/translate.html:61
 msgid "Translate Content"
 msgstr "Перевод содержимого"
 
-#: kuma/wiki/jinja2/wiki/translate.html:89
+#: kuma/wiki/jinja2/wiki/translate.html:101
 #, python-format
 msgid "Approved %(locale)s version:"
 msgstr "Утверждённая %(locale)s версия:"
 
-#: kuma/wiki/jinja2/wiki/translate.html:91
+#: kuma/wiki/jinja2/wiki/translate.html:103
 msgid "View Rendered"
 msgstr "Нормальный вид"
 
-#: kuma/wiki/jinja2/wiki/translate.html:91
+#: kuma/wiki/jinja2/wiki/translate.html:103
 msgid "View Source"
 msgstr "Смотреть исходник"
 
-#: kuma/wiki/jinja2/wiki/translate.html:92
+#: kuma/wiki/jinja2/wiki/translate.html:104
 #, python-format
 msgid "Show %(locale)s"
 msgstr "Показать %(locale)s"
 
-#: kuma/wiki/jinja2/wiki/translate.html:92
+#: kuma/wiki/jinja2/wiki/translate.html:104
 #, python-format
 msgid "Hide %(locale)s"
 msgstr "Скрыть %(locale)s"
 
-#: kuma/wiki/jinja2/wiki/translate.html:104
+#: kuma/wiki/jinja2/wiki/translate.html:116
 #, python-format
 msgid "%(locale)s translation:"
 msgstr "Перевод на %(locale)s:"
 
-#: kuma/wiki/jinja2/wiki/translate.html:117
+#: kuma/wiki/jinja2/wiki/translate.html:129
 msgid "Translate Tags"
 msgstr "Перевод ключевых слов"
 
-#: kuma/wiki/jinja2/wiki/translate.html:126
+#: kuma/wiki/jinja2/wiki/translate.html:138
 msgid "English tags"
 msgstr "Английские метки"
 
-#: kuma/wiki/jinja2/wiki/translate.html:138
+#: kuma/wiki/jinja2/wiki/translate.html:150
 msgid "This document has no tags."
 msgstr "Данный документ не имеет меток."
 
-#: kuma/wiki/jinja2/wiki/translate.html:145
+#: kuma/wiki/jinja2/wiki/translate.html:157
 #, python-format
 msgid "%(locale)s tags"
 msgstr "Русские метки"
 
-#: kuma/wiki/jinja2/wiki/translate.html:152
+#: kuma/wiki/jinja2/wiki/translate.html:164
 msgid "Version Notes"
 msgstr "Примечания к версии"
 
-#: kuma/wiki/jinja2/wiki/translate.html:154
+#: kuma/wiki/jinja2/wiki/translate.html:166
 msgid "Localization flags"
 msgstr "Флаги локализации"
 
@@ -4588,11 +4566,11 @@ msgstr "Разделы могут редактироваться только п
 msgid "Autosuggest requires a partial title. For a full document index, see the main page."
 msgstr "Автоподстановка требует частичного указания заголовка. Полный индекс документа смотрите на главной странице."
 
-#: kuma/wiki/views/revision.py:172
+#: kuma/wiki/views/revision.py:173
 msgid "Document has been edited; please re-review."
 msgstr "Статья была отредактирована, пожалуйста, перепроверьте."
 
-#: kuma/wiki/views/translate.py:88
+#: kuma/wiki/views/translate.py:94
 msgid "You cannot translate this document."
 msgstr "Вы не можете переводить эту статью."
 
@@ -4600,6 +4578,33 @@ msgstr "Вы не можете переводить эту статью."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сервер Elasticsearch: %(backend)s"
+
+#~ msgid "Interests"
+#~ msgstr "Интересы"
+
+#~ msgid "Expertise"
+#~ msgstr "Эксперт в"
+
+#~ msgid "Areas of expertise must be a subset of interests"
+#~ msgstr "Вы должны быть экспертом в области, входящей в область интересов"
+
+#~ msgid "Interests (tags)"
+#~ msgstr "Интересы (метки)"
+
+#~ msgid "Separate tags with commas or spaces. Join multi-word tags with double quotes, like \"web standards\"."
+#~ msgstr "Разделяйте метки запятыми или пробелами. Метки, состоящие из нескольких слов заключайте в кавычки, например, \"веб стандарты\"."
+
+#~ msgid "Areas of expertise"
+#~ msgstr "Экспертные области"
+
+#~ msgid "Add your interests first, then declare yourself an expert in selected topics."
+#~ msgstr "Добавьте сначала свои интересы, а уже потом провозглашайте себя экспертом в выбранных темах."
+
+#~ msgid "Use your GitHub account to sign in."
+#~ msgstr "Используйте ваш GitHub аккаунт, чтобы войти."
+
+#~ msgid "Areas of Expertise"
+#~ msgstr "Экспертные области"
 
 #~ msgid "Keep my attribution for my page changes; delete my email address and freeze my account so I can't ever log in again."
 #~ msgstr "Оставить мой вклад, удалить мой адрес электронной почты и заморозить мой аккаунт, чтобы я никогда не смог войти в него снова."
