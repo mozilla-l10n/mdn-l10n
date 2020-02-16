@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-02-13 14:27-0800\n"
-"PO-Revision-Date: 2020-02-16 09:11+0000\n"
+"PO-Revision-Date: 2020-02-16 09:18+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: Swedish https://pontoon.mozilla.org/sv_SE/\n"
 "Language: sv_SE\n"
@@ -82,7 +82,7 @@ msgstr "Den här användarens profil har blivit bannlyst."
 #: jinja2/404.html:39
 #, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a> to try again.</p>"
-msgstr ""
+msgstr "<p><a href=\"%(login_url)s\">Logga in</a> för att försöka igen.</p>"
 
 #: jinja2/404.html:47
 #, python-format
@@ -2111,11 +2111,11 @@ msgstr "E-post"
 
 #: kuma/users/forms.py:211
 msgid "Keep my attribution for my page changes"
-msgstr ""
+msgstr "Behåll min attribution för mina sidförändringar"
 
 #: kuma/users/forms.py:214
 msgid "Switch my attribution for my page changes to \"Anonymous\""
-msgstr ""
+msgstr "Ändra mitt attribut för mina sidändringar till \"Anonym\""
 
 #: kuma/users/models.py:37
 #, python-format
@@ -2332,7 +2332,7 @@ msgstr "För att bidra måste du logga in på MDN. Du kan logga in med GitHub s�
 #: kuma/users/jinja2/account/login.html:40
 #, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
-msgstr ""
+msgstr "<p><a href=\"%(login_url)s\">Logga in</a></p>"
 
 #: kuma/users/jinja2/account/logout.html:3 kuma/users/jinja2/account/logout.html:8 kuma/users/jinja2/account/logout.html:17
 msgid "Sign Out"
@@ -2970,7 +2970,7 @@ msgstr "Du kan hitta MDN författar admins där: Eric Shepherd (sheppy), Will Ba
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
 msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
-msgstr ""
+msgstr "Om du tar bort ditt konto förlorar du dina inställningar och gör ditt användarnamn tillgängligt för andra att använda."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:8 kuma/users/jinja2/users/includes/delete-user-content.html:14 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
 msgid "Are you sure you want to continue?"
@@ -2978,11 +2978,11 @@ msgstr "Är du säker på att du vill fortsätta?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:10
 msgid "Deleting your account loses any preferences you have set."
-msgstr ""
+msgstr "Om du tar bort ditt konto förlorar du dina inställningar."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:11
 msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes"
-msgstr ""
+msgstr "Även om vi kan ta bort ditt konto kommer alla ändringar du har gjort på sidor på MDN att vara kvar. Välj hur du vill att vi ska hantera tillskrivningen för dina ändringar"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18
 msgid "Yes, Delete my Account"
@@ -3002,7 +3002,7 @@ msgstr "Stripe-fel"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:20
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
-msgstr ""
+msgstr "Ett fel uppstod när man prenumererade på Stripes server. Vi har registrerat felet och kommer att undersöka det."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:26
 msgid "Be a part of making MDN even better. You'll get back more of the knowledge and tools you rely on for when your work has to work."
@@ -3010,7 +3010,7 @@ msgstr "Var en del av att göra MDN ännu bättre. I gengäld får du mer kunska
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:30
 msgid "$5 billed every month."
-msgstr ""
+msgstr "$5 faktureras varje månad."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:30
 msgid "Cancel any time."
@@ -3022,6 +3022,8 @@ msgid ""
 "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Payment Terms</a>, until I cancel my "
 "subscription."
 msgstr ""
+"Genom att klicka på den här knappen godkänner jag att Mozilla debiterar denna betalningsmetod varje månad enligt <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">betalningsvillkoren</a>, tills"
+" jag avbryter min prenumeration."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:42
 msgid "Continue"
@@ -3034,17 +3036,17 @@ msgstr "Du hjälper MDN att växa"
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
 #, python-format
 msgid "Next payment of $5 (monthly) occurs on %(date)s"
-msgstr ""
+msgstr "Nästa betalning på $5 (månadsvis) sker den %(date)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:60
 #, python-format
 msgid "%(brand)s ending in %(last4)s"
-msgstr ""
+msgstr "%(brand)s slutar om %(last4)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:61
 #, python-format
 msgid "expires %(expires_at)s"
-msgstr ""
+msgstr "upphör %(expires_at)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:62
 #, python-format
@@ -3055,6 +3057,8 @@ msgstr "Postnummer: %(zip)s"
 #, python-format
 msgid "To cancel your subscription, please <a href=\"%(support_email)s\">contact support</a>. <br>If you have questions, please read the <a href=\"%(terms_url)s\">FAQ</a> or you can also contact support."
 msgstr ""
+"Om du vill avbryta din prenumeration, vänligen <a href=\"%(support_email)s\">kontakta supporten</a>.<br>Om du har frågor, läs <a href=\"%(terms_url)s\">FAQ</a> eller så kan du också kontakta "
+"supporten."
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:28 kuma/wiki/jinja2/wiki/create.html:75 kuma/wiki/jinja2/wiki/edit.html:191
 msgid "Tags"
@@ -3976,7 +3980,7 @@ msgstr "Översätter artikel till %(locale)s"
 #: kuma/wiki/jinja2/wiki/translate.html:37
 #, python-format
 msgid "<b>Note!</b> The <a href=\"%(parent_url)s\">parent document</a> is deleted."
-msgstr ""
+msgstr "<b>Obs!</b><a href=\"%(parent_url)s\">Överordnat dokument</a> borttaget."
 
 #: kuma/wiki/jinja2/wiki/translate.html:61
 msgid "Translate Content"
