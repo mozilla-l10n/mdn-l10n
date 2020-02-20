@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-02-13 14:27-0800\n"
+"POT-Creation-Date: 2020-02-20 14:19-0800\n"
 "PO-Revision-Date: 2019-09-23 03:12+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -902,16 +902,6 @@ msgstr "설문 참여"
 msgid "Core"
 msgstr "코어"
 
-#: kuma/core/form_fields.py:57
-#, python-format
-msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr "이 값은 최소 %(limit_value)s자 이상이어야 합니다(현재 %(show_value)s 자)."
-
-#: kuma/core/form_fields.py:64
-#, python-format
-msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr "이 값은 최대 %(limit_value)s 자까지 입력 가능합니다(현재 %(show_value)s 자)."
-
 #: kuma/core/utils.py:398
 #, python-format
 msgid "Today at %s"
@@ -925,68 +915,68 @@ msgstr "네"
 msgid "No"
 msgstr "아니오"
 
-#: kuma/dashboards/forms.py:8
+#: kuma/dashboards/forms.py:7
 msgid "All Locales"
 msgstr "모든 지역"
 
 # 100%
-#: kuma/dashboards/forms.py:10
+#: kuma/dashboards/forms.py:9
 msgid "None"
 msgstr "없음"
 
-#: kuma/dashboards/forms.py:11
+#: kuma/dashboards/forms.py:10
 msgid "Hour"
 msgstr "시"
 
-#: kuma/dashboards/forms.py:12
+#: kuma/dashboards/forms.py:11
 msgid "Day"
 msgstr "일"
 
-#: kuma/dashboards/forms.py:13
+#: kuma/dashboards/forms.py:12
 msgid "Week"
 msgstr "주"
 
-#: kuma/dashboards/forms.py:14
+#: kuma/dashboards/forms.py:13
 msgid "30 days"
 msgstr "30일"
 
-#: kuma/dashboards/forms.py:23
+#: kuma/dashboards/forms.py:22
 msgid "All Authors"
 msgstr "모든 저자"
 
-#: kuma/dashboards/forms.py:24
+#: kuma/dashboards/forms.py:23
 msgid "Known Authors"
 msgstr "알려진 저자"
 
-#: kuma/dashboards/forms.py:25
+#: kuma/dashboards/forms.py:24
 msgid "Unknown Authors"
 msgstr "알 수 없는 저자"
 
-#: kuma/dashboards/forms.py:33 kuma/dashboards/jinja2/dashboards/revisions.html:25
+#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:25
 msgid "Locale:"
 msgstr "지역:"
 
-#: kuma/dashboards/forms.py:36 kuma/dashboards/jinja2/dashboards/revisions.html:30
+#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:30
 msgid "User:"
 msgstr "사용자:"
 
-#: kuma/dashboards/forms.py:39 kuma/dashboards/jinja2/dashboards/revisions.html:35
+#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:35
 msgid "Topic:"
 msgstr "주제:"
 
-#: kuma/dashboards/forms.py:43 kuma/dashboards/jinja2/dashboards/revisions.html:41
+#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:41
 msgid "Start Date:"
 msgstr "시작일:"
 
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:46
+#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:46
 msgid "End Date:"
 msgstr "종료일:"
 
-#: kuma/dashboards/forms.py:54 kuma/dashboards/jinja2/dashboards/revisions.html:51
+#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:51
 msgid "Preceding Period:"
 msgstr "이전 기간:"
 
-#: kuma/dashboards/forms.py:57
+#: kuma/dashboards/forms.py:52
 msgid "Authors"
 msgstr "저자"
 
@@ -2064,7 +2054,7 @@ msgstr "이메일 주소는 사용자 이름으로 사용할 수 없습니다."
 msgid "The username you entered already exists."
 msgstr "입력하신 사용자 이름이 이미 사용중입니다."
 
-#: kuma/users/apps.py:14
+#: kuma/users/apps.py:17
 msgid "User"
 msgstr "사용자"
 
@@ -2121,11 +2111,12 @@ msgstr "이미 사용 중인 사용자 이름입니다."
 msgid "Email"
 msgstr "메일 주소"
 
-#: kuma/users/forms.py:211
-msgid "Keep my attribution for my page changes"
-msgstr ""
+#: kuma/users/forms.py:212
+#, fuzzy, python-format
+msgid "Keep my attribution for my page changes (%(username)s)"
+msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:215
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
@@ -2246,15 +2237,15 @@ msgstr "GitHub 프로필 URL을 공개하고 싶습니다"
 msgid "Getting started with your new MDN account"
 msgstr "웹 시작하기"
 
-#: kuma/users/views.py:594
+#: kuma/users/views.py:600
 msgid "Email address"
 msgstr "이메일 주소"
 
-#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:665
+#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:671
 msgid "Other:"
 msgstr "또 다른 것들:"
 
-#: kuma/users/views.py:667
+#: kuma/users/views.py:673
 msgid "Email:"
 msgstr "이메일:"
 
@@ -3000,20 +2991,20 @@ msgid ""
 msgstr "MDN 문서 작성 관리자들 입니다: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills)과 MDN 커뮤니티 매니저인 저 (jswisher) 입니다."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
-msgstr ""
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:8 kuma/users/jinja2/users/includes/delete-user-content.html:14 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
-msgid "Are you sure you want to continue?"
-msgstr "계속 하시겠습니까?"
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:10
 msgid "Deleting your account loses any preferences you have set."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/delete-user-content.html:11
-msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes"
+#: kuma/users/jinja2/users/includes/delete-user-content.html:8
+msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes."
 msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:12
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:15 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
+msgid "Are you sure you want to continue?"
+msgstr "계속 하시겠습니까?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18
 #, fuzzy
@@ -4603,6 +4594,12 @@ msgstr "이 문서를 번역할 수 없습니다."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
+
+#~ msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
+#~ msgstr "이 값은 최소 %(limit_value)s자 이상이어야 합니다(현재 %(show_value)s 자)."
+
+#~ msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
+#~ msgstr "이 값은 최대 %(limit_value)s 자까지 입력 가능합니다(현재 %(show_value)s 자)."
 
 #~ msgid "Interests"
 #~ msgstr "관심사"

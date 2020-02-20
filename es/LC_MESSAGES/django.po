@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-02-13 14:27-0800\n"
+"POT-Creation-Date: 2020-02-20 14:19-0800\n"
 "PO-Revision-Date: 2019-12-22 18:58+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: Spanish https://pontoon.mozilla.org/es/\n"
@@ -892,16 +892,6 @@ msgstr "Rellenar encuesta"
 msgid "Core"
 msgstr "Núcleo"
 
-#: kuma/core/form_fields.py:57
-#, python-format
-msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr "Asegúrate de que este valor tenga %(limit_value)s caracteres como mínimo (tiene %(show_value)s)."
-
-#: kuma/core/form_fields.py:64
-#, python-format
-msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr "Asegúrate de que este valor tenga %(limit_value)s caracteres como máximo (tiene %(show_value)s)."
-
 #: kuma/core/utils.py:398
 #, python-format
 msgid "Today at %s"
@@ -915,67 +905,67 @@ msgstr "Sí"
 msgid "No"
 msgstr "No"
 
-#: kuma/dashboards/forms.py:8
+#: kuma/dashboards/forms.py:7
 msgid "All Locales"
 msgstr "Todos los idiomas"
 
-#: kuma/dashboards/forms.py:10
+#: kuma/dashboards/forms.py:9
 msgid "None"
 msgstr "Ninguno"
 
-#: kuma/dashboards/forms.py:11
+#: kuma/dashboards/forms.py:10
 msgid "Hour"
 msgstr "Hora"
 
-#: kuma/dashboards/forms.py:12
+#: kuma/dashboards/forms.py:11
 msgid "Day"
 msgstr "Día"
 
-#: kuma/dashboards/forms.py:13
+#: kuma/dashboards/forms.py:12
 msgid "Week"
 msgstr "Semana"
 
-#: kuma/dashboards/forms.py:14
+#: kuma/dashboards/forms.py:13
 msgid "30 days"
 msgstr "30 días"
 
-#: kuma/dashboards/forms.py:23
+#: kuma/dashboards/forms.py:22
 msgid "All Authors"
 msgstr "Todos los autores"
 
-#: kuma/dashboards/forms.py:24
+#: kuma/dashboards/forms.py:23
 msgid "Known Authors"
 msgstr "Autores conocidos"
 
-#: kuma/dashboards/forms.py:25
+#: kuma/dashboards/forms.py:24
 msgid "Unknown Authors"
 msgstr "Autores no conocidos"
 
-#: kuma/dashboards/forms.py:33 kuma/dashboards/jinja2/dashboards/revisions.html:25
+#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:25
 msgid "Locale:"
 msgstr "Idioma:"
 
-#: kuma/dashboards/forms.py:36 kuma/dashboards/jinja2/dashboards/revisions.html:30
+#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:30
 msgid "User:"
 msgstr "Usuario:"
 
-#: kuma/dashboards/forms.py:39 kuma/dashboards/jinja2/dashboards/revisions.html:35
+#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:35
 msgid "Topic:"
 msgstr "Tema:"
 
-#: kuma/dashboards/forms.py:43 kuma/dashboards/jinja2/dashboards/revisions.html:41
+#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:41
 msgid "Start Date:"
 msgstr "Fecha de inicio:"
 
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:46
+#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:46
 msgid "End Date:"
 msgstr "Fecha final:"
 
-#: kuma/dashboards/forms.py:54 kuma/dashboards/jinja2/dashboards/revisions.html:51
+#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:51
 msgid "Preceding Period:"
 msgstr "Periodo anterior:"
 
-#: kuma/dashboards/forms.py:57
+#: kuma/dashboards/forms.py:52
 msgid "Authors"
 msgstr "Autores"
 
@@ -2076,7 +2066,7 @@ msgstr "No se puede utilizar una dirección de correo como nombre de usuario."
 msgid "The username you entered already exists."
 msgstr "El nombre de usuario que usaste ya existe."
 
-#: kuma/users/apps.py:14
+#: kuma/users/apps.py:17
 msgid "User"
 msgstr "Usuario"
 
@@ -2134,11 +2124,12 @@ msgstr "Ya existe el nombre de usuario."
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: kuma/users/forms.py:211
-msgid "Keep my attribution for my page changes"
-msgstr ""
+#: kuma/users/forms.py:212
+#, fuzzy, python-format
+msgid "Keep my attribution for my page changes (%(username)s)"
+msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:215
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
@@ -2255,15 +2246,15 @@ msgstr "Me gustaría que mi la URL de mi perfil de GitHub fuera pública"
 msgid "Getting started with your new MDN account"
 msgstr "Introducción a tu nueva cuenta MDN"
 
-#: kuma/users/views.py:594
+#: kuma/users/views.py:600
 msgid "Email address"
 msgstr "Dirección de correo electrónico"
 
-#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:665
+#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:671
 msgid "Other:"
 msgstr "Otro:"
 
-#: kuma/users/views.py:667
+#: kuma/users/views.py:673
 msgid "Email:"
 msgstr "Correo electrónico:"
 
@@ -3007,20 +2998,20 @@ msgid ""
 msgstr "Estos son los administradores de edición de MDN: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) y yo (jswisher), community manager de MDN."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
-msgstr ""
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:8 kuma/users/jinja2/users/includes/delete-user-content.html:14 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
-msgid "Are you sure you want to continue?"
-msgstr "¿Seguro que deseas continuar?"
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:10
 msgid "Deleting your account loses any preferences you have set."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/delete-user-content.html:11
-msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes"
+#: kuma/users/jinja2/users/includes/delete-user-content.html:8
+msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes."
 msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:12
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:15 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
+msgid "Are you sure you want to continue?"
+msgstr "¿Seguro que deseas continuar?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18
 #, fuzzy
@@ -4626,6 +4617,12 @@ msgstr "No puedes traducir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor de Elasticsearch: %(backend)s"
+
+#~ msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
+#~ msgstr "Asegúrate de que este valor tenga %(limit_value)s caracteres como mínimo (tiene %(show_value)s)."
+
+#~ msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
+#~ msgstr "Asegúrate de que este valor tenga %(limit_value)s caracteres como máximo (tiene %(show_value)s)."
 
 #~ msgid "Interests"
 #~ msgstr "Intereses"

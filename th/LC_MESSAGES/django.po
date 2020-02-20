@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-02-13 14:27-0800\n"
+"POT-Creation-Date: 2020-02-20 14:19-0800\n"
 "PO-Revision-Date: 2019-12-10 00:36+0000\n"
 "Last-Translator: nuttapong2539 <nuttapong2539@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
@@ -869,16 +869,6 @@ msgstr "ทำแบบสำรวจให้เสร็จสมบูรณ
 msgid "Core"
 msgstr "แกน"
 
-#: kuma/core/form_fields.py:57
-#, python-format
-msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr ""
-
-#: kuma/core/form_fields.py:64
-#, python-format
-msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr ""
-
 #: kuma/core/utils.py:398
 #, python-format
 msgid "Today at %s"
@@ -892,67 +882,67 @@ msgstr "ใช่"
 msgid "No"
 msgstr "ไม่"
 
-#: kuma/dashboards/forms.py:8
+#: kuma/dashboards/forms.py:7
 msgid "All Locales"
 msgstr "ภาษาทั้งหมด"
 
-#: kuma/dashboards/forms.py:10
+#: kuma/dashboards/forms.py:9
 msgid "None"
 msgstr "ไม่มี"
 
-#: kuma/dashboards/forms.py:11
+#: kuma/dashboards/forms.py:10
 msgid "Hour"
 msgstr "ชั่วโมง"
 
-#: kuma/dashboards/forms.py:12
+#: kuma/dashboards/forms.py:11
 msgid "Day"
 msgstr "วัน"
 
-#: kuma/dashboards/forms.py:13
+#: kuma/dashboards/forms.py:12
 msgid "Week"
 msgstr "สัปดาห์"
 
-#: kuma/dashboards/forms.py:14
+#: kuma/dashboards/forms.py:13
 msgid "30 days"
 msgstr "30 วัน"
 
-#: kuma/dashboards/forms.py:23
+#: kuma/dashboards/forms.py:22
 msgid "All Authors"
 msgstr "ผู้เขียนทั้งหมด"
 
-#: kuma/dashboards/forms.py:24
+#: kuma/dashboards/forms.py:23
 msgid "Known Authors"
 msgstr "ผู้เขียนที่รู้จัก"
 
-#: kuma/dashboards/forms.py:25
+#: kuma/dashboards/forms.py:24
 msgid "Unknown Authors"
 msgstr "ผู้เขียนที่ไม่รู้จัก"
 
-#: kuma/dashboards/forms.py:33 kuma/dashboards/jinja2/dashboards/revisions.html:25
+#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:25
 msgid "Locale:"
 msgstr "ภาษา:"
 
-#: kuma/dashboards/forms.py:36 kuma/dashboards/jinja2/dashboards/revisions.html:30
+#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:30
 msgid "User:"
 msgstr "ผู้ใช้:"
 
-#: kuma/dashboards/forms.py:39 kuma/dashboards/jinja2/dashboards/revisions.html:35
+#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:35
 msgid "Topic:"
 msgstr "หัวข้อ:"
 
-#: kuma/dashboards/forms.py:43 kuma/dashboards/jinja2/dashboards/revisions.html:41
+#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:41
 msgid "Start Date:"
 msgstr "วันที่เริ่ม:"
 
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:46
+#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:46
 msgid "End Date:"
 msgstr "วันที่สิ้นสุด:"
 
-#: kuma/dashboards/forms.py:54 kuma/dashboards/jinja2/dashboards/revisions.html:51
+#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:51
 msgid "Preceding Period:"
 msgstr ""
 
-#: kuma/dashboards/forms.py:57
+#: kuma/dashboards/forms.py:52
 msgid "Authors"
 msgstr "ผู้เขียน"
 
@@ -2013,7 +2003,7 @@ msgstr "ที่อยู่อีเมลไม่สามารถใช้
 msgid "The username you entered already exists."
 msgstr "ชื่อผู้ใช้ที่คุณใส่มีอยู่แล้ว"
 
-#: kuma/users/apps.py:14
+#: kuma/users/apps.py:17
 msgid "User"
 msgstr "ผู้ใช้"
 
@@ -2071,11 +2061,12 @@ msgstr "ชื่อผู้ใช้นี้มีการใช้งาน
 msgid "Email"
 msgstr "อีเมล"
 
-#: kuma/users/forms.py:211
-msgid "Keep my attribution for my page changes"
+#: kuma/users/forms.py:212
+#, python-format
+msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr ""
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:215
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr ""
 
@@ -2192,16 +2183,16 @@ msgstr ""
 msgid "Getting started with your new MDN account"
 msgstr "เริ่มต้นกับเว็บ"
 
-#: kuma/users/views.py:594
+#: kuma/users/views.py:600
 msgid "Email address"
 msgstr "ที่อยู่อีเมล"
 
-#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:665
+#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:671
 msgid "Other:"
 msgstr "อื่น ๆ:"
 
 # 83%
-#: kuma/users/views.py:667
+#: kuma/users/views.py:673
 msgid "Email:"
 msgstr "อีเมล:"
 
@@ -2949,19 +2940,19 @@ msgid ""
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
-msgstr ""
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:8 kuma/users/jinja2/users/includes/delete-user-content.html:14 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
-msgid "Are you sure you want to continue?"
-msgstr ""
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:10
 msgid "Deleting your account loses any preferences you have set."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/delete-user-content.html:11
-msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes"
+#: kuma/users/jinja2/users/includes/delete-user-content.html:8
+msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:12
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:15 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
+msgid "Are you sure you want to continue?"
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18

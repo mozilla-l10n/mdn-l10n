@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-02-13 14:27-0800\n"
+"POT-Creation-Date: 2020-02-20 14:19-0800\n"
 "PO-Revision-Date: 2019-09-26 02:13+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -878,16 +878,6 @@ msgstr "Tham gia khảo sát"
 msgid "Core"
 msgstr "Core"
 
-#: kuma/core/form_fields.py:57
-#, python-format
-msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
-msgstr "Đảm bảo giá trị này có ít nhất %(limit_value)s kí tự (nó có %(show_value)s)."
-
-#: kuma/core/form_fields.py:64
-#, python-format
-msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
-msgstr "Đảm bảo giá trị này có nhiều nhất %(limit_value)s kí tự (nó có %(show_value)s)."
-
 #: kuma/core/utils.py:398
 #, python-format
 msgid "Today at %s"
@@ -901,67 +891,67 @@ msgstr "Có"
 msgid "No"
 msgstr "Không"
 
-#: kuma/dashboards/forms.py:8
+#: kuma/dashboards/forms.py:7
 msgid "All Locales"
 msgstr "Tất cả khu vực"
 
-#: kuma/dashboards/forms.py:10
+#: kuma/dashboards/forms.py:9
 msgid "None"
 msgstr "Không"
 
-#: kuma/dashboards/forms.py:11
+#: kuma/dashboards/forms.py:10
 msgid "Hour"
 msgstr "Giờ"
 
-#: kuma/dashboards/forms.py:12
+#: kuma/dashboards/forms.py:11
 msgid "Day"
 msgstr "Ngày"
 
-#: kuma/dashboards/forms.py:13
+#: kuma/dashboards/forms.py:12
 msgid "Week"
 msgstr "Tuần"
 
-#: kuma/dashboards/forms.py:14
+#: kuma/dashboards/forms.py:13
 msgid "30 days"
 msgstr "30 ngày"
 
-#: kuma/dashboards/forms.py:23
+#: kuma/dashboards/forms.py:22
 msgid "All Authors"
 msgstr "Tất cả các tác giả"
 
-#: kuma/dashboards/forms.py:24
+#: kuma/dashboards/forms.py:23
 msgid "Known Authors"
 msgstr "Tác giả đã biết"
 
-#: kuma/dashboards/forms.py:25
+#: kuma/dashboards/forms.py:24
 msgid "Unknown Authors"
 msgstr "Tác giả chưa biết"
 
-#: kuma/dashboards/forms.py:33 kuma/dashboards/jinja2/dashboards/revisions.html:25
+#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:25
 msgid "Locale:"
 msgstr "Khu vực:"
 
-#: kuma/dashboards/forms.py:36 kuma/dashboards/jinja2/dashboards/revisions.html:30
+#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:30
 msgid "User:"
 msgstr "Người dùng:"
 
-#: kuma/dashboards/forms.py:39 kuma/dashboards/jinja2/dashboards/revisions.html:35
+#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:35
 msgid "Topic:"
 msgstr "Chủ đề:"
 
-#: kuma/dashboards/forms.py:43 kuma/dashboards/jinja2/dashboards/revisions.html:41
+#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:41
 msgid "Start Date:"
 msgstr "Ngày bắt đầu:"
 
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:46
+#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:46
 msgid "End Date:"
 msgstr "Ngày kết thúc:"
 
-#: kuma/dashboards/forms.py:54 kuma/dashboards/jinja2/dashboards/revisions.html:51
+#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:51
 msgid "Preceding Period:"
 msgstr "Giai đoạn trước:"
 
-#: kuma/dashboards/forms.py:57
+#: kuma/dashboards/forms.py:52
 msgid "Authors"
 msgstr "Tác giả"
 
@@ -2043,7 +2033,7 @@ msgstr "Một địa chỉ email không thể được sử dụng làm tên ng�
 msgid "The username you entered already exists."
 msgstr "Tên người dùng bạn đã nhập đã tồn tại."
 
-#: kuma/users/apps.py:14
+#: kuma/users/apps.py:17
 msgid "User"
 msgstr "Người dùng"
 
@@ -2099,11 +2089,12 @@ msgstr "Tên đăng nhập đã được sử dụng."
 msgid "Email"
 msgstr "Email"
 
-#: kuma/users/forms.py:211
-msgid "Keep my attribution for my page changes"
-msgstr ""
+#: kuma/users/forms.py:212
+#, fuzzy, python-format
+msgid "Keep my attribution for my page changes (%(username)s)"
+msgstr "Chuyển tất cả các bản phân phối của tôi để thay đổi trang thành \"vô danh\" và xóa tài khoản của tôi."
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:215
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Chuyển tất cả các bản phân phối của tôi để thay đổi trang thành \"vô danh\" và xóa tài khoản của tôi."
@@ -2220,15 +2211,15 @@ msgstr "Tôi muốn công khai URL hồ sơ GitHub của mình"
 msgid "Getting started with your new MDN account"
 msgstr ""
 
-#: kuma/users/views.py:594
+#: kuma/users/views.py:600
 msgid "Email address"
 msgstr "Địa chỉ email"
 
-#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:665
+#: kuma/users/jinja2/socialaccount/includes/email_choices.html:9 kuma/users/views.py:671
 msgid "Other:"
 msgstr "Khác:"
 
-#: kuma/users/views.py:667
+#: kuma/users/views.py:673
 msgid "Email:"
 msgstr "Email:"
 
@@ -2965,20 +2956,20 @@ msgid ""
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
-msgstr ""
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:8 kuma/users/jinja2/users/includes/delete-user-content.html:14 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
-msgid "Are you sure you want to continue?"
-msgstr "Bạn có chắc chắn muốn tiếp tục?"
-
-#: kuma/users/jinja2/users/includes/delete-user-content.html:10
 msgid "Deleting your account loses any preferences you have set."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/delete-user-content.html:11
-msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes"
+#: kuma/users/jinja2/users/includes/delete-user-content.html:8
+msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes."
 msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:12
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/delete-user-content.html:15 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
+msgid "Are you sure you want to continue?"
+msgstr "Bạn có chắc chắn muốn tiếp tục?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18
 #, fuzzy
@@ -4531,6 +4522,12 @@ msgstr "Bạn không thể dịch bài viết này."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
+
+#~ msgid "Ensure this value has at least %(limit_value)s characters (it has %(show_value)s)."
+#~ msgstr "Đảm bảo giá trị này có ít nhất %(limit_value)s kí tự (nó có %(show_value)s)."
+
+#~ msgid "Ensure this value has at most %(limit_value)s characters (it has %(show_value)s)."
+#~ msgstr "Đảm bảo giá trị này có nhiều nhất %(limit_value)s kí tự (nó có %(show_value)s)."
 
 #~ msgid "Interests"
 #~ msgstr "Sở thích"
