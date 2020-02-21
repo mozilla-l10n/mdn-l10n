@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-02-20 14:19-0800\n"
-"PO-Revision-Date: 2020-02-21 15:23+0000\n"
+"PO-Revision-Date: 2020-02-21 15:32+0000\n"
 "Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
 "Language: uk\n"
@@ -2112,9 +2112,8 @@ msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr "Зберегти мої атрибути для моїх змін сторінки (%(username)s)"
 
 #: kuma/users/forms.py:215
-#, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
-msgstr "Зробіть мій вклад анонімним і видаліть мій обліковий запис."
+msgstr "Перемкнути мої атрибути для моїх змін сторінки на \"Анонімний користувач\""
 
 #: kuma/users/models.py:37
 #, python-format
@@ -2329,9 +2328,9 @@ msgid "In order to contribute, you need to sign in to MDN. You can sign in using
 msgstr "Щоб зробити внесок, вам потрібно увійти в MDN. Ви можете увійти за допомогою GitHub, вам буде створено профіль MDN, якщо у вас його немає."
 
 #: kuma/users/jinja2/account/login.html:40
-#, fuzzy, python-format
+#, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
-msgstr "<li><a href=\"%(login_url)s\">Увійдіть</a> щоб повторити спробу.</li>"
+msgstr "<p><a href=\"%(login_url)s\">Увійти</a></p>"
 
 #: kuma/users/jinja2/account/logout.html:3 kuma/users/jinja2/account/logout.html:8 kuma/users/jinja2/account/logout.html:17
 msgid "Sign Out"
@@ -2477,9 +2476,8 @@ msgid "Help contribute to the continued improvement of MDN’s content"
 msgstr "Допоможіть сприяти постійному вдосконаленню вмісту MDN"
 
 #: kuma/users/jinja2/socialaccount/signup.html:20
-#, fuzzy
 msgid "Create your MDN account"
-msgstr "Створіть свій обліковий запис MDN Web Docs"
+msgstr "Створіть свій обліковий запис MDN"
 
 #: kuma/users/jinja2/socialaccount/signup.html:31
 msgid "Authorize with Github"
@@ -2494,9 +2492,8 @@ msgid "User avatar"
 msgstr "Аватар користувача"
 
 #: kuma/users/jinja2/socialaccount/signup.html:41
-#, fuzzy
 msgid "Create MDN Account"
-msgstr "Створіть свій обліковий запис MDN Web Docs"
+msgstr "Створіть обліковий запис MDN"
 
 #: kuma/users/jinja2/socialaccount/signup.html:46
 #, python-format
@@ -2831,9 +2828,8 @@ msgid "Publish"
 msgstr "Оприлюднити"
 
 #: kuma/users/jinja2/users/user_edit.html:126
-#, fuzzy
 msgid "Delete Account."
-msgstr "Видалити мій обліковий запис"
+msgstr "Видалити обліковий запис."
 
 #: kuma/users/jinja2/users/user_edit.html:139
 msgid "Manage your Mozilla Newsletter Subscriptions."
@@ -2975,29 +2971,28 @@ msgstr "Там ви можете знайти адміністраторів MDN
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
 msgid "Deleting your account loses any preferences you have set."
-msgstr ""
+msgstr "Видалення облікового запису вилучає всі ваші особисті налаштування."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:8
 msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes."
 msgstr ""
+"Незважаючи на те, що ми можемо видалити ваш обліковий запис, будь-які зроблені вами редакції сторінок MDN буде збережено. Будь ласка, оберіть спосіб відображення ваших атрибутів для таких сторінок."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:12
 msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
-msgstr ""
+msgstr "Видалення облікового запису вилучить всі ваші особисті налаштування, а також зробить ваше ім'я користувача доступним для використання іншими."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:15 kuma/wiki/jinja2/wiki/confirm_document_delete.html:37
 msgid "Are you sure you want to continue?"
 msgstr "Ви впевнені, що хочете продовжити?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18
-#, fuzzy
 msgid "Yes, Delete my Account"
-msgstr "Видалити мій обліковий запис"
+msgstr "Так, видалити мій обліковий запис"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
-#, fuzzy
 msgid "Delete your account?"
-msgstr "Видалити обліковий запис"
+msgstr "Видалити ваш обліковий запис?"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:15
 msgid "Help grow MDN"
@@ -3005,11 +3000,11 @@ msgstr "Допоможіть зростанню MDN"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:18
 msgid "Stripe error"
-msgstr ""
+msgstr "Помилка Stripe"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:20
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
-msgstr ""
+msgstr "При спробі встановити підписку з сервером Stripe сталася помилка. Ми записали дані про помилку і дослідимо її причини."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:26
 msgid "Be a part of making MDN even better. You'll get back more of the knowledge and tools you rely on for when your work has to work."
@@ -3031,9 +3026,8 @@ msgid ""
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:42
-#, fuzzy
 msgid "Continue"
-msgstr "Допомогти"
+msgstr "Продовжити"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:52
 msgid "You're helping MDN grow"
