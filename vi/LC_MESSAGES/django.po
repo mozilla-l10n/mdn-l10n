@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-03-10 16:08-0700\n"
-"PO-Revision-Date: 2020-03-19 03:21+0000\n"
+"PO-Revision-Date: 2020-03-19 03:32+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
 "Language: vi\n"
@@ -3624,12 +3624,12 @@ msgstr "Chuyển đến:"
 #: kuma/wiki/jinja2/wiki/document.html:148
 #, python-format
 msgid "This document has not yet been rendered, and cannot be rendered while MDN is in <a href=\"%(url)s\">maintenance mode</a>. Please check back when maintenance has concluded."
-msgstr ""
+msgstr "Tài liệu này chưa được hiển thị và không thể được hiển thị trong khi MDN ở <a href=\"%(url)s\">chế độ bảo trì</a>. Vui lòng kiểm tra lại khi đã kết thúc bảo trì."
 
 #: kuma/wiki/jinja2/wiki/document.html:159
 #, python-format
 msgid "This document is being rendered for the first time by the system. Please <a href=\"%(url)s\">reload this page</a> in a few minutes to see full content."
-msgstr ""
+msgstr "Tài liệu này được kết xuất lần đầu tiên bởi hệ thống. Vui lòng <a href=\"%(url)s\">tải lại trang này</a> trong vài phút để xem nội dung đầy đủ."
 
 #: kuma/wiki/jinja2/wiki/document.html:167
 #, python-format
@@ -3637,6 +3637,8 @@ msgid ""
 "An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
 "page</a> in a few minutes."
 msgstr ""
+"Bản cập nhật cho tài liệu này <abbr title=\"%(started_at)s\">hiện đang được tiến hành</abbr>. Nếu nội dung bên dưới có vẻ cũ hoặc nếu thiếu nội dung nào đó, vui lòng <a href=\"%(url)s\">tải lại "
+"trang này</a> trong vài phút."
 
 #: kuma/wiki/jinja2/wiki/document.html:176
 #, python-format
@@ -3644,6 +3646,8 @@ msgid ""
 "An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
 " a few minutes."
 msgstr ""
+"Một bản cập nhật cho tài liệu này <abbr title=\"%(scheduled_at)s\">đã được lên lịch</abbr>. Nếu nội dung bên dưới có vẻ cũ hoặc nếu thiếu nội dung nào đó, vui lòng <a href=\"%(url)s\">tải lại trang "
+"này</a> trong vài phút."
 
 #: kuma/wiki/jinja2/wiki/document.html:187
 msgid "This is an experimental page."
@@ -3669,11 +3673,11 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:222
 msgid "This article doesn't have any content yet."
-msgstr ""
+msgstr "Bài viết này chưa có bất kỳ nội dung nào."
 
 #: kuma/wiki/jinja2/wiki/document.html:231
 msgid "This article doesn't have approved content yet."
-msgstr ""
+msgstr "Bài viết này chưa có nội dung nào được phê duyệt."
 
 #: kuma/wiki/jinja2/wiki/document.html:237
 msgid "Document Tags and Contributors"
@@ -3694,13 +3698,15 @@ msgstr "%(title)s | Chỉnh sửa Bài viết"
 
 #: kuma/wiki/jinja2/wiki/edit.html:24
 msgid "Edit Page Title and Properties"
-msgstr ""
+msgstr "Chỉnh sửa tiêu đề và thuộc tính trang"
 
 #: kuma/wiki/jinja2/wiki/edit.html:42
 msgid ""
 "Please review the differences between your changes and the changes saved since you started editing. You may save again, but try to resolve any conflicts by hand so that the changes made since you "
 "started are not lost."
 msgstr ""
+"Vui lòng xem lại sự khác biệt giữa các thay đổi của bạn và các thay đổi được lưu kể từ khi bạn bắt đầu chỉnh sửa. Bạn có thể lưu lại, nhưng cố gắng giải quyết mọi xung đột bằng tay để những thay đổi"
+" được thực hiện kể từ khi bạn bắt đầu không bị mất."
 
 #: kuma/wiki/jinja2/wiki/edit.html:52
 msgid "Your Changes"
@@ -3756,7 +3762,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/edit.html:171
 msgid "Don't be afraid to break something, you can always revert your changes."
-msgstr ""
+msgstr "Đừng sợ phá vỡ một cái gì đó, bạn luôn có thể hoàn nguyên các thay đổi của bạn."
 
 #: kuma/wiki/jinja2/wiki/edit.html:172
 msgid "Have fun and be proud of your contribution!"
@@ -3769,7 +3775,7 @@ msgstr "Tìm hiểu cách để dán nhãn một bài viết"
 #: kuma/wiki/jinja2/wiki/edit.html:196 kuma/wiki/jinja2/wiki/translate.html:131
 #, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Read the Tagging Guide</a>."
-msgstr ""
+msgstr "Phân loại bài viết. Nó sẽ làm cho bài viết có thể tìm thấy dưới các bộ lọc phù hợp trong công cụ tìm kiếm. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Đọc hướng dẫn về gắn thẻ</a>."
 
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:3
 #, python-format
@@ -4109,23 +4115,23 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:105
 msgid "Subscribe to this article and all its sub-articles"
-msgstr ""
+msgstr "Theo dõi bài viết này và tất cả các bài viết phụ của nó"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:106
 msgid "Unsubscribe from this article and all its sub-articles"
-msgstr ""
+msgstr "Hủy theo dõi từ bài viết này và tất cả các bài viết phụ của nó"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:108
 msgid "You are now subscribed to this article and all its sub-articles."
-msgstr ""
+msgstr "Bây giờ bạn đã theo dõi vào bài viết này và tất cả các bài viết phụ của nó."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:108
 msgid "You have been unsubscribed from this article and all its sub-articles."
-msgstr ""
+msgstr "Bạn đã hủy theo dõi từ bài viết này và tất cả các bài viết phụ của nó."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:118
 msgid "Updating subscription status"
-msgstr ""
+msgstr "Cập nhật trạng thái theo dõi"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:119
 msgid "Subscribe to this article"
@@ -4148,26 +4154,26 @@ msgstr "Bạn đã hủy đăng kí nhận tin từ bài viết %(title)s."
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:133
 #, python-format
 msgid "Subscribe to the %(language)s version"
-msgstr ""
+msgstr "Theo dõi phiên bản %(language)s"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:134
 #, python-format
 msgid "Unsubscribe from the %(language)s version"
-msgstr ""
+msgstr "Hủy theo dõi từ phiên bản %(language)s"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:136
 #, python-format
 msgid "You are now subscribed to the %(language)s version of this article."
-msgstr ""
+msgstr "Bây giờ bạn đã theo dõi phiên bản %(language)s của bài viết này."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:136
 #, python-format
 msgid "You have been unsubscribed from the %(language)s version of this article."
-msgstr ""
+msgstr "Bạn đã hủy theo dõi từ phiên bản %(language)s của bài viết này."
 
 #: kuma/wiki/jinja2/wiki/includes/document_toc_field.html:2 kuma/wiki/jinja2/wiki/includes/translate_description.html:49
 msgid "Generate table of contents"
-msgstr ""
+msgstr "Tạo mục lục"
 
 #: kuma/wiki/jinja2/wiki/includes/document_toc_field.html:2 kuma/wiki/jinja2/wiki/includes/translate_description.html:49
 msgid "TOC:"
@@ -4188,49 +4194,49 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:3
 msgid "There was a scripting error on this page. While it is being addressed by site editors, you can view partial content below."
 msgid_plural "There were scripting errors on this page. While those are being addressed by site editors, you can view partial content below."
-msgstr[0] ""
+msgstr[0] "Có một lỗi script trên trang này. Trong khi nó đang được giải quyết bởi các biên tập viên trang web, bạn có thể xem một phần nội dung bên dưới."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:11
 msgid "Hide error information"
-msgstr ""
+msgstr "Ẩn thông tin lỗi"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:12
 msgid "More information about this error"
 msgid_plural "More information about these errors"
-msgstr[0] ""
+msgstr[0] "Thông tin thêm về lỗi này"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:19
 #, python-format
 msgid "Anyone with an MDN profile can edit a document to fix an error. Use the <a href=\"%(troubleshooting_url)s\">KumaScript troubleshooting guide</a> as a starting point."
-msgstr ""
+msgstr "Bất cứ ai có hồ sơ MDN đều có thể chỉnh sửa tài liệu để sửa lỗi. Sử dụng <a href=\"%(troubleshooting_url)s\">hướng dẫn khắc phục sự cố KumaScript</a> làm điểm bắt đầu."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:29
 msgid "Error type:"
-msgstr ""
+msgstr "Phân loại lỗi:"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:37
 msgid "In macro:"
-msgstr ""
+msgstr "Trong macro:"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:41
 msgid "Create Macro"
-msgstr ""
+msgstr "Tạo Macro"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:43
 msgid "View Macro"
-msgstr ""
+msgstr "Xem Macro"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:46
 msgid "Parsing macro:"
-msgstr ""
+msgstr "Đang phân tích cú pháp macro:"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:54
 msgid "Edit Document"
-msgstr ""
+msgstr "Chỉnh sửa tài liệu"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:59
 msgid "Full text of error:"
-msgstr ""
+msgstr "Toàn văn về lỗi:"
 
 #: kuma/wiki/jinja2/wiki/includes/page_buttons.html:16
 msgid "New Page"
@@ -4276,7 +4282,7 @@ msgstr "Chúng tôi sẽ cố gắng giải quyết vấn đề và sau đó b�
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
 #, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">mark this submission as ham</a> and try submitting it again."
-msgstr ""
+msgstr "Nếu bạn là người kiểm duyệt thư rác, bạn có thể <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">đánh dấu bài gửi này là ham</a> và thử gửi lại."
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
@@ -4298,11 +4304,11 @@ msgstr "Tìm nguồn dịch với tra cứu ở trên và sau đó nhấp vào \
 
 #: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:3
 msgid "You are on the <strong>editable</strong> version of MDN Web Docs"
-msgstr ""
+msgstr "Bạn đang ở phiên bản <strong>có thể chỉnh sửa</strong> của Tài liệu web MDN"
 
 #: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:4
 msgid "View as an MDN Web Docs user:"
-msgstr ""
+msgstr "Xem với tư cách là người dùng Tài liệu web MDN:"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format
