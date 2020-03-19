@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-03-10 16:08-0700\n"
-"PO-Revision-Date: 2020-03-19 03:32+0000\n"
+"PO-Revision-Date: 2020-03-19 03:42+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
 "Language: vi\n"
@@ -81,9 +81,9 @@ msgid "This user's profile has been banned."
 msgstr "Thông tin cá nhân của tài khoản này đã bị chặn."
 
 #: jinja2/404.html:38
-#, fuzzy, python-format
+#, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a> to try again.</p>"
-msgstr "<li><a href=\"%(login_url)s\">Đăng nhập</a> để thử lại.</li>"
+msgstr "<p><a href=\"%(login_url)s\">Đăng nhập</a> để thử lại.</p>"
 
 #: jinja2/404.html:43
 #, python-format
@@ -168,14 +168,12 @@ msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already
 msgstr "Đăng nhập để tận hưởng những lợi ích của tài khoản MDN. Nếu bạn chưa tạo một tài khoản, bạn sẽ được nhắc làm như vậy sau khi đăng nhập."
 
 #: jinja2/includes/auth-modal-content.html:6
-#, fuzzy
 msgid "Sign in with Github"
 msgstr "Đăng nhập bằng GitHub"
 
 #: jinja2/includes/auth-modal-content.html:9
-#, fuzzy
 msgid "Sign in with Google"
-msgstr "Đăng nhập bằng GitHub"
+msgstr "Đăng nhập bằng Google"
 
 #: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
 msgid "Sign In"
@@ -403,9 +401,8 @@ msgid "Bambara"
 msgstr "Tiếng Bambara"
 
 #: jinja2/includes/translate_locales.html:5
-#, fuzzy
 msgid "Bengali"
-msgstr "Bengali (Ấn Độ)"
+msgstr "Bengali"
 
 #: jinja2/includes/translate_locales.html:6
 msgid "Bulgarian"
@@ -1407,9 +1404,8 @@ msgid "The browser built for devs"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
-#, fuzzy
 msgid "Get Firefox DevEdition"
-msgstr "Trợ giúp về Firefox"
+msgstr "Tải Firefox DevEdition"
 
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
@@ -2466,7 +2462,6 @@ msgid "This will be the name displayed on MDN Web Docs to identify your contribu
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:77
-#, fuzzy
 msgid "Email Address"
 msgstr "Địa chỉ email"
 
@@ -2702,9 +2697,8 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Nhấp vào đây</a> để kháng cáo lệnh cấm này.</p>"
 
 #: kuma/users/jinja2/users/user_delete.html:11
-#, fuzzy
 msgid "Delete your account"
-msgstr "Xóa tài khoản của bạn."
+msgstr "Xóa tài khoản của bạn"
 
 #: kuma/users/jinja2/users/user_detail.html:36
 msgid "Recent Docs Activity"
@@ -2780,9 +2774,8 @@ msgid "Publish"
 msgstr "Xuất bản"
 
 #: kuma/users/jinja2/users/user_edit.html:125
-#, fuzzy
 msgid "Delete Account."
-msgstr "Xóa tài khoản của bạn."
+msgstr "Xóa tài khoản."
 
 #: kuma/users/jinja2/users/user_edit.html:138
 msgid "Manage your Mozilla Newsletter Subscriptions."
@@ -2812,12 +2805,12 @@ msgstr "Khôi phục hồ sơ cho %(username)s ở %(domain)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, fuzzy, python-format
+#, python-format
 msgid "Hey %(username)s!"
 msgstr "Xin chào %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
 msgstr "Cảm ơn bạn đã tạo hồ sơ trên <a href=\"%(mdn_link)s\">tài liệu web MDN</a> - một cộng đồng tạo tài nguyên tuyệt vời cho các nhà phát triển như bạn."
 
@@ -2936,14 +2929,12 @@ msgid "Are you sure you want to continue?"
 msgstr "Bạn có chắc chắn muốn tiếp tục?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:18
-#, fuzzy
 msgid "Yes, Delete my Account"
-msgstr "Xóa tài khoản của bạn."
+msgstr "Có, xóa tài khoản của tôi"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
-#, fuzzy
 msgid "Delete your account?"
-msgstr "Xóa tài khoản của bạn."
+msgstr "Xóa tài khoản của bạn?"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:15
 msgid "Help grow MDN"
@@ -2980,9 +2971,8 @@ msgstr ""
 " tôi hủy đăng ký của tôi."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:42
-#, fuzzy
 msgid "Continue"
-msgstr "Đóng góp"
+msgstr "Tiếp tục"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:52
 msgid "You are an MDN member"
