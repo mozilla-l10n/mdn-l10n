@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-03-10 16:08-0700\n"
-"PO-Revision-Date: 2020-03-19 03:11+0000\n"
+"PO-Revision-Date: 2020-03-19 03:21+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
 "Language: vi\n"
@@ -2951,11 +2951,11 @@ msgstr "Giúp phát triển MDN"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:18
 msgid "Stripe error"
-msgstr ""
+msgstr "Lỗi Stripe"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:20
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
-msgstr ""
+msgstr "Đã xảy ra lỗi khi cố gắng thiết lập đăng ký với máy chủ của Stripe. Chúng tôi đã ghi lại lỗi và sẽ điều tra nó."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:26
 #, fuzzy
@@ -2964,11 +2964,11 @@ msgstr "Bạn đến MDN để biết thông tin và hỗ trợ. Hãy là một 
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:30
 msgid "$5 billed every month."
-msgstr ""
+msgstr "Hóa đơn $5 mỗi tháng."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:30
 msgid "Cancel any time."
-msgstr ""
+msgstr "Hủy bất cứ lúc nào."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:36
 #, python-format
@@ -2976,6 +2976,8 @@ msgid ""
 "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Payment Terms</a>, until I cancel my "
 "subscription."
 msgstr ""
+"Bằng cách nhấp vào nút này, tôi ủy quyền cho Mozilla tính phí phương thức thanh toán này mỗi tháng, theo <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">điều khoản thanh toán</a>, cho đến khi"
+" tôi hủy đăng ký của tôi."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:42
 #, fuzzy
@@ -2984,27 +2986,27 @@ msgstr "Đóng góp"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:52
 msgid "You are an MDN member"
-msgstr ""
+msgstr "Bạn là thành viên MDN"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
 #, python-format
 msgid "Next payment of $5 (monthly) occurs on %(date)s"
-msgstr ""
+msgstr "Khoản thanh toán tiếp theo $5 (hàng tháng) thực hiện vào %(date)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:60
 #, python-format
 msgid "%(brand)s ending in %(last4)s"
-msgstr ""
+msgstr "%(brand)s kết thúc trong %(last4)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:61
 #, python-format
 msgid "expires %(expires_at)s"
-msgstr ""
+msgstr "hết hạn %(expires_at)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:62
 #, python-format
 msgid "Postal / ZIP code: %(zip)s"
-msgstr ""
+msgstr "Mã bưu chính / ZIP: %(zip)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:67
 #, python-format
@@ -3012,6 +3014,8 @@ msgid ""
 "To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(terms_url)s\">FAQ</a> or you can also <a "
 "href=\"%(support_email)s\">contact support</a>."
 msgstr ""
+"Để hủy đăng ký của bạn <a href=\"%(manage_url)s\">nhấp vào đây</a>. <br>Nếu bạn có câu hỏi, vui lòng đọc <a href=\"%(terms_url)s\">câu hỏi thường gặp</a> hoặc bạn cũng có thể <a "
+"href=\"%(support_email)s\">liên hệ hỗ trợ</a>."
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
 msgid "Tags"
@@ -3236,7 +3240,7 @@ msgstr "Vui lòng giữ độ dài nội dung từ %(limit_value)s kí tự tr�
 #: kuma/wiki/forms.py:95
 #, python-format
 msgid "Please keep the length of the comment to %(limit_value)s characters or less. It is currently %(show_value)s characters."
-msgstr ""
+msgstr "Vui lòng giữ độ dài bình luận từ %(limit_value)s kí tự trở xuống. Hiện nó đang có %(show_value)s kí tự."
 
 #: kuma/wiki/forms.py:100
 msgid "Another document with this slug already exists."
@@ -3252,6 +3256,8 @@ msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
 "making further edits."
 msgstr ""
+"Xuất bản thất bại. Phát hiện các nỗ lực chỉnh sửa mâu thuẫn. Vui lòng sao chép và dán các chỉnh sửa của bạn vào một nơi an toàn và truy cập trang <a href=\"%(url)s\">lịch sử sửa đổi</a> để xem những"
+" gì đã được thay đổi trước khi thực hiện các chỉnh sửa tiếp theo."
 
 #: kuma/wiki/forms.py:109
 msgid "Changing this document's slug requires moving it and its children."
@@ -3293,11 +3299,11 @@ msgstr ""
 
 #: kuma/wiki/forms.py:503
 msgid "Search result summary:"
-msgstr ""
+msgstr "Tóm tắt kết quả tìm kiếm:"
 
 #: kuma/wiki/forms.py:504
 msgid "Only displayed on search results page"
-msgstr ""
+msgstr "Chỉ được hiển thị trên trang kết quả tìm kiếm"
 
 #: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
@@ -3371,28 +3377,28 @@ msgstr ""
 
 #: kuma/wiki/models.py:1675
 msgid "No table of contents"
-msgstr ""
+msgstr "Không có mục lục"
 
 #: kuma/wiki/models.py:1676
 msgid "All levels"
-msgstr ""
+msgstr "Tất cả các cấp"
 
 #: kuma/wiki/models.py:1677
 msgid "H2 and higher"
-msgstr ""
+msgstr "H2 trở lên"
 
 #: kuma/wiki/models.py:1678
 msgid "H3 and higher"
-msgstr ""
+msgstr "H3 trở lên"
 
 #: kuma/wiki/models.py:1679
 msgid "H4 and higher"
-msgstr ""
+msgstr "H4 trở lên"
 
 #: kuma/wiki/models.py:1790
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
-msgstr ""
+msgstr "Một bản sửa đổi phải dựa trên bản sửa đổi của tài liệu %(locale)s. ID bản sửa đổi %(id)s không phù hợp với các tiêu chí đó."
 
 #: kuma/wiki/models.py:1928
 msgid "IP address"
@@ -3473,6 +3479,8 @@ msgid ""
 "Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
 "href=\"%(email_link)s\">contact us</a>."
 msgstr ""
+"Bạn phải được ủy quyền để tạo một trang mới. Để yêu cầu một trang mới, vui lòng <a href=\"%(request_page_url)s\">gửi một lỗi</a>. Nếu bạn cần sự cho phép để tạo các trang mới, vui lòng <a "
+"href=\"%(email_link)s\">liên hệ với chúng tôi</a>."
 
 #: kuma/wiki/jinja2/403-create-page.html:17
 msgid ""
@@ -3480,6 +3488,9 @@ msgid ""
 "feature? What feature? Is there a glossary term you’d like to add? What term?). </li> <li>Have made some good edits to existing pages.</li> <li>Have been contributing to the site for a while.</li> "
 "</ul>"
 msgstr ""
+"<p>Bạn có nhiều khả năng được cấp quyền tạo trang mới nếu bạn:</p> <ul> <li>Cho chúng tôi biết tên người dùng MDN của bạn.</li> <li>Cho chúng tôi biết lý do bạn muốn tạo trang mới (Bạn đang ghi lại "
+"một tính năng mới? Tính năng gì? Có thuật ngữ thuật ngữ nào bạn muốn thêm không? Thuật ngữ nào?). </li> <li>Đã thực hiện một số chỉnh sửa tốt cho các trang hiện có.</li> <li>Đã đóng góp cho trang "
+"web trong một thời gian.</li> </ul>"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:4
 #, python-format
