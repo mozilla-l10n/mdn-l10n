@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-03-26 14:41-0700\n"
+"POT-Creation-Date: 2020-04-02 16:47-0700\n"
 "PO-Revision-Date: 2019-12-14 07:46+0000\n"
 "Last-Translator: Ringgo <armen.ringgo@yahoo.de>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
@@ -548,12 +548,12 @@ msgstr "Belajar Pengembangan Web"
 msgid "About MDN"
 msgstr "Tentang MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:143
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:146
 msgid "Twitter"
 msgstr "Twitter"
 
 #: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64 kuma/users/jinja2/users/includes/user_title_info.html:71
-#: kuma/users/models.py:139
+#: kuma/users/models.py:142
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -582,7 +582,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "Anda yakin untuk berhenti berlangganan?"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Batalkan"
@@ -709,7 +709,7 @@ msgid "File"
 msgstr "Berkas"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:81 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2007
 msgid "Title"
 msgstr "Judul"
 
@@ -1502,218 +1502,6 @@ msgstr "Langganan bulanan Anda telah berhasil dibatalkan"
 msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
 msgstr "Ada masalah saat membatalkan langganan Anda, silakan hubungi <a href=\"%(url)s\">%(email)s</a> dan sampaikan nomor referensi pelanggan Anda %(reference_number)s."
 
-#: kuma/payments/jinja2/payments/payments.html:7
-msgid "Contribute"
-msgstr "Berkontribusi"
-
-#: kuma/payments/jinja2/payments/payments.html:11
-msgid "Contribute to MDN Web Docs"
-msgstr "Berkontribusi untuk MDN Web Docs"
-
-#: kuma/payments/jinja2/payments/payments.html:12
-msgid "Support MDN"
-msgstr "Dukung MDN"
-
-#: kuma/payments/jinja2/payments/payments.html:27
-msgid "Thank you for supporting MDN."
-msgstr "Terima kasih karena mendukung MDN."
-
-#: kuma/payments/jinja2/payments/payments.html:47
-msgid "FAQs"
-msgstr "FAQs"
-
-#: kuma/payments/jinja2/payments/payments.html:50
-msgid "Why is MDN asking me for money?"
-msgstr "Mengapa MDN meminta sumbangan uang?"
-
-#: kuma/payments/jinja2/payments/payments.html:52
-msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
-msgstr ""
-"MDN sedang bereksperimen dengan mencari dukungan langsung dari pengguna kami untuk mempercepat pertumbuhan dan pemeliharaan konten dan platform kami, dengan bantuan dari mereka yang menggunakannya."
-
-#: kuma/payments/jinja2/payments/payments.html:60
-msgid ""
-"Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
-"wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
-"you, again) that lets us accelerate those improvements."
-msgstr ""
-
-#: kuma/payments/jinja2/payments/payments.html:72
-msgid "How is my payment handled? Is it secure?"
-msgstr "Bagaimana pembayaran saya ditangani? Apakah aman?"
-
-#: kuma/payments/jinja2/payments/payments.html:74
-#, python-format
-msgid ""
-"All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
-"number."
-msgstr ""
-"Semua informasi pembayaran diproses melalui <a href=\"%(url)s\">Stripe</a>, dan catatan pembayaran Anda akan disimpan oleh Mozilla. Mozilla tidak menerima atau menyimpan nomor kartu kredit Anda."
-
-#: kuma/payments/jinja2/payments/payments.html:81
-msgid "What data is Mozilla collecting about me?"
-msgstr "Data apa yang Mozilla kumpulkan tentang saya?"
-
-#: kuma/payments/jinja2/payments/payments.html:83
-msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
-msgstr ""
-"Mozilla akan mengumpulkan dan menyimpan nama dan surel Anda, yang akan digunakan untuk mengirim surel transaksional (misalnya, kuitansi). Mozilla tidak akan memiliki akses ke atau menyimpan nomor "
-"kartu kredit Anda."
-
-#: kuma/payments/jinja2/payments/payments.html:90
-msgid "What does money go towards?"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/payments.html:92
-msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
-msgstr ""
-"Uang yang terkumpul melalui MDN (dikurangi biaya pemrosesan, pajak, dll.) akan diinvestasikan kembali ke MDN. Kami akan menerbitkan laporan bulanan tentang MDN Web Docs yang menunjukkan pekerjaan "
-"apa yang telah diselesaikan."
-
-#: kuma/payments/jinja2/payments/payments.html:99
-msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
-msgstr "Jika saya hanya menyumbang ke Mozilla Foundation, apakah itu akan membantu MDN?"
-
-#: kuma/payments/jinja2/payments/payments.html:101
-#, python-format
-msgid ""
-"The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in the "
-"U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> "
-"and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
-msgstr ""
-"<a href=\"%(foundation_url)s\">Mozilla Foundation</a> dan MDN adalah organisasi dan program terpisah. Sumbangan ke Mozilla Foundation merupakan <a href=\"%(tax_faq_url)s\">pengurang pajak di AS</a> "
-"sejauh diizinkan oleh undang-undang, dan mendukung program publik dan amal Mozilla dalam satu dana umum. MDN adalah bagian dari <a href=\"%(corporation_url)s\">Mozilla Corporation</a> dan "
-"pembayaran ke MDN tidak digunakan dalam program amal Mozilla, tetapi diinvestasikan kembali ke konten, perangkat, dan platform MDN."
-
-#: kuma/payments/jinja2/payments/payments.html:117
-msgid "Is support of MDN tax-deductible?"
-msgstr "Apakah dukungan MDN dapat mengurangi pajak?"
-
-#: kuma/payments/jinja2/payments/payments.html:119
-msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
-msgstr "Tidak. Pembayaran kepada Mozilla Corporation untuk mendukung MDN tidak dapat mengurangi pajak di Amerika Serikat atau di negara lainnya."
-
-#: kuma/payments/jinja2/payments/payments.html:125
-msgid "What will MDN user funding pay for?"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/payments.html:127
-msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
-msgstr ""
-"Saat ini, Mozilla membayar biaya operasi situs dan biaya overhead (termasuk penulis dan pengembang web). Pembayaran pengguna MDN akan mendanai percepatan proyek saat ini atau peluncuran proyek "
-"baru, termasuk:"
-
-#: kuma/payments/jinja2/payments/payments.html:135
-msgid "Adding more content, and updating current content"
-msgstr "Menambahkan lebih banyak konten, dan memperbarui konten saat ini"
-
-#: kuma/payments/jinja2/payments/payments.html:136
-msgid "Improving performance of the site"
-msgstr "Meningkatkan kinerja situs"
-
-#: kuma/payments/jinja2/payments/payments.html:137
-msgid "Modernizing the MDN platform"
-msgstr "Memodernkan platform MDN"
-
-#: kuma/payments/jinja2/payments/payments.html:138
-msgid "Adding offline access to MDN"
-msgstr "Menambah akses luring ke MDN"
-
-#: kuma/payments/jinja2/payments/payments.html:139
-msgid "Supporting integrations with popular developer tools"
-msgstr "Mendukung integrasi dengan alat-alat pengembang populer"
-
-#: kuma/payments/jinja2/payments/payments.html:140
-msgid "More tutorials and guides"
-msgstr "Lebih banyak tutorial dan panduan"
-
-#: kuma/payments/jinja2/payments/payments.html:141
-msgid "Training and webinars"
-msgstr "Pelatihan dan webinar"
-
-#: kuma/payments/jinja2/payments/payments.html:143
-msgid "Why can’t you just open a Crowdsourcing campaign?"
-msgstr "Mengapa tidak membuka kampanye urun daya saja?"
-
-#: kuma/payments/jinja2/payments/payments.html:145
-msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
-msgstr "Karena kami tidak mencari jumlah sekaligus. Tujuan kami adalah untuk menciptakan basis dukungan keuangan yang luas dari orang-orang yang memperoleh manfaat dari hasil kerja MDN."
-
-#: kuma/payments/jinja2/payments/payments.html:151
-msgid "How has MDN been funded to date?"
-msgstr "Bagaimana MDN didanai hingga saat ini?"
-
-#: kuma/payments/jinja2/payments/payments.html:153
-msgid ""
-"MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
-"we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/payments.html:162
-msgid "How does Mozilla make money?"
-msgstr "Bagaimana cara Mozilla menghasilkan uang?"
-
-#: kuma/payments/jinja2/payments/payments.html:164
-#, fuzzy
-msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
-msgstr "Mozilla Corporation, yang mendanai MDN, menghasilkan uang terutama dari royalti dari penyedia pencarian di Firefox (seperti Google, Amazon, Duck Duck Go, dan lainnya)."
-
-#: kuma/payments/jinja2/payments/payments.html:172
-#, python-format
-msgid ""
-"Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
-"revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
-msgstr ""
-"Secara terpisah, Mozilla Foundation adalah perusahaan nirlaba yang menghasilkan uang terutama dari sumbangan dan royalti dari Mozilla Corporation. Sebagai perusahaan nirlaba, Mozilla Foundation "
-"melaporkan pendapatan ini untuk umum setiap tahun, seperti dalam <a href=\"%(url)s\">Laporan Tahunan Mozilla 2016</a> terbaru kami."
-
-#: kuma/payments/jinja2/payments/payments.html:186
-msgid "Monthly payments"
-msgstr "Pembayaran bulanan"
-
-#: kuma/payments/jinja2/payments/payments.html:188
-msgid "How do I manage my monthly payment?"
-msgstr "Bagaimana cara saya mengelola pembayaran bulanan saya?"
-
-#: kuma/payments/jinja2/payments/payments.html:190
-#, python-format
-msgid ""
-"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
-"\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
-msgstr ""
-"Jika Anda ingin mengelola pembayaran bulanan Anda, seperti mengubah detail akun kartu Anda atau jumlah yang Anda bayarkan, silakan batalkan melalui <a href=\"%(manage_subscription_url)s\">laman "
-"pengaturan berlangganan bulanan</a> dan daftar kembali menggunakan rincian kartu baru. Jika Anda memiliki pertanyaan lain sila hubungi <a href=\"%(url)s\">%(email)s.</a>"
-
-#: kuma/payments/jinja2/payments/payments.html:200
-msgid "How do I apply for a refund or cancel my payment?"
-msgstr "Bagaimana saya mengajukan permohonan pengembalian uang atau membatalkan pembayaran saya?"
-
-#: kuma/payments/jinja2/payments/payments.html:202
-#, python-format
-msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
-"monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
-msgstr ""
-"Jika Anda ingin membatalkan pembayaran bulanan Anda atau mengajukan pengembalian uang, Anda bebas untuk melakukannya kapan saja. Silakan batalkan langganan pada <a href=\"%(manage_subscription_url)s"
-"\">kelola laman langganan bulanan</a>. Jika Anda memilih untuk membatalkan, kami tidak akan menagih kartu pembayaran Anda untuk bulan-bulan berikutnya."
-
-#: kuma/payments/jinja2/payments/payments.html:210
-msgid "What are the payment terms?"
-msgstr "Apa itu ketentuan pembayaran?"
-
-#: kuma/payments/jinja2/payments/payments.html:212
-#, python-format
-msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
-msgstr "Silakan pelajari <a href=\"%(url)s\">ketentuan pembayaran</a> kami untuk informasi lebih lanjut."
-
-#: kuma/payments/jinja2/payments/payments.html:216
-msgid "Does deleting my MDN account cancel my subscription?"
-msgstr "Apakah menghapus akun MDN saya akan membatalkan langganan saya?"
-
-#: kuma/payments/jinja2/payments/payments.html:218
-msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
-msgstr "Ketika Anda meminta penghapusan akun, kami juga akan membatalkan langganan Anda dan tidak membebankan biaya untuk bulan-bulan berikutnya."
-
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "MDN payment terms"
 msgstr "Ketentuan pembayaran MDN"
@@ -1721,6 +1509,11 @@ msgstr "Ketentuan pembayaran MDN"
 #: kuma/payments/jinja2/payments/terms.html:23
 msgid "MDN Web Docs payment terms"
 msgstr "Ketentuan pembayaran MDN Web Docs"
+
+#: kuma/payments/jinja2/payments/thank-you.html:3
+#, fuzzy
+msgid "Thank you"
+msgstr "Terima kasih"
 
 #: kuma/search/admin.py:10
 msgid "Can't promote more than one index at once."
@@ -2043,7 +1836,7 @@ msgstr "Pengguna"
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr "Username hanya dapat mengandung huruf, angka, dan karakter ini: . - _ +"
 
-#: kuma/users/forms.py:30 kuma/users/models.py:53
+#: kuma/users/forms.py:30 kuma/users/models.py:56
 msgid "Timezone"
 msgstr "Zona waktu"
 
@@ -2059,23 +1852,23 @@ msgstr "Nama pengguna"
 msgid "Display a link to GitHub on my profile"
 msgstr "Tampilkan tautan ke GitHub di profil saya"
 
-#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:152
+#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:155
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:146
+#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:149
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:136
+#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:139
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:149
+#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:152
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:157
+#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:160
 msgid "Discourse"
 msgstr "Diskursus"
 
@@ -2101,85 +1894,85 @@ msgstr "Ubah semua atribusi perubahan laman saya menjadi \"anonim\", dan hapus a
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Ubah semua atribusi perubahan laman saya menjadi \"anonim\", dan hapus akun saya."
 
-#: kuma/users/models.py:38
+#: kuma/users/models.py:41
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr "%(banned_user)s yang dilarang oleh %(banned_by)s"
 
-#: kuma/users/models.py:43
+#: kuma/users/models.py:46
 #, python-format
 msgid "%s (no longer active)"
 msgstr "%s (tidak lagi aktif)"
 
-#: kuma/users/models.py:66
+#: kuma/users/models.py:69
 msgid "Language"
 msgstr "Bahasa"
 
-#: kuma/users/models.py:71
+#: kuma/users/models.py:74
 msgid "Homepage"
 msgstr "Situs Web"
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:78
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "URL ini memiliki format tidak sah. Contoh URL sah adalah http://example.com/my_page."
 
-#: kuma/users/models.py:82
+#: kuma/users/models.py:85
 msgid "Name"
 msgstr "Nama"
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:87
 msgid "Organization"
 msgstr "Organisasi"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:89
 msgid "Location"
 msgstr "Lokasi"
 
-#: kuma/users/models.py:87
+#: kuma/users/models.py:90
 msgid "About Me"
 msgstr "Tentang Saya"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:92
 msgid "IRC nickname"
 msgstr "Nama alias IRC"
 
-#: kuma/users/models.py:96
+#: kuma/users/models.py:99
 msgid "Enter a valid website URL."
 msgstr "Masukkan URL situs web yang sah."
 
-#: kuma/users/models.py:99
+#: kuma/users/models.py:102
 msgid "Enter a valid Twitter URL."
 msgstr "Masukkan URL Twitter yang sah."
 
-#: kuma/users/models.py:102
+#: kuma/users/models.py:105
 msgid "Enter a valid GitHub URL."
 msgstr "Masukkan URL GitHub yang sah."
 
-#: kuma/users/models.py:106
+#: kuma/users/models.py:109
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Masukkan URL Stack Overflow yang valid."
 
-#: kuma/users/models.py:111
+#: kuma/users/models.py:114
 msgid "Enter a valid LinkedIn URL."
 msgstr "Masukkan URL LinkedIn yang valid."
 
-#: kuma/users/models.py:116
+#: kuma/users/models.py:119
 msgid "Enter a valid Mozillians URL."
 msgstr "Masukkan URL Mozillians yang sah."
 
-#: kuma/users/models.py:121
+#: kuma/users/models.py:124
 msgid "Enter a valid Facebook URL."
 msgstr "Masukkan URL Facebook yang sah."
 
-#: kuma/users/models.py:126
+#: kuma/users/models.py:129
 msgid "Enter a valid Discourse URL."
 msgstr "Masukkan URL Discourse yang sah."
 
-#: kuma/users/models.py:133
+#: kuma/users/models.py:136
 msgid "Website"
 msgstr "Website"
 
-#: kuma/users/models.py:141
+#: kuma/users/models.py:144
 msgid "Public GitHub URL"
 msgstr "URL GitHub Publik"
 
@@ -2710,7 +2503,7 @@ msgstr "Anda telah dicekal karena alasan berikut:"
 msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click here</a> to appeal this ban.</p>"
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Klik di sini</a> untuk mengangkat pencekalan ini.</p>"
 
-#: kuma/users/jinja2/users/user_delete.html:11
+#: kuma/users/jinja2/users/user_delete.html:11 kuma/users/jinja2/users/user_edit.html:130
 msgid "Delete your account"
 msgstr "Hapus akun Anda"
 
@@ -2788,11 +2581,6 @@ msgstr "Profil Saya"
 #: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Terbitkan"
-
-#: kuma/users/jinja2/users/user_edit.html:130
-#, fuzzy
-msgid "Delete Account."
-msgstr "Hapus akun saya"
 
 #: kuma/users/jinja2/users/user_edit.html:143
 msgid "Manage your Mozilla Newsletter Subscriptions."
@@ -2951,7 +2739,7 @@ msgstr ""
 msgid "Are you sure you want to continue?"
 msgstr "Yakin ingin melanjutkan?"
 
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/users/jinja2/users/includes/delete-user-content.html:24
 #, fuzzy
 msgid "Yes, Delete my Account"
 msgstr "Hapus akun saya"
@@ -3024,7 +2812,7 @@ msgstr ""
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:67
 #, python-format
 msgid ""
-"To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(terms_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
+"To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
 "\">contact support</a>."
 msgstr ""
 
@@ -4517,6 +4305,157 @@ msgstr "Anda tidak dapat menerjemahkan dokumen ini."
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Server elasticsearch: %(backend)s"
 
+#~ msgid "Contribute"
+#~ msgstr "Berkontribusi"
+
+#~ msgid "Contribute to MDN Web Docs"
+#~ msgstr "Berkontribusi untuk MDN Web Docs"
+
+#~ msgid "Support MDN"
+#~ msgstr "Dukung MDN"
+
+#~ msgid "Thank you for supporting MDN."
+#~ msgstr "Terima kasih karena mendukung MDN."
+
+#~ msgid "FAQs"
+#~ msgstr "FAQs"
+
+#~ msgid "Why is MDN asking me for money?"
+#~ msgstr "Mengapa MDN meminta sumbangan uang?"
+
+#~ msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
+#~ msgstr ""
+#~ "MDN sedang bereksperimen dengan mencari dukungan langsung dari pengguna kami untuk mempercepat pertumbuhan dan pemeliharaan konten dan platform kami, dengan bantuan dari mereka yang "
+#~ "menggunakannya."
+
+#~ msgid "How is my payment handled? Is it secure?"
+#~ msgstr "Bagaimana pembayaran saya ditangani? Apakah aman?"
+
+#~ msgid ""
+#~ "All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
+#~ "number."
+#~ msgstr ""
+#~ "Semua informasi pembayaran diproses melalui <a href=\"%(url)s\">Stripe</a>, dan catatan pembayaran Anda akan disimpan oleh Mozilla. Mozilla tidak menerima atau menyimpan nomor kartu kredit Anda."
+
+#~ msgid "What data is Mozilla collecting about me?"
+#~ msgstr "Data apa yang Mozilla kumpulkan tentang saya?"
+
+#~ msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
+#~ msgstr ""
+#~ "Mozilla akan mengumpulkan dan menyimpan nama dan surel Anda, yang akan digunakan untuk mengirim surel transaksional (misalnya, kuitansi). Mozilla tidak akan memiliki akses ke atau menyimpan "
+#~ "nomor kartu kredit Anda."
+
+#~ msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
+#~ msgstr ""
+#~ "Uang yang terkumpul melalui MDN (dikurangi biaya pemrosesan, pajak, dll.) akan diinvestasikan kembali ke MDN. Kami akan menerbitkan laporan bulanan tentang MDN Web Docs yang menunjukkan "
+#~ "pekerjaan apa yang telah diselesaikan."
+
+#~ msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
+#~ msgstr "Jika saya hanya menyumbang ke Mozilla Foundation, apakah itu akan membantu MDN?"
+
+#~ msgid ""
+#~ "The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in "
+#~ "the U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla "
+#~ "Corporation</a> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
+#~ msgstr ""
+#~ "<a href=\"%(foundation_url)s\">Mozilla Foundation</a> dan MDN adalah organisasi dan program terpisah. Sumbangan ke Mozilla Foundation merupakan <a href=\"%(tax_faq_url)s\">pengurang pajak di AS</"
+#~ "a> sejauh diizinkan oleh undang-undang, dan mendukung program publik dan amal Mozilla dalam satu dana umum. MDN adalah bagian dari <a href=\"%(corporation_url)s\">Mozilla Corporation</a> dan "
+#~ "pembayaran ke MDN tidak digunakan dalam program amal Mozilla, tetapi diinvestasikan kembali ke konten, perangkat, dan platform MDN."
+
+#~ msgid "Is support of MDN tax-deductible?"
+#~ msgstr "Apakah dukungan MDN dapat mengurangi pajak?"
+
+#~ msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
+#~ msgstr "Tidak. Pembayaran kepada Mozilla Corporation untuk mendukung MDN tidak dapat mengurangi pajak di Amerika Serikat atau di negara lainnya."
+
+#~ msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
+#~ msgstr ""
+#~ "Saat ini, Mozilla membayar biaya operasi situs dan biaya overhead (termasuk penulis dan pengembang web). Pembayaran pengguna MDN akan mendanai percepatan proyek saat ini atau peluncuran proyek "
+#~ "baru, termasuk:"
+
+#~ msgid "Adding more content, and updating current content"
+#~ msgstr "Menambahkan lebih banyak konten, dan memperbarui konten saat ini"
+
+#~ msgid "Improving performance of the site"
+#~ msgstr "Meningkatkan kinerja situs"
+
+#~ msgid "Modernizing the MDN platform"
+#~ msgstr "Memodernkan platform MDN"
+
+#~ msgid "Adding offline access to MDN"
+#~ msgstr "Menambah akses luring ke MDN"
+
+#~ msgid "Supporting integrations with popular developer tools"
+#~ msgstr "Mendukung integrasi dengan alat-alat pengembang populer"
+
+#~ msgid "More tutorials and guides"
+#~ msgstr "Lebih banyak tutorial dan panduan"
+
+#~ msgid "Training and webinars"
+#~ msgstr "Pelatihan dan webinar"
+
+#~ msgid "Why can’t you just open a Crowdsourcing campaign?"
+#~ msgstr "Mengapa tidak membuka kampanye urun daya saja?"
+
+#~ msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
+#~ msgstr "Karena kami tidak mencari jumlah sekaligus. Tujuan kami adalah untuk menciptakan basis dukungan keuangan yang luas dari orang-orang yang memperoleh manfaat dari hasil kerja MDN."
+
+#~ msgid "How has MDN been funded to date?"
+#~ msgstr "Bagaimana MDN didanai hingga saat ini?"
+
+#~ msgid "How does Mozilla make money?"
+#~ msgstr "Bagaimana cara Mozilla menghasilkan uang?"
+
+#, fuzzy
+#~ msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
+#~ msgstr "Mozilla Corporation, yang mendanai MDN, menghasilkan uang terutama dari royalti dari penyedia pencarian di Firefox (seperti Google, Amazon, Duck Duck Go, dan lainnya)."
+
+#~ msgid ""
+#~ "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports "
+#~ "these revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
+#~ msgstr ""
+#~ "Secara terpisah, Mozilla Foundation adalah perusahaan nirlaba yang menghasilkan uang terutama dari sumbangan dan royalti dari Mozilla Corporation. Sebagai perusahaan nirlaba, Mozilla Foundation "
+#~ "melaporkan pendapatan ini untuk umum setiap tahun, seperti dalam <a href=\"%(url)s\">Laporan Tahunan Mozilla 2016</a> terbaru kami."
+
+#~ msgid "Monthly payments"
+#~ msgstr "Pembayaran bulanan"
+
+#~ msgid "How do I manage my monthly payment?"
+#~ msgstr "Bagaimana cara saya mengelola pembayaran bulanan saya?"
+
+#~ msgid ""
+#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
+#~ "\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
+#~ msgstr ""
+#~ "Jika Anda ingin mengelola pembayaran bulanan Anda, seperti mengubah detail akun kartu Anda atau jumlah yang Anda bayarkan, silakan batalkan melalui <a href=\"%(manage_subscription_url)s\">laman "
+#~ "pengaturan berlangganan bulanan</a> dan daftar kembali menggunakan rincian kartu baru. Jika Anda memiliki pertanyaan lain sila hubungi <a href=\"%(url)s\">%(email)s.</a>"
+
+#~ msgid "How do I apply for a refund or cancel my payment?"
+#~ msgstr "Bagaimana saya mengajukan permohonan pengembalian uang atau membatalkan pembayaran saya?"
+
+#~ msgid ""
+#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
+#~ "monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
+#~ msgstr ""
+#~ "Jika Anda ingin membatalkan pembayaran bulanan Anda atau mengajukan pengembalian uang, Anda bebas untuk melakukannya kapan saja. Silakan batalkan langganan pada <a href="
+#~ "\"%(manage_subscription_url)s\">kelola laman langganan bulanan</a>. Jika Anda memilih untuk membatalkan, kami tidak akan menagih kartu pembayaran Anda untuk bulan-bulan berikutnya."
+
+#~ msgid "What are the payment terms?"
+#~ msgstr "Apa itu ketentuan pembayaran?"
+
+#~ msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
+#~ msgstr "Silakan pelajari <a href=\"%(url)s\">ketentuan pembayaran</a> kami untuk informasi lebih lanjut."
+
+#~ msgid "Does deleting my MDN account cancel my subscription?"
+#~ msgstr "Apakah menghapus akun MDN saya akan membatalkan langganan saya?"
+
+#~ msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
+#~ msgstr "Ketika Anda meminta penghapusan akun, kami juga akan membatalkan langganan Anda dan tidak membebankan biaya untuk bulan-bulan berikutnya."
+
+#, fuzzy
+#~ msgid "Delete Account."
+#~ msgstr "Hapus akun saya"
+
 #~ msgid "Indexing %(total)d documents into %(total_chunks)d chunks of size %(size)d into index %(index)s.total"
 #~ msgstr "Membuat indeks %(total)d dokumen ke dalam %(total_chunks)d potongan berukuran %(size)d ke dalam indeks %(index)s.total"
 
@@ -4815,9 +4754,6 @@ msgstr "Server elasticsearch: %(backend)s"
 
 #~ msgid "Thank you for submitting your feedback."
 #~ msgstr "Terima kasih telah menyampaikan umpan balik."
-
-#~ msgid "Thank You"
-#~ msgstr "Terima kasih"
 
 #~ msgid ""
 #~ "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and "

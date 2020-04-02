@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-03-26 14:42-0700\n"
+"POT-Creation-Date: 2020-04-02 16:48-0700\n"
 "PO-Revision-Date: 2019-10-27 20:24+0000\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@iki.fi>\n"
 "Language-Team: Finnish https://pontoon.mozilla.org/fi/\n"
@@ -185,7 +185,7 @@ msgstr ""
 msgid "Please help translate this article from English"
 msgstr "Auta meitä kääntämään tämä artikkeli!"
 
-#: kuma/javascript/src/article.jsx:131
+#: kuma/javascript/src/article.jsx:141
 msgid "Page has not yet been created."
 msgstr ""
 
@@ -339,7 +339,7 @@ msgstr "Opi web-kehitystä"
 msgid "About MDN"
 msgstr "Tietoa MDN:stä"
 
-#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150
+#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/thank-you.jsx:88
 msgid "Feedback"
 msgstr "Palaute"
 
@@ -383,48 +383,48 @@ msgstr "Avaa CodePenissä"
 msgid "Open in JSFiddle"
 msgstr "Avaa JSFiddlessä"
 
-#: kuma/javascript/src/newsletter.jsx:159
+#: kuma/javascript/src/newsletter.jsx:162
 msgid "Thanks! Please check your inbox to confirm your subscription."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:164
+#: kuma/javascript/src/newsletter.jsx:167
 msgid "If you haven’t previously confirmed a subscription to a Mozilla - related newsletter you may have to do so. Please check your inbox or your spam filter for an email from us."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:184
+#: kuma/javascript/src/newsletter.jsx:187
 msgid "Learn the best of web development"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:187
+#: kuma/javascript/src/newsletter.jsx:190
 msgid "Get the latest and greatest from MDN delivered straight to your inbox."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:199
+#: kuma/javascript/src/newsletter.jsx:202
 msgid "The newsletter is offered in English only at the moment."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:230
+#: kuma/javascript/src/newsletter.jsx:233
 msgid "E-mail"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:238
+#: kuma/javascript/src/newsletter.jsx:241
 msgid "you@example.com"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:260
+#: kuma/javascript/src/newsletter.jsx:263
 msgid "I’m okay with Mozilla handling my info as explained in this <privacyLink/>."
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:265
+#: kuma/javascript/src/newsletter.jsx:268
 msgid "Privacy Policy"
 msgstr ""
 
-#: kuma/javascript/src/newsletter.jsx:277
+#: kuma/javascript/src/newsletter.jsx:280
 #, fuzzy
 msgid "Sign up now"
 msgstr "Kirjaudu"
 
-#: kuma/javascript/src/newsletter.jsx:288
+#: kuma/javascript/src/newsletter.jsx:291
 msgid "Hide Newsletter Sign-up"
 msgstr ""
 
@@ -524,7 +524,7 @@ msgstr "Muokkaa profiilia"
 msgid "Sign out"
 msgstr "Kirjaudu ulos"
 
-#: kuma/javascript/src/header/login.jsx:93
+#: kuma/javascript/src/header/login.jsx:92
 msgid "Sign in"
 msgstr "Kirjaudu"
 
@@ -617,6 +617,22 @@ msgstr "Ilmoita bugista"
 #, fuzzy
 msgid "Search MDN"
 msgstr "Etsi"
+
+#: kuma/javascript/src/payments/feedback-form.jsx:62
+msgid "We're sorry, something went wrong. Please try again or send your feedback to <emailLink />."
+msgstr ""
+
+#: kuma/javascript/src/payments/feedback-form.jsx:82
+msgid "Thank you for submitting your feedback!"
+msgstr ""
+
+#: kuma/javascript/src/payments/feedback-form.jsx:92
+msgid "Enter optional feedback…"
+msgstr ""
+
+#: kuma/javascript/src/payments/feedback-form.jsx:101
+msgid "Send"
+msgstr ""
 
 #: kuma/javascript/src/payments/index.jsx:58
 msgid "FAQs"
@@ -744,12 +760,8 @@ msgid ""
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
 msgstr ""
 
-#: kuma/javascript/src/payments/index.jsx:257 kuma/javascript/src/payments/index.jsx:285
+#: kuma/javascript/src/payments/index.jsx:257 kuma/javascript/src/payments/index.jsx:285 kuma/javascript/src/payments/thank-you.jsx:46
 msgid "manage monthly subscription page"
-msgstr ""
-
-#: kuma/javascript/src/payments/index.jsx:268
-msgid "mdn-support@mozilla.com"
 msgstr ""
 
 #: kuma/javascript/src/payments/index.jsx:280
@@ -775,28 +787,76 @@ msgstr ""
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr ""
 
-#: kuma/javascript/src/payments/subscription-form.jsx:57
-msgid "$5 <perMontSub />"
+#: kuma/javascript/src/payments/subscription-form.jsx:130 kuma/javascript/src/payments/subscription-form.jsx:148
+msgid "Sorry!"
 msgstr ""
 
-#: kuma/javascript/src/payments/subscription-form.jsx:58
-msgid "/mo"
+#: kuma/javascript/src/payments/subscription-form.jsx:132
+msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr ""
 
-#: kuma/javascript/src/payments/subscription-form.jsx:77
+#: kuma/javascript/src/payments/subscription-form.jsx:141 kuma/javascript/src/payments/subscription-form.jsx:159
+msgid "Try again"
+msgstr ""
+
+#: kuma/javascript/src/payments/subscription-form.jsx:150
+msgid "An error happened trying to load the Stripe integration"
+msgstr ""
+
+#: kuma/javascript/src/payments/subscription-form.jsx:184
 msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
 msgstr ""
 
-#: kuma/javascript/src/payments/subscription-form.jsx:86
+#: kuma/javascript/src/payments/subscription-form.jsx:193
 msgid "Payment Terms"
 msgstr ""
 
-#: kuma/javascript/src/payments/subscription-form.jsx:99
+#: kuma/javascript/src/payments/subscription-form.jsx:204
 msgid "Continue"
 msgstr ""
 
-#: kuma/javascript/src/payments/subscription-form.jsx:102
+#: kuma/javascript/src/payments/subscription-form.jsx:209
 msgid "Payments are not tax deductible"
+msgstr ""
+
+#: kuma/javascript/src/payments/subscription-form.jsx:220
+msgid "$5 <perMontSub />"
+msgstr ""
+
+#: kuma/javascript/src/payments/subscription-form.jsx:221
+msgid "/mo"
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:30
+msgid "Useful things"
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:35
+msgid "Cancel or manage your subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:39
+msgid "If you would like to cancel or manage your monthly subscription, go to <subscriptionLink />."
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:55
+msgid "Subscription terms"
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:58
+msgid "Please read our <termsLink /> for more information."
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:63
+msgid "subscription terms"
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:70 kuma/javascript/src/payments/thank-you.jsx:78
+msgid "FAQ"
+msgstr ""
+
+#: kuma/javascript/src/payments/thank-you.jsx:73
+msgid "To find out more about why MDN is raising money through monthly subscriptions, please visit our <faqLink />."
 msgstr ""
 
 #: kuma/static/js/components.js:82

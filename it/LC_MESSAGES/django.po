@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-03-26 14:41-0700\n"
+"POT-Creation-Date: 2020-04-02 16:47-0700\n"
 "PO-Revision-Date: 2020-03-13 12:14+0000\n"
 "Last-Translator: Francesco Lodolo <flod+pontoon@mozilla.com>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -547,12 +547,12 @@ msgstr "Impara lo sviluppo web"
 msgid "About MDN"
 msgstr "Informazioni su MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:143
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:146
 msgid "Twitter"
 msgstr "Twitter"
 
 #: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64 kuma/users/jinja2/users/includes/user_title_info.html:71
-#: kuma/users/models.py:139
+#: kuma/users/models.py:142
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -581,7 +581,7 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "Annullare l’iscrizione?"
 
 #: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Annulla"
@@ -708,7 +708,7 @@ msgid "File"
 msgstr "File"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:81 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2007
 msgid "Title"
 msgstr "Titolo"
 
@@ -1497,223 +1497,6 @@ msgstr "La tua sottoscrizione mensile è stata cancellata con successo"
 msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
 msgstr "Si è verificato un problema durante la cancellazione della sottoscrizione. Contattare <a href=\"%(url)s\">%(email)s</a> riportando il numero di riferimento cliente %(reference_number)s."
 
-#: kuma/payments/jinja2/payments/payments.html:7
-msgid "Contribute"
-msgstr "Collabora"
-
-#: kuma/payments/jinja2/payments/payments.html:11
-msgid "Contribute to MDN Web Docs"
-msgstr "Collabora a MDN Web Docs"
-
-#: kuma/payments/jinja2/payments/payments.html:12
-msgid "Support MDN"
-msgstr "Sostieni MDN"
-
-#: kuma/payments/jinja2/payments/payments.html:27
-msgid "Thank you for supporting MDN."
-msgstr "Grazie per il tuo sostegno a MDN."
-
-#: kuma/payments/jinja2/payments/payments.html:47
-msgid "FAQs"
-msgstr "FAQ"
-
-#: kuma/payments/jinja2/payments/payments.html:50
-msgid "Why is MDN asking me for money?"
-msgstr "Perché MDN mi sta chiedendo del denaro?"
-
-#: kuma/payments/jinja2/payments/payments.html:52
-msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
-msgstr ""
-"MDN sta sperimentando una nuova forma di finanziamento attraverso il contributo diretto dei nostri utenti: chiediamo alle stesse persone che utilizzano la piattaforma e i contenuti di MDN di "
-"aiutarci a mantenerli e a promuoverne la crescita."
-
-#: kuma/payments/jinja2/payments/payments.html:60
-msgid ""
-"Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
-"wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
-"you, again) that lets us accelerate those improvements."
-msgstr ""
-"Il numero di utenti è cresciuto esponenzialmente negli ultimi anni (con conseguente aumento dei costi di manutenzione della piattaforma) e abbiamo ideato una lunga lista di miglioramenti da "
-"apportare. Sebbene MDN sia sempre stato, dai suoi inizi fino a oggi, interamente finanziato da Mozilla, stiamo cercando di creare un rapporto più stretto e diretto tra il nostro pubblico (gli "
-"utenti), i nostri contenuti (ad uso e consumo degli utenti) e i nostri sostenitori (di nuovo gli utenti) che ci consentirà di apportare questi miglioramenti più velocemente."
-
-#: kuma/payments/jinja2/payments/payments.html:72
-msgid "How is my payment handled? Is it secure?"
-msgstr "Come viene gestito il pagamento? È sicuro?"
-
-#: kuma/payments/jinja2/payments/payments.html:74
-#, python-format
-msgid ""
-"All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
-"number."
-msgstr "Tutte le informazioni vengono elaborate da <a href=\"%(url)s\">Stripe</a>. Mozilla conserva una registrazione del pagamento ma non riceve o memorizza il numero della carta di credito."
-
-#: kuma/payments/jinja2/payments/payments.html:81
-msgid "What data is Mozilla collecting about me?"
-msgstr "Quali dati Mozilla memorizza su di me?"
-
-#: kuma/payments/jinja2/payments/payments.html:83
-msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
-msgstr ""
-"Mozilla richiederà e conserverà il tuo nome e la tua email, che saranno utilizzati per inviarti email sulle transazioni (ad esempio la ricevuta). Mozilla non avrà accesso o memorizzerà il numero "
-"della tua carta di credito."
-
-#: kuma/payments/jinja2/payments/payments.html:90
-msgid "What does money go towards?"
-msgstr "Come verranno utilizzati i soldi?"
-
-#: kuma/payments/jinja2/payments/payments.html:92
-msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
-msgstr ""
-"I soldi raccolti tramite MDN (al netto di commissioni, tasse, ecc.) saranno reinvestiti in MDN. Pubblicheremo un rendiconto mensile su MDN Web Docs per aggiornare gli utenti sui progressi svolti."
-
-#: kuma/payments/jinja2/payments/payments.html:99
-msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
-msgstr "Se faccio una donazione a Mozilla Foundation, aiuterò MDN?"
-
-#: kuma/payments/jinja2/payments/payments.html:101
-#, python-format
-msgid ""
-"The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in the "
-"U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> "
-"and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
-msgstr ""
-"<a href=\"%(foundation_url)s\">Mozilla Foundation</a> e MDN sono organizzazioni separate con programmi separati. Le donazioni a Mozilla Foundation sono <a href=\"%(tax_faq_url)s\">deducibili dalle "
-"tasse negli Stati Uniti</a> nella massima misura consentita dalla legge e vengono raccolte in un fondo generale per sostenere i programmi pubblici e di beneficenza di Mozilla. MDN fa parte di <a "
-"href=\"%(corporation_url)s\">Mozilla Corporation</a>, i pagamenti intestati a MDN non sono destinati ai programmi di beneficenza di Mozilla ma vengono reinvestiti nei contenuti, negli strumenti e "
-"nella piattaforma MDN."
-
-#: kuma/payments/jinja2/payments/payments.html:117
-msgid "Is support of MDN tax-deductible?"
-msgstr "Le donazioni a MDN sono deducibili dalle tasse?"
-
-#: kuma/payments/jinja2/payments/payments.html:119
-msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
-msgstr "No, i pagamenti a favore di Mozilla Corporation per sostenere MDN non sono fiscalmente deducibili negli Stati Uniti o in altri paesi."
-
-#: kuma/payments/jinja2/payments/payments.html:125
-msgid "What will MDN user funding pay for?"
-msgstr "Per cosa verranno utilizzate le donazioni degli utenti a MDN?"
-
-#: kuma/payments/jinja2/payments/payments.html:127
-msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
-msgstr ""
-"Attualmente Mozilla copre i costi di gestione del sito e dello staff (inclusi autori di contenuti e sviluppatori web). Le donazioni degli utenti MDN finanzieranno lo sviluppo dei progetti correnti "
-"e il lancio di nuovi, come:"
-
-#: kuma/payments/jinja2/payments/payments.html:135
-msgid "Adding more content, and updating current content"
-msgstr "Aggiunta di più contenuti e aggiornamento dei contenuti già presenti"
-
-#: kuma/payments/jinja2/payments/payments.html:136
-msgid "Improving performance of the site"
-msgstr "Miglioramento delle prestazioni del sito"
-
-#: kuma/payments/jinja2/payments/payments.html:137
-msgid "Modernizing the MDN platform"
-msgstr "Modernizzazione della piattaforma MDN"
-
-#: kuma/payments/jinja2/payments/payments.html:138
-msgid "Adding offline access to MDN"
-msgstr "Implementazione dell’accesso offline a MDN"
-
-#: kuma/payments/jinja2/payments/payments.html:139
-msgid "Supporting integrations with popular developer tools"
-msgstr "Supporto alle integrazioni con gli strumenti di sviluppo più popolari"
-
-#: kuma/payments/jinja2/payments/payments.html:140
-msgid "More tutorials and guides"
-msgstr "Più tutorial e guide"
-
-#: kuma/payments/jinja2/payments/payments.html:141
-msgid "Training and webinars"
-msgstr "Formazione e seminari online"
-
-#: kuma/payments/jinja2/payments/payments.html:143
-msgid "Why can’t you just open a Crowdsourcing campaign?"
-msgstr "Perché non aprire semplicemente una campagna di raccolta fondi tipo crowdsourcing?"
-
-#: kuma/payments/jinja2/payments/payments.html:145
-msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
-msgstr "Perché il nostro obiettivo non è raccogliere una somma specifica, bensì coltivare un’ampia base di finanziatori composta proprio da chi trae beneficio da MDN."
-
-#: kuma/payments/jinja2/payments/payments.html:151
-msgid "How has MDN been funded to date?"
-msgstr "Come è stato finanziato MDN fino ad oggi?"
-
-#: kuma/payments/jinja2/payments/payments.html:153
-msgid ""
-"MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
-"we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
-msgstr ""
-"MDN è finanziato dal fondo generale di Mozilla Corporation fino dalla sua fondazione nel 2005. Mozilla Corporation intende continuare a sostenere economicamente MDN, anche se quest’ultimo si "
-"impegna ad ampliare e diversificare le proprie fonti di finanziamento. Il nostro obiettivo è creare più iniziative per gli utenti e insieme agli utenti."
-
-#: kuma/payments/jinja2/payments/payments.html:162
-msgid "How does Mozilla make money?"
-msgstr "Da dove provengono le entrate di Mozilla?"
-
-#: kuma/payments/jinja2/payments/payments.html:164
-msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
-msgstr "Mozilla Corporation, che finanzia MDN, trae i suoi guadagni principalmente dalle royalty provenienti dai provider di ricerca di Firefox (come Google, Amazon, DuckDuckGo e altri)."
-
-#: kuma/payments/jinja2/payments/payments.html:172
-#, python-format
-msgid ""
-"Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
-"revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
-msgstr ""
-"Un altro discorso va fatto per Mozilla Foundation, un’organizzazione senza fini di lucro che riceve denaro principalmente da donazioni e dalle royalty di Mozilla Corporation. In quanto "
-"organizzazione non a scopo di lucro, Mozilla Foundation riporta queste entrate pubblicamente ogni anno, come nel nostro più recente <a href=\"%(url)s\"> Report Annuale Mozilla 2016 </a>."
-
-#: kuma/payments/jinja2/payments/payments.html:186
-msgid "Monthly payments"
-msgstr "Pagamenti mensili"
-
-#: kuma/payments/jinja2/payments/payments.html:188
-msgid "How do I manage my monthly payment?"
-msgstr "Come posso gestire il mio pagamento mensile?"
-
-#: kuma/payments/jinja2/payments/payments.html:190
-#, python-format
-msgid ""
-"If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
-"\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
-msgstr ""
-"Se desideri modificare i dettagli del tuo pagamento mensile, ad esempio per aggiornare i dati della tua carta di credito o l’importo della donazione, annulla la tua sottoscrizione dalla pagina <a "
-"href=\"%(manage_subscription_url)s\">Gestione delle sottoscrizioni mensili</a> e ripeti la sottoscrizione da capo utilizzando i dati della nuova carta. Se hai domande, contattaci all’indirizzo <a "
-"href=\"%(url)s\">%(email)s.</a>"
-
-#: kuma/payments/jinja2/payments/payments.html:200
-msgid "How do I apply for a refund or cancel my payment?"
-msgstr "Come posso richiedere un rimborso o annullare il pagamento?"
-
-#: kuma/payments/jinja2/payments/payments.html:202
-#, python-format
-msgid ""
-"If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
-"monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
-msgstr ""
-"Se desideri annullare il tuo pagamento mensile o richiedere un rimborso, puoi farlo in qualsiasi momento dalla <a href=\"%(manage_subscription_url)s\">pagina di gestione delle sottoscrizioni "
-"mensili</a>. Se scegli di annullare, la donazione mensile cesserà di essere addebitata sulla carta di credito indicata."
-
-#: kuma/payments/jinja2/payments/payments.html:210
-msgid "What are the payment terms?"
-msgstr "Quali sono i termini di pagamento?"
-
-#: kuma/payments/jinja2/payments/payments.html:212
-#, python-format
-msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
-msgstr "Per avere maggiori informazioni leggi i nostri <a href=\"%(url)s\">termini di pagamento</a>."
-
-#: kuma/payments/jinja2/payments/payments.html:216
-msgid "Does deleting my MDN account cancel my subscription?"
-msgstr "Eliminando il mio account MDN verranno rimosse anche le mie iscrizioni?"
-
-#: kuma/payments/jinja2/payments/payments.html:218
-msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
-msgstr "Quando richiedi la cancellazione del tuo account, cancelliamo anche tutte le tue iscrizioni e non ti addebiteremo alcun costo nei mesi successivi."
-
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "MDN payment terms"
 msgstr "Termini di pagamento di MDN"
@@ -1721,6 +1504,11 @@ msgstr "Termini di pagamento di MDN"
 #: kuma/payments/jinja2/payments/terms.html:23
 msgid "MDN Web Docs payment terms"
 msgstr "Termini di pagamento di MDN Web Docs"
+
+#: kuma/payments/jinja2/payments/thank-you.html:3
+#, fuzzy
+msgid "Thank you"
+msgstr "Grazie!"
 
 #: kuma/search/admin.py:10
 msgid "Can't promote more than one index at once."
@@ -2051,7 +1839,7 @@ msgstr "Utente"
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
 msgstr "Il nome utente può contenere unicamente lettere, numeri e i caratteri: . - _ +"
 
-#: kuma/users/forms.py:30 kuma/users/models.py:53
+#: kuma/users/forms.py:30 kuma/users/models.py:56
 msgid "Timezone"
 msgstr "Fuso orario"
 
@@ -2067,23 +1855,23 @@ msgstr "Nome utente"
 msgid "Display a link to GitHub on my profile"
 msgstr "Mostra un link a GitHub nel profilo"
 
-#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:152
+#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:155
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:146
+#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:149
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:136
+#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:139
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:149
+#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:152
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:157
+#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:160
 msgid "Discourse"
 msgstr "Discourse"
 
@@ -2108,85 +1896,85 @@ msgstr "Mantieni l’attribuzione originale per le mie modifiche (%(username)s)"
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Desidero che le mie modifiche vengano attribuite a un generico “utente anonimo”"
 
-#: kuma/users/models.py:38
+#: kuma/users/models.py:41
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
 msgstr "L’utente %(banned_user)s è stato espulso da %(banned_by)s"
 
-#: kuma/users/models.py:43
+#: kuma/users/models.py:46
 #, python-format
 msgid "%s (no longer active)"
 msgstr "%s (inattivo)"
 
-#: kuma/users/models.py:66
+#: kuma/users/models.py:69
 msgid "Language"
 msgstr "Lingua"
 
-#: kuma/users/models.py:71
+#: kuma/users/models.py:74
 msgid "Homepage"
 msgstr "Pagina iniziale"
 
-#: kuma/users/models.py:75
+#: kuma/users/models.py:78
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "Il formato di questo URL non è valido. Un url valido deve avere una struttura del tipo http://example.com/my_page."
 
-#: kuma/users/models.py:82
+#: kuma/users/models.py:85
 msgid "Name"
 msgstr "Nome"
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:87
 msgid "Organization"
 msgstr "Società"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:89
 msgid "Location"
 msgstr "Località"
 
-#: kuma/users/models.py:87
+#: kuma/users/models.py:90
 msgid "About Me"
 msgstr "Informazioni utente"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:92
 msgid "IRC nickname"
 msgstr "Alias IRC"
 
-#: kuma/users/models.py:96
+#: kuma/users/models.py:99
 msgid "Enter a valid website URL."
 msgstr "Inserisci l’indirizzo di un sito web valido."
 
-#: kuma/users/models.py:99
+#: kuma/users/models.py:102
 msgid "Enter a valid Twitter URL."
 msgstr "Inserisci l’indirizzo di una pagina Twitter."
 
-#: kuma/users/models.py:102
+#: kuma/users/models.py:105
 msgid "Enter a valid GitHub URL."
 msgstr "Inserisci l’indirizzo di una pagina GitHub."
 
-#: kuma/users/models.py:106
+#: kuma/users/models.py:109
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Inserisci l’indirizzo di una pagina StackOverflow."
 
-#: kuma/users/models.py:111
+#: kuma/users/models.py:114
 msgid "Enter a valid LinkedIn URL."
 msgstr "Inserisci l’indirizzo di una pagina LinkedIn."
 
-#: kuma/users/models.py:116
+#: kuma/users/models.py:119
 msgid "Enter a valid Mozillians URL."
 msgstr "Inserisci l’indirizzo di una pagina Mozillians."
 
-#: kuma/users/models.py:121
+#: kuma/users/models.py:124
 msgid "Enter a valid Facebook URL."
 msgstr "Inserisci l’indirizzo di una pagina Facebook."
 
-#: kuma/users/models.py:126
+#: kuma/users/models.py:129
 msgid "Enter a valid Discourse URL."
 msgstr "Inserisci un indirizzo di Discourse valido."
 
-#: kuma/users/models.py:133
+#: kuma/users/models.py:136
 msgid "Website"
 msgstr "Sito web"
 
-#: kuma/users/models.py:141
+#: kuma/users/models.py:144
 msgid "Public GitHub URL"
 msgstr "Indirizzo pubblico su GitHub"
 
@@ -2718,7 +2506,7 @@ msgstr "Sei stato espulso per i seguenti motivi:"
 msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click here</a> to appeal this ban.</p>"
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Fai clic qui</a> per contestare l’espulsione.</p>"
 
-#: kuma/users/jinja2/users/user_delete.html:11
+#: kuma/users/jinja2/users/user_delete.html:11 kuma/users/jinja2/users/user_edit.html:130
 msgid "Delete your account"
 msgstr "Elimina il tuo account"
 
@@ -2796,10 +2584,6 @@ msgstr "I miei profili"
 #: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
 msgid "Publish"
 msgstr "Pubblica"
-
-#: kuma/users/jinja2/users/user_edit.html:130
-msgid "Delete Account."
-msgstr "Elimina account."
 
 #: kuma/users/jinja2/users/user_edit.html:143
 msgid "Manage your Mozilla Newsletter Subscriptions."
@@ -2963,7 +2747,7 @@ msgstr "L’eliminazione dell’account comporterà la perdita di tutte le prefe
 msgid "Are you sure you want to continue?"
 msgstr "Proseguire con l’operazione?"
 
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/users/jinja2/users/includes/delete-user-content.html:24
 msgid "Yes, Delete my Account"
 msgstr "Elimina l‘account"
 
@@ -3033,9 +2817,9 @@ msgid "Postal / ZIP code: %(zip)s"
 msgstr "Codice postale: %(zip)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:67
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(terms_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
+"To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
 "\">contact support</a>."
 msgstr ""
 "Per annullare l‘abbonamento <a href=\"%(manage_url)s\">fai clic qui</a>. <br>Se hai domande, leggi le <a href=\"%(terms_url)s\">FAQ</a> o <a href=\"%(support_email)s\">contatta l‘assistenza</a>."
@@ -4545,6 +4329,177 @@ msgstr "Non puoi tradurre questo documento."
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Messaggio del server Elasticsearch: %(backend)s"
 
+#~ msgid "Contribute"
+#~ msgstr "Collabora"
+
+#~ msgid "Contribute to MDN Web Docs"
+#~ msgstr "Collabora a MDN Web Docs"
+
+#~ msgid "Support MDN"
+#~ msgstr "Sostieni MDN"
+
+#~ msgid "Thank you for supporting MDN."
+#~ msgstr "Grazie per il tuo sostegno a MDN."
+
+#~ msgid "FAQs"
+#~ msgstr "FAQ"
+
+#~ msgid "Why is MDN asking me for money?"
+#~ msgstr "Perché MDN mi sta chiedendo del denaro?"
+
+#~ msgid "MDN is experimenting with seeking direct support from our users in order to accelerate growing and maintaining our content and platform, with assistance from those who use it."
+#~ msgstr ""
+#~ "MDN sta sperimentando una nuova forma di finanziamento attraverso il contributo diretto dei nostri utenti: chiediamo alle stesse persone che utilizzano la piattaforma e i contenuti di MDN di "
+#~ "aiutarci a mantenerli e a promuoverne la crescita."
+
+#~ msgid ""
+#~ "Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is "
+#~ "currently wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our "
+#~ "supporters (also, you, again) that lets us accelerate those improvements."
+#~ msgstr ""
+#~ "Il numero di utenti è cresciuto esponenzialmente negli ultimi anni (con conseguente aumento dei costi di manutenzione della piattaforma) e abbiamo ideato una lunga lista di miglioramenti da "
+#~ "apportare. Sebbene MDN sia sempre stato, dai suoi inizi fino a oggi, interamente finanziato da Mozilla, stiamo cercando di creare un rapporto più stretto e diretto tra il nostro pubblico (gli "
+#~ "utenti), i nostri contenuti (ad uso e consumo degli utenti) e i nostri sostenitori (di nuovo gli utenti) che ci consentirà di apportare questi miglioramenti più velocemente."
+
+#~ msgid "How is my payment handled? Is it secure?"
+#~ msgstr "Come viene gestito il pagamento? È sicuro?"
+
+#~ msgid ""
+#~ "All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
+#~ "number."
+#~ msgstr "Tutte le informazioni vengono elaborate da <a href=\"%(url)s\">Stripe</a>. Mozilla conserva una registrazione del pagamento ma non riceve o memorizza il numero della carta di credito."
+
+#~ msgid "What data is Mozilla collecting about me?"
+#~ msgstr "Quali dati Mozilla memorizza su di me?"
+
+#~ msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
+#~ msgstr ""
+#~ "Mozilla richiederà e conserverà il tuo nome e la tua email, che saranno utilizzati per inviarti email sulle transazioni (ad esempio la ricevuta). Mozilla non avrà accesso o memorizzerà il numero "
+#~ "della tua carta di credito."
+
+#~ msgid "What does money go towards?"
+#~ msgstr "Come verranno utilizzati i soldi?"
+
+#~ msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
+#~ msgstr ""
+#~ "I soldi raccolti tramite MDN (al netto di commissioni, tasse, ecc.) saranno reinvestiti in MDN. Pubblicheremo un rendiconto mensile su MDN Web Docs per aggiornare gli utenti sui progressi svolti."
+
+#~ msgid "If I just donate to the Mozilla Foundation, will that help MDN?"
+#~ msgstr "Se faccio una donazione a Mozilla Foundation, aiuterò MDN?"
+
+#~ msgid ""
+#~ "The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in "
+#~ "the U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla "
+#~ "Corporation</a> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
+#~ msgstr ""
+#~ "<a href=\"%(foundation_url)s\">Mozilla Foundation</a> e MDN sono organizzazioni separate con programmi separati. Le donazioni a Mozilla Foundation sono <a href=\"%(tax_faq_url)s\">deducibili "
+#~ "dalle tasse negli Stati Uniti</a> nella massima misura consentita dalla legge e vengono raccolte in un fondo generale per sostenere i programmi pubblici e di beneficenza di Mozilla. MDN fa parte "
+#~ "di <a href=\"%(corporation_url)s\">Mozilla Corporation</a>, i pagamenti intestati a MDN non sono destinati ai programmi di beneficenza di Mozilla ma vengono reinvestiti nei contenuti, negli "
+#~ "strumenti e nella piattaforma MDN."
+
+#~ msgid "Is support of MDN tax-deductible?"
+#~ msgstr "Le donazioni a MDN sono deducibili dalle tasse?"
+
+#~ msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
+#~ msgstr "No, i pagamenti a favore di Mozilla Corporation per sostenere MDN non sono fiscalmente deducibili negli Stati Uniti o in altri paesi."
+
+#~ msgid "What will MDN user funding pay for?"
+#~ msgstr "Per cosa verranno utilizzate le donazioni degli utenti a MDN?"
+
+#~ msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
+#~ msgstr ""
+#~ "Attualmente Mozilla copre i costi di gestione del sito e dello staff (inclusi autori di contenuti e sviluppatori web). Le donazioni degli utenti MDN finanzieranno lo sviluppo dei progetti "
+#~ "correnti e il lancio di nuovi, come:"
+
+#~ msgid "Adding more content, and updating current content"
+#~ msgstr "Aggiunta di più contenuti e aggiornamento dei contenuti già presenti"
+
+#~ msgid "Improving performance of the site"
+#~ msgstr "Miglioramento delle prestazioni del sito"
+
+#~ msgid "Modernizing the MDN platform"
+#~ msgstr "Modernizzazione della piattaforma MDN"
+
+#~ msgid "Adding offline access to MDN"
+#~ msgstr "Implementazione dell’accesso offline a MDN"
+
+#~ msgid "Supporting integrations with popular developer tools"
+#~ msgstr "Supporto alle integrazioni con gli strumenti di sviluppo più popolari"
+
+#~ msgid "More tutorials and guides"
+#~ msgstr "Più tutorial e guide"
+
+#~ msgid "Training and webinars"
+#~ msgstr "Formazione e seminari online"
+
+#~ msgid "Why can’t you just open a Crowdsourcing campaign?"
+#~ msgstr "Perché non aprire semplicemente una campagna di raccolta fondi tipo crowdsourcing?"
+
+#~ msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
+#~ msgstr "Perché il nostro obiettivo non è raccogliere una somma specifica, bensì coltivare un’ampia base di finanziatori composta proprio da chi trae beneficio da MDN."
+
+#~ msgid "How has MDN been funded to date?"
+#~ msgstr "Come è stato finanziato MDN fino ad oggi?"
+
+#~ msgid ""
+#~ "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even "
+#~ "as we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
+#~ msgstr ""
+#~ "MDN è finanziato dal fondo generale di Mozilla Corporation fino dalla sua fondazione nel 2005. Mozilla Corporation intende continuare a sostenere economicamente MDN, anche se quest’ultimo si "
+#~ "impegna ad ampliare e diversificare le proprie fonti di finanziamento. Il nostro obiettivo è creare più iniziative per gli utenti e insieme agli utenti."
+
+#~ msgid "How does Mozilla make money?"
+#~ msgstr "Da dove provengono le entrate di Mozilla?"
+
+#~ msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
+#~ msgstr "Mozilla Corporation, che finanzia MDN, trae i suoi guadagni principalmente dalle royalty provenienti dai provider di ricerca di Firefox (come Google, Amazon, DuckDuckGo e altri)."
+
+#~ msgid ""
+#~ "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports "
+#~ "these revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
+#~ msgstr ""
+#~ "Un altro discorso va fatto per Mozilla Foundation, un’organizzazione senza fini di lucro che riceve denaro principalmente da donazioni e dalle royalty di Mozilla Corporation. In quanto "
+#~ "organizzazione non a scopo di lucro, Mozilla Foundation riporta queste entrate pubblicamente ogni anno, come nel nostro più recente <a href=\"%(url)s\"> Report Annuale Mozilla 2016 </a>."
+
+#~ msgid "Monthly payments"
+#~ msgstr "Pagamenti mensili"
+
+#~ msgid "How do I manage my monthly payment?"
+#~ msgstr "Come posso gestire il mio pagamento mensile?"
+
+#~ msgid ""
+#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
+#~ "\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
+#~ msgstr ""
+#~ "Se desideri modificare i dettagli del tuo pagamento mensile, ad esempio per aggiornare i dati della tua carta di credito o l’importo della donazione, annulla la tua sottoscrizione dalla pagina "
+#~ "<a href=\"%(manage_subscription_url)s\">Gestione delle sottoscrizioni mensili</a> e ripeti la sottoscrizione da capo utilizzando i dati della nuova carta. Se hai domande, contattaci "
+#~ "all’indirizzo <a href=\"%(url)s\">%(email)s.</a>"
+
+#~ msgid "How do I apply for a refund or cancel my payment?"
+#~ msgstr "Come posso richiedere un rimborso o annullare il pagamento?"
+
+#~ msgid ""
+#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
+#~ "monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
+#~ msgstr ""
+#~ "Se desideri annullare il tuo pagamento mensile o richiedere un rimborso, puoi farlo in qualsiasi momento dalla <a href=\"%(manage_subscription_url)s\">pagina di gestione delle sottoscrizioni "
+#~ "mensili</a>. Se scegli di annullare, la donazione mensile cesserà di essere addebitata sulla carta di credito indicata."
+
+#~ msgid "What are the payment terms?"
+#~ msgstr "Quali sono i termini di pagamento?"
+
+#~ msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
+#~ msgstr "Per avere maggiori informazioni leggi i nostri <a href=\"%(url)s\">termini di pagamento</a>."
+
+#~ msgid "Does deleting my MDN account cancel my subscription?"
+#~ msgstr "Eliminando il mio account MDN verranno rimosse anche le mie iscrizioni?"
+
+#~ msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
+#~ msgstr "Quando richiedi la cancellazione del tuo account, cancelliamo anche tutte le tue iscrizioni e non ti addebiteremo alcun costo nei mesi successivi."
+
+#~ msgid "Delete Account."
+#~ msgstr "Elimina account."
+
 #~ msgid "Indexing %(total)d documents into %(total_chunks)d chunks of size %(size)d into index %(index)s.total"
 #~ msgstr "Indicizzazione di %(total)d documenti in %(total_chunks)d blocchi di dimensione %(size)d nell’indice %(index)s"
 
@@ -4852,9 +4807,6 @@ msgstr "Messaggio del server Elasticsearch: %(backend)s"
 
 #~ msgid "Thank you for submitting your feedback."
 #~ msgstr "Grazie per il tuo commento."
-
-#~ msgid "Thank You"
-#~ msgstr "Grazie!"
 
 #~ msgid ""
 #~ "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and "
