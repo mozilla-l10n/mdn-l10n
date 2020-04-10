@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-10 01:50+0000\n"
+"PO-Revision-Date: 2020-04-10 01:59+0000\n"
 "Last-Translator: passionforlife <eloli@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
 "Language: zh_CN\n"
@@ -2578,21 +2578,21 @@ msgid "Date of issue: %(payment_date)s"
 msgstr "出票日期：%(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
-#, fuzzy, python-format
+#, python-format
 msgid "Date due: %(payment_date)s"
-msgstr "付款条款是什么？"
+msgstr "到期日期：%(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
-#, fuzzy, python-format
+#, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr "下次付款日（5 美元/月）：%(date)s$"
+msgstr "您的下次付款日（%(cost)s 美元/月）：%(next_payment_date)s。"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
-msgstr "若要取消订阅，请 <a href=\"%(manage_url)s\">点击此处</a>。<br>若您有疑问，可参阅<a href=\"%(faq_url)s\">常见问题</a>或联系<a href=\"%(support_email)s\">用户支持</a>。"
+msgstr "可以随时取消。若要取消订阅，请前往每月捐款管理页（ %(manage_subscription_url)s ）。若您有疑问，可参阅常见问题（ %(faq_url)s ）或联系用户支持（ %(contact_email)s ）。"
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
@@ -2770,9 +2770,8 @@ msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly
 msgstr "您将成为第 %(number)s 号 MDN 会员，以每月 5 美元的费用支持 MDN。"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "您可以加入我们，共同让 MDN 变得更好。在您的作品开花结果之时，您将得到比知识与工具更多的东西。"
+msgstr "您的热心，会促成创造更多的知识与工具。"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2794,9 +2793,9 @@ msgid "Continue"
 msgstr "继续"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "您是 MDN 会员"
+msgstr "您是第 %(number)s 号 MDN 会员"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
