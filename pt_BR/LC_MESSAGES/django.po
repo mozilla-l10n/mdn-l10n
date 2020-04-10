@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-10 15:13+0000\n"
+"PO-Revision-Date: 2020-04-10 15:21+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: Portuguese (Brazilian) https://pontoon.mozilla.org/pt_BR/\n"
 "Language: pt_BR\n"
@@ -2612,22 +2612,22 @@ msgstr "Você está dando apoio à MDN com uma assinatura mensal de %(cost)s."
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
 msgid "Amount paid: %(cost)s"
-msgstr ""
+msgstr "Valor pago: %(cost)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
 #, python-format
 msgid "Payment method: %(credit_card_brand)s"
-msgstr ""
+msgstr "Método de pagamento: %(credit_card_brand)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
 #, python-format
 msgid "Invoice number: %(invoice_number)s"
-msgstr ""
+msgstr "Número da fatura: %(invoice_number)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
 #, python-format
 msgid "Date of issue: %(payment_date)s"
-msgstr ""
+msgstr "Data de emissão: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
 #, python-format
@@ -2651,7 +2651,7 @@ msgstr ""
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
 msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
-msgstr ""
+msgstr "Seu recibo de assinatura mensal da MDN de %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
@@ -2829,12 +2829,11 @@ msgstr "Ocorreu um erro ao tentar configurar a assinatura no servidor do Stripe.
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:27
 #, python-format
 msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
-msgstr ""
+msgstr "Você será o membro da MDN de número %(number)s a oferecer apoio à MDN com uma assinatura mensal de US$ 5."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Participe em tornar a MDN ainda melhor. Você receberá de volta mais do conhecimento e das ferramentas em que confia para quando seu trabalho tem mesmo que funcionar."
+msgstr "Obtenha mais do conhecimento e das ferramentas em que você confia quando seu trabalho tem mesmo que funcionar."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2858,9 +2857,9 @@ msgid "Continue"
 msgstr "Continuar"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "Você é um membro da MDN"
+msgstr "Você é o membro da MDN de número %(number)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
