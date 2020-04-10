@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-10 20:53+0000\n"
+"PO-Revision-Date: 2020-04-10 21:03+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
 "Language: uk\n"
@@ -2597,7 +2597,7 @@ msgstr "Керувати підписками на розсилки Mozilla."
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
 #, python-format
 msgid "You supported MDN with a %(cost)s monthly subscription."
-msgstr "Ви підтримуєте MDN щомісячною передплатою %(cost)s."
+msgstr "Ви підтримуєте MDN щомісячною передплатою за %(cost)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
@@ -2620,23 +2620,23 @@ msgid "Date of issue: %(payment_date)s"
 msgstr "Дата платежу: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
-#, fuzzy, python-format
+#, python-format
 msgid "Date due: %(payment_date)s"
-msgstr "Які умови оплати?"
+msgstr "Дата сплати: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
-#, fuzzy, python-format
+#, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr "Наступна оплата в розмірі $5 (щомісяця) відбудеться %(date)s"
+msgstr "Наступна оплата в розмірі %(cost)s (щомісячна) відбудеться %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
-"Для скасування передплати <a href=\"%(manage_url)s\">натисніть тут</a>. <br>Якщо у вас є питання, ознайомтеся з <a href=\"%(faq_url)s\">Частими питаннями</a>, а також ви можете <a "
-"href=\"%(support_email)s\">зв'язатися зі службою підтримки</a>."
+"Скасуйте передплату у будь-який час. Щоб скасувати передплату, перейдіть на сторінку керування щомісячними передплатами (%(manage_subscription_url)s). Якщо ви маєте питання, будь ласка, ознайомтеся "
+"з частими питаннями (%(faq_url)s) або зверніться до служби підтримки (%(contact_email)s)."
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
