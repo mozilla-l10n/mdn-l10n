@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-10 21:42+0000\n"
+"PO-Revision-Date: 2020-04-10 21:49+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
 "Language: hu\n"
@@ -2621,22 +2621,22 @@ msgstr "%(cost)s havi előfizetéssel támogatta az MDN-t."
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
 msgid "Amount paid: %(cost)s"
-msgstr ""
+msgstr "Fizetett összeg: %(cost)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
 #, python-format
 msgid "Payment method: %(credit_card_brand)s"
-msgstr ""
+msgstr "Fizetési mód: %(credit_card_brand)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
 #, python-format
 msgid "Invoice number: %(invoice_number)s"
-msgstr ""
+msgstr "Számla száma: %(invoice_number)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
 #, python-format
 msgid "Date of issue: %(payment_date)s"
-msgstr ""
+msgstr "Kiállítás dátuma: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
 #, python-format
@@ -2644,23 +2644,23 @@ msgid "Date due: %(payment_date)s"
 msgstr "Esedékesség: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
-#, fuzzy, python-format
+#, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr "A következő (havi) 5 dolláros befizetés ekkor fog történni: %(date)s"
+msgstr "A következő (havi) %(cost)s dolláros befizetés ekkor fog történni: %(date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
-"Az előfizetés visszavonásához <a href=\"%(manage_url)s\">kattintson ide</a>. <br>Ha kérdése van, olvassa el a <a href=\"%(faq_url)s\">GyIK-ot</a>, vagy <a href=\"%(support_email)s\">felveheti a "
-"kapcsolatot az ügyfélszolgálattal</a> is."
+"Mondja le bármikor. Az előfizetés lemondásához ugorjon a havi előfizetések kezelése oldalra (%(manage_subscription_url)s). Ha kérdése van, olvassa el a GyIK-ot (%(manage_subscription_url)s), vagy "
+"felveheti a kapcsolatot a támogatással (%(contact_email)s)."
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
 msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
-msgstr ""
+msgstr "Az MDN havi előfizetési nyugtája ekkorról: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
@@ -2837,12 +2837,11 @@ msgstr "Hiba történt az előfizetés beállításakor a Stripe kiszolgálón. 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:27
 #, python-format
 msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
-msgstr ""
+msgstr "A(z) %(number)s. számú MDN-tag lesz, aki 5 $-os havi adománnyal támogatja az MDN-t."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Legyen része az MDN még jobbá tételének. Több tudást és eszközt fog kapni, amelyre támaszkodhat a munkája elvégzése során."
+msgstr "Kapjon vissza több tudást és eszközt, amelyre támaszkodhat a munkája elvégzése során."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2866,9 +2865,9 @@ msgid "Continue"
 msgstr "Folytatás"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "Ön MDN tag"
+msgstr "Ön a(z) %(number)s. számú MDN-tag"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
