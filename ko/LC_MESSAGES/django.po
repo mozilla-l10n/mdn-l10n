@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-02 16:47-0700\n"
+"POT-Creation-Date: 2020-04-09 17:48-0700\n"
 "PO-Revision-Date: 2020-02-29 02:15+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -907,11 +907,11 @@ msgstr "코어"
 msgid "Today at %s"
 msgstr "%s의 오늘"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:98
 msgid "Yes"
 msgstr "네"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:98
 msgid "No"
 msgstr "아니오"
 
@@ -1453,7 +1453,7 @@ msgstr "12월 31일 전에 기부하세요."
 msgid "Donate Now"
 msgstr "지금 기부하기"
 
-#: kuma/payments/jinja2/payments/index.html:3
+#: kuma/payments/jinja2/payments/index.html:3 kuma/users/jinja2/users/includes/stripe_subscription.html:15
 msgid "Become a monthly supporter"
 msgstr ""
 
@@ -2038,12 +2038,12 @@ msgstr "동의"
 msgid "I would like to make my GitHub profile URL public"
 msgstr "GitHub 프로필 URL을 공개하고 싶습니다"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:60
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:57
 #, fuzzy
 msgid "Getting started with your new MDN account"
 msgstr "웹 시작하기"
 
-#: kuma/users/views.py:666
+#: kuma/users/views.py:670
 msgid "Email address"
 msgstr "이메일 주소"
 
@@ -2626,13 +2626,56 @@ msgstr "게시"
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 뉴스레터 구독을 관리합니다."
 
-#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:2 kuma/users/jinja2/users/email/recovery/plain.ltxt:2
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
+#, fuzzy, python-format
+msgid "You supported MDN with a %(cost)s monthly subscription."
+msgstr "월간 구독 수정"
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
+#, python-format
+msgid "Amount paid: %(cost)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
+#, python-format
+msgid "Payment method: %(credit_card_brand)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
+#, python-format
+msgid "Invoice number: %(invoice_number)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
+#, python-format
+msgid "Date of issue: %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
+#, fuzzy, python-format
+msgid "Date due: %(payment_date)s"
+msgstr "결제 약관은 무엇인가요?"
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
+#, python-format
+msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
+#, python-format
+msgid ""
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"also contact support (%(contact_email)s)."
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
+#, python-format
+msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
 msgstr "안녕하세요. MDN입니다!"
-
-#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:9 kuma/users/jinja2/users/email/recovery/plain.ltxt:12
-msgid "Thank you for using MDN!"
-msgstr "MDN을 이용해 주셔서 감사합니다!"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:4
 #, python-format
@@ -2640,6 +2683,10 @@ msgid ""
 "You are receiving this e-mail because you or someone else has requested access to your user account %(username)s at %(domain)s. It can be safely ignored if you did not make this request. Click the "
 "link below to access your account:"
 msgstr "누군가가 %(domain)s에서 사용자 계정 %(username)s에 접근을 요청했기에 이 메일을 보고 있습니다. 요청하지 않은 경우 이를 안전하게 무시할 수 있습니다. 계정에 접근하려면 아래 링크를 클릭하세요:"
+
+#: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
+msgid "Thank you for using MDN!"
+msgstr "MDN을 이용해 주셔서 감사합니다!"
 
 #: kuma/users/jinja2/users/email/recovery/subject.ltxt:1
 #, python-format
@@ -2786,10 +2833,6 @@ msgstr "계정을 삭제합니다."
 msgid "Delete your account?"
 msgstr "계정을 삭제합니다."
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:15
-msgid "Help grow MDN"
-msgstr "MDN 참여하기"
-
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:18
 msgid "Stripe error"
 msgstr ""
@@ -2798,57 +2841,62 @@ msgstr ""
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:26
-msgid "Be a part of making MDN even better. You'll get back more of the knowledge and tools you rely on for when your work has to work."
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:27
+#, python-format
+msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:30
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:28
+msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:30
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 #, fuzzy
 msgid "Cancel any time."
 msgstr "검토 취소"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:36
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:38
 #, python-format
 msgid ""
 "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Payment Terms</a>, until I cancel my "
 "subscription."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:42
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:44
 #, fuzzy
 msgid "Continue"
 msgstr "공헌하기"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:52
-#, fuzzy
-msgid "You are an MDN member"
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:54
+#, fuzzy, python-format
+msgid "You are MDN member number %(number)s"
 msgstr "MDN 회원 가입"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:54
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
 msgid "Next payment of $5 (monthly) occurs on %(date)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:60
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:62
 #, python-format
 msgid "%(brand)s ending in %(last4)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:61
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:63
 #, python-format
 msgid "expires %(expires_at)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:62
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:64
 #, python-format
 msgid "Postal / ZIP code: %(zip)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:67
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:69
 #, python-format
 msgid ""
 "To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
@@ -4367,6 +4415,9 @@ msgstr "이 문서를 번역할 수 없습니다."
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 서버: %(backend)s"
 
+#~ msgid "Help grow MDN"
+#~ msgstr "MDN 참여하기"
+
 #~ msgid "Contribute"
 #~ msgstr "공헌하기"
 
@@ -4405,9 +4456,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 
 #~ msgid "How do I apply for a refund or cancel my payment?"
 #~ msgstr "지불액 환불이나 취소는 어떻게 신청 할 수 있나요?"
-
-#~ msgid "What are the payment terms?"
-#~ msgstr "결제 약관은 무엇인가요?"
 
 #, fuzzy
 #~ msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."

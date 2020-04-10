@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-02 16:47-0700\n"
+"POT-Creation-Date: 2020-04-09 17:48-0700\n"
 "PO-Revision-Date: 2020-03-28 15:19+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -880,11 +880,11 @@ msgstr "Core"
 msgid "Today at %s"
 msgstr "Hôm nay lúc %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:98
 msgid "Yes"
 msgstr "Có"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:98
 msgid "No"
 msgstr "Không"
 
@@ -1419,7 +1419,7 @@ msgstr "Quyên góp trước ngày 31/12."
 msgid "Donate Now"
 msgstr "Quyên góp ngay"
 
-#: kuma/payments/jinja2/payments/index.html:3
+#: kuma/payments/jinja2/payments/index.html:3 kuma/users/jinja2/users/includes/stripe_subscription.html:15
 msgid "Become a monthly supporter"
 msgstr ""
 
@@ -1993,11 +1993,11 @@ msgstr "Tôi đồng ý"
 msgid "I would like to make my GitHub profile URL public"
 msgstr "Tôi muốn công khai URL hồ sơ GitHub của mình"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:60
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:57
 msgid "Getting started with your new MDN account"
 msgstr ""
 
-#: kuma/users/views.py:666
+#: kuma/users/views.py:670
 msgid "Email address"
 msgstr "Địa chỉ email"
 
@@ -2568,13 +2568,58 @@ msgstr "Xuất bản"
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Quản lý đăng ký bản tin Mozilla của bạn."
 
-#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:2 kuma/users/jinja2/users/email/recovery/plain.ltxt:2
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
+#, fuzzy, python-format
+msgid "You supported MDN with a %(cost)s monthly subscription."
+msgstr "Chỉnh sửa đăng ký hàng tháng"
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
+#, python-format
+msgid "Amount paid: %(cost)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
+#, python-format
+msgid "Payment method: %(credit_card_brand)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
+#, python-format
+msgid "Invoice number: %(invoice_number)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
+#, python-format
+msgid "Date of issue: %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
+#, fuzzy, python-format
+msgid "Date due: %(payment_date)s"
+msgstr "Các điều khoản thanh toán là gì?"
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
+#, fuzzy, python-format
+msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
+msgstr "Khoản thanh toán tiếp theo $5 (hàng tháng) thực hiện vào %(date)s"
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
+#, fuzzy, python-format
+msgid ""
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"also contact support (%(contact_email)s)."
+msgstr ""
+"Để hủy đăng ký của bạn <a href=\"%(manage_url)s\">nhấp vào đây</a>. <br>Nếu bạn có câu hỏi, vui lòng đọc <a href=\"%(terms_url)s\">câu hỏi thường gặp</a> hoặc bạn cũng có thể <a href="
+"\"%(support_email)s\">liên hệ hỗ trợ</a>."
+
+#: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
+#, python-format
+msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
 msgstr "Xin chào từ MDN!"
-
-#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:9 kuma/users/jinja2/users/email/recovery/plain.ltxt:12
-msgid "Thank you for using MDN!"
-msgstr "Cảm ơn bạn đã sử dụng MDN!"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:4
 #, python-format
@@ -2584,6 +2629,10 @@ msgid ""
 msgstr ""
 "Bạn đang nhận được e-mail này vì bạn hoặc ai đó đã yêu cầu quyền truy cập vào tài khoản người dùng %(username)s của bạn tại %(domain)s. Nó có thể được bỏ qua một cách an toàn nếu bạn không thực "
 "hiện yêu cầu này. Nhấp vào liên kết bên dưới để truy cập vào tài khoản của bạn:"
+
+#: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
+msgid "Thank you for using MDN!"
+msgstr "Cảm ơn bạn đã sử dụng MDN!"
 
 #: kuma/users/jinja2/users/email/recovery/subject.ltxt:1
 #, python-format
@@ -2726,10 +2775,6 @@ msgstr "Có, xóa tài khoản của tôi"
 msgid "Delete your account?"
 msgstr "Xóa tài khoản của bạn?"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:15
-msgid "Help grow MDN"
-msgstr "Giúp phát triển MDN"
-
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:18
 msgid "Stripe error"
 msgstr "Lỗi Stripe"
@@ -2738,19 +2783,25 @@ msgstr "Lỗi Stripe"
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr "Đã xảy ra lỗi khi cố gắng thiết lập đăng ký với máy chủ của Stripe. Chúng tôi đã ghi lại lỗi và sẽ điều tra nó."
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:26
-msgid "Be a part of making MDN even better. You'll get back more of the knowledge and tools you rely on for when your work has to work."
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:27
+#, python-format
+msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:28
+#, fuzzy
+msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
 msgstr "Hãy là một phần của việc làm cho MDN tốt hơn. Bạn sẽ nhận lại được nhiều kiến thức và công cụ hơn khi làm việc."
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:30
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
 msgstr "Hóa đơn $5 mỗi tháng."
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:30
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "Cancel any time."
 msgstr "Hủy bất cứ lúc nào."
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:36
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:38
 #, python-format
 msgid ""
 "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Payment Terms</a>, until I cancel my "
@@ -2759,35 +2810,36 @@ msgstr ""
 "Bằng cách nhấp vào nút này, tôi ủy quyền cho Mozilla tính phí phương thức thanh toán này mỗi tháng, theo <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">điều khoản thanh toán</a>, cho đến "
 "khi tôi hủy đăng ký của tôi."
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:42
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:44
 msgid "Continue"
 msgstr "Tiếp tục"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:52
-msgid "You are an MDN member"
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:54
+#, fuzzy, python-format
+msgid "You are MDN member number %(number)s"
 msgstr "Bạn là thành viên MDN"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:54
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
 msgid "Next payment of $5 (monthly) occurs on %(date)s"
 msgstr "Khoản thanh toán tiếp theo $5 (hàng tháng) thực hiện vào %(date)s"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:60
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:62
 #, python-format
 msgid "%(brand)s ending in %(last4)s"
 msgstr "%(brand)s kết thúc trong %(last4)s"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:61
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:63
 #, python-format
 msgid "expires %(expires_at)s"
 msgstr "hết hạn %(expires_at)s"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:62
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:64
 #, python-format
 msgid "Postal / ZIP code: %(zip)s"
 msgstr "Mã bưu chính / ZIP: %(zip)s"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:67
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:69
 #, fuzzy, python-format
 msgid ""
 "To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
@@ -4283,6 +4335,9 @@ msgstr "Bạn không thể dịch bài viết này."
 msgid "Elasticsearch server: %(backend)s"
 msgstr ""
 
+#~ msgid "Help grow MDN"
+#~ msgstr "Giúp phát triển MDN"
+
 #~ msgid "Contribute"
 #~ msgstr "Đóng góp"
 
@@ -4425,9 +4480,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Nếu bạn muốn hủy khoản thanh toán hàng tháng của mình hoặc xin hoàn trả, bạn có thể tự do làm điều đó bất cứ lúc nào. Vui lòng hủy đăng ký của bạn trên <a href=\"%(manage_subscription_url)s"
 #~ "\">quản lý trang đăng ký hàng tháng</a>. Nếu bạn chọn hủy, chúng tôi sẽ không tính phí thẻ thanh toán của bạn cho các tháng tiếp theo."
-
-#~ msgid "What are the payment terms?"
-#~ msgstr "Các điều khoản thanh toán là gì?"
 
 #~ msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
 #~ msgstr "Vui lòng đọc <a href=\"%(url)s\">điều khoản thanh toán</a> của chúng tôi để biết thêm thông tin."

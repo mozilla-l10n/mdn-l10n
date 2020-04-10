@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-02 16:47-0700\n"
+"POT-Creation-Date: 2020-04-09 17:48-0700\n"
 "PO-Revision-Date: 2020-04-08 12:00+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: Turkish https://pontoon.mozilla.org/tr/\n"
@@ -590,8 +590,8 @@ msgid ""
 "We could not find your subscription. Either it has already been cancelled, or there was a mistake in the unsubscribe link. Please make sure the entire link from the email made it into the browser. "
 "If the last part of the link wraps onto a second line in the email, try copying and pasting the link into the browser."
 msgstr ""
-"Aboneliğinizi bulamadık. Ya zaten iptal edilmiş ya da abonelikten çıkma linkinde bir hata var. Lütfen e-postadaki linkin tamamının tarayıcıya girildiğinden emin olun. Eğer linkin son kısmı e-postada"
-" ikinci satıra taşmışsa linki tarayıcıya kopyalayıp yapıştırmaya çalışın."
+"Aboneliğinizi bulamadık. Ya zaten iptal edilmiş ya da abonelikten çıkma linkinde bir hata var. Lütfen e-postadaki linkin tamamının tarayıcıya girildiğinden emin olun. Eğer linkin son kısmı e-"
+"postada ikinci satıra taşmışsa linki tarayıcıya kopyalayıp yapıştırmaya çalışın."
 
 #: jinja2/tidings/unsubscribe_success.html:7
 msgid "Unsubscribed"
@@ -808,8 +808,8 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
+"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+"clear as you can.</p>"
 msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
@@ -866,11 +866,11 @@ msgstr "Çekirdek"
 msgid "Today at %s"
 msgstr "Bugün %s"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:98
 msgid "Yes"
 msgstr "Evet"
 
-#: kuma/core/templatetags/jinja_helpers.py:97
+#: kuma/core/templatetags/jinja_helpers.py:98
 msgid "No"
 msgstr "Hayır"
 
@@ -1261,8 +1261,8 @@ msgstr ""
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:39
@@ -1403,7 +1403,7 @@ msgstr "31 Aralık'tan önce bağış yapın."
 msgid "Donate Now"
 msgstr "Şimdi bağış yap"
 
-#: kuma/payments/jinja2/payments/index.html:3
+#: kuma/payments/jinja2/payments/index.html:3 kuma/users/jinja2/users/includes/stripe_subscription.html:15
 msgid "Become a monthly supporter"
 msgstr ""
 
@@ -1797,8 +1797,8 @@ msgstr "tür"
 #: kuma/users/adapters.py:37
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
 
 #: kuma/users/adapters.py:43
@@ -1982,11 +1982,11 @@ msgstr "Kabul ediyorum"
 msgid "I would like to make my GitHub profile URL public"
 msgstr ""
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:60
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:57
 msgid "Getting started with your new MDN account"
 msgstr "Yeni MDN hesabınızı kullanmaya başlama"
 
-#: kuma/users/views.py:666
+#: kuma/users/views.py:670
 msgid "Email address"
 msgstr "E-posta adresi"
 
@@ -2248,8 +2248,8 @@ msgstr "E-posta adresi"
 #: kuma/users/jinja2/socialaccount/signup.html:90
 #, python-format
 msgid ""
-"This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 
 #: kuma/users/jinja2/socialaccount/signup.html:98
@@ -2557,12 +2557,55 @@ msgstr "Yayımla"
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr ""
 
-#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:2 kuma/users/jinja2/users/email/recovery/plain.ltxt:2
-msgid "Hello from MDN!"
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
+#, fuzzy, python-format
+msgid "You supported MDN with a %(cost)s monthly subscription."
+msgstr "Aylık aboneliği düzenle"
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
+#, python-format
+msgid "Amount paid: %(cost)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:9 kuma/users/jinja2/users/email/recovery/plain.ltxt:12
-msgid "Thank you for using MDN!"
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
+#, python-format
+msgid "Payment method: %(credit_card_brand)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
+#, python-format
+msgid "Invoice number: %(invoice_number)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
+#, python-format
+msgid "Date of issue: %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
+#, python-format
+msgid "Date due: %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
+#, python-format
+msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
+#, python-format
+msgid ""
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"also contact support (%(contact_email)s)."
+msgstr ""
+
+#: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
+#, python-format
+msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
+msgid "Hello from MDN!"
 msgstr ""
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:4
@@ -2570,6 +2613,10 @@ msgstr ""
 msgid ""
 "You are receiving this e-mail because you or someone else has requested access to your user account %(username)s at %(domain)s. It can be safely ignored if you did not make this request. Click the "
 "link below to access your account:"
+msgstr ""
+
+#: kuma/users/jinja2/users/email/recovery/plain.ltxt:12
+msgid "Thank you for using MDN!"
 msgstr ""
 
 #: kuma/users/jinja2/users/email/recovery/subject.ltxt:1
@@ -2710,10 +2757,6 @@ msgstr "Evet, hesabımı sil"
 msgid "Delete your account?"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:15
-msgid "Help grow MDN"
-msgstr ""
-
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:18
 msgid "Stripe error"
 msgstr ""
@@ -2722,59 +2765,65 @@ msgstr ""
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:26
-msgid "Be a part of making MDN even better. You'll get back more of the knowledge and tools you rely on for when your work has to work."
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:27
+#, python-format
+msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:30
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:28
+msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
+msgstr ""
+
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:30
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "Cancel any time."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:36
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:38
 #, python-format
 msgid ""
 "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Payment Terms</a>, until I cancel my "
 "subscription."
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:42
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:44
 #, fuzzy
 msgid "Continue"
 msgstr "Katkıda bulunun"
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:52
-msgid "You are an MDN member"
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:54
+#, python-format
+msgid "You are MDN member number %(number)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:54
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
 msgid "Next payment of $5 (monthly) occurs on %(date)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:60
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:62
 #, python-format
 msgid "%(brand)s ending in %(last4)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:61
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:63
 #, python-format
 msgid "expires %(expires_at)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:62
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:64
 #, python-format
 msgid "Postal / ZIP code: %(zip)s"
 msgstr ""
 
-#: kuma/users/jinja2/users/includes/stripe_subscription.html:67
+#: kuma/users/jinja2/users/includes/stripe_subscription.html:69
 #, python-format
 msgid ""
-"To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a "
-"href=\"%(support_email)s\">contact support</a>."
+"To cancel your subscription <a href=\"%(manage_url)s\">click here</a>. <br>If you have questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s"
+"\">contact support</a>."
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
@@ -3229,8 +3278,8 @@ msgstr ""
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 
 #: kuma/wiki/jinja2/403-create-page.html:17
@@ -3386,15 +3435,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/document.html:168
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:177
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:188
