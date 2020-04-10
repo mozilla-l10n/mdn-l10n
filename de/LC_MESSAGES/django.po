@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-10 08:05+0000\n"
+"PO-Revision-Date: 2020-04-10 08:10+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German https://pontoon.mozilla.org/de/\n"
 "Language: de\n"
@@ -2616,9 +2616,9 @@ msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Verwalten Sie Ihre Mozilla-Newsletter-Abonnements."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
-#, fuzzy, python-format
+#, python-format
 msgid "You supported MDN with a %(cost)s monthly subscription."
-msgstr "Monatlichen Dauerauftrag bearbeiten"
+msgstr "Sie haben MDN mit einem monatlichen Beitrag von %(cost)s unterstützt."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
@@ -2641,23 +2641,23 @@ msgid "Date of issue: %(payment_date)s"
 msgstr "Ausstellungsdatum: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
-#, fuzzy, python-format
+#, python-format
 msgid "Date due: %(payment_date)s"
-msgstr "Was sind die Zahlungsbedingungen?"
+msgstr "Fälligkeitsdatum: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
-#, fuzzy, python-format
+#, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr "Die nächste Zahlung von 5 US-Dollar (monatlich) erfolgt am %(date)s"
+msgstr "Ihre nächste Zahlung von %(cost)s (monatlich) erfolgt am %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
-"Um Ihren Dauerauftrag zu stornieren, <a href=\"%(manage_url)s\">klicken Sie hier</a>. <br> Wenn Sie Fragen haben, lesen Sie bitte die <a href=\"%(faq_url)s\">FAQ</a> oder <a "
-"href=\"%(support_email)s\">wenden Sie sich an den Support</a>."
+"Sie können Ihren Dauerauftrag jederzeit stornoieren. Um Ihren Dauerauftrag zu stornieren, besuchen Sie bitte die Seite zur Verwaltung monatlicher Abonnements (%(manage_subscription_url)s). Wenn Sie "
+"Fragen haben, lesen Sie bitte die FAQ (%(faq_url)s) oder wenden Sie sich an den Support (%(contact_email)s)."
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
@@ -2839,12 +2839,11 @@ msgstr "Beim Einrichten des Dauerauftrags auf dem Stripe-Server ist ein Fehler a
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:27
 #, python-format
 msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
-msgstr ""
+msgstr "Sie werden MDN-Mitgliedsnummer %(number)s, und unterstützen MDN mit einem monatlichen Betrag von 5$."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Seien Sie dabei, MDN noch besser zu machen. Sie erhalten im Gegenzug mehr Wissen und Werkzeuge, auf die Sie sich verlassen können, wenn Ihre Arbeit funktionieren muss."
+msgstr "Sie erhalten im Gegenzug mehr Wissen und Werkzeuge, auf die Sie sich verlassen können, wenn Ihre Arbeit funktionieren muss."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2868,9 +2867,9 @@ msgid "Continue"
 msgstr "Weiter"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "Sie sind MDN-Mitglied"
+msgstr "Sie sind MDN-Mitgliedsnummer: %(number)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
