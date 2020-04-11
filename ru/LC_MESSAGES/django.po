@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-11 20:52+0000\n"
+"PO-Revision-Date: 2020-04-11 20:55+0000\n"
 "Last-Translator: Alexander Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
 "Language: ru\n"
@@ -2625,18 +2625,18 @@ msgid "Date due: %(payment_date)s"
 msgstr "Дата платежа: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
-#, fuzzy, python-format
+#, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr "Следующий ежемесячный платёж в 5$ произойдёт %(date)s"
+msgstr "Следующий ежемесячный платёж стоимостью %(cost)s произойдёт %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
-"Для отмены подписки <a href=\"%(manage_url)s\">щёлкните здесь</a>. <br>Если у вас возникли вопросы, воспользуйтесь <a href=\"%(faq_url)s\">ЧЗВ</a> или <a href=\"%(support_email)s\">обратитесь в "
-"службу поддержки</a>."
+"Отмена возможна в любой момент. Чтобы отменить подписку, перейдите на страницу управления ежемесячными подписками (%(manage_subscription_url)s). Если у вас возникли вопросы, воспользуйтесь ЧЗВ "
+"(%(faq_url)s) или обратитесь в службу поддержки (%(contact_email)s)."
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
@@ -2820,9 +2820,8 @@ msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly
 msgstr "Вы станете участником MDN номер %(number)s, если поддержите MDN ежемесячной подпиской стоимостью $5."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Станьте частью улучшения MDN. Вы получите больше знаний и инструментов, на которые вы сможете положиться, когда ваша работа должна работать."
+msgstr "Получите взамен больше знаний и инструментов, на которые вы сможете положиться, когда ваша работа должна работать."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2846,9 +2845,9 @@ msgid "Continue"
 msgstr "Продолжить"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "Вы являетесь участником MDN"
+msgstr "Вы стали участником MDN номер %(number)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
