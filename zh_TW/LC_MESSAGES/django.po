@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-11 11:51+0000\n"
+"PO-Revision-Date: 2020-04-11 11:56+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (Traditional) https://pontoon.mozilla.org/zh_TW/\n"
 "Language: zh_TW\n"
@@ -2589,16 +2589,16 @@ msgid "Date due: %(payment_date)s"
 msgstr "付款日: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
-#, fuzzy, python-format
+#, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr "美金 5 元（每月付款）的下次付款日: %(date)s"
+msgstr "%(cost)s（每月付款）的下次付款日: %(next_payment_date)s。"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
-msgstr "若要取消訂閱，請<a href=\"%(manage_url)s\">點擊此處</a>。<br>若您有相關問題，可閱讀 <a href=\"%(faq_url)s\">FAQ 常見問題集</a>或也可以<a href=\"%(support_email)s\">聯絡支援團隊</a>。"
+msgstr "您可以隨時取消訂閱。若要這麼做，請到每月訂閱頁面（%(manage_subscription_url)s）。若您有相關問題，可閱讀 FAQ 常見問題集（%(faq_url)s）或也可以聯絡支援團隊（%(contact_email)s）。"
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
@@ -2776,9 +2776,8 @@ msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly
 msgstr "若您願意每月花美金 5 元支持 MDN，將成為第 %(number)s 號會員。"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "成為 MDN 的一員，讓 MDN 變得更好。當您的作品動起來的時候，可以得到比知識與工具還更多的東西。"
+msgstr "當您的作品動起來的時候，可以得到比知識與工具還更多的東西。"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2800,9 +2799,9 @@ msgid "Continue"
 msgstr "繼續"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:54
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "您是 MDN 會員"
+msgstr "您的 MDN 會員編號: %(number)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:56
 #, python-format
