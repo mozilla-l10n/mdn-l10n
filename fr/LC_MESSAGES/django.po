@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-04-09 17:48-0700\n"
-"PO-Revision-Date: 2020-04-11 13:07+0000\n"
-"Last-Translator: YD <ygda+fx@free.fr>\n"
+"PO-Revision-Date: 2020-04-15 11:56+0000\n"
+"Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -2625,22 +2625,22 @@ msgstr "Vous soutenez l’action de MDN par une contribution mensuelle de %(cos
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
 msgid "Amount paid: %(cost)s"
-msgstr ""
+msgstr "Montant payé : %(cost)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
 #, python-format
 msgid "Payment method: %(credit_card_brand)s"
-msgstr ""
+msgstr "Mode de paiement : %(credit_card_brand)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
 #, python-format
 msgid "Invoice number: %(invoice_number)s"
-msgstr ""
+msgstr "Numéro de facture : %(invoice_number)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
 #, python-format
 msgid "Date of issue: %(payment_date)s"
-msgstr ""
+msgstr "Date d’émission : %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
 #, python-format
@@ -2653,18 +2653,16 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "Le prochain paiement de %(cost)s (mensuel) interviendra le %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
-"Pour annuler votre abonnement, veuillez <a href=\"%(manage_url)s\">cliquer ici</a>. <br> Si vous avez des questions, veuillez lire la <a href=\"%(faq_url)s\">FAQ</a> ou <a "
-"href=\"%(support_email)s\">prenez contact avec l’assistance</a> ."
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
 msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
-msgstr ""
+msgstr "Votre reçu d’abonnement mensuel MDN du %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
@@ -2847,12 +2845,11 @@ msgstr "Une erreur s’est produite lors de la configuration de l’abonnement a
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:27
 #, python-format
 msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription."
-msgstr ""
+msgstr "Votre numéro de membre MDN sera %(number)s grâce à votre abonnement mensuel de 5 $."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
-#, fuzzy
 msgid "Get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Contribuez à rendre MDN encore meilleur. En retour, vous aurez une meilleure connaissance des outils sur lesquels vous pouvez compter pour que votre travail soit efficace."
+msgstr ""
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
