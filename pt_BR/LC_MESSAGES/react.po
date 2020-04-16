@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-09 17:49-0700\n"
+"POT-Creation-Date: 2020-04-16 16:38-0700\n"
 "PO-Revision-Date: 2020-04-10 15:25+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: Portuguese (Brazilian) https://pontoon.mozilla.org/pt_BR/\n"
@@ -139,31 +139,32 @@ msgstr "A URL informada não parece ser válida"
 msgid "Default"
 msgstr "Padrão"
 
-#: kuma/javascript/src/active-banner.jsx:166
+#: kuma/javascript/src/active-banner.jsx:174
 msgid "Close banner"
 msgstr "Fechar banner"
 
-#: kuma/javascript/src/active-banner.jsx:210
+#: kuma/javascript/src/active-banner.jsx:195
 msgid "MDN Survey"
 msgstr "Pesquisa de opinião da MDN"
 
-#: kuma/javascript/src/active-banner.jsx:211
+#: kuma/javascript/src/active-banner.jsx:196
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "Ajude-nos a entender as 10 principais necessidades dos desenvolvedores web e designers."
 
-#: kuma/javascript/src/active-banner.jsx:214
+#: kuma/javascript/src/active-banner.jsx:199
 msgid "Take the survey"
 msgstr "Participe da pesquisa"
 
-#: kuma/javascript/src/active-banner.jsx:227 kuma/javascript/src/payments/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Torne-se um apoiador mensal"
 
-#: kuma/javascript/src/active-banner.jsx:230
-msgid "Support MDN with a $5 monthly subscription"
+#: kuma/javascript/src/active-banner.jsx:227
+#, fuzzy, python-format
+msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Apoie a MDN com uma assinatura mensal de US$ 5"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:236
 msgid "Learn more"
 msgstr "Saiba mais"
 
@@ -246,8 +247,8 @@ msgid ""
 "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
 "values to the developer community."
 msgstr ""
-"Nosso objetivo é fornecer valores reais e precisos em todas as nossas tabelas de dados de compatibilidade. Notificar a MDN  sobre dados imprecisos ou fornecer novos dados nos impulsiona em direção à"
-" meta de fornecer valores 100% reais à comunidade de desenvolvedores."
+"Nosso objetivo é fornecer valores reais e precisos em todas as nossas tabelas de dados de compatibilidade. Notificar a MDN  sobre dados imprecisos ou fornecer novos dados nos impulsiona em direção "
+"à meta de fornecer valores 100% reais à comunidade de desenvolvedores."
 
 #: kuma/javascript/src/bcd-signal.jsx:553
 msgid "Thank you for helping."
@@ -333,7 +334,7 @@ msgstr "Aprenda desenvolvimento web"
 msgid "About MDN"
 msgstr "Sobre a MDN"
 
-#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/thank-you.jsx:90
+#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/thank-you.jsx:92
 msgid "Feedback"
 msgstr "Comentários"
 
@@ -624,19 +625,52 @@ msgstr "Se quiser, digite um comentário…"
 msgid "Send"
 msgstr "Enviar"
 
-#: kuma/javascript/src/payments/index.jsx:64
+#: kuma/javascript/src/payments/incentives.jsx:10
+msgid "Get discounts on sweet loot from the <merchStoreLink />."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:13
+msgid "Get invited to attend special events and conferences."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:16
+#, python-format
+msgid "Get 20% of the <merchStoreLink /> with discount code MDNMEMBER20."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:19
+msgid "Check back for invitations to attend special events and conferences."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:28
+msgid "Enjoy exclusive member perks"
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:31
+msgid "Discounts on swag"
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:45
+msgid "MDN Merch store"
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:52
+msgid "Invitations to events"
+msgstr ""
+
+#: kuma/javascript/src/payments/index.jsx:78
 msgid "FAQs"
 msgstr "Perguntas frequentes"
 
-#: kuma/javascript/src/payments/index.jsx:68
+#: kuma/javascript/src/payments/index.jsx:82
 msgid "Why is MDN asking me for money?"
 msgstr "Por que a MDN está pedindo dinheiro?"
 
-#: kuma/javascript/src/payments/index.jsx:72
+#: kuma/javascript/src/payments/index.jsx:86
 msgid "MDN is seeking direct support from our users. We’d like to accelerate our growth and extend the maintenance of MDN’s content and platform, with assistance from those who use it."
 msgstr "A MDN está buscando apoio direto de nossos usuários. Gostaríamos de acelerar nosso crescimento e estender a manutenção do conteúdo e da plataforma da MDN, com o auxílio de quem a usa."
 
-#: kuma/javascript/src/payments/index.jsx:77
+#: kuma/javascript/src/payments/index.jsx:91
 msgid ""
 "Our user base has grown exponentially in the last few years and we have a large list of improvements we’d like to make. While MDN is currently wholly funded by Mozilla, and has been from the "
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
@@ -646,17 +680,17 @@ msgstr ""
 "tenha sido assim desde o início, gostaríamos de criar um relacionamento mais próximo e colaborativo entre nosso público (que são vocês!), nosso conteúdo (escrito para vocês e às vezes por vocês) e "
 "nossos apoiadores (vocês também, novamente) - para acelerar essas melhorias."
 
-#: kuma/javascript/src/payments/index.jsx:88
+#: kuma/javascript/src/payments/index.jsx:102
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
 msgstr ""
 "Todas as informações de pagamento passam pelo processador de pagamentos <stripeLink /> e um registro do seu pagamento é armazenado pela Mozilla. A Mozilla não recebe nem armazena seu número de "
 "cartão de crédito."
 
-#: kuma/javascript/src/payments/index.jsx:97
+#: kuma/javascript/src/payments/index.jsx:111
 msgid "Stripe"
 msgstr "Stripe"
 
-#: kuma/javascript/src/payments/index.jsx:108
+#: kuma/javascript/src/payments/index.jsx:122
 msgid ""
 "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipts and notifications). Mozilla will not have access to or store your credit card "
 "number."
@@ -664,12 +698,12 @@ msgstr ""
 "A Mozilla coleta e armazena seu nome e endereço de e-mail, usados para enviar e-mails sobre as transações (por exemplo, recibos e notificações). A Mozilla não tem acesso nem armazena seu número de "
 "cartão de crédito."
 
-#: kuma/javascript/src/payments/index.jsx:118
+#: kuma/javascript/src/payments/index.jsx:132
 msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
 msgstr ""
 "O dinheiro arrecadado através da MDN (menos taxas de processamento, impostos, etc.) é reinvestido na MDN. Publicamos um relatório mensal na MDN Web Docs mostrando que trabalhos foram concluídos."
 
-#: kuma/javascript/src/payments/index.jsx:129
+#: kuma/javascript/src/payments/index.jsx:143
 msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
@@ -678,62 +712,62 @@ msgstr ""
 "e de caridade da Mozilla em um fundo único geral. A MDN faz parte do <mocoLink /> e os pagamentos à MDN não são usados nos programas de caridade da Mozilla, mas são reinvestidos no conteúdo, nas "
 "ferramentas e na plataforma da MDN."
 
-#: kuma/javascript/src/payments/index.jsx:138
+#: kuma/javascript/src/payments/index.jsx:152
 msgid "Mozilla Foundation"
 msgstr "Fundação Mozilla"
 
-#: kuma/javascript/src/payments/index.jsx:143
+#: kuma/javascript/src/payments/index.jsx:157
 msgid "tax-deductible in the U.S."
 msgstr "dedutível de impostos nos EUA"
 
-#: kuma/javascript/src/payments/index.jsx:150
+#: kuma/javascript/src/payments/index.jsx:164
 msgid "Mozilla Corporation"
 msgstr "Mozilla Corporation"
 
-#: kuma/javascript/src/payments/index.jsx:161
+#: kuma/javascript/src/payments/index.jsx:175
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
 msgstr "Não. Os pagamentos à Mozilla Corporation em apoio à MDN não são dedutíveis nos Estados Unidos ou em outros países."
 
-#: kuma/javascript/src/payments/index.jsx:171
+#: kuma/javascript/src/payments/index.jsx:185
 msgid ""
 "Currently, Mozilla pays for site operations and overhead (including staff writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr ""
 "Atualmente, a Mozilla paga pelas operações do site e despesas gerais (incluindo a equipe de escritores e desenvolvedores web). A contribuição de usuários à MDN financiará a aceleração de projetos "
 "atuais e o lançamento de novos, incluindo:"
 
-#: kuma/javascript/src/payments/index.jsx:177
+#: kuma/javascript/src/payments/index.jsx:191
 msgid "Adding more content, and updating current content"
 msgstr "Adição de mais conteúdo e atualização do conteúdo atual"
 
-#: kuma/javascript/src/payments/index.jsx:182
+#: kuma/javascript/src/payments/index.jsx:196
 msgid "Improving performance of the site"
 msgstr "Melhora no desempenho do site"
 
-#: kuma/javascript/src/payments/index.jsx:187
+#: kuma/javascript/src/payments/index.jsx:201
 msgid "Modernizing the MDN platform"
 msgstr "Modernização da plataforma MDN"
 
-#: kuma/javascript/src/payments/index.jsx:190
+#: kuma/javascript/src/payments/index.jsx:204
 msgid "Adding offline access to MDN"
 msgstr "Adição de acesso offline à MDN"
 
-#: kuma/javascript/src/payments/index.jsx:193
+#: kuma/javascript/src/payments/index.jsx:207
 msgid "Supporting integrations with popular developer tools"
 msgstr "Suporte à integração com ferramentas de desenvolvimento populares"
 
-#: kuma/javascript/src/payments/index.jsx:197
+#: kuma/javascript/src/payments/index.jsx:211
 msgid "More tutorials and guides"
 msgstr "Mais tutoriais e guias"
 
-#: kuma/javascript/src/payments/index.jsx:198
+#: kuma/javascript/src/payments/index.jsx:212
 msgid "Training and webinars"
 msgstr "Treinamento e webinars"
 
-#: kuma/javascript/src/payments/index.jsx:206
+#: kuma/javascript/src/payments/index.jsx:220
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
 msgstr "Porque não estamos à procura de um montante fixo. Nosso objetivo é criar uma ampla base de apoio financeiro de pessoas que se beneficiam do trabalho da MDN."
 
-#: kuma/javascript/src/payments/index.jsx:216
+#: kuma/javascript/src/payments/index.jsx:230
 msgid ""
 "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
 "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
@@ -741,11 +775,11 @@ msgstr ""
 "A MDN é financiada a partir do orçamento geral da Mozilla Corporation (tem sido assim desde sua fundação em 2005). A Mozilla Corporation pretende continuar apoiando financeiramente a MDN no futuro, "
 "mesmo estando nós ampliando e diversificando as fontes de financiamento da MDN. Só queremos fazer mais coisas com vocês e para vocês!"
 
-#: kuma/javascript/src/payments/index.jsx:226
+#: kuma/javascript/src/payments/index.jsx:240
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
 msgstr "A Mozilla Corporation, que financia a MDN, arrecada dinheiro principalmente com royalties de provedores de pesquisa no Firefox (como Google, Amazon, DuckDuckGo e outros)."
 
-#: kuma/javascript/src/payments/index.jsx:232
+#: kuma/javascript/src/payments/index.jsx:246
 msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
 "revenues publicly every trailing year, as in our most recent <annualReportLink />."
@@ -753,15 +787,15 @@ msgstr ""
 "Separadamente, a Fundação Mozilla é uma organização sem fins lucrativos, financiada principalmente por doações e royalties da Mozilla Corporation. Sendo sem fins lucrativos, a Fundação Mozilla "
 "presta contas dessas receitas publicamente a cada ano consecutivo, como em nosso mais recente <annualReportLink />."
 
-#: kuma/javascript/src/payments/index.jsx:237
+#: kuma/javascript/src/payments/index.jsx:251
 msgid "2018 Mozilla Annual Report"
 msgstr "Relatório Anual Mozilla 2018"
 
-#: kuma/javascript/src/payments/index.jsx:249
+#: kuma/javascript/src/payments/index.jsx:263
 msgid "Monthly payments"
 msgstr "Pagamentos mensais"
 
-#: kuma/javascript/src/payments/index.jsx:258
+#: kuma/javascript/src/payments/index.jsx:272
 msgid ""
 "If you would like to manage your monthly subscription, such as changing your card account details, you will need to cancel your subscription and sign up again using the new card details. To cancel, "
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
@@ -769,113 +803,113 @@ msgstr ""
 "Se quiser gerenciar sua assinatura mensal, por exemplo alterar detalhes da conta do cartão, será necessário cancelar a assinatura e assinar novamente usando as informações atualizadas. Para "
 "cancelar, vá em <subscriptionsLink />. Se tiver alguma dúvida, entre em contato com <emailLink />."
 
-#: kuma/javascript/src/payments/index.jsx:263 kuma/javascript/src/payments/index.jsx:291 kuma/javascript/src/payments/thank-you.jsx:48
+#: kuma/javascript/src/payments/index.jsx:277 kuma/javascript/src/payments/index.jsx:305 kuma/javascript/src/payments/thank-you.jsx:50
 msgid "manage monthly subscription page"
 msgstr "página de gerenciamento de assinatura mensal"
 
-#: kuma/javascript/src/payments/index.jsx:286
+#: kuma/javascript/src/payments/index.jsx:300
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Você pode cancelar sua assinatura mensal quando quiser. Vá em <subscriptionsLink /> para cancelar a assinatura. Se optar por cancelar, não cobraremos seu cartão de pagamento nos meses subsequentes. "
 "Para qualquer outra dúvida ou pergunta, <emailLink />."
 
-#: kuma/javascript/src/payments/index.jsx:302
+#: kuma/javascript/src/payments/index.jsx:316
 msgid "contact support"
 msgstr "entre em contato com o suporte"
 
-#: kuma/javascript/src/payments/index.jsx:315
+#: kuma/javascript/src/payments/index.jsx:329
 msgid "Please read our <paymentLink /> for more information."
 msgstr "Leia o nosso <paymentLink /> para mais informações."
 
-#: kuma/javascript/src/payments/index.jsx:320
+#: kuma/javascript/src/payments/index.jsx:334
 msgid "payment terms"
 msgstr "Termos de pagamento"
 
-#: kuma/javascript/src/payments/index.jsx:331
+#: kuma/javascript/src/payments/index.jsx:345
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr "Se você solicitar a exclusão de sua conta, também cancelaremos sua assinatura mensal e não lhe cobraremos pelos meses subsequentes."
 
-#: kuma/javascript/src/payments/subscription-form.jsx:188
+#: kuma/javascript/src/payments/subscription-form.jsx:204
 msgid "Sign in to support MDN. If you haven't already created an account, you will be prompted to do so after signing in."
 msgstr "Entre para dar apoio à MDN. Se você ainda não criou uma conta, será solicitado fazer isso após entrar."
 
-#: kuma/javascript/src/payments/subscription-form.jsx:205 kuma/javascript/src/payments/subscription-form.jsx:223
+#: kuma/javascript/src/payments/subscription-form.jsx:221 kuma/javascript/src/payments/subscription-form.jsx:239
 msgid "Sorry!"
 msgstr "Desculpe!"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:207
+#: kuma/javascript/src/payments/subscription-form.jsx:223
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr "Ocorreu um erro ao tentar configurar a assinatura no servidor do Stripe. Registramos o erro e iremos investigar."
 
-#: kuma/javascript/src/payments/subscription-form.jsx:216 kuma/javascript/src/payments/subscription-form.jsx:234
+#: kuma/javascript/src/payments/subscription-form.jsx:232 kuma/javascript/src/payments/subscription-form.jsx:250
 msgid "Try again"
 msgstr "Tentar novamente"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:225
+#: kuma/javascript/src/payments/subscription-form.jsx:241
 msgid "An error happened trying to load the Stripe integration"
 msgstr "Ocorreu um erro ao tentar carregar a integração com o Stripe"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:256
+#: kuma/javascript/src/payments/subscription-form.jsx:272
 msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
 msgstr "Ao clicar neste botão, autorizo a Mozilla cobrar com este método de pagamento todo mês, conforme os <paymentTermsLink />, até que eu cancele minha inscrição."
 
-#: kuma/javascript/src/payments/subscription-form.jsx:265
+#: kuma/javascript/src/payments/subscription-form.jsx:281
 msgid "Payment Terms"
 msgstr "Termos de pagamento"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:272
+#: kuma/javascript/src/payments/subscription-form.jsx:288
 msgid "Continue"
 msgstr "Continuar"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:277
+#: kuma/javascript/src/payments/subscription-form.jsx:293
 msgid "Payments are not tax deductible"
 msgstr "Os pagamentos não são dedutíveis de impostos"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:288
+#: kuma/javascript/src/payments/subscription-form.jsx:304
 msgid "$5 <perMontSub />"
 msgstr "$5 <perMontSub />"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:289
+#: kuma/javascript/src/payments/subscription-form.jsx:305
 msgid "/mo"
 msgstr "/mês"
 
-#: kuma/javascript/src/payments/thank-you.jsx:32
+#: kuma/javascript/src/payments/thank-you.jsx:34
 msgid "Useful things"
 msgstr "Coisas úteis"
 
-#: kuma/javascript/src/payments/thank-you.jsx:37
+#: kuma/javascript/src/payments/thank-you.jsx:39
 msgid "Cancel or manage your subscription"
 msgstr "Cancelar ou gerenciar assinatura"
 
-#: kuma/javascript/src/payments/thank-you.jsx:41
+#: kuma/javascript/src/payments/thank-you.jsx:43
 msgid "If you would like to cancel or manage your monthly subscription, go to <subscriptionLink />."
 msgstr "Se quiser cancelar ou gerenciar sua assinatura mensal, vá em <subscriptionLink />."
 
-#: kuma/javascript/src/payments/thank-you.jsx:57
+#: kuma/javascript/src/payments/thank-you.jsx:59
 msgid "Subscription terms"
 msgstr "Termos de assinatura"
 
-#: kuma/javascript/src/payments/thank-you.jsx:60
+#: kuma/javascript/src/payments/thank-you.jsx:62
 msgid "Please read our <termsLink /> for more information."
 msgstr "Leia mais informações em nossos <termsLink />."
 
-#: kuma/javascript/src/payments/thank-you.jsx:65
+#: kuma/javascript/src/payments/thank-you.jsx:67
 msgid "subscription terms"
 msgstr "termos de assinatura"
 
-#: kuma/javascript/src/payments/thank-you.jsx:72 kuma/javascript/src/payments/thank-you.jsx:80
+#: kuma/javascript/src/payments/thank-you.jsx:74 kuma/javascript/src/payments/thank-you.jsx:82
 msgid "FAQ"
 msgstr "Perguntas frequentes"
 
-#: kuma/javascript/src/payments/thank-you.jsx:75
+#: kuma/javascript/src/payments/thank-you.jsx:77
 msgid "To find out more about why MDN is raising money through monthly subscriptions, please visit our <faqLink />."
 msgstr "Para saber mais sobre por que a MDN está arrecadando dinheiro através de assinaturas mensais, consulte nossas <faqLink />."
 
 #: kuma/javascript/src/payments/subheaders/signup.jsx:13
-#, python-format
-msgid "You will be MDN member number: %(num)s"
+#, fuzzy, python-format
+msgid "You will be MDN member number %(num)s"
 msgstr "Você será o membro da MDN de número: %(num)s"
 
 #: kuma/javascript/src/payments/subheaders/signup.jsx:14
@@ -888,8 +922,8 @@ msgid "Thank you for becoming a monthly supporter!"
 msgstr "Obrigado por se tornar um membro que dá apoio mensal!"
 
 #: kuma/javascript/src/payments/subheaders/thank-you.jsx:11
-#, python-format
-msgid "You are MDN member number: %(num)s"
+#, fuzzy, python-format
+msgid "You are MDN member number %(num)s"
 msgstr "Você é o membro da MDN de número: %(num)s"
 
 #: kuma/static/js/components.js:82

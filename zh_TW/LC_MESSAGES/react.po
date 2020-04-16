@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-09 17:49-0700\n"
+"POT-Creation-Date: 2020-04-16 16:38-0700\n"
 "PO-Revision-Date: 2020-04-11 11:57+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (Traditional) https://pontoon.mozilla.org/zh_TW/\n"
@@ -139,31 +139,32 @@ msgstr "您輸入的網址看起來不正確"
 msgid "Default"
 msgstr "預設"
 
-#: kuma/javascript/src/active-banner.jsx:166
+#: kuma/javascript/src/active-banner.jsx:174
 msgid "Close banner"
 msgstr "關閉橫幅"
 
-#: kuma/javascript/src/active-banner.jsx:210
+#: kuma/javascript/src/active-banner.jsx:195
 msgid "MDN Survey"
 msgstr "MDN 問卷"
 
-#: kuma/javascript/src/active-banner.jsx:211
+#: kuma/javascript/src/active-banner.jsx:196
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "請幫助我們了解網頁開發者與設計師最重要的 10 個需求。"
 
-#: kuma/javascript/src/active-banner.jsx:214
+#: kuma/javascript/src/active-banner.jsx:199
 msgid "Take the survey"
 msgstr "填寫問卷"
 
-#: kuma/javascript/src/active-banner.jsx:227 kuma/javascript/src/payments/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "每月支持我們"
 
-#: kuma/javascript/src/active-banner.jsx:230
-msgid "Support MDN with a $5 monthly subscription"
+#: kuma/javascript/src/active-banner.jsx:227
+#, fuzzy, python-format
+msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "每月花美金 $5 訂閱支持我們"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:236
 msgid "Learn more"
 msgstr "了解更多"
 
@@ -329,7 +330,7 @@ msgstr "學習網頁開發"
 msgid "About MDN"
 msgstr "關於 MDN"
 
-#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/thank-you.jsx:90
+#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/thank-you.jsx:92
 msgid "Feedback"
 msgstr "意見回饋"
 
@@ -617,237 +618,276 @@ msgstr "輸入意見回饋內容（選填）…"
 msgid "Send"
 msgstr "傳送"
 
-#: kuma/javascript/src/payments/index.jsx:64
+#: kuma/javascript/src/payments/incentives.jsx:10
+msgid "Get discounts on sweet loot from the <merchStoreLink />."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:13
+msgid "Get invited to attend special events and conferences."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:16
+#, python-format
+msgid "Get 20% of the <merchStoreLink /> with discount code MDNMEMBER20."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:19
+msgid "Check back for invitations to attend special events and conferences."
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:28
+msgid "Enjoy exclusive member perks"
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:31
+msgid "Discounts on swag"
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:45
+msgid "MDN Merch store"
+msgstr ""
+
+#: kuma/javascript/src/payments/incentives.jsx:52
+msgid "Invitations to events"
+msgstr ""
+
+#: kuma/javascript/src/payments/index.jsx:78
 msgid "FAQs"
 msgstr "常見問題"
 
-#: kuma/javascript/src/payments/index.jsx:68
+#: kuma/javascript/src/payments/index.jsx:82
 msgid "Why is MDN asking me for money?"
 msgstr "MDN 為什麼找我要錢？"
 
-#: kuma/javascript/src/payments/index.jsx:72
+#: kuma/javascript/src/payments/index.jsx:86
 msgid "MDN is seeking direct support from our users. We’d like to accelerate our growth and extend the maintenance of MDN’s content and platform, with assistance from those who use it."
 msgstr "MDN 希望向我們的使用者尋求直接支援，並透過使用者的直接幫助來維護內容與平台以加速成長。"
 
-#: kuma/javascript/src/payments/index.jsx:77
+#: kuma/javascript/src/payments/index.jsx:91
 msgid ""
 "Our user base has grown exponentially in the last few years and we have a large list of improvements we’d like to make. While MDN is currently wholly funded by Mozilla, and has been from the "
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
 "again)-- to accelerate those improvements."
-msgstr "過去幾年來，我們的使用者數量有指數性的成長（平台維護成本也有對應的成長）與一大串想要改善的的清單。雖然目前 MDN 完全由 Mozilla 資助，但從成立開始，我們就一直在尋找如何能夠與使用者（就是您！）、內容（為您而寫，有時候甚至是您自己寫的）與支持者（還是您）建立更緊密、更多合作關係，也讓我們可以加速這些改進。"
+msgstr ""
+"過去幾年來，我們的使用者數量有指數性的成長（平台維護成本也有對應的成長）與一大串想要改善的的清單。雖然目前 MDN 完全由 Mozilla 資助，但從成立開始，我們就一直在尋找如何能夠與使用者（就是您！）、內容"
+"（為您而寫，有時候甚至是您自己寫的）與支持者（還是您）建立更緊密、更多合作關係，也讓我們可以加速這些改進。"
 
-#: kuma/javascript/src/payments/index.jsx:88
+#: kuma/javascript/src/payments/index.jsx:102
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
 msgstr "所有的付款資訊都會透過我們的金流廠商 <stripeLink /> 來處理，Mozilla 也會保留一份您的付款紀錄。Mozilla 並不會收到或儲存您的信用卡卡號。"
 
-#: kuma/javascript/src/payments/index.jsx:97
+#: kuma/javascript/src/payments/index.jsx:111
 msgid "Stripe"
 msgstr "Stripe"
 
-#: kuma/javascript/src/payments/index.jsx:108
+#: kuma/javascript/src/payments/index.jsx:122
 msgid ""
 "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipts and notifications). Mozilla will not have access to or store your credit card "
 "number."
 msgstr "Mozilla 會收集並儲存您的姓名、E-Mail 信箱，用來寄送交易相關的郵件（例如捐款收據與通知）給您。Mozilla 無法接觸到或儲存您的信用卡卡號。"
 
-#: kuma/javascript/src/payments/index.jsx:118
+#: kuma/javascript/src/payments/index.jsx:132
 msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
 msgstr "透過 MDN 收集的款項扣除處理手續費、稅金等金額後，會專款專用於 MDN。我們每個月都會在 MDN Web Docs 網站發布公告，報告我們都做了哪些事情。"
 
-#: kuma/javascript/src/payments/index.jsx:129
+#: kuma/javascript/src/payments/index.jsx:143
 msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
-msgstr "<mozillaLink /> 與 MDN 是不同的單位與專案。捐款給 Mozilla Foundation 的款項<taxLink />，並與其他的捐款款項一同支持 Mozilla 的公眾與慈善計劃。MDN 是 <mocoLink /> 的一部分，捐款給 MDN 會專款專用於 MDN 專案中，改善內容、工具與平台，而不用於 Mozilla 內部其他慈善專案。"
+msgstr ""
+"<mozillaLink /> 與 MDN 是不同的單位與專案。捐款給 Mozilla Foundation 的款項<taxLink />，並與其他的捐款款項一同支持 Mozilla 的公眾與慈善計劃。MDN 是 <mocoLink /> 的一部分，捐款給 MDN 會專款專用於 "
+"MDN 專案中，改善內容、工具與平台，而不用於 Mozilla 內部其他慈善專案。"
 
-#: kuma/javascript/src/payments/index.jsx:138
+#: kuma/javascript/src/payments/index.jsx:152
 msgid "Mozilla Foundation"
 msgstr "Mozilla Foundation"
 
-#: kuma/javascript/src/payments/index.jsx:143
+#: kuma/javascript/src/payments/index.jsx:157
 msgid "tax-deductible in the U.S."
 msgstr "可在美國抵稅"
 
-#: kuma/javascript/src/payments/index.jsx:150
+#: kuma/javascript/src/payments/index.jsx:164
 msgid "Mozilla Corporation"
 msgstr "Mozilla Corporation"
 
-#: kuma/javascript/src/payments/index.jsx:161
+#: kuma/javascript/src/payments/index.jsx:175
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
 msgstr "無法。捐給 Mozilla Corporation 用於支持 MDN 的款項，無法在美國或其他任何國家抵稅。"
 
-#: kuma/javascript/src/payments/index.jsx:171
+#: kuma/javascript/src/payments/index.jsx:185
 msgid ""
 "Currently, Mozilla pays for site operations and overhead (including staff writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr "目前 Mozilla 支付與 MDN 相關的營運與間接費用（包含是員工的寫作者與網站開發者）。MDN 使用者的捐款，將能夠加速目前的專案運作，或啟動新的專案，包含:"
 
-#: kuma/javascript/src/payments/index.jsx:177
+#: kuma/javascript/src/payments/index.jsx:191
 msgid "Adding more content, and updating current content"
 msgstr "新增更多內容、更新現有內容"
 
-#: kuma/javascript/src/payments/index.jsx:182
+#: kuma/javascript/src/payments/index.jsx:196
 msgid "Improving performance of the site"
 msgstr "改善本站效能"
 
-#: kuma/javascript/src/payments/index.jsx:187
+#: kuma/javascript/src/payments/index.jsx:201
 msgid "Modernizing the MDN platform"
 msgstr "現代化 MDN 平台"
 
-#: kuma/javascript/src/payments/index.jsx:190
+#: kuma/javascript/src/payments/index.jsx:204
 msgid "Adding offline access to MDN"
 msgstr "讓您可離線使用 MDN"
 
-#: kuma/javascript/src/payments/index.jsx:193
+#: kuma/javascript/src/payments/index.jsx:207
 msgid "Supporting integrations with popular developer tools"
 msgstr "支援與知名的開發者工具整合"
 
-#: kuma/javascript/src/payments/index.jsx:197
+#: kuma/javascript/src/payments/index.jsx:211
 msgid "More tutorials and guides"
 msgstr "更多教學與指南"
 
-#: kuma/javascript/src/payments/index.jsx:198
+#: kuma/javascript/src/payments/index.jsx:212
 msgid "Training and webinars"
 msgstr "訓練與網路研討會"
 
-#: kuma/javascript/src/payments/index.jsx:206
+#: kuma/javascript/src/payments/index.jsx:220
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
 msgstr "因為我們不想只是單純一次收到一大筆錢。我們的目標是透過因為 MDN 而受益的人們，來建立廣大的財務支援。"
 
-#: kuma/javascript/src/payments/index.jsx:216
+#: kuma/javascript/src/payments/index.jsx:230
 msgid ""
 "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
 "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
-msgstr "MDN 是由 Mozilla Corporation 的一般預算資助的（從 2005 年成立以來都是如此）。就算拓展了 MDN 的收入來源，Mozilla Corporation 還是希望能繼續在財務上支持 MDN 發展，我們只是希望與您一起，也為您做更多事！"
+msgstr ""
+"MDN 是由 Mozilla Corporation 的一般預算資助的（從 2005 年成立以來都是如此）。就算拓展了 MDN 的收入來源，Mozilla Corporation 還是希望能繼續在財務上支持 MDN 發展，我們只是希望與您一起，也為您做更多"
+"事！"
 
-#: kuma/javascript/src/payments/index.jsx:226
+#: kuma/javascript/src/payments/index.jsx:240
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
 msgstr "資助 MDN 的 Mozilla Corporation，主要透過 Firefox 當中的搜尋功能向搜尋引擎廠商（例如 Google、Amazon、DuckDuckGo 等等）收取權利金來營利。"
 
-#: kuma/javascript/src/payments/index.jsx:232
+#: kuma/javascript/src/payments/index.jsx:246
 msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
 "revenues publicly every trailing year, as in our most recent <annualReportLink />."
 msgstr "此外，Mozilla Foundation 是一個非營利組織，收入主要來自於捐款以及 Mozilla Corporation 所得到的權利金。Mozilla Foundation 每年都會公佈營收資料，最新版本為 <annualReportLink />。"
 
-#: kuma/javascript/src/payments/index.jsx:237
+#: kuma/javascript/src/payments/index.jsx:251
 msgid "2018 Mozilla Annual Report"
 msgstr "2018 Mozilla 年報"
 
-#: kuma/javascript/src/payments/index.jsx:249
+#: kuma/javascript/src/payments/index.jsx:263
 msgid "Monthly payments"
 msgstr "每月付款"
 
-#: kuma/javascript/src/payments/index.jsx:258
+#: kuma/javascript/src/payments/index.jsx:272
 msgid ""
 "If you would like to manage your monthly subscription, such as changing your card account details, you will need to cancel your subscription and sign up again using the new card details. To cancel, "
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
 msgstr "若您想管理每月訂閱資訊，例如更改扣款用的信用卡資訊，需要先取消訂閱再用新的卡片重新訂閱。若要取消，請到<subscriptionsLink />；若有任何問題，歡迎聯絡 <emailLink />。"
 
-#: kuma/javascript/src/payments/index.jsx:263 kuma/javascript/src/payments/index.jsx:291 kuma/javascript/src/payments/thank-you.jsx:48
+#: kuma/javascript/src/payments/index.jsx:277 kuma/javascript/src/payments/index.jsx:305 kuma/javascript/src/payments/thank-you.jsx:50
 msgid "manage monthly subscription page"
 msgstr "每月訂閱管理頁面"
 
-#: kuma/javascript/src/payments/index.jsx:286
+#: kuma/javascript/src/payments/index.jsx:300
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr "您可以隨時到<subscriptionsLink />取消每月訂閱。若您決定取消，就不會在未來的月份扣款。若有其他問題，歡迎聯絡 <emailLink />。"
 
-#: kuma/javascript/src/payments/index.jsx:302
+#: kuma/javascript/src/payments/index.jsx:316
 msgid "contact support"
 msgstr "聯絡我們"
 
-#: kuma/javascript/src/payments/index.jsx:315
+#: kuma/javascript/src/payments/index.jsx:329
 msgid "Please read our <paymentLink /> for more information."
 msgstr "若需更多資訊，請閱讀我們的<paymentLink />:"
 
-#: kuma/javascript/src/payments/index.jsx:320
+#: kuma/javascript/src/payments/index.jsx:334
 msgid "payment terms"
 msgstr "付款條款"
 
-#: kuma/javascript/src/payments/index.jsx:331
+#: kuma/javascript/src/payments/index.jsx:345
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr "若您要求刪除帳號，我們也會取消您的每月訂閱，並不再於未來的月份扣款。"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:188
+#: kuma/javascript/src/payments/subscription-form.jsx:204
 msgid "Sign in to support MDN. If you haven't already created an account, you will be prompted to do so after signing in."
 msgstr "登入即可支持 MDN。若您還沒有帳號，將在登入後提示您註冊。"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:205 kuma/javascript/src/payments/subscription-form.jsx:223
+#: kuma/javascript/src/payments/subscription-form.jsx:221 kuma/javascript/src/payments/subscription-form.jsx:239
 msgid "Sorry!"
 msgstr "很抱歉！"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:207
+#: kuma/javascript/src/payments/subscription-form.jsx:223
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr "嘗試與 Stripe 的伺服器建立連線，設定訂閱時發生錯誤。我們已將錯誤記錄下來，並會調查問題。"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:216 kuma/javascript/src/payments/subscription-form.jsx:234
+#: kuma/javascript/src/payments/subscription-form.jsx:232 kuma/javascript/src/payments/subscription-form.jsx:250
 msgid "Try again"
 msgstr "再試一次"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:225
+#: kuma/javascript/src/payments/subscription-form.jsx:241
 msgid "An error happened trying to load the Stripe integration"
 msgstr "載入 Stripe 整合內容時發生錯誤"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:256
+#: kuma/javascript/src/payments/subscription-form.jsx:272
 msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
 msgstr "點擊此按鈕，代表我授權 Mozilla 依照<paymentTermsLink />當中的描述，以此付款方式每月持續收費，直到我主動取消訂閱為止。"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:265
+#: kuma/javascript/src/payments/subscription-form.jsx:281
 msgid "Payment Terms"
 msgstr "付款條款"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:272
+#: kuma/javascript/src/payments/subscription-form.jsx:288
 msgid "Continue"
 msgstr "繼續"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:277
+#: kuma/javascript/src/payments/subscription-form.jsx:293
 msgid "Payments are not tax deductible"
 msgstr "付款不可抵稅"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:288
+#: kuma/javascript/src/payments/subscription-form.jsx:304
 msgid "$5 <perMontSub />"
 msgstr "<perMontSub />美金 $5"
 
-#: kuma/javascript/src/payments/subscription-form.jsx:289
+#: kuma/javascript/src/payments/subscription-form.jsx:305
 msgid "/mo"
 msgstr "每月"
 
-#: kuma/javascript/src/payments/thank-you.jsx:32
+#: kuma/javascript/src/payments/thank-you.jsx:34
 msgid "Useful things"
 msgstr "有用的東西"
 
-#: kuma/javascript/src/payments/thank-you.jsx:37
+#: kuma/javascript/src/payments/thank-you.jsx:39
 msgid "Cancel or manage your subscription"
 msgstr "取消或管理訂閱內容"
 
-#: kuma/javascript/src/payments/thank-you.jsx:41
+#: kuma/javascript/src/payments/thank-you.jsx:43
 msgid "If you would like to cancel or manage your monthly subscription, go to <subscriptionLink />."
 msgstr "若您想要取消或管理每月訂閱內容，可到 <subscriptionLink />。"
 
-#: kuma/javascript/src/payments/thank-you.jsx:57
+#: kuma/javascript/src/payments/thank-you.jsx:59
 msgid "Subscription terms"
 msgstr "訂閱條款"
 
-#: kuma/javascript/src/payments/thank-you.jsx:60
+#: kuma/javascript/src/payments/thank-you.jsx:62
 msgid "Please read our <termsLink /> for more information."
 msgstr "若需更多資訊，請閱讀我們的<termsLink />:"
 
-#: kuma/javascript/src/payments/thank-you.jsx:65
+#: kuma/javascript/src/payments/thank-you.jsx:67
 msgid "subscription terms"
 msgstr "訂閱條款"
 
-#: kuma/javascript/src/payments/thank-you.jsx:72 kuma/javascript/src/payments/thank-you.jsx:80
+#: kuma/javascript/src/payments/thank-you.jsx:74 kuma/javascript/src/payments/thank-you.jsx:82
 msgid "FAQ"
 msgstr "常見問題"
 
-#: kuma/javascript/src/payments/thank-you.jsx:75
+#: kuma/javascript/src/payments/thank-you.jsx:77
 msgid "To find out more about why MDN is raising money through monthly subscriptions, please visit our <faqLink />."
 msgstr "若想了解為什麼 MDN 需要透過訂閱方式募款，請到 <faqLink />。"
 
 #: kuma/javascript/src/payments/subheaders/signup.jsx:13
-#, python-format
-msgid "You will be MDN member number: %(num)s"
+#, fuzzy, python-format
+msgid "You will be MDN member number %(num)s"
 msgstr "您的 MDN 會員編號是: %(num)s"
 
 #: kuma/javascript/src/payments/subheaders/signup.jsx:14
@@ -860,8 +900,8 @@ msgid "Thank you for becoming a monthly supporter!"
 msgstr "感謝您成為我們的支持者！"
 
 #: kuma/javascript/src/payments/subheaders/thank-you.jsx:11
-#, python-format
-msgid "You are MDN member number: %(num)s"
+#, fuzzy, python-format
+msgid "You are MDN member number %(num)s"
 msgstr "您的 MDN 會員編號: %(num)s"
 
 #: kuma/static/js/components.js:82
