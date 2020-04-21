@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-16 16:38-0700\n"
+"POT-Creation-Date: 2020-04-21 16:01-0700\n"
 "PO-Revision-Date: 2020-04-20 17:42+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -158,7 +158,7 @@ msgstr "Segítsen megérteni a webfejlesztők és dizájnerek 10 legfontosabb ig
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
 
-#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Legyen havi támogató"
 
@@ -337,7 +337,7 @@ msgstr "Tanuljon a webfejlesztésről"
 msgid "About MDN"
 msgstr "Az MDN névjegye"
 
-#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/thank-you.jsx:92
+#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/pages/thank-you.jsx:89
 msgid "Feedback"
 msgstr "Visszajelzés"
 
@@ -612,69 +612,132 @@ msgstr "Hiba jelentése"
 msgid "Search MDN"
 msgstr "Keresés az MDN-en"
 
-#: kuma/javascript/src/payments/feedback-form.jsx:62
+#: kuma/javascript/src/payments/components/feedback-form.jsx:62
 msgid "We're sorry, something went wrong. Please try again or send your feedback to <emailLink />."
 msgstr "Sajnáljuk, valamilyen hiba történt. Próbálja meg újra vagy küldjön visszajelzést a következő címre: <emailLink />."
 
-#: kuma/javascript/src/payments/feedback-form.jsx:82
+#: kuma/javascript/src/payments/components/feedback-form.jsx:82
 msgid "Thank you for submitting your feedback!"
 msgstr "Köszönjük, hogy visszajelzést küldött."
 
-#: kuma/javascript/src/payments/feedback-form.jsx:92
+#: kuma/javascript/src/payments/components/feedback-form.jsx:92
 msgid "Enter optional feedback…"
 msgstr "Adjon meg egy nem kötelező visszajelzést…"
 
-#: kuma/javascript/src/payments/feedback-form.jsx:101
+#: kuma/javascript/src/payments/components/feedback-form.jsx:101
 msgid "Send"
 msgstr "Küldés"
 
-#: kuma/javascript/src/payments/incentives.jsx:10
+#: kuma/javascript/src/payments/components/incentives.jsx:10
 msgid "Get discounts on sweet loot from the <merchStoreLink />."
 msgstr "Kapjon kedvezményt az <merchStoreLink /> található holmikra."
 
-#: kuma/javascript/src/payments/incentives.jsx:13
+#: kuma/javascript/src/payments/components/incentives.jsx:13
 msgid "Get invited to attend special events and conferences."
 msgstr "Kapjon meghívást különleges eseményekre és konferenciákra."
 
-#: kuma/javascript/src/payments/incentives.jsx:16
+#: kuma/javascript/src/payments/components/incentives.jsx:16
 #, python-format
 msgid "Get 20% of the <merchStoreLink /> with discount code MDNMEMBER20."
 msgstr "Kapjon 20% kedvezményt az <merchStoreLink /> az MDNMEMBER20 kedvezménykóddal."
 
-#: kuma/javascript/src/payments/incentives.jsx:19
+#: kuma/javascript/src/payments/components/incentives.jsx:19
 msgid "Check back for invitations to attend special events and conferences."
 msgstr "Nézzem vissza a különleges esemény- és konferenciameghívókért"
 
-#: kuma/javascript/src/payments/incentives.jsx:28
+#: kuma/javascript/src/payments/components/incentives.jsx:28
 msgid "Enjoy exclusive member perks"
 msgstr "Élvezze az exkluzív tagsági kedvezményeket"
 
-#: kuma/javascript/src/payments/incentives.jsx:31
+#: kuma/javascript/src/payments/components/incentives.jsx:31
 msgid "Discounts on swag"
 msgstr "Kedvezmények az ajándéktárgyakra"
 
-#: kuma/javascript/src/payments/incentives.jsx:45
+#: kuma/javascript/src/payments/components/incentives.jsx:45
 msgid "MDN Merch store"
 msgstr "MDN ajándékboltban"
 
-#: kuma/javascript/src/payments/incentives.jsx:52
+#: kuma/javascript/src/payments/components/incentives.jsx:52
 msgid "Invitations to events"
 msgstr "Meghívók eseményekre"
 
-#: kuma/javascript/src/payments/index.jsx:78
+#: kuma/javascript/src/payments/components/subscription-form.jsx:242
+msgid "Sign in to support MDN. If you haven't already created an account, you will be prompted to do so after signing in."
+msgstr "Jelentkezzen be az MDN támogatásához. Ha még nem hozott létre fiókot, akkor bejelentkezés után megkérjük erre."
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:259 kuma/javascript/src/payments/components/subscription-form.jsx:277
+msgid "Sorry!"
+msgstr "Elnézést!"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:261
+msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
+msgstr "Hiba történt az előfizetés beállításakor a Stripe kiszolgálón. Rögzítettük a hibát, és ki fogjuk vizsgálni."
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:270 kuma/javascript/src/payments/components/subscription-form.jsx:288
+msgid "Try again"
+msgstr "Próbálja újra"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:279
+msgid "An error happened trying to load the Stripe integration"
+msgstr "Hiba történt a Stripe integráció betöltésekor"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:310
+msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
+msgstr "A gombra kattintva felhatalmazom a Mozillát, hogy havonta számolja fel ezt a fizetési módot, a <paymentTermsLink /> megfelelően, ameddig vissza nem vonom az előfizetésemet."
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:319
+msgid "Payment Terms"
+msgstr "fizetési feltételeknek"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:326
+msgid "Continue"
+msgstr "Folytatás"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:331
+msgid "Payments are not tax deductible"
+msgstr "A befizetések nem vonhatók le adóból"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:342
+msgid "$5 <perMontSub />"
+msgstr "5 $<perMontSub />"
+
+#: kuma/javascript/src/payments/components/subscription-form.jsx:343
+msgid "/mo"
+msgstr "/hó"
+
+#: kuma/javascript/src/payments/components/subheaders/signup.jsx:13
+#, python-format
+msgid "You will be MDN member number %(num)s"
+msgstr "Ön lesz a(z) %(num)s. számú MDN-tag"
+
+#: kuma/javascript/src/payments/components/subheaders/signup.jsx:14
+#, python-format
+msgid "Support MDN with a %(amount)s monthly subscription and get back more of the knowledge and tools you rely on for when your work has to work."
+msgstr "Támogassa az MDN-t egy %(amount)s-os havi előfizetéssel, és kapjon vissza több tudást és eszközt, amelyre támaszkodhat a munkája elvégzése során."
+
+#: kuma/javascript/src/payments/components/subheaders/thank-you.jsx:10
+msgid "Thank you for becoming a monthly supporter!"
+msgstr "Köszönjük, hogy havi támogatóvá vált!"
+
+#: kuma/javascript/src/payments/components/subheaders/thank-you.jsx:11
+#, python-format
+msgid "You are MDN member number %(num)s"
+msgstr "Ön a(z) %(num)s. számú MDN-tag"
+
+#: kuma/javascript/src/payments/pages/index.jsx:66
 msgid "FAQs"
 msgstr "GyIK"
 
-#: kuma/javascript/src/payments/index.jsx:82
+#: kuma/javascript/src/payments/pages/index.jsx:70
 msgid "Why is MDN asking me for money?"
 msgstr "Miért kér tőlem pénzt az MDN?"
 
-#: kuma/javascript/src/payments/index.jsx:86
+#: kuma/javascript/src/payments/pages/index.jsx:74
 msgid "MDN is seeking direct support from our users. We’d like to accelerate our growth and extend the maintenance of MDN’s content and platform, with assistance from those who use it."
 msgstr ""
 "Az MDN közvetlen támogatást keres a felhasználóitól. Szeretnénk felgyorsítani a növekedésünket, és bővíteni az MDN tartalmának és platformjának karbantartásán, azok segítségével, akik használják."
 
-#: kuma/javascript/src/payments/index.jsx:91
+#: kuma/javascript/src/payments/pages/index.jsx:79
 msgid ""
 "Our user base has grown exponentially in the last few years and we have a large list of improvements we’d like to make. While MDN is currently wholly funded by Mozilla, and has been from the "
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
@@ -684,16 +747,16 @@ msgstr ""
 "tette, de szeretnénk szorosabb, egészségesebb köteléket kialakítani a közönséggel (ez Ön!), a tartalmunkkal (amit Önnek írnak, és amit néha Ön ír) és a támogatóinkkal (szintén Ön), amely lehetővé "
 "teszi ezen fejlesztések felgyorsítását."
 
-#: kuma/javascript/src/payments/index.jsx:102
+#: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
 msgstr ""
 "Az összes fizetési információ a fizetésfeldolgozónkon, a <stripeLink /> segítségével történik, a fizetés rekordját a Mozilla tárolja. A Mozilla nem kapja meg, és nem tárolja a bankkártyaszámát."
 
-#: kuma/javascript/src/payments/index.jsx:111
+#: kuma/javascript/src/payments/pages/index.jsx:99
 msgid "Stripe"
 msgstr "Stripe"
 
-#: kuma/javascript/src/payments/index.jsx:122
+#: kuma/javascript/src/payments/pages/index.jsx:110
 msgid ""
 "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipts and notifications). Mozilla will not have access to or store your credit card "
 "number."
@@ -701,77 +764,77 @@ msgstr ""
 "A Mozilla összegyűjti és tárolja a nevét és e-mail címét, amelyet a tranzakciós e-mailek (például a számla és az értesítések) elküldésére használunk. A Mozilla nem fér hozzá és nem tárolja a "
 "bankkártyaszámát."
 
-#: kuma/javascript/src/payments/index.jsx:132
+#: kuma/javascript/src/payments/pages/index.jsx:120
 msgid "The money collected through MDN (minus processing fees, taxes, etc.) will be reinvested back into MDN. We will publish a monthly report on MDN Web Docs showing what work was completed."
 msgstr ""
 "Az MDN-en keresztül összegyűjtött pénz (mínusz a feldolgozási díj, adó stb.) befektetésre kerül az MDN-be. Havi jelentést fogunk közzétenni az MDN webes dokumentumokról, amelyek bemutatják, hogy "
 "mely munkák lettek elvégezve."
 
-#: kuma/javascript/src/payments/index.jsx:143
+#: kuma/javascript/src/payments/pages/index.jsx:131
 msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános és"
-" jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
+"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános "
+"és jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
 "platformjába kerülnek befektetésre."
 
-#: kuma/javascript/src/payments/index.jsx:152
+#: kuma/javascript/src/payments/pages/index.jsx:140
 msgid "Mozilla Foundation"
 msgstr "Mozilla Alapítvány"
 
-#: kuma/javascript/src/payments/index.jsx:157
+#: kuma/javascript/src/payments/pages/index.jsx:145
 msgid "tax-deductible in the U.S."
 msgstr "adóból levontató az Amerikai Egyesült Államokban"
 
-#: kuma/javascript/src/payments/index.jsx:164
+#: kuma/javascript/src/payments/pages/index.jsx:152
 msgid "Mozilla Corporation"
 msgstr "Mozilla Corporation"
 
-#: kuma/javascript/src/payments/index.jsx:175
+#: kuma/javascript/src/payments/pages/index.jsx:163
 msgid "No. Payments to Mozilla Corporation in support of MDN are not tax deductible in the United States or other countries."
 msgstr "Nem. A Mozilla Corporationnek, az MDN támogatására küldött befizetések nem vonhatóak le az adóból az Amerikai Egyesült Államokban vagy más országokban."
 
-#: kuma/javascript/src/payments/index.jsx:185
+#: kuma/javascript/src/payments/pages/index.jsx:173
 msgid ""
 "Currently, Mozilla pays for site operations and overhead (including staff writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 msgstr ""
 "Jelenleg a Mozilla fizeti a helyszíni tevékenységeket és a többletköltségeket (ideértve az írókat és a webfejlesztőket). Az MDN felhasználói befizetései gyorsítják az aktuális projekteket vagy az "
 "újak beindítását, többek között:"
 
-#: kuma/javascript/src/payments/index.jsx:191
+#: kuma/javascript/src/payments/pages/index.jsx:179
 msgid "Adding more content, and updating current content"
 msgstr "A további tartalom hozzáadását, a jelenlegi tartalom frissítését"
 
-#: kuma/javascript/src/payments/index.jsx:196
+#: kuma/javascript/src/payments/pages/index.jsx:184
 msgid "Improving performance of the site"
 msgstr "Az oldal teljesítményének javítását"
 
-#: kuma/javascript/src/payments/index.jsx:201
+#: kuma/javascript/src/payments/pages/index.jsx:189
 msgid "Modernizing the MDN platform"
 msgstr "Az MDN platform modernizálását"
 
-#: kuma/javascript/src/payments/index.jsx:204
+#: kuma/javascript/src/payments/pages/index.jsx:192
 msgid "Adding offline access to MDN"
 msgstr "Az MDN offline elérésének hozzáadását"
 
-#: kuma/javascript/src/payments/index.jsx:207
+#: kuma/javascript/src/payments/pages/index.jsx:195
 msgid "Supporting integrations with popular developer tools"
 msgstr "Az integráció támogatását a népszerű fejlesztői eszközökkel"
 
-#: kuma/javascript/src/payments/index.jsx:211
+#: kuma/javascript/src/payments/pages/index.jsx:199
 msgid "More tutorials and guides"
 msgstr "A további útmutatókat és leírásokat"
 
-#: kuma/javascript/src/payments/index.jsx:212
+#: kuma/javascript/src/payments/pages/index.jsx:200
 msgid "Training and webinars"
 msgstr "Oktatásokat és webinárokat"
 
-#: kuma/javascript/src/payments/index.jsx:220
+#: kuma/javascript/src/payments/pages/index.jsx:208
 msgid "Because we aren’t looking for a lump sum. Our goal is to create a broad base of financial support from the people who benefit from the work of MDN."
 msgstr "Mert nem egyszeri összeget keresünk. A célunk a széles körű pénzügyi támogatás biztosítása azoktól az emberektől, akiknek hasznuk származik az MDN munkájából."
 
-#: kuma/javascript/src/payments/index.jsx:230
+#: kuma/javascript/src/payments/pages/index.jsx:218
 msgid ""
 "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
 "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
@@ -779,11 +842,11 @@ msgstr ""
 "Az MDN a Mozilla Corporation általános költségvetéséből finanszírozott (és ez a 2005-ös alapításától így van). A Mozilla Corporation a jövőben is támogatja anyagilag az MDN-t, még akkor is, ha "
 "szélesítjük és diverzifikáljuk az MDN finanszírozási forrásait. Csak több dolgot szeretnénk tenni Önnel, és Önnek!"
 
-#: kuma/javascript/src/payments/index.jsx:240
+#: kuma/javascript/src/payments/pages/index.jsx:228
 msgid "The Mozilla Corporation, which funds MDN, makes money primarily from royalties from search providers on Firefox (such as Google, Amazon, DuckDuckGo, and others)."
 msgstr "Az MDN-t finanszírozó Mozilla Corporation elsősorban a Firefoxban található keresőszolgáltatók (például a Google, az Amazon, a DuckDuckGo és mások) által fizetett jogdíjakból keres pénzt."
 
-#: kuma/javascript/src/payments/index.jsx:246
+#: kuma/javascript/src/payments/pages/index.jsx:234
 msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
 "revenues publicly every trailing year, as in our most recent <annualReportLink />."
@@ -791,15 +854,15 @@ msgstr ""
 "Különállóan, a Mozilla Alapítvény egy nonprofit szervezet, amely főleg adományokból és a Mozilla Corporationtől beszedett jogdíjakból szerez pénzt. Nonprofit szervezetként, a Mozilla Alapítvány "
 "évente nyilvánosan beszámol minden bevételről, ahogy a legutóbb jelentésben: <annualReportLink />."
 
-#: kuma/javascript/src/payments/index.jsx:251
+#: kuma/javascript/src/payments/pages/index.jsx:239
 msgid "2018 Mozilla Annual Report"
 msgstr "a Mozilla 2018. évi éves jelentése"
 
-#: kuma/javascript/src/payments/index.jsx:263
+#: kuma/javascript/src/payments/pages/index.jsx:251
 msgid "Monthly payments"
 msgstr "Havi befizetések"
 
-#: kuma/javascript/src/payments/index.jsx:272
+#: kuma/javascript/src/payments/pages/index.jsx:260
 msgid ""
 "If you would like to manage your monthly subscription, such as changing your card account details, you will need to cancel your subscription and sign up again using the new card details. To cancel, "
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
@@ -807,128 +870,65 @@ msgstr ""
 "Ha szeretné kezelni a havi befizetését, például megváltoztatná a kártyaadatait, akkor le kell mondania az előfizetését, és fel kell iratkoznia az új kártyaadatokkal. A lemondáshoz keresse fel a "
 "<subscriptionsLink /> lapot, vagy ha kérdése van, akkor <emailLink />."
 
-#: kuma/javascript/src/payments/index.jsx:277 kuma/javascript/src/payments/index.jsx:305 kuma/javascript/src/payments/thank-you.jsx:50
+#: kuma/javascript/src/payments/pages/index.jsx:265 kuma/javascript/src/payments/pages/index.jsx:293 kuma/javascript/src/payments/pages/thank-you.jsx:47
 msgid "manage monthly subscription page"
 msgstr "havi előfizetés kezelői oldal"
 
-#: kuma/javascript/src/payments/index.jsx:300
+#: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Bármikor lemondhatja a havi előfizetését. Keresse fel a <subscriptionsLink /> lapot. Ha a lemondást választja, akkor a következő hónapokban nem fogjuk megterhelni a kártyáját. További kérdés esetén "
 "<emailLink />."
 
-#: kuma/javascript/src/payments/index.jsx:316
+#: kuma/javascript/src/payments/pages/index.jsx:304
 msgid "contact support"
 msgstr "lépjen kapcsolatba az ügyfélszolgálattal"
 
-#: kuma/javascript/src/payments/index.jsx:329
+#: kuma/javascript/src/payments/pages/index.jsx:317
 msgid "Please read our <paymentLink /> for more information."
 msgstr "További információkért olvassa el a <paymentLink />."
 
-#: kuma/javascript/src/payments/index.jsx:334
+#: kuma/javascript/src/payments/pages/index.jsx:322
 msgid "payment terms"
 msgstr "fizetési feltételeinket"
 
-#: kuma/javascript/src/payments/index.jsx:345
+#: kuma/javascript/src/payments/pages/index.jsx:333
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr "Ha a fiókja törlését kéri, akkor a havi előfizetését is megszakítjuk, és a következő hónapokban nem terheljük meg a kártyáját."
 
-#: kuma/javascript/src/payments/subscription-form.jsx:204
-msgid "Sign in to support MDN. If you haven't already created an account, you will be prompted to do so after signing in."
-msgstr "Jelentkezzen be az MDN támogatásához. Ha még nem hozott létre fiókot, akkor bejelentkezés után megkérjük erre."
-
-#: kuma/javascript/src/payments/subscription-form.jsx:221 kuma/javascript/src/payments/subscription-form.jsx:239
-msgid "Sorry!"
-msgstr "Elnézést!"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:223
-msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
-msgstr "Hiba történt az előfizetés beállításakor a Stripe kiszolgálón. Rögzítettük a hibát, és ki fogjuk vizsgálni."
-
-#: kuma/javascript/src/payments/subscription-form.jsx:232 kuma/javascript/src/payments/subscription-form.jsx:250
-msgid "Try again"
-msgstr "Próbálja újra"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:241
-msgid "An error happened trying to load the Stripe integration"
-msgstr "Hiba történt a Stripe integráció betöltésekor"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:272
-msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
-msgstr "A gombra kattintva felhatalmazom a Mozillát, hogy havonta számolja fel ezt a fizetési módot, a <paymentTermsLink /> megfelelően, ameddig vissza nem vonom az előfizetésemet."
-
-#: kuma/javascript/src/payments/subscription-form.jsx:281
-msgid "Payment Terms"
-msgstr "fizetési feltételeknek"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:288
-msgid "Continue"
-msgstr "Folytatás"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:293
-msgid "Payments are not tax deductible"
-msgstr "A befizetések nem vonhatók le adóból"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:304
-msgid "$5 <perMontSub />"
-msgstr "5 $<perMontSub />"
-
-#: kuma/javascript/src/payments/subscription-form.jsx:305
-msgid "/mo"
-msgstr "/hó"
-
-#: kuma/javascript/src/payments/thank-you.jsx:34
+#: kuma/javascript/src/payments/pages/thank-you.jsx:31
 msgid "Useful things"
 msgstr "Hasznos dolgok"
 
-#: kuma/javascript/src/payments/thank-you.jsx:39
+#: kuma/javascript/src/payments/pages/thank-you.jsx:36
 msgid "Cancel or manage your subscription"
 msgstr "Előfizetés megszüntetése vagy kezelése"
 
-#: kuma/javascript/src/payments/thank-you.jsx:43
+#: kuma/javascript/src/payments/pages/thank-you.jsx:40
 msgid "If you would like to cancel or manage your monthly subscription, go to <subscriptionLink />."
 msgstr "Ha szeretné lemondni vagy kezelni a havi előfizetését, keresse fel a <subscriptionLink /> oldalt."
 
-#: kuma/javascript/src/payments/thank-you.jsx:59
+#: kuma/javascript/src/payments/pages/thank-you.jsx:56
 msgid "Subscription terms"
 msgstr "Előfizetési feltételek"
 
-#: kuma/javascript/src/payments/thank-you.jsx:62
+#: kuma/javascript/src/payments/pages/thank-you.jsx:59
 msgid "Please read our <termsLink /> for more information."
 msgstr "További információkért olvassa el az <termsLink />."
 
-#: kuma/javascript/src/payments/thank-you.jsx:67
+#: kuma/javascript/src/payments/pages/thank-you.jsx:64
 msgid "subscription terms"
 msgstr "előfizetési feltételeket"
 
-#: kuma/javascript/src/payments/thank-you.jsx:74 kuma/javascript/src/payments/thank-you.jsx:82
+#: kuma/javascript/src/payments/pages/thank-you.jsx:71 kuma/javascript/src/payments/pages/thank-you.jsx:79
 msgid "FAQ"
 msgstr "GyIK-ot"
 
-#: kuma/javascript/src/payments/thank-you.jsx:77
+#: kuma/javascript/src/payments/pages/thank-you.jsx:74
 msgid "To find out more about why MDN is raising money through monthly subscriptions, please visit our <faqLink />."
 msgstr "Hogy többet tudjon meg arról, hogy miért gyűjt pénzt az MDN havi adományokból, keresse fel a <faqLink />."
-
-#: kuma/javascript/src/payments/subheaders/signup.jsx:13
-#, python-format
-msgid "You will be MDN member number %(num)s"
-msgstr "Ön lesz a(z) %(num)s. számú MDN-tag"
-
-#: kuma/javascript/src/payments/subheaders/signup.jsx:14
-#, python-format
-msgid "Support MDN with a %(amount)s monthly subscription and get back more of the knowledge and tools you rely on for when your work has to work."
-msgstr "Támogassa az MDN-t egy %(amount)s-os havi előfizetéssel, és kapjon vissza több tudást és eszközt, amelyre támaszkodhat a munkája elvégzése során."
-
-#: kuma/javascript/src/payments/subheaders/thank-you.jsx:10
-msgid "Thank you for becoming a monthly supporter!"
-msgstr "Köszönjük, hogy havi támogatóvá vált!"
-
-#: kuma/javascript/src/payments/subheaders/thank-you.jsx:11
-#, python-format
-msgid "You are MDN member number %(num)s"
-msgstr "Ön a(z) %(num)s. számú MDN-tag"
 
 #: kuma/static/js/components.js:82
 msgid "Close submenu"

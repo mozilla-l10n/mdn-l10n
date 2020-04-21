@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-16 16:37-0700\n"
+"POT-Creation-Date: 2020-04-21 16:00-0700\n"
 "PO-Revision-Date: 2020-01-25 01:37+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -1515,12 +1515,8 @@ msgid "There was a problem canceling your subscription, please contact <a href=\
 msgstr "サブスクリプションのキャンセル中に問題が発生しました。<a href=\"%(url)s\">%(email)s</a> に問い合わせ、顧客参照番号 %(reference_number)s をお知らせください。"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
-msgid "MDN payment terms"
-msgstr "MDN 支払い条件"
-
-#: kuma/payments/jinja2/payments/terms.html:23
-msgid "MDN Web Docs payment terms"
-msgstr "MDN Web Docs 支払い条件"
+msgid "Payment Terms"
+msgstr "支払い条件"
 
 #: kuma/payments/jinja2/payments/thank-you.html:3
 #, fuzzy
@@ -2030,7 +2026,7 @@ msgstr "新しい MDN アカウントではじめる"
 
 # 92%
 # 100%
-#: kuma/users/views.py:670
+#: kuma/users/views.py:615
 msgid "Email address"
 msgstr "メールアドレス"
 
@@ -4419,6 +4415,12 @@ msgstr "あなたはこのドキュメントを翻訳できません。"
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch サーバー: %(backend)s"
 
+#~ msgid "MDN payment terms"
+#~ msgstr "MDN 支払い条件"
+
+#~ msgid "MDN Web Docs payment terms"
+#~ msgstr "MDN Web Docs 支払い条件"
+
 #~ msgid "Help grow MDN"
 #~ msgstr "MDN をより良くしよう"
 
@@ -4788,9 +4790,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 #~ msgstr "この問題の詳細は、<a href=\"%(mailto)s\">%(email)s</a> へお問い合わせください。"
 
 #~ msgid "Payment terms"
-#~ msgstr "支払い条件"
-
-#~ msgid "Payment Terms"
 #~ msgstr "支払い条件"
 
 #~ msgid "Legal"
