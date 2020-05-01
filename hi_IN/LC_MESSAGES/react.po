@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-27 09:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:15-0700\n"
 "PO-Revision-Date: 2020-03-30 14:52+0000\n"
 "Last-Translator: Ritesh Raj <ritesh07raj@gmail.com>\n"
 "Language-Team: Hindi (India) https://pontoon.mozilla.org/hi_IN/\n"
@@ -138,32 +138,32 @@ msgstr "आपके द्वारा दर्ज किया गया URL 
 msgid "Default"
 msgstr "तयशुदा"
 
-#: kuma/javascript/src/active-banner.jsx:174
+#: kuma/javascript/src/active-banner.jsx:175
 msgid "Close banner"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:195
+#: kuma/javascript/src/active-banner.jsx:196
 msgid "MDN Survey"
 msgstr "MDN सर्वेक्षण"
 
-#: kuma/javascript/src/active-banner.jsx:196
+#: kuma/javascript/src/active-banner.jsx:197
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:199
+#: kuma/javascript/src/active-banner.jsx:200
 msgid "Take the survey"
 msgstr "सर्वेक्षण करें"
 
-#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:227
+#: kuma/javascript/src/active-banner.jsx:228
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:236
+#: kuma/javascript/src/active-banner.jsx:233
 msgid "Learn more"
 msgstr "अधिक जानें"
 
@@ -295,6 +295,10 @@ msgstr ""
 
 #: kuma/javascript/src/bcd-signal.jsx:842
 msgid "What are we missing?"
+msgstr ""
+
+#: kuma/javascript/src/breadcrumbs.jsx:58
+msgid "See"
 msgstr ""
 
 #: kuma/javascript/src/document.jsx:60
@@ -449,6 +453,10 @@ msgstr ""
 msgid "Nothing found if nothing searched."
 msgstr ""
 
+#: kuma/javascript/src/signin-link.jsx:15
+msgid "Sign in"
+msgstr "साइन इन करें"
+
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
 msgstr ""
@@ -503,21 +511,17 @@ msgstr ""
 msgid "Add a translation"
 msgstr "एक अनुवाद जोड़ें"
 
-#: kuma/javascript/src/header/login.jsx:82
+#: kuma/javascript/src/header/login.jsx:51
 msgid "View profile"
 msgstr "प्रोफ़ाइल देखें"
 
-#: kuma/javascript/src/header/login.jsx:85
+#: kuma/javascript/src/header/login.jsx:54
 msgid "Edit profile"
 msgstr "प्रालेख को संपादित करे"
 
-#: kuma/javascript/src/header/login.jsx:91
+#: kuma/javascript/src/header/login.jsx:60
 msgid "Sign out"
 msgstr "साइन आउट करें"
-
-#: kuma/javascript/src/header/login.jsx:112
-msgid "Sign in"
-msgstr "साइन इन करें"
 
 #: kuma/javascript/src/header/main-menu.jsx:76
 msgid "Technologies"
@@ -607,19 +611,31 @@ msgstr ""
 msgid "Search MDN"
 msgstr "MDN खोजें"
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:62
-msgid "We're sorry, something went wrong. Please try again or send your feedback to <emailLink />."
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:13
+msgid "Are you sure you want to cancel?"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:82
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:60
+msgid "Keep my membership"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:67
+msgid "Yes, cancel subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/error-message.jsx:6
+msgid "We're sorry, something went wrong. Please contact <emailLink />."
+msgstr ""
+
+#: kuma/javascript/src/payments/components/feedback-form.jsx:54
 msgid "Thank you for submitting your feedback!"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:92
+#: kuma/javascript/src/payments/components/feedback-form.jsx:64
 msgid "Enter optional feedback…"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:101
+#: kuma/javascript/src/payments/components/feedback-form.jsx:77
 msgid "Send"
 msgstr ""
 
@@ -872,6 +888,56 @@ msgstr "भुगतान की शर्तें"
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr ""
 
+#: kuma/javascript/src/payments/pages/management.jsx:27
+msgid "Manage monthly subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:28
+msgid "Your monthly subscription has been successfully canceled."
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:77
+msgid "You have no active subscription. Why not <signupLink />?"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:81
+msgid "set one up"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:113
+msgid "Amount"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:121
+msgid "Card number"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:126
+msgid "Expiry"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:136
+msgid "Cancel subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:155
+msgid "Please <signInLink /> to continue."
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:156
+#, fuzzy
+msgid "sign in"
+msgstr "साइन इन करें"
+
+#: kuma/javascript/src/payments/pages/management.jsx:170
+msgid "Loading…"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:184
+#, fuzzy
+msgid "Subscription"
+msgstr "सदस्यता लें"
+
 #: kuma/javascript/src/payments/pages/thank-you.jsx:31
 msgid "Useful things"
 msgstr ""
@@ -1115,9 +1181,6 @@ msgstr ""
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr ""
-
-#~ msgid "Subscribe"
-#~ msgstr "सदस्यता लें"
 
 #~ msgid "mdn-support@mozilla.com"
 #~ msgstr "mdn-support@mozilla.com"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2020-04-17 03:20+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: Chinese (Traditional) https://pontoon.mozilla.org/zh_TW/\n"
@@ -578,9 +578,8 @@ msgstr "取消訂閱"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "您確定要退訂嗎？"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "取消"
 
@@ -1413,76 +1412,10 @@ msgstr "敬請捐款"
 msgid "Become a monthly supporter"
 msgstr "每月支持我們"
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr "MDN 訂閱管理"
-
-#: kuma/payments/jinja2/payments/management.html:28
-msgid "Back to profile"
-msgstr "回到個人資料頁"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr "說明"
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr "每月訂閱常見問題集"
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-msgid "Subscriptions"
-msgstr "訂閱"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr "這是您目前生效的 MDN Web Docs 訂閱清單。若您想要修改下方的任何詳細資訊，請聯絡 <a href=\"%(url)s\">%(email)s</a>。"
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
+#, fuzzy
+msgid "Manage monthly subscription"
 msgstr "每月訂閱"
-
-#: kuma/payments/jinja2/payments/management.html:58
-msgid "Amount"
-msgstr "金額"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr "信用卡號"
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr "到期日"
-
-#: kuma/payments/jinja2/payments/management.html:74
-msgid "Cancel your subscription"
-msgstr "取消您的訂閱"
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "您確定嗎？"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr "若需恢復給 MDN Web Docs 的付款，需設定新訂閱資料。"
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "確認"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr "您目前沒有任何有效訂閱。<a href=\"%(url)s\">不訂一份嗎</a>？"
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr "已成功取消您的每月訂閱"
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr "取消您的訂閱時發生問題，請聯絡 <a href=\"%(url)s\">%(email)s</a> 並提供您的顧客參考編號 %(reference_number)s。"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -1983,7 +1916,7 @@ msgstr "我想要公開我的 Github 個人資料網址"
 msgid "Getting started with your new MDN account"
 msgstr "MDN 帳號新手上路"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "電子郵件地址"
 
@@ -2044,6 +1977,10 @@ msgstr "確認電子郵件地址"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "請確認 <a href=\"mailto:%(email)s\">%(email)s</a> 是使用者 %(user_display)s 的電子郵件地址。 "
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "確認"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2541,6 +2478,10 @@ msgid "Edit email"
 msgstr "編輯主要電子郵件地址"
 
 #: kuma/users/jinja2/users/user_edit.html:76
+msgid "Subscriptions"
+msgstr "訂閱"
+
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "Edit monthly subscription"
 msgstr "編輯每月訂閱"
 
@@ -2592,9 +2533,9 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "%(cost)s（每月付款）的下次付款日: %(next_payment_date)s。"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr "您可以隨時取消訂閱。若要這麼做，請到每月訂閱頁面（%(manage_subscription_url)s）。若您有相關問題，可閱讀 FAQ 常見問題集（%(faq_url)s）或也可以聯絡支援團隊（%(contact_email)s）。"
 
@@ -4300,7 +4241,7 @@ msgstr "需要有一部份標題才能自動建議。若需完整的文件索引
 msgid "Document has been edited; please re-review."
 msgstr "文件已被編輯，請重新檢閱。"
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "您不能翻譯這份文件。"
 
@@ -4308,6 +4249,48 @@ msgstr "您不能翻譯這份文件。"
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 伺服器: %(backend)s"
+
+#~ msgid "MDN subscription management"
+#~ msgstr "MDN 訂閱管理"
+
+#~ msgid "Back to profile"
+#~ msgstr "回到個人資料頁"
+
+#~ msgid "Help"
+#~ msgstr "說明"
+
+#~ msgid "Monthly subscriptions FAQ"
+#~ msgstr "每月訂閱常見問題集"
+
+#~ msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
+#~ msgstr "這是您目前生效的 MDN Web Docs 訂閱清單。若您想要修改下方的任何詳細資訊，請聯絡 <a href=\"%(url)s\">%(email)s</a>。"
+
+#~ msgid "Amount"
+#~ msgstr "金額"
+
+#~ msgid "Card Number"
+#~ msgstr "信用卡號"
+
+#~ msgid "Expiry"
+#~ msgstr "到期日"
+
+#~ msgid "Cancel your subscription"
+#~ msgstr "取消您的訂閱"
+
+#~ msgid "Are you sure?"
+#~ msgstr "您確定嗎？"
+
+#~ msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+#~ msgstr "若需恢復給 MDN Web Docs 的付款，需設定新訂閱資料。"
+
+#~ msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
+#~ msgstr "您目前沒有任何有效訂閱。<a href=\"%(url)s\">不訂一份嗎</a>？"
+
+#~ msgid "Your monthly subscription has been successfully canceled"
+#~ msgstr "已成功取消您的每月訂閱"
+
+#~ msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
+#~ msgstr "取消您的訂閱時發生問題，請聯絡 <a href=\"%(url)s\">%(email)s</a> 並提供您的顧客參考編號 %(reference_number)s。"
 
 #~ msgid "MDN payment terms"
 #~ msgstr "MDN 付款條款"

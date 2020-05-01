@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2018-06-22 14:16+0000\n"
 "Last-Translator: Rodrigo <rodrigo.mcunha@hotmail.com>\n"
 "Language-Team: Portuguese (Portugal) https://pontoon.mozilla.org/pt_PT/\n"
@@ -602,9 +602,8 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "Tem a certeza de que pretende anular a subscrição?"
 
 # 100%
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1463,80 +1462,10 @@ msgstr "Doar agora"
 msgid "Become a monthly supporter"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:28
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
 #, fuzzy
-msgid "Back to profile"
-msgstr "Voltar ao início"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-#, fuzzy
-msgid "Subscriptions"
-msgstr "Descrição"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:58
-#, fuzzy
-msgid "Amount"
-msgstr "País"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:74
-#, fuzzy
-msgid "Cancel your subscription"
-msgstr "Gerir a suas subscrições à newsletter da Mozilla."
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "Tem a certeza?"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "Confirmar"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr ""
+msgid "Manage monthly subscription"
+msgstr "A atualizar o estado da subscrição"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 #, fuzzy
@@ -2065,7 +1994,7 @@ msgstr "Gostaria de fazer o URL do meu perfil GitHub público"
 msgid "Getting started with your new MDN account"
 msgstr "Introdução à Web"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "Endereço de email"
 
@@ -2127,6 +2056,10 @@ msgstr "Confirmar endereço de e-mail"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Por favor confirme que <a href=\"mailto:%(email)s\">%(email)s</a> é um endereço de e-mail para o utilizador %(user_display)s."
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "Confirmar"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2636,6 +2569,11 @@ msgstr "Editar e-mail"
 
 #: kuma/users/jinja2/users/user_edit.html:76
 #, fuzzy
+msgid "Subscriptions"
+msgstr "Descrição"
+
+#: kuma/users/jinja2/users/user_edit.html:76
+#, fuzzy
 msgid "Edit monthly subscription"
 msgstr "A atualizar o estado da subscrição"
 
@@ -2689,7 +2627,7 @@ msgstr ""
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
 #, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 
@@ -4422,7 +4360,7 @@ msgstr "A auto-sugestão necessita de um título parcial. Para um índice comple
 msgid "Document has been edited; please re-review."
 msgstr "O documento foi editado; por favor, reveja-o."
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "Não pode traduzir este documento."
 
@@ -4430,6 +4368,21 @@ msgstr "Não pode traduzir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor elasticsearch: %(backend)s"
+
+#, fuzzy
+#~ msgid "Back to profile"
+#~ msgstr "Voltar ao início"
+
+#, fuzzy
+#~ msgid "Amount"
+#~ msgstr "País"
+
+#, fuzzy
+#~ msgid "Cancel your subscription"
+#~ msgstr "Gerir a suas subscrições à newsletter da Mozilla."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Tem a certeza?"
 
 #, fuzzy
 #~ msgid "MDN payment terms"

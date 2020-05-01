@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-27 09:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:15-0700\n"
 "PO-Revision-Date: 2020-03-07 11:17+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -138,32 +138,32 @@ msgstr "Η διεύθυνση URL που πληκτρολογήσατε δεν �
 msgid "Default"
 msgstr "Προεπιλογή"
 
-#: kuma/javascript/src/active-banner.jsx:174
+#: kuma/javascript/src/active-banner.jsx:175
 msgid "Close banner"
 msgstr "Κλείσιμο μπάνερ"
 
-#: kuma/javascript/src/active-banner.jsx:195
+#: kuma/javascript/src/active-banner.jsx:196
 msgid "MDN Survey"
 msgstr "Έρευνα MDN"
 
-#: kuma/javascript/src/active-banner.jsx:196
+#: kuma/javascript/src/active-banner.jsx:197
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "Βοηθήστε μας να κατανοήσουμε τις 10 κορυφαίες ανάγκες των προγραμματιστών και σχεδιαστών ιστού."
 
-#: kuma/javascript/src/active-banner.jsx:199
+#: kuma/javascript/src/active-banner.jsx:200
 msgid "Take the survey"
 msgstr "Συμμετοχή στην έρευνα"
 
-#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:227
+#: kuma/javascript/src/active-banner.jsx:228
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:236
+#: kuma/javascript/src/active-banner.jsx:233
 msgid "Learn more"
 msgstr ""
 
@@ -296,6 +296,10 @@ msgstr ""
 #: kuma/javascript/src/bcd-signal.jsx:842
 msgid "What are we missing?"
 msgstr "Τι λείπει;"
+
+#: kuma/javascript/src/breadcrumbs.jsx:58
+msgid "See"
+msgstr ""
 
 #: kuma/javascript/src/document.jsx:60
 msgid "Related Topics"
@@ -449,6 +453,10 @@ msgstr "Δεν βρέθηκαν αντίστοιχα έγγραφα."
 msgid "Nothing found if nothing searched."
 msgstr "Δεν βρέθηκε τίποτα, αν δεν αναζητήθηκε τίποτα."
 
+#: kuma/javascript/src/signin-link.jsx:15
+msgid "Sign in"
+msgstr "Είσοδος"
+
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
 msgstr "Θα απαντήσετε σε 4 ερωτήσεις για εμάς;"
@@ -503,21 +511,17 @@ msgstr "Η τρέχουσα γλώσσα είναι %s. Επιλέξτε την 
 msgid "Add a translation"
 msgstr "Προσθήκη μετάφρασης"
 
-#: kuma/javascript/src/header/login.jsx:82
+#: kuma/javascript/src/header/login.jsx:51
 msgid "View profile"
 msgstr "Προβολή προφίλ"
 
-#: kuma/javascript/src/header/login.jsx:85
+#: kuma/javascript/src/header/login.jsx:54
 msgid "Edit profile"
 msgstr "Επεξεργασία προφίλ"
 
-#: kuma/javascript/src/header/login.jsx:91
+#: kuma/javascript/src/header/login.jsx:60
 msgid "Sign out"
 msgstr "Έξοδος"
-
-#: kuma/javascript/src/header/login.jsx:112
-msgid "Sign in"
-msgstr "Είσοδος"
 
 #: kuma/javascript/src/header/main-menu.jsx:76
 msgid "Technologies"
@@ -607,19 +611,31 @@ msgstr "Αναφορά σφάλματος"
 msgid "Search MDN"
 msgstr "Αναζήτηση στο MDN"
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:62
-msgid "We're sorry, something went wrong. Please try again or send your feedback to <emailLink />."
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:13
+msgid "Are you sure you want to cancel?"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:82
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:60
+msgid "Keep my membership"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:67
+msgid "Yes, cancel subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/error-message.jsx:6
+msgid "We're sorry, something went wrong. Please contact <emailLink />."
+msgstr ""
+
+#: kuma/javascript/src/payments/components/feedback-form.jsx:54
 msgid "Thank you for submitting your feedback!"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:92
+#: kuma/javascript/src/payments/components/feedback-form.jsx:64
 msgid "Enter optional feedback…"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:101
+#: kuma/javascript/src/payments/components/feedback-form.jsx:77
 msgid "Send"
 msgstr ""
 
@@ -871,6 +887,56 @@ msgstr ""
 #: kuma/javascript/src/payments/pages/index.jsx:333
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:27
+msgid "Manage monthly subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:28
+msgid "Your monthly subscription has been successfully canceled."
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:77
+msgid "You have no active subscription. Why not <signupLink />?"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:81
+msgid "set one up"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:113
+msgid "Amount"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:121
+msgid "Card number"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:126
+msgid "Expiry"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:136
+msgid "Cancel subscription"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:155
+msgid "Please <signInLink /> to continue."
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:156
+#, fuzzy
+msgid "sign in"
+msgstr "Είσοδος"
+
+#: kuma/javascript/src/payments/pages/management.jsx:170
+msgid "Loading…"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:184
+#, fuzzy
+msgid "Subscription"
+msgstr "Ενότητα"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:31
 msgid "Useful things"

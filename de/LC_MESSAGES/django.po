@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2020-04-17 07:20+0000\n"
 "Last-Translator: Michael Köhler <michael.koehler1@gmx.de>\n"
 "Language-Team: German https://pontoon.mozilla.org/de/\n"
@@ -587,9 +587,8 @@ msgstr "Abonnement aufheben"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "Möchten Sie die E-Mails wirklich abbestellen?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -1446,76 +1445,10 @@ msgstr "Jetzt spenden"
 msgid "Become a monthly supporter"
 msgstr "Werden Sie monatlicher Unterstützer"
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr "MDN-Dauerauftragsverwaltung"
-
-#: kuma/payments/jinja2/payments/management.html:28
-msgid "Back to profile"
-msgstr "Zurück zum Profil"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr "Hilfe"
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr "FAQ zu monatlichen Daueraufträgen"
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-msgid "Subscriptions"
-msgstr "Daueraufträge"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr "Dies ist eine Liste Ihrer aktiven Daueraufträge bei MDN Web Docs. Wenn Sie die folgenden Details ändern möchten, wenden Sie sich bitte an <a href=\"%(url)s\">%(email)s</a>."
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
+#, fuzzy
+msgid "Manage monthly subscription"
 msgstr "Monatlicher Dauerauftrag"
-
-#: kuma/payments/jinja2/payments/management.html:58
-msgid "Amount"
-msgstr "Betrag"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr "Kartennummer"
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr "Ablaufdatum"
-
-#: kuma/payments/jinja2/payments/management.html:74
-msgid "Cancel your subscription"
-msgstr "Ihren Dauerauftrag entfernen"
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "Sind Sie sicher?"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr "Sie müssen einen neuen Dauerauftrag einrichten, wenn Sie wieder Zahlungen an MDN Web Docs durchführen möchten."
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "Bestätigen"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr "Sie haben keine aktiven Daueraufträge. Möchten Sie <a href=\"%(url)s\">einen erstellen</a>?"
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr "Ihr monatlicher Dauerauftrag wurde erfolgreich entfernt"
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr "Wenn beim Löschen Ihres Dauerauftrags ein Problem aufgetreten ist, wenden Sie sich bitte an <a href=\"%(url)s\">%(email)s</a> und geben Sie Ihre Kundenreferenznummer %(reference_number)s an."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -2029,7 +1962,7 @@ msgstr "Die URL zu meinem GitHub-Profil soll öffentlich sein"
 msgid "Getting started with your new MDN account"
 msgstr "Erste Schritte mit Ihrem neuen MDN-Konto"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "E-Mail-Adresse"
 
@@ -2090,6 +2023,10 @@ msgstr "E-Mail-Adresse bestätigen"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Bitte bestätigen Sie, dass <a href=\"mailto:%(email)s\">%(email)s</a> eine E-Mail-Adresse für den Benutzer %(user_display)s ist."
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "Bestätigen"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2597,6 +2534,10 @@ msgid "Edit email"
 msgstr "E-Mail-Adresse bearbeiten"
 
 #: kuma/users/jinja2/users/user_edit.html:76
+msgid "Subscriptions"
+msgstr "Daueraufträge"
+
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "Edit monthly subscription"
 msgstr "Monatlichen Dauerauftrag bearbeiten"
 
@@ -2648,9 +2589,9 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "Ihre nächste Zahlung von %(cost)s (monatlich) erfolgt am %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 "Sie können Ihren Dauerauftrag jederzeit stornoieren. Um Ihren Dauerauftrag zu stornieren, besuchen Sie bitte die Seite zur Verwaltung monatlicher Abonnements (%(manage_subscription_url)s). Wenn Sie "
@@ -4408,7 +4349,7 @@ msgstr "Autovorschläge erfordern einen Teil des Titels. Eine vollständige Übe
 msgid "Document has been edited; please re-review."
 msgstr "Dokument wurde bearbeitet; bitte erneut überprüfen."
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "Sie können dieses Dokument nicht übersetzen."
 
@@ -4416,6 +4357,49 @@ msgstr "Sie können dieses Dokument nicht übersetzen."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch-Server: %(backend)s"
+
+#~ msgid "MDN subscription management"
+#~ msgstr "MDN-Dauerauftragsverwaltung"
+
+#~ msgid "Back to profile"
+#~ msgstr "Zurück zum Profil"
+
+#~ msgid "Help"
+#~ msgstr "Hilfe"
+
+#~ msgid "Monthly subscriptions FAQ"
+#~ msgstr "FAQ zu monatlichen Daueraufträgen"
+
+#~ msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
+#~ msgstr "Dies ist eine Liste Ihrer aktiven Daueraufträge bei MDN Web Docs. Wenn Sie die folgenden Details ändern möchten, wenden Sie sich bitte an <a href=\"%(url)s\">%(email)s</a>."
+
+#~ msgid "Amount"
+#~ msgstr "Betrag"
+
+#~ msgid "Card Number"
+#~ msgstr "Kartennummer"
+
+#~ msgid "Expiry"
+#~ msgstr "Ablaufdatum"
+
+#~ msgid "Cancel your subscription"
+#~ msgstr "Ihren Dauerauftrag entfernen"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Sind Sie sicher?"
+
+#~ msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+#~ msgstr "Sie müssen einen neuen Dauerauftrag einrichten, wenn Sie wieder Zahlungen an MDN Web Docs durchführen möchten."
+
+#~ msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
+#~ msgstr "Sie haben keine aktiven Daueraufträge. Möchten Sie <a href=\"%(url)s\">einen erstellen</a>?"
+
+#~ msgid "Your monthly subscription has been successfully canceled"
+#~ msgstr "Ihr monatlicher Dauerauftrag wurde erfolgreich entfernt"
+
+#~ msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
+#~ msgstr ""
+#~ "Wenn beim Löschen Ihres Dauerauftrags ein Problem aufgetreten ist, wenden Sie sich bitte an <a href=\"%(url)s\">%(email)s</a> und geben Sie Ihre Kundenreferenznummer %(reference_number)s an."
 
 #~ msgid "MDN payment terms"
 #~ msgstr "MDN-Zahlungsbedingungen"

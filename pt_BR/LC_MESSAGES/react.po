@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-27 09:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:15-0700\n"
 "PO-Revision-Date: 2020-04-27 20:33+0000\n"
 "Last-Translator: Marcelo Ghelman <marcelo.ghelman@gmail.com>\n"
 "Language-Team: Portuguese (Brazilian) https://pontoon.mozilla.org/pt_BR/\n"
@@ -139,32 +139,32 @@ msgstr "A URL informada não parece ser válida"
 msgid "Default"
 msgstr "Padrão"
 
-#: kuma/javascript/src/active-banner.jsx:174
+#: kuma/javascript/src/active-banner.jsx:175
 msgid "Close banner"
 msgstr "Fechar banner"
 
-#: kuma/javascript/src/active-banner.jsx:195
+#: kuma/javascript/src/active-banner.jsx:196
 msgid "MDN Survey"
 msgstr "Pesquisa de opinião da MDN"
 
-#: kuma/javascript/src/active-banner.jsx:196
+#: kuma/javascript/src/active-banner.jsx:197
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "Ajude-nos a entender as 10 principais necessidades dos desenvolvedores web e designers."
 
-#: kuma/javascript/src/active-banner.jsx:199
+#: kuma/javascript/src/active-banner.jsx:200
 msgid "Take the survey"
 msgstr "Participe da pesquisa"
 
-#: kuma/javascript/src/active-banner.jsx:225 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Torne-se um apoiador mensal"
 
-#: kuma/javascript/src/active-banner.jsx:227
+#: kuma/javascript/src/active-banner.jsx:228
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Apoie a MDN com uma assinatura mensal de %(amount)s"
 
-#: kuma/javascript/src/active-banner.jsx:236
+#: kuma/javascript/src/active-banner.jsx:233
 msgid "Learn more"
 msgstr "Saiba mais"
 
@@ -247,8 +247,8 @@ msgid ""
 "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
 "values to the developer community."
 msgstr ""
-"Nosso objetivo é fornecer valores reais e precisos em todas as nossas tabelas de dados de compatibilidade. Notificar a MDN  sobre dados imprecisos ou fornecer novos dados nos impulsiona em direção à"
-" meta de fornecer valores 100% reais à comunidade de desenvolvedores."
+"Nosso objetivo é fornecer valores reais e precisos em todas as nossas tabelas de dados de compatibilidade. Notificar a MDN  sobre dados imprecisos ou fornecer novos dados nos impulsiona em direção "
+"à meta de fornecer valores 100% reais à comunidade de desenvolvedores."
 
 #: kuma/javascript/src/bcd-signal.jsx:553
 msgid "Thank you for helping."
@@ -301,6 +301,10 @@ msgstr "Você pode ingressar no repositório GitHub para ver notícias e atualiz
 #: kuma/javascript/src/bcd-signal.jsx:842
 msgid "What are we missing?"
 msgstr "O que está faltando?"
+
+#: kuma/javascript/src/breadcrumbs.jsx:58
+msgid "See"
+msgstr ""
 
 #: kuma/javascript/src/document.jsx:60
 msgid "Related Topics"
@@ -456,6 +460,10 @@ msgstr "Nenhum documento correspondente foi encontrado."
 msgid "Nothing found if nothing searched."
 msgstr "Nada é encontrado se nada for pesquisado."
 
+#: kuma/javascript/src/signin-link.jsx:15
+msgid "Sign in"
+msgstr "Entrar"
+
 #: kuma/javascript/src/task-completion-survey.jsx:144
 msgid "Would you answer 4 questions for us?"
 msgstr "Você responderia 4 perguntas?"
@@ -509,21 +517,17 @@ msgstr "O idioma atual é %s. Escolha seu idioma preferido."
 msgid "Add a translation"
 msgstr "Adicionar uma tradução"
 
-#: kuma/javascript/src/header/login.jsx:82
+#: kuma/javascript/src/header/login.jsx:51
 msgid "View profile"
 msgstr "Visualizar perfil"
 
-#: kuma/javascript/src/header/login.jsx:85
+#: kuma/javascript/src/header/login.jsx:54
 msgid "Edit profile"
 msgstr "Editar perfil"
 
-#: kuma/javascript/src/header/login.jsx:91
+#: kuma/javascript/src/header/login.jsx:60
 msgid "Sign out"
 msgstr "Sair"
-
-#: kuma/javascript/src/header/login.jsx:112
-msgid "Sign in"
-msgstr "Entrar"
 
 #: kuma/javascript/src/header/main-menu.jsx:76
 msgid "Technologies"
@@ -613,19 +617,33 @@ msgstr "Relatar um problema"
 msgid "Search MDN"
 msgstr "Pesquisar na MDN"
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:62
-msgid "We're sorry, something went wrong. Please try again or send your feedback to <emailLink />."
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:13
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:60
+msgid "Keep my membership"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:67
+#, fuzzy
+msgid "Yes, cancel subscription"
+msgstr "Cancelar ou gerenciar assinatura"
+
+#: kuma/javascript/src/payments/components/error-message.jsx:6
+#, fuzzy
+msgid "We're sorry, something went wrong. Please contact <emailLink />."
 msgstr "Desculpe, algo deu errado. Tente novamente ou envie seus comentários para <emailLink />."
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:82
+#: kuma/javascript/src/payments/components/feedback-form.jsx:54
 msgid "Thank you for submitting your feedback!"
 msgstr "Obrigado por enviar sua opinião!"
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:92
+#: kuma/javascript/src/payments/components/feedback-form.jsx:64
 msgid "Enter optional feedback…"
 msgstr "Se quiser, digite um comentário…"
 
-#: kuma/javascript/src/payments/components/feedback-form.jsx:101
+#: kuma/javascript/src/payments/components/feedback-form.jsx:77
 msgid "Send"
 msgstr "Enviar"
 
@@ -876,8 +894,8 @@ msgstr "página de gerenciamento de assinatura mensal"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Você pode cancelar sua assinatura mensal quando quiser. Vá em <subscriptionsLink /> para cancelar a assinatura. Se optar por cancelar, não cobraremos seu cartão de pagamento nos meses subsequentes. "
 "Para qualquer outra dúvida ou pergunta, <emailLink />."
@@ -897,6 +915,58 @@ msgstr "Termos de pagamento"
 #: kuma/javascript/src/payments/pages/index.jsx:333
 msgid "When you request to delete your account we will also cancel your monthly subscription and not charge you for subsequent months."
 msgstr "Se você solicitar a exclusão de sua conta, também cancelaremos sua assinatura mensal e não lhe cobraremos pelos meses subsequentes."
+
+#: kuma/javascript/src/payments/pages/management.jsx:27
+#, fuzzy
+msgid "Manage monthly subscription"
+msgstr "página de gerenciamento de assinatura mensal"
+
+#: kuma/javascript/src/payments/pages/management.jsx:28
+msgid "Your monthly subscription has been successfully canceled."
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:77
+msgid "You have no active subscription. Why not <signupLink />?"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:81
+msgid "set one up"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:113
+msgid "Amount"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:121
+msgid "Card number"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:126
+msgid "Expiry"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:136
+#, fuzzy
+msgid "Cancel subscription"
+msgstr "Cancelar ou gerenciar assinatura"
+
+#: kuma/javascript/src/payments/pages/management.jsx:155
+msgid "Please <signInLink /> to continue."
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:156
+#, fuzzy
+msgid "sign in"
+msgstr "Entrar"
+
+#: kuma/javascript/src/payments/pages/management.jsx:170
+msgid "Loading…"
+msgstr ""
+
+#: kuma/javascript/src/payments/pages/management.jsx:184
+#, fuzzy
+msgid "Subscription"
+msgstr "Termos de assinatura"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:31
 msgid "Useful things"

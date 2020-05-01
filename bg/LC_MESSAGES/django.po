@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2016-10-17 15:23+0000\n"
 "Last-Translator: Пламен <plamen_mbx@yahoo.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
@@ -581,9 +581,8 @@ msgstr "Отписване"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "Сигурни ли сте, че искате да се отпишете?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Отказ"
 
@@ -1418,79 +1417,10 @@ msgstr "Дарете сега"
 msgid "Become a monthly supporter"
 msgstr ""
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:28
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
 #, fuzzy
-msgid "Back to profile"
-msgstr "Промяна на профила"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr "Помощ"
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-#, fuzzy
-msgid "Subscriptions"
-msgstr "Описание"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
+msgid "Manage monthly subscription"
 msgstr "Месечен абонамент"
-
-#: kuma/payments/jinja2/payments/management.html:58
-msgid "Amount"
-msgstr "Сума"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr "Изтича на"
-
-#: kuma/payments/jinja2/payments/management.html:74
-#, fuzzy
-msgid "Cancel your subscription"
-msgstr "Управление на записването за новините от Мозила."
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "Сигурен/а ли сте?"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr "Ще трябва да се абонирате отново ако желаете да продължите плащанията към MDN Web Docs."
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "Потвърждаване"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr ""
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr ""
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -1998,7 +1928,7 @@ msgstr "Бих желал да направя адресъ на моя проф�
 msgid "Getting started with your new MDN account"
 msgstr "Да се запознаем с Уеб"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "Е-поща"
 
@@ -2059,6 +1989,10 @@ msgstr "Потвърждаване на адреса за е-поща"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Моля, потвърдете, че <a href=\"mailto:%(email)s\">%(email)s</a> е електронната поща на %(user_display)s."
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "Потвърждаване"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2563,6 +2497,11 @@ msgstr "Промяна на е-поща"
 
 #: kuma/users/jinja2/users/user_edit.html:76
 #, fuzzy
+msgid "Subscriptions"
+msgstr "Описание"
+
+#: kuma/users/jinja2/users/user_edit.html:76
+#, fuzzy
 msgid "Edit monthly subscription"
 msgstr "Обновяване състоянието на записването"
 
@@ -2616,7 +2555,7 @@ msgstr ""
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
 #, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 
@@ -4318,7 +4257,7 @@ msgstr ""
 msgid "Document has been edited; please re-review."
 msgstr "Документът бе променен. Моля прегледайте го отново."
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "Не може да превеждате този документ."
 
@@ -4326,6 +4265,29 @@ msgstr "Не може да превеждате този документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сървър Elasticsearch %(backend)s"
+
+#, fuzzy
+#~ msgid "Back to profile"
+#~ msgstr "Промяна на профила"
+
+#~ msgid "Help"
+#~ msgstr "Помощ"
+
+#~ msgid "Amount"
+#~ msgstr "Сума"
+
+#~ msgid "Expiry"
+#~ msgstr "Изтича на"
+
+#, fuzzy
+#~ msgid "Cancel your subscription"
+#~ msgstr "Управление на записването за новините от Мозила."
+
+#~ msgid "Are you sure?"
+#~ msgstr "Сигурен/а ли сте?"
+
+#~ msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+#~ msgstr "Ще трябва да се абонирате отново ако желаете да продължите плащанията към MDN Web Docs."
 
 #~ msgid "MDN payment terms"
 #~ msgstr "Условия за плащане в MDN"

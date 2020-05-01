@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2020-04-18 14:48+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -576,9 +576,8 @@ msgstr "Ffeɣ seg ujerred"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "Tebɣiḍ ad teffɣeḍ seg ujerred?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Sefsex"
 
@@ -1426,76 +1425,10 @@ msgstr "Mudd tura"
 msgid "Become a monthly supporter"
 msgstr "Efk tawsa s waggur"
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr "Asefrek n umulteɣ MDN"
-
-#: kuma/payments/jinja2/payments/management.html:28
-msgid "Back to profile"
-msgstr "Uɣal ɣer umaɣnu"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr "Tallelt"
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr "Isteqsiyen FAQ ɣef umulteɣ s waggur"
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-msgid "Subscriptions"
-msgstr "Ijerriden"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr "Ha-t-an wumuɣ n walttaɣen-inek ɣer MDN Web Docs yellan d urmiden. Ma tebɣiḍ ad tbeddleḍ albaɛḍ n isallen yellan da, ttxil-k nermes <a href=\"%(url)s\">%(email)s."
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
+#, fuzzy
+msgid "Manage monthly subscription"
 msgstr "Ajerred s waggur"
-
-#: kuma/payments/jinja2/payments/management.html:58
-msgid "Amount"
-msgstr "Tallayt"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr "Uṭṭun n tkaṛḍa"
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr "Azemz n tagara"
-
-#: kuma/payments/jinja2/payments/management.html:74
-msgid "Cancel your subscription"
-msgstr "Sefsex ajerred-ik"
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "S tidet?"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr "Ilaq-ak ujerred amaynut iwakken ad tkemmleḍ ixelliṣen ɣer MDN Web Docs."
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "Sentem"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr "Ur tesɛiḍ ara maḍi ajerred urmid. Ayen ur <a href=\"%(url)s\">d-tenulfuyeḍ ara yiwen</a>?"
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr "Ajerred-inek s waggur dayen yettwasefsex"
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr "Yella-d wugur deg usefsex n ujerred-inek, ma ulac aɣilif nermes<a href=\"%(url)s\">%(email)s</a>imir efk-d uṭṭun-inek n ukelyan %(reference_number)s."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -2003,7 +1936,7 @@ msgstr "Bɣiɣ ad erreɣ d azayaz URL n umaɣnu-iw GitHub"
 msgid "Getting started with your new MDN account"
 msgstr "Isuraf imezwura s umiḍan-iw MDN amaynut"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "Tansa imayl"
 
@@ -2064,6 +1997,10 @@ msgstr "Sentem tansa imayl"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Sentem ma ulac aɣilif ma yella <a href=\"mailto:%(email)s\">%(email)s</a> d tansa imayl n useqdac %(user_display)s."
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "Sentem"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2563,6 +2500,10 @@ msgid "Edit email"
 msgstr "Snifel imayl"
 
 #: kuma/users/jinja2/users/user_edit.html:76
+msgid "Subscriptions"
+msgstr "Ijerriden"
+
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "Edit monthly subscription"
 msgstr "Beddel amulteɣ n waggur"
 
@@ -2614,9 +2555,9 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "Lexlaṣ-inek i d-iteddun n %(cost)s (yal ayyur) ad d-yili deg %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 "Ffeɣ melmi i tebɣiḍ. Akken ad tesfesxeḍ ajerred-inek, ttxil-k/m rzu ɣer usefrek n usebter n ujerred s wayyur (%(manage_subscription_url)s). Ma yella tesɛiḍ isteqsiyen, ttxil-k/m ɣer FAQ "
@@ -4342,7 +4283,7 @@ msgstr "Asumer awurman yessutur aḥric seg uzwel. i umatar n yesemliyen imeṛ�
 msgid "Document has been edited; please re-review."
 msgstr "Isemli yettwaẓreg: ma ulac aɣilif wali-t tikelt nniḍen."
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "Ur tezmireḍ ara ad tessuqleḍ isemli agi."
 
@@ -4350,6 +4291,48 @@ msgstr "Ur tezmireḍ ara ad tessuqleḍ isemli agi."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Aqeddac Elasticsearch : %(backend)s"
+
+#~ msgid "MDN subscription management"
+#~ msgstr "Asefrek n umulteɣ MDN"
+
+#~ msgid "Back to profile"
+#~ msgstr "Uɣal ɣer umaɣnu"
+
+#~ msgid "Help"
+#~ msgstr "Tallelt"
+
+#~ msgid "Monthly subscriptions FAQ"
+#~ msgstr "Isteqsiyen FAQ ɣef umulteɣ s waggur"
+
+#~ msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
+#~ msgstr "Ha-t-an wumuɣ n walttaɣen-inek ɣer MDN Web Docs yellan d urmiden. Ma tebɣiḍ ad tbeddleḍ albaɛḍ n isallen yellan da, ttxil-k nermes <a href=\"%(url)s\">%(email)s."
+
+#~ msgid "Amount"
+#~ msgstr "Tallayt"
+
+#~ msgid "Card Number"
+#~ msgstr "Uṭṭun n tkaṛḍa"
+
+#~ msgid "Expiry"
+#~ msgstr "Azemz n tagara"
+
+#~ msgid "Cancel your subscription"
+#~ msgstr "Sefsex ajerred-ik"
+
+#~ msgid "Are you sure?"
+#~ msgstr "S tidet?"
+
+#~ msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+#~ msgstr "Ilaq-ak ujerred amaynut iwakken ad tkemmleḍ ixelliṣen ɣer MDN Web Docs."
+
+#~ msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
+#~ msgstr "Ur tesɛiḍ ara maḍi ajerred urmid. Ayen ur <a href=\"%(url)s\">d-tenulfuyeḍ ara yiwen</a>?"
+
+#~ msgid "Your monthly subscription has been successfully canceled"
+#~ msgstr "Ajerred-inek s waggur dayen yettwasefsex"
+
+#~ msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
+#~ msgstr "Yella-d wugur deg usefsex n ujerred-inek, ma ulac aɣilif nermes<a href=\"%(url)s\">%(email)s</a>imir efk-d uṭṭun-inek n ukelyan %(reference_number)s."
 
 #~ msgid "MDN payment terms"
 #~ msgstr "Tiwtilin n lexlaṣ MDN"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2020-04-20 17:31+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -592,9 +592,8 @@ msgid "Are you sure you want to unsubscribe?"
 msgstr "Biztosan le szeretne iratkozni?"
 
 # 100%
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Mégsem"
 
@@ -1449,76 +1448,10 @@ msgstr "Adományozzon most"
 msgid "Become a monthly supporter"
 msgstr "Legyen havi támogató"
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr "MDN előfizetéskezelés"
-
-#: kuma/payments/jinja2/payments/management.html:28
-msgid "Back to profile"
-msgstr "Vissza a profilhoz"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr "Súgó"
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr "Havi előfizetés GYIK"
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-msgid "Subscriptions"
-msgstr "Előfizetések"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr "Ez az MDN webes dokumentumok aktív előfizetéseinek listája. Ha módosítani szeretné az alábbi részleteket, lépjen velünk kapcsolatba ezen a címen: <a href=\"%(url)s\">%(email)s</a>."
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
+#, fuzzy
+msgid "Manage monthly subscription"
 msgstr "Havi előfizetés"
-
-#: kuma/payments/jinja2/payments/management.html:58
-msgid "Amount"
-msgstr "Összeg"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr "Kártyaszám"
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr "Lejárat"
-
-#: kuma/payments/jinja2/payments/management.html:74
-msgid "Cancel your subscription"
-msgstr "Előfizetés megszüntetése"
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "Biztos benne?"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr "Új előfizetést kell beállítania, ha továbbra is fizetni szeretne az MDN webes dokumentumokhoz."
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "Megerősítés"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr "Nincs aktív előfizetése. Miért nem <a href=\"%(url)s\">állít be egyet</a>?"
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr "A havi előfizetését sikeresen megszüntettük"
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr "Probléma történt az előfizetés megszüntetésével kapcsolatban, lépjen velünk kapcsolatba ezen a címen: <a href=\"%(url)s\">%(email)s</a>, és adja meg ügyfélszámát: %(reference_number)s."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -2033,7 +1966,7 @@ msgstr "Nyilvánossá akarom tenni a GitHub profilom URL-ét"
 msgid "Getting started with your new MDN account"
 msgstr "Első lépések az MDN-fiókjával"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "E-mail cím"
 
@@ -2094,6 +2027,10 @@ msgstr "E-mail cím megerősítése"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Kérem erősítse meg, hogy a(z) <a href=\"mailto:%(email)s\">%(email)s</a> ennek a felhasználónak az e-mail címe: %(user_display)s."
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "Megerősítés"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2594,6 +2531,10 @@ msgid "Edit email"
 msgstr "E-mail szerkesztése"
 
 #: kuma/users/jinja2/users/user_edit.html:76
+msgid "Subscriptions"
+msgstr "Előfizetések"
+
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "Edit monthly subscription"
 msgstr "Havi előfizetés szerkesztése"
 
@@ -2645,9 +2586,9 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "A következő (havi) %(cost)s dolláros befizetés ekkor fog történni: %(next_payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 "Mondja le bármikor. Az előfizetés lemondásához ugorjon a havi előfizetések kezelése oldalra (%(manage_subscription_url)s). Ha kérdése van, olvassa el a GyIK-ot (%(manage_subscription_url)s), vagy "
@@ -4379,7 +4320,7 @@ msgstr "Az automatikus javaslathoz egy részleges cím szükséges. A teljes dok
 msgid "Document has been edited; please re-review."
 msgstr "A dokumentumot szerkesztették; kérjük vizsgálja felül."
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "Nem fordíthatja le ezt a dokumentumot."
 
@@ -4387,6 +4328,48 @@ msgstr "Nem fordíthatja le ezt a dokumentumot."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch kiszolgáló: %(backend)s"
+
+#~ msgid "MDN subscription management"
+#~ msgstr "MDN előfizetéskezelés"
+
+#~ msgid "Back to profile"
+#~ msgstr "Vissza a profilhoz"
+
+#~ msgid "Help"
+#~ msgstr "Súgó"
+
+#~ msgid "Monthly subscriptions FAQ"
+#~ msgstr "Havi előfizetés GYIK"
+
+#~ msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
+#~ msgstr "Ez az MDN webes dokumentumok aktív előfizetéseinek listája. Ha módosítani szeretné az alábbi részleteket, lépjen velünk kapcsolatba ezen a címen: <a href=\"%(url)s\">%(email)s</a>."
+
+#~ msgid "Amount"
+#~ msgstr "Összeg"
+
+#~ msgid "Card Number"
+#~ msgstr "Kártyaszám"
+
+#~ msgid "Expiry"
+#~ msgstr "Lejárat"
+
+#~ msgid "Cancel your subscription"
+#~ msgstr "Előfizetés megszüntetése"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Biztos benne?"
+
+#~ msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+#~ msgstr "Új előfizetést kell beállítania, ha továbbra is fizetni szeretne az MDN webes dokumentumokhoz."
+
+#~ msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
+#~ msgstr "Nincs aktív előfizetése. Miért nem <a href=\"%(url)s\">állít be egyet</a>?"
+
+#~ msgid "Your monthly subscription has been successfully canceled"
+#~ msgstr "A havi előfizetését sikeresen megszüntettük"
+
+#~ msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
+#~ msgstr "Probléma történt az előfizetés megszüntetésével kapcsolatban, lépjen velünk kapcsolatba ezen a címen: <a href=\"%(url)s\">%(email)s</a>, és adja meg ügyfélszámát: %(reference_number)s."
 
 #~ msgid "MDN payment terms"
 #~ msgstr "MDN fizetési feltételek"

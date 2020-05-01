@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-21 16:00-0700\n"
+"POT-Creation-Date: 2020-04-30 17:14-0700\n"
 "PO-Revision-Date: 2020-04-18 20:15+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -577,9 +577,8 @@ msgstr "Відписатися"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "Ви дійсно бажаєте відписатись?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/payments/jinja2/payments/management.html:82
-#: kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -1429,76 +1428,10 @@ msgstr "Зробити внесок"
 msgid "Become a monthly supporter"
 msgstr "Станьте щомісячним спонсором"
 
-#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:12 kuma/payments/jinja2/payments/management.html:13 kuma/payments/jinja2/payments/management.html:25
-msgid "MDN subscription management"
-msgstr "Керування передплатою MDN"
-
-#: kuma/payments/jinja2/payments/management.html:28
-msgid "Back to profile"
-msgstr "Назад до профілю"
-
-#: kuma/payments/jinja2/payments/management.html:31
-msgid "Help"
-msgstr "Довідка"
-
-#: kuma/payments/jinja2/payments/management.html:34
-msgid "Monthly subscriptions FAQ"
-msgstr "Часті питання про щомісячну передплату"
-
-#: kuma/payments/jinja2/payments/management.html:42 kuma/users/jinja2/users/user_edit.html:76
-msgid "Subscriptions"
-msgstr "Підписки"
-
-#: kuma/payments/jinja2/payments/management.html:44
-#, python-format
-msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
-msgstr "Це список ваших активних передплат на MDN Web Docs. Якщо ви бажаєте змінити будь-які деталі нижче, будь ласка, напишіть на <a href=\"%(url)s\">%(email)s</a>."
-
-#: kuma/payments/jinja2/payments/management.html:54 kuma/payments/jinja2/payments/management.html:92
-msgid "Monthly Subscription"
+#: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
+#, fuzzy
+msgid "Manage monthly subscription"
 msgstr "Щомісячна підписка"
-
-#: kuma/payments/jinja2/payments/management.html:58
-msgid "Amount"
-msgstr "Сума"
-
-#: kuma/payments/jinja2/payments/management.html:59
-msgid "Card Number"
-msgstr "Номер картки"
-
-#: kuma/payments/jinja2/payments/management.html:60
-msgid "Expiry"
-msgstr "Термін дії"
-
-#: kuma/payments/jinja2/payments/management.html:74
-msgid "Cancel your subscription"
-msgstr "Скасувати підписку"
-
-#: kuma/payments/jinja2/payments/management.html:77
-msgid "Are you sure?"
-msgstr "Ви впевнені?"
-
-#: kuma/payments/jinja2/payments/management.html:79
-msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
-msgstr "Якщо ви бажаєте відновити платежі на MDN Web Docs, вам необхідно налаштувати нову передплату."
-
-#: kuma/payments/jinja2/payments/management.html:83 kuma/users/jinja2/account/email_confirm.html:17
-msgid "Confirm"
-msgstr "Підтвердити"
-
-#: kuma/payments/jinja2/payments/management.html:95
-#, python-format
-msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
-msgstr "У вас немає активних підписок. Чому б <a href=\"%(url)s\">не налаштувати зараз</a>?"
-
-#: kuma/payments/jinja2/payments/management.html:106
-msgid "Your monthly subscription has been successfully canceled"
-msgstr "Вашу щомісячну підписку успішно скасовано"
-
-#: kuma/payments/jinja2/payments/management.html:111
-#, python-format
-msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
-msgstr "Виникла проблема при скасуванні вашої передплати. Будь ласка, напишіть на <a href=\"%(url)s\">%(email)s</a> і вкажіть свій номер клієнта %(reference_number)s."
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -2014,7 +1947,7 @@ msgstr "Я хочу оприлюднити URL мого GitHub-профілю"
 msgid "Getting started with your new MDN account"
 msgstr "Початок роботи з вашим обліковим записом MDN"
 
-#: kuma/users/views.py:615
+#: kuma/users/views.py:614
 msgid "Email address"
 msgstr "Адреса ел. пошти"
 
@@ -2075,6 +2008,10 @@ msgstr "Підтвердити адресу електронної пошти"
 #, python-format
 msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email address for user %(user_display)s."
 msgstr "Будь ласка, підтвердіть, що <a href=\"mailto:%(email)s\">%(email)s</a> - адреса електронної пошти користувача %(user_display)s."
+
+#: kuma/users/jinja2/account/email_confirm.html:17
+msgid "Confirm"
+msgstr "Підтвердити"
 
 #: kuma/users/jinja2/account/email_confirm.html:22
 #, python-format
@@ -2575,6 +2512,10 @@ msgid "Edit email"
 msgstr "Редагувати адресу ел. пошти"
 
 #: kuma/users/jinja2/users/user_edit.html:76
+msgid "Subscriptions"
+msgstr "Підписки"
+
+#: kuma/users/jinja2/users/user_edit.html:76
 msgid "Edit monthly subscription"
 msgstr "Змінити місячну підписку"
 
@@ -2626,9 +2567,9 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "Наступна оплата в розмірі %(cost)s (щомісячна) відбудеться %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscriptions page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 "Скасуйте передплату у будь-який час. Щоб скасувати передплату, перейдіть на сторінку керування щомісячними передплатами (%(manage_subscription_url)s). Якщо ви маєте питання, будь ласка, ознайомтеся "
@@ -4359,7 +4300,7 @@ msgstr "Автозаповнення вимагає часткового вка�
 msgid "Document has been edited; please re-review."
 msgstr "Документ було змінено; будь ласка, зробіть повторну перевірку."
 
-#: kuma/wiki/views/translate.py:94
+#: kuma/wiki/views/translate.py:95
 msgid "You cannot translate this document."
 msgstr "Ви не можете перекладати цей документ."
 
@@ -4367,6 +4308,48 @@ msgstr "Ви не можете перекладати цей документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сервер Elasticsearch: %(backend)s"
+
+#~ msgid "MDN subscription management"
+#~ msgstr "Керування передплатою MDN"
+
+#~ msgid "Back to profile"
+#~ msgstr "Назад до профілю"
+
+#~ msgid "Help"
+#~ msgstr "Довідка"
+
+#~ msgid "Monthly subscriptions FAQ"
+#~ msgstr "Часті питання про щомісячну передплату"
+
+#~ msgid "This is a list of your active subscriptions to MDN Web Docs. If you wish to amend any of the details below please contact <a href=\"%(url)s\">%(email)s</a>."
+#~ msgstr "Це список ваших активних передплат на MDN Web Docs. Якщо ви бажаєте змінити будь-які деталі нижче, будь ласка, напишіть на <a href=\"%(url)s\">%(email)s</a>."
+
+#~ msgid "Amount"
+#~ msgstr "Сума"
+
+#~ msgid "Card Number"
+#~ msgstr "Номер картки"
+
+#~ msgid "Expiry"
+#~ msgstr "Термін дії"
+
+#~ msgid "Cancel your subscription"
+#~ msgstr "Скасувати підписку"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Ви впевнені?"
+
+#~ msgid "You will have to set up a new subscription if you wish to resume making payments to MDN Web Docs."
+#~ msgstr "Якщо ви бажаєте відновити платежі на MDN Web Docs, вам необхідно налаштувати нову передплату."
+
+#~ msgid "You have no active subscriptions. Why not <a href=\"%(url)s\">set one up</a>?"
+#~ msgstr "У вас немає активних підписок. Чому б <a href=\"%(url)s\">не налаштувати зараз</a>?"
+
+#~ msgid "Your monthly subscription has been successfully canceled"
+#~ msgstr "Вашу щомісячну підписку успішно скасовано"
+
+#~ msgid "There was a problem canceling your subscription, please contact <a href=\"%(url)s\">%(email)s</a> and provide your customer reference number %(reference_number)s."
+#~ msgstr "Виникла проблема при скасуванні вашої передплати. Будь ласка, напишіть на <a href=\"%(url)s\">%(email)s</a> і вкажіть свій номер клієнта %(reference_number)s."
 
 #~ msgid "MDN payment terms"
 #~ msgstr "Умови оплати MDN"
