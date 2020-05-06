@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-30 17:14-0700\n"
+"POT-Creation-Date: 2020-05-06 07:20-0700\n"
 "PO-Revision-Date: 2020-04-30 01:54+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -118,7 +118,7 @@ msgid "Internal Server Error"
 msgstr "内部サーバーエラー"
 
 #: jinja2/base.html:10 jinja2/base.html:46 jinja2/base.html:51 jinja2/base.html:91 jinja2/includes/footer/mdn-footer.html:1 jinja2/react_base.html:10 jinja2/react_base.html:41
-#: jinja2/react_base.html:46 kuma/search/jinja2/search/plugin.html:3 kuma/users/jinja2/socialaccount/base_signup.html:44 kuma/users/jinja2/socialaccount/base_signup.html:50
+#: jinja2/react_base.html:46 jinja2/react_base.html:94 kuma/search/jinja2/search/plugin.html:3 kuma/users/jinja2/socialaccount/base_signup.html:44 kuma/users/jinja2/socialaccount/base_signup.html:50
 #: kuma/wiki/jinja2/wiki/react_document.html:42 kuma/wiki/jinja2/wiki/react_document.html:47
 msgid "MDN Web Docs"
 msgstr "MDN Web Docs"
@@ -131,21 +131,75 @@ msgstr "MDN は現在、読み取り専用のメンテナンスモードにな�
 msgid "Learn more"
 msgstr "詳細"
 
-#: jinja2/base.html:119 jinja2/react_base.html:104 kuma/users/jinja2/socialaccount/base_signup.html:101
+#: jinja2/base.html:119 jinja2/react_base.html:152 kuma/users/jinja2/socialaccount/base_signup.html:101
 msgid "Terms"
 msgstr "利用規約"
 
-#: jinja2/base.html:120 jinja2/react_base.html:105 kuma/users/jinja2/socialaccount/base_signup.html:102
+#: jinja2/base.html:120 jinja2/react_base.html:155 kuma/users/jinja2/socialaccount/base_signup.html:102
 msgid "Privacy"
 msgstr "プライバシー"
 
-#: jinja2/base.html:121 jinja2/react_base.html:106 kuma/users/jinja2/socialaccount/base_signup.html:103
+#: jinja2/base.html:121 jinja2/react_base.html:157 kuma/users/jinja2/socialaccount/base_signup.html:103
 msgid "Cookies"
 msgstr "Cookie"
 
-#: jinja2/base.html:125 jinja2/react_base.html:110 kuma/users/jinja2/socialaccount/base_signup.html:107
+#: jinja2/base.html:125 kuma/users/jinja2/socialaccount/base_signup.html:107
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
+msgstr "<p>&copy; 2005-%(thisyear)s Mozilla および各貢献者</p> <p>コンテンツは <a href=\"%(copyright_url)s\">これらのライセンス</a> の下で公開されています。</p>"
+
+#: jinja2/includes/footer/mdn-footer.html:5 jinja2/react_base.html:97 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:42
+msgid "Web Technologies"
+msgstr "ウェブ技術"
+
+#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:98 kuma/landing/jinja2/landing/homepage.html:92 kuma/landing/jinja2/landing/react_homepage.html:78
+msgid "Learn Web Development"
+msgstr "ウェブ開発について学ぶ"
+
+# ユーザプロフィールの編集ページ
+#: jinja2/includes/footer/mdn-footer.html:7 jinja2/react_base.html:99
+msgid "About MDN"
+msgstr "MDN について"
+
+#: jinja2/includes/footer/mdn-footer.html:8 jinja2/includes/header-main-nav.html:41 jinja2/react_base.html:100
+msgid "Feedback"
+msgstr "フィードバック"
+
+# ユーザプロフィールの編集ページ
+#: jinja2/includes/footer/moz-footer.html:5 jinja2/react_base.html:104
+msgid "About"
+msgstr "このサイトについて"
+
+#: jinja2/includes/footer/moz-footer.html:6 jinja2/react_base.html:105
+msgid "Contact Us"
+msgstr "問い合わせ"
+
+#: jinja2/react_base.html:112
+msgid "MDN"
+msgstr "MDN"
+
+# 各ページ, 2段目ヘッダ - Twitter リンク
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 jinja2/react_base.html:116 jinja2/react_base.html:132 kuma/users/forms.py:44
+#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:145
+msgid "Twitter"
+msgstr "Twitter"
+
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:121 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
+#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:141
+msgid "GitHub"
+msgstr "GitHub"
+
+#: jinja2/includes/footer/moz-footer.html:1 jinja2/react_base.html:128
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: jinja2/includes/footer/moz-footer.html:15 jinja2/react_base.html:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: jinja2/react_base.html:144
+#, fuzzy, python-format
+msgid "&copy; 2005-%(thisyear)s Mozilla and individual contributors. Content is available under <a href=\"%(copyright_url)s\">these licenses</a>."
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla および各貢献者</p> <p>コンテンツは <a href=\"%(copyright_url)s\">これらのライセンス</a> の下で公開されています。</p>"
 
 #: jinja2/handlers/400.html:32
@@ -261,10 +315,6 @@ msgstr "ゲーム開発"
 #: jinja2/includes/header-main-nav.html:35
 msgid "...more docs"
 msgstr "...さらに見る"
-
-#: jinja2/includes/footer/mdn-footer.html:8 jinja2/includes/header-main-nav.html:41
-msgid "Feedback"
-msgstr "フィードバック"
 
 #: jinja2/includes/header-main-nav.html:48
 msgid "Get Firefox help"
@@ -539,46 +589,6 @@ msgstr "ベトナム語"
 #: jinja2/includes/unsubscribe_text.ltxt:3
 msgid "Unsubscribe from these emails:"
 msgstr "これらのメール通知を停止:"
-
-#: jinja2/includes/footer/mdn-footer.html:5 kuma/landing/jinja2/landing/homepage.html:56 kuma/landing/jinja2/landing/react_homepage.html:42
-msgid "Web Technologies"
-msgstr "ウェブ技術"
-
-#: jinja2/includes/footer/mdn-footer.html:6 kuma/landing/jinja2/landing/homepage.html:92 kuma/landing/jinja2/landing/react_homepage.html:78
-msgid "Learn Web Development"
-msgstr "ウェブ開発について学ぶ"
-
-# ユーザプロフィールの編集ページ
-#: jinja2/includes/footer/mdn-footer.html:7
-msgid "About MDN"
-msgstr "MDN について"
-
-# 各ページ, 2段目ヘッダ - Twitter リンク
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 kuma/users/forms.py:44 kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:145
-msgid "Twitter"
-msgstr "Twitter"
-
-#: jinja2/includes/footer/mdn-footer.html:16 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64 kuma/users/jinja2/users/includes/user_title_info.html:71
-#: kuma/users/models.py:141
-msgid "GitHub"
-msgstr "GitHub"
-
-#: jinja2/includes/footer/moz-footer.html:1
-msgid "Mozilla"
-msgstr "Mozilla"
-
-# ユーザプロフィールの編集ページ
-#: jinja2/includes/footer/moz-footer.html:5
-msgid "About"
-msgstr "このサイトについて"
-
-#: jinja2/includes/footer/moz-footer.html:6
-msgid "Contact Us"
-msgstr "問い合わせ"
-
-#: jinja2/includes/footer/moz-footer.html:15
-msgid "Instagram"
-msgstr "Instagram"
 
 #: jinja2/tidings/unsubscribe.html:2 jinja2/tidings/unsubscribe.html:12 jinja2/tidings/unsubscribe_error.html:2 jinja2/tidings/unsubscribe_success.html:2
 msgid "Unsubscribe"
@@ -1958,7 +1968,7 @@ msgstr "新しい MDN アカウントではじめる"
 
 # 92%
 # 100%
-#: kuma/users/views.py:614
+#: kuma/users/views.py:604
 msgid "Email address"
 msgstr "メールアドレス"
 
@@ -6165,9 +6175,6 @@ msgstr "Elasticsearch サーバー: %(backend)s"
 
 #~ msgid "%(subtitle)s | Demo Studio"
 #~ msgstr "%(subtitle)s | Demo Studio"
-
-#~ msgid "MDN"
-#~ msgstr "MDN"
 
 #~ msgid "Demo Studio"
 #~ msgstr "Demo Studio"

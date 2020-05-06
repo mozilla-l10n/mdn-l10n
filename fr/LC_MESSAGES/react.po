@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-30 17:15-0700\n"
+"POT-Creation-Date: 2020-05-06 07:21-0700\n"
 "PO-Revision-Date: 2020-04-25 10:52+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -226,8 +226,8 @@ msgstr "Disposez-vous de documents justificatifs ?"
 msgid ""
 "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
 msgstr ""
-"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite pour"
-" donner des exemples en situation de votre trouvaille."
+"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite "
+"pour donner des exemples en situation de votre trouvaille."
 
 #: kuma/javascript/src/bcd-signal.jsx:505
 msgid "Connection error:"
@@ -326,43 +326,47 @@ msgstr "Une erreur non gérée s’est produite dans l’application. Toutes nos
 msgid "MDN Web Docs"
 msgstr "Documentation du Web - MDN"
 
-#: kuma/javascript/src/footer.jsx:23
+#: kuma/javascript/src/footer.jsx:21
 msgid "Web Technologies"
 msgstr "Technologies web"
 
-#: kuma/javascript/src/footer.jsx:28
+#: kuma/javascript/src/footer.jsx:26
 msgid "Learn Web Development"
 msgstr "Apprendre le développement web"
 
-#: kuma/javascript/src/footer.jsx:33
+#: kuma/javascript/src/footer.jsx:31
 msgid "About MDN"
 msgstr "À propos de MDN"
 
-#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/pages/thank-you.jsx:89
+#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/pages/thank-you.jsx:89
 msgid "Feedback"
 msgstr "Votre avis"
 
-#: kuma/javascript/src/footer.jsx:54
-msgid "Mozilla"
-msgstr "Mozilla"
-
-#: kuma/javascript/src/footer.jsx:61
+#: kuma/javascript/src/footer.jsx:48
 msgid "About"
 msgstr "À propos"
 
-#: kuma/javascript/src/footer.jsx:66
+#: kuma/javascript/src/footer.jsx:57
 msgid "Contact Us"
 msgstr "Nous contacter"
 
-#: kuma/javascript/src/footer.jsx:89
+#: kuma/javascript/src/footer.jsx:72
+msgid "MDN"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:96
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: kuma/javascript/src/footer.jsx:135
 msgid "Terms"
 msgstr "Conditions d’utilisation"
 
-#: kuma/javascript/src/footer.jsx:94
+#: kuma/javascript/src/footer.jsx:144
 msgid "Privacy"
 msgstr "Confidentialité"
 
-#: kuma/javascript/src/footer.jsx:99
+#: kuma/javascript/src/footer.jsx:153
 msgid "Cookies"
 msgstr "Cookies"
 
@@ -630,7 +634,15 @@ msgstr ""
 msgid "Yes, cancel subscription"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/error-message.jsx:6
+#: kuma/javascript/src/payments/components/errors.jsx:15
+msgid "Sorry!"
+msgstr "Désolé !"
+
+#: kuma/javascript/src/payments/components/errors.jsx:18
+msgid "Try again"
+msgstr "Veuillez réessayer."
+
+#: kuma/javascript/src/payments/components/errors.jsx:28
 msgid "We're sorry, something went wrong. Please contact <emailLink />."
 msgstr ""
 
@@ -679,47 +691,39 @@ msgstr "magasin de produits dérivés MDN"
 msgid "Invitations to events"
 msgstr "Invitations à des évènements"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:242
+#: kuma/javascript/src/payments/components/subscription-form.jsx:209
 msgid "Sign in to support MDN. If you haven't already created an account, you will be prompted to do so after signing in."
 msgstr "Connectez-vous pour soutenir MDN. Si vous n’avez pas encore créé de compte, vous serez invité·e à le faire après votre première connexion."
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:259 kuma/javascript/src/payments/components/subscription-form.jsx:277
-msgid "Sorry!"
-msgstr "Désolé !"
-
-#: kuma/javascript/src/payments/components/subscription-form.jsx:261
+#: kuma/javascript/src/payments/components/subscription-form.jsx:228
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr "Une erreur s’est produite lors de la configuration de l’abonnement au serveur de Stripe. Nous avons pris note de l’erreur et allons chercher la solution."
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:270 kuma/javascript/src/payments/components/subscription-form.jsx:288
-msgid "Try again"
-msgstr "Veuillez réessayer."
-
-#: kuma/javascript/src/payments/components/subscription-form.jsx:279
+#: kuma/javascript/src/payments/components/subscription-form.jsx:237
 msgid "An error happened trying to load the Stripe integration"
 msgstr "Une erreur s’est produite lors de la tentative de chargement de l’intégration Stripe"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:310
+#: kuma/javascript/src/payments/components/subscription-form.jsx:261
 msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
 msgstr "En cliquant sur ce bouton, j’autorise Mozilla à débiter ce mode de paiement chaque mois, conformément aux <paymentTermsLink />, et ce jusqu’à ce que je mette fin à mon abonnement."
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:319
+#: kuma/javascript/src/payments/components/subscription-form.jsx:270
 msgid "Payment Terms"
 msgstr "Conditions de paiement"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:326
+#: kuma/javascript/src/payments/components/subscription-form.jsx:277
 msgid "Continue"
 msgstr "Continuer"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:331
+#: kuma/javascript/src/payments/components/subscription-form.jsx:282
 msgid "Payments are not tax deductible"
 msgstr "Les paiements ne sont pas déductibles des impôts"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:342
+#: kuma/javascript/src/payments/components/subscription-form.jsx:293
 msgid "$5 <perMontSub />"
 msgstr "5 $ <perMontSub />"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:343
+#: kuma/javascript/src/payments/components/subscription-form.jsx:294
 msgid "/mo"
 msgstr "/mois"
 
@@ -762,9 +766,9 @@ msgid ""
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
 "again)-- to accelerate those improvements."
 msgstr ""
-"Notre base d'utilisateurs croît exponentiellement depuis quelques années et nous avons une longue liste d’améliorations que nous aimerions mettre en œuvre. Bien que MDN soit actuellement entièrement"
-" financé par Mozilla, et ce depuis ses débuts, nous souhaitons à présent resserrer les liens entre notre public (vous), notre contenu (rédigé pour vous et parfois par vous) et nos contributeurs "
-"(encore vous) afin d’accélérer la réalisation de ces améliorations."
+"Notre base d'utilisateurs croît exponentiellement depuis quelques années et nous avons une longue liste d’améliorations que nous aimerions mettre en œuvre. Bien que MDN soit actuellement "
+"entièrement financé par Mozilla, et ce depuis ses débuts, nous souhaitons à présent resserrer les liens entre notre public (vous), notre contenu (rédigé pour vous et parfois par vous) et nos "
+"contributeurs (encore vous) afin d’accélérer la réalisation de ces améliorations."
 
 #: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
@@ -897,8 +901,8 @@ msgstr "la page de gestion d’abonnement mensuel"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Vous pouvez annuler votre abonnement mensuel à tout moment. Veuillez accéder à <subscriptionsLink /> pour annuler votre abonnement. Si vous choisissez d’annuler, nous ne débiterons pas votre carte "
 "de paiement pour les mois suivants. Pour toute autre question ou demande de renseignements, veuillez contacter <emailLink />."

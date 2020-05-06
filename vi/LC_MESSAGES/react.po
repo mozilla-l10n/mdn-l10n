@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-04-30 17:15-0700\n"
+"POT-Creation-Date: 2020-05-06 07:21-0700\n"
 "PO-Revision-Date: 2020-05-02 13:09+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -247,8 +247,8 @@ msgid ""
 "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
 "values to the developer community."
 msgstr ""
-"Mục tiêu của chúng tôi là cung cấp các giá trị thực, chính xác cho tất cả các bảng dữ liệu tương thích của chúng tôi. Thông báo MDN về dữ liệu không chính xác hoặc cung cấp dữ liệu mới đẩy chúng tôi"
-" tiến xa hơn tới mục tiêu cung cấp 100% giá trị thực cho cộng đồng nhà phát triển."
+"Mục tiêu của chúng tôi là cung cấp các giá trị thực, chính xác cho tất cả các bảng dữ liệu tương thích của chúng tôi. Thông báo MDN về dữ liệu không chính xác hoặc cung cấp dữ liệu mới đẩy chúng "
+"tôi tiến xa hơn tới mục tiêu cung cấp 100% giá trị thực cho cộng đồng nhà phát triển."
 
 #: kuma/javascript/src/bcd-signal.jsx:553
 msgid "Thank you for helping."
@@ -326,43 +326,47 @@ msgstr "Một lỗi chưa được xử lý đã xảy ra trong ứng dụng. Ch
 msgid "MDN Web Docs"
 msgstr "Tài liệu Web MDN"
 
-#: kuma/javascript/src/footer.jsx:23
+#: kuma/javascript/src/footer.jsx:21
 msgid "Web Technologies"
 msgstr "Công nghệ web"
 
-#: kuma/javascript/src/footer.jsx:28
+#: kuma/javascript/src/footer.jsx:26
 msgid "Learn Web Development"
 msgstr "Tìm hiểu phát triển web"
 
-#: kuma/javascript/src/footer.jsx:33
+#: kuma/javascript/src/footer.jsx:31
 msgid "About MDN"
 msgstr "Giới thiệu về MDN"
 
-#: kuma/javascript/src/footer.jsx:38 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/pages/thank-you.jsx:89
+#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:150 kuma/javascript/src/payments/pages/thank-you.jsx:89
 msgid "Feedback"
 msgstr "Phản hồi"
 
-#: kuma/javascript/src/footer.jsx:54
-msgid "Mozilla"
-msgstr "Mozilla"
-
-#: kuma/javascript/src/footer.jsx:61
+#: kuma/javascript/src/footer.jsx:48
 msgid "About"
 msgstr "Giới thiệu"
 
-#: kuma/javascript/src/footer.jsx:66
+#: kuma/javascript/src/footer.jsx:57
 msgid "Contact Us"
 msgstr "Liên hệ với chúng tôi"
 
-#: kuma/javascript/src/footer.jsx:89
+#: kuma/javascript/src/footer.jsx:72
+msgid "MDN"
+msgstr ""
+
+#: kuma/javascript/src/footer.jsx:96
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: kuma/javascript/src/footer.jsx:135
 msgid "Terms"
 msgstr "Điều khoản"
 
-#: kuma/javascript/src/footer.jsx:94
+#: kuma/javascript/src/footer.jsx:144
 msgid "Privacy"
 msgstr "Quyền riêng tư"
 
-#: kuma/javascript/src/footer.jsx:99
+#: kuma/javascript/src/footer.jsx:153
 msgid "Cookies"
 msgstr "Cookie"
 
@@ -626,7 +630,15 @@ msgstr ""
 msgid "Yes, cancel subscription"
 msgstr "Có, hủy đăng ký"
 
-#: kuma/javascript/src/payments/components/error-message.jsx:6
+#: kuma/javascript/src/payments/components/errors.jsx:15
+msgid "Sorry!"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/errors.jsx:18
+msgid "Try again"
+msgstr ""
+
+#: kuma/javascript/src/payments/components/errors.jsx:28
 msgid "We're sorry, something went wrong. Please contact <emailLink />."
 msgstr "Chúng tôi xin lỗi, có gì đó không ổn. Vui lòng liên hệ với <emailLink />."
 
@@ -675,47 +687,39 @@ msgstr ""
 msgid "Invitations to events"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:242
+#: kuma/javascript/src/payments/components/subscription-form.jsx:209
 msgid "Sign in to support MDN. If you haven't already created an account, you will be prompted to do so after signing in."
 msgstr ""
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:259 kuma/javascript/src/payments/components/subscription-form.jsx:277
-msgid "Sorry!"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/subscription-form.jsx:261
+#: kuma/javascript/src/payments/components/subscription-form.jsx:228
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
 msgstr ""
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:270 kuma/javascript/src/payments/components/subscription-form.jsx:288
-msgid "Try again"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/subscription-form.jsx:279
+#: kuma/javascript/src/payments/components/subscription-form.jsx:237
 msgid "An error happened trying to load the Stripe integration"
 msgstr ""
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:310
+#: kuma/javascript/src/payments/components/subscription-form.jsx:261
 msgid "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <paymentTermsLink />, until I cancel my subscription."
 msgstr "Bằng cách nhấp vào nút này, tôi ủy quyền cho Mozilla tính phí phương thức thanh toán này mỗi tháng, theo <paymentTermsLink />, cho đến khi tôi hủy đăng ký."
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:319
+#: kuma/javascript/src/payments/components/subscription-form.jsx:270
 msgid "Payment Terms"
 msgstr "Điều khoản thanh toán"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:326
+#: kuma/javascript/src/payments/components/subscription-form.jsx:277
 msgid "Continue"
 msgstr "Tiếp tục"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:331
+#: kuma/javascript/src/payments/components/subscription-form.jsx:282
 msgid "Payments are not tax deductible"
 msgstr "Thanh toán không được khấu trừ thuế"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:342
+#: kuma/javascript/src/payments/components/subscription-form.jsx:293
 msgid "$5 <perMontSub />"
 msgstr "$5 <perMontSub />"
 
-#: kuma/javascript/src/payments/components/subscription-form.jsx:343
+#: kuma/javascript/src/payments/components/subscription-form.jsx:294
 msgid "/mo"
 msgstr "/tháng"
 
@@ -758,8 +762,8 @@ msgid ""
 "again)-- to accelerate those improvements."
 msgstr ""
 "Cơ sở người dùng của chúng tôi đã tăng theo cấp số nhân trong vài năm qua và chúng tôi có một danh sách lớn các cải tiến mà chúng tôi muốn thực hiện. Mặc dù MDN hiện được Mozilla tài trợ hoàn toàn "
-"và đã có từ đầu, chúng tôi muốn tạo mối quan hệ hợp tác chặt chẽ hơn giữa khán giả của chúng tôi (đó là bạn!), Nội dung của chúng tôi (được viết cho bạn và đôi khi bởi bạn) và những người ủng hộ của"
-" chúng tôi (cũng là bạn, một lần nữa)-- để tăng tốc những cải tiến đó."
+"và đã có từ đầu, chúng tôi muốn tạo mối quan hệ hợp tác chặt chẽ hơn giữa khán giả của chúng tôi (đó là bạn!), Nội dung của chúng tôi (được viết cho bạn và đôi khi bởi bạn) và những người ủng hộ "
+"của chúng tôi (cũng là bạn, một lần nữa)-- để tăng tốc những cải tiến đó."
 
 #: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
@@ -785,9 +789,9 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"<mozillaLink /> và MDN là các tổ chức và chương trình riêng biệt. Quyên góp cho Mozilla Foundation là <taxLink /> trong phạm vi tối đa được pháp luật cho phép và để hỗ trợ các chương trình công cộng"
-" và từ thiện của Mozilla trong một quỹ chung. MDN là một phần của <mocoLink /> và các khoản thanh toán cho MDN không được sử dụng trong các chương trình từ thiện của Mozilla, nhưng được tái đầu tư "
-"vào nội dung, công cụ và nền tảng của MDN."
+"<mozillaLink /> và MDN là các tổ chức và chương trình riêng biệt. Quyên góp cho Mozilla Foundation là <taxLink /> trong phạm vi tối đa được pháp luật cho phép và để hỗ trợ các chương trình công "
+"cộng và từ thiện của Mozilla trong một quỹ chung. MDN là một phần của <mocoLink /> và các khoản thanh toán cho MDN không được sử dụng trong các chương trình từ thiện của Mozilla, nhưng được tái đầu "
+"tư vào nội dung, công cụ và nền tảng của MDN."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
 msgid "Mozilla Foundation"
@@ -861,8 +865,8 @@ msgid ""
 "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
 "revenues publicly every trailing year, as in our most recent <annualReportLink />."
 msgstr ""
-"Một cách riêng biệt, Mozilla Foundation là một tổ chức phi lợi nhuận, kiếm tiền chủ yếu từ các khoản đóng góp và tiền bản quyền từ Tập đoàn Mozilla. Là một tổ chức phi lợi nhuận, Tổ chức Mozilla báo"
-" cáo công khai các khoản thu này mỗi năm, như trong <annualReportLink />."
+"Một cách riêng biệt, Mozilla Foundation là một tổ chức phi lợi nhuận, kiếm tiền chủ yếu từ các khoản đóng góp và tiền bản quyền từ Tập đoàn Mozilla. Là một tổ chức phi lợi nhuận, Tổ chức Mozilla "
+"báo cáo công khai các khoản thu này mỗi năm, như trong <annualReportLink />."
 
 #: kuma/javascript/src/payments/pages/index.jsx:239
 msgid "2018 Mozilla Annual Report"
@@ -886,11 +890,11 @@ msgstr "quản lý trang đăng ký hàng tháng"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
-"Bạn có thể hủy đăng ký hàng tháng của bạn bất cứ lúc nào. Vui lòng truy cập <subscriptionsLink /> để hủy đăng ký của bạn. Nếu bạn chọn hủy, chúng tôi sẽ không tính phí thẻ thanh toán của bạn cho các"
-" tháng tiếp theo. Đối với bất kỳ câu hỏi hoặc thắc mắc nào khác, vui lòng <emailLink />."
+"Bạn có thể hủy đăng ký hàng tháng của bạn bất cứ lúc nào. Vui lòng truy cập <subscriptionsLink /> để hủy đăng ký của bạn. Nếu bạn chọn hủy, chúng tôi sẽ không tính phí thẻ thanh toán của bạn cho "
+"các tháng tiếp theo. Đối với bất kỳ câu hỏi hoặc thắc mắc nào khác, vui lòng <emailLink />."
 
 #: kuma/javascript/src/payments/pages/index.jsx:304
 msgid "contact support"
