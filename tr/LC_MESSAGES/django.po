@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-05-06 07:20-0700\n"
-"PO-Revision-Date: 2020-05-06 17:53+0000\n"
-"Last-Translator: Gürkan <gurkan_gullu@outlook.com>\n"
+"PO-Revision-Date: 2020-05-08 14:25+0000\n"
+"Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: Turkish https://pontoon.mozilla.org/tr/\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -658,11 +658,11 @@ msgstr "Çöpe atılan ek dosyası"
 
 #: kuma/attachments/models.py:262
 msgid "The date and time the attachment was trashed"
-msgstr ""
+msgstr "Ekin çöpe atıldığı tarih ve saat"
 
 #: kuma/attachments/models.py:267
 msgid "The username of the user who trashed the attachment"
-msgstr ""
+msgstr "Eki çöpe atan kullanıcının kullanıcı adı"
 
 #: kuma/attachments/models.py:272
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
@@ -670,11 +670,11 @@ msgstr ""
 
 #: kuma/attachments/models.py:279
 msgid "Trashed attachment"
-msgstr ""
+msgstr "Çöpe atılan ek"
 
 #: kuma/attachments/models.py:280
 msgid "Trashed attachments"
-msgstr ""
+msgstr "Çöpe atılan ekler"
 
 #. 'title' is the title of the document.
 #: kuma/attachments/jinja2/attachments/edit_attachment.html:3
@@ -776,7 +776,7 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:7 kuma/authkeys/jinja2/authkeys/history.html:8 kuma/authkeys/jinja2/authkeys/new.html:34
 msgid "Created"
-msgstr ""
+msgstr "Oluşturma"
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
@@ -941,7 +941,7 @@ msgstr "Bitiş tarihi:"
 
 #: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:50
 msgid "Preceding Period:"
-msgstr ""
+msgstr "Önceki dönem:"
 
 #: kuma/dashboards/forms.py:52
 msgid "Authors"
@@ -982,7 +982,7 @@ msgstr "Hatalı belgeler"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
 msgid "Documents with no parent"
-msgstr ""
+msgstr "Üst öğesi olmayan belgeler"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
 msgid "Revision Dashboard"
@@ -990,7 +990,7 @@ msgstr "Revizyon panosu"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:21 kuma/wiki/jinja2/wiki/list/documents.html:8
 msgid "Top level documents"
-msgstr ""
+msgstr "Üst düzey belgeler"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:22
 msgid "Server charts"
@@ -998,7 +998,7 @@ msgstr "Sunucu çizelgeleri"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
 msgid "Spam Dashboard"
-msgstr ""
+msgstr "Spam Panosu"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
 #, python-format
@@ -1086,7 +1086,7 @@ msgstr "yeni"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:38 kuma/users/jinja2/users/includes/user_revision_history_form.html:25
 msgid "deleted"
-msgstr ""
+msgstr "silindi"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:54
 msgid "IP:"
@@ -1102,22 +1102,22 @@ msgstr "Kullanıcı istemcisi:"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:61
 msgid "Referrer:"
-msgstr ""
+msgstr "Öneren:"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:116
 #, python-format
 msgid "banned %(ban_date)s by %(user)s"
-msgstr ""
+msgstr "%(user)s tarafından %(ban_date)s tarihinde engellendi"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:82
 #, python-format
 msgid "Submitted as %(submission_type)s"
-msgstr ""
+msgstr "%(submission_type)s olarak gönderildi"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:85
 #, python-format
 msgid "%(sent_date)s by %(user)s"
-msgstr ""
+msgstr "%(user)s tarafından %(sent_date)s tarihinde gönderildi"
 
 #: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:92
 msgid "Submit as:"
@@ -1241,15 +1241,15 @@ msgstr ""
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:26
 msgid "While in maintenance mode, the following actions are unavailable:"
-msgstr ""
+msgstr "Bakım modundayken aşağıdaki işlemler yapılamaz:"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:32
 msgid "editing articles"
-msgstr ""
+msgstr "makaleleri düzenleme"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:33
 msgid "creating accounts"
-msgstr ""
+msgstr "hesap açma"
 
 #: kuma/landing/jinja2/landing/maintenance-mode.html:34
 msgid "logging in"
@@ -1599,7 +1599,7 @@ msgstr ""
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"
-msgstr ""
+msgstr "Arama kullanılamıyor"
 
 #. Search MDN Web Docs
 #: kuma/search/jinja2/search/plugin.html:5
@@ -1822,7 +1822,7 @@ msgstr ""
 #: kuma/users/models.py:45
 #, python-format
 msgid "%s (no longer active)"
-msgstr ""
+msgstr "%s (artık etkin değil)"
 
 #: kuma/users/models.py:68
 msgid "Language"
@@ -1920,7 +1920,7 @@ msgstr "Kabul ediyorum"
 
 #: kuma/users/signup.py:34
 msgid "I would like to make my GitHub profile URL public"
-msgstr ""
+msgstr "GitHub profil  adresimi herkese açık hale getirmek istiyorum"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:56
 msgid "Getting started with your new MDN account"
@@ -1949,7 +1949,7 @@ msgstr ""
 
 #: kuma/users/jinja2/account/email.html:15
 msgid "You've also added the following email addresses:"
-msgstr ""
+msgstr "Aşağıdaki e-posta adreslerini de eklediniz:"
 
 #: kuma/users/jinja2/account/email.html:28
 msgid "Make Primary"
@@ -2149,7 +2149,7 @@ msgstr ""
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
 msgid "Login Cancelled"
-msgstr ""
+msgstr "Giriş iptal edildi"
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:9
 #, python-format
@@ -2162,7 +2162,7 @@ msgstr "MDN hesabının avantajları"
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:32
 msgid "Be the first to try new features coming to MDN"
-msgstr ""
+msgstr "MDN'e gelen yeni özellikleri ilk deneyen siz olun"
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:33
 msgid "Help contribute to the continued improvement of MDN’s content"
@@ -2220,7 +2220,7 @@ msgstr "GitHub ile giriş yapıldı"
 
 #: kuma/users/jinja2/socialaccount/snippets/provider_list.html:20
 msgid "Connect with GitHub"
-msgstr ""
+msgstr "GitHub ile bağlan"
 
 #: kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
 msgid "Sign in with GitHub"
@@ -2229,7 +2229,7 @@ msgstr "GitHub ile giriş yap"
 #: kuma/users/jinja2/users/ban_user.html:7 kuma/users/jinja2/users/ban_user_and_cleanup.html:7 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:7
 #, python-format
 msgid "Ban %(user)s"
-msgstr ""
+msgstr "%(user)s kullanıcısını engelle"
 
 #: kuma/users/jinja2/users/ban_user.html:22
 #, python-format
@@ -2256,7 +2256,7 @@ msgstr ""
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:26
 #, python-format
 msgid "<a href=\"%(url)s\">%(user)s</a> has been banned."
-msgstr ""
+msgstr "<a href=\"%(url)s\">%(user)s</a> engellendi."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:29
 #, python-format
@@ -2281,7 +2281,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:58
 msgid "Ban user for other reasons."
-msgstr ""
+msgstr "Başka nedenlerle kullanıcıyı engelle."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:61
 msgid "User has not made any revisions to be reverted in the past three days, and this user was already banned."
@@ -2309,7 +2309,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:48
 msgid "Deleted:"
-msgstr ""
+msgstr "Silindi:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:61
 msgid "The user did not have any revisions that were deleted."
@@ -2386,11 +2386,11 @@ msgstr ""
 
 #: kuma/users/jinja2/users/recover_done.html:12
 msgid "Use the button below to connect your MDN profile to GitHub."
-msgstr ""
+msgstr "MDN profilinizi GitHub'a bağlamak için aşağıdaki düğmeyi kullanın."
 
 #: kuma/users/jinja2/users/recover_done.html:18
 msgid "This account recovery link cannot be used to log in again."
-msgstr ""
+msgstr "Bu hesap kurtarma bağlantısı tekrar giriş yapmak için kullanılamaz."
 
 #: kuma/users/jinja2/users/recover_failed.html:3
 msgid "Account Recovery Failed"
@@ -2410,7 +2410,7 @@ msgstr "Mevcut hesabınızı kurtarmak için e-postadaki bağlantıyı tıklayı
 
 #: kuma/users/jinja2/users/user_banned.html:2
 msgid "You've Been Banned"
-msgstr ""
+msgstr "Engellendiniz"
 
 #: kuma/users/jinja2/users/user_banned.html:20
 msgid "You have been banned for the following reasons:"
@@ -2513,17 +2513,17 @@ msgstr "Aylık aboneliği düzenle"
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
 msgid "Amount paid: %(cost)s"
-msgstr ""
+msgstr "Ödenen tutar: %(cost)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
 #, python-format
 msgid "Payment method: %(credit_card_brand)s"
-msgstr ""
+msgstr "Ödeme yöntemi: %(credit_card_brand)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
 #, python-format
 msgid "Invoice number: %(invoice_number)s"
-msgstr ""
+msgstr "Fatura numarası: %(invoice_number)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
 #, python-format
@@ -2703,7 +2703,7 @@ msgstr "Evet, hesabımı sil"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
 msgid "Delete your account?"
-msgstr ""
+msgstr "Hesabınız silinsin mi?"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:19
 msgid "Stripe error"
@@ -2810,7 +2810,7 @@ msgstr ""
 
 #: kuma/users/templatetags/jinja_helpers.py:58
 msgid "Banned"
-msgstr ""
+msgstr "Engellendi"
 
 #: kuma/users/templatetags/jinja_helpers.py:63
 msgid "Clean Up Revisions"
@@ -2818,7 +2818,7 @@ msgstr ""
 
 #: kuma/users/templatetags/jinja_helpers.py:70
 msgid "Ban User"
-msgstr ""
+msgstr "Kullanıcıyı engelle"
 
 #: kuma/users/templatetags/jinja_helpers.py:75
 msgid "Ban User & Clean Up"
@@ -2898,7 +2898,7 @@ msgstr ""
 
 #: kuma/wiki/feeds.py:241
 msgid "MDN documents for review"
-msgstr ""
+msgstr "İncelenecek MDN belgeleri"
 
 #: kuma/wiki/feeds.py:270
 #, python-format
@@ -3030,7 +3030,7 @@ msgstr ""
 
 #: kuma/wiki/forms.py:394 kuma/wiki/forms.py:479
 msgid "Article URL"
-msgstr ""
+msgstr "Makale adresi"
 
 #: kuma/wiki/forms.py:403 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
 msgid "Parent:"
@@ -3046,15 +3046,15 @@ msgstr "Anahtar kelimeler:"
 
 #: kuma/wiki/forms.py:495
 msgid "Affects search results"
-msgstr ""
+msgstr "Arama sonuçlarını etkiler"
 
 #: kuma/wiki/forms.py:503
 msgid "Search result summary:"
-msgstr ""
+msgstr "Arama sonucu özeti:"
 
 #: kuma/wiki/forms.py:504
 msgid "Only displayed on search results page"
-msgstr ""
+msgstr "Yalnızca arama sonuçları sayfasında görüntülenir"
 
 #: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
@@ -3136,15 +3136,15 @@ msgstr ""
 
 #: kuma/wiki/models.py:1677
 msgid "H2 and higher"
-msgstr ""
+msgstr "H2 ve üstü"
 
 #: kuma/wiki/models.py:1678
 msgid "H3 and higher"
-msgstr ""
+msgstr "H3 ve üstü"
 
 #: kuma/wiki/models.py:1679
 msgid "H4 and higher"
-msgstr ""
+msgstr "H4 ve üstü"
 
 #: kuma/wiki/models.py:1790
 #, python-format
@@ -3185,7 +3185,7 @@ msgstr "Belge (isteğe bağlı)"
 
 #: kuma/wiki/models.py:2023
 msgid "reviewed"
-msgstr ""
+msgstr "incelendi"
 
 #: kuma/wiki/models.py:2031
 msgid "Needs Review"
@@ -3217,7 +3217,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/403-create-page.html:3
 msgid "You're trying to create a new page."
-msgstr ""
+msgstr "Yeni bir sayfa oluşturmaya çalışıyorsunuz."
 
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
@@ -3240,7 +3240,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:12
 msgid "Compare Revisions"
-msgstr ""
+msgstr "Revizyonları karşılaştır"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:17
 msgid "Back to History"
@@ -3265,7 +3265,7 @@ msgstr "Oluşturan"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:29
 msgid "Creation Date"
-msgstr ""
+msgstr "Oluşturma tarihi:"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:32
 msgid "Last Change By"
@@ -3295,7 +3295,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:14 kuma/wiki/jinja2/wiki/deletion_log.html:15
 msgid "Reason for Deletion"
-msgstr ""
+msgstr "Silme nedeni"
 
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:18
 msgid "This document was deleted, for unknown reasons."
@@ -3655,7 +3655,7 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/select_locale.html:2
 #, python-format
 msgid "Select language | %(document)s"
-msgstr ""
+msgstr "Dil seçin | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/select_locale.html:9
 msgid "Select a language to translate to:"
@@ -3669,7 +3669,7 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/translate.html:27
 #, python-format
 msgid "Translating article to %(locale)s"
-msgstr ""
+msgstr "Makale %(locale)s diline çevriliyor"
 
 #: kuma/wiki/jinja2/wiki/translate.html:36
 #, python-format
@@ -3842,7 +3842,7 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:37 kuma/wiki/jinja2/wiki/includes/document_macros.html:52
 #, python-format
 msgid "Revision %(num)s:"
-msgstr ""
+msgstr "Revizyon %(num)s:"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:89 kuma/wiki/jinja2/wiki/includes/revision_diff_table.html:8
 msgid "The server is rendering the content comparison. Please refresh this page in a few minutes."
@@ -3870,11 +3870,11 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:119
 msgid "Subscribe to this article"
-msgstr ""
+msgstr "Bu makaleye abone ol"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:120
 msgid "Unsubscribe from this article"
-msgstr ""
+msgstr "Bu makalenin aboneliğinden çık"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:122
 #, python-format
@@ -3908,7 +3908,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/document_toc_field.html:2 kuma/wiki/jinja2/wiki/includes/translate_description.html:49
 msgid "Generate table of contents"
-msgstr ""
+msgstr "İçindekiler tablosu oluştur"
 
 #: kuma/wiki/jinja2/wiki/includes/document_toc_field.html:2 kuma/wiki/jinja2/wiki/includes/translate_description.html:49
 msgid "TOC:"
@@ -3973,7 +3973,7 @@ msgstr "Belgeyi düzenle"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:59
 msgid "Full text of error:"
-msgstr ""
+msgstr "Tam hata metni:"
 
 #: kuma/wiki/jinja2/wiki/includes/page_buttons.html:16
 msgid "New Page"
