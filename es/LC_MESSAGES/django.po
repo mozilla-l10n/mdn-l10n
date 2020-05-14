@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-06 07:20-0700\n"
+"POT-Creation-Date: 2020-05-14 12:22-0700\n"
 "PO-Revision-Date: 2019-12-22 18:58+0000\n"
 "Last-Translator: avelper <avelper@mozilla-hispano.org>\n"
 "Language-Team: Spanish https://pontoon.mozilla.org/es/\n"
@@ -123,33 +123,33 @@ msgstr "Puede que te interesen otras formas de <a href=\"%(content_url)s\">desca
 msgid "Internal Server Error"
 msgstr "Error interno del servidor"
 
-#: jinja2/base.html:10 jinja2/base.html:46 jinja2/base.html:51 jinja2/base.html:91 jinja2/includes/footer/mdn-footer.html:1 jinja2/react_base.html:10 jinja2/react_base.html:41
+#: jinja2/base.html:10 jinja2/base.html:42 jinja2/base.html:47 jinja2/base.html:87 jinja2/includes/footer/mdn-footer.html:1 jinja2/react_base.html:10 jinja2/react_base.html:41
 #: jinja2/react_base.html:46 jinja2/react_base.html:94 kuma/search/jinja2/search/plugin.html:3 kuma/users/jinja2/socialaccount/base_signup.html:44 kuma/users/jinja2/socialaccount/base_signup.html:50
 #: kuma/wiki/jinja2/wiki/react_document.html:42 kuma/wiki/jinja2/wiki/react_document.html:47
 msgid "MDN Web Docs"
 msgstr "Documentación web de MDN"
 
-#: jinja2/base.html:77 jinja2/react_base.html:74 kuma/users/jinja2/socialaccount/base_signup.html:70
+#: jinja2/base.html:73 jinja2/react_base.html:74 kuma/users/jinja2/socialaccount/base_signup.html:70
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN se encuentra ahora mismo en el modo de mantenimiento y solo lectura."
 
-#: jinja2/base.html:78
+#: jinja2/base.html:74
 msgid "Learn more"
 msgstr "Saber más"
 
-#: jinja2/base.html:119 jinja2/react_base.html:152 kuma/users/jinja2/socialaccount/base_signup.html:101
+#: jinja2/base.html:115 jinja2/react_base.html:152 kuma/users/jinja2/socialaccount/base_signup.html:101
 msgid "Terms"
 msgstr "Condiciones"
 
-#: jinja2/base.html:120 jinja2/react_base.html:155 kuma/users/jinja2/socialaccount/base_signup.html:102
+#: jinja2/base.html:116 jinja2/react_base.html:155 kuma/users/jinja2/socialaccount/base_signup.html:102
 msgid "Privacy"
 msgstr "Privacidad"
 
-#: jinja2/base.html:121 jinja2/react_base.html:157 kuma/users/jinja2/socialaccount/base_signup.html:103
+#: jinja2/base.html:117 jinja2/react_base.html:157 kuma/users/jinja2/socialaccount/base_signup.html:103
 msgid "Cookies"
 msgstr "Cookies"
 
-#: jinja2/base.html:125 kuma/users/jinja2/socialaccount/base_signup.html:107
+#: jinja2/base.html:121 kuma/users/jinja2/socialaccount/base_signup.html:107
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla y colaboradores individuales.</p> <p>El contenido está disponible bajo <a href=\"%(copyright_url)s\">estas licencias</a>.</p>"
@@ -1839,24 +1839,24 @@ msgstr "Facebook"
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:157
+#: kuma/users/forms.py:159
 msgid "This field cannot be blank."
 msgstr "Esta campo no puede quedar en blanco."
 
-#: kuma/users/forms.py:165
+#: kuma/users/forms.py:167
 msgid "Username already in use."
 msgstr "Ya existe el nombre de usuario."
 
-#: kuma/users/forms.py:176
+#: kuma/users/forms.py:178
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: kuma/users/forms.py:212
+#: kuma/users/forms.py:214
 #, fuzzy, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
 
-#: kuma/users/forms.py:215
+#: kuma/users/forms.py:217
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Cambiar todas las colaboraciones de la página de cambios a \"Anónimo\" y eliminar mi cuenta."
@@ -2251,20 +2251,20 @@ msgstr ""
 "Esta será la dirección de correo a la que enviaremos los mensajes relacionados con MDN Web Docs. La dirección <strong>no</strong> aparecerá en MDN Web Docs y la utilizaremos siguiendo las pautas de "
 "nuestra <a href=\"%(privacy_url)s\">política de privacidad</a>."
 
-#: kuma/users/jinja2/socialaccount/signup.html:98
-msgid "Get updates on what’s new with MDN to your inbox."
-msgstr "Obtén actualizaciones sobre las novedades de MDN en tu bandeja de entrada."
-
-#: kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:101
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "según los <a href=\"%(terms_url)s\">Términos</a> y <a href=\"%(privacy_url)s\">aviso de privacidad</a> de Mozilla."
 
-#: kuma/users/jinja2/socialaccount/signup.html:115
+#: kuma/users/jinja2/socialaccount/signup.html:111 kuma/users/jinja2/users/user_edit.html:70
+msgid "Get exclusive content, offers and invitations to your inbox"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:116
 msgid "Create profile"
 msgstr "Crear perfil"
 
-#: kuma/users/jinja2/socialaccount/signup.html:120
+#: kuma/users/jinja2/socialaccount/signup.html:121
 #, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "¿Tienes problemas para crear una cuenta? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Deja que te ayudemos</a>."
@@ -2476,7 +2476,7 @@ msgstr "Has sido prohibido por las siguientes razones:"
 msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click here</a> to appeal this ban.</p>"
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Haz clic aquí</a> para recurrir esta prohibición.</p>"
 
-#: kuma/users/jinja2/users/user_delete.html:11 kuma/users/jinja2/users/user_edit.html:130
+#: kuma/users/jinja2/users/user_delete.html:11
 msgid "Delete your account"
 msgstr "Eliminar cuenta"
 
@@ -2543,23 +2543,28 @@ msgstr "Correo principal"
 msgid "Edit email"
 msgstr "Editar correo electrónico"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:85
 msgid "Subscriptions"
 msgstr "Suscripciones"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:85
 msgid "Edit monthly subscription"
 msgstr "Editar suscripción mensual"
 
-#: kuma/users/jinja2/users/user_edit.html:80
+#: kuma/users/jinja2/users/user_edit.html:89
 msgid "My Profiles"
 msgstr "Mis perfiles"
 
-#: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
-msgid "Publish"
-msgstr "Publicar"
+#: kuma/users/jinja2/users/user_edit.html:132 kuma/wiki/jinja2/wiki/includes/approvals.html:31
+msgid "Save"
+msgstr "Guardar"
 
-#: kuma/users/jinja2/users/user_edit.html:143
+#: kuma/users/jinja2/users/user_edit.html:138
+#, fuzzy
+msgid "Delete account"
+msgstr "Eliminar mi cuenta"
+
+#: kuma/users/jinja2/users/user_edit.html:151
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Gestionar las subscripciones al boletín de Mozilla."
 
@@ -3891,10 +3896,6 @@ msgstr "Técnico - ejemplos de código, API o tecnologías. <a href=\"%(url)s\">
 msgid "Editorial - prose, grammar, or content. <a href=\"%(url)s\">Can you help?</a>"
 msgstr "Editorial: prosa, gramática o contenido. <a href=\"%(url)s\">¿Nos ayudas?</a>"
 
-#: kuma/wiki/jinja2/wiki/includes/approvals.html:31
-msgid "Save"
-msgstr "Guardar"
-
 # 88%
 # 100%
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:24
@@ -4102,6 +4103,10 @@ msgstr "¿Descartar los cambios y crear un nuevo documento?"
 #: kuma/wiki/jinja2/wiki/includes/page_buttons.html:26
 msgid "Publish and Keep Editing"
 msgstr "Publicar y continuar editando"
+
+#: kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+msgid "Publish"
+msgstr "Publicar"
 
 #: kuma/wiki/jinja2/wiki/includes/page_buttons.html:45
 msgid "Discard"
@@ -4331,17 +4336,17 @@ msgstr "Redirigido desde %(url)s"
 msgid "I learned about %(title)s on MDN."
 msgstr "Aprendí sobre %(title)s en MDN."
 
-#: kuma/wiki/views/document.py:1054
+#: kuma/wiki/views/document.py:1135
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "Content-type no admitido: %s"
 
-#: kuma/wiki/views/document.py:1060
+#: kuma/wiki/views/document.py:1141
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "Error al procesar la solicitud: %s"
 
-#: kuma/wiki/views/document.py:1083
+#: kuma/wiki/views/document.py:1164
 msgid "ETag precondition failed"
 msgstr "Condición previa ETag fallida"
 
@@ -4365,6 +4370,9 @@ msgstr "No puedes traducir este documento."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Servidor de Elasticsearch: %(backend)s"
+
+#~ msgid "Get updates on what’s new with MDN to your inbox."
+#~ msgstr "Obtén actualizaciones sobre las novedades de MDN en tu bandeja de entrada."
 
 #~ msgid "MDN subscription management"
 #~ msgstr "Gestión de suscripciones MDN"
@@ -4586,10 +4594,6 @@ msgstr "Servidor de Elasticsearch: %(backend)s"
 
 #~ msgid "When you request to delete your account we will also cancel your subscription and not charge you for subsequent months."
 #~ msgstr "Cuando quieras eliminar tu cuenta, también se cancelará tu suscripción y no te cobraremos los meses siguientes."
-
-#, fuzzy
-#~ msgid "Delete Account."
-#~ msgstr "Eliminar mi cuenta"
 
 #~ msgid "Indexing %(total)d documents into %(total_chunks)d chunks of size %(size)d into index %(index)s.total"
 #~ msgstr "Indexando %(total)d documentos en %(total_chunks)d fragmentos de tamaño %(size)d en el índice %(index)s."

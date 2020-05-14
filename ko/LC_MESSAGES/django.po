@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-06 07:20-0700\n"
+"POT-Creation-Date: 2020-05-14 12:22-0700\n"
 "PO-Revision-Date: 2020-02-29 02:15+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -125,33 +125,33 @@ msgstr "<a href=\"%(content_url)s\">MDN Web Docs 콘텐츠</a>를 다운로드�
 msgid "Internal Server Error"
 msgstr "내부 서버 오류"
 
-#: jinja2/base.html:10 jinja2/base.html:46 jinja2/base.html:51 jinja2/base.html:91 jinja2/includes/footer/mdn-footer.html:1 jinja2/react_base.html:10 jinja2/react_base.html:41
+#: jinja2/base.html:10 jinja2/base.html:42 jinja2/base.html:47 jinja2/base.html:87 jinja2/includes/footer/mdn-footer.html:1 jinja2/react_base.html:10 jinja2/react_base.html:41
 #: jinja2/react_base.html:46 jinja2/react_base.html:94 kuma/search/jinja2/search/plugin.html:3 kuma/users/jinja2/socialaccount/base_signup.html:44 kuma/users/jinja2/socialaccount/base_signup.html:50
 #: kuma/wiki/jinja2/wiki/react_document.html:42 kuma/wiki/jinja2/wiki/react_document.html:47
 msgid "MDN Web Docs"
 msgstr "MDN 웹 문서"
 
-#: jinja2/base.html:77 jinja2/react_base.html:74 kuma/users/jinja2/socialaccount/base_signup.html:70
+#: jinja2/base.html:73 jinja2/react_base.html:74 kuma/users/jinja2/socialaccount/base_signup.html:70
 msgid "MDN is currently in read-only maintenance mode."
 msgstr "MDN은 현재 보수 작업 중으로 읽기-전용으로만 사용하실 수 있습니다."
 
-#: jinja2/base.html:78
+#: jinja2/base.html:74
 msgid "Learn more"
 msgstr "더 알아보기"
 
-#: jinja2/base.html:119 jinja2/react_base.html:152 kuma/users/jinja2/socialaccount/base_signup.html:101
+#: jinja2/base.html:115 jinja2/react_base.html:152 kuma/users/jinja2/socialaccount/base_signup.html:101
 msgid "Terms"
 msgstr "이용약관"
 
-#: jinja2/base.html:120 jinja2/react_base.html:155 kuma/users/jinja2/socialaccount/base_signup.html:102
+#: jinja2/base.html:116 jinja2/react_base.html:155 kuma/users/jinja2/socialaccount/base_signup.html:102
 msgid "Privacy"
 msgstr "개인 정보 보호"
 
-#: jinja2/base.html:121 jinja2/react_base.html:157 kuma/users/jinja2/socialaccount/base_signup.html:103
+#: jinja2/base.html:117 jinja2/react_base.html:157 kuma/users/jinja2/socialaccount/base_signup.html:103
 msgid "Cookies"
 msgstr "쿠키"
 
-#: jinja2/base.html:125 kuma/users/jinja2/socialaccount/base_signup.html:107
+#: jinja2/base.html:121 kuma/users/jinja2/socialaccount/base_signup.html:107
 #, python-format
 msgid "<p>&copy; 2005-%(thisyear)s Mozilla and individual contributors.</p> <p>Content is available under <a href=\"%(copyright_url)s\">these licenses</a>.</p>"
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla와 개별 공헌자에게 있습니다.</p> <p> 콘텐츠는 <a href=\"%(copyright_url)s\">이 라이센스</a> 아래 이용할 수 있습니다.</p>"
@@ -1842,24 +1842,24 @@ msgstr "페이스북"
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:157
+#: kuma/users/forms.py:159
 msgid "This field cannot be blank."
 msgstr "항목을 채워야 합니다."
 
-#: kuma/users/forms.py:165
+#: kuma/users/forms.py:167
 msgid "Username already in use."
 msgstr "이미 사용 중인 사용자 이름입니다."
 
-#: kuma/users/forms.py:176
+#: kuma/users/forms.py:178
 msgid "Email"
 msgstr "메일 주소"
 
-#: kuma/users/forms.py:212
+#: kuma/users/forms.py:214
 #, fuzzy, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
 
-#: kuma/users/forms.py:215
+#: kuma/users/forms.py:217
 #, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
@@ -2258,21 +2258,21 @@ msgid ""
 msgstr ""
 "MDN 관련 메시지와 알림을 보내는 데 어떤 이메일 주소를 사용해야 합니까? 이 주소는 MDN 상에 표시되지 <strong>않</strong>으며 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>에 따라 사용됩니다."
 
-#: kuma/users/jinja2/socialaccount/signup.html:98
-msgid "Get updates on what’s new with MDN to your inbox."
-msgstr ""
-
-#: kuma/users/jinja2/socialaccount/signup.html:108
+#: kuma/users/jinja2/socialaccount/signup.html:101
 #, python-format
 msgid "to Mozilla's <a href=\"%(terms_url)s\">Terms</a> and <a href=\"%(privacy_url)s\">Privacy Notice</a>."
 msgstr "Mozilla의 <a href=\"%(terms_url)s\">이용 약관</a>과 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>을 확인하세요."
 
-#: kuma/users/jinja2/socialaccount/signup.html:115
+#: kuma/users/jinja2/socialaccount/signup.html:111 kuma/users/jinja2/users/user_edit.html:70
+msgid "Get exclusive content, offers and invitations to your inbox"
+msgstr ""
+
+#: kuma/users/jinja2/socialaccount/signup.html:116
 #, fuzzy
 msgid "Create profile"
 msgstr "MDN 프로필 만들기"
 
-#: kuma/users/jinja2/socialaccount/signup.html:120
+#: kuma/users/jinja2/socialaccount/signup.html:121
 #, fuzzy, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
 msgstr "로그인이나 MDN 프로필 생성에 <strong>문제가 있다</strong>면, <strong><a href=\"%(bug_href)s\" rel=\"external\">알려주세요</a></strong>."
@@ -2485,7 +2485,7 @@ msgstr "아래 이유로 계정을 차단합니다."
 msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click here</a> to appeal this ban.</p>"
 msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">차단 해제 요청</a> (영문 작성 필요)</p>"
 
-#: kuma/users/jinja2/users/user_delete.html:11 kuma/users/jinja2/users/user_edit.html:130
+#: kuma/users/jinja2/users/user_delete.html:11
 #, fuzzy
 msgid "Delete your account"
 msgstr "계정을 삭제합니다."
@@ -2551,23 +2551,28 @@ msgstr "기본 이메일"
 msgid "Edit email"
 msgstr "이메일 편집"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:85
 msgid "Subscriptions"
 msgstr "구독"
 
-#: kuma/users/jinja2/users/user_edit.html:76
+#: kuma/users/jinja2/users/user_edit.html:85
 msgid "Edit monthly subscription"
 msgstr "월간 구독 수정"
 
-#: kuma/users/jinja2/users/user_edit.html:80
+#: kuma/users/jinja2/users/user_edit.html:89
 msgid "My Profiles"
 msgstr "내 프로필"
 
-#: kuma/users/jinja2/users/user_edit.html:124 kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
-msgid "Publish"
-msgstr "게시"
+#: kuma/users/jinja2/users/user_edit.html:132 kuma/wiki/jinja2/wiki/includes/approvals.html:31
+msgid "Save"
+msgstr "저장"
 
-#: kuma/users/jinja2/users/user_edit.html:143
+#: kuma/users/jinja2/users/user_edit.html:138
+#, fuzzy
+msgid "Delete account"
+msgstr "계정을 삭제합니다."
+
+#: kuma/users/jinja2/users/user_edit.html:151
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 뉴스레터 구독을 관리합니다."
 
@@ -3892,10 +3897,6 @@ msgstr "기술 관련 - 코드 샘플, APIs, 혹은 기술. <a href=\"%(url)s\">
 msgid "Editorial - prose, grammar, or content. <a href=\"%(url)s\">Can you help?</a>"
 msgstr "편집 관련 - 문체, 문법 혹은 내용. <a href=\"%(url)s\">도움이 필요하나요?</a>"
 
-#: kuma/wiki/jinja2/wiki/includes/approvals.html:31
-msgid "Save"
-msgstr "저장"
-
 # 100%
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:24
 msgid "Languages"
@@ -4097,6 +4098,10 @@ msgstr "변경 취소하고 새로운 문서를 만들까요?"
 #: kuma/wiki/jinja2/wiki/includes/page_buttons.html:26
 msgid "Publish and Keep Editing"
 msgstr "게시하고 계속 편집"
+
+#: kuma/wiki/jinja2/wiki/includes/page_buttons.html:33
+msgid "Publish"
+msgstr "게시"
 
 #: kuma/wiki/jinja2/wiki/includes/page_buttons.html:45
 msgid "Discard"
@@ -4321,17 +4326,17 @@ msgstr "%(url)s 에서 문서 이동"
 msgid "I learned about %(title)s on MDN."
 msgstr "MDN에서 %(title)s에 대해서 배웠습니다."
 
-#: kuma/wiki/views/document.py:1054
+#: kuma/wiki/views/document.py:1135
 #, python-format
 msgid "Unsupported content-type: %s"
 msgstr "지원하지 않는 문서 형식: %s"
 
-#: kuma/wiki/views/document.py:1060
+#: kuma/wiki/views/document.py:1141
 #, python-format
 msgid "Request parsing error: %s"
 msgstr "처리 요청 중 오류: %s"
 
-#: kuma/wiki/views/document.py:1083
+#: kuma/wiki/views/document.py:1164
 msgid "ETag precondition failed"
 msgstr "ETag 이전 조건 실패"
 
@@ -4439,10 +4444,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 #, fuzzy
 #~ msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
 #~ msgstr "<a href=\"mailto:%(email)s\">%(email)s</a>이 %(user_display)s의 것인지 확인해 주세요."
-
-#, fuzzy
-#~ msgid "Delete Account."
-#~ msgstr "계정을 삭제합니다."
 
 #~ msgid "Indexing %(total)d documents into %(total_chunks)d chunks of size %(size)d into index %(index)s.total"
 #~ msgstr "%(total)d 개 문서를 %(size)d 크기인 %(total_chunks)d 개 청크로 인덱스 %(index)s 를 작성 중"
