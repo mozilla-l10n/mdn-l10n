@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-14 12:22-0700\n"
+"POT-Creation-Date: 2020-05-18 08:59-0700\n"
 "PO-Revision-Date: 2020-02-29 02:15+0000\n"
 "Last-Translator: Hyeonseok Shin <hyeonseok@gmail.com>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
@@ -1975,12 +1975,12 @@ msgstr "동의"
 msgid "I would like to make my GitHub profile URL public"
 msgstr "GitHub 프로필 URL을 공개하고 싶습니다"
 
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:56
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:55
 #, fuzzy
 msgid "Getting started with your new MDN account"
 msgstr "웹 시작하기"
 
-#: kuma/users/views.py:604
+#: kuma/users/views.py:612
 msgid "Email address"
 msgstr "이메일 주소"
 
@@ -2881,6 +2881,11 @@ msgstr "API 키"
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s 이후로 멤버"
+
+#: kuma/users/newsletter/apps.py:13
+#, fuzzy
+msgid "UserNewsletter"
+msgstr "앱 개발자 뉴스레터"
 
 #: kuma/users/templatetags/jinja_helpers.py:49
 #, python-format
@@ -9466,9 +9471,6 @@ msgstr "Elasticsearch 서버: %(backend)s"
 
 #~ msgid "How to design apps so they can be cached and used without an Internet connection."
 #~ msgstr "인터넷 연결없이 앱을 사용하고 캐시할 수 있도록 디자인하는 방법."
-
-#~ msgid "Apps Developer Newsletter"
-#~ msgstr "앱 개발자 뉴스레터"
 
 #~ msgid "Sign up now for the Apps Developer newsletter for access to resources, tools, and exclusive info. <strong>Join us!</strong>"
 #~ msgstr "문서 및 개발 도구, 각종 정보에 접근하려면 앱 개발자 뉴스레터에 <strong>지금 가입</strong>하십시오. "
