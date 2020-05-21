@@ -2,9 +2,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MDN 2020.17\n"
+"Project-Id-Version: MDN 2020.18\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-18 08:59-0700\n"
+"POT-Creation-Date: 2020-05-21 14:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,17 +145,17 @@ msgstr ""
 msgid "Learn more"
 msgstr ""
 
-#: jinja2/base.html:115 jinja2/react_base.html:152
+#: jinja2/base.html:115 jinja2/react_base.html:153
 #: kuma/users/jinja2/socialaccount/base_signup.html:101
 msgid "Terms"
 msgstr ""
 
-#: jinja2/base.html:116 jinja2/react_base.html:155
+#: jinja2/base.html:116 jinja2/react_base.html:156
 #: kuma/users/jinja2/socialaccount/base_signup.html:102
 msgid "Privacy"
 msgstr ""
 
-#: jinja2/base.html:117 jinja2/react_base.html:157
+#: jinja2/base.html:117 jinja2/react_base.html:158
 #: kuma/users/jinja2/socialaccount/base_signup.html:103
 msgid "Cookies"
 msgstr ""
@@ -193,38 +193,38 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: jinja2/includes/footer/moz-footer.html:6 jinja2/react_base.html:105
+#: jinja2/includes/footer/moz-footer.html:7 jinja2/react_base.html:106
 msgid "Contact Us"
 msgstr ""
 
-#: jinja2/react_base.html:112
+#: jinja2/react_base.html:113
 msgid "MDN"
 msgstr ""
 
 #: jinja2/includes/footer/mdn-footer.html:11
-#: jinja2/includes/footer/moz-footer.html:10 jinja2/react_base.html:116
-#: jinja2/react_base.html:132 kuma/users/forms.py:44
+#: jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:117
+#: jinja2/react_base.html:133 kuma/users/forms.py:44
 #: kuma/users/jinja2/users/includes/user_title_info.html:56
 #: kuma/users/models.py:145
 msgid "Twitter"
 msgstr ""
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:121
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:122
 #: kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
 #: kuma/users/jinja2/users/includes/user_title_info.html:71
 #: kuma/users/models.py:141
 msgid "GitHub"
 msgstr ""
 
-#: jinja2/includes/footer/moz-footer.html:1 jinja2/react_base.html:128
+#: jinja2/includes/footer/moz-footer.html:1 jinja2/react_base.html:129
 msgid "Mozilla"
 msgstr ""
 
-#: jinja2/includes/footer/moz-footer.html:15 jinja2/react_base.html:137
+#: jinja2/includes/footer/moz-footer.html:16 jinja2/react_base.html:138
 msgid "Instagram"
 msgstr ""
 
-#: jinja2/react_base.html:144
+#: jinja2/react_base.html:145
 #, python-format
 msgid ""
 "&copy; 2005-%(thisyear)s Mozilla and individual contributors. Content is "
@@ -2845,7 +2845,7 @@ msgstr ""
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
 #, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly"
+"Cancel any time. To cancel your subscription, please go to the Manage monthly"
 " subscription page (%(manage_subscription_url)s). If you have questions, "
 "please read the FAQ (%(faq_url)s) or you can also contact support "
 "(%(contact_email)s)."
@@ -2925,11 +2925,11 @@ msgstr ""
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid ""
-"Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on "
-"irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.)"
-" You can find the MDN writing staff admins there: Eric Shepherd (sheppy), "
-"Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), "
-"and me (jswisher), MDN's community manager."
+"Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>."
+"  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find "
+"the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg "
+"(wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me "
+"(jswisher), MDN's community manager."
 msgstr ""
 
 #. This is an email. Whitespace matters!
@@ -2992,13 +2992,13 @@ msgstr ""
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
-msgid "Real-time chat: #mdn channel on irc.mozilla.org"
+msgid "Real-time chat: #mdn room on chat.mozilla.org"
 msgstr ""
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
 #, python-format
-msgid "See %(irc_link)s for more info about IRC."
+msgid "See %(matrix_link)s for more info about Matrix."
 msgstr ""
 
 #. This is an email. Whitespace matters!
@@ -3154,7 +3154,7 @@ msgstr ""
 msgid "Member since %(date_joined)s"
 msgstr ""
 
-#: kuma/users/newsletter/apps.py:13
+#: kuma/users/newsletter/apps.py:14
 msgid "UserNewsletter"
 msgstr ""
 

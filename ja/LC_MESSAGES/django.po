@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-18 08:59-0700\n"
+"POT-Creation-Date: 2020-05-21 14:35-0700\n"
 "PO-Revision-Date: 2020-04-30 01:54+0000\n"
 "Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -131,15 +131,15 @@ msgstr "MDN は現在、読み取り専用のメンテナンスモードにな�
 msgid "Learn more"
 msgstr "詳細"
 
-#: jinja2/base.html:115 jinja2/react_base.html:152 kuma/users/jinja2/socialaccount/base_signup.html:101
+#: jinja2/base.html:115 jinja2/react_base.html:153 kuma/users/jinja2/socialaccount/base_signup.html:101
 msgid "Terms"
 msgstr "利用規約"
 
-#: jinja2/base.html:116 jinja2/react_base.html:155 kuma/users/jinja2/socialaccount/base_signup.html:102
+#: jinja2/base.html:116 jinja2/react_base.html:156 kuma/users/jinja2/socialaccount/base_signup.html:102
 msgid "Privacy"
 msgstr "プライバシー"
 
-#: jinja2/base.html:117 jinja2/react_base.html:157 kuma/users/jinja2/socialaccount/base_signup.html:103
+#: jinja2/base.html:117 jinja2/react_base.html:158 kuma/users/jinja2/socialaccount/base_signup.html:103
 msgid "Cookies"
 msgstr "Cookie"
 
@@ -170,34 +170,34 @@ msgstr "フィードバック"
 msgid "About"
 msgstr "このサイトについて"
 
-#: jinja2/includes/footer/moz-footer.html:6 jinja2/react_base.html:105
+#: jinja2/includes/footer/moz-footer.html:7 jinja2/react_base.html:106
 msgid "Contact Us"
 msgstr "問い合わせ"
 
-#: jinja2/react_base.html:112
+#: jinja2/react_base.html:113
 msgid "MDN"
 msgstr "MDN"
 
 # 各ページ, 2段目ヘッダ - Twitter リンク
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:10 jinja2/react_base.html:116 jinja2/react_base.html:132 kuma/users/forms.py:44
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:117 jinja2/react_base.html:133 kuma/users/forms.py:44
 #: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:145
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:121 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:122 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
 #: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:141
 msgid "GitHub"
 msgstr "GitHub"
 
-#: jinja2/includes/footer/moz-footer.html:1 jinja2/react_base.html:128
+#: jinja2/includes/footer/moz-footer.html:1 jinja2/react_base.html:129
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: jinja2/includes/footer/moz-footer.html:15 jinja2/react_base.html:137
+#: jinja2/includes/footer/moz-footer.html:16 jinja2/react_base.html:138
 msgid "Instagram"
 msgstr "Instagram"
 
-#: jinja2/react_base.html:144
+#: jinja2/react_base.html:145
 #, fuzzy, python-format
 msgid "&copy; 2005-%(thisyear)s Mozilla and individual contributors. Content is available under <a href=\"%(copyright_url)s\">these licenses</a>."
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla および各貢献者</p> <p>コンテンツは <a href=\"%(copyright_url)s\">これらのライセンス</a> の下で公開されています。</p>"
@@ -2598,7 +2598,7 @@ msgstr ""
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
 #, python-format
 msgid ""
-"Cancel any time. To cancel your subscription, please go to the manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
+"Cancel any time. To cancel your subscription, please go to the Manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
 
@@ -2665,10 +2665,10 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "ディスカッションフォーラム: <a href=\"%(list_link)s\">参加</a> して、MDN 上であなたが興味のあることを教えてください。サイトに関する質問もお気軽にどうぞ。"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
-#, python-format
+#, fuzzy, python-format
 msgid ""
-"Real-time chat: <a href=\"%(channel_link)s\">#mdn channel on irc.mozilla.org</a>.  (Get more info about <a href=\"%(irc_link)s\">IRC</a>.) You can find the MDN writing staff admins there: Eric "
-"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
+"Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
+"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
 msgstr ""
 "リアルタイムチャット: <a href=\"%(channel_link)s\">irc.mozilla.org 上の #mdn チャンネル</a> を使ってください (<a href=\"%(irc_link)s\">IRC の詳細はこちら</a>)。MDN の編集スタッフの Eric Shepherd "
 "(sheppy)、Will Bamberg (wbamberg)、Florian Scholz (fscholz)、Chris Mills (chrismills)、そして MDN のコミュニティマネージャを務める Janet Swisher (jms) が常駐しています。"
@@ -2724,13 +2724,14 @@ msgstr "参加して、MDN 上であなたが興味のあることを教えて�
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
-msgid "Real-time chat: #mdn channel on irc.mozilla.org"
+#, fuzzy
+msgid "Real-time chat: #mdn room on chat.mozilla.org"
 msgstr "リアルタイムチャット: irc.mozilla.org 上の #mdn チャンネル"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
-#, python-format
-msgid "See %(irc_link)s for more info about IRC."
+#, fuzzy, python-format
+msgid "See %(matrix_link)s for more info about Matrix."
 msgstr "IRC の詳細は %(irc_link)s を参照してください。"
 
 #. This is an email. Whitespace matters!
@@ -2869,7 +2870,7 @@ msgstr "API キー"
 msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s からのメンバー"
 
-#: kuma/users/newsletter/apps.py:13
+#: kuma/users/newsletter/apps.py:14
 msgid "UserNewsletter"
 msgstr ""
 
