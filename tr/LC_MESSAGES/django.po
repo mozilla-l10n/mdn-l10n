@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-05-21 14:35-0700\n"
-"PO-Revision-Date: 2020-05-28 23:22+0000\n"
+"PO-Revision-Date: 2020-05-28 23:25+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: Turkish https://pontoon.mozilla.org/tr/\n"
 "Language: tr\n"
@@ -1593,7 +1593,7 @@ msgstr "Arama şu anda kullanılamıyor. Lütfen birkaç dakika sonra tekrar den
 
 #: kuma/search/utils.py:14
 msgid "Something went wrong with the search query. Please try again in a few minutes."
-msgstr ""
+msgstr "Arama sorgusunda bir sorun oluştu. Lütfen birkaç dakika sonra tekrar deneyin."
 
 #: kuma/search/jinja2/search/down.html:5
 msgid "Search Unavailable"
@@ -1815,7 +1815,7 @@ msgstr ""
 #: kuma/users/models.py:40
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
-msgstr ""
+msgstr "%(banned_user)s, %(banned_by)s tarafından engellendi"
 
 #: kuma/users/models.py:45
 #, python-format
@@ -2075,7 +2075,7 @@ msgstr "Parolayı değiştir"
 
 #: kuma/users/jinja2/account/password_reset_from_key.html:26 kuma/users/jinja2/account/password_reset_from_key_done.html:8
 msgid "Your password is now changed."
-msgstr ""
+msgstr "Parolanız değiştirildi."
 
 #: kuma/users/jinja2/account/password_set.html:3 kuma/users/jinja2/account/password_set.html:7 kuma/users/jinja2/account/password_set.html:12
 msgid "Set Password"
@@ -2127,7 +2127,7 @@ msgstr "Not"
 #: kuma/users/jinja2/account/snippets/already_logged_in.html:1
 #, python-format
 msgid "you are already logged in as %(user_display)s."
-msgstr ""
+msgstr "zaten %(user_display)s olarak giriş yaptınız."
 
 #: kuma/users/jinja2/openid/login.html:3 kuma/users/jinja2/openid/login.html:6
 msgid "OpenID Sign In"
@@ -2249,7 +2249,7 @@ msgstr "Kullanıcıyı engelle"
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:22
 #, python-format
 msgid "Identify <a href=\"%(url)s\">%(user)s</a> as a spammer?"
-msgstr ""
+msgstr "<a href=\"%(url)s\">%(user)s</a> spam gönderen olarak tanımlansın mı?"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:26
 #, python-format
@@ -2259,11 +2259,11 @@ msgstr "<a href=\"%(url)s\">%(user)s</a> engellendi."
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:29
 #, python-format
 msgid "%(user)s has already been banned. You may review and revert their revisions below."
-msgstr ""
+msgstr "%(user)s zaten engellendi. Aşağıdaki revizyonlarını inceleyebilir ve geri alabilirsiniz."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:46
 msgid "You cannot ban yourself for spam."
-msgstr ""
+msgstr "Kendinizi spam nedeniyle engelleyemezsiniz."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup.html:50
 msgid "Submit Spam"
@@ -2360,7 +2360,7 @@ msgstr "Silinemedi:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:179
 msgid "Could not revert:"
-msgstr ""
+msgstr "Geri alınamadı:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:200
 msgid "No actions taken"
@@ -2372,7 +2372,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:225
 msgid "Already identified as spam:"
-msgstr ""
+msgstr "Zaten spam olarak tanımlandı:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:256
 msgid "Identified as not spam:"
@@ -2412,7 +2412,7 @@ msgstr "Engellendiniz"
 
 #: kuma/users/jinja2/users/user_banned.html:20
 msgid "You have been banned for the following reasons:"
-msgstr ""
+msgstr "Aşağıdaki nedenlerden dolayı engellendiniz:"
 
 #: kuma/users/jinja2/users/user_banned.html:30
 msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click here</a> to appeal this ban.</p>"
@@ -2420,7 +2420,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/user_delete.html:11
 msgid "Delete your account"
-msgstr ""
+msgstr "Hesabımı sil"
 
 #: kuma/users/jinja2/users/user_detail.html:36
 msgid "Recent Docs Activity"
@@ -2444,7 +2444,7 @@ msgstr "Sayfayı düzenle"
 
 #: kuma/users/jinja2/users/user_detail.html:52
 msgid "View complete diff"
-msgstr ""
+msgstr "Tam farkı görüntüle"
 
 #: kuma/users/jinja2/users/user_detail.html:53 kuma/wiki/jinja2/wiki/document.html:293
 msgid "View page history"
@@ -2461,7 +2461,7 @@ msgstr "Bu kullanıcının etkinliği yok."
 
 #: kuma/users/jinja2/users/user_edit.html:11
 msgid "Edit Your Profile"
-msgstr ""
+msgstr "Profilimi düzenle"
 
 #: kuma/users/jinja2/users/user_edit.html:44
 msgid "You're editing a different profile than your own. Please take care!"
@@ -2727,7 +2727,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "Cancel any time."
-msgstr ""
+msgstr "İstediğiniz zaman iptal edebilirsiniz."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:38
 #, python-format
@@ -2737,9 +2737,8 @@ msgid ""
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:44
-#, fuzzy
 msgid "Continue"
-msgstr "Katkıda bulunun"
+msgstr "Devam et"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:55
 #, python-format
@@ -2783,7 +2782,7 @@ msgstr "Zaten spam olarak bildirildi."
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:86
 msgid "This user has not created any revisions in the past three days."
-msgstr ""
+msgstr "Bu kullanıcı son üç gün içinde hiçbir revizyon oluşturmadı."
 
 #: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:775 kuma/wiki/jinja2/wiki/includes/buttons.html:55
 msgid "Edit"
@@ -3028,7 +3027,7 @@ msgstr "Başlık:"
 
 #: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:953
 msgid "Title of article"
-msgstr ""
+msgstr "Makale başlığı"
 
 #: kuma/wiki/forms.py:393 kuma/wiki/forms.py:478 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:22
@@ -3135,11 +3134,11 @@ msgstr ""
 
 #: kuma/wiki/models.py:1675
 msgid "No table of contents"
-msgstr ""
+msgstr "İçindekiler tablosu yok"
 
 #: kuma/wiki/models.py:1676
 msgid "All levels"
-msgstr ""
+msgstr "Tüm seviyeler"
 
 #: kuma/wiki/models.py:1677
 msgid "H2 and higher"
@@ -3832,7 +3831,7 @@ msgstr "Bu makaleyi yazdır"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:4
 msgid "breadcrumbs"
-msgstr ""
+msgstr "yol göstergeleri"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:25
 msgid "Related Topics"
@@ -3840,7 +3839,7 @@ msgstr "İlgili Konular"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:32
 msgid "Change Revisions"
-msgstr ""
+msgstr "Revizyonları değiştir"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:37 kuma/wiki/jinja2/wiki/includes/document_macros.html:52
 #, python-format
@@ -4004,7 +4003,7 @@ msgstr "İnceleme gerekli mi?"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:3
 msgid "Revision Comment"
-msgstr ""
+msgstr "Revizyon Yorumu"
 
 #: kuma/wiki/jinja2/wiki/includes/revision_comment.html:4
 msgid "Learn how to use Revision Comments"
@@ -4188,7 +4187,7 @@ msgstr ""
 
 #: kuma/wiki/templates/admin/wiki/revisionakismetsubmission/change_list.html:4
 msgid "Select an Akismet submission for more details"
-msgstr ""
+msgstr "Daha fazla ayrıntı için bir Akismet gönderimi seçin"
 
 #: kuma/wiki/templatetags/jinja_helpers.py:116 kuma/wiki/templatetags/jinja_helpers.py:117 kuma/wiki/templatetags/jinja_helpers.py:135 kuma/wiki/templatetags/jinja_helpers.py:136
 #, python-format
