@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-28 16:40-0700\n"
+"POT-Creation-Date: 2020-06-11 11:56-0700\n"
 "PO-Revision-Date: 2020-06-01 14:50+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -514,11 +514,49 @@ msgstr "Válasszon nyelvet"
 msgid "Skip to search"
 msgstr "Ugrás a keresésre"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:27
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:32
+msgid "You can change your email address by adding a new one"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:36
+msgid "Manage email addresses"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:47
+msgid "Get exclusive content, offers and invitations to your inbox"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:53
+msgid "Username"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:63
+msgid "Name"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:73
+#, fuzzy
+msgid "Language"
+msgstr "Válasszon nyelvet"
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:80
+msgid "Save"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:13
 msgid "Account Settings"
 msgstr "Fiókbeállítások"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:32
+#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+msgid "Update your details and manage your preferences"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:38
 msgid "You need to be signed in to access account settings. "
 msgstr "A fiókbeállítások eléréséhez be kell jelentkeznie."
 
@@ -535,15 +573,25 @@ msgstr "A jelenlegi nyelv: %s. Válassza ki a kívánt nyelvet."
 msgid "Add a translation"
 msgstr "Fordítás hozzáadása"
 
-#: kuma/javascript/src/header/login.jsx:51
+#: kuma/javascript/src/header/login.jsx:55
+#, python-format
+msgid "You have %(count)s Wiki revisions"
+msgstr ""
+
+#: kuma/javascript/src/header/login.jsx:65
+#, fuzzy
+msgid "Contributions"
+msgstr "az MDN közreműködői által"
+
+#: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
 msgstr "Profil megjelenítése"
 
-#: kuma/javascript/src/header/login.jsx:54
+#: kuma/javascript/src/header/login.jsx:73
 msgid "Edit profile"
 msgstr "Profil szerkesztése"
 
-#: kuma/javascript/src/header/login.jsx:60
+#: kuma/javascript/src/header/login.jsx:79
 msgid "Sign out"
 msgstr "Kijelentkezés"
 
@@ -636,11 +684,11 @@ msgstr "Hiba jelentése"
 msgid "Search MDN"
 msgstr "Keresés az MDN-en"
 
-#: kuma/javascript/src/header/search.jsx:72
+#: kuma/javascript/src/header/search.jsx:84
 msgid "Close search"
 msgstr "Keresés bezárása"
 
-#: kuma/javascript/src/header/search.jsx:73
+#: kuma/javascript/src/header/search.jsx:85
 msgid "Open search"
 msgstr "Keresés megnyitása"
 
@@ -819,8 +867,8 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános és"
-" jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
+"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános "
+"és jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
 "platformjába kerülnek befektetésre."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
@@ -920,8 +968,8 @@ msgstr "havi előfizetés kezelői oldal"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Bármikor lemondhatja a havi előfizetését. Keresse fel a <subscriptionsLink /> lapot. Ha a lemondást választja, akkor a következő hónapokban nem fogjuk megterhelni a kártyáját. További kérdés esetén "
 "<emailLink />."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-28 16:40-0700\n"
+"POT-Creation-Date: 2020-06-11 11:56-0700\n"
 "PO-Revision-Date: 2020-05-30 08:05+0000\n"
 "Last-Translator: Sara Todaro <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: Italian https://pontoon.mozilla.org/it/\n"
@@ -512,11 +512,49 @@ msgstr "Seleziona una lingua"
 msgid "Skip to search"
 msgstr "Vai alla ricerca"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:27
+#, fuzzy
+msgid "Email"
+msgstr "Email"
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:32
+msgid "You can change your email address by adding a new one"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:36
+msgid "Manage email addresses"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:47
+msgid "Get exclusive content, offers and invitations to your inbox"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:53
+msgid "Username"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:63
+msgid "Name"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:73
+#, fuzzy
+msgid "Language"
+msgstr "Seleziona una lingua"
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:80
+msgid "Save"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:13
 msgid "Account Settings"
 msgstr "Impostazioni account"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:32
+#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+msgid "Update your details and manage your preferences"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:38
 msgid "You need to be signed in to access account settings. "
 msgstr "Per accedere alle impostazioni dell’account devi effettuare l’accesso."
 
@@ -533,15 +571,25 @@ msgstr "La lingua corrente è %s. Seleziona lingua preferita."
 msgid "Add a translation"
 msgstr "Aggiungi una traduzione"
 
-#: kuma/javascript/src/header/login.jsx:51
+#: kuma/javascript/src/header/login.jsx:55
+#, python-format
+msgid "You have %(count)s Wiki revisions"
+msgstr ""
+
+#: kuma/javascript/src/header/login.jsx:65
+#, fuzzy
+msgid "Contributions"
+msgstr "dai collaboratori di MDN"
+
+#: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
 msgstr "Visualizza Profilo"
 
-#: kuma/javascript/src/header/login.jsx:54
+#: kuma/javascript/src/header/login.jsx:73
 msgid "Edit profile"
 msgstr "Modifica profilo"
 
-#: kuma/javascript/src/header/login.jsx:60
+#: kuma/javascript/src/header/login.jsx:79
 msgid "Sign out"
 msgstr "Esci"
 
@@ -633,11 +681,11 @@ msgstr "Segnala un problema"
 msgid "Search MDN"
 msgstr "Cerca in MDN"
 
-#: kuma/javascript/src/header/search.jsx:72
+#: kuma/javascript/src/header/search.jsx:84
 msgid "Close search"
 msgstr "Chiudi ricerca"
 
-#: kuma/javascript/src/header/search.jsx:73
+#: kuma/javascript/src/header/search.jsx:85
 msgid "Open search"
 msgstr "Apri ricerca"
 
@@ -787,9 +835,9 @@ msgid ""
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
 "again)-- to accelerate those improvements."
 msgstr ""
-"La nostra base di utenti è cresciuta in modo esponenziale negli ultimi anni e abbiamo un lungo elenco di miglioramenti da apportare. Sebbene per il momento MDN sia interamente finanziato da Mozilla,"
-" come lo è stato fin dall’inizio, vorremmo creare una relazione più stretta e collaborativa tra il nostro pubblico (che sei tu!), i nostri contenuti (scritti per te e talvolta da te), e i nostri "
-"sostenitori (di nuovo tu), per implementare più velocemente tali miglioramenti."
+"La nostra base di utenti è cresciuta in modo esponenziale negli ultimi anni e abbiamo un lungo elenco di miglioramenti da apportare. Sebbene per il momento MDN sia interamente finanziato da "
+"Mozilla, come lo è stato fin dall’inizio, vorremmo creare una relazione più stretta e collaborativa tra il nostro pubblico (che sei tu!), i nostri contenuti (scritti per te e talvolta da te), e i "
+"nostri sostenitori (di nuovo tu), per implementare più velocemente tali miglioramenti."
 
 #: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
@@ -818,9 +866,9 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"<mozillaLink /> e MDN sono organizzazioni distinte con programmi distinti. Le donazioni a Mozilla Foundation sono <taxLink /> nella massima misura consentita per legge e vengono destinate a un unico"
-" fondo generale impiegato per sostenere i programmi pubblici di beneficenza di Mozilla. MDN fa parte di <mocoLink />, dunque i pagamenti a MDN non vengono utilizzati nei programmi di beneficenza di "
-"Mozilla ma vengono reinvestiti nei contenuti, negli strumenti e nella piattaforma di MDN."
+"<mozillaLink /> e MDN sono organizzazioni distinte con programmi distinti. Le donazioni a Mozilla Foundation sono <taxLink /> nella massima misura consentita per legge e vengono destinate a un "
+"unico fondo generale impiegato per sostenere i programmi pubblici di beneficenza di Mozilla. MDN fa parte di <mocoLink />, dunque i pagamenti a MDN non vengono utilizzati nei programmi di "
+"beneficenza di Mozilla ma vengono reinvestiti nei contenuti, negli strumenti e nella piattaforma di MDN."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
 msgid "Mozilla Foundation"
@@ -919,8 +967,8 @@ msgstr "pagina di gestione dell’abbonamento mensile"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Puoi annullare l’abbonamento mensile in qualsiasi momento. Vai alla <subscriptionsLink /> per annullare l’abbonamento. Se scegli di annullare, non addebiteremo alcun importo sulla tua carta di "
 "pagamento per i mesi successivi. Per qualsiasi altra domanda o richiesta <emailLink />."
@@ -1105,8 +1153,8 @@ msgstr "Selezionato: "
 #, python-format
 msgid "Would you answer 4 questions for us? <a %(url)s>Open the survey in a new tab</a> and fill it out when you are done on the site. Thanks!"
 msgstr ""
-"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie in"
-" anticipo per la tua disponibilità."
+"Risponderesti a quattro domande di numero per aiutarci a migliorare il sito? <a %(url)s>Apri il questionario in una nuova scheda</a> e ricordati di compilarlo dopo aver consultato il sito. Grazie "
+"in anticipo per la tua disponibilità."
 
 #: kuma/static/js/wiki-compat-tables.js:8
 msgid "Open implementation notes"

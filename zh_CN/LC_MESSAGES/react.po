@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-05-28 16:40-0700\n"
+"POT-Creation-Date: 2020-06-11 11:56-0700\n"
 "PO-Revision-Date: 2020-05-29 00:44+0000\n"
 "Last-Translator: πάθοςγιατηζωή <eloli@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
@@ -505,11 +505,49 @@ msgstr "选择语言"
 msgid "Skip to search"
 msgstr "跳转到搜索"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:27
+#, fuzzy
+msgid "Email"
+msgstr "电子邮箱"
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:32
+msgid "You can change your email address by adding a new one"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:36
+msgid "Manage email addresses"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:47
+msgid "Get exclusive content, offers and invitations to your inbox"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:53
+msgid "Username"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:63
+msgid "Name"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:73
+#, fuzzy
+msgid "Language"
+msgstr "选择语言"
+
+#: kuma/javascript/src/accountsettings/components/user-details.jsx:80
+msgid "Save"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:13
 msgid "Account Settings"
 msgstr "账户设置"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:32
+#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+msgid "Update your details and manage your preferences"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:38
 msgid "You need to be signed in to access account settings. "
 msgstr "您需要登录才能访问账户设置。"
 
@@ -526,15 +564,25 @@ msgstr "当前语言为 %s。请选择您偏好的语言。"
 msgid "Add a translation"
 msgstr "添加翻译"
 
-#: kuma/javascript/src/header/login.jsx:51
+#: kuma/javascript/src/header/login.jsx:55
+#, python-format
+msgid "You have %(count)s Wiki revisions"
+msgstr ""
+
+#: kuma/javascript/src/header/login.jsx:65
+#, fuzzy
+msgid "Contributions"
+msgstr "由 Mozilla 贡献者编辑"
+
+#: kuma/javascript/src/header/login.jsx:70
 msgid "View profile"
 msgstr "查看个人资料"
 
-#: kuma/javascript/src/header/login.jsx:54
+#: kuma/javascript/src/header/login.jsx:73
 msgid "Edit profile"
 msgstr "编辑个人资料"
 
-#: kuma/javascript/src/header/login.jsx:60
+#: kuma/javascript/src/header/login.jsx:79
 msgid "Sign out"
 msgstr "退出"
 
@@ -626,11 +674,11 @@ msgstr "报告问题"
 msgid "Search MDN"
 msgstr "搜索 MDN"
 
-#: kuma/javascript/src/header/search.jsx:72
+#: kuma/javascript/src/header/search.jsx:84
 msgid "Close search"
 msgstr "关闭搜索"
 
-#: kuma/javascript/src/header/search.jsx:73
+#: kuma/javascript/src/header/search.jsx:85
 msgid "Open search"
 msgstr "打开搜索"
 
@@ -775,7 +823,9 @@ msgid ""
 "Our user base has grown exponentially in the last few years and we have a large list of improvements we’d like to make. While MDN is currently wholly funded by Mozilla, and has been from the "
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
 "again)-- to accelerate those improvements."
-msgstr "我们的用户群在过去几年中呈指数级增长（维护平台的成本也随之增加），且我们还有很多想要改进的地方。虽然 MDN 目前完全由 Mozilla 资助，并且自其创建以来一直如此，但我们希望在我们的受众（您）、我们的内容（为您编写的）和我们的支持者（同样是您）之间创建一个更紧密、更健康的循环，从而让我们加速实现这些改进。"
+msgstr ""
+"我们的用户群在过去几年中呈指数级增长（维护平台的成本也随之增加），且我们还有很多想要改进的地方。虽然 MDN 目前完全由 Mozilla 资助，并且自其创建以来一直如此，但我们希望在我们的受众（您）、我们的内容"
+"（为您编写的）和我们的支持者（同样是您）之间创建一个更紧密、更健康的循环，从而让我们加速实现这些改进。"
 
 #: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
@@ -799,7 +849,9 @@ msgstr "通过 MDN 收集的资金（减去手续费、税金等）将再投资�
 msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
-msgstr "<mozillaLink /> 与 MDN 是相互独立的组织与项目。捐赠给 Mozilla 基金会的款项<taxLink />，并归入一个普通基金支持 Mozilla 的公共与慈善项目。MDN 是 <mocoLink /> 的一部分，捐赠给 MDN 的款项专用于 MDN 项目的内容、工具与平台改进，而不会用于 Mozilla 的慈善项目。"
+msgstr ""
+"<mozillaLink /> 与 MDN 是相互独立的组织与项目。捐赠给 Mozilla 基金会的款项<taxLink />，并归入一个普通基金支持 Mozilla 的公共与慈善项目。MDN 是 <mocoLink /> 的一部分，捐赠给 MDN 的款项专用于 MDN 项目"
+"的内容、工具与平台改进，而不会用于 Mozilla 的慈善项目。"
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
 msgid "Mozilla Foundation"
@@ -890,8 +942,8 @@ msgstr "每月订阅管理页面"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr "您可以随时到<subscriptionsLink />取消每月订阅。若您决定取消，就不会在未来几个月扣款。如有其它疑问，请联系 <emailLink />。"
 
 #: kuma/javascript/src/payments/pages/index.jsx:304
