@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-11 11:55-0700\n"
-"PO-Revision-Date: 2020-06-13 22:01+0000\n"
+"PO-Revision-Date: 2020-06-13 22:10+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
 "Language: el\n"
@@ -2202,7 +2202,7 @@ msgstr "Δοκιμάστε πρώτοι τις νέες λειτουργίες �
 
 #: kuma/users/jinja2/socialaccount/signup-landing.html:33
 msgid "Help contribute to the continued improvement of MDN’s content"
-msgstr ""
+msgstr "Συμβάλλετε στη συνεχή βελτίωση του περιεχομένου του MDN"
 
 #: kuma/users/jinja2/socialaccount/signup.html:20
 msgid "Create your MDN account"
@@ -2586,13 +2586,13 @@ msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
 msgstr "Η επόμενη πληρωμή των %(cost)s (μηνιαίως) θα γίνει στις %(next_payment_date)s."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the Manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
 msgstr ""
-"Για να ακυρώσετε τη συνδρομή σας, παρακαλούμε <a href=\"%(support_email)s\">επικοινωνήστε με την υποστήριξηt</a>. <br>Αν έχετε απορίες, παρακαλούμε διαβάστε τις <a href=\"%(terms_url)s\">συχνές "
-"ερωτήσεις</a> ή μπορείτε επίσης να επικοινωνήσετε με την υποστήριξη."
+"Ακυρώστε ανά πάσα στιγμή. Για να ακυρώσετε τη συνδρομή σας, παρακαλούμε μεταβείτε στη σελίδα διαχείρισης μηνιαίας συνδρομής (%(manage_subscription_url)s). Αν έχετε απορίες, παρακαλούμε διαβάστε τις "
+"συχνές ερωτήσεις (%(faq_url)s) ή μπορείτε επίσης να επικοινωνήσετε με την υποστήριξη (%(contact_email)s)."
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
@@ -2658,14 +2658,14 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "Φόρουμ συζήτησης: <a href=\"%(list_link)s\">γίνετε μέλος</a> για να μάς μιλήσετε για τα ενδιαφέροντά σας στο MDN και να κάνετε ερωτήσεις για την ιστοσελίδα."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
 msgstr ""
-"Συνομιλία σε πραγματικό χρόνο: <a href=\"%(channel_link)s\">κανάλι #mdn στο irc.mozilla.org</a>.  (Λάβετε περισσότερες πληροφορίες σχετικά με το <a href=\"%(irc_link)s\">IRC</a>.) Εκεί, μπορείτε να "
-"βρείτε τους διαχειριστές προσωπικού συντακτών του MDN: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) και εμένα (jswisher), διαχειριστής "
-"κοινότητας του MDN."
+"Συνομιλία σε πραγματικό χρόνο: <a href=\"%(room_link)s\">δωμάτιο #mdn στο chat.mozilla.org</a>.  (Λάβετε περισσότερες πληροφορίες σχετικά με το <a href=\"%(matrix_link)s\">Matrix</a>.) Εκεί, "
+"μπορείτε να βρείτε τους διαχειριστές προσωπικού συντακτών του MDN: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills) και εμένα (jswisher), "
+"διαχειριστή κοινότητας του MDN."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2717,15 +2717,14 @@ msgstr "Γίνετε μέλος για να μάς πείτε σχετικά μ�
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
-#, fuzzy
 msgid "Real-time chat: #mdn room on chat.mozilla.org"
-msgstr "Συνομιλία σε πραγματικό χρόνο: κανάλι #mdn στο irc.mozilla.org"
+msgstr "Συνομιλία σε πραγματικό χρόνο: δωμάτιο #mdn στο chat.mozilla.org"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
-#, fuzzy, python-format
+#, python-format
 msgid "See %(matrix_link)s for more info about Matrix."
-msgstr "Δείτε το %(irc_link)s για περισσότερες πληροφορίες σχετικά με το IRC."
+msgstr "Δείτε το %(matrix_link)s για περισσότερες πληροφορίες σχετικά με το Matrix."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
@@ -2821,13 +2820,14 @@ msgid "Postal / ZIP code: %(zip)s"
 msgstr "Ταχυδρομικός κώδικας: %(zip)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:69
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "<ul> <li>To see your member perks, visit the <a href=\"%(thank_you_url)s\">thank you page</a>.</li> <li>To cancel your subscription <a href=\"%(manage_url)s\">click here</a>.</li> <li>If you have "
 "questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s\">contact support</a>.</li> </ul>"
 msgstr ""
-"Για να ακυρώσετε τη συνδρομή σας, παρακαλούμε <a href=\"%(support_email)s\">επικοινωνήστε με την υποστήριξηt</a>. <br>Αν έχετε απορίες, παρακαλούμε διαβάστε τις <a href=\"%(terms_url)s\">συχνές "
-"ερωτήσεις</a> ή μπορείτε επίσης να επικοινωνήσετε με την υποστήριξη."
+"<ul> <li>Για να δείτε τα προνόμια σας ως μέλος, επισκεφθείτε τη <a href=\"%(thank_you_url)s\">σελίδα ευχαριστίας</a>.</li> <li>Για να ακυρώσετε τη συνδρομή σας, <a href=\"%(manage_url)s\">κάντε κλικ"
+" εδώ</a>.</li> <li>Αν έχετε απορίες, παρακαλούμε διαβάστε τις <a href=\"%(faq_url)s\">συχνές ερωτήσεις</a> ή μπορείτε επίσης να <a href=\"%(support_email)s\">επικοινωνήσετε με την "
+"υποστήριξη</a>.</li> </ul>"
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
 msgid "Tags"
