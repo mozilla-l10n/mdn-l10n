@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-11 11:55-0700\n"
-"PO-Revision-Date: 2020-06-18 19:12+0000\n"
+"PO-Revision-Date: 2020-06-18 19:18+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: Hebrew https://pontoon.mozilla.org/he/\n"
 "Language: he\n"
@@ -780,54 +780,57 @@ msgstr ""
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:7 kuma/authkeys/jinja2/authkeys/history.html:8 kuma/authkeys/jinja2/authkeys/new.html:34
 msgid "Created"
-msgstr ""
+msgstr "מועד היצירה"
 
 #: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
 msgid "Delete"
-msgstr ""
+msgstr "מחיקה"
 
 #: kuma/authkeys/jinja2/authkeys/history.html:14
 msgid "This key has not been used yet."
-msgstr ""
+msgstr "טרם נעשה שימוש במפתח זה."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:8
 msgid ""
 "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
 "don't trust with your account delete the key. It's easy to create a replacement key at any time."
 msgstr ""
+"אלו הם מפתחות ה־API שלך. אפשר להשתמש בהם לטובת בניית יישומים שמבצעים פעולות מול MDN מטעמך. אם הפסקת להשתמש בהם או שיש לך חשד שהם נחשפו לגורמים בלתי מהימנים כדאי למחוק את המפתח. קל מאוד ליצור מפתח "
+"חלופי בכל עת."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:14
 msgid "Create a new key"
-msgstr ""
+msgstr "יצירת מפתח חדש"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:16
 msgid "You have no API keys, yet."
-msgstr ""
+msgstr "אין לך מפתחות API עדיין."
 
 #: kuma/authkeys/jinja2/authkeys/list.html:25
 msgid "View key usage history"
-msgstr ""
+msgstr "הצגת היסטוריית שימוש במפתח"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:26
 #, python-format
 msgid "History (%(count)s)"
-msgstr ""
+msgstr "היסטוריה (%(count)s)"
 
 #: kuma/authkeys/jinja2/authkeys/list.html:35
 #, python-format
 msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
-msgstr ""
+msgstr "לצורך שימוש במפתחות API נדרשות הרשאות מיוחדות. ניתן לבקש הרשאות על־ידי <a href=\"%(bugzilla_url)s\">מילוי דיווח על תקלה</a>."
 
 #: kuma/authkeys/jinja2/authkeys/new.html:7
 msgid ""
 "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
 " as you can.</p>"
 msgstr ""
+"<p>נא לתאר את השימוש הייעודי למפתח, להלן. <p><strong>לתשומת לבך:</strong> התיאור הזה יהיה הדרך היחידה שלך לזהות את המפתח הזה בהמשך, למעט התאריך והשעה שבו הוא נוצר. לכן, מוטב לדייק עד כמה שניתן.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:16
 msgid "Create"
-msgstr ""
+msgstr "יצירה"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:20
 #, python-format
@@ -835,10 +838,12 @@ msgid ""
 "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
 "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
 msgstr ""
+"<p>המפתח החדש שלך נוצר. נא לרשום בצד את הפרטים שלהלן (למשל: באמצעות העתקתם להגדרות היישום שלך). מידע זה לא יוצג שוב, ולא ניתן לשחזר אותו במקרה של אובדן.</p> <p><strong>לתשומת לבך:</strong> לאחר "
+"שסיימת, <a class=\"button\" href=\"%(list_url)s\">יש לחזור לרשימת המפתחות</a>. רענון הדף הזה יגרום ליצירת מפתח חדש.</p>"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:30
 msgid "Key ID"
-msgstr ""
+msgstr "מזהה מפתח"
 
 #: kuma/authkeys/jinja2/authkeys/new.html:32
 msgid "Secret"
@@ -858,7 +863,7 @@ msgstr ""
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:3
 msgid "MDN Survey"
-msgstr ""
+msgstr "סקר MDN"
 
 #: kuma/banners/jinja2/banners/includes/developer-needs.html:6
 msgid ""
@@ -872,76 +877,76 @@ msgstr ""
 
 #: kuma/core/apps.py:17
 msgid "Core"
-msgstr ""
+msgstr "ליבה"
 
 #: kuma/core/utils.py:401
 #, python-format
 msgid "Today at %s"
-msgstr ""
+msgstr "היום ב־%s"
 
 #: kuma/core/templatetags/jinja_helpers.py:98
 msgid "Yes"
-msgstr ""
+msgstr "כן"
 
 #: kuma/core/templatetags/jinja_helpers.py:98
 msgid "No"
-msgstr ""
+msgstr "לא"
 
 #: kuma/dashboards/forms.py:7
 msgid "All Locales"
-msgstr ""
+msgstr "כל השפות"
 
 #: kuma/dashboards/forms.py:9
 msgid "None"
-msgstr ""
+msgstr "ללא"
 
 #: kuma/dashboards/forms.py:10
 msgid "Hour"
-msgstr ""
+msgstr "שעה"
 
 #: kuma/dashboards/forms.py:11
 msgid "Day"
-msgstr ""
+msgstr "יום"
 
 #: kuma/dashboards/forms.py:12
 msgid "Week"
-msgstr ""
+msgstr "שבוע"
 
 #: kuma/dashboards/forms.py:13
 msgid "30 days"
-msgstr ""
+msgstr "30 ימים"
 
 #: kuma/dashboards/forms.py:22
 msgid "All Authors"
-msgstr ""
+msgstr "כל המחברים"
 
 #: kuma/dashboards/forms.py:23
 msgid "Known Authors"
-msgstr ""
+msgstr "מחברים ידועים"
 
 #: kuma/dashboards/forms.py:24
 msgid "Unknown Authors"
-msgstr ""
+msgstr "מחברים לא ידועים"
 
 #: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:24
 msgid "Locale:"
-msgstr ""
+msgstr "שפה:"
 
 #: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:29
 msgid "User:"
-msgstr ""
+msgstr "משתמש:"
 
 #: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:34
 msgid "Topic:"
-msgstr ""
+msgstr "נושא:"
 
 #: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:40
 msgid "Start Date:"
-msgstr ""
+msgstr "מועד התחלה:"
 
 #: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:45
 msgid "End Date:"
-msgstr ""
+msgstr "מועד סיום:"
 
 #: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:50
 msgid "Preceding Period:"
@@ -949,7 +954,7 @@ msgstr ""
 
 #: kuma/dashboards/forms.py:52
 msgid "Authors"
-msgstr ""
+msgstr "מחברים"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:2
 msgid "Dashboards"
@@ -957,32 +962,32 @@ msgstr ""
 
 #: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:25
 msgid "Active macros"
-msgstr ""
+msgstr "פקודות מאקרו פעילות"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
 msgid "All articles in need of review"
-msgstr ""
+msgstr "כל המאמרים שדורשים סקירה"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
 #, python-format
 msgid "Articles in need of review: %(tag)s"
-msgstr ""
+msgstr "מאמרים שדורשים סקירה: %(tag)s"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
 msgid "All documents"
-msgstr ""
+msgstr "כל המסמכים"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
 msgid "All Tags"
-msgstr ""
+msgstr "כל התגיות"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:16
 msgid "Doc status by topic"
-msgstr ""
+msgstr "מצב המסמך לפי נושא"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
 msgid "Documents with errors"
-msgstr ""
+msgstr "מסמכים עם שגיאות"
 
 #: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
 msgid "Documents with no parent"
@@ -1007,13 +1012,13 @@ msgstr ""
 #: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
 #, python-format
 msgid "Localized articles tagged with: %(tag)s"
-msgstr ""
+msgstr "מאמרים מתורגמים עם התגים: %(tag)s"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:13
 #, python-format
 msgid "Found %(num)s active macro."
 msgid_plural "Found %(num)s active macros."
-msgstr[0] ""
+msgstr[0] "נמצאו %(num)s פקודות מאקרו פעילות."
 msgstr[1] ""
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:15
@@ -1024,15 +1029,15 @@ msgstr ""
 #: kuma/dashboards/jinja2/dashboards/macros.html:17
 #, python-format
 msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr ""
+msgstr "באפשרותך גם <a href=\"%(url)s\">לחפש פקודות מאקרו באופן ידנית</a>."
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:23
 msgid "Active macros and their usage counts"
-msgstr ""
+msgstr "פקודות מאקרו פעילות וכמות השימוש בהן"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:30 kuma/dashboards/jinja2/dashboards/macros.html:65
 msgid "Macro Name"
-msgstr ""
+msgstr "שם המאקרו"
 
 #: kuma/dashboards/jinja2/dashboards/macros.html:32
 msgid "English Page Count"
