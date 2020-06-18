@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-11 11:55-0700\n"
-"PO-Revision-Date: 2020-06-18 20:32+0000\n"
+"PO-Revision-Date: 2020-06-18 20:39+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: Hebrew https://pontoon.mozilla.org/he/\n"
 "Language: he\n"
@@ -3087,7 +3087,7 @@ msgstr "לסמן את המהדורה הזו לסקירה?"
 
 #: kuma/wiki/forms.py:534
 msgid "Tag this revision for localization?"
-msgstr ""
+msgstr "לסמן את המהדורה הזאת לתרגום?"
 
 #: kuma/wiki/forms.py:924
 msgid "Unable to make the Akismet submission (invalid revision)."
@@ -3099,20 +3099,20 @@ msgstr ""
 
 #: kuma/wiki/forms.py:965
 msgid "New article URL"
-msgstr ""
+msgstr "כתובת חדשה למאמר"
 
 #: kuma/wiki/models.py:110
 #, python-format
 msgid "Parent %s does not exist."
-msgstr ""
+msgstr "ההורה %s לא קיים."
 
 #: kuma/wiki/models.py:120
 msgid "Document Tag"
-msgstr ""
+msgstr "תגית מסמך"
 
 #: kuma/wiki/models.py:121
 msgid "Document Tags"
-msgstr ""
+msgstr "תגיות מסמך"
 
 #: kuma/wiki/models.py:177
 msgid "uploaded to the document"
@@ -3125,23 +3125,23 @@ msgstr ""
 #: kuma/wiki/models.py:196
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
-msgstr ""
+msgstr "לא ניתן לצרף את הקובץ המצורף %(attachment_id)s מספר פעמים למסמך %(document_id)s"
 
 #: kuma/wiki/models.py:1622
 msgid "Review Tag"
-msgstr ""
+msgstr "תגית סקירה"
 
 #: kuma/wiki/models.py:1623
 msgid "Review Tags"
-msgstr ""
+msgstr "תגיות סקירה"
 
 #: kuma/wiki/models.py:1630
 msgid "Localization Tag"
-msgstr ""
+msgstr "תגית תרגום"
 
 #: kuma/wiki/models.py:1631
 msgid "Localization Tags"
-msgstr ""
+msgstr "תגיות תרגום"
 
 #: kuma/wiki/models.py:1675
 msgid "No table of contents"
@@ -3166,31 +3166,31 @@ msgstr ""
 #: kuma/wiki/models.py:1790
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
-msgstr ""
+msgstr "מהדורה חייבת להיות מבוססת על מהדורה של המסמך ב%(locale)s. מזהה המהדורה %(id)s לא תואם לקריטריון זה."
 
 #: kuma/wiki/models.py:1928
 msgid "IP address"
-msgstr ""
+msgstr "כתובת IP"
 
 #: kuma/wiki/models.py:1935
 msgid "User-Agent"
-msgstr ""
+msgstr "סוכן משתמש"
 
 #: kuma/wiki/models.py:1936
 msgid "HTTP Referrer"
-msgstr ""
+msgstr "מפנה HTTP"
 
 #: kuma/wiki/models.py:1941 kuma/wiki/models.py:2021
 msgid "Data submitted to Akismet"
-msgstr ""
+msgstr "נתונים שנשלחו ל־Akismet"
 
 #: kuma/wiki/models.py:1967
 msgid "Akismet submission"
-msgstr ""
+msgstr "הגשה ל־Akismet"
 
 #: kuma/wiki/models.py:1968
 msgid "Akismet submissions"
-msgstr ""
+msgstr "הגשות ל־Akismet"
 
 #: kuma/wiki/models.py:2008
 msgid "Slug"
@@ -3198,7 +3198,7 @@ msgstr ""
 
 #: kuma/wiki/models.py:2014 kuma/wiki/models.py:2063
 msgid "Document (optional)"
-msgstr ""
+msgstr "מסמך (רשות)"
 
 #: kuma/wiki/models.py:2023
 msgid "reviewed"
@@ -3206,7 +3206,7 @@ msgstr ""
 
 #: kuma/wiki/models.py:2031
 msgid "Needs Review"
-msgstr ""
+msgstr "נדרשת סקירה"
 
 #: kuma/wiki/models.py:2032
 msgid "Ham / False Positive"
@@ -3218,11 +3218,11 @@ msgstr ""
 
 #: kuma/wiki/models.py:2034
 msgid "Review Unavailable"
-msgstr ""
+msgstr "סקירה אינה זמינה"
 
 #: kuma/wiki/models.py:2035
 msgid "Akismet Error"
-msgstr ""
+msgstr "שגיאה ב־Akismet"
 
 #: kuma/wiki/models.py:2040
 msgid "Review of Akismet's classification as spam"
@@ -3230,11 +3230,11 @@ msgstr ""
 
 #: kuma/wiki/models.py:2047
 msgid "Staff reviewer"
-msgstr ""
+msgstr "סוקר מטעם הצוות"
 
 #: kuma/wiki/jinja2/403-create-page.html:3
 msgid "You're trying to create a new page."
-msgstr ""
+msgstr "הינך מנסה ליצור עמוד חדש."
 
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
@@ -3249,52 +3249,54 @@ msgid ""
 "feature? What feature? Is there a glossary term you’d like to add? What term?). </li> <li>Have made some good edits to existing pages.</li> <li>Have been contributing to the site for a while.</li> "
 "</ul>"
 msgstr ""
+"<p>יש לך סיכוי גבוה יותר לקבל הרשאות ליצירת עמודים אם:</p> <ul> <li>נדע את שם המשתמש שלך ב־MDN.</li> <li>נדע מה המניע שלך ליצור עמוד חדש (תיעוד של תכונה חדשה? מה התכונה? יש מונח שברצונך להוסיף "
+"למונחון? מה המונח?). </li> <li>ערכת שינויים טובים לעמודים קיימים.</li> <li>תרמת לאתר במשך זמן מה.</li> </ul>"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:4
 #, python-format
 msgid "Compare Revisions | %(document)s"
-msgstr ""
+msgstr "השוואת מהדורות | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:12
 msgid "Compare Revisions"
-msgstr ""
+msgstr "השוואת מהדורות"
 
 #: kuma/wiki/jinja2/wiki/compare_revisions.html:17
 msgid "Back to History"
-msgstr ""
+msgstr "חזרה להיסטוריה"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:3
 #, python-format
 msgid "Delete Document | %(document)s"
-msgstr ""
+msgstr "מחיקת מסמך | %(document)s"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:11
 msgid "Cannot delete pages with children until we fix this bug:"
-msgstr ""
+msgstr "לא ניתן למחוק עמודים עם צאצאים עד לתיקון הבאג הבא:"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:14
 msgid "Here are the the children of this page"
-msgstr ""
+msgstr "להלן הצאצאים של העמוד הזה"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:21
 msgid "Creator"
-msgstr ""
+msgstr "יוצר"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:29
 msgid "Creation Date"
-msgstr ""
+msgstr "תאריך היצירה"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:32
 msgid "Last Change By"
-msgstr ""
+msgstr "שינוי אחרון מאת"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:35
 msgid "Last Change Date"
-msgstr ""
+msgstr "מועד השינוי האחרון"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:38
 msgid "You are about to delete this document and all of its revisions. Please let us know why this page should be deleted."
-msgstr ""
+msgstr "פעולה זו תמחק את המסמך הזה ואת כל המהדורות שלו. נא לדווח לנו מדוע יש למחוק את העמוד הזה."
 
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:2
 #, python-format
@@ -3308,15 +3310,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:10 kuma/wiki/jinja2/wiki/deletion_log.html:10
 #, python-format
 msgid "This document was deleted by <a href=\"%(url)s\">%(username)s</a> on %(when)s."
-msgstr ""
+msgstr "מסמך זה נמחק על־ידי <a href=\"%(url)s\">%(username)s</a> ב־%(when)s."
 
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:14 kuma/wiki/jinja2/wiki/deletion_log.html:15
 msgid "Reason for Deletion"
-msgstr ""
+msgstr "סיבת המחיקה"
 
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:18
 msgid "This document was deleted, for unknown reasons."
-msgstr ""
+msgstr "המסמך הזה נמחק, מסיבות בלתי ידועות."
 
 #: kuma/wiki/jinja2/wiki/confirm_purge.html:21
 msgid "Purge this document?"
@@ -3333,11 +3335,11 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:18
 msgid "Document"
-msgstr ""
+msgstr "מסמך"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:25
 msgid "Content"
-msgstr ""
+msgstr "תוכן"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:33
 msgid "Why are you reverting to this revision?"
@@ -3353,7 +3355,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/create.html:5
 msgid "Create a New Article"
-msgstr ""
+msgstr "יצירת מאמר חדש"
 
 #: kuma/wiki/jinja2/wiki/create.html:21
 msgid "Create a"
@@ -3381,7 +3383,7 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/document.html:126
 msgid "Jump to:"
-msgstr ""
+msgstr "מעבר אל:"
 
 #: kuma/wiki/jinja2/wiki/document.html:149
 #, python-format
