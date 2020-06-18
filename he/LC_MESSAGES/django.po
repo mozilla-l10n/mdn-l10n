@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-11 11:55-0700\n"
-"PO-Revision-Date: 2020-06-18 19:41+0000\n"
+"PO-Revision-Date: 2020-06-18 19:53+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: Hebrew https://pontoon.mozilla.org/he/\n"
 "Language: he\n"
@@ -1641,64 +1641,64 @@ msgstr[1] "נמצאו %(count)s מסמכים לשאילתה ״%(query)s” בי�
 #, python-format
 msgid "%(count)s document found in all locales."
 msgid_plural "%(count)s documents found in all locales."
-msgstr[0] "מסמך אחד נמצא בין כל השפות."
-msgstr[1] "%(count)s מסמכים נמצאו בין כל השפות."
+msgstr[0] "נמצא מסמך אחד בין כל השפות."
+msgstr[1] "נמצאו %(count)s מסמכים בין כל השפות."
 
 #: kuma/search/jinja2/search/results.html:84
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s."
-msgstr[0] "מסמך אחד נמצא לשאילתה ״%(query)s” ב%(locale_native)s."
-msgstr[1] "%(count)s מסמכים נמצאו לשאילתה ״%(query)s” ב%(locale_native)s."
+msgstr[0] "נמצא מסמך אחד לשאילתה ״%(query)s” ב%(locale_native)s."
+msgstr[1] "נמצאו %(count)s מסמכים לשאילתה ״%(query)s” ב%(locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:90
 #, python-format
 msgid "%(count)s document found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found for \"%(query)s\" in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] "מסמך אחד נמצא לשאילתה ״%(query)s” ב%(locale_native)s וב%(default_locale_native)s."
-msgstr[1] "%(count)s מסמכים נמצאו לשאילתה ״%(query)s” ב%(locale_native)s וב%(default_locale_native)s."
+msgstr[0] "נמצא מסמך אחד לשאילתה ״%(query)s” ב%(locale_native)s וב%(default_locale_native)s."
+msgstr[1] "נמצאו %(count)s מסמכים לשאילתה ״%(query)s” ב%(locale_native)s וב%(default_locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:98
 #, python-format
 msgid "%(count)s document found in %(locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s."
-msgstr[0] "מסמך אחד נמצא ב%(locale_native)s."
-msgstr[1] "%(count)s מסמכים נמצאו ב%(locale_native)s."
+msgstr[0] "נמצא מסמך אחד ב%(locale_native)s."
+msgstr[1] "נמצאו %(count)s מסמכים ב%(locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:104
 #, python-format
 msgid "%(count)s document found in %(locale_native)s and %(default_locale_native)s."
 msgid_plural "%(count)s documents found in %(locale_native)s and %(default_locale_native)s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "נמצא מסמך אחד ב%(locale_native)s וב%(default_locale_native)s."
+msgstr[1] "נמצאו %(count)s מסמכים ב%(locale_native)s וב%(default_locale_native)s."
 
 #: kuma/search/jinja2/search/results.html:114
 #, python-format
 msgid "%(count)s document found for \"%(query)s\"."
 msgid_plural "%(count)s documents found for \"%(query)s\"."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "נמצא מסמך אחד לשאילתה ״%(query)s”."
+msgstr[1] "נמצאו %(count)s מסמכים לשאילתה ״%(query)s”."
 
 #: kuma/search/jinja2/search/results.html:120
 #, python-format
 msgid "%(count)s document found."
 msgid_plural "%(count)s documents found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "נמצא מסמך אחד."
+msgstr[1] "נמצאו %(count)s מסמכים."
 
 #: kuma/search/jinja2/search/results.html:130
 msgid "Showing all results."
-msgstr ""
+msgstr "כל התוצאות מוצגות."
 
 #: kuma/search/jinja2/search/results.html:132
 #, python-format
 msgid "Showing results %(start)s to %(end)s."
-msgstr ""
+msgstr "מוצגות התוצאות %(start)s עד %(end)s."
 
 #: kuma/search/jinja2/search/results.html:138
 #, python-format
 msgid "Search again in %(default_locale_native)s only"
-msgstr ""
+msgstr "חיפוש מחדש ב%(default_locale_native)s בלבד"
 
 #: kuma/search/jinja2/search/results.html:153
 msgid "Docs"
@@ -1738,7 +1738,7 @@ msgstr ""
 
 #: kuma/spam/models.py:32
 msgid "type"
-msgstr ""
+msgstr "סוג"
 
 #: kuma/users/adapters.py:40
 #, python-format
@@ -1746,26 +1746,28 @@ msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
 "rel=\"nofollow\">file a bug</a>."
 msgstr ""
+"חייב להיות לך לפחות חשבון מחובר אחד כדי להיכנס, עמך הסליחה. כדי לנתק חשבון זה עליך קודם לחבר חשבון אחר. כדי למחוק את הפרופיל שלך ב־MDN נא <a href=\"%(bug_form_url)s\" rel=\"nofollow\">לדווח על "
+"תקלה</a>."
 
 #: kuma/users/adapters.py:46
 msgid "An email address cannot be used as a username."
-msgstr ""
+msgstr "אי אפשר להשתמש בכתובת דוא״ל כשם משתמש."
 
 #: kuma/users/adapters.py:73
 msgid "The username you entered already exists."
-msgstr ""
+msgstr "שם המשתמש שבחרת כבר קיים."
 
 #: kuma/users/apps.py:15
 msgid "User"
-msgstr ""
+msgstr "משתמש"
 
 #: kuma/users/constants.py:6
 msgid "Username may contain only letters, numbers, and these characters: . - _ +"
-msgstr ""
+msgstr "שם המשתמש יכול להכיל אותיות, מספרים ואת התווים האלה: . - _ +"
 
 #: kuma/users/forms.py:30 kuma/users/models.py:55
 msgid "Timezone"
-msgstr ""
+msgstr "אזור זמן"
 
 #: kuma/users/forms.py:35
 msgid "Beta tester"
@@ -1773,43 +1775,43 @@ msgstr ""
 
 #: kuma/users/forms.py:37 kuma/users/jinja2/socialaccount/signup.html:53
 msgid "Username"
-msgstr ""
+msgstr "שם משתמש"
 
 #: kuma/users/forms.py:63
 msgid "Display a link to GitHub on my profile"
-msgstr ""
+msgstr "הצגת קישור ל־GitHub בפרופיל שלי"
 
 #: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:154
 msgid "Stack Overflow"
-msgstr ""
+msgstr "Stack Overflow"
 
 #: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:148
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:138
 msgid "Mozillians"
-msgstr ""
+msgstr "Mozillians"
 
 #: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:151
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:159
 msgid "Discourse"
-msgstr ""
+msgstr "Discourse"
 
 #: kuma/users/forms.py:159
 msgid "This field cannot be blank."
-msgstr ""
+msgstr "שדה זה לא יכול להישאר ריק."
 
 #: kuma/users/forms.py:167
 msgid "Username already in use."
-msgstr ""
+msgstr "שם המשתמש כבר נמצא בשימוש."
 
 #: kuma/users/forms.py:178
 msgid "Email"
-msgstr ""
+msgstr "דוא״ל"
 
 #: kuma/users/forms.py:214
 #, python-format
@@ -1823,68 +1825,68 @@ msgstr ""
 #: kuma/users/models.py:40
 #, python-format
 msgid "%(banned_user)s banned by %(banned_by)s"
-msgstr ""
+msgstr "המשתמש %(banned_user)s נחסם על־ידי %(banned_by)s"
 
 #: kuma/users/models.py:45
 #, python-format
 msgid "%s (no longer active)"
-msgstr ""
+msgstr "%s (לא פעיל יותר)"
 
 #: kuma/users/models.py:68
 msgid "Language"
-msgstr ""
+msgstr "שפה"
 
 #: kuma/users/models.py:73
 msgid "Homepage"
-msgstr ""
+msgstr "דף הבית"
 
 #: kuma/users/models.py:77
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
-msgstr ""
+msgstr "כתובת זו היא במבנה לא תקני. כתובות תקניות נראות כך: http://example.com/my_page."
 
 #: kuma/users/models.py:84
 msgid "Name"
-msgstr ""
+msgstr "שם"
 
 #: kuma/users/models.py:86
 msgid "Organization"
-msgstr ""
+msgstr "ארגון"
 
 #: kuma/users/models.py:88
 msgid "Location"
-msgstr ""
+msgstr "מיקום"
 
 #: kuma/users/models.py:89
 msgid "About Me"
-msgstr ""
+msgstr "על עצמי"
 
 #: kuma/users/models.py:91
 msgid "IRC nickname"
-msgstr ""
+msgstr "כינוי IRC"
 
 #: kuma/users/models.py:98
 msgid "Enter a valid website URL."
-msgstr ""
+msgstr "נא להזין כתובת אתר תקנית."
 
 #: kuma/users/models.py:101
 msgid "Enter a valid Twitter URL."
-msgstr ""
+msgstr "נא להזין כתובת Twitter תקנית."
 
 #: kuma/users/models.py:104
 msgid "Enter a valid GitHub URL."
-msgstr ""
+msgstr "נא להזין כתובת GitHub תקנית."
 
 #: kuma/users/models.py:108
 msgid "Enter a valid Stack Overflow URL."
-msgstr ""
+msgstr "נא להזין כתובת Stack Overflow תקנית."
 
 #: kuma/users/models.py:113
 msgid "Enter a valid LinkedIn URL."
-msgstr ""
+msgstr "נא להזין כתובת LinkedIn תקנית."
 
 #: kuma/users/models.py:118
 msgid "Enter a valid Mozillians URL."
-msgstr ""
+msgstr "נא להזין כתובת Mozillians תקנית."
 
 #: kuma/users/models.py:123
 msgid "Enter a valid Facebook URL."
@@ -1892,11 +1894,11 @@ msgstr ""
 
 #: kuma/users/models.py:128
 msgid "Enter a valid Discourse URL."
-msgstr ""
+msgstr "נא להזין כתובת Discourse תקנית."
 
 #: kuma/users/models.py:135
 msgid "Website"
-msgstr ""
+msgstr "אתר"
 
 #: kuma/users/models.py:143
 msgid "Public GitHub URL"
