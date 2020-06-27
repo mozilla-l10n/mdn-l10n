@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-11 11:55-0700\n"
-"PO-Revision-Date: 2020-06-26 22:32+0000\n"
+"PO-Revision-Date: 2020-06-27 16:22+0000\n"
 "Last-Translator: Selim Şumlu <selim@sum.lu>\n"
 "Language-Team: Turkish https://pontoon.mozilla.org/tr/\n"
 "Language: tr\n"
@@ -79,9 +79,9 @@ msgid "This user's profile has been banned."
 msgstr "Bu kullanıcının profili engellenmiş."
 
 #: jinja2/404.html:38
-#, fuzzy, python-format
+#, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a> to try again.</p>"
-msgstr "<li>Tekrar denemek için <a href=\"%(login_url)s\">giriş yapın.</a></li>"
+msgstr "<p>Tekrar denemek için <a href=\"%(login_url)s\">giriş yapın.</a></p>"
 
 #: jinja2/404.html:43
 #, python-format
@@ -380,9 +380,8 @@ msgid "Sign in"
 msgstr "Giriş yap"
 
 #: jinja2/includes/modal.html:9
-#, fuzzy
 msgid "Close modal"
-msgstr "Aramayı kapat"
+msgstr "Kutuyu kapat"
 
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
@@ -2511,9 +2510,9 @@ msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla bülten aboneliklerinizi yönetin."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
-#, fuzzy, python-format
+#, python-format
 msgid "You supported MDN with a %(cost)s monthly subscription."
-msgstr "Aylık aboneliği düzenle"
+msgstr "Ayda %(cost)s ödeyerek MDN'i desteklediniz."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
