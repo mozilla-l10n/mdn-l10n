@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-11 11:56-0700\n"
+"POT-Creation-Date: 2020-06-30 15:13-0700\n"
 "PO-Revision-Date: 2020-06-19 14:19+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek https://pontoon.mozilla.org/el/\n"
@@ -507,6 +507,77 @@ msgstr "Επιλογή γλώσσας"
 msgid "Skip to search"
 msgstr "Μετάβαση στην αναζήτηση"
 
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:13
+msgid "Are you sure you want to cancel?"
+msgstr "Θέλετε σίγουρα να ακυρώσετε;"
+
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:62
+#, fuzzy
+msgid "Keep subscription"
+msgstr "Ακύρωση συνδρομής"
+
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:69
+msgid "Yes, cancel subscription"
+msgstr "Ναι, ακύρωση συνδρομής"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+msgid "You have no active subscription. Why not <signupLink />?"
+msgstr "Δεν έχετε καμία ενεργή συνδρομή. Θέλετε να <signupLink />;"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+msgid "set one up"
+msgstr "ξεκινήστε μία"
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+msgid "Cancel subscription"
+msgstr "Ακύρωση συνδρομής"
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+msgid "${subscription.brand} ending in ${subscription.last4}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+msgid "Expires ${subscription.expires_at}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+msgid "Postal/Zip Code: ${subscription.zip}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:81
+msgid "To see your member perks, visit the <thankYouLink />"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:86
+#, fuzzy
+msgid "thank you page."
+msgstr "Ευχαριστούμε για τη βοήθεια."
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:93
+msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+msgid "FAQ"
+msgstr "συχνές ερωτήσεις"
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#, fuzzy
+msgid "contact support."
+msgstr "επικοινωνήστε με την υποστήριξη"
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:20 kuma/javascript/src/payments/pages/management.jsx:18
+msgid "Your monthly subscription has been successfully canceled."
+msgstr "Η μηνιαία σας συνδρομή έχει ακυρωθεί επιτυχώς."
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:62 kuma/javascript/src/payments/pages/management.jsx:88
+msgid "Loading…"
+msgstr "Φόρτωση…"
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:70 kuma/javascript/src/payments/pages/management.jsx:103
+msgid "Subscription"
+msgstr "Συνδρομή"
+
 #: kuma/javascript/src/accountsettings/components/user-details.jsx:27
 msgid "Email"
 msgstr "Email"
@@ -539,17 +610,35 @@ msgstr "Γλώσσα"
 msgid "Save"
 msgstr "Αποθήκευση"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:13
+#: kuma/javascript/src/accountsettings/pages/index.jsx:14
 msgid "Account Settings"
 msgstr "Ρυθμίσεις λογαριασμού"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Update your details and manage your preferences"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:38
-msgid "You need to be signed in to access account settings. "
+#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#, fuzzy
+msgid "You need to be <signInLink /> to access account settings."
 msgstr "Πρέπει να συνδεθείτε για πρόσβαση στις ρυθμίσεις λογαριασμού."
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#, fuzzy
+msgid "signed in"
+msgstr "σύνδεση"
+
+#: kuma/javascript/src/common/errors.jsx:15
+msgid "Sorry!"
+msgstr "Συγγνώμη!"
+
+#: kuma/javascript/src/common/errors.jsx:18
+msgid "Try again"
+msgstr "Δοκιμή ξανά"
+
+#: kuma/javascript/src/common/errors.jsx:28
+msgid "We're sorry, something went wrong. Please contact <emailLink />."
+msgstr "Λυπούμαστε, κάτι πήγε στραβά. Παρακαλούμε επικοινωνήστε στο <emailLink />."
 
 #: kuma/javascript/src/header/language-menu.jsx:30
 msgid "English"
@@ -680,30 +769,6 @@ msgstr "Κλείσιμο αναζήτησης"
 #: kuma/javascript/src/header/search.jsx:85
 msgid "Open search"
 msgstr "Άνοιγμα αναζήτησης"
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:13
-msgid "Are you sure you want to cancel?"
-msgstr "Θέλετε σίγουρα να ακυρώσετε;"
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:60
-msgid "Keep my membership"
-msgstr "Διατήρηση συνδρομής"
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:67
-msgid "Yes, cancel subscription"
-msgstr "Ναι, ακύρωση συνδρομής"
-
-#: kuma/javascript/src/payments/components/errors.jsx:15
-msgid "Sorry!"
-msgstr "Συγγνώμη!"
-
-#: kuma/javascript/src/payments/components/errors.jsx:18
-msgid "Try again"
-msgstr "Δοκιμή ξανά"
-
-#: kuma/javascript/src/payments/components/errors.jsx:28
-msgid "We're sorry, something went wrong. Please contact <emailLink />."
-msgstr "Λυπούμαστε, κάτι πήγε στραβά. Παρακαλούμε επικοινωνήστε στο <emailLink />."
 
 #: kuma/javascript/src/payments/components/feedback-form.jsx:54
 msgid "Thank you for submitting your feedback!"
@@ -953,8 +1018,8 @@ msgstr ""
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Μπορείτε να ακυρώσετε τη μηνιαία σας συνδρομή ανά πάσα στιγμή. Παρακαλούμε μεταβείτε στους <subscriptionsLink /> για να ακυρώσετε τη συνδρομή σας. Αν επιλέξετε να ακυρώσετε, δεν θα χρεώσουμε την "
 "κάρτα πληρωμών σας για τους επόμενους μήνες. Για κάθε άλλη απορία, παρακαλούμε <emailLink />."
@@ -979,49 +1044,13 @@ msgstr "Όταν κάνετε αίτημα διαγραφής λογαριασμ
 msgid "Manage monthly subscription"
 msgstr "Διαχείριση μηνιαίας συνδρομής"
 
-#: kuma/javascript/src/payments/pages/management.jsx:18
-msgid "Your monthly subscription has been successfully canceled."
-msgstr "Η μηνιαία σας συνδρομή έχει ακυρωθεί επιτυχώς."
-
-#: kuma/javascript/src/payments/pages/management.jsx:60
-msgid "You have no active subscription. Why not <signupLink />?"
-msgstr "Δεν έχετε καμία ενεργή συνδρομή. Θέλετε να <signupLink />;"
-
-#: kuma/javascript/src/payments/pages/management.jsx:64
-msgid "set one up"
-msgstr "ξεκινήστε μία"
-
-#: kuma/javascript/src/payments/pages/management.jsx:96
-msgid "Amount"
-msgstr "Ποσό"
-
-#: kuma/javascript/src/payments/pages/management.jsx:104
-msgid "Card number"
-msgstr "Αριθμός κάρτας"
-
-#: kuma/javascript/src/payments/pages/management.jsx:109
-msgid "Expiry"
-msgstr "Λήξη"
-
-#: kuma/javascript/src/payments/pages/management.jsx:119
-msgid "Cancel subscription"
-msgstr "Ακύρωση συνδρομής"
-
-#: kuma/javascript/src/payments/pages/management.jsx:138
+#: kuma/javascript/src/payments/pages/management.jsx:73
 msgid "Please <signInLink /> to continue."
 msgstr "Παρακαλούμε κάντε <signInLink /> για να συνεχίσετε."
 
-#: kuma/javascript/src/payments/pages/management.jsx:139
+#: kuma/javascript/src/payments/pages/management.jsx:74
 msgid "sign in"
 msgstr "σύνδεση"
-
-#: kuma/javascript/src/payments/pages/management.jsx:153
-msgid "Loading…"
-msgstr "Φόρτωση…"
-
-#: kuma/javascript/src/payments/pages/management.jsx:168
-msgid "Subscription"
-msgstr "Συνδρομή"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:32
 msgid "Useful things"
@@ -1046,10 +1075,6 @@ msgstr "Παρακαλούμε διαβάστε τους <termsLink /> μας γ
 #: kuma/javascript/src/payments/pages/thank-you.jsx:65
 msgid "subscription terms"
 msgstr "όρους συνδρομών"
-
-#: kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
-msgid "FAQ"
-msgstr "συχνές ερωτήσεις"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:75
 msgid "To find out more about why MDN is raising money through monthly subscriptions, please visit our <faqLink />."
@@ -1267,6 +1292,18 @@ msgstr "Σύνδεσμος"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Ενότητα"
+
+#~ msgid "Keep my membership"
+#~ msgstr "Διατήρηση συνδρομής"
+
+#~ msgid "Amount"
+#~ msgstr "Ποσό"
+
+#~ msgid "Card number"
+#~ msgstr "Αριθμός κάρτας"
+
+#~ msgid "Expiry"
+#~ msgstr "Λήξη"
 
 #~ msgid "New interest..."
 #~ msgstr "Νέο ενδιαφέρον..."

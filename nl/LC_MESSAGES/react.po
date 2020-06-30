@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-11 11:56-0700\n"
+"POT-Creation-Date: 2020-06-30 15:13-0700\n"
 "PO-Revision-Date: 2020-06-12 05:54+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: Dutch https://pontoon.mozilla.org/nl/\n"
@@ -517,6 +517,77 @@ msgstr "Taal selecteren"
 msgid "Skip to search"
 msgstr "Naar zoeken"
 
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:13
+msgid "Are you sure you want to cancel?"
+msgstr "Weet u zeker dat u wilt annuleren?"
+
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:62
+#, fuzzy
+msgid "Keep subscription"
+msgstr "Abonnement opzeggen"
+
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:69
+msgid "Yes, cancel subscription"
+msgstr "Ja, abonnement opzeggen"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+msgid "You have no active subscription. Why not <signupLink />?"
+msgstr "U hebt geen actief abonnement. Waarom niet <signupLink />?"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+msgid "set one up"
+msgstr "een aanmaken"
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+msgid "Cancel subscription"
+msgstr "Abonnement opzeggen"
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+msgid "${subscription.brand} ending in ${subscription.last4}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+msgid "Expires ${subscription.expires_at}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+msgid "Postal/Zip Code: ${subscription.zip}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:81
+msgid "To see your member perks, visit the <thankYouLink />"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:86
+#, fuzzy
+msgid "thank you page."
+msgstr "Bedankt dat u ons helpt."
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:93
+msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+msgid "FAQ"
+msgstr "FAQ"
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#, fuzzy
+msgid "contact support."
+msgstr "contact opnemen"
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:20 kuma/javascript/src/payments/pages/management.jsx:18
+msgid "Your monthly subscription has been successfully canceled."
+msgstr "Uw maandabonnement is met succes geannuleerd."
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:62 kuma/javascript/src/payments/pages/management.jsx:88
+msgid "Loading…"
+msgstr "Laden…"
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:70 kuma/javascript/src/payments/pages/management.jsx:103
+msgid "Subscription"
+msgstr "Abonnement"
+
 #: kuma/javascript/src/accountsettings/components/user-details.jsx:27
 msgid "Email"
 msgstr "E-mailadres"
@@ -549,17 +620,35 @@ msgstr "Taal"
 msgid "Save"
 msgstr "Opslaan"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:13
+#: kuma/javascript/src/accountsettings/pages/index.jsx:14
 msgid "Account Settings"
 msgstr "Accountinstellingen"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Update your details and manage your preferences"
 msgstr "Uw gegevens bijwerken en uw voorkeuren beheren"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:38
-msgid "You need to be signed in to access account settings. "
+#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#, fuzzy
+msgid "You need to be <signInLink /> to access account settings."
 msgstr "U dient te zijn aangemeld om toegang te krijgen tot uw accountinstellingen."
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#, fuzzy
+msgid "signed in"
+msgstr "aanmelden"
+
+#: kuma/javascript/src/common/errors.jsx:15
+msgid "Sorry!"
+msgstr "Sorry!"
+
+#: kuma/javascript/src/common/errors.jsx:18
+msgid "Try again"
+msgstr "Opnieuw proberen"
+
+#: kuma/javascript/src/common/errors.jsx:28
+msgid "We're sorry, something went wrong. Please contact <emailLink />."
+msgstr "Sorry, er is iets misgegaan. Neem contact op met <emailLink />."
 
 #: kuma/javascript/src/header/language-menu.jsx:30
 msgid "English"
@@ -690,30 +779,6 @@ msgstr "Zoekbalk sluiten"
 #: kuma/javascript/src/header/search.jsx:85
 msgid "Open search"
 msgstr "Zoekbalk openen"
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:13
-msgid "Are you sure you want to cancel?"
-msgstr "Weet u zeker dat u wilt annuleren?"
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:60
-msgid "Keep my membership"
-msgstr "Mijn lidmaatschap behouden"
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:67
-msgid "Yes, cancel subscription"
-msgstr "Ja, abonnement opzeggen"
-
-#: kuma/javascript/src/payments/components/errors.jsx:15
-msgid "Sorry!"
-msgstr "Sorry!"
-
-#: kuma/javascript/src/payments/components/errors.jsx:18
-msgid "Try again"
-msgstr "Opnieuw proberen"
-
-#: kuma/javascript/src/payments/components/errors.jsx:28
-msgid "We're sorry, something went wrong. Please contact <emailLink />."
-msgstr "Sorry, er is iets misgegaan. Neem contact op met <emailLink />."
 
 #: kuma/javascript/src/payments/components/feedback-form.jsx:54
 msgid "Thank you for submitting your feedback!"
@@ -957,8 +1022,8 @@ msgid ""
 "If you would like to manage your monthly subscription, such as changing your card account details, you will need to cancel your subscription and sign up again using the new card details. To cancel, "
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
 msgstr ""
-"Als u uw maandelijkse abonnement wilt beheren, zoals het wijzigen van uw creditcardgegevens, moet u uw abonnement opzeggen en u opnieuw abonneren met de nieuwe kaartgegevens. Ga om op te zeggen naar"
-" de <subscriptionsLink />, of neem voor vragen contact op met <emailLink />."
+"Als u uw maandelijkse abonnement wilt beheren, zoals het wijzigen van uw creditcardgegevens, moet u uw abonnement opzeggen en u opnieuw abonneren met de nieuwe kaartgegevens. Ga om op te zeggen "
+"naar de <subscriptionsLink />, of neem voor vragen contact op met <emailLink />."
 
 #: kuma/javascript/src/payments/pages/index.jsx:265 kuma/javascript/src/payments/pages/index.jsx:293 kuma/javascript/src/payments/pages/thank-you.jsx:48
 msgid "manage monthly subscription page"
@@ -966,8 +1031,8 @@ msgstr "pagina voor beheren van uw maandelijkse abonnement"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "U kunt uw maandabonnement op elk moment opzeggen. Ga naar de <subscriptionsLink /> om uw abonnement op te zeggen. Als u ervoor kiest om op te zeggen, zullen we de daaropvolgende maanden uw "
 "creditcard niet belasten. E-mail voor andere vragen of verzoeken naar <emailLink />."
@@ -992,49 +1057,13 @@ msgstr "Wanneer u vraagt uw account te verwijderen, annuleren we ook uw abonneme
 msgid "Manage monthly subscription"
 msgstr "Maandabonnement beheren"
 
-#: kuma/javascript/src/payments/pages/management.jsx:18
-msgid "Your monthly subscription has been successfully canceled."
-msgstr "Uw maandabonnement is met succes geannuleerd."
-
-#: kuma/javascript/src/payments/pages/management.jsx:60
-msgid "You have no active subscription. Why not <signupLink />?"
-msgstr "U hebt geen actief abonnement. Waarom niet <signupLink />?"
-
-#: kuma/javascript/src/payments/pages/management.jsx:64
-msgid "set one up"
-msgstr "een aanmaken"
-
-#: kuma/javascript/src/payments/pages/management.jsx:96
-msgid "Amount"
-msgstr "Bedrag"
-
-#: kuma/javascript/src/payments/pages/management.jsx:104
-msgid "Card number"
-msgstr "Kaartnummer"
-
-#: kuma/javascript/src/payments/pages/management.jsx:109
-msgid "Expiry"
-msgstr "Vervaldatum"
-
-#: kuma/javascript/src/payments/pages/management.jsx:119
-msgid "Cancel subscription"
-msgstr "Abonnement opzeggen"
-
-#: kuma/javascript/src/payments/pages/management.jsx:138
+#: kuma/javascript/src/payments/pages/management.jsx:73
 msgid "Please <signInLink /> to continue."
 msgstr "<SignInLink /> om door te gaan."
 
-#: kuma/javascript/src/payments/pages/management.jsx:139
+#: kuma/javascript/src/payments/pages/management.jsx:74
 msgid "sign in"
 msgstr "aanmelden"
-
-#: kuma/javascript/src/payments/pages/management.jsx:153
-msgid "Loading…"
-msgstr "Laden…"
-
-#: kuma/javascript/src/payments/pages/management.jsx:168
-msgid "Subscription"
-msgstr "Abonnement"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:32
 msgid "Useful things"
@@ -1059,10 +1088,6 @@ msgstr "Lees onze <termsLink /> voor meer informatie."
 #: kuma/javascript/src/payments/pages/thank-you.jsx:65
 msgid "subscription terms"
 msgstr "abonnementsvoorwaarden"
-
-#: kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
-msgid "FAQ"
-msgstr "FAQ"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:75
 msgid "To find out more about why MDN is raising money through monthly subscriptions, please visit our <faqLink />."
@@ -1278,6 +1303,18 @@ msgstr "Koppeling"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Sectie"
+
+#~ msgid "Keep my membership"
+#~ msgstr "Mijn lidmaatschap behouden"
+
+#~ msgid "Amount"
+#~ msgstr "Bedrag"
+
+#~ msgid "Card number"
+#~ msgstr "Kaartnummer"
+
+#~ msgid "Expiry"
+#~ msgstr "Vervaldatum"
 
 #~ msgid "Subscribe"
 #~ msgstr "Abonneren"

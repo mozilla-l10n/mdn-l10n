@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-11 11:56-0700\n"
+"POT-Creation-Date: 2020-06-30 15:13-0700\n"
 "PO-Revision-Date: 2020-06-19 11:32+0000\n"
 "Last-Translator: :stoyan <stoyan@gmx.com>\n"
 "Language-Team: Bulgarian https://pontoon.mozilla.org/bg/\n"
@@ -514,6 +514,76 @@ msgstr "Изберете прикачен файл"
 msgid "Skip to search"
 msgstr ""
 
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:13
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:62
+#, fuzzy
+msgid "Keep subscription"
+msgstr "Раздел"
+
+#: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:69
+msgid "Yes, cancel subscription"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+msgid "You have no active subscription. Why not <signupLink />?"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+msgid "set one up"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+msgid "Cancel subscription"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+msgid "${subscription.brand} ending in ${subscription.last4}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+msgid "Expires ${subscription.expires_at}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+msgid "Postal/Zip Code: ${subscription.zip}"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:81
+msgid "To see your member perks, visit the <thankYouLink />"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:86
+msgid "thank you page."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:93
+msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+msgid "FAQ"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+msgid "contact support."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:20 kuma/javascript/src/payments/pages/management.jsx:18
+msgid "Your monthly subscription has been successfully canceled."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:62 kuma/javascript/src/payments/pages/management.jsx:88
+msgid "Loading…"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/subscription.jsx:70 kuma/javascript/src/payments/pages/management.jsx:103
+#, fuzzy
+msgid "Subscription"
+msgstr "Раздел"
+
 #: kuma/javascript/src/accountsettings/components/user-details.jsx:27
 msgid "Email"
 msgstr ""
@@ -547,16 +617,33 @@ msgstr "Изберете прикачен файл"
 msgid "Save"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:13
+#: kuma/javascript/src/accountsettings/pages/index.jsx:14
 msgid "Account Settings"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Update your details and manage your preferences"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:38
-msgid "You need to be signed in to access account settings. "
+#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+msgid "You need to be <signInLink /> to access account settings."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#, fuzzy
+msgid "signed in"
+msgstr "Вход"
+
+#: kuma/javascript/src/common/errors.jsx:15
+msgid "Sorry!"
+msgstr ""
+
+#: kuma/javascript/src/common/errors.jsx:18
+msgid "Try again"
+msgstr ""
+
+#: kuma/javascript/src/common/errors.jsx:28
+msgid "We're sorry, something went wrong. Please contact <emailLink />."
 msgstr ""
 
 #: kuma/javascript/src/header/language-menu.jsx:30
@@ -690,30 +777,6 @@ msgstr "Затваряне на подменю"
 
 #: kuma/javascript/src/header/search.jsx:85
 msgid "Open search"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:13
-msgid "Are you sure you want to cancel?"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:60
-msgid "Keep my membership"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/cancel-subscription-form.jsx:67
-msgid "Yes, cancel subscription"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/errors.jsx:15
-msgid "Sorry!"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/errors.jsx:18
-msgid "Try again"
-msgstr ""
-
-#: kuma/javascript/src/payments/components/errors.jsx:28
-msgid "We're sorry, something went wrong. Please contact <emailLink />."
 msgstr ""
 
 #: kuma/javascript/src/payments/components/feedback-form.jsx:54
@@ -948,8 +1011,8 @@ msgstr ""
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 
 #: kuma/javascript/src/payments/pages/index.jsx:304
@@ -972,51 +1035,14 @@ msgstr ""
 msgid "Manage monthly subscription"
 msgstr ""
 
-#: kuma/javascript/src/payments/pages/management.jsx:18
-msgid "Your monthly subscription has been successfully canceled."
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:60
-msgid "You have no active subscription. Why not <signupLink />?"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:64
-msgid "set one up"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:96
-msgid "Amount"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:104
-msgid "Card number"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:109
-msgid "Expiry"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:119
-msgid "Cancel subscription"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:138
+#: kuma/javascript/src/payments/pages/management.jsx:73
 msgid "Please <signInLink /> to continue."
 msgstr ""
 
-#: kuma/javascript/src/payments/pages/management.jsx:139
+#: kuma/javascript/src/payments/pages/management.jsx:74
 #, fuzzy
 msgid "sign in"
 msgstr "Вход"
-
-#: kuma/javascript/src/payments/pages/management.jsx:153
-msgid "Loading…"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/management.jsx:168
-#, fuzzy
-msgid "Subscription"
-msgstr "Раздел"
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:32
 msgid "Useful things"
@@ -1040,10 +1066,6 @@ msgstr ""
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:65
 msgid "subscription terms"
-msgstr ""
-
-#: kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
-msgid "FAQ"
 msgstr ""
 
 #: kuma/javascript/src/payments/pages/thank-you.jsx:75
