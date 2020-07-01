@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-30 15:13-0700\n"
-"PO-Revision-Date: 2020-07-01 17:40+0000\n"
+"PO-Revision-Date: 2020-07-01 17:51+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: Hebrew https://pontoon.mozilla.org/he/\n"
 "Language: he\n"
@@ -3515,7 +3515,7 @@ msgstr "תודה לך על השקעת זמנך בשיפור MDN!"
 #: kuma/wiki/jinja2/wiki/edit.html:167
 #, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Editor Guide</a>."
-msgstr "נראה שזוהי התרומה הראשונה שלך ל־MDN. ניתן למצוא תשובות לשאלות נפוצות על עריכה ב<a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">מדריך לעורך</a> שלנו."
+msgstr "נראה שזוהי התרומה הראשונה שלך ל־MDN. ניתן למצוא תשובות לשאלות נפוצות על עריכה ב<a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">מדריך לעורכים</a> שלנו."
 
 #: kuma/wiki/jinja2/wiki/edit.html:171
 msgid "Don't be afraid to break something, you can always revert your changes."
@@ -3749,51 +3749,51 @@ msgstr "תגיות ב%(locale)s"
 
 #: kuma/wiki/jinja2/wiki/translate.html:163
 msgid "Version Notes"
-msgstr ""
+msgstr "הערות לגרסה"
 
 #: kuma/wiki/jinja2/wiki/translate.html:165
 msgid "Localization flags"
-msgstr ""
+msgstr "דגלוני תרגום"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:4
 #, python-format
 msgid "%(creator)s changed %(document_title)s."
-msgstr ""
+msgstr "המשתמש %(creator)s שינה את %(document_title)s."
 
 #. This is in an email.
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:13
 msgid "View User Profile:"
-msgstr ""
+msgstr "הצגת פרופיל משתמש:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:18
 msgid "Compare on MDN:"
-msgstr ""
+msgstr "השוואה ב־MDN:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:23
 msgid "View Article:"
-msgstr ""
+msgstr "הצגת מאמר:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:27
 msgid "Edit Article:"
-msgstr ""
+msgstr "עריכת מאמר:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:31
 msgid "Article History:"
-msgstr ""
+msgstr "היסטוריית מאמר:"
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:39
 #, python-format
 msgid "You are subscribed to edits on: %(title)s and all its sub-articles."
-msgstr ""
+msgstr "נרשמת כמנוי לעריכות של: %(title)s ולכל מאמרי המשנה."
 
 #: kuma/wiki/jinja2/wiki/email/edited.ltxt:41
 #, python-format
 msgid "You are subscribed to edits on: %(title)s."
-msgstr ""
+msgstr "נרשמת כמנוי לעריכות של: %(title)s."
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:5
 msgid "This article needs these reviews:"
-msgstr ""
+msgstr "המאמר הזה דורש את הסקירות הבאות:"
 
 #: kuma/wiki/jinja2/wiki/includes/approvals.html:13
 #, python-format
@@ -3807,15 +3807,15 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:24
 msgid "Languages"
-msgstr ""
+msgstr "שפות"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:39
 msgid "No translations exist for this article."
-msgstr ""
+msgstr "לא קיימים תרגומים לערך זה."
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:43
 msgid "Add a translation"
-msgstr ""
+msgstr "הוספת תרגום"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:64 kuma/wiki/jinja2/wiki/includes/buttons.html:68
 msgid "Watch"
@@ -3823,15 +3823,15 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:87
 msgid "New sub-article"
-msgstr ""
+msgstr "תת־מאמר חדש"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:88
 msgid "Clone this article"
-msgstr ""
+msgstr "שכפול מאמר זה"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:91
 msgid "Move this article"
-msgstr ""
+msgstr "העברת מאמר זה"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:94
 msgid "View in admin"
@@ -3839,11 +3839,11 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:102
 msgid "Delete this article"
-msgstr ""
+msgstr "מחיקת מאמר זה"
 
 #: kuma/wiki/jinja2/wiki/includes/buttons.html:105
 msgid "Print this article"
-msgstr ""
+msgstr "הדפסת מאמר זה"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:4
 msgid "breadcrumbs"
@@ -3851,20 +3851,20 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:25
 msgid "Related Topics"
-msgstr ""
+msgstr "נושאים קשורים"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:32
 msgid "Change Revisions"
-msgstr ""
+msgstr "החלפת מהדורות"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:37 kuma/wiki/jinja2/wiki/includes/document_macros.html:52
 #, python-format
 msgid "Revision %(num)s:"
-msgstr ""
+msgstr "מהדורה %(num)s:"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:89 kuma/wiki/jinja2/wiki/includes/revision_diff_table.html:8
 msgid "The server is rendering the content comparison. Please refresh this page in a few minutes."
-msgstr ""
+msgstr "השרת מעבד את התוכן להשוואה. נא לרענן את העמוד הזה בעוד מספר דקות."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:105
 msgid "Subscribe to this article and all its sub-articles"
@@ -3884,15 +3884,15 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:118
 msgid "Updating subscription status"
-msgstr ""
+msgstr "מצב המינוי מתעדכן"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:119
 msgid "Subscribe to this article"
-msgstr ""
+msgstr "הרשמה כמינוי למאמר זה"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:120
 msgid "Unsubscribe from this article"
-msgstr ""
+msgstr "ביטול המינוי למאמר זה"
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:122
 #, python-format
@@ -3917,12 +3917,12 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:136
 #, python-format
 msgid "You are now subscribed to the %(language)s version of this article."
-msgstr ""
+msgstr "נרשמת למינוי לגרסה ה%(language)s של מאמר זה."
 
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:136
 #, python-format
 msgid "You have been unsubscribed from the %(language)s version of this article."
-msgstr ""
+msgstr "ביטלת את המינוי לגרסה ה%(language)s של מאמר זה."
 
 #: kuma/wiki/jinja2/wiki/includes/document_toc_field.html:2 kuma/wiki/jinja2/wiki/includes/translate_description.html:49
 msgid "Generate table of contents"
@@ -3938,27 +3938,27 @@ msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/guide_links.html:4
 msgid "Editor Guide"
-msgstr ""
+msgstr "מדריך לעורכים"
 
 #: kuma/wiki/jinja2/wiki/includes/guide_links.html:6
 msgid "Style Guide"
-msgstr ""
+msgstr "מדריך סגנון"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:3
 msgid "There was a scripting error on this page. While it is being addressed by site editors, you can view partial content below."
 msgid_plural "There were scripting errors on this page. While those are being addressed by site editors, you can view partial content below."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "אירעה שגיאת תסריט בעמוד זה. בזמן שהיא מטופלת על־ידי עורכי האתר, ניתן לצפות בתוכן חלקי להלן."
+msgstr[1] "אירעו שגיאות תסריט בעמוד זה. בזמן שהן מטופלות על־ידי עורכי האתר, ניתן לצפות בתוכן חלקי להלן."
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:11
 msgid "Hide error information"
-msgstr ""
+msgstr "הסתרת פרטי שגיאה"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:12
 msgid "More information about this error"
 msgid_plural "More information about these errors"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "מידע נוסף על שגיאה זו"
+msgstr[1] "מידע נוסף על שגיאות אלו"
 
 #: kuma/wiki/jinja2/wiki/includes/kumascript_errors.html:19
 #, python-format
