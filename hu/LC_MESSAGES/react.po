@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-06-30 15:13-0700\n"
-"PO-Revision-Date: 2020-06-12 09:13+0000\n"
+"PO-Revision-Date: 2020-07-01 17:21+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
 "Language: hu\n"
@@ -519,9 +519,8 @@ msgid "Are you sure you want to cancel?"
 msgstr "Biztos, hogy elveti?"
 
 #: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:62
-#, fuzzy
 msgid "Keep subscription"
-msgstr "Előfizetés megszüntetése"
+msgstr "Előfizetés megtartása"
 
 #: kuma/javascript/src/accountsettings/components/cancel-subscription-form.jsx:69
 msgid "Yes, cancel subscription"
@@ -541,37 +540,35 @@ msgstr "Előfizetés megszüntetése"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
 msgid "${subscription.brand} ending in ${subscription.last4}"
-msgstr ""
+msgstr "${subscription.brand}, amelynek vége ${subscription.last4}"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
 msgid "Expires ${subscription.expires_at}"
-msgstr ""
+msgstr "Lejár: ${subscription.expires_at}"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
 msgid "Postal/Zip Code: ${subscription.zip}"
-msgstr ""
+msgstr "Irányítószám: ${subscription.zip}"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:81
 msgid "To see your member perks, visit the <thankYouLink />"
-msgstr ""
+msgstr "Ha szeretné megtekinteni a tagságával járó előnyöket, keresse fel a <thankYouLink />"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:86
-#, fuzzy
 msgid "thank you page."
-msgstr "Köszönjük, hogy segített."
+msgstr "köszönőoldalt."
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:93
 msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
-msgstr ""
+msgstr "Ha kérdése van, olvassa el a <faqLink /> vagy <supportEmail />"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
 msgid "FAQ"
 msgstr "GyIK-ot"
 
 #: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
-#, fuzzy
 msgid "contact support."
-msgstr "lépjen kapcsolatba az ügyfélszolgálattal"
+msgstr "lépjen kapcsolatba az ügyfélszolgálattal."
 
 #: kuma/javascript/src/accountsettings/components/subscription.jsx:20 kuma/javascript/src/payments/pages/management.jsx:18
 msgid "Your monthly subscription has been successfully canceled."
@@ -626,14 +623,12 @@ msgid "Update your details and manage your preferences"
 msgstr "Frissítse adatait és kezelje a beállításait"
 
 #: kuma/javascript/src/accountsettings/pages/index.jsx:26
-#, fuzzy
 msgid "You need to be <signInLink /> to access account settings."
-msgstr "A fiókbeállítások eléréséhez be kell jelentkeznie."
+msgstr "A fiókbeállítások eléréséhez <signInLink />."
 
 #: kuma/javascript/src/accountsettings/pages/index.jsx:29
-#, fuzzy
 msgid "signed in"
-msgstr "jelentkezzen be"
+msgstr "be kell jelentkeznie"
 
 #: kuma/javascript/src/common/errors.jsx:15
 msgid "Sorry!"
@@ -929,8 +924,8 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános "
-"és jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
+"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános és"
+" jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
 "platformjába kerülnek befektetésre."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
@@ -1030,8 +1025,8 @@ msgstr "havi előfizetés kezelői oldal"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
-"subsequent months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
+" months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Bármikor lemondhatja a havi előfizetését. Keresse fel a <subscriptionsLink /> lapot. Ha a lemondást választja, akkor a következő hónapokban nem fogjuk megterhelni a kártyáját. További kérdés esetén "
 "<emailLink />."
