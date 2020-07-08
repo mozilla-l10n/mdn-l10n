@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-30 15:13-0700\n"
+"POT-Creation-Date: 2020-07-08 11:33-0700\n"
 "PO-Revision-Date: 2020-07-01 17:21+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -142,32 +142,36 @@ msgstr "A megadott URL valószínűleg érvénytelen"
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: kuma/javascript/src/active-banner.jsx:175
+#: kuma/javascript/src/active-banner.jsx:179
 msgid "Close banner"
 msgstr "Banner bezárása"
 
-#: kuma/javascript/src/active-banner.jsx:196
-msgid "MDN Survey"
-msgstr "MDN felmérés"
+#: kuma/javascript/src/active-banner.jsx:201
+msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:197
-msgid "Help us understand the top 10 needs of Web developers and designers."
-msgstr "Segítsen megérteni a webfejlesztők és dizájnerek 10 legfontosabb igényét."
-
-#: kuma/javascript/src/active-banner.jsx:200
+#: kuma/javascript/src/active-banner.jsx:204 kuma/javascript/src/active-banner.jsx:220
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
 
-#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:216
+msgid "MDN Survey"
+msgstr "MDN felmérés"
+
+#: kuma/javascript/src/active-banner.jsx:217
+msgid "Help us understand the top 10 needs of Web developers and designers."
+msgstr "Segítsen megérteni a webfejlesztők és dizájnerek 10 legfontosabb igényét."
+
+#: kuma/javascript/src/active-banner.jsx:246 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Legyen havi támogató"
 
-#: kuma/javascript/src/active-banner.jsx:228
+#: kuma/javascript/src/active-banner.jsx:248
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Támogassa az MDN-t egy %(amount)s összegű havi előfizetéssel"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:253
 msgid "Learn more"
 msgstr "További tudnivalók"
 
@@ -526,27 +530,58 @@ msgstr "Előfizetés megtartása"
 msgid "Yes, cancel subscription"
 msgstr "Igen, szüntesse meg az előfizetést"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
+#, fuzzy
+msgid "Are you sure you want to close your account?"
+msgstr "Biztos, hogy elveti?"
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
+msgid "Keep account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
+msgid "Yes, close account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:17
+#, fuzzy
+msgid "Close Account"
+msgstr "Almenü bezárása"
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:20
+msgid "Delete your account and account data."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#, fuzzy
+msgid "Close account"
+msgstr "Banner bezárása"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:14
 msgid "You have no active subscription. Why not <signupLink />?"
 msgstr "Nincs aktív előfizetése. Miért nem <signupLink />?"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:18
 msgid "set one up"
 msgstr "állít be egyet"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:55
 msgid "Cancel subscription"
 msgstr "Előfizetés megszüntetése"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:69
 msgid "${subscription.brand} ending in ${subscription.last4}"
 msgstr "${subscription.brand}, amelynek vége ${subscription.last4}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:73
 msgid "Expires ${subscription.expires_at}"
 msgstr "Lejár: ${subscription.expires_at}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
 msgid "Postal/Zip Code: ${subscription.zip}"
 msgstr "Irányítószám: ${subscription.zip}"
 
@@ -562,11 +597,11 @@ msgstr "köszönőoldalt."
 msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
 msgstr "Ha kérdése van, olvassa el a <faqLink /> vagy <supportEmail />"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:98 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
 msgid "FAQ"
 msgstr "GyIK-ot"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:103
 msgid "contact support."
 msgstr "lépjen kapcsolatba az ügyfélszolgálattal."
 
@@ -614,19 +649,19 @@ msgstr "Nyelv"
 msgid "Save"
 msgstr "Mentés"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Account Settings"
 msgstr "Fiókbeállítások"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/pages/index.jsx:16
 msgid "Update your details and manage your preferences"
 msgstr "Frissítse adatait és kezelje a beállításait"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#: kuma/javascript/src/accountsettings/pages/index.jsx:27
 msgid "You need to be <signInLink /> to access account settings."
 msgstr "A fiókbeállítások eléréséhez <signInLink />."
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#: kuma/javascript/src/accountsettings/pages/index.jsx:30
 msgid "signed in"
 msgstr "be kell jelentkeznie"
 
@@ -924,8 +959,8 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános és"
-" jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
+"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános "
+"és jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
 "platformjába kerülnek befektetésre."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
@@ -1025,8 +1060,8 @@ msgstr "havi előfizetés kezelői oldal"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Bármikor lemondhatja a havi előfizetését. Keresse fel a <subscriptionsLink /> lapot. Ha a lemondást választja, akkor a következő hónapokban nem fogjuk megterhelni a kártyáját. További kérdés esetén "
 "<emailLink />."

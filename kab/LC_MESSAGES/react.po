@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-30 15:13-0700\n"
+"POT-Creation-Date: 2020-07-08 11:33-0700\n"
 "PO-Revision-Date: 2020-07-03 07:10+0000\n"
 "Last-Translator: ZiriSut <rgebbid@gmail.com>\n"
 "Language-Team: Kabyle https://pontoon.mozilla.org/kab/\n"
@@ -139,32 +139,36 @@ msgstr "Tansa URL ikecmen tettban mačči d tameɣtut"
 msgid "Default"
 msgstr "Amezwer"
 
-#: kuma/javascript/src/active-banner.jsx:175
+#: kuma/javascript/src/active-banner.jsx:179
 msgid "Close banner"
 msgstr "Mdel aɣarrac"
 
-#: kuma/javascript/src/active-banner.jsx:196
-msgid "MDN Survey"
-msgstr "Tifranin n uneflay"
+#: kuma/javascript/src/active-banner.jsx:201
+msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:197
-msgid "Help us understand the top 10 needs of Web developers and designers."
-msgstr "Mudd-aɣ-d afus ad negzu 10 n tɣawsiwin timezwura i sran yineflayen akked yimfeṣṣlen."
-
-#: kuma/javascript/src/active-banner.jsx:200
+#: kuma/javascript/src/active-banner.jsx:204 kuma/javascript/src/active-banner.jsx:220
 msgid "Take the survey"
 msgstr "Ttekki deg tefrant"
 
-#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:216
+msgid "MDN Survey"
+msgstr "Tifranin n uneflay"
+
+#: kuma/javascript/src/active-banner.jsx:217
+msgid "Help us understand the top 10 needs of Web developers and designers."
+msgstr "Mudd-aɣ-d afus ad negzu 10 n tɣawsiwin timezwura i sran yineflayen akked yimfeṣṣlen."
+
+#: kuma/javascript/src/active-banner.jsx:246 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Efk tawsa s wayyur"
 
-#: kuma/javascript/src/active-banner.jsx:228
+#: kuma/javascript/src/active-banner.jsx:248
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Mudd afus i MDN s %(amount)s n ujerred s wayyur"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:253
 msgid "Learn more"
 msgstr "Issin ugar"
 
@@ -524,27 +528,58 @@ msgstr "Ḥrez ajerred-inek/inem"
 msgid "Yes, cancel subscription"
 msgstr "Ih, sefsex ajerred"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
+#, fuzzy
+msgid "Are you sure you want to close your account?"
+msgstr "Tebɣiḍ ad t-tesfesxeḍ?"
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
+msgid "Keep account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
+msgid "Yes, close account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:17
+#, fuzzy
+msgid "Close Account"
+msgstr "Mdel umuɣ asnawan"
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:20
+msgid "Delete your account and account data."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#, fuzzy
+msgid "Close account"
+msgstr "Mdel aɣarrac"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:14
 msgid "You have no active subscription. Why not <signupLink />?"
 msgstr "Ur tesɛiḍ ara amulteɣ urmid. Ayɣer ala <signupLink />?"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:18
 msgid "set one up"
 msgstr "Sbadu yiwen"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:55
 msgid "Cancel subscription"
 msgstr "Sefsex ajerred-inek"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:69
 msgid "${subscription.brand} ending in ${subscription.last4}"
 msgstr "${subscription.brand} i ikeffun s ${subscription.last4}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:73
 msgid "Expires ${subscription.expires_at}"
 msgstr "Ad yemmet deg ${subscription.expires_at}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
 msgid "Postal/Zip Code: ${subscription.zip}"
 msgstr "Tangalt n lpusṭa/Zip: ${subscription.zip}"
 
@@ -560,11 +595,11 @@ msgstr "Asebter n usnemmer."
 msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
 msgstr "Ma yella tesεiḍ isteqsiyen, ttxil-k/m ɣer <faqLink /> neɣ tzemreḍ daɣen <supportEmail />"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:98 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
 msgid "FAQ"
 msgstr "Isteqsiyen FAQ"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:103
 msgid "contact support."
 msgstr "nermes tallalt."
 
@@ -612,19 +647,19 @@ msgstr "Tutlayt"
 msgid "Save"
 msgstr "Sekles"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Account Settings"
 msgstr "Iɣewwaṛen n umiḍan"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/pages/index.jsx:16
 msgid "Update your details and manage your preferences"
 msgstr "Leqqem talqayt-inek/inem, tesferkeḍ daɣen ismenyifen-inek/inem"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#: kuma/javascript/src/accountsettings/pages/index.jsx:27
 msgid "You need to be <signInLink /> to access account settings."
 msgstr "Ilaq ad tiliḍ d <signInLink /> akken ad tkecmeḍ ɣer yiɣewwaren n umiḍan."
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#: kuma/javascript/src/accountsettings/pages/index.jsx:30
 msgid "signed in"
 msgstr "kcem"
 
@@ -1017,8 +1052,8 @@ msgstr "sefrek asebter n ujerred n wayyur"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Tzemreḍ ad teffɣeḍ seg ujerred-inek s wayyur melmi tebɣiḍ. Ttxil-k rzu ɣer <subscriptionsLink /> akken ad tekkseḍ ajerred-inek. Ma yella tferneḍ tuffɣa, ur nettɛemmiṛ ara takerḍa-inek n lexlaṣ i "
 "wayyuren i d-iteddeun. I kra n usesten neɣ n uwellah, ha-t-an <emailLink />."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-30 15:13-0700\n"
+"POT-Creation-Date: 2020-07-08 11:33-0700\n"
 "PO-Revision-Date: 2020-07-02 09:42+0000\n"
 "Last-Translator: Benoit Leseul <benoit.leseul@gmail.com>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -139,32 +139,36 @@ msgstr "L'URL saisie ne semble pas être valide"
 msgid "Default"
 msgstr "Par défaut"
 
-#: kuma/javascript/src/active-banner.jsx:175
+#: kuma/javascript/src/active-banner.jsx:179
 msgid "Close banner"
 msgstr "Fermer la bannière"
 
-#: kuma/javascript/src/active-banner.jsx:196
-msgid "MDN Survey"
-msgstr "Sondage MDN"
+#: kuma/javascript/src/active-banner.jsx:201
+msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:197
-msgid "Help us understand the top 10 needs of Web developers and designers."
-msgstr "Aidez-nous à comprendre les 10 besoins principaux des développeurs et concepteurs web."
-
-#: kuma/javascript/src/active-banner.jsx:200
+#: kuma/javascript/src/active-banner.jsx:204 kuma/javascript/src/active-banner.jsx:220
 msgid "Take the survey"
 msgstr "Participer au sondage"
 
-#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:216
+msgid "MDN Survey"
+msgstr "Sondage MDN"
+
+#: kuma/javascript/src/active-banner.jsx:217
+msgid "Help us understand the top 10 needs of Web developers and designers."
+msgstr "Aidez-nous à comprendre les 10 besoins principaux des développeurs et concepteurs web."
+
+#: kuma/javascript/src/active-banner.jsx:246 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Faire un don mensuel"
 
-#: kuma/javascript/src/active-banner.jsx:228
+#: kuma/javascript/src/active-banner.jsx:248
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Soutenez MDN par un abonnement mensuel de %(amount)s"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:253
 msgid "Learn more"
 msgstr "En savoir plus"
 
@@ -226,8 +230,8 @@ msgstr "Disposez-vous de documents justificatifs ?"
 msgid ""
 "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
 msgstr ""
-"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite pour"
-" donner des exemples en situation de votre trouvaille."
+"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite "
+"pour donner des exemples en situation de votre trouvaille."
 
 #: kuma/javascript/src/bcd-signal.jsx:505
 msgid "Connection error:"
@@ -524,27 +528,58 @@ msgstr "Conserver l’abonnement"
 msgid "Yes, cancel subscription"
 msgstr "Oui, annuler mon abonnement"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
+#, fuzzy
+msgid "Are you sure you want to close your account?"
+msgstr "Voulez-vous vraiment annuler ?"
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
+msgid "Keep account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
+msgid "Yes, close account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:17
+#, fuzzy
+msgid "Close Account"
+msgstr "Fermer le sous-menu"
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:20
+msgid "Delete your account and account data."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#, fuzzy
+msgid "Close account"
+msgstr "Fermer la bannière"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:14
 msgid "You have no active subscription. Why not <signupLink />?"
 msgstr "Vous n’avez pas d’abonnement actif. Pourquoi ne pas <signupLink /> ?"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:18
 msgid "set one up"
 msgstr "en créer un"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:55
 msgid "Cancel subscription"
 msgstr "Annuler l’abonnement"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:69
 msgid "${subscription.brand} ending in ${subscription.last4}"
 msgstr "${subscription.brand} se terminant par ${subscription.last4}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:73
 msgid "Expires ${subscription.expires_at}"
 msgstr "Expiration : ${subscription.expires_at}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
 msgid "Postal/Zip Code: ${subscription.zip}"
 msgstr "Code postal/zip : ${subscription.zip}"
 
@@ -560,11 +595,11 @@ msgstr "page de remerciements."
 msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
 msgstr "Si vous avez des questions, veuillez lire la <faqLink />, ou vous pouvez également <supportEmail />"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:98 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
 msgid "FAQ"
 msgstr "FAQ"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:103
 msgid "contact support."
 msgstr "contacter l’assistance."
 
@@ -612,19 +647,19 @@ msgstr "Langue"
 msgid "Save"
 msgstr "Enregistrer"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/pages/index.jsx:16
 msgid "Update your details and manage your preferences"
 msgstr "Mise à jour de vos coordonnées et gestion de vos préférences"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#: kuma/javascript/src/accountsettings/pages/index.jsx:27
 msgid "You need to be <signInLink /> to access account settings."
 msgstr "Vous devez <signInLink /> pour accéder aux paramètres de compte."
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#: kuma/javascript/src/accountsettings/pages/index.jsx:30
 msgid "signed in"
 msgstr "vous connecter"
 
@@ -891,9 +926,9 @@ msgid ""
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
 "again)-- to accelerate those improvements."
 msgstr ""
-"Notre base d'utilisateurs croît exponentiellement depuis quelques années et nous avons une longue liste d’améliorations que nous aimerions mettre en œuvre. Bien que MDN soit actuellement entièrement"
-" financé par Mozilla, et ce depuis ses débuts, nous souhaitons à présent resserrer les liens entre notre public (vous), notre contenu (rédigé pour vous et parfois par vous) et nos contributeurs "
-"(encore vous) afin d’accélérer la réalisation de ces améliorations."
+"Notre base d'utilisateurs croît exponentiellement depuis quelques années et nous avons une longue liste d’améliorations que nous aimerions mettre en œuvre. Bien que MDN soit actuellement "
+"entièrement financé par Mozilla, et ce depuis ses débuts, nous souhaitons à présent resserrer les liens entre notre public (vous), notre contenu (rédigé pour vous et parfois par vous) et nos "
+"contributeurs (encore vous) afin d’accélérer la réalisation de ces améliorations."
 
 #: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
@@ -1026,8 +1061,8 @@ msgstr "la page de gestion d’abonnement mensuel"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Vous pouvez annuler votre abonnement mensuel à tout moment. Veuillez accéder à <subscriptionsLink /> pour annuler votre abonnement. Si vous choisissez d’annuler, nous ne débiterons pas votre carte "
 "de paiement pour les mois suivants. Pour toute autre question ou demande de renseignements, veuillez contacter <emailLink />."

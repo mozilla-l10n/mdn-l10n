@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-30 15:13-0700\n"
+"POT-Creation-Date: 2020-07-08 11:33-0700\n"
 "PO-Revision-Date: 2020-05-10 16:54+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
@@ -139,32 +139,36 @@ msgstr "URL bạn đã nhập có vẻ không hợp lệ"
 msgid "Default"
 msgstr "Mặc định"
 
-#: kuma/javascript/src/active-banner.jsx:175
+#: kuma/javascript/src/active-banner.jsx:179
 msgid "Close banner"
 msgstr "Đóng biểu ngữ"
 
-#: kuma/javascript/src/active-banner.jsx:196
-msgid "MDN Survey"
-msgstr "Khảo sát MDN"
+#: kuma/javascript/src/active-banner.jsx:201
+msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:197
-msgid "Help us understand the top 10 needs of Web developers and designers."
-msgstr "Hãy giúp chúng tôi hiểu 10 nhu cầu hàng đầu của các nhà phát triển Web và nhà thiết kế."
-
-#: kuma/javascript/src/active-banner.jsx:200
+#: kuma/javascript/src/active-banner.jsx:204 kuma/javascript/src/active-banner.jsx:220
 msgid "Take the survey"
 msgstr "Tham gia khảo sát"
 
-#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:216
+msgid "MDN Survey"
+msgstr "Khảo sát MDN"
+
+#: kuma/javascript/src/active-banner.jsx:217
+msgid "Help us understand the top 10 needs of Web developers and designers."
+msgstr "Hãy giúp chúng tôi hiểu 10 nhu cầu hàng đầu của các nhà phát triển Web và nhà thiết kế."
+
+#: kuma/javascript/src/active-banner.jsx:246 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Trở thành người hỗ trợ hàng tháng"
 
-#: kuma/javascript/src/active-banner.jsx:228
+#: kuma/javascript/src/active-banner.jsx:248
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Hỗ trợ MDN với gói đăng ký %(amount)s mỗi tháng"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:253
 msgid "Learn more"
 msgstr "Tìm hiểu thêm"
 
@@ -522,27 +526,58 @@ msgstr "Hủy đăng ký"
 msgid "Yes, cancel subscription"
 msgstr "Có, hủy đăng ký"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
+#, fuzzy
+msgid "Are you sure you want to close your account?"
+msgstr "Bạn có chắc là muốn hủy bỏ?"
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
+msgid "Keep account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
+msgid "Yes, close account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:17
+#, fuzzy
+msgid "Close Account"
+msgstr "Đóng menu con"
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:20
+msgid "Delete your account and account data."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#, fuzzy
+msgid "Close account"
+msgstr "Đóng biểu ngữ"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:14
 msgid "You have no active subscription. Why not <signupLink />?"
 msgstr "Bạn không có đăng ký nào hoạt động. Tại sao không <signupLink />?"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:18
 msgid "set one up"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:55
 msgid "Cancel subscription"
 msgstr "Hủy đăng ký"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:69
 msgid "${subscription.brand} ending in ${subscription.last4}"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:73
 msgid "Expires ${subscription.expires_at}"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
 msgid "Postal/Zip Code: ${subscription.zip}"
 msgstr ""
 
@@ -559,11 +594,11 @@ msgstr "Cảm ơn bạn đã giúp đỡ."
 msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:98 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
 msgid "FAQ"
 msgstr "Câu hỏi thường gặp"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:103
 #, fuzzy
 msgid "contact support."
 msgstr "liên hệ hỗ trợ"
@@ -614,20 +649,20 @@ msgstr "Chọn ngôn ngữ"
 msgid "Save"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Account Settings"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/pages/index.jsx:16
 msgid "Update your details and manage your preferences"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#: kuma/javascript/src/accountsettings/pages/index.jsx:27
 #, fuzzy
 msgid "You need to be <signInLink /> to access account settings."
 msgstr "Vui lòng <signInLink /> để tiếp tục."
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#: kuma/javascript/src/accountsettings/pages/index.jsx:30
 #, fuzzy
 msgid "signed in"
 msgstr "đăng nhập"

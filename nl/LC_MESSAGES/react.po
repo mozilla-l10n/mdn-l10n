@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-06-30 15:13-0700\n"
+"POT-Creation-Date: 2020-07-08 11:33-0700\n"
 "PO-Revision-Date: 2020-07-01 05:37+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: Dutch https://pontoon.mozilla.org/nl/\n"
@@ -144,32 +144,36 @@ msgstr "De URL die u hebt ingevoerd lijkt niet geldig te zijn"
 msgid "Default"
 msgstr "Standaard"
 
-#: kuma/javascript/src/active-banner.jsx:175
+#: kuma/javascript/src/active-banner.jsx:179
 msgid "Close banner"
 msgstr "Banner sluiten"
 
-#: kuma/javascript/src/active-banner.jsx:196
-msgid "MDN Survey"
-msgstr "MDN-enquête"
+#: kuma/javascript/src/active-banner.jsx:201
+msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:197
-msgid "Help us understand the top 10 needs of Web developers and designers."
-msgstr "Help ons de top 10 wensen van webdevelopers en designers te begrijpen."
-
-#: kuma/javascript/src/active-banner.jsx:200
+#: kuma/javascript/src/active-banner.jsx:204 kuma/javascript/src/active-banner.jsx:220
 msgid "Take the survey"
 msgstr "De enquête invullen"
 
-#: kuma/javascript/src/active-banner.jsx:226 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:216
+msgid "MDN Survey"
+msgstr "MDN-enquête"
+
+#: kuma/javascript/src/active-banner.jsx:217
+msgid "Help us understand the top 10 needs of Web developers and designers."
+msgstr "Help ons de top 10 wensen van webdevelopers en designers te begrijpen."
+
+#: kuma/javascript/src/active-banner.jsx:246 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Word een maandelijkse donateur"
 
-#: kuma/javascript/src/active-banner.jsx:228
+#: kuma/javascript/src/active-banner.jsx:248
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Ondersteun MDN met een maandabonnement van %(amount)s"
 
-#: kuma/javascript/src/active-banner.jsx:233
+#: kuma/javascript/src/active-banner.jsx:253
 msgid "Learn more"
 msgstr "Meer info"
 
@@ -529,27 +533,58 @@ msgstr "Abonnement behouden"
 msgid "Yes, cancel subscription"
 msgstr "Ja, abonnement opzeggen"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:15
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
+#, fuzzy
+msgid "Are you sure you want to close your account?"
+msgstr "Weet u zeker dat u wilt annuleren?"
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
+msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
+msgid "Keep account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
+msgid "Yes, close account"
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:17
+#, fuzzy
+msgid "Close Account"
+msgstr "Submenu sluiten"
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:20
+msgid "Delete your account and account data."
+msgstr ""
+
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#, fuzzy
+msgid "Close account"
+msgstr "Banner sluiten"
+
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:14
 msgid "You have no active subscription. Why not <signupLink />?"
 msgstr "U hebt geen actief abonnement. Waarom niet <signupLink />?"
 
-#: kuma/javascript/src/accountsettings/components/invitation.jsx:20
+#: kuma/javascript/src/accountsettings/components/invitation.jsx:18
 msgid "set one up"
 msgstr "een aanmaken"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:56
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:55
 msgid "Cancel subscription"
 msgstr "Abonnement opzeggen"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:70
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:69
 msgid "${subscription.brand} ending in ${subscription.last4}"
 msgstr "${subscription.brand} eindigend op ${subscription.last4}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:73
 msgid "Expires ${subscription.expires_at}"
 msgstr "Vervalt op ${subscription.expires_at}"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:75
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:74
 msgid "Postal/Zip Code: ${subscription.zip}"
 msgstr "Postcode: ${subscription.zip}"
 
@@ -565,11 +600,11 @@ msgstr "dankpagina."
 msgid "If you have questions, please read the <faqLink /> or you can also <supportEmail />"
 msgstr "Als u vragen hebt, lees dan de <faqLink /> of <supportEmail />"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:97 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:98 kuma/javascript/src/payments/pages/thank-you.jsx:72 kuma/javascript/src/payments/pages/thank-you.jsx:80
 msgid "FAQ"
 msgstr "FAQ"
 
-#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:101
+#: kuma/javascript/src/accountsettings/components/subscription-detail.jsx:103
 msgid "contact support."
 msgstr "neem contact op voor ondersteuning."
 
@@ -617,19 +652,19 @@ msgstr "Taal"
 msgid "Save"
 msgstr "Opslaan"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:14
+#: kuma/javascript/src/accountsettings/pages/index.jsx:15
 msgid "Account Settings"
 msgstr "Accountinstellingen"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:15
+#: kuma/javascript/src/accountsettings/pages/index.jsx:16
 msgid "Update your details and manage your preferences"
 msgstr "Uw gegevens bijwerken en uw voorkeuren beheren"
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:26
+#: kuma/javascript/src/accountsettings/pages/index.jsx:27
 msgid "You need to be <signInLink /> to access account settings."
 msgstr "U dient te zijn <signInLink /> om toegang te krijgen tot uw accountinstellingen."
 
-#: kuma/javascript/src/accountsettings/pages/index.jsx:29
+#: kuma/javascript/src/accountsettings/pages/index.jsx:30
 msgid "signed in"
 msgstr "aangemeld"
 
@@ -1017,8 +1052,8 @@ msgid ""
 "If you would like to manage your monthly subscription, such as changing your card account details, you will need to cancel your subscription and sign up again using the new card details. To cancel, "
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
 msgstr ""
-"Als u uw maandelijkse abonnement wilt beheren, zoals het wijzigen van uw creditcardgegevens, moet u uw abonnement opzeggen en u opnieuw abonneren met de nieuwe kaartgegevens. Ga om op te zeggen naar"
-" de <subscriptionsLink />, of neem voor vragen contact op met <emailLink />."
+"Als u uw maandelijkse abonnement wilt beheren, zoals het wijzigen van uw creditcardgegevens, moet u uw abonnement opzeggen en u opnieuw abonneren met de nieuwe kaartgegevens. Ga om op te zeggen "
+"naar de <subscriptionsLink />, of neem voor vragen contact op met <emailLink />."
 
 #: kuma/javascript/src/payments/pages/index.jsx:265 kuma/javascript/src/payments/pages/index.jsx:293 kuma/javascript/src/payments/pages/thank-you.jsx:48
 msgid "manage monthly subscription page"
@@ -1026,8 +1061,8 @@ msgstr "pagina voor beheren van uw maandelijkse abonnement"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "U kunt uw maandabonnement op elk moment opzeggen. Ga naar de <subscriptionsLink /> om uw abonnement op te zeggen. Als u ervoor kiest om op te zeggen, zullen we de daaropvolgende maanden uw "
 "creditcard niet belasten. E-mail voor andere vragen of verzoeken naar <emailLink />."
