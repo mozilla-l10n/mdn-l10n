@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-07-23 15:41-0700\n"
-"PO-Revision-Date: 2020-07-28 06:31+0000\n"
+"PO-Revision-Date: 2020-07-28 06:42+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
 "Language: id\n"
@@ -2742,9 +2742,8 @@ msgid "Yes, Delete my Account"
 msgstr "Ya, Hapus Akun saya"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
-#, fuzzy
 msgid "Delete your account?"
-msgstr "Hapus akun Anda"
+msgstr "Hapus akun Anda?"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:19
 msgid "Stripe error"
@@ -2757,7 +2756,7 @@ msgstr "Terjadi kesalahan saat mengatur berlangganan dengan server Stripe. Kami 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:28
 #, python-format
 msgid "You will be MDN member number %(number)s to support MDN with a $5 monthly subscription, enjoying discounts on swag and invitations to special events!"
-msgstr ""
+msgstr "Anda akan menjadi anggota MDN nomor %(angka) untuk mendukung MDN dengan berlangganan bulanan $5, menikmati diskon suvenir dan undangan ke acara khusus!"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
 msgid "$5 billed every month."
@@ -2773,11 +2772,12 @@ msgid ""
 "By clicking this button, I authorize Mozilla to charge this payment method each month, according to the <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Payment Terms</a>, until I cancel my "
 "subscription."
 msgstr ""
+"Dengan mengklik tombol ini, saya memberi otorisasi Mozilla untuk menagih metode pembayaran ini setiap bulan, sesuai dengan <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Ketentuan "
+"Pembayaran</a>, hingga saya batalkan langganan saya."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:44
-#, fuzzy
 msgid "Continue"
-msgstr "Berkontribusi"
+msgstr "Lanjutkan"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:55
 #, python-format
@@ -2787,7 +2787,7 @@ msgstr "Anda adalah anggota MDN nomor %(angka)s"
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:57
 #, python-format
 msgid "Next payment of $5 (monthly) occurs on %(date)s"
-msgstr ""
+msgstr "Pembayaran berikutnya sebesar $5 (bulanan) terjadi pada %(date)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:63
 #, python-format
@@ -2810,6 +2810,8 @@ msgid ""
 "<ul> <li>To see your member perks, visit the <a href=\"%(thank_you_url)s\">thank you page</a>.</li> <li>To cancel your subscription <a href=\"%(manage_url)s\">click here</a>.</li> <li>If you have "
 "questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s\">contact support</a>.</li> </ul>"
 msgstr ""
+"<ul> <li> Untuk melihat tunjangan anggota Anda, kunjungi <a href=\"%(thank_you_url)s\">ucapan terima kasih</a>. </li> <li> Untuk membatalkan langganan Anda <a href = \"%(manage_url)s \">klik di "
+"sini</a>. </li> <li>Jika Anda memiliki pertanyaan, harap baca<a href=\"%(faq_url)s\">FAQ</a> atau Anda juga dapat <a href=\"%(support_email)s\">menghubungi kontak</a>. </li> </ul>"
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
 msgid "Tags"
@@ -3738,7 +3740,7 @@ msgstr "Menerjemahkan artikel menjadi %(locale)s"
 #: kuma/wiki/jinja2/wiki/translate.html:36
 #, python-format
 msgid "<b>Note!</b> The <a href=\"%(parent_url)s\">parent document</a> is deleted."
-msgstr ""
+msgstr "<b>Catatan!</b> <a href=\"%(parent_url)s\">dokumen induk</a> dihapus."
 
 #: kuma/wiki/jinja2/wiki/translate.html:60
 msgid "Translate Content"
@@ -4079,9 +4081,9 @@ msgid "We'll try to resolve the problem, and after that you will be able to resu
 msgstr "Kami akan selesaikan masalah ini dan setelah itu, Anda dapat mengirimkan kembali kontribusi Anda."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
-#, fuzzy, python-format
+#, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">mark this submission as ham</a> and try submitting it again."
-msgstr "Jika Anda seorang moderator spam, Anda dapat<a href=\"%(akismet_submission_url)s\" target=\"_blank\">menandai ini sebagai amatir</a> dan coba mengirimkannya kembali."
+msgstr "Jika Anda seorang moderator spam, Anda dapat <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">menandai kiriman ini sebagai ham</a> dan coba kirimkan lagi."
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
