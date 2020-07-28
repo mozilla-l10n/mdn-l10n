@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-07-23 15:41-0700\n"
-"PO-Revision-Date: 2020-07-28 05:50+0000\n"
+"PO-Revision-Date: 2020-07-28 05:56+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
 "Language: id\n"
@@ -194,7 +194,7 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: jinja2/react_base.html:143
-#, fuzzy, python-format
+#, python-format
 msgid "&copy; 2005-%(thisyear)s Mozilla and individual contributors. Content is available under <a href=\"%(copyright_url)s\">these licenses</a>."
 msgstr "<p>&copy; 2005-%(thisyear)s Mozilla Developer Network dan kontributor individual.</p> <p>Konten tersedia di bawah <a href=\"%(copyright_url)s\">lisensi ini</a>.</p>"
 
@@ -219,14 +219,12 @@ msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already
 msgstr "Masuk untuk menikmati manfaat akun MDN. Jika Anda belum membuat akun, Anda akan diminta untuk melakukannya setelah masuk."
 
 #: jinja2/includes/auth-modal-content.html:6
-#, fuzzy
 msgid "Sign in with Github"
 msgstr "Masuk dengan GitHub"
 
 #: jinja2/includes/auth-modal-content.html:9
-#, fuzzy
 msgid "Sign in with Google"
-msgstr "Masuk dengan"
+msgstr "Masuk dengan Google"
 
 #: jinja2/includes/auth-modal.html:5 kuma/users/jinja2/account/login.html:3 kuma/users/jinja2/socialaccount/signup-landing.html:23
 msgid "Sign In"
@@ -386,9 +384,8 @@ msgid "Sign in"
 msgstr "Masuk"
 
 #: jinja2/includes/modal.html:9
-#, fuzzy
 msgid "Close modal"
-msgstr "Tutup"
+msgstr "Tutup pengandaian"
 
 #: jinja2/includes/nav-main-search.html:10
 msgid "Close search"
@@ -617,9 +614,8 @@ msgid "You have been unsubscribed."
 msgstr "Anda telah berhenti berlangganan."
 
 #: kuma/accountsettings/jinja2/accountsettings/index.html:3
-#, fuzzy
 msgid "Account Settings"
-msgstr "Hubungan Akun"
+msgstr "Pengaturan Akun"
 
 #: kuma/attachments/admin.py:60
 #, python-format
@@ -1446,16 +1442,14 @@ msgid "Become a monthly supporter"
 msgstr "Menjadi pendukung bulanan"
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
-#, fuzzy
 msgid "Manage monthly subscription"
-msgstr "Langganan Bulanan"
+msgstr "Kelola langganan bulanan"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
 msgstr "Ketentuan Pembayaran"
 
 #: kuma/payments/jinja2/payments/thank-you.html:3
-#, fuzzy
 msgid "Thank you"
 msgstr "Terima kasih"
 
@@ -1829,14 +1823,13 @@ msgid "Email"
 msgstr "Surel"
 
 #: kuma/users/forms.py:214
-#, fuzzy, python-format
+#, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
-msgstr "Ubah semua atribusi perubahan laman saya menjadi \"anonim\", dan hapus akun saya."
+msgstr "Simpan atribusi saya untuk perubahan laman saya (%(username)s)"
 
 #: kuma/users/forms.py:217
-#, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
-msgstr "Ubah semua atribusi perubahan laman saya menjadi \"anonim\", dan hapus akun saya."
+msgstr "Alihkan atribusi saya untuk perubahan laman saya menjadi \"Anonim\""
 
 #: kuma/users/models.py:40
 #, python-format
@@ -1947,9 +1940,8 @@ msgid "I would like to make my GitHub profile URL public"
 msgstr "Saya ingin membuat URL profil GitHub saya publik"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:6 kuma/users/tasks.py:55
-#, fuzzy
 msgid "Getting started with your new MDN account"
-msgstr "Berkenalan dengan Web"
+msgstr "Memulai dengan akun MDN baru Anda"
 
 #: kuma/users/views.py:616
 msgid "Email address"
@@ -2048,9 +2040,9 @@ msgid "In order to contribute, you need to sign in to MDN. You can sign in using
 msgstr "Untuk berkontribusi, Anda harus masuk ke MDN. Anda dapat masuk menggunakan GitHub dan profil MDN akan dibuat untuk Anda jika belum memilikinya."
 
 #: kuma/users/jinja2/account/login.html:39
-#, fuzzy, python-format
+#, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
-msgstr "<li><a href=\"%(login_url)s\">Masuk</a> untuk mencoba kembali.</li>"
+msgstr "<p><a href=\"%(login_url)s\">Masuk</a></p>"
 
 #: kuma/users/jinja2/account/logout.html:3 kuma/users/jinja2/account/logout.html:8 kuma/users/jinja2/account/logout.html:17
 msgid "Sign Out"
