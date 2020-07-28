@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-07-23 15:41-0700\n"
-"PO-Revision-Date: 2020-07-28 05:56+0000\n"
+"PO-Revision-Date: 2020-07-28 06:31+0000\n"
 "Last-Translator: alamanda <dian.ina@gmail.com>\n"
 "Language-Team: Indonesian https://pontoon.mozilla.org/id/\n"
 "Language: id\n"
@@ -2163,9 +2163,8 @@ msgid "An error occurred while attempting to sign in with your account."
 msgstr "Kesalahan terjadi saat berusaha masuk dengan akun anda."
 
 #: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup-landing.html:15
-#, fuzzy
 msgid "Create your MDN Web Docs Account"
-msgstr "Buatlah profil MDN anda untuk lanjut"
+msgstr "Buat Akun MDN Web Documents Anda"
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
 msgid "Login Cancelled"
@@ -2189,9 +2188,8 @@ msgid "Help contribute to the continued improvement of MDN’s content"
 msgstr "Bantu berkontribusi pada peningkatan berkelanjutan konten MDN"
 
 #: kuma/users/jinja2/socialaccount/signup.html:20
-#, fuzzy
 msgid "Create your MDN account"
-msgstr "Buatlah profil MDN anda untuk lanjut"
+msgstr "Buat akun MDN Anda"
 
 #: kuma/users/jinja2/socialaccount/signup.html:29
 #, python-format
@@ -2211,13 +2209,13 @@ msgid "Email Address"
 msgstr "Alamat Surel"
 
 #: kuma/users/jinja2/socialaccount/signup.html:90
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a "
 "href=\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
-"Alamat surel apa yang harus kami gunakan untuk mengirim pesan terkait MDN dan notifikasi? Alamat ini tidak <strong>akan</strong> ditampilkan di MDN dan akan digunakan sesuai <a "
-"href=\"%(privacy_url)s\">kebijakan privasi</a>kami."
+"Ini akan menjadi alamat email pesan MDN Web Documents dan pemberitahuan akan dikirim ke. Ini <strong>tidak</strong> akan ditampilkan di MDN Web Documents dan akan digunakan sesuai dengan "
+"<ahref=\"%(privacy_url)s\">kebijakan privasi kami</a>."
 
 #: kuma/users/jinja2/socialaccount/signup.html:101
 #, python-format
@@ -2527,18 +2525,17 @@ msgid "Save"
 msgstr "Simpan"
 
 #: kuma/users/jinja2/users/user_edit.html:138
-#, fuzzy
 msgid "Delete account"
-msgstr "Hapus akun saya"
+msgstr "Hapus akun"
 
 #: kuma/users/jinja2/users/user_edit.html:151
 msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Kelola Langganan Nawala Mozilla Anda."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
-#, fuzzy, python-format
+#, python-format
 msgid "You supported MDN with a %(cost)s monthly subscription."
-msgstr "Sunting langganan bulanan"
+msgstr "Anda mendukung MDN dengan langganan bulanan %(cost)."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
@@ -2561,9 +2558,9 @@ msgid "Date of issue: %(payment_date)s"
 msgstr "Tanggal penerbitan: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
-#, fuzzy, python-format
+#, python-format
 msgid "Date due: %(payment_date)s"
-msgstr "Apa itu ketentuan pembayaran?"
+msgstr "Tanggal jatuh tempo: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
 #, python-format
@@ -2608,24 +2605,26 @@ msgstr "Profil Pemulihan untuk %(username)s pada %(domain)s"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, fuzzy, python-format
+#, python-format
 msgid "Hey %(username)s!"
 msgstr "Hai %(username)s!"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:11
-#, fuzzy, python-format
+#, python-format
 msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</a> - a community making great resources for developers like you."
-msgstr "Terima kasih telah membuat profil di <a href=\"%(mdn_link)s\">MDN Web Docs</a> - sebuah komunitas yang membuat sumber daya luar biasa bagi pengembang seperti Anda."
+msgstr "Terima kasih telah membuat akun di <a href=\"%(mdn_link)s\">MDN Web Documents</a> - komunitas yang membuat sumber daya hebat untuk pengembang seperti Anda."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
 "you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
-"Sekarang, lanjutkan dengan memilih tugas di MDN, dan mengerjakannya! Kami memiliki sejumlah tugas pembuka yang dapat anda pilih, jika anda <a href=\"%(words_link)s\">senang kata-kata</a>, <a "
-"href=\"%(code_link)s\">senang menulis kode</a>, <a href=\"%(both_link)s\">senang keduanya</a>, atau anda ingin <a href=\"%(translate_link)s\">menerjemahkan MDN ke dalam bahasa anda</a>."
+"Segera, kami akan berbagi dengan Anda peluang untuk menyesuaikan MDN untuk memaksimalkannya. Sementara itu, MDN berasal dari pengembang web untuk pengembang web, itu berkembang atas kontribusi dari "
+"pengembang seperti Anda. Kami memiliki banyak tugas intro yang dapat Anda pilih berdasarkan minat Anda, dan kami tidak sabar menunggu Anda untuk bergabung dengan kami. Apakah Anda <a "
+"href=\"%(words_link)s\">menyukai kata-kata</a>, <a href=\"%(code_link)s\">menyukai kode</a>, <a href = \"% (both_link) s \">suka kata-kata dan kode</a>, atau ingin<a href=\"%(translate_link)s\"> "
+"menerjemahkan MDN ke bahasa Anda</a>?"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
@@ -2642,13 +2641,13 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "Forum diskusi: <a href=\"%(list_link)s\">mendaftarlah</a> untuk menyampaikan Anda tertarik pada apa di MDN dan menanyakan pertanyaan mengenai situs ini."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
 msgstr ""
-"Percakapan seketika: <a href=\"%(channel_link)s\">#mdn kanal di irc.mozilla.org</a>.  (Dapatkan info lebih lanjut tentang <a href=\"%(irc_link)s\">IRC</a>.) Anda dapat menjumpai admin staf penulis "
-"MDN berikut: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dan saya (jswisher), manajer komunitas MDN."
+"Percakapan seketika: <a href=\"%(channel_link)s\">#mdn kanal di irc.mozilla.org</a>.  (Dapatkan info lebih lanjut tentang <a href=\"%(irc_link)s\">Matrix</a>.) Anda dapat menjumpai admin staf "
+"penulis MDN berikut: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), dan saya (jswisher), manajer komunitas MDN."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
@@ -2657,9 +2656,8 @@ msgstr "Jangan malu, jika anda merasa ragu, punya masalah, pertanyaan: hubungi k
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "Terima kasih telah membuat profil di MDN Web Docs -- sebuah komunitas yang membuat sumber daya luar biasa bagi pengembang seperti Anda."
+msgstr "Terima kasih telah membuat akun di MDN Web Documents - komunitas yang membuat sumber daya hebat untuk pengembang seperti Anda."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -2703,15 +2701,14 @@ msgstr "Berlangganan untuk memberitahu kami tentang apa ketertarikan Anda di MDN
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
-#, fuzzy
 msgid "Real-time chat: #mdn room on chat.mozilla.org"
-msgstr "Obrolan pada saat yang sama: saluran #mdn di irc.mozilla.org"
+msgstr "Obrolan waktu-nyata: ruang #mdn di chat.mozilla.org"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
-#, fuzzy, python-format
+#, python-format
 msgid "See %(matrix_link)s for more info about Matrix."
-msgstr "Lihat %(irc_link)s untuk info lebih lanjut mengenai IRC."
+msgstr "Lihat% (matrix_link) untuk info lebih lanjut tentang Matrix."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
@@ -2741,9 +2738,8 @@ msgid "Are you sure you want to continue?"
 msgstr "Yakin ingin melanjutkan?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:24
-#, fuzzy
 msgid "Yes, Delete my Account"
-msgstr "Hapus akun saya"
+msgstr "Ya, Hapus Akun saya"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
 #, fuzzy
