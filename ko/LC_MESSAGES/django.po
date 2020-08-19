@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-07-23 15:41-0700\n"
-"PO-Revision-Date: 2019-12-19 22:53+0000\n"
+"PO-Revision-Date: 2020-08-19 18:18+0000\n"
 "Last-Translator: Channy Yun <channy@mozilla.or.kr>\n"
 "Language-Team: Korean https://pontoon.mozilla.org/ko/\n"
 "Language: ko\n"
@@ -90,9 +90,9 @@ msgstr "사용자 계정이 차단되었습니다."
 # 86%
 # 100%
 #: jinja2/404.html:38
-#, fuzzy, python-format
+#, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a> to try again.</p>"
-msgstr "<li><a href=\"%(login_url)s\">로그인</a> 후 다시 시도하세요.</li>"
+msgstr "<p><a href=\"%(login_url)s\">로그인</a> 후 다시 시도하세요.</p>"
 
 #: jinja2/404.html:43
 #, python-format
@@ -204,9 +204,9 @@ msgid "Instagram"
 msgstr "인스타그램"
 
 #: jinja2/react_base.html:143
-#, fuzzy, python-format
+#, python-format
 msgid "&copy; 2005-%(thisyear)s Mozilla and individual contributors. Content is available under <a href=\"%(copyright_url)s\">these licenses</a>."
-msgstr "<p>&copy; 2005-%(thisyear)s Mozilla와 개별 공헌자에게 있습니다.</p> <p> 콘텐츠는 <a href=\"%(copyright_url)s\">이 라이센스</a> 아래 이용할 수 있습니다.</p>"
+msgstr "&copy; 2005-%(thisyear)s Mozilla와 개별 공헌자에게 있습니다. 콘텐츠는 <a href=\"%(copyright_url)s\">이 라이센스</a> 아래 이용할 수 있습니다."
 
 #: jinja2/handlers/400.html:32
 msgid "<li><a href=\"/logout\">Log out</a> to try again.</li>"
@@ -1434,9 +1434,8 @@ msgid "The browser built for devs"
 msgstr "개발자를 위해 만들어진 브라우저"
 
 #: kuma/landing/jinja2/landing/includes/callouts/featured.html:5
-#, fuzzy
 msgid "Get Firefox DevEdition"
-msgstr "Firefox 도움 받기"
+msgstr "Firefox 개발자 버전 다운로드"
 
 #: kuma/landing/jinja2/landing/includes/callouts/foundation.html:3
 msgid "Proudly non-profit."
@@ -1455,9 +1454,8 @@ msgid "Become a monthly supporter"
 msgstr ""
 
 #: kuma/payments/jinja2/payments/management.html:3 kuma/payments/jinja2/payments/management.html:7 kuma/payments/jinja2/payments/management.html:8
-#, fuzzy
 msgid "Manage monthly subscription"
-msgstr "월간 구독"
+msgstr "월간 구독 관리"
 
 #: kuma/payments/jinja2/payments/terms.html:3 kuma/payments/jinja2/payments/terms.html:7 kuma/payments/jinja2/payments/terms.html:8
 msgid "Payment Terms"
@@ -1840,14 +1838,13 @@ msgid "Email"
 msgstr "메일 주소"
 
 #: kuma/users/forms.py:214
-#, fuzzy, python-format
+#, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
-msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
+msgstr "내 페이지 (%(username)s) 변경에 대한 속성 유지"
 
 #: kuma/users/forms.py:217
-#, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
-msgstr "내가 변경한 모든 페이지의 저작자 표시를 \"익명\"으로 돌리고 계정을 삭제해 주세요."
+msgstr "내 페이지 변경 사항에 대한 속성을 \"익명\"으로 전환"
 
 #: kuma/users/models.py:40
 #, python-format
@@ -2185,9 +2182,8 @@ msgid "An error occurred while attempting to sign in with your account."
 msgstr "계정으로 로그인 시도 중 오류가 발생했습니다."
 
 #: kuma/users/jinja2/socialaccount/base_signup.html:12 kuma/users/jinja2/socialaccount/signup-landing.html:15
-#, fuzzy
 msgid "Create your MDN Web Docs Account"
-msgstr "계속하려면 MDN 프로필을 만드세요"
+msgstr "MDN 웹 문서 계정 만들기"
 
 #: kuma/users/jinja2/socialaccount/login_cancelled.html:3 kuma/users/jinja2/socialaccount/login_cancelled.html:7
 msgid "Login Cancelled"
@@ -2224,9 +2220,8 @@ msgid "change username"
 msgstr "사용자 이름 변경"
 
 #: kuma/users/jinja2/socialaccount/signup.html:70
-#, fuzzy
 msgid "This will be the name displayed on MDN Web Docs to identify your contributions."
-msgstr "다른 사람들이 알아보거나 문서에 표시할 이름을 입력하세요."
+msgstr "여러분의 기여를 식별하기 위해 MDN 웹 문서에 표시되는 이름입니다."
 
 #: kuma/users/jinja2/socialaccount/signup.html:77
 msgid "Email Address"
@@ -2253,9 +2248,9 @@ msgid "Create profile"
 msgstr "프로필 만들기"
 
 #: kuma/users/jinja2/socialaccount/signup.html:121
-#, fuzzy, python-format
+#, python-format
 msgid "Having trouble creating an account? <a href=\"%(bug_href)s\" rel=\"external nofollow\">Let us help</a>."
-msgstr "로그인이나 MDN 프로필 생성에 <strong>문제가 있다</strong>면, <strong><a href=\"%(bug_href)s\" rel=\"external\">알려주세요</a></strong>."
+msgstr "계정을 만드는 데 문제가 있습니까? <a href=\"%(bug_href)s\" rel=\"external nofollow\">도움 받기</a>를 살펴보세요."
 
 #: kuma/users/jinja2/socialaccount/snippets/login_service_icon.html:2
 msgid "Signed in with GitHub"
@@ -2555,9 +2550,9 @@ msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 뉴스레터 구독을 관리합니다."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
-#, fuzzy, python-format
+#, python-format
 msgid "You supported MDN with a %(cost)s monthly subscription."
-msgstr "월간 구독 수정"
+msgstr "%(cost)s 월간 구독으로 MDN에 기부했습니다."
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
@@ -2580,9 +2575,9 @@ msgid "Date of issue: %(payment_date)s"
 msgstr ""
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
-#, fuzzy, python-format
+#, python-format
 msgid "Date due: %(payment_date)s"
-msgstr "결제 약관은 무엇인가요?"
+msgstr "기한 : %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
 #, python-format
@@ -2633,14 +2628,14 @@ msgid "Thanks for creating an account on <a href=\"%(mdn_link)s\">MDN Web Docs</
 msgstr "<a href=\"%(mdn_link)s\">Mozilla 웹 문서</a>에 프로필을 만들어 주셔서 감사합니다 - 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:16
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Soon, we'll share with you opportunities to customize MDN to get the most out of it. In the meantime, MDN is from web developers for web developers, it thrives on contributions from developers like "
 "you. We have a bunch of intro tasks you can choose based on your interests, and we can't wait for you to join us. Do you <a href=\"%(words_link)s\">like words</a>, <a href=\"%(code_link)s\">like "
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
-"MDN에서 할 수 있는 다양한 작업을 선택해보세요! <a href=\"%(words_link)s\">추천 키워드</a>, <a href=\"%(code_link)s\">추천 코드</a> 및 <a href=\"%(both_link)s\">키워드 및 코드</a>를 선택하거나 <a href=\"%(translate_link)s\">한국어 문서 번역</a>도 "
-"하실 수 있습니다."
+"곧 MDN을 최대한 활용하기 위해 다양한 맞춤형 기회를 여러분과 공유 할 것입니다. 그 동안 MDN은 웹 개발자를위해 웹 개발자가 직접 제공하며, 웹 개발자의 기여로 발전했습니다. 여러분의 관심사에 따라 선택할 수 있는 많은 작업이 있으며, 참여를 기다립니다. <a href=\"%(words_link)s\">추천 키워드</a>, <a "
+"href=\"%(code_link)s\">추천 소스 코드</a>, <a href=\"%(both_link)s\">양쪽 모두</a>를 선택하거나, <a href=\"%(translate_link)s\">한국어 번역</a>도 하실 수 있습니다."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
@@ -2657,12 +2652,12 @@ msgid "Discussion forum: <a href=\"%(list_link)s\">join</a> to tell us about wha
 msgstr "토론 포럼: MDN과 사이트에 대한 질문이 있으시면 <a href=\"%(list_link)s\">가입</a> 후 말씀해 주세요."
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
 "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
 msgstr ""
-"실시간 채팅: <a href=\"%(channel_link)s\">#mdn 채널 irc.mozilla.org</a>.  (<a href=\"%(irc_link)s\">IRC</a>에 대한 자세한 정보 알아보기.) MDN 문서 작성 관리자들은 다음과 같습니다: Eric Shepherd (sheppy), Will Bamberg (wbamberg), "
+"실시간 채팅: <a href=\"%(room_link)s\">#mdn 채널 chat.mozilla.org</a>.  (<a href=\"%(matrix_link)s\">Matrix</a>에 대한 자세한 정보 알아보기.) MDN 문서 작성 관리자들은 다음과 같습니다: Eric Shepherd (sheppy), Will Bamberg (wbamberg), "
 "Florian Scholz (fscholz), Chris Mills (chrismills), 그리고 MDN 커뮤니티 매니저인 저 (jswisher) 입니다."
 
 #. This is an email. Whitespace matters!
@@ -2672,9 +2667,8 @@ msgstr "문제점이나 질문이나 의견 있으시면 언제든지 알려주�
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "MDN 웹 문서에 계정을 만들어 주셔서 감사합니다 - 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
+msgstr "MDN 웹 문서에 계정을 만들어 주셔서 감사합니다 -- 여러분과 같은 개발자를 위한 문서를 만드는 커뮤니티입니다."
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -2716,9 +2710,8 @@ msgstr "MDN에 참여하셔서 관심있는 부분에 대해 얘기해주시고,
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
-#, fuzzy
 msgid "Real-time chat: #mdn room on chat.mozilla.org"
-msgstr "실시간 채팅: irc.mozilla.org 상의 #mdn 채널"
+msgstr "실시간 채팅: chat.mozilla.org 상의 #mdn 채널"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
@@ -2753,14 +2746,12 @@ msgid "Are you sure you want to continue?"
 msgstr "계속 하시겠습니까?"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:24
-#, fuzzy
 msgid "Yes, Delete my Account"
-msgstr "계정을 삭제합니다."
+msgstr "네, 계정을 삭제합니다."
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
-#, fuzzy
 msgid "Delete your account?"
-msgstr "계정을 삭제합니다."
+msgstr "계정을 삭제 하시겠습니까?"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:19
 msgid "Stripe error"
@@ -2780,9 +2771,8 @@ msgid "$5 billed every month."
 msgstr "매월 $5가 청구됩니다."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:32
-#, fuzzy
 msgid "Cancel any time."
-msgstr "검토 취소"
+msgstr "언제든지 취소하십시오."
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:38
 #, python-format
@@ -2796,9 +2786,9 @@ msgid "Continue"
 msgstr "계속하기"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:55
-#, fuzzy, python-format
+#, python-format
 msgid "You are MDN member number %(number)s"
-msgstr "MDN 회원 가입"
+msgstr "MDN 회원 번호 - %(number)s"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:57
 #, python-format
@@ -2861,9 +2851,8 @@ msgid "Member since %(date_joined)s"
 msgstr "%(date_joined)s 이후로 멤버"
 
 #: kuma/users/newsletter/apps.py:14
-#, fuzzy
 msgid "UserNewsletter"
-msgstr "앱 개발자 뉴스레터"
+msgstr "사용자 뉴스 레터"
 
 #: kuma/users/templatetags/jinja_helpers.py:49
 #, python-format
@@ -3338,9 +3327,8 @@ msgid "Cannot delete pages with children until we fix this bug:"
 msgstr "현재 버그를 삭제하기 까지 하위 문서 페이지를 삭제할 수 없습니다:"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:14
-#, fuzzy
 msgid "Here are the the children of this page"
-msgstr "이 페이지에 스크립트 에러가 있습니다:"
+msgstr "이 페이지의 하위 항목은 다음과 같습니다."
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:21
 msgid "Creator"
@@ -3540,9 +3528,9 @@ msgid "Your Changes"
 msgstr "변경 사항"
 
 #: kuma/wiki/jinja2/wiki/edit.html:54 kuma/wiki/jinja2/wiki/edit.html:69 kuma/wiki/jinja2/wiki/includes/document_macros.html:41 kuma/wiki/jinja2/wiki/includes/document_macros.html:56
-#, fuzzy, python-format
+#, python-format
 msgid "Revision %(id)s by <a href=\"%(user_profile_url)s\" rel=\"nofollow\">%(user)s</a> on %(date)s"
-msgstr "개정판 %(id)s 작성자 <a href=\"%(user_profile_url)s\" %(rel)s>%(user)s</a> 작성일 %(date)s"
+msgstr "%(date)s에 <a href=\"%(user_profile_url)s\" rel=\"nofollow\">%(user)s</a>에 의한 %(id)s 수정"
 
 #: kuma/wiki/jinja2/wiki/edit.html:65
 msgid "Current Revision:"
@@ -3581,9 +3569,9 @@ msgid "Thank you for taking the time to improve MDN!"
 msgstr "MDN을 향상시키는데 도움을 주셔서 감사합니다!"
 
 #: kuma/wiki/jinja2/wiki/edit.html:167
-#, fuzzy, python-format
+#, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Editor Guide</a>."
-msgstr "아마 MDN에 첫번째 공헌인 것 같습니다. 문서 편집에 대한 질문이 있으시면 <a target=\"_blank\" href=\"%(url)s\">편집 가이드</a>를 살펴 보세요."
+msgstr "MDN에 대한 첫 번째 기여 인 것 같습니다. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\"> 편집자 가이드 </a>에서 일반적인 질문에 대한 답변을 찾을 수 있습니다."
 
 #: kuma/wiki/jinja2/wiki/edit.html:171
 msgid "Don't be afraid to break something, you can always revert your changes."
@@ -3598,9 +3586,9 @@ msgid "Learn how to tag an article"
 msgstr "문서에 태그 다는 법"
 
 #: kuma/wiki/jinja2/wiki/edit.html:196 kuma/wiki/jinja2/wiki/translate.html:131
-#, fuzzy, python-format
+#, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Read the Tagging Guide</a>."
-msgstr "문서를 분류하세요. 사람들이 좀 더 찾기 쉽게 검색 엔진이 작업합니다. <a target=\"_blank\" href=\"%(url)s\">태깅 가이드</a>도 참고하십시오."
+msgstr "문서를 분류하세요. 사람들이 좀 더 찾기 쉽게 검색 엔진이 작업합니다. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">태그 가이드</a>도 참고하십시오."
 
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:3
 #, python-format
@@ -4113,9 +4101,9 @@ msgid "We'll try to resolve the problem, and after that you will be able to resu
 msgstr "문제를 해결하도록 하겠습니다. 그 후에 작업을 다시 전송할 수 있습니다."
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
-#, fuzzy, python-format
+#, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">mark this submission as ham</a> and try submitting it again."
-msgstr "당신이 스팸 감독자인 경우, <a href=\"%(akismet_submission_url)s\" target=\"_blank\">이 게시글을 스팸 아님으로 표시</a>하고 다시 게시 시도할 수 있습니다."
+msgstr "당신이 스팸 감독자인 경우, <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">이 게시글을 스팸 아님으로 표시</a>하고 다시 게시 시도할 수 있습니다."
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
@@ -4140,9 +4128,8 @@ msgid "You are on the <strong>editable</strong> version of MDN Web Docs"
 msgstr ""
 
 #: kuma/wiki/jinja2/wiki/includes/wiki-notice.html:4
-#, fuzzy
 msgid "View as an MDN Web Docs user:"
-msgstr "MDN 웹 문서 검색"
+msgstr "MDN 웹 문서 사용자로 보기:"
 
 #: kuma/wiki/jinja2/wiki/list/documents.html:2
 #, python-format
