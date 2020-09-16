@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-07-23 15:41-0700\n"
-"PO-Revision-Date: 2020-09-16 03:14+0000\n"
+"PO-Revision-Date: 2020-09-16 03:23+0000\n"
 "Last-Translator: Quế Tùng <best.cloney.1301@gmail.com>\n"
 "Language-Team: Vietnamese https://pontoon.mozilla.org/vi/\n"
 "Language: vi\n"
@@ -1225,11 +1225,11 @@ msgstr "Bắt đầu"
 
 #: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:108
 msgid "Editorial review"
-msgstr ""
+msgstr "Xét duyệt với người biên tập"
 
 #: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:109
 msgid "Technical review"
-msgstr ""
+msgstr "Xét duyệt với người kỹ thuật"
 
 #: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:110
 msgid "Translating"
@@ -2318,7 +2318,7 @@ msgstr ""
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:44
 msgid "The user did not have any revisions that were reported as spam."
-msgstr ""
+msgstr "Người dùng không có bất kỳ bản sửa đổi nào bị báo cáo là spam."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:48
 msgid "Deleted:"
@@ -2326,7 +2326,7 @@ msgstr "Đã xóa:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:61
 msgid "The user did not have any revisions that were deleted."
-msgstr ""
+msgstr "Người dùng không có bất kỳ bản sửa đổi nào đã bị xóa."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:65
 msgid "Reverted:"
@@ -2334,7 +2334,7 @@ msgstr "Đã hoàn nguyên:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:79
 msgid "The user did not have any revisions that were reverted."
-msgstr ""
+msgstr "Người dùng không có bất kỳ bản sửa đổi nào được hoàn nguyên."
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:85
 msgid "Needs follow up"
@@ -2459,7 +2459,7 @@ msgstr "Chỉnh sửa trang"
 
 #: kuma/users/jinja2/users/user_detail.html:52
 msgid "View complete diff"
-msgstr ""
+msgstr "Xem toàn bộ điểm khác biệt"
 
 #: kuma/users/jinja2/users/user_detail.html:53 kuma/wiki/jinja2/wiki/document.html:293
 msgid "View page history"
@@ -2489,6 +2489,8 @@ msgstr "Thông tin người dùng"
 #: kuma/users/jinja2/users/user_edit.html:59
 msgid "We'd love to have your feedback on site changes! Beta testers get access to new features first and we send the occasional email asking for help testing specific things."
 msgstr ""
+"Chúng tôi rất muốn nhận được phản hồi của bạn về những thay đổi của trang web! Người thử nghiệm beta có quyền truy cập vào các tính năng mới trước tiên và chúng tôi thỉnh thoảng gửi email yêu cầu "
+"trợ giúp thử nghiệm những thứ cụ thể."
 
 #: kuma/users/jinja2/users/user_edit.html:62
 msgid "Primary Email"
@@ -3640,20 +3642,22 @@ msgstr "Di chuyển trang"
 #: kuma/wiki/jinja2/wiki/move.html:102
 #, python-format
 msgid "The following %(count)s subpages will be affected by this move:"
-msgstr ""
+msgstr "%(count)s trang con sau sẽ bị ảnh hưởng bởi việc di chuyển này:"
 
 #: kuma/wiki/jinja2/wiki/move.html:109
 msgid "No other documents will be affected by this change."
-msgstr ""
+msgstr "Không có tài liệu nào khác sẽ bị ảnh hưởng bởi thay đổi này."
 
 #: kuma/wiki/jinja2/wiki/move_requested.html:2
 msgid "Page move requested"
-msgstr ""
+msgstr "Đã yêu cầu di chuyển trang"
 
 #: kuma/wiki/jinja2/wiki/move_requested.html:9
 #, python-format
 msgid "<h1>Page Move Scheduled</h1> <p>Moving %(old_slug)s to <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> You'll receive an email when it finishes, or if any errors occur during the move.</p>"
 msgstr ""
+"<h1>Đã lên lịch di chuyển trang</h1> <p>Di chuyển %(old_slug)s thành <a href=\"%(new_url)s\">%(new_slug)s</a></p> <p> Bạn sẽ nhận được email khi quá trình hoàn tất hoặc nếu có bất kỳ lỗi nào xảy ra "
+"trong quá trình di chuyển.</p>"
 
 #: kuma/wiki/jinja2/wiki/preview.html:13
 msgid "This is a preview of an unsaved document."
