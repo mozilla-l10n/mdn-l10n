@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-07-23 15:41-0700\n"
+"POT-Creation-Date: 2020-09-17 13:31-0700\n"
 "PO-Revision-Date: 2020-06-26 10:57+0000\n"
 "Last-Translator: 2082183663 <2082183663@qq.com>\n"
 "Language-Team: Chinese (Simplified) https://pontoon.mozilla.org/zh_CN/\n"
@@ -175,13 +175,13 @@ msgstr "联系我们"
 msgid "MDN"
 msgstr "MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:44
-#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:145
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:179
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
-#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:141
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:64
+#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:170
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -430,7 +430,7 @@ msgstr "如果您以前未确认过订阅 Mozilla 相关的新闻简报，您可
 msgid "Hide Newsletter Sign-up"
 msgstr "隐藏新闻报注册"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1402
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1401
 msgid "Previous"
 msgstr "上一个"
 
@@ -474,7 +474,7 @@ msgstr "繁体中文"
 msgid "Dutch"
 msgstr "荷兰语"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1412
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1411
 msgid "English (US)"
 msgstr "英语 (美国)"
 
@@ -613,16 +613,16 @@ msgstr "您已取消订阅。"
 msgid "Account Settings"
 msgstr "账户设置"
 
-#: kuma/attachments/admin.py:60
+#: kuma/attachments/admin.py:61
 #, python-format
 msgid "The following attachment files were moved to the trash: %(filenames)s. You may want to review them before their automatic purge after %(days)s days from the file storage."
 msgstr "下列附件文件已移动到回收站：%(filenames)s。您可能会想复核它们，它们将在 %(days)s 天后从文件存储中清除。"
 
-#: kuma/attachments/admin.py:67
+#: kuma/attachments/admin.py:68
 msgid "and"
 msgstr "和"
 
-#: kuma/attachments/admin.py:138
+#: kuma/attachments/admin.py:139
 #, python-format
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr "附件“%(filename)s”已移动到回收站。您可能会想复核该文件，它将在 %(days)s 天后从文件存储系统中清除。"
@@ -643,39 +643,39 @@ msgstr "MDN 文件附件最近版本"
 msgid "Files of this type are not permitted."
 msgstr "这种类型的文件格式不被允许。"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "提供附件时会用到 MIME 类型。上传文件时我们会自动检测。请仅在有问题时修改。"
 
-#: kuma/attachments/models.py:177
+#: kuma/attachments/models.py:179
 msgid "attachment revision"
 msgstr "附件版本"
 
-#: kuma/attachments/models.py:178
+#: kuma/attachments/models.py:180
 msgid "attachment revisions"
 msgstr "附件版本"
 
-#: kuma/attachments/models.py:257
+#: kuma/attachments/models.py:260
 msgid "The attachment file that was trashed"
 msgstr "被移动到回收站的附件文件"
 
-#: kuma/attachments/models.py:262
+#: kuma/attachments/models.py:265
 msgid "The date and time the attachment was trashed"
 msgstr "附件被移动到回收站的日期和时间"
 
-#: kuma/attachments/models.py:267
+#: kuma/attachments/models.py:270
 msgid "The username of the user who trashed the attachment"
 msgstr "附件被移动到回收站的执行者用户名"
 
-#: kuma/attachments/models.py:272
+#: kuma/attachments/models.py:275
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "当前版本是否为此附件被移动到回收站时所在的修订版本。"
 
-#: kuma/attachments/models.py:279
+#: kuma/attachments/models.py:282
 msgid "Trashed attachment"
 msgstr "已放入回收站的附件"
 
-#: kuma/attachments/models.py:280
+#: kuma/attachments/models.py:283
 msgid "Trashed attachments"
 msgstr "已放入回收站的附件"
 
@@ -715,7 +715,7 @@ msgid "File"
 msgstr "文件"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:83 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2020
 msgid "Title"
 msgstr "标题"
 
@@ -880,7 +880,7 @@ msgstr "填写问卷"
 msgid "Core"
 msgstr "核心"
 
-#: kuma/core/utils.py:401
+#: kuma/core/utils.py:404
 #, python-format
 msgid "Today at %s"
 msgstr "今天 %s"
@@ -1072,7 +1072,7 @@ msgstr "筛选器"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "%(date)s 日趋势"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1961
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1973
 msgid "Revision"
 msgstr "版本"
 
@@ -1589,11 +1589,11 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
-#: kuma/search/search.py:98
+#: kuma/search/search.py:99
 msgid "name"
 msgstr "名字"
 
-#: kuma/search/search.py:99
+#: kuma/search/search.py:100
 msgid "groupname"
 msgstr "组名称"
 
@@ -1726,11 +1726,11 @@ msgstr "Spam"
 msgid "Ham"
 msgstr "Ham"
 
-#: kuma/spam/models.py:31
+#: kuma/spam/models.py:32
 msgid "sent at"
 msgstr "发送于"
 
-#: kuma/spam/models.py:32
+#: kuma/spam/models.py:36
 msgid "type"
 msgstr "类型"
 
@@ -1761,56 +1761,56 @@ msgstr "用户名只能包含字母、数字和如下字符：. - _ +"
 msgid "Timezone"
 msgstr "时区"
 
-#: kuma/users/forms.py:35
+#: kuma/users/forms.py:36
 msgid "Beta tester"
 msgstr "测试者"
 
-#: kuma/users/forms.py:37 kuma/users/jinja2/socialaccount/signup.html:53
+#: kuma/users/forms.py:40 kuma/users/jinja2/socialaccount/signup.html:53
 msgid "Username"
 msgstr "用户名"
 
-#: kuma/users/forms.py:63
+#: kuma/users/forms.py:66
 msgid "Display a link to GitHub on my profile"
 msgstr "在我的个人资料上显示一个到 GitHub 的链接"
 
-#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:154
+#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:194
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:148
+#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:184
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:138
+#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:165
 msgid "Mozillians"
 msgstr "谋智人"
 
-#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:151
+#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:189
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:159
+#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:199
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:159
+#: kuma/users/forms.py:162
 msgid "This field cannot be blank."
 msgstr "此字段不能为空。"
 
-#: kuma/users/forms.py:167
+#: kuma/users/forms.py:170
 msgid "Username already in use."
 msgstr "用户名已被使用。"
 
-#: kuma/users/forms.py:178
+#: kuma/users/forms.py:181
 msgid "Email"
 msgstr "邮箱"
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:217
 #, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr "保留我的编辑记录（%(username)s）"
 
-#: kuma/users/forms.py:217
+#: kuma/users/forms.py:220
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "将我所做过的变更修改为“匿名修改”"
 
@@ -1836,63 +1836,63 @@ msgstr "首页"
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "此网址格式无效。有效网址如 http://example.com/my_page。"
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:89
 msgid "Name"
 msgstr "名字"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:94
 msgid "Organization"
 msgstr "组织"
 
-#: kuma/users/models.py:88
+#: kuma/users/models.py:99
 msgid "Location"
 msgstr "位置"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:104
 msgid "About Me"
 msgstr "关于我"
 
-#: kuma/users/models.py:91
+#: kuma/users/models.py:108
 msgid "IRC nickname"
 msgstr "IRC 昵称"
 
-#: kuma/users/models.py:98
+#: kuma/users/models.py:118
 msgid "Enter a valid website URL."
 msgstr "请输入一个有效的网站网址。"
 
-#: kuma/users/models.py:101
+#: kuma/users/models.py:123
 msgid "Enter a valid Twitter URL."
 msgstr "请输入一个有效的 Twitter 网址。"
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:128
 msgid "Enter a valid GitHub URL."
 msgstr "请输入一个有效的 GitHub 网址。"
 
-#: kuma/users/models.py:108
+#: kuma/users/models.py:133
 msgid "Enter a valid Stack Overflow URL."
 msgstr "请输入一个有效的 Stack Overflow 网址。"
 
-#: kuma/users/models.py:113
+#: kuma/users/models.py:138
 msgid "Enter a valid LinkedIn URL."
 msgstr "请输入一个有效的 LinkedIn 网址。"
 
-#: kuma/users/models.py:118
+#: kuma/users/models.py:143
 msgid "Enter a valid Mozillians URL."
 msgstr "请输入一个有效的谋智人网址。"
 
-#: kuma/users/models.py:123
+#: kuma/users/models.py:148
 msgid "Enter a valid Facebook URL."
 msgstr "请输入一个有效的 Facebook 网址。"
 
-#: kuma/users/models.py:128
+#: kuma/users/models.py:153
 msgid "Enter a valid Discourse URL."
 msgstr "请输入一个有效的 Discourse 网址。"
 
-#: kuma/users/models.py:135
+#: kuma/users/models.py:160
 msgid "Website"
 msgstr "网站"
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:175
 msgid "Public GitHub URL"
 msgstr "公开 GitHub URL"
 
@@ -2333,12 +2333,12 @@ msgstr "用户执行的新操作："
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:96 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:128 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:149
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:169 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:188 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:211
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:235 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:266 kuma/wiki/feeds.py:390
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:235 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:266 kuma/wiki/feeds.py:396
 msgid "View Page"
 msgstr "查看页面"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:100 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:215 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:239
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:270 kuma/wiki/feeds.py:414 kuma/wiki/jinja2/wiki/includes/buttons.html:85
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:270 kuma/wiki/feeds.py:420 kuma/wiki/jinja2/wiki/includes/buttons.html:85
 msgid "History"
 msgstr "历史记录"
 
@@ -2613,15 +2613,11 @@ msgstr "Discussion 论坛：<a href=\"%(list_link)s\">加入</a>进来告诉我�
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
-msgid ""
-"Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
-"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
+msgid "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.)"
 msgstr ""
-"实时聊天：<a href=\"%(room_link)s\">chat.mozilla.org 上的 #mdn 聊天室</a>。（获取更多有关 <a href=\"%(matrix_link)s\">Matrix</a> 的信息）。您可以找到 MDN 的编者、职员、管理员：埃里克•谢普德（Eric "
-"Shepherd / sheppy）、威尔•班贝格（Will Bamberg / wbamberg）、弗洛里安•肖尔茨（Florian Scholz / fscholz）、克里斯•米尔斯（Chris Mills / chrismills）, 和我（jswisher），MDN 的社区经理。"
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:45
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "不要害羞，若您有任何疑问，请联系我们！我们对您有问必答。"
 
@@ -2678,13 +2674,6 @@ msgstr "实时聊天：chat.mozilla.org 上的 #mdn 聊天室"
 #, python-format
 msgid "See %(matrix_link)s for more info about Matrix."
 msgstr "查看 %(matrix_link)s 了解更多有关 Matrix 的信息。"
-
-#. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
-msgid ""
-"You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
-msgstr ""
-"您可以找到 MDN 的编者、职员、管理员：Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), 和我 (jswisher)，MDN 的社区经理。"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
 msgid "Deleting your account loses any preferences you have set."
@@ -2884,54 +2873,54 @@ msgstr "由 MDN 用户编写的文档"
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:194
+#: kuma/wiki/feeds.py:200
 msgid "MDN recent document changes"
 msgstr "MDN 最近文档更新"
 
-#: kuma/wiki/feeds.py:195
+#: kuma/wiki/feeds.py:201
 msgid "Recent changes to MDN documents"
 msgstr "MDN 文档的最新更改"
 
-#: kuma/wiki/feeds.py:201
+#: kuma/wiki/feeds.py:207
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "MDN 文档中标签为 %s 的文档的最近更新"
 
-#: kuma/wiki/feeds.py:229
+#: kuma/wiki/feeds.py:235
 msgid "MDN documents in need of review"
 msgstr "需要复核的 MDN 文档"
 
-#: kuma/wiki/feeds.py:230
+#: kuma/wiki/feeds.py:236
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "最近变更而需要复核的 MDN 文档"
 
-#: kuma/wiki/feeds.py:236
+#: kuma/wiki/feeds.py:242
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "需 %s 复核的 MDN 文档"
 
-#: kuma/wiki/feeds.py:241
+#: kuma/wiki/feeds.py:247
 msgid "MDN documents for review"
 msgstr "需复核的 MDN 文档"
 
-#: kuma/wiki/feeds.py:270
+#: kuma/wiki/feeds.py:276
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr "MDN '%s' 的翻译需要更新"
 
-#: kuma/wiki/feeds.py:308
+#: kuma/wiki/feeds.py:314
 msgid "MDN recent revisions"
 msgstr "MDN 最近版本"
 
-#: kuma/wiki/feeds.py:309
+#: kuma/wiki/feeds.py:315
 msgid "Recent revisions to MDN documents"
 msgstr "MDN 文档最近版本"
 
-#: kuma/wiki/feeds.py:394
+#: kuma/wiki/feeds.py:400
 msgid "Edit Page"
 msgstr "编辑页面"
 
-#: kuma/wiki/feeds.py:403
+#: kuma/wiki/feeds.py:409
 msgid "Show comparison"
 msgstr "显示比较"
 
@@ -3028,12 +3017,12 @@ msgstr "发布失败。检测到有冲突的编辑动作。请复制并粘贴您
 msgid "Changing this document's slug requires moving it and its children."
 msgstr "修改此文档的网址缩略名时要连同子页面一起移动。"
 
-#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:952 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
+#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:959 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:67 kuma/wiki/jinja2/wiki/includes/translate_description.html:11 kuma/wiki/jinja2/wiki/move.html:65
 msgid "Title:"
 msgstr "标题："
 
-#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:953
+#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:960
 msgid "Title of article"
 msgstr "文章标题"
 
@@ -3054,47 +3043,47 @@ msgstr "上一级："
 msgid "Tags:"
 msgstr "标签："
 
-#: kuma/wiki/forms.py:495 kuma/wiki/jinja2/wiki/edit.html:97
+#: kuma/wiki/forms.py:496 kuma/wiki/jinja2/wiki/edit.html:97
 msgid "Keywords:"
 msgstr "关键词："
 
-#: kuma/wiki/forms.py:495
+#: kuma/wiki/forms.py:497
 msgid "Affects search results"
 msgstr "相关搜索结果"
 
-#: kuma/wiki/forms.py:503
+#: kuma/wiki/forms.py:505
 msgid "Search result summary:"
 msgstr "搜索结果概要："
 
-#: kuma/wiki/forms.py:504
+#: kuma/wiki/forms.py:506
 msgid "Only displayed on search results page"
 msgstr "只在搜索结果页显示"
 
-#: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
+#: kuma/wiki/forms.py:517 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
 msgstr "内容："
 
-#: kuma/wiki/forms.py:524 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
+#: kuma/wiki/forms.py:526 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
 msgid "Comment:"
 msgstr "评论:"
 
-#: kuma/wiki/forms.py:527
+#: kuma/wiki/forms.py:529
 msgid "Tag this revision for review?"
 msgstr "标记此版本需要复核？"
 
-#: kuma/wiki/forms.py:534
+#: kuma/wiki/forms.py:536
 msgid "Tag this revision for localization?"
 msgstr "标记这个版本供本地化？"
 
-#: kuma/wiki/forms.py:924
+#: kuma/wiki/forms.py:931
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr "无法提交到 Akismet（修改版本无效）。"
 
-#: kuma/wiki/forms.py:964
+#: kuma/wiki/forms.py:971
 msgid "New slug:"
 msgstr "新网址缩略名："
 
-#: kuma/wiki/forms.py:965
+#: kuma/wiki/forms.py:972
 msgid "New article URL"
 msgstr "新的文章网址："
 
@@ -3115,117 +3104,117 @@ msgstr "文档标签"
 msgid "uploaded to the document"
 msgstr "已上传到该文档"
 
-#: kuma/wiki/models.py:182
+#: kuma/wiki/models.py:183
 msgid "linked in the document content"
 msgstr "已在该文档的内容中链接"
 
-#: kuma/wiki/models.py:196
+#: kuma/wiki/models.py:198
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "附件 %(attachment_id)s 不能多次附加到文档 %(document_id)s"
 
-#: kuma/wiki/models.py:1622
+#: kuma/wiki/models.py:1625
 msgid "Review Tag"
 msgstr "复核标签"
 
-#: kuma/wiki/models.py:1623
+#: kuma/wiki/models.py:1626
 msgid "Review Tags"
 msgstr "复核标签"
 
-#: kuma/wiki/models.py:1630
+#: kuma/wiki/models.py:1633
 msgid "Localization Tag"
 msgstr "本地化 Tag"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1634
 msgid "Localization Tags"
 msgstr "本地化标签"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1678
 msgid "No table of contents"
 msgstr "没有目录"
 
-#: kuma/wiki/models.py:1676
+#: kuma/wiki/models.py:1679
 msgid "All levels"
 msgstr "所有级别"
 
-#: kuma/wiki/models.py:1677
+#: kuma/wiki/models.py:1680
 msgid "H2 and higher"
 msgstr "H2 及以上"
 
-#: kuma/wiki/models.py:1678
+#: kuma/wiki/models.py:1681
 msgid "H3 and higher"
 msgstr "H3 及以上"
 
-#: kuma/wiki/models.py:1679
+#: kuma/wiki/models.py:1682
 msgid "H4 and higher"
 msgstr "H4 及以上"
 
-#: kuma/wiki/models.py:1790
+#: kuma/wiki/models.py:1793
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "必须基于 %(locale)s 文档的修订版本进行修改。版本号 %(id)s 不符合那些标准。"
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1932
 msgid "IP address"
 msgstr "IP 地址"
 
-#: kuma/wiki/models.py:1935
+#: kuma/wiki/models.py:1940
 msgid "User-Agent"
 msgstr "User-Agent"
 
-#: kuma/wiki/models.py:1936
+#: kuma/wiki/models.py:1945
 msgid "HTTP Referrer"
 msgstr "HTTP Referrer"
 
-#: kuma/wiki/models.py:1941 kuma/wiki/models.py:2021
+#: kuma/wiki/models.py:1953 kuma/wiki/models.py:2039
 msgid "Data submitted to Akismet"
 msgstr "数据提交到 Akismet"
 
-#: kuma/wiki/models.py:1967
+#: kuma/wiki/models.py:1979
 msgid "Akismet submission"
 msgstr "Akismet 提交"
 
-#: kuma/wiki/models.py:1968
+#: kuma/wiki/models.py:1980
 msgid "Akismet submissions"
 msgstr "Akismet 提交"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2024
 msgid "Slug"
 msgstr "网址缩略名"
 
-#: kuma/wiki/models.py:2014 kuma/wiki/models.py:2063
+#: kuma/wiki/models.py:2032 kuma/wiki/models.py:2085
 msgid "Document (optional)"
 msgstr "文档（可选）"
 
-#: kuma/wiki/models.py:2023
+#: kuma/wiki/models.py:2042
 msgid "reviewed"
 msgstr "复核于"
 
-#: kuma/wiki/models.py:2031
+#: kuma/wiki/models.py:2053
 msgid "Needs Review"
 msgstr "需要复核"
 
-#: kuma/wiki/models.py:2032
+#: kuma/wiki/models.py:2054
 msgid "Ham / False Positive"
 msgstr "过火 / 误报"
 
-#: kuma/wiki/models.py:2033
+#: kuma/wiki/models.py:2055
 msgid "Confirmed as Spam"
 msgstr "已确认为垃圾信息"
 
-#: kuma/wiki/models.py:2034
+#: kuma/wiki/models.py:2056
 msgid "Review Unavailable"
 msgstr "复核不可用"
 
-#: kuma/wiki/models.py:2035
+#: kuma/wiki/models.py:2057
 msgid "Akismet Error"
 msgstr "Akismet 错误"
 
-#: kuma/wiki/models.py:2040
+#: kuma/wiki/models.py:2062
 msgid "Review of Akismet's classification as spam"
 msgstr "Akismet 的检查分类为垃圾信息"
 
-#: kuma/wiki/models.py:2047
+#: kuma/wiki/models.py:2069
 msgid "Staff reviewer"
 msgstr "审核人员"
 
@@ -4257,6 +4246,19 @@ msgstr "您无法翻译此文档。"
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch 服务器：%(backend)s"
+
+#~ msgid ""
+#~ "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
+#~ "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
+#~ msgstr ""
+#~ "实时聊天：<a href=\"%(room_link)s\">chat.mozilla.org 上的 #mdn 聊天室</a>。（获取更多有关 <a href=\"%(matrix_link)s\">Matrix</a> 的信息）。您可以找到 MDN 的编者、职员、管理员：埃里克•谢普德"
+#~ "（Eric Shepherd / sheppy）、威尔•班贝格（Will Bamberg / wbamberg）、弗洛里安•肖尔茨（Florian Scholz / fscholz）、克里斯•米尔斯（Chris Mills / chrismills）, 和我（jswisher），MDN 的社区经理。"
+
+#~ msgid ""
+#~ "You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
+#~ msgstr ""
+#~ "您可以找到 MDN 的编者、职员、管理员：Eric Shepherd (sheppy), Jean-Yves Perrier (teoli), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), 和我 (jswisher)，MDN 的社区经"
+#~ "理。"
 
 #~ msgid "Get updates on what’s new with MDN to your inbox."
 #~ msgstr "在收件箱收取有关 MDN 新变化的邮件。"

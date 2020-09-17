@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-07-23 15:41-0700\n"
+"POT-Creation-Date: 2020-09-17 13:31-0700\n"
 "PO-Revision-Date: 2020-05-08 05:39+0000\n"
 "Last-Translator: niruhn <niruhn@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
@@ -174,13 +174,13 @@ msgstr "ติดต่อเรา"
 msgid "MDN"
 msgstr "MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:44
-#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:145
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:179
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
-#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:141
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:64
+#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:170
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -435,7 +435,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "ซ่อนการลงทะเบียนจดหมายข่าว"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1402
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1401
 msgid "Previous"
 msgstr "ก่อนหน้า"
 
@@ -480,7 +480,7 @@ msgstr "จีน (ดั้งเดิม)"
 msgid "Dutch"
 msgstr "ดัตช์"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1412
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1411
 msgid "English (US)"
 msgstr "อังกฤษ (สหรัฐอเมริกา)"
 
@@ -619,16 +619,16 @@ msgstr "คุณได้เลิกบอกรับแล้ว"
 msgid "Account Settings"
 msgstr ""
 
-#: kuma/attachments/admin.py:60
+#: kuma/attachments/admin.py:61
 #, python-format
 msgid "The following attachment files were moved to the trash: %(filenames)s. You may want to review them before their automatic purge after %(days)s days from the file storage."
 msgstr "แฟ้มแนบต่อไปนี้ถูกย้ายไปยังถังขยะ: %(filenames)s คุณอาจต้องการตรวจสอบก่อนที่จะกำจัดตัวเองอัตโนมัติหลังจาก %(days)s วันจากที่เก็บแฟ้ม"
 
-#: kuma/attachments/admin.py:67
+#: kuma/attachments/admin.py:68
 msgid "and"
 msgstr "และ"
 
-#: kuma/attachments/admin.py:138
+#: kuma/attachments/admin.py:139
 #, python-format
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr ""
@@ -649,39 +649,39 @@ msgstr ""
 msgid "Files of this type are not permitted."
 msgstr "ไฟล์ประเภทนี้ไม่ได้รับอนุญาต"
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr ""
 
-#: kuma/attachments/models.py:177
+#: kuma/attachments/models.py:179
 msgid "attachment revision"
 msgstr "การแก้ไขไฟล์แนบ"
 
-#: kuma/attachments/models.py:178
+#: kuma/attachments/models.py:180
 msgid "attachment revisions"
 msgstr "การแก้ไขไฟล์แนบ"
 
-#: kuma/attachments/models.py:257
+#: kuma/attachments/models.py:260
 msgid "The attachment file that was trashed"
 msgstr "ไฟล์แนบที่ถูกลบ"
 
-#: kuma/attachments/models.py:262
+#: kuma/attachments/models.py:265
 msgid "The date and time the attachment was trashed"
 msgstr "วันที่และเวลาที่ไฟล์แนบถูกลบ"
 
-#: kuma/attachments/models.py:267
+#: kuma/attachments/models.py:270
 msgid "The username of the user who trashed the attachment"
 msgstr "ชื่อผู้ใช้ของผู้ใช้ที่ลบไฟล์แนบ"
 
-#: kuma/attachments/models.py:272
+#: kuma/attachments/models.py:275
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr ""
 
-#: kuma/attachments/models.py:279
+#: kuma/attachments/models.py:282
 msgid "Trashed attachment"
 msgstr "ไฟล์แนบที่ลบ"
 
-#: kuma/attachments/models.py:280
+#: kuma/attachments/models.py:283
 msgid "Trashed attachments"
 msgstr "ไฟล์แนบที่ลบ"
 
@@ -721,7 +721,7 @@ msgid "File"
 msgstr "ไฟล์"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:83 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2020
 msgid "Title"
 msgstr "หัวข้อ"
 
@@ -882,7 +882,7 @@ msgstr "ทำแบบสำรวจให้เสร็จสมบูรณ
 msgid "Core"
 msgstr "แกน"
 
-#: kuma/core/utils.py:401
+#: kuma/core/utils.py:404
 #, python-format
 msgid "Today at %s"
 msgstr "วันนี้เมื่อ %s"
@@ -1074,7 +1074,7 @@ msgstr "ตัวกรอง"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr ""
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1961
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1973
 msgid "Revision"
 msgstr "การแก้ไขเพิ่มเติม"
 
@@ -1594,11 +1594,11 @@ msgid "XUL"
 msgstr "XUL"
 
 # 88%
-#: kuma/search/search.py:98
+#: kuma/search/search.py:99
 msgid "name"
 msgstr "ชื่อ"
 
-#: kuma/search/search.py:99
+#: kuma/search/search.py:100
 msgid "groupname"
 msgstr "ชื่อกลุ่ม"
 
@@ -1733,11 +1733,11 @@ msgstr "สแปม"
 msgid "Ham"
 msgstr "เเฮม"
 
-#: kuma/spam/models.py:31
+#: kuma/spam/models.py:32
 msgid "sent at"
 msgstr "ส่งเมื่อ"
 
-#: kuma/spam/models.py:32
+#: kuma/spam/models.py:36
 msgid "type"
 msgstr "ประเภท"
 
@@ -1768,58 +1768,58 @@ msgstr ""
 msgid "Timezone"
 msgstr "เขตเวลา"
 
-#: kuma/users/forms.py:35
+#: kuma/users/forms.py:36
 msgid "Beta tester"
 msgstr "ผู้ทดสอบเบต้า"
 
 # 88%
-#: kuma/users/forms.py:37 kuma/users/jinja2/socialaccount/signup.html:53
+#: kuma/users/forms.py:40 kuma/users/jinja2/socialaccount/signup.html:53
 msgid "Username"
 msgstr "ชื่อผู้ใช้"
 
-#: kuma/users/forms.py:63
+#: kuma/users/forms.py:66
 msgid "Display a link to GitHub on my profile"
 msgstr ""
 
-#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:154
+#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:194
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:148
+#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:184
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:138
+#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:165
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:151
+#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:189
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:159
+#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:199
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:159
+#: kuma/users/forms.py:162
 msgid "This field cannot be blank."
 msgstr "ช่องนี้ต้องไม่ว่างเปล่า"
 
-#: kuma/users/forms.py:167
+#: kuma/users/forms.py:170
 msgid "Username already in use."
 msgstr "ชื่อผู้ใช้นี้มีการใช้งานแล้ว"
 
 # 83%
-#: kuma/users/forms.py:178
+#: kuma/users/forms.py:181
 msgid "Email"
 msgstr "อีเมล"
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:217
 #, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr ""
 
-#: kuma/users/forms.py:217
+#: kuma/users/forms.py:220
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr ""
 
@@ -1845,63 +1845,63 @@ msgstr "หน้าแรก"
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr ""
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:89
 msgid "Name"
 msgstr "ชื่อ"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:94
 msgid "Organization"
 msgstr "องค์กร"
 
-#: kuma/users/models.py:88
+#: kuma/users/models.py:99
 msgid "Location"
 msgstr "ตำแหน่ง"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:104
 msgid "About Me"
 msgstr "เกี่ยวกับฉัน"
 
-#: kuma/users/models.py:91
+#: kuma/users/models.py:108
 msgid "IRC nickname"
 msgstr "ชื่อเล่น IRC"
 
-#: kuma/users/models.py:98
+#: kuma/users/models.py:118
 msgid "Enter a valid website URL."
 msgstr "ป้อน URL เว็บไซต์ที่ถูกต้อง"
 
-#: kuma/users/models.py:101
+#: kuma/users/models.py:123
 msgid "Enter a valid Twitter URL."
 msgstr "ป้อน URL ของ Twitter ที่ถูกต้อง"
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:128
 msgid "Enter a valid GitHub URL."
 msgstr "ป้อน URL ของ GitHub ที่ถูกต้อง"
 
-#: kuma/users/models.py:108
+#: kuma/users/models.py:133
 msgid "Enter a valid Stack Overflow URL."
 msgstr "ป้อน URL ของ Stack Overflow ที่ถูกต้อง"
 
-#: kuma/users/models.py:113
+#: kuma/users/models.py:138
 msgid "Enter a valid LinkedIn URL."
 msgstr "ป้อน URL ของ LinkedIn ที่ถูกต้อง"
 
-#: kuma/users/models.py:118
+#: kuma/users/models.py:143
 msgid "Enter a valid Mozillians URL."
 msgstr "ป้อน URL ของ Mozillians ที่ถูกต้อง"
 
-#: kuma/users/models.py:123
+#: kuma/users/models.py:148
 msgid "Enter a valid Facebook URL."
 msgstr "ป้อน URL ของ Facebook ที่ถูกต้อง"
 
-#: kuma/users/models.py:128
+#: kuma/users/models.py:153
 msgid "Enter a valid Discourse URL."
 msgstr "ป้อน URL ของ Discourse ที่ถูกต้อง"
 
-#: kuma/users/models.py:135
+#: kuma/users/models.py:160
 msgid "Website"
 msgstr "เว็บไซต์"
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:175
 msgid "Public GitHub URL"
 msgstr "URL ของ GitHub แบบสาธารณะ"
 
@@ -2360,12 +2360,12 @@ msgstr "การกระทำใหม่โดยผู้ใช้:"
 # 77%
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:96 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:128 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:149
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:169 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:188 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:211
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:235 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:266 kuma/wiki/feeds.py:390
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:235 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:266 kuma/wiki/feeds.py:396
 msgid "View Page"
 msgstr "ดูหน้า"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:100 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:215 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:239
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:270 kuma/wiki/feeds.py:414 kuma/wiki/jinja2/wiki/includes/buttons.html:85
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:270 kuma/wiki/feeds.py:420 kuma/wiki/jinja2/wiki/includes/buttons.html:85
 msgid "History"
 msgstr "ประวัติ"
 
@@ -2641,13 +2641,11 @@ msgstr ""
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
-msgid ""
-"Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
-"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
+msgid "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.)"
 msgstr ""
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:45
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr ""
 
@@ -2704,12 +2702,6 @@ msgstr ""
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
 #, python-format
 msgid "See %(matrix_link)s for more info about Matrix."
-msgstr ""
-
-#. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
-msgid ""
-"You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
@@ -2913,55 +2905,55 @@ msgstr ""
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:194
+#: kuma/wiki/feeds.py:200
 msgid "MDN recent document changes"
 msgstr "เอกสารที่เปลี่ยนแปลงเร็ว ๆ นี้บน MDN"
 
-#: kuma/wiki/feeds.py:195
+#: kuma/wiki/feeds.py:201
 msgid "Recent changes to MDN documents"
 msgstr "การเปลี่ยนแปลงเอกสารเร็ว ๆ นี้บน MDN"
 
-#: kuma/wiki/feeds.py:201
+#: kuma/wiki/feeds.py:207
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr ""
 
-#: kuma/wiki/feeds.py:229
+#: kuma/wiki/feeds.py:235
 msgid "MDN documents in need of review"
 msgstr "เอกสาร MDN ที่ต้องการการตรวจสอบ"
 
-#: kuma/wiki/feeds.py:230
+#: kuma/wiki/feeds.py:236
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr ""
 
-#: kuma/wiki/feeds.py:236
+#: kuma/wiki/feeds.py:242
 #, python-format
 msgid "MDN documents for %s review"
 msgstr ""
 
-#: kuma/wiki/feeds.py:241
+#: kuma/wiki/feeds.py:247
 msgid "MDN documents for review"
 msgstr "เอกสาร MDN สำหรับการตรวจสอบ"
 
-#: kuma/wiki/feeds.py:270
+#: kuma/wiki/feeds.py:276
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr ""
 
-#: kuma/wiki/feeds.py:308
+#: kuma/wiki/feeds.py:314
 msgid "MDN recent revisions"
 msgstr ""
 
-#: kuma/wiki/feeds.py:309
+#: kuma/wiki/feeds.py:315
 msgid "Recent revisions to MDN documents"
 msgstr ""
 
 # 88%
-#: kuma/wiki/feeds.py:394
+#: kuma/wiki/feeds.py:400
 msgid "Edit Page"
 msgstr "แก้ไขหน้า"
 
-#: kuma/wiki/feeds.py:403
+#: kuma/wiki/feeds.py:409
 msgid "Show comparison"
 msgstr "แสดงการเปรียบเทียบ"
 
@@ -3058,12 +3050,12 @@ msgstr ""
 msgid "Changing this document's slug requires moving it and its children."
 msgstr ""
 
-#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:952 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
+#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:959 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:67 kuma/wiki/jinja2/wiki/includes/translate_description.html:11 kuma/wiki/jinja2/wiki/move.html:65
 msgid "Title:"
 msgstr "ชื่อเรื่อง:"
 
-#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:953
+#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:960
 msgid "Title of article"
 msgstr ""
 
@@ -3084,51 +3076,51 @@ msgstr ""
 msgid "Tags:"
 msgstr "ป้ายกำกับ:"
 
-#: kuma/wiki/forms.py:495 kuma/wiki/jinja2/wiki/edit.html:97
+#: kuma/wiki/forms.py:496 kuma/wiki/jinja2/wiki/edit.html:97
 msgid "Keywords:"
 msgstr "คำสำคัญ:"
 
-#: kuma/wiki/forms.py:495
+#: kuma/wiki/forms.py:497
 msgid "Affects search results"
 msgstr ""
 
-#: kuma/wiki/forms.py:503
+#: kuma/wiki/forms.py:505
 msgid "Search result summary:"
 msgstr "ผลการค้นหาโดยสรุป:"
 
-#: kuma/wiki/forms.py:504
+#: kuma/wiki/forms.py:506
 msgid "Only displayed on search results page"
 msgstr "แสดงบนหน้าผลการค้นหาเท่านั้น"
 
 # 87%
 # 75%
 # 100%
-#: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
+#: kuma/wiki/forms.py:517 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
 msgstr "เนื้อหา:"
 
 # 87%
-#: kuma/wiki/forms.py:524 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
+#: kuma/wiki/forms.py:526 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
 msgid "Comment:"
 msgstr "ความคิดเห็น:"
 
-#: kuma/wiki/forms.py:527
+#: kuma/wiki/forms.py:529
 msgid "Tag this revision for review?"
 msgstr ""
 
-#: kuma/wiki/forms.py:534
+#: kuma/wiki/forms.py:536
 msgid "Tag this revision for localization?"
 msgstr ""
 
-#: kuma/wiki/forms.py:924
+#: kuma/wiki/forms.py:931
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr ""
 
-#: kuma/wiki/forms.py:964
+#: kuma/wiki/forms.py:971
 msgid "New slug:"
 msgstr ""
 
-#: kuma/wiki/forms.py:965
+#: kuma/wiki/forms.py:972
 msgid "New article URL"
 msgstr "URL บทความใหม่"
 
@@ -3150,120 +3142,120 @@ msgstr "ป้ายกำกับเอกสาร"
 msgid "uploaded to the document"
 msgstr "รายงานความคิดเห็นนี้"
 
-#: kuma/wiki/models.py:182
+#: kuma/wiki/models.py:183
 msgid "linked in the document content"
 msgstr ""
 
-#: kuma/wiki/models.py:196
+#: kuma/wiki/models.py:198
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr ""
 
-#: kuma/wiki/models.py:1622
+#: kuma/wiki/models.py:1625
 msgid "Review Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1623
+#: kuma/wiki/models.py:1626
 msgid "Review Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1630
+#: kuma/wiki/models.py:1633
 msgid "Localization Tag"
 msgstr ""
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1634
 msgid "Localization Tags"
 msgstr ""
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1678
 msgid "No table of contents"
 msgstr "ไม่มีสารบัญ"
 
-#: kuma/wiki/models.py:1676
+#: kuma/wiki/models.py:1679
 msgid "All levels"
 msgstr "ระดับทั้งหมด"
 
-#: kuma/wiki/models.py:1677
+#: kuma/wiki/models.py:1680
 msgid "H2 and higher"
 msgstr "H2 และสูงกว่า"
 
-#: kuma/wiki/models.py:1678
+#: kuma/wiki/models.py:1681
 msgid "H3 and higher"
 msgstr "H3 และสูงกว่า"
 
-#: kuma/wiki/models.py:1679
+#: kuma/wiki/models.py:1682
 msgid "H4 and higher"
 msgstr "H4 และสูงกว่า"
 
-#: kuma/wiki/models.py:1790
+#: kuma/wiki/models.py:1793
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr ""
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1932
 msgid "IP address"
 msgstr "ที่อยู่ IP"
 
-#: kuma/wiki/models.py:1935
+#: kuma/wiki/models.py:1940
 msgid "User-Agent"
 msgstr ""
 
-#: kuma/wiki/models.py:1936
+#: kuma/wiki/models.py:1945
 msgid "HTTP Referrer"
 msgstr ""
 
-#: kuma/wiki/models.py:1941 kuma/wiki/models.py:2021
+#: kuma/wiki/models.py:1953 kuma/wiki/models.py:2039
 #, fuzzy
 msgid "Data submitted to Akismet"
 msgstr "วันที่ส่ง"
 
-#: kuma/wiki/models.py:1967
+#: kuma/wiki/models.py:1979
 #, fuzzy
 msgid "Akismet submission"
 msgstr "การเสนอ"
 
-#: kuma/wiki/models.py:1968
+#: kuma/wiki/models.py:1980
 #, fuzzy
 msgid "Akismet submissions"
 msgstr "การเสนอ"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2024
 msgid "Slug"
 msgstr ""
 
-#: kuma/wiki/models.py:2014 kuma/wiki/models.py:2063
+#: kuma/wiki/models.py:2032 kuma/wiki/models.py:2085
 msgid "Document (optional)"
 msgstr "เอกสาร (ตัวเลือก)"
 
-#: kuma/wiki/models.py:2023
+#: kuma/wiki/models.py:2042
 msgid "reviewed"
 msgstr ""
 
-#: kuma/wiki/models.py:2031
+#: kuma/wiki/models.py:2053
 msgid "Needs Review"
 msgstr ""
 
-#: kuma/wiki/models.py:2032
+#: kuma/wiki/models.py:2054
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:2033
+#: kuma/wiki/models.py:2055
 msgid "Confirmed as Spam"
 msgstr ""
 
-#: kuma/wiki/models.py:2034
+#: kuma/wiki/models.py:2056
 msgid "Review Unavailable"
 msgstr ""
 
-#: kuma/wiki/models.py:2035
+#: kuma/wiki/models.py:2057
 msgid "Akismet Error"
 msgstr ""
 
-#: kuma/wiki/models.py:2040
+#: kuma/wiki/models.py:2062
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:2047
+#: kuma/wiki/models.py:2069
 msgid "Staff reviewer"
 msgstr ""
 

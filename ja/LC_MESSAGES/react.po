@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-08-05 16:59-0700\n"
+"POT-Creation-Date: 2020-09-17 13:31-0700\n"
 "PO-Revision-Date: 2020-08-29 06:34+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
@@ -71,7 +71,7 @@ msgstr "ドキュメント内のセクション"
 msgid "What should the sample title be?"
 msgstr "サンプルのタイトルを入力してください。"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:89
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:116
 msgid "HTML"
 msgstr "HTML"
 
@@ -81,7 +81,7 @@ msgstr "サンプル HTML コンテンツ"
 
 # docs, Key Topics for Web Developers - リスト項目、
 # web, Popular Web Documentation - リンクテキスト
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:93
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:120
 msgid "CSS"
 msgstr "CSS"
 
@@ -89,7 +89,7 @@ msgstr "CSS"
 msgid "Sample CSS Content"
 msgstr "サンプル CSS コンテンツ"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:97
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:124
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -145,41 +145,29 @@ msgstr "既定値"
 msgid "Close banner"
 msgstr "バナーを閉じる"
 
+#: kuma/javascript/src/active-banner.jsx:200
+#, fuzzy
+msgid "MDN Web DNA"
+msgstr "MDN Web Docs"
+
 #: kuma/javascript/src/active-banner.jsx:201
-msgid "Help us improve MDN"
-msgstr ""
-
-#: kuma/javascript/src/active-banner.jsx:202
-msgid "Sign up to participate in a 30-minute desktop interview session"
-msgstr ""
-
-# 87%
-#: kuma/javascript/src/active-banner.jsx:205
-msgid "Sign up"
-msgstr "アカウント登録"
-
-#: kuma/javascript/src/active-banner.jsx:219
-msgid "MDN Survey"
-msgstr "MDN アンケート"
-
-#: kuma/javascript/src/active-banner.jsx:220
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "ウェブ開発者・ウェブデザイナーのニーズトップ 10 の把握にご協力ください。"
 
-#: kuma/javascript/src/active-banner.jsx:223
+#: kuma/javascript/src/active-banner.jsx:204
 msgid "Take the survey"
 msgstr "アンケートに答える"
 
-#: kuma/javascript/src/active-banner.jsx:249 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:230 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:251
+#: kuma/javascript/src/active-banner.jsx:232
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:256
+#: kuma/javascript/src/active-banner.jsx:237
 msgid "Learn more"
 msgstr "詳細情報"
 
@@ -349,7 +337,7 @@ msgstr "ウェブ開発について学ぶ"
 msgid "About MDN"
 msgstr "MDN について"
 
-#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:155 kuma/javascript/src/payments/pages/thank-you.jsx:90
+#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:183 kuma/javascript/src/payments/pages/thank-you.jsx:90
 msgid "Feedback"
 msgstr "フィードバック"
 
@@ -532,22 +520,6 @@ msgstr "購読を継続"
 msgid "Yes, cancel subscription"
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
-msgid "Are you sure you want to close your account?"
-msgstr ""
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
-msgstr ""
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
-msgid "Keep account"
-msgstr ""
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
-msgid "Yes, close account"
-msgstr ""
-
 #: kuma/javascript/src/accountsettings/components/close-account.jsx:17
 msgid "Close Account"
 msgstr "アカウントを閉じる"
@@ -556,7 +528,7 @@ msgstr "アカウントを閉じる"
 msgid "Delete your account and account data."
 msgstr ""
 
-#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:25
 msgid "Close account"
 msgstr "アカウントを閉じる"
 
@@ -714,87 +686,87 @@ msgstr "プロファイルを編集"
 msgid "Sign out"
 msgstr "ログアウト"
 
-#: kuma/javascript/src/header/main-menu.jsx:81
+#: kuma/javascript/src/header/main-menu.jsx:107
 msgid "Technologies"
 msgstr "テクノロジー"
 
-#: kuma/javascript/src/header/main-menu.jsx:85
+#: kuma/javascript/src/header/main-menu.jsx:112
 msgid "Technologies Overview"
 msgstr "テクノロジー概要"
 
-#: kuma/javascript/src/header/main-menu.jsx:101
+#: kuma/javascript/src/header/main-menu.jsx:128
 msgid "Graphics"
 msgstr "グラフィック"
 
-#: kuma/javascript/src/header/main-menu.jsx:105
+#: kuma/javascript/src/header/main-menu.jsx:132
 msgid "HTTP"
 msgstr "HTTP"
 
-#: kuma/javascript/src/header/main-menu.jsx:109
+#: kuma/javascript/src/header/main-menu.jsx:136
 msgid "APIs / DOM"
 msgstr "API / DOM"
 
-#: kuma/javascript/src/header/main-menu.jsx:113
+#: kuma/javascript/src/header/main-menu.jsx:140
 msgid "Browser Extensions"
 msgstr "ブラウザー拡張機能"
 
-#: kuma/javascript/src/header/main-menu.jsx:117
+#: kuma/javascript/src/header/main-menu.jsx:144
 msgid "MathML"
 msgstr "MathML"
 
-#: kuma/javascript/src/header/main-menu.jsx:122
+#: kuma/javascript/src/header/main-menu.jsx:149
 msgid "References & Guides"
 msgstr "リファレンスとガイド"
 
-#: kuma/javascript/src/header/main-menu.jsx:126
+#: kuma/javascript/src/header/main-menu.jsx:154
 msgid "Learn web development"
 msgstr "ウェブ開発を学ぶ"
 
-#: kuma/javascript/src/header/main-menu.jsx:130
+#: kuma/javascript/src/header/main-menu.jsx:158
 msgid "Tutorials"
 msgstr "チュートリアル"
 
-#: kuma/javascript/src/header/main-menu.jsx:134
+#: kuma/javascript/src/header/main-menu.jsx:162
 msgid "References"
 msgstr "リファレンス"
 
-#: kuma/javascript/src/header/main-menu.jsx:138
+#: kuma/javascript/src/header/main-menu.jsx:166
 msgid "Developer Guides"
 msgstr "開発者ガイド"
 
-#: kuma/javascript/src/header/main-menu.jsx:142
+#: kuma/javascript/src/header/main-menu.jsx:170
 msgid "Accessibility"
 msgstr "アクセシビリティ"
 
-#: kuma/javascript/src/header/main-menu.jsx:146
+#: kuma/javascript/src/header/main-menu.jsx:174
 msgid "Game development"
 msgstr "ゲーム開発"
 
-#: kuma/javascript/src/header/main-menu.jsx:150
+#: kuma/javascript/src/header/main-menu.jsx:178
 msgid "...more docs"
 msgstr "...さらに見る"
 
-#: kuma/javascript/src/header/main-menu.jsx:159
+#: kuma/javascript/src/header/main-menu.jsx:188
 msgid "Send Feedback"
 msgstr "フィードバックを送る"
 
-#: kuma/javascript/src/header/main-menu.jsx:163
+#: kuma/javascript/src/header/main-menu.jsx:192
 msgid "Get Firefox help"
 msgstr "Firefox のヘルプを得る"
 
-#: kuma/javascript/src/header/main-menu.jsx:168
+#: kuma/javascript/src/header/main-menu.jsx:197
 msgid "Get web development help"
 msgstr "ウェブ開発のヘルプを得る"
 
-#: kuma/javascript/src/header/main-menu.jsx:173
+#: kuma/javascript/src/header/main-menu.jsx:202
 msgid "Join the MDN community"
 msgstr "MDN コミュニティに参加"
 
-#: kuma/javascript/src/header/main-menu.jsx:176
+#: kuma/javascript/src/header/main-menu.jsx:205
 msgid "Report a content problem"
 msgstr "コンテンツの問題を報告"
 
-#: kuma/javascript/src/header/main-menu.jsx:182
+#: kuma/javascript/src/header/main-menu.jsx:211
 msgid "Report an issue"
 msgstr "問題を報告"
 
@@ -1044,8 +1016,8 @@ msgstr ""
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 
 #: kuma/javascript/src/payments/pages/index.jsx:304
@@ -1315,6 +1287,13 @@ msgstr "リンク"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "セクション"
+
+# 87%
+#~ msgid "Sign up"
+#~ msgstr "アカウント登録"
+
+#~ msgid "MDN Survey"
+#~ msgstr "MDN アンケート"
 
 #~ msgid "New interest..."
 #~ msgstr "新たな興味..."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-07-23 15:41-0700\n"
+"POT-Creation-Date: 2020-09-17 13:31-0700\n"
 "PO-Revision-Date: 2020-05-29 06:48+0000\n"
 "Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
 "Language-Team: Swedish https://pontoon.mozilla.org/sv_SE/\n"
@@ -174,13 +174,13 @@ msgstr "Kontakta oss"
 msgid "MDN"
 msgstr "MDN"
 
-#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:44
-#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:145
+#: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:47
+#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:179
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:55 kuma/users/jinja2/users/includes/user_title_info.html:64
-#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:141
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:64
+#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:170
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -429,7 +429,7 @@ msgstr "Om du inte tidigare har bekräftat en prenumeration på ett Mozilla-rela
 msgid "Hide Newsletter Sign-up"
 msgstr "Dölj registrering av nyhetsbrev"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1402
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1401
 msgid "Previous"
 msgstr "Föregående"
 
@@ -473,7 +473,7 @@ msgstr "Kinesiska (traditionell)"
 msgid "Dutch"
 msgstr "Nederländska"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1412
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1411
 msgid "English (US)"
 msgstr "Engelska (USA)"
 
@@ -614,16 +614,16 @@ msgstr "Du har avslutat prenumerationen."
 msgid "Account Settings"
 msgstr "Kontoinställningar"
 
-#: kuma/attachments/admin.py:60
+#: kuma/attachments/admin.py:61
 #, python-format
 msgid "The following attachment files were moved to the trash: %(filenames)s. You may want to review them before their automatic purge after %(days)s days from the file storage."
 msgstr "Följande bifogade filer flyttades till papperskorgen: %(filenames)s. Du kanske vill granska dem innan den automatiska rensningen efter %(days)s dagar från fillagring."
 
-#: kuma/attachments/admin.py:67
+#: kuma/attachments/admin.py:68
 msgid "and"
 msgstr "och"
 
-#: kuma/attachments/admin.py:138
+#: kuma/attachments/admin.py:139
 #, python-format
 msgid "The attachment file \"%(filename)s\" was moved to the trash. You may want to review the file before its automatic purge after %(days)s days from the file storage system."
 msgstr "Den bifogade filen \"%(filename)s\" flyttades till papperskorgen. Du kanske vill granska filen innan den automatiska rensningen efter %(days)s dagar från systemets fillagring."
@@ -644,39 +644,39 @@ msgstr "Senaste revision till MDN bifogade filer"
 msgid "Files of this type are not permitted."
 msgstr "Filer av den här typen är inte tillåtna."
 
-#: kuma/attachments/models.py:142
+#: kuma/attachments/models.py:144
 msgid "The MIME type is used when serving the attachment. Automatically populated by inspecting the file on upload. Please only override if needed."
 msgstr "MIME-typen används när man hanterar den bifogade filen. Automatiskt genererad genom att inspektera filen vid uppladdning. Vänligen åsidosätta den endast om det behövs."
 
-#: kuma/attachments/models.py:177
+#: kuma/attachments/models.py:179
 msgid "attachment revision"
 msgstr "revision för bilaga"
 
-#: kuma/attachments/models.py:178
+#: kuma/attachments/models.py:180
 msgid "attachment revisions"
 msgstr "revisioner för bilaga"
 
-#: kuma/attachments/models.py:257
+#: kuma/attachments/models.py:260
 msgid "The attachment file that was trashed"
 msgstr "Den bifogade filen som har kastats"
 
-#: kuma/attachments/models.py:262
+#: kuma/attachments/models.py:265
 msgid "The date and time the attachment was trashed"
 msgstr "Datum och tid när bilagan kastades"
 
-#: kuma/attachments/models.py:267
+#: kuma/attachments/models.py:270
 msgid "The username of the user who trashed the attachment"
 msgstr "Användarnamnet för den användare som kastade bilagan"
 
-#: kuma/attachments/models.py:272
+#: kuma/attachments/models.py:275
 msgid "Whether or not this attachment was the current attachment revision at the time of trashing."
 msgstr "Huruvida denna bilaga var den aktuella revisionen vid tidpunkten när den kastades."
 
-#: kuma/attachments/models.py:279
+#: kuma/attachments/models.py:282
 msgid "Trashed attachment"
 msgstr "Kastad bilaga"
 
-#: kuma/attachments/models.py:280
+#: kuma/attachments/models.py:283
 msgid "Trashed attachments"
 msgstr "Kastade bilagor"
 
@@ -716,7 +716,7 @@ msgid "File"
 msgstr "Fil"
 
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:83 kuma/wiki/models.py:2007
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2020
 msgid "Title"
 msgstr "Titel"
 
@@ -887,7 +887,7 @@ msgstr "Gör undersökningen"
 msgid "Core"
 msgstr "Kärna"
 
-#: kuma/core/utils.py:401
+#: kuma/core/utils.py:404
 #, python-format
 msgid "Today at %s"
 msgstr "Idag vid %s"
@@ -1080,7 +1080,7 @@ msgstr "Filtrera"
 msgid "Trends Over Time, Ending %(date)s"
 msgstr "Trender över tid, slutdatum %(date)s"
 
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1961
+#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1973
 msgid "Revision"
 msgstr "Revision"
 
@@ -1602,11 +1602,11 @@ msgstr "XPCOM"
 msgid "XUL"
 msgstr "XUL"
 
-#: kuma/search/search.py:98
+#: kuma/search/search.py:99
 msgid "name"
 msgstr "namn"
 
-#: kuma/search/search.py:99
+#: kuma/search/search.py:100
 msgid "groupname"
 msgstr "gruppnamn"
 
@@ -1747,11 +1747,11 @@ msgstr "Skräppost"
 msgid "Ham"
 msgstr "Inte skräppost"
 
-#: kuma/spam/models.py:31
+#: kuma/spam/models.py:32
 msgid "sent at"
 msgstr "skickat den"
 
-#: kuma/spam/models.py:32
+#: kuma/spam/models.py:36
 msgid "type"
 msgstr "typ"
 
@@ -1784,56 +1784,56 @@ msgstr "Användarnamn kan endast innehålla bokstäver, siffror och dessa tecken
 msgid "Timezone"
 msgstr "Tidszon"
 
-#: kuma/users/forms.py:35
+#: kuma/users/forms.py:36
 msgid "Beta tester"
 msgstr "Betatestare"
 
-#: kuma/users/forms.py:37 kuma/users/jinja2/socialaccount/signup.html:53
+#: kuma/users/forms.py:40 kuma/users/jinja2/socialaccount/signup.html:53
 msgid "Username"
 msgstr "Användarnamn"
 
-#: kuma/users/forms.py:63
+#: kuma/users/forms.py:66
 msgid "Display a link to GitHub on my profile"
 msgstr "Visa en länk till GitHub på min profil"
 
-#: kuma/users/forms.py:66 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:154
+#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:194
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:77 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:148
+#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:184
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:88 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:138
+#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:165
 msgid "Mozillians"
 msgstr "Mozillians"
 
-#: kuma/users/forms.py:99 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:151
+#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:189
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:110 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:159
+#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:199
 msgid "Discourse"
 msgstr "Discourse"
 
-#: kuma/users/forms.py:159
+#: kuma/users/forms.py:162
 msgid "This field cannot be blank."
 msgstr "Det här fältet kan inte vara tomt."
 
-#: kuma/users/forms.py:167
+#: kuma/users/forms.py:170
 msgid "Username already in use."
 msgstr "Användarnamnet används redan."
 
-#: kuma/users/forms.py:178
+#: kuma/users/forms.py:181
 msgid "Email"
 msgstr "E-post"
 
-#: kuma/users/forms.py:214
+#: kuma/users/forms.py:217
 #, python-format
 msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr "Behåll min attribution för mina sidförändringar (%(username)s)"
 
-#: kuma/users/forms.py:217
+#: kuma/users/forms.py:220
 msgid "Switch my attribution for my page changes to \"Anonymous\""
 msgstr "Ändra mitt attribut för mina sidändringar till \"Anonym\""
 
@@ -1859,63 +1859,63 @@ msgstr "Hemsida"
 msgid "This URL has an invalid format. Valid URLs look like http://example.com/my_page."
 msgstr "Denna URL har ett ogiltigt format. Giltiga URL:er ser ut som följande http://example.com/my_page."
 
-#: kuma/users/models.py:84
+#: kuma/users/models.py:89
 msgid "Name"
 msgstr "Namn"
 
-#: kuma/users/models.py:86
+#: kuma/users/models.py:94
 msgid "Organization"
 msgstr "Företag"
 
-#: kuma/users/models.py:88
+#: kuma/users/models.py:99
 msgid "Location"
 msgstr "Plats"
 
-#: kuma/users/models.py:89
+#: kuma/users/models.py:104
 msgid "About Me"
 msgstr "Om mig"
 
-#: kuma/users/models.py:91
+#: kuma/users/models.py:108
 msgid "IRC nickname"
 msgstr "Smeknamn på IRC"
 
-#: kuma/users/models.py:98
+#: kuma/users/models.py:118
 msgid "Enter a valid website URL."
 msgstr "Ange en giltig webbplats URL."
 
-#: kuma/users/models.py:101
+#: kuma/users/models.py:123
 msgid "Enter a valid Twitter URL."
 msgstr "Ange en giltig URL för Twitter."
 
-#: kuma/users/models.py:104
+#: kuma/users/models.py:128
 msgid "Enter a valid GitHub URL."
 msgstr "Ange en giltig URL för GitHub."
 
-#: kuma/users/models.py:108
+#: kuma/users/models.py:133
 msgid "Enter a valid Stack Overflow URL."
 msgstr "Ange en giltig Stack Overflow URL."
 
-#: kuma/users/models.py:113
+#: kuma/users/models.py:138
 msgid "Enter a valid LinkedIn URL."
 msgstr "Ange en giltig LinkedIn URL."
 
-#: kuma/users/models.py:118
+#: kuma/users/models.py:143
 msgid "Enter a valid Mozillians URL."
 msgstr "Ange en giltig Mozillians URL."
 
-#: kuma/users/models.py:123
+#: kuma/users/models.py:148
 msgid "Enter a valid Facebook URL."
 msgstr "Ange en giltig Facebook URL."
 
-#: kuma/users/models.py:128
+#: kuma/users/models.py:153
 msgid "Enter a valid Discourse URL."
 msgstr "Ange en giltig Discourse-URL."
 
-#: kuma/users/models.py:135
+#: kuma/users/models.py:160
 msgid "Website"
 msgstr "Webbplats"
 
-#: kuma/users/models.py:143
+#: kuma/users/models.py:175
 msgid "Public GitHub URL"
 msgstr "Publik Github-URL"
 
@@ -2358,12 +2358,12 @@ msgstr "Ny åtgärd av användare:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:96 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:128 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:149
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:169 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:188 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:211
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:235 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:266 kuma/wiki/feeds.py:390
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:235 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:266 kuma/wiki/feeds.py:396
 msgid "View Page"
 msgstr "Visa sida"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:100 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:215 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:239
-#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:270 kuma/wiki/feeds.py:414 kuma/wiki/jinja2/wiki/includes/buttons.html:85
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:270 kuma/wiki/feeds.py:420 kuma/wiki/jinja2/wiki/includes/buttons.html:85
 msgid "History"
 msgstr "Historik"
 
@@ -2643,15 +2643,11 @@ msgstr "Diskussionsforum: <a href=\"%(list_link)s\">Gå med oss</a> för att ber
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
-msgid ""
-"Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
-"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
+msgid "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.)"
 msgstr ""
-"Realtidschatt: <a href=\"%(room_link)s\">#mdn kanalen på chat.mozilla.org</a>.  (Få mer information om <a href=\"%(matrix_link)s\">Matrix</a>.) Du kan hitta administratörer för MDN där: Eric "
-"Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills) och mig (jswisher), ansvarig för MDN:s forum."
 
 #. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:48
+#: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:45
 msgid "Don't be shy, if you have any doubt, problems, questions: contact us! We are here to help."
 msgstr "Var inte blyg, om du har några tvivel, problem, frågor: kontakta oss! Vi är här för att hjälpa till."
 
@@ -2710,12 +2706,6 @@ msgstr "Realtidschatt: #mdn kanalen på chat.mozilla.org"
 #, python-format
 msgid "See %(matrix_link)s for more info about Matrix."
 msgstr "Se %(matrix_link)s för mer information om Matrix."
-
-#. This is an email. Whitespace matters!
-#: kuma/users/jinja2/users/email/welcome/plain.ltxt:45
-msgid ""
-"You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
-msgstr "Du kan hitta MDN författar admins där: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), och mig (jswisher), MDN's community manager."
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
 msgid "Deleting your account loses any preferences you have set."
@@ -2917,54 +2907,54 @@ msgstr "Dokument ändrade av MDN användare"
 msgid "/"
 msgstr "/"
 
-#: kuma/wiki/feeds.py:194
+#: kuma/wiki/feeds.py:200
 msgid "MDN recent document changes"
 msgstr "MDN senaste dokumentändringar"
 
-#: kuma/wiki/feeds.py:195
+#: kuma/wiki/feeds.py:201
 msgid "Recent changes to MDN documents"
 msgstr "Senaste ändringarna för MDN dokument"
 
-#: kuma/wiki/feeds.py:201
+#: kuma/wiki/feeds.py:207
 #, python-format
 msgid "MDN recent changes to documents tagged %s"
 msgstr "MDN senaste ändringar i dokument taggade %s"
 
-#: kuma/wiki/feeds.py:229
+#: kuma/wiki/feeds.py:235
 msgid "MDN documents in need of review"
 msgstr "MDN dokument i behov av granskning"
 
-#: kuma/wiki/feeds.py:230
+#: kuma/wiki/feeds.py:236
 msgid "Recent changes to MDN documents that need to be reviewed"
 msgstr "Senaste ändringarna till MDN dokument som behöver granskas"
 
-#: kuma/wiki/feeds.py:236
+#: kuma/wiki/feeds.py:242
 #, python-format
 msgid "MDN documents for %s review"
 msgstr "MDN dokument för %s granskning"
 
-#: kuma/wiki/feeds.py:241
+#: kuma/wiki/feeds.py:247
 msgid "MDN documents for review"
 msgstr "MDN dokument för granskning"
 
-#: kuma/wiki/feeds.py:270
+#: kuma/wiki/feeds.py:276
 #, python-format
 msgid "MDN '%s' translations in need of update"
 msgstr "MDN '%s' översättningar i behov av uppdatering"
 
-#: kuma/wiki/feeds.py:308
+#: kuma/wiki/feeds.py:314
 msgid "MDN recent revisions"
 msgstr "MDN senaste revisioner"
 
-#: kuma/wiki/feeds.py:309
+#: kuma/wiki/feeds.py:315
 msgid "Recent revisions to MDN documents"
 msgstr "Senaste revisionerna för MDN dokument"
 
-#: kuma/wiki/feeds.py:394
+#: kuma/wiki/feeds.py:400
 msgid "Edit Page"
 msgstr "Redigera sida"
 
-#: kuma/wiki/feeds.py:403
+#: kuma/wiki/feeds.py:409
 msgid "Show comparison"
 msgstr "Visa jämförelse"
 
@@ -3063,12 +3053,12 @@ msgstr ""
 msgid "Changing this document's slug requires moving it and its children."
 msgstr "Ändra detta dokuments slugg kräver att det och dess undersidor flyttas."
 
-#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:952 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
+#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:959 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:67 kuma/wiki/jinja2/wiki/includes/translate_description.html:11 kuma/wiki/jinja2/wiki/move.html:65
 msgid "Title:"
 msgstr "Titel:"
 
-#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:953
+#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:960
 msgid "Title of article"
 msgstr "Titel på artikel"
 
@@ -3089,47 +3079,47 @@ msgstr "Förälder:"
 msgid "Tags:"
 msgstr "Taggar:"
 
-#: kuma/wiki/forms.py:495 kuma/wiki/jinja2/wiki/edit.html:97
+#: kuma/wiki/forms.py:496 kuma/wiki/jinja2/wiki/edit.html:97
 msgid "Keywords:"
 msgstr "Nyckelord:"
 
-#: kuma/wiki/forms.py:495
+#: kuma/wiki/forms.py:497
 msgid "Affects search results"
 msgstr "Påverkar sökresultaten"
 
-#: kuma/wiki/forms.py:503
+#: kuma/wiki/forms.py:505
 msgid "Search result summary:"
 msgstr "Sammanfattning sökresultat:"
 
-#: kuma/wiki/forms.py:504
+#: kuma/wiki/forms.py:506
 msgid "Only displayed on search results page"
 msgstr "Visas endast på sökresultatsidan"
 
-#: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
+#: kuma/wiki/forms.py:517 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
 msgstr "Innehåll:"
 
-#: kuma/wiki/forms.py:524 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
+#: kuma/wiki/forms.py:526 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
 msgid "Comment:"
 msgstr "Kommentar:"
 
-#: kuma/wiki/forms.py:527
+#: kuma/wiki/forms.py:529
 msgid "Tag this revision for review?"
 msgstr "Tagga denna revision för granskning?"
 
-#: kuma/wiki/forms.py:534
+#: kuma/wiki/forms.py:536
 msgid "Tag this revision for localization?"
 msgstr "Tagga denna revision för översättning?"
 
-#: kuma/wiki/forms.py:924
+#: kuma/wiki/forms.py:931
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr "Det gick inte att skicka in till Akismet (ogiltig revision)."
 
-#: kuma/wiki/forms.py:964
+#: kuma/wiki/forms.py:971
 msgid "New slug:"
 msgstr "Ny slugg:"
 
-#: kuma/wiki/forms.py:965
+#: kuma/wiki/forms.py:972
 msgid "New article URL"
 msgstr "Ny artikel URL:"
 
@@ -3150,117 +3140,117 @@ msgstr "Dokumenttaggar"
 msgid "uploaded to the document"
 msgstr "uppladdad till dokumentet"
 
-#: kuma/wiki/models.py:182
+#: kuma/wiki/models.py:183
 msgid "linked in the document content"
 msgstr "länkad i dokumentets innehåll"
 
-#: kuma/wiki/models.py:196
+#: kuma/wiki/models.py:198
 #, python-format
 msgid "Attachment %(attachment_id)s can't be attached multiple times to document %(document_id)s"
 msgstr "Bifogad fil %(attachment_id)s kan inte bifogas flera gånger till dokument %(document_id)s"
 
-#: kuma/wiki/models.py:1622
+#: kuma/wiki/models.py:1625
 msgid "Review Tag"
 msgstr "Granskningstagg"
 
-#: kuma/wiki/models.py:1623
+#: kuma/wiki/models.py:1626
 msgid "Review Tags"
 msgstr "Granskningstagg"
 
-#: kuma/wiki/models.py:1630
+#: kuma/wiki/models.py:1633
 msgid "Localization Tag"
 msgstr "Översättningstagg"
 
-#: kuma/wiki/models.py:1631
+#: kuma/wiki/models.py:1634
 msgid "Localization Tags"
 msgstr "Översättningstagg"
 
-#: kuma/wiki/models.py:1675
+#: kuma/wiki/models.py:1678
 msgid "No table of contents"
 msgstr "Ingen innehållsförteckning"
 
-#: kuma/wiki/models.py:1676
+#: kuma/wiki/models.py:1679
 msgid "All levels"
 msgstr "Alla nivåer"
 
-#: kuma/wiki/models.py:1677
+#: kuma/wiki/models.py:1680
 msgid "H2 and higher"
 msgstr "H2 och högre"
 
-#: kuma/wiki/models.py:1678
+#: kuma/wiki/models.py:1681
 msgid "H3 and higher"
 msgstr "H3 och högre"
 
-#: kuma/wiki/models.py:1679
+#: kuma/wiki/models.py:1682
 msgid "H4 and higher"
 msgstr "H4 och högre"
 
-#: kuma/wiki/models.py:1790
+#: kuma/wiki/models.py:1793
 #, python-format
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "En revision måste baseras på en revision av dokumentet %(locale)s. Revision-ID %(id)s passar inte in på dessa kriterier."
 
-#: kuma/wiki/models.py:1928
+#: kuma/wiki/models.py:1932
 msgid "IP address"
 msgstr "IP-adress"
 
-#: kuma/wiki/models.py:1935
+#: kuma/wiki/models.py:1940
 msgid "User-Agent"
 msgstr "Användaragent"
 
-#: kuma/wiki/models.py:1936
+#: kuma/wiki/models.py:1945
 msgid "HTTP Referrer"
 msgstr "HTTP referent"
 
-#: kuma/wiki/models.py:1941 kuma/wiki/models.py:2021
+#: kuma/wiki/models.py:1953 kuma/wiki/models.py:2039
 msgid "Data submitted to Akismet"
 msgstr "Data skickat till Akismet"
 
-#: kuma/wiki/models.py:1967
+#: kuma/wiki/models.py:1979
 msgid "Akismet submission"
 msgstr "Akismet-bidrag"
 
-#: kuma/wiki/models.py:1968
+#: kuma/wiki/models.py:1980
 msgid "Akismet submissions"
 msgstr "Akismet-bidrag"
 
-#: kuma/wiki/models.py:2008
+#: kuma/wiki/models.py:2024
 msgid "Slug"
 msgstr "Slugg"
 
-#: kuma/wiki/models.py:2014 kuma/wiki/models.py:2063
+#: kuma/wiki/models.py:2032 kuma/wiki/models.py:2085
 msgid "Document (optional)"
 msgstr "Dokument (valfritt)"
 
-#: kuma/wiki/models.py:2023
+#: kuma/wiki/models.py:2042
 msgid "reviewed"
 msgstr "granskad"
 
-#: kuma/wiki/models.py:2031
+#: kuma/wiki/models.py:2053
 msgid "Needs Review"
 msgstr "Kräver granskning"
 
-#: kuma/wiki/models.py:2032
+#: kuma/wiki/models.py:2054
 msgid "Ham / False Positive"
 msgstr "Ej skräppost / Felaktig"
 
-#: kuma/wiki/models.py:2033
+#: kuma/wiki/models.py:2055
 msgid "Confirmed as Spam"
 msgstr "Bekräftad som skräppost"
 
-#: kuma/wiki/models.py:2034
+#: kuma/wiki/models.py:2056
 msgid "Review Unavailable"
 msgstr "Granskning ej tillgänglig"
 
-#: kuma/wiki/models.py:2035
+#: kuma/wiki/models.py:2057
 msgid "Akismet Error"
 msgstr "Fel Akismet"
 
-#: kuma/wiki/models.py:2040
+#: kuma/wiki/models.py:2062
 msgid "Review of Akismet's classification as spam"
 msgstr "Granskning av Akismets klassificeras som skräppost"
 
-#: kuma/wiki/models.py:2047
+#: kuma/wiki/models.py:2069
 msgid "Staff reviewer"
 msgstr "Granskningspersonal"
 
@@ -4304,6 +4294,17 @@ msgstr "Du kan inte översätta detta dokument."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Elasticsearch server: %(backend)s"
+
+#~ msgid ""
+#~ "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.) You can find the MDN writing staff admins there: Eric "
+#~ "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills), and me (jswisher), MDN's community manager."
+#~ msgstr ""
+#~ "Realtidschatt: <a href=\"%(room_link)s\">#mdn kanalen på chat.mozilla.org</a>.  (Få mer information om <a href=\"%(matrix_link)s\">Matrix</a>.) Du kan hitta administratörer för MDN där: Eric "
+#~ "Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (cmills) och mig (jswisher), ansvarig för MDN:s forum."
+
+#~ msgid ""
+#~ "You can find the MDN writing staff admins there: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), and me (jswisher), MDN's community manager."
+#~ msgstr "Du kan hitta MDN författar admins där: Eric Shepherd (sheppy), Will Bamberg (wbamberg), Florian Scholz (fscholz), Chris Mills (chrismills), och mig (jswisher), MDN's community manager."
 
 #~ msgid "Get updates on what’s new with MDN to your inbox."
 #~ msgstr "Få uppdateringar om vad som är nytt med MDN i din inkorg."

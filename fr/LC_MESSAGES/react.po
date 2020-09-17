@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-08-05 16:59-0700\n"
+"POT-Creation-Date: 2020-09-17 13:31-0700\n"
 "PO-Revision-Date: 2020-08-19 13:37+0000\n"
 "Last-Translator: Théo Chevalier <theo.chevalier11@gmail.com>\n"
 "Language-Team: French https://pontoon.mozilla.org/fr/\n"
@@ -71,7 +71,7 @@ msgstr "Sections du document"
 msgid "What should the sample title be?"
 msgstr "Quel doit être le titre de cet exemple ?"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:89
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:116
 msgid "HTML"
 msgstr "HTML"
 
@@ -79,7 +79,7 @@ msgstr "HTML"
 msgid "Sample HTML Content"
 msgstr "Contenu HTML de l'exemple"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:93
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:120
 msgid "CSS"
 msgstr "CSS"
 
@@ -87,7 +87,7 @@ msgstr "CSS"
 msgid "Sample CSS Content"
 msgstr "Contenu CSS de l'exemple"
 
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:97
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:124
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -143,41 +143,29 @@ msgstr "Par défaut"
 msgid "Close banner"
 msgstr "Fermer la bannière"
 
+#: kuma/javascript/src/active-banner.jsx:200
+#, fuzzy
+msgid "MDN Web DNA"
+msgstr "Documentation du Web - MDN"
+
 #: kuma/javascript/src/active-banner.jsx:201
-msgid "Help us improve MDN"
-msgstr "Aidez-nous à améliorer MDN"
-
-#: kuma/javascript/src/active-banner.jsx:202
-msgid "Sign up to participate in a 30-minute desktop interview session"
-msgstr "Inscrivez-vous pour participer à un entretien de 30 minutes"
-
-# 87%
-#: kuma/javascript/src/active-banner.jsx:205
-msgid "Sign up"
-msgstr "Je m’inscris"
-
-#: kuma/javascript/src/active-banner.jsx:219
-msgid "MDN Survey"
-msgstr "Sondage MDN"
-
-#: kuma/javascript/src/active-banner.jsx:220
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "Aidez-nous à comprendre les 10 besoins principaux des développeurs et concepteurs web."
 
-#: kuma/javascript/src/active-banner.jsx:223
+#: kuma/javascript/src/active-banner.jsx:204
 msgid "Take the survey"
 msgstr "Participer au sondage"
 
-#: kuma/javascript/src/active-banner.jsx:249 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:230 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Faire un don mensuel"
 
-#: kuma/javascript/src/active-banner.jsx:251
+#: kuma/javascript/src/active-banner.jsx:232
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Soutenez MDN par un abonnement mensuel de %(amount)s"
 
-#: kuma/javascript/src/active-banner.jsx:256
+#: kuma/javascript/src/active-banner.jsx:237
 msgid "Learn more"
 msgstr "En savoir plus"
 
@@ -239,8 +227,8 @@ msgstr "Disposez-vous de documents justificatifs ?"
 msgid ""
 "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
 msgstr ""
-"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite pour"
-" donner des exemples en situation de votre trouvaille."
+"La documentation du navigateur et les notes de version sont de bons éléments justificatifs pour accompagner votre message. Une démo hébergée sur des services comme Codepen ou JSBin est parfaite "
+"pour donner des exemples en situation de votre trouvaille."
 
 #: kuma/javascript/src/bcd-signal.jsx:505
 msgid "Connection error:"
@@ -351,7 +339,7 @@ msgstr "Apprendre le développement web"
 msgid "About MDN"
 msgstr "À propos de MDN"
 
-#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:155 kuma/javascript/src/payments/pages/thank-you.jsx:90
+#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:183 kuma/javascript/src/payments/pages/thank-you.jsx:90
 msgid "Feedback"
 msgstr "Votre avis"
 
@@ -537,24 +525,6 @@ msgstr "Conserver l’abonnement"
 msgid "Yes, cancel subscription"
 msgstr "Oui, annuler mon abonnement"
 
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
-msgid "Are you sure you want to close your account?"
-msgstr "Voulez-vous vraiment annuler ?"
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
-msgstr ""
-"La suppression de votre compte entraîne la perte de toutes les préférences que vous avez définies et rend votre nom d’utilisateur accessible aux autres utilisateurs. Elle annulera également tout "
-"abonnement MDN que vous pourriez avoir."
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
-msgid "Keep account"
-msgstr "Conserver le compte"
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
-msgid "Yes, close account"
-msgstr "Oui, supprimer le compte"
-
 #: kuma/javascript/src/accountsettings/components/close-account.jsx:17
 msgid "Close Account"
 msgstr "Supprimer le compte"
@@ -563,7 +533,7 @@ msgstr "Supprimer le compte"
 msgid "Delete your account and account data."
 msgstr "Supprime votre compte et les données de votre compte."
 
-#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:25
 msgid "Close account"
 msgstr "Supprimer le compte"
 
@@ -718,87 +688,87 @@ msgstr "Modifier le profil"
 msgid "Sign out"
 msgstr "Déconnexion"
 
-#: kuma/javascript/src/header/main-menu.jsx:81
+#: kuma/javascript/src/header/main-menu.jsx:107
 msgid "Technologies"
 msgstr "Technologies"
 
-#: kuma/javascript/src/header/main-menu.jsx:85
+#: kuma/javascript/src/header/main-menu.jsx:112
 msgid "Technologies Overview"
 msgstr "Aperçu des technologies"
 
-#: kuma/javascript/src/header/main-menu.jsx:101
+#: kuma/javascript/src/header/main-menu.jsx:128
 msgid "Graphics"
 msgstr "Graphismes"
 
-#: kuma/javascript/src/header/main-menu.jsx:105
+#: kuma/javascript/src/header/main-menu.jsx:132
 msgid "HTTP"
 msgstr "HTTP"
 
-#: kuma/javascript/src/header/main-menu.jsx:109
+#: kuma/javascript/src/header/main-menu.jsx:136
 msgid "APIs / DOM"
 msgstr "API / DOM"
 
-#: kuma/javascript/src/header/main-menu.jsx:113
+#: kuma/javascript/src/header/main-menu.jsx:140
 msgid "Browser Extensions"
 msgstr "Extensions des navigateurs"
 
-#: kuma/javascript/src/header/main-menu.jsx:117
+#: kuma/javascript/src/header/main-menu.jsx:144
 msgid "MathML"
 msgstr "MathML"
 
-#: kuma/javascript/src/header/main-menu.jsx:122
+#: kuma/javascript/src/header/main-menu.jsx:149
 msgid "References & Guides"
 msgstr "Guides et références"
 
-#: kuma/javascript/src/header/main-menu.jsx:126
+#: kuma/javascript/src/header/main-menu.jsx:154
 msgid "Learn web development"
 msgstr "Apprendre le développement web"
 
-#: kuma/javascript/src/header/main-menu.jsx:130
+#: kuma/javascript/src/header/main-menu.jsx:158
 msgid "Tutorials"
 msgstr "Tutoriels"
 
-#: kuma/javascript/src/header/main-menu.jsx:134
+#: kuma/javascript/src/header/main-menu.jsx:162
 msgid "References"
 msgstr "Références"
 
-#: kuma/javascript/src/header/main-menu.jsx:138
+#: kuma/javascript/src/header/main-menu.jsx:166
 msgid "Developer Guides"
 msgstr "Guides pour développeurs"
 
-#: kuma/javascript/src/header/main-menu.jsx:142
+#: kuma/javascript/src/header/main-menu.jsx:170
 msgid "Accessibility"
 msgstr "Accessibilité"
 
-#: kuma/javascript/src/header/main-menu.jsx:146
+#: kuma/javascript/src/header/main-menu.jsx:174
 msgid "Game development"
 msgstr "Développement de jeux"
 
-#: kuma/javascript/src/header/main-menu.jsx:150
+#: kuma/javascript/src/header/main-menu.jsx:178
 msgid "...more docs"
 msgstr "… plus de documentation"
 
-#: kuma/javascript/src/header/main-menu.jsx:159
+#: kuma/javascript/src/header/main-menu.jsx:188
 msgid "Send Feedback"
 msgstr "Donner mon avis"
 
-#: kuma/javascript/src/header/main-menu.jsx:163
+#: kuma/javascript/src/header/main-menu.jsx:192
 msgid "Get Firefox help"
 msgstr "Demander de l'aide pour Firefox"
 
-#: kuma/javascript/src/header/main-menu.jsx:168
+#: kuma/javascript/src/header/main-menu.jsx:197
 msgid "Get web development help"
 msgstr "Demander de l'aide pour le développement web"
 
-#: kuma/javascript/src/header/main-menu.jsx:173
+#: kuma/javascript/src/header/main-menu.jsx:202
 msgid "Join the MDN community"
 msgstr "Rejoignez la communauté MDN"
 
-#: kuma/javascript/src/header/main-menu.jsx:176
+#: kuma/javascript/src/header/main-menu.jsx:205
 msgid "Report a content problem"
 msgstr "Signaler un problème de contenu"
 
-#: kuma/javascript/src/header/main-menu.jsx:182
+#: kuma/javascript/src/header/main-menu.jsx:211
 msgid "Report an issue"
 msgstr "Signaler un problème"
 
@@ -934,9 +904,9 @@ msgid ""
 "beginning, we’d like to create a closer, more collaborative relationship between our audience (that’s you!), our content (written for you and sometimes by you), and our supporters (also, you, "
 "again)-- to accelerate those improvements."
 msgstr ""
-"Notre base d'utilisateurs croît exponentiellement depuis quelques années et nous avons une longue liste d’améliorations que nous aimerions mettre en œuvre. Bien que MDN soit actuellement entièrement"
-" financé par Mozilla, et ce depuis ses débuts, nous souhaitons à présent resserrer les liens entre notre public (vous), notre contenu (rédigé pour vous et parfois par vous) et nos contributeurs "
-"(encore vous) afin d’accélérer la réalisation de ces améliorations."
+"Notre base d'utilisateurs croît exponentiellement depuis quelques années et nous avons une longue liste d’améliorations que nous aimerions mettre en œuvre. Bien que MDN soit actuellement "
+"entièrement financé par Mozilla, et ce depuis ses débuts, nous souhaitons à présent resserrer les liens entre notre public (vous), notre contenu (rédigé pour vous et parfois par vous) et nos "
+"contributeurs (encore vous) afin d’accélérer la réalisation de ces améliorations."
 
 #: kuma/javascript/src/payments/pages/index.jsx:90
 msgid "All payment information goes through payment processor <stripeLink />, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card number."
@@ -1069,8 +1039,8 @@ msgstr "la page de gestion d’abonnement mensuel"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Vous pouvez annuler votre abonnement mensuel à tout moment. Veuillez accéder à <subscriptionsLink /> pour annuler votre abonnement. Si vous choisissez d’annuler, nous ne débiterons pas votre carte "
 "de paiement pour les mois suivants. Pour toute autre question ou demande de renseignements, veuillez contacter <emailLink />."
@@ -1347,6 +1317,33 @@ msgstr "Lien"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Section"
+
+#~ msgid "Help us improve MDN"
+#~ msgstr "Aidez-nous à améliorer MDN"
+
+#~ msgid "Sign up to participate in a 30-minute desktop interview session"
+#~ msgstr "Inscrivez-vous pour participer à un entretien de 30 minutes"
+
+# 87%
+#~ msgid "Sign up"
+#~ msgstr "Je m’inscris"
+
+#~ msgid "MDN Survey"
+#~ msgstr "Sondage MDN"
+
+#~ msgid "Are you sure you want to close your account?"
+#~ msgstr "Voulez-vous vraiment annuler ?"
+
+#~ msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+#~ msgstr ""
+#~ "La suppression de votre compte entraîne la perte de toutes les préférences que vous avez définies et rend votre nom d’utilisateur accessible aux autres utilisateurs. Elle annulera également tout "
+#~ "abonnement MDN que vous pourriez avoir."
+
+#~ msgid "Keep account"
+#~ msgstr "Conserver le compte"
+
+#~ msgid "Yes, close account"
+#~ msgstr "Oui, supprimer le compte"
 
 #~ msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
 #~ msgstr "👋 Utilisez-vous l’outil de traduction automatique de Chrome sur MDN ? Aidez-nous à nous améliorer en répondant à un court questionnaire de 5 minutes."

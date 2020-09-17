@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-08-05 16:59-0700\n"
+"POT-Creation-Date: 2020-09-17 13:31-0700\n"
 "PO-Revision-Date: 2020-08-06 11:53+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -72,7 +72,7 @@ msgid "What should the sample title be?"
 msgstr "Mi legyen a minta címe?"
 
 # 100%
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:89
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:23 kuma/javascript/src/header/main-menu.jsx:116
 msgid "HTML"
 msgstr "HTML"
 
@@ -81,7 +81,7 @@ msgid "Sample HTML Content"
 msgstr "Minta HTML tartalom"
 
 # 100%
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:93
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:27 kuma/javascript/src/header/main-menu.jsx:120
 msgid "CSS"
 msgstr "CSS"
 
@@ -90,7 +90,7 @@ msgid "Sample CSS Content"
 msgstr "Minta CSS tartalom"
 
 # 100%
-#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:97
+#: assets/ckeditor4/source/plugins/mdn-sampler/plugin.js:31 kuma/javascript/src/header/main-menu.jsx:124
 msgid "JavaScript"
 msgstr "JavaScript"
 
@@ -146,40 +146,29 @@ msgstr "Alapértelmezett"
 msgid "Close banner"
 msgstr "Banner bezárása"
 
+#: kuma/javascript/src/active-banner.jsx:200
+#, fuzzy
+msgid "MDN Web DNA"
+msgstr "MDN webes dokumentáció"
+
 #: kuma/javascript/src/active-banner.jsx:201
-msgid "Help us improve MDN"
-msgstr "Segítsen az MDN tökéletesítésében"
-
-#: kuma/javascript/src/active-banner.jsx:202
-msgid "Sign up to participate in a 30-minute desktop interview session"
-msgstr "Iratkozzon fel, és vegyen részt egy 30 perces interjún"
-
-#: kuma/javascript/src/active-banner.jsx:205
-msgid "Sign up"
-msgstr "Feliratkozás"
-
-#: kuma/javascript/src/active-banner.jsx:219
-msgid "MDN Survey"
-msgstr "MDN felmérés"
-
-#: kuma/javascript/src/active-banner.jsx:220
 msgid "Help us understand the top 10 needs of Web developers and designers."
 msgstr "Segítsen megérteni a webfejlesztők és dizájnerek 10 legfontosabb igényét."
 
-#: kuma/javascript/src/active-banner.jsx:223
+#: kuma/javascript/src/active-banner.jsx:204
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
 
-#: kuma/javascript/src/active-banner.jsx:249 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+#: kuma/javascript/src/active-banner.jsx:230 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
 msgid "Become a monthly supporter"
 msgstr "Legyen havi támogató"
 
-#: kuma/javascript/src/active-banner.jsx:251
+#: kuma/javascript/src/active-banner.jsx:232
 #, python-format
 msgid "Support MDN with a %(amount)s monthly subscription"
 msgstr "Támogassa az MDN-t egy %(amount)s összegű havi előfizetéssel"
 
-#: kuma/javascript/src/active-banner.jsx:256
+#: kuma/javascript/src/active-banner.jsx:237
 msgid "Learn more"
 msgstr "További tudnivalók"
 
@@ -353,7 +342,7 @@ msgstr "Tanuljon a webfejlesztésről"
 msgid "About MDN"
 msgstr "Az MDN névjegye"
 
-#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:155 kuma/javascript/src/payments/pages/thank-you.jsx:90
+#: kuma/javascript/src/footer.jsx:36 kuma/javascript/src/header/main-menu.jsx:183 kuma/javascript/src/payments/pages/thank-you.jsx:90
 msgid "Feedback"
 msgstr "Visszajelzés"
 
@@ -538,22 +527,6 @@ msgstr "Előfizetés megtartása"
 msgid "Yes, cancel subscription"
 msgstr "Igen, szüntesse meg az előfizetést"
 
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:11
-msgid "Are you sure you want to close your account?"
-msgstr "Biztos, hogy törölni szeretné a fiókját?"
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:33
-msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
-msgstr "Fiókja törlésével elveszíti a beállításait, valamint a felhasználónevét mások számára is elérhetővé teszi. Ezenkívül megszünteti az esetleges MDN-előfizetéseit is."
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:44
-msgid "Keep account"
-msgstr "Fiók megtartása"
-
-#: kuma/javascript/src/accountsettings/components/close-account-form.jsx:51
-msgid "Yes, close account"
-msgstr "Igen, a fiók törlése"
-
 #: kuma/javascript/src/accountsettings/components/close-account.jsx:17
 msgid "Close Account"
 msgstr "Fiók törlése"
@@ -562,7 +535,7 @@ msgstr "Fiók törlése"
 msgid "Delete your account and account data."
 msgstr "A fiók és a fiókadatok törlése."
 
-#: kuma/javascript/src/accountsettings/components/close-account.jsx:28
+#: kuma/javascript/src/accountsettings/components/close-account.jsx:25
 msgid "Close account"
 msgstr "Fiók törlése"
 
@@ -716,87 +689,87 @@ msgstr "Profil szerkesztése"
 msgid "Sign out"
 msgstr "Kijelentkezés"
 
-#: kuma/javascript/src/header/main-menu.jsx:81
+#: kuma/javascript/src/header/main-menu.jsx:107
 msgid "Technologies"
 msgstr "Technológiák"
 
-#: kuma/javascript/src/header/main-menu.jsx:85
+#: kuma/javascript/src/header/main-menu.jsx:112
 msgid "Technologies Overview"
 msgstr "Technológiák áttekintése"
 
-#: kuma/javascript/src/header/main-menu.jsx:101
+#: kuma/javascript/src/header/main-menu.jsx:128
 msgid "Graphics"
 msgstr "Grafika"
 
-#: kuma/javascript/src/header/main-menu.jsx:105
+#: kuma/javascript/src/header/main-menu.jsx:132
 msgid "HTTP"
 msgstr "HTTP"
 
-#: kuma/javascript/src/header/main-menu.jsx:109
+#: kuma/javascript/src/header/main-menu.jsx:136
 msgid "APIs / DOM"
 msgstr "API-k / DOM"
 
-#: kuma/javascript/src/header/main-menu.jsx:113
+#: kuma/javascript/src/header/main-menu.jsx:140
 msgid "Browser Extensions"
 msgstr "Böngészőkiegészítők"
 
-#: kuma/javascript/src/header/main-menu.jsx:117
+#: kuma/javascript/src/header/main-menu.jsx:144
 msgid "MathML"
 msgstr "MathML"
 
-#: kuma/javascript/src/header/main-menu.jsx:122
+#: kuma/javascript/src/header/main-menu.jsx:149
 msgid "References & Guides"
 msgstr "Referenciák és útmutatók"
 
-#: kuma/javascript/src/header/main-menu.jsx:126
+#: kuma/javascript/src/header/main-menu.jsx:154
 msgid "Learn web development"
 msgstr "Tanuljon a webfejlesztésről"
 
-#: kuma/javascript/src/header/main-menu.jsx:130
+#: kuma/javascript/src/header/main-menu.jsx:158
 msgid "Tutorials"
 msgstr "Ismertetők"
 
-#: kuma/javascript/src/header/main-menu.jsx:134
+#: kuma/javascript/src/header/main-menu.jsx:162
 msgid "References"
 msgstr "Hivatkozások"
 
-#: kuma/javascript/src/header/main-menu.jsx:138
+#: kuma/javascript/src/header/main-menu.jsx:166
 msgid "Developer Guides"
 msgstr "Fejlesztői leírások"
 
-#: kuma/javascript/src/header/main-menu.jsx:142
+#: kuma/javascript/src/header/main-menu.jsx:170
 msgid "Accessibility"
 msgstr "Akadálymentesítés"
 
-#: kuma/javascript/src/header/main-menu.jsx:146
+#: kuma/javascript/src/header/main-menu.jsx:174
 msgid "Game development"
 msgstr "Játékfejlesztés"
 
-#: kuma/javascript/src/header/main-menu.jsx:150
+#: kuma/javascript/src/header/main-menu.jsx:178
 msgid "...more docs"
 msgstr "…további dokumentáció"
 
-#: kuma/javascript/src/header/main-menu.jsx:159
+#: kuma/javascript/src/header/main-menu.jsx:188
 msgid "Send Feedback"
 msgstr "Visszajelzés küldése"
 
-#: kuma/javascript/src/header/main-menu.jsx:163
+#: kuma/javascript/src/header/main-menu.jsx:192
 msgid "Get Firefox help"
 msgstr "Segítség a Firefoxhoz"
 
-#: kuma/javascript/src/header/main-menu.jsx:168
+#: kuma/javascript/src/header/main-menu.jsx:197
 msgid "Get web development help"
 msgstr "Segítség webfejlesztéshez"
 
-#: kuma/javascript/src/header/main-menu.jsx:173
+#: kuma/javascript/src/header/main-menu.jsx:202
 msgid "Join the MDN community"
 msgstr "Csatlakozás az MDN közösséghez"
 
-#: kuma/javascript/src/header/main-menu.jsx:176
+#: kuma/javascript/src/header/main-menu.jsx:205
 msgid "Report a content problem"
 msgstr "Tartalmi hiba jelentése"
 
-#: kuma/javascript/src/header/main-menu.jsx:182
+#: kuma/javascript/src/header/main-menu.jsx:211
 msgid "Report an issue"
 msgstr "Hiba jelentése"
 
@@ -964,8 +937,8 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános és"
-" jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
+"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános "
+"és jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
 "platformjába kerülnek befektetésre."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
@@ -1065,8 +1038,8 @@ msgstr "havi előfizetés kezelői oldal"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Bármikor lemondhatja a havi előfizetését. Keresse fel a <subscriptionsLink /> lapot. Ha a lemondást választja, akkor a következő hónapokban nem fogjuk megterhelni a kártyáját. További kérdés esetén "
 "<emailLink />."
@@ -1337,6 +1310,30 @@ msgstr "Hivatkozás"
 #: kuma/static/js/components/local-anchor.js:40
 msgid "Section"
 msgstr "Szakasz"
+
+#~ msgid "Help us improve MDN"
+#~ msgstr "Segítsen az MDN tökéletesítésében"
+
+#~ msgid "Sign up to participate in a 30-minute desktop interview session"
+#~ msgstr "Iratkozzon fel, és vegyen részt egy 30 perces interjún"
+
+#~ msgid "Sign up"
+#~ msgstr "Feliratkozás"
+
+#~ msgid "MDN Survey"
+#~ msgstr "MDN felmérés"
+
+#~ msgid "Are you sure you want to close your account?"
+#~ msgstr "Biztos, hogy törölni szeretné a fiókját?"
+
+#~ msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use. It will also cancel any MDN subscription you might have."
+#~ msgstr "Fiókja törlésével elveszíti a beállításait, valamint a felhasználónevét mások számára is elérhetővé teszi. Ezenkívül megszünteti az esetleges MDN-előfizetéseit is."
+
+#~ msgid "Keep account"
+#~ msgstr "Fiók megtartása"
+
+#~ msgid "Yes, close account"
+#~ msgstr "Igen, a fiók törlése"
 
 #~ msgid "👋 Do you use Chrome’s automatic translation tool on MDN? Help us improve by answering a short 5-minute survey."
 #~ msgstr "👋 A Chrome automatikus fordítóeszközét használja az MDN-en? Segítsen nekünk a fejlesztésben azzal, hogy megválaszolja a rövid, 5 perces felmérésünket."
