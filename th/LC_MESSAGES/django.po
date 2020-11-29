@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2020-11-12 15:57-0800\n"
-"PO-Revision-Date: 2020-11-29 10:40+0000\n"
+"PO-Revision-Date: 2020-11-29 10:44+0000\n"
 "Last-Translator: aefgh39622@gmail.com <aefgh39622@gmail.com>\n"
 "Language-Team: Thai https://pontoon.mozilla.org/th/\n"
 "Language: th\n"
@@ -2305,33 +2305,28 @@ msgid "Banned:"
 msgstr "ห้าม:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:31
-#, fuzzy
 msgid "Submitted to Akismet as spam:"
-msgstr "วันที่ส่ง"
+msgstr "ส่งไปยัง Akismet ว่าเป็นสแปมแล้ว:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:44
-#, fuzzy
 msgid "The user did not have any revisions that were reported as spam."
-msgstr "นี่ไม่ได้ถูกสร้างโดยผู้สร้าง"
+msgstr "ผู้ใช้ไม่มีการแก้ไขใด ๆ ที่ถูกรายงานว่าเป็นสแปม"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:48
-#, fuzzy
 msgid "Deleted:"
-msgstr "ลบ"
+msgstr "ลบเมื่อ:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:61
-#, fuzzy
 msgid "The user did not have any revisions that were deleted."
-msgstr "นี่ไม่ได้ถูกสร้างโดยผู้สร้าง"
+msgstr "ผู้ใช้ไม่มีการแก้ไขใด ๆ ที่ถูกลบ"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:65
 msgid "Reverted:"
 msgstr "เปลี่ยนกลับ:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:79
-#, fuzzy
 msgid "The user did not have any revisions that were reverted."
-msgstr "นี่ไม่ได้ถูกสร้างโดยผู้สร้าง"
+msgstr "ผู้ใช้ไม่มีการแก้ไขใด ๆ ที่ถูกเปลี่ยนกลับ"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:85
 msgid "Needs follow up"
@@ -2364,9 +2359,8 @@ msgid "Revisions skipped due to newer non-spam revision:"
 msgstr ""
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:139
-#, fuzzy
 msgid "Could not submit to Akismet:"
-msgstr "วันที่ส่ง"
+msgstr "ไม่สามารถส่งไปยัง Akismet ได้:"
 
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:160
 msgid "Could not delete:"
@@ -2433,7 +2427,6 @@ msgid "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Click her
 msgstr ""
 
 #: kuma/users/jinja2/users/user_delete.html:11
-#, fuzzy
 msgid "Delete your account"
 msgstr "ลบบัญชีของคุณ"
 
@@ -2515,9 +2508,8 @@ msgid "Save"
 msgstr "บันทึก"
 
 #: kuma/users/jinja2/users/user_edit.html:138
-#, fuzzy
 msgid "Delete account"
-msgstr "ลบบัญชีของคุณ"
+msgstr "ลบบัญชี"
 
 #: kuma/users/jinja2/users/user_edit.html:151
 msgid "Manage your Mozilla Newsletter Subscriptions."
@@ -2592,7 +2584,7 @@ msgstr ""
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:9 kuma/users/jinja2/users/email/welcome/plain.ltxt:4
-#, fuzzy, python-format
+#, python-format
 msgid "Hey %(username)s!"
 msgstr "สวัสดี %(username)s!"
 
@@ -2647,9 +2639,8 @@ msgstr ""
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:14
-#, fuzzy
 msgid "Like words?"
-msgstr "คำสำคัญ:"
+msgstr "ชอบบทความใช่หรือไม่"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:18
@@ -2709,14 +2700,12 @@ msgid "Are you sure you want to continue?"
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:24
-#, fuzzy
 msgid "Yes, Delete my Account"
-msgstr "ลบบัญชีของคุณ"
+msgstr "ใช่ ลบบัญชีของฉัน"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
-#, fuzzy
 msgid "Delete your account?"
-msgstr "ลบบัญชีของคุณ"
+msgstr "ต้องการลบบัญชีของคุณหรือไม่"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:19
 msgid "Stripe error"
@@ -2747,9 +2736,8 @@ msgid ""
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:44
-#, fuzzy
 msgid "Continue"
-msgstr "มีส่วนร่วม"
+msgstr "ดำเนินการต่อ"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:55
 #, python-format
@@ -2792,9 +2780,8 @@ msgid "Already reported as spam."
 msgstr ""
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:86
-#, fuzzy
 msgid "This user has not created any revisions in the past three days."
-msgstr "นี่ไม่ได้ถูกสร้างโดยผู้สร้าง"
+msgstr "ผู้ใช้นี้ไม่ได้สร้างการแก้ไขใด ๆ ในช่วงสามวันที่ผ่านมา"
 
 #: kuma/users/jinja2/users/includes/user_title_info.html:23 kuma/wiki/content.py:802 kuma/wiki/jinja2/wiki/includes/buttons.html:55
 msgid "Edit"
@@ -2960,9 +2947,9 @@ msgid "Name Your Article"
 msgstr "ตั้งชื่อบทความของคุณ"
 
 #: kuma/wiki/forms.py:60
-#, fuzzy, python-format
+#, python-format
 msgid "The tags field is too long (%(show_value)s characters). Keep the total length to %(limit_value)s characters."
-msgstr "ชื่อผู้ใช้สั้นเกินไป (%(show_value)s ตัวอักษร) ต้องมีอย่างน้อย %(limit_value)s ตัวอักษร"
+msgstr "ช่องป้ายกำกับยาวเกินไป (%(show_value)s ตัวอักษร) ไม่ควรเกิน %(limit_value)s ตัวอักษร"
 
 #: kuma/wiki/forms.py:64
 msgid "Please provide a slug."
@@ -3122,9 +3109,8 @@ msgid "Document Tags"
 msgstr "ป้ายกำกับเอกสาร"
 
 #: kuma/wiki/models.py:177
-#, fuzzy
 msgid "uploaded to the document"
-msgstr "รายงานความคิดเห็นนี้"
+msgstr "อัปโหลดไปยังเอกสารแล้ว"
 
 #: kuma/wiki/models.py:183
 msgid "linked in the document content"
