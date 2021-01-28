@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-11-30 15:35-0800\n"
+"POT-Creation-Date: 2021-01-28 08:46-0800\n"
 "PO-Revision-Date: 2020-11-13 11:55+0000\n"
 "Last-Translator: Itiel <itiel_yn8@walla.com>\n"
 "Language-Team: Hebrew https://pontoon.mozilla.org/he/\n"
@@ -19,37 +19,33 @@ msgid "Permission Denied"
 msgstr "ההרשאה נדחתה"
 
 #: jinja2/403.html:23
-msgid "The wiki is in read-only mode."
-msgstr "הוויקי במצב קריאה בלבד."
-
-#: jinja2/403.html:25
 msgid "You must sign in to view all history"
 msgstr "עליך להיכנס כדי לצפות בכל ההיסטוריה"
 
-#: jinja2/403.html:27
+#: jinja2/403.html:25
 msgid "Your IP address has been banned."
 msgstr "כתובת ה־IP שלך נחסמה."
 
-#: jinja2/403.html:37 jinja2/handlers/400.html:21
+#: jinja2/403.html:35 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>אנו מתנצלים %(name)s, לדאבוננו אין לנו אפשרות לעשות זאת.</p>"
 
-#: jinja2/403.html:41 jinja2/handlers/400.html:25
+#: jinja2/403.html:39 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>אנו מתנצלים, לדאבוננו אין לנו אפשרות לעשות זאת.</p>"
 
-#: jinja2/403.html:47
+#: jinja2/403.html:45
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr ""
 
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:49 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr ""
 
-#: jinja2/403.html:59 jinja2/429.html:42
+#: jinja2/403.html:57 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -150,7 +146,7 @@ msgstr "<p>&copy; 2005‏-%(thisyear)s Mozilla ותורמים פרטיים.</p> 
 msgid "Web Technologies"
 msgstr "טכנולוגיות אינטרנט"
 
-#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:96 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
+#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:96 kuma/landing/jinja2/landing/homepage.html:90 kuma/landing/jinja2/landing/react_homepage.html:75
 msgid "Learn Web Development"
 msgstr ""
 
@@ -175,12 +171,12 @@ msgid "MDN"
 msgstr "MDN"
 
 #: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:47
-#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:179
+#: kuma/users/jinja2/users/includes/user_title_info.html:55 kuma/users/models.py:179
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:64
-#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:170
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:63
+#: kuma/users/jinja2/users/includes/user_title_info.html:70 kuma/users/models.py:170
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -217,9 +213,9 @@ msgstr "דילוג לחיפוש"
 msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an account, you will be prompted to do so after signing in."
 msgstr ""
 
-#: jinja2/includes/auth-modal-content.html:6
-msgid "Sign in with Github"
-msgstr "כניסה באמצעות Github"
+#: jinja2/includes/auth-modal-content.html:6 kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
+msgid "Sign in with GitHub"
+msgstr "כניסה עם GitHub"
 
 #: jinja2/includes/auth-modal-content.html:9
 msgid "Sign in with Google"
@@ -234,7 +230,7 @@ msgid "Search Firefox Help"
 msgstr "חיפוש בעזרה של Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:42 kuma/landing/jinja2/landing/homepage.html:47 kuma/search/apps.py:11 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/landing/jinja2/landing/homepage.html:42 kuma/landing/jinja2/landing/homepage.html:47 kuma/search/apps.py:9 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
 #: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50
 #: kuma/search/jinja2/search/results.html:55
 msgid "Search"
@@ -317,8 +313,8 @@ msgid "Get web development help"
 msgstr "קבלת עזרה בפיתוח אתרים"
 
 #: jinja2/includes/header-main-nav.html:60
-msgid "Join the MDN community"
-msgstr "הצטרפות לקהילת MDN"
+msgid "Contribute to MDN"
+msgstr "תרומה ל־MDN"
 
 #: jinja2/includes/header-main-nav.html:63
 msgid "Report a content problem"
@@ -327,34 +323,6 @@ msgstr "דיווח על בעיה בתוכן"
 #: jinja2/includes/header-main-nav.html:68
 msgid "Report an issue"
 msgstr "דיווח על בעיה"
-
-#: jinja2/includes/header-toolbox.html:6 kuma/search/names.py:11
-msgid "Tools"
-msgstr "כלים"
-
-#: jinja2/includes/header-toolbox.html:10
-msgid "Contribute to MDN"
-msgstr "תרומה ל־MDN"
-
-#: jinja2/includes/header-toolbox.html:12
-msgid "Get started"
-msgstr ""
-
-#: jinja2/includes/header-toolbox.html:13
-msgid "Review or localize docs"
-msgstr "סקירה או תרגום של מסמכים"
-
-#: jinja2/includes/header-toolbox.html:17
-msgid "Site Tools"
-msgstr "כלי האתר"
-
-#: jinja2/includes/header-toolbox.html:19
-msgid "Revision dashboard"
-msgstr ""
-
-#: jinja2/includes/header-toolbox.html:20
-msgid "Documentation status"
-msgstr "מצב התיעוד"
 
 #: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:96
 msgid "Other languages:"
@@ -429,7 +397,7 @@ msgstr "אם לא אישרת בעבר להצטרף לידיעונים בנושא
 msgid "Hide Newsletter Sign-up"
 msgstr "הסתרת הרשמה לידיעונים"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1401
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1324
 msgid "Previous"
 msgstr "הקודם"
 
@@ -473,7 +441,7 @@ msgstr "סינית מסורתית"
 msgid "Dutch"
 msgstr "הולנדית"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1411
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1334
 msgid "English (US)"
 msgstr "אנגלית (ארה״ב)"
 
@@ -585,8 +553,8 @@ msgstr "ביטול מינוי"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "לבטל את המינוי?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -715,13 +683,11 @@ msgstr "ניתן לצרף תמונות, ואז לקשר אליהן מהמאמר.
 msgid "File"
 msgstr "קובץ"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2020
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2016
 msgid "Title"
 msgstr "כותרת"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/authkeys/jinja2/authkeys/delete.html:9 kuma/authkeys/jinja2/authkeys/history.html:10
-#: kuma/authkeys/jinja2/authkeys/new.html:36
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56
 msgid "Description"
 msgstr "תיאור"
 
@@ -766,89 +732,6 @@ msgstr "%(bytes)s בתים"
 msgid "n/a"
 msgstr "לא זמין"
 
-#: kuma/authkeys/models.py:39
-msgid "Lookup key"
-msgstr ""
-
-#: kuma/authkeys/models.py:42
-msgid "Hashed secret"
-msgstr ""
-
-#: kuma/authkeys/models.py:44
-msgid "Description of intended use"
-msgstr ""
-
-#: kuma/authkeys/jinja2/authkeys/delete.html:7 kuma/authkeys/jinja2/authkeys/history.html:8 kuma/authkeys/jinja2/authkeys/new.html:34
-msgid "Created"
-msgstr "מועד היצירה"
-
-#: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
-msgid "Delete"
-msgstr "מחיקה"
-
-#: kuma/authkeys/jinja2/authkeys/history.html:14
-msgid "This key has not been used yet."
-msgstr "טרם נעשה שימוש במפתח זה."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:8
-msgid ""
-"These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
-"don't trust with your account delete the key. It's easy to create a replacement key at any time."
-msgstr ""
-"אלו הם מפתחות ה־API שלך. אפשר להשתמש בהם לטובת בניית יישומים שמבצעים פעולות מול MDN מטעמך. אם הפסקת להשתמש בהם או שיש לך חשד שהם נחשפו לגורמים בלתי מהימנים כדאי למחוק את המפתח. קל מאוד ליצור מפתח "
-"חלופי בכל עת."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:14
-msgid "Create a new key"
-msgstr "יצירת מפתח חדש"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:16
-msgid "You have no API keys, yet."
-msgstr "אין לך מפתחות API עדיין."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:25
-msgid "View key usage history"
-msgstr "הצגת היסטוריית שימוש במפתח"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:26
-#, python-format
-msgid "History (%(count)s)"
-msgstr "היסטוריה (%(count)s)"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:35
-#, python-format
-msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
-msgstr "לצורך שימוש במפתחות API נדרשות הרשאות מיוחדות. ניתן לבקש הרשאות על־ידי <a href=\"%(bugzilla_url)s\">מילוי דיווח על תקלה</a>."
-
-#: kuma/authkeys/jinja2/authkeys/new.html:7
-msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
-"clear as you can.</p>"
-msgstr ""
-"<p>נא לתאר את השימוש הייעודי למפתח, להלן. <p><strong>לתשומת לבך:</strong> התיאור הזה יהיה הדרך היחידה שלך לזהות את המפתח הזה בהמשך, למעט התאריך והשעה שבו הוא נוצר. לכן, מוטב לדייק עד כמה שניתן.</p>"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:16
-msgid "Create"
-msgstr "יצירה"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:20
-#, python-format
-msgid ""
-"<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
-"recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
-msgstr ""
-"<p>המפתח החדש שלך נוצר. נא לרשום בצד את הפרטים שלהלן (למשל: באמצעות העתקתם להגדרות היישום שלך). מידע זה לא יוצג שוב, ולא ניתן לשחזר אותו במקרה של אובדן.</p> <p><strong>לתשומת לבך:</strong> לאחר "
-"שסיימת, <a class=\"button\" href=\"%(list_url)s\">יש לחזור לרשימת המפתחות</a>. רענון הדף הזה יגרום ליצירת מפתח חדש.</p>"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:30
-msgid "Key ID"
-msgstr "מזהה מפתח"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:32
-msgid "Secret"
-msgstr ""
-
 #: kuma/banners/jinja2/banners/cta-banners.html:8
 msgid ""
 "Minimize\n"
@@ -892,278 +775,6 @@ msgstr "כן"
 msgid "No"
 msgstr "לא"
 
-#: kuma/dashboards/forms.py:7
-msgid "All Locales"
-msgstr "כל השפות"
-
-#: kuma/dashboards/forms.py:9
-msgid "None"
-msgstr "ללא"
-
-#: kuma/dashboards/forms.py:10
-msgid "Hour"
-msgstr "שעה"
-
-#: kuma/dashboards/forms.py:11
-msgid "Day"
-msgstr "יום"
-
-#: kuma/dashboards/forms.py:12
-msgid "Week"
-msgstr "שבוע"
-
-#: kuma/dashboards/forms.py:13
-msgid "30 days"
-msgstr "30 ימים"
-
-#: kuma/dashboards/forms.py:22
-msgid "All Authors"
-msgstr "כל המחברים"
-
-#: kuma/dashboards/forms.py:23
-msgid "Known Authors"
-msgstr "מחברים ידועים"
-
-#: kuma/dashboards/forms.py:24
-msgid "Unknown Authors"
-msgstr "מחברים לא ידועים"
-
-#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:24
-msgid "Locale:"
-msgstr "שפה:"
-
-#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:29
-msgid "User:"
-msgstr "משתמש:"
-
-#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:34
-msgid "Topic:"
-msgstr "נושא:"
-
-#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:40
-msgid "Start Date:"
-msgstr "מועד התחלה:"
-
-#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:45
-msgid "End Date:"
-msgstr "מועד סיום:"
-
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:50
-msgid "Preceding Period:"
-msgstr ""
-
-#: kuma/dashboards/forms.py:52
-msgid "Authors"
-msgstr "מחברים"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:2
-msgid "Dashboards"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:25
-msgid "Active macros"
-msgstr "פקודות מאקרו פעילות"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
-msgid "All articles in need of review"
-msgstr "כל המאמרים שדורשים סקירה"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
-#, python-format
-msgid "Articles in need of review: %(tag)s"
-msgstr "מאמרים שדורשים סקירה: %(tag)s"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
-msgid "All documents"
-msgstr "כל המסמכים"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
-msgid "All Tags"
-msgstr "כל התגיות"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:16
-msgid "Doc status by topic"
-msgstr "מצב המסמך לפי נושא"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
-msgid "Documents with errors"
-msgstr "מסמכים עם שגיאות"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
-msgid "Documents with no parent"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
-msgid "Revision Dashboard"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/index.html:21 kuma/wiki/jinja2/wiki/list/documents.html:8
-msgid "Top level documents"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/index.html:22
-msgid "Server charts"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
-msgid "Spam Dashboard"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
-#, python-format
-msgid "Localized articles tagged with: %(tag)s"
-msgstr "מאמרים מתורגמים עם התגים: %(tag)s"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:13
-#, python-format
-msgid "Found %(num)s active macro."
-msgid_plural "Found %(num)s active macros."
-msgstr[0] "נמצאה פקודת מאקרו פעילה אחת."
-msgstr[1] "נמצאו %(num)s פקודות מאקרו פעילות."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:15
-#, python-format
-msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
-msgstr "ניתן לעיין <a href=\"%(url)s\">מאגר ה־GitHub</a> לרשימת פקודות המאקרו."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:17
-#, python-format
-msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr "באפשרותך גם <a href=\"%(url)s\">לחפש פקודות מאקרו באופן ידני</a>."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:23
-msgid "Active macros and their usage counts"
-msgstr "פקודות מאקרו פעילות וכמות השימוש בהן"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:30 kuma/dashboards/jinja2/dashboards/macros.html:65
-msgid "Macro Name"
-msgstr "שם המאקרו"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:32
-msgid "English Page Count"
-msgstr "ספירת עמודים באנגלית"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:33
-msgid "All Page Count"
-msgstr "ספירת כל העמודים"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:64
-msgid "Search for macro usage:"
-msgstr "חיפוש אחר שימוש בפקודת מאקרו:"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:67
-msgid "Search All Pages"
-msgstr "חיפוש בכל העמודים"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:68
-msgid "Search English Pages"
-msgstr "חיפוש בעמודים באנגלית"
-
-#: kuma/dashboards/jinja2/dashboards/revisions.html:55
-msgid "Authors:"
-msgstr "מחברים:"
-
-#: kuma/dashboards/jinja2/dashboards/revisions.html:59 kuma/search/jinja2/search/results.html:237
-msgid "Filter"
-msgstr "סינון"
-
-#: kuma/dashboards/jinja2/dashboards/spam.html:30
-#, python-format
-msgid "Trends Over Time, Ending %(date)s"
-msgstr "מגמה לאורך הזמן, מסתיימת ב־%(date)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1973
-msgid "Revision"
-msgstr "מהדורה"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:9 kuma/users/jinja2/users/includes/user_revision_history_form.html:10 kuma/users/jinja2/users/user_detail.html:43
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:32 kuma/wiki/jinja2/wiki/revision.html:43
-msgid "Comment"
-msgstr "הערה"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
-msgid "Author"
-msgstr "מחבר"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
-msgid "Toggle IPs"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:37 kuma/users/jinja2/users/includes/user_revision_history_form.html:24
-msgid "new"
-msgstr "חדש"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:38 kuma/users/jinja2/users/includes/user_revision_history_form.html:25
-msgid "deleted"
-msgstr "נמחק"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:54
-msgid "IP:"
-msgstr "IP:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:55
-msgid "Ban IP from Editing"
-msgstr "חסימת IP מפני עריכה"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:57
-msgid "User agent:"
-msgstr "סוכן משתמש:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:61
-msgid "Referrer:"
-msgstr "מפנה:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:116
-#, python-format
-msgid "banned %(ban_date)s by %(user)s"
-msgstr "נחסם ב־%(ban_date)s על־ידי %(user)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:82
-#, python-format
-msgid "Submitted as %(submission_type)s"
-msgstr "נשלח בתור %(submission_type)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:85
-#, python-format
-msgid "%(sent_date)s by %(user)s"
-msgstr ""
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:92
-msgid "Submit as:"
-msgstr "שליחה בתור:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:93
-msgid "spam"
-msgstr "זבל"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:104
-msgid "There are no revisions matching this filter set."
-msgstr ""
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:8 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:11
-msgid "Stop getting emailed when English revisions are approved"
-msgstr "להפסיק לקבל דוא״ל עם אישור מהדורות בעברית"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:20 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:23
-msgid "Get emailed when English revisions are approved"
-msgstr "לקבל דוא״ל עם אישור מהדורות בעברית"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:7 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:10
-msgid "Stop getting emailed when English reviews are waiting"
-msgstr "להפסיק לקבל דוא״ל על מהדורות בעברית שממתינות"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:18 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:21
-msgid "Get emailed when English reviews are waiting"
-msgstr "לקבל דוא״ל על מהדורות בעברית שממתינות"
-
 #: kuma/feeder/apps.py:14
 msgid "Feeder"
 msgstr ""
@@ -1194,43 +805,43 @@ msgstr "כלי מפתחים"
 msgid "Featured"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
+#: kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Get The Browser For Developers Like You"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
+#: kuma/landing/jinja2/landing/homepage.html:107 kuma/landing/jinja2/landing/react_homepage.html:92
 msgid "read more at hacks.mozilla.org"
 msgstr "מידע נוסף בכתובת hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
+#: kuma/landing/jinja2/landing/homepage.html:116 kuma/landing/jinja2/landing/react_homepage.html:101
 msgid "Help improve MDN"
 msgstr "סיוע בשיפור MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
+#: kuma/landing/jinja2/landing/homepage.html:117 kuma/landing/jinja2/landing/react_homepage.html:102
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "כל החלקים של MDN (המסמכים והאתר עצמו) נוצרו על־ידי קהילה פתוחה של מפתחים. מזמינים אותך להצטרף אלינו! אפשר לבחור בכל אחת מהדרכים להלן כדי לעזור:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Getting started"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:120
 msgid "Editorial review"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:121
 msgid "Technical review"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
+#: kuma/landing/jinja2/landing/homepage.html:122
 msgid "Translating"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:106
 msgid "Contributing to the MDN codebase"
 msgstr ""
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Updating browser compatibility data"
 msgstr ""
 
@@ -1391,6 +1002,11 @@ msgstr ""
 msgid "MDN is your Web Developer Toolbox for docs and more on HTML, CSS, JavaScript and other Web standards and open technologies."
 msgstr ""
 
+#: kuma/landing/jinja2/landing/react_homepage.html:105
+#, fuzzy
+msgid "Contributing to MDN content"
+msgstr "תרומה ל־MDN"
+
 #: kuma/landing/jinja2/landing/includes/newsfeed.html:11
 #, python-format
 msgid "Posted %(entrydate)s by %(authorlink)s"
@@ -1490,6 +1106,10 @@ msgstr "דוגמאות קוד"
 #: kuma/search/names.py:11
 msgid "How-To & Tutorial"
 msgstr "מדריכים והנחיות צעד אחר צעד"
+
+#: kuma/search/names.py:11
+msgid "Tools"
+msgstr "כלים"
 
 #: kuma/search/names.py:12
 msgid "Skill level"
@@ -1708,11 +1328,15 @@ msgstr "כל הנושאים"
 msgid "Filter by"
 msgstr "סינון לפי"
 
-#: kuma/spam/forms.py:9
+#: kuma/search/jinja2/search/results.html:237
+msgid "Filter"
+msgstr "סינון"
+
+#: kuma/spam/forms.py:8
 msgid "The submitted data contains invalid content."
 msgstr "הנתונים שנשלחו מכילים תוכן שגוי."
 
-#: kuma/spam/forms.py:102
+#: kuma/spam/forms.py:93
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "הנתונים שנשלחו מכילים תוכן שגוי. נא לנסות שוב."
 
@@ -1736,7 +1360,7 @@ msgstr ""
 msgid "type"
 msgstr "סוג"
 
-#: kuma/users/adapters.py:42
+#: kuma/users/adapters.py:41
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -1745,11 +1369,11 @@ msgstr ""
 "חייב להיות לך לפחות חשבון מחובר אחד כדי להיכנס, עמך הסליחה. כדי לנתק חשבון זה עליך קודם לחבר חשבון אחר. כדי למחוק את הפרופיל שלך ב־MDN נא <a href=\"%(bug_form_url)s\" rel=\"nofollow\">לדווח על "
 "תקלה</a>."
 
-#: kuma/users/adapters.py:48
+#: kuma/users/adapters.py:47
 msgid "An email address cannot be used as a username."
 msgstr "אי אפשר להשתמש בכתובת דוא״ל כשם משתמש."
 
-#: kuma/users/adapters.py:86
+#: kuma/users/adapters.py:85
 msgid "The username you entered already exists."
 msgstr "שם המשתמש שבחרת כבר קיים."
 
@@ -1777,23 +1401,23 @@ msgstr "שם משתמש"
 msgid "Display a link to GitHub on my profile"
 msgstr "הצגת קישור ל־GitHub בפרופיל שלי"
 
-#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:194
+#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:78 kuma/users/models.py:194
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:184
+#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:85 kuma/users/models.py:184
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:165
+#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:92 kuma/users/models.py:165
 msgid "Mozilla People Directory"
 msgstr ""
 
-#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:189
+#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:99 kuma/users/models.py:189
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:199
+#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:106 kuma/users/models.py:199
 msgid "Discourse"
 msgstr "Discourse"
 
@@ -1930,7 +1554,7 @@ msgstr ""
 msgid "Getting started with your new MDN account"
 msgstr ""
 
-#: kuma/users/views.py:616
+#: kuma/users/views.py:622
 msgid "Email address"
 msgstr "כתובת דוא״ל"
 
@@ -1942,7 +1566,7 @@ msgstr ""
 msgid "This profile is inactive."
 msgstr ""
 
-#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:36
+#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:35
 msgid "Email addresses"
 msgstr "כתובות דוא״ל"
 
@@ -2014,19 +1638,11 @@ msgstr "נא להיכנס"
 msgid "All content on MDN is free and available without signing in."
 msgstr "כל התוכן ב־MDN הוא חופשי וזמין ללא כניסה לחשבון."
 
-#: kuma/users/jinja2/account/login.html:24
-msgid "In order to contribute, you need to sign in to an existing MDN profile."
-msgstr "כדי לתרום עליך להיכנס לפרופיל MDN קיים."
-
-#: kuma/users/jinja2/account/login.html:28 kuma/users/jinja2/account/signup_closed.html:4
-msgid "We are sorry, but profile creation is currently disabled."
-msgstr "יצירת פרופילים מושבתת נכון לעכשיו, עמך הסליחה."
-
-#: kuma/users/jinja2/account/login.html:31
+#: kuma/users/jinja2/account/login.html:23
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
 msgstr "כדי לתרום, עליך להיכנס ל־MDN. ניתן להיכנס באמצעות GitHub ואז ייווצר עבורך פרופיל MDN אם עדיין אין לך אחד כזה."
 
-#: kuma/users/jinja2/account/login.html:39
+#: kuma/users/jinja2/account/login.html:30
 #, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
 msgstr "<p><a href=\"%(login_url)s\">כניסה</a></p>"
@@ -2103,6 +1719,10 @@ msgstr "כבר יש לך פרופיל? אז נא <a href=\"%(login_url)s\">לה�
 #: kuma/users/jinja2/account/signup_closed.html:3
 msgid "Profile Creation Disabled"
 msgstr "יצירת פרופילים מושבתת"
+
+#: kuma/users/jinja2/account/signup_closed.html:4
+msgid "We are sorry, but profile creation is currently disabled."
+msgstr "יצירת פרופילים מושבתת נכון לעכשיו, עמך הסליחה."
 
 #: kuma/users/jinja2/account/verification_sent.html:3 kuma/users/jinja2/account/verification_sent.html:7 kuma/users/jinja2/account/verified_email_required.html:3
 #: kuma/users/jinja2/account/verified_email_required.html:7
@@ -2226,10 +1846,6 @@ msgstr "נכנסת עם GitHub"
 msgid "Connect with GitHub"
 msgstr ""
 
-#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
-msgid "Sign in with GitHub"
-msgstr "כניסה עם GitHub"
-
 #: kuma/users/jinja2/users/ban_user.html:7 kuma/users/jinja2/users/ban_user_and_cleanup.html:7 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:7
 #, python-format
 msgid "Ban %(user)s"
@@ -2346,6 +1962,11 @@ msgstr "הצגת עמוד"
 msgid "History"
 msgstr "היסטוריה"
 
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245 kuma/wiki/jinja2/wiki/confirm_document_delete.html:24
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
+msgid "Delete"
+msgstr "מחיקה"
+
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:114 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:135 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:156
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:175 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:194 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:222
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:253 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:277
@@ -2427,43 +2048,6 @@ msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">יש ל�
 #: kuma/users/jinja2/users/user_delete.html:11
 msgid "Delete your account"
 msgstr "מחיקת החשבון שלך"
-
-#: kuma/users/jinja2/users/user_detail.html:36
-msgid "Recent Docs Activity"
-msgstr ""
-
-#: kuma/users/jinja2/users/user_detail.html:36
-msgid "View all activity"
-msgstr "הצגת כל הפעילויות"
-
-#: kuma/users/jinja2/users/user_detail.html:41
-msgid "Page"
-msgstr "עמוד"
-
-#: kuma/users/jinja2/users/user_detail.html:42 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:23
-msgid "Date"
-msgstr "תאריך"
-
-#: kuma/users/jinja2/users/user_detail.html:51 kuma/wiki/jinja2/wiki/document.html:294
-msgid "Edit page"
-msgstr "עריכת עמוד"
-
-#: kuma/users/jinja2/users/user_detail.html:52
-msgid "View complete diff"
-msgstr "הצגת ההבדל המלא"
-
-#: kuma/users/jinja2/users/user_detail.html:53 kuma/wiki/jinja2/wiki/document.html:295
-msgid "View page history"
-msgstr "הצגת היסטוריית העמוד"
-
-#: kuma/users/jinja2/users/user_detail.html:65
-#, python-format
-msgid "<p class=\"none\">You haven't contributed to any MDN docs. <a href=\"%(docs_url)s\">Pitch in!</a></p>"
-msgstr ""
-
-#: kuma/users/jinja2/users/user_detail.html:69
-msgid "This user has no activity."
-msgstr "למשתמש זה אין פעילות."
 
 #: kuma/users/jinja2/users/user_edit.html:11
 msgid "Edit Your Profile"
@@ -2772,9 +2356,25 @@ msgid ""
 "questions, please read the <a href=\"%(faq_url)s\">FAQ</a> or you can also <a href=\"%(support_email)s\">contact support</a>.</li> </ul>"
 msgstr ""
 
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1969
+msgid "Revision"
+msgstr "מהדורה"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:10 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:32 kuma/wiki/jinja2/wiki/revision.html:43
+msgid "Comment"
+msgstr "הערה"
+
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
 msgid "Tags"
 msgstr "תגיות"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:24
+msgid "new"
+msgstr "חדש"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:25
+msgid "deleted"
+msgstr "נמחק"
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
@@ -2796,14 +2396,15 @@ msgstr "מתקדם"
 msgid "Manage"
 msgstr "ניהול"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:35
-msgid "API keys"
-msgstr "מפתחות API"
-
-#: kuma/users/jinja2/users/includes/user_title_info.html:113
+#: kuma/users/jinja2/users/includes/user_title_info.html:112
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr ""
+
+#: kuma/users/jinja2/users/includes/user_title_info.html:115
+#, python-format
+msgid "banned %(ban_date)s by %(user)s"
+msgstr "נחסם ב־%(ban_date)s על־ידי %(user)s"
 
 #: kuma/users/newsletter/apps.py:14
 msgid "UserNewsletter"
@@ -2834,7 +2435,7 @@ msgstr ""
 msgid "Admin"
 msgstr "מנהל"
 
-#: kuma/wiki/apps.py:15 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23 kuma/wiki/templates/admin/wiki/purge_documents.html:23
+#: kuma/wiki/apps.py:12 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23 kuma/wiki/templates/admin/wiki/purge_documents.html:23
 msgid "Wiki"
 msgstr "ויקי"
 
@@ -2927,166 +2528,166 @@ msgstr "עריכת עמוד"
 msgid "Show comparison"
 msgstr "הצגת השוואה"
 
-#: kuma/wiki/forms.py:49
+#: kuma/wiki/forms.py:47
 msgid "Please provide a title."
 msgstr "נא לספק כותרת."
 
-#: kuma/wiki/forms.py:50
+#: kuma/wiki/forms.py:48
 #, python-format
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "הכותרת קצרה מדי (%(show_value)s תווים). עליה להיות באורך של לפחות %(limit_value)s תווים."
 
-#: kuma/wiki/forms.py:54
+#: kuma/wiki/forms.py:52
 #, python-format
 msgid "Please keep the length of the title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "נא להגביל את אורך הכותרת ל־%(limit_value)s תווים או פחות. אורכה כרגע הוא %(show_value)s תווים."
 
-#: kuma/wiki/forms.py:59
+#: kuma/wiki/forms.py:57
 msgid "Name Your Article"
 msgstr "נא לתת שם למאמר שלך"
 
-#: kuma/wiki/forms.py:60
+#: kuma/wiki/forms.py:58
 #, python-format
 msgid "The tags field is too long (%(show_value)s characters). Keep the total length to %(limit_value)s characters."
 msgstr "שדה התגיות קצר מדי (%(show_value)s תווים). עליו להיות באורך של לפחות %(limit_value)s תווים."
 
-#: kuma/wiki/forms.py:64
+#: kuma/wiki/forms.py:62
 msgid "Please provide a slug."
 msgstr ""
 
-#: kuma/wiki/forms.py:65
+#: kuma/wiki/forms.py:63
 msgid "The slug provided is not valid."
 msgstr ""
 
-#: kuma/wiki/forms.py:66
+#: kuma/wiki/forms.py:64
 #, python-format
 msgid "The slug is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr ""
 
-#: kuma/wiki/forms.py:70
+#: kuma/wiki/forms.py:68
 #, python-format
 msgid "Please keep the length of the slug to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr ""
 
-#: kuma/wiki/forms.py:75
+#: kuma/wiki/forms.py:73
 msgid "Please provide a summary."
 msgstr "נא לספק תקציר."
 
-#: kuma/wiki/forms.py:76
+#: kuma/wiki/forms.py:74
 #, python-format
 msgid "The summary is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "התקציר קצר מדי (%(show_value)s תווים). עליו להיות באורך של לפחות %(limit_value)s תווים."
 
-#: kuma/wiki/forms.py:80
+#: kuma/wiki/forms.py:78
 #, python-format
 msgid "Please keep the length of the summary to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "נא להגביל את אורך התקציר ל־%(limit_value)s תווים או פחות. כרגע האורך הוא %(show_value)s תווים."
 
-#: kuma/wiki/forms.py:85
+#: kuma/wiki/forms.py:83
 msgid "Please provide content."
 msgstr "נא לספק תוכן."
 
-#: kuma/wiki/forms.py:86
+#: kuma/wiki/forms.py:84
 #, python-format
 msgid "The content is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "התוכן קצר מדי (%(show_value)s תווים). עליו להיות באורך של לפחות %(limit_value)s תווים."
 
-#: kuma/wiki/forms.py:90
+#: kuma/wiki/forms.py:88
 #, python-format
 msgid "Please keep the length of the content to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "נא להגביל את אורך התוכן ל־%(limit_value)s תווים או פחות. כרגע האורך הוא %(show_value)s תווים."
 
-#: kuma/wiki/forms.py:95
+#: kuma/wiki/forms.py:93
 #, python-format
 msgid "Please keep the length of the comment to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "נא להגביל את אורך התגובה ל־%(limit_value)s תווים או פחות. כרגע האורך הוא %(show_value)s תווים."
 
-#: kuma/wiki/forms.py:100
+#: kuma/wiki/forms.py:98
 msgid "Another document with this slug already exists."
 msgstr ""
 
-#: kuma/wiki/forms.py:101
+#: kuma/wiki/forms.py:99
 msgid "Another document with this metadata already exists."
 msgstr "כבר קיים מסמך עם נתוני על כאלה."
 
-#: kuma/wiki/forms.py:103
+#: kuma/wiki/forms.py:101
 #, python-format
 msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
 "making further edits."
 msgstr "הפרסום נכשל. זוהו ניסיונות עריכה סותרים. נא להעתיק ולהדביק את העריכות שלך למקום בטוח ולבקר בעמוד <a href=\"%(url)s\">היסטוריית המהדורות</a> כדי לראות מה השתנה לפני ביצוע שינויים נוספים."
 
-#: kuma/wiki/forms.py:109
+#: kuma/wiki/forms.py:107
 msgid "Changing this document's slug requires moving it and its children."
 msgstr ""
 
-#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:959 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
+#: kuma/wiki/forms.py:378 kuma/wiki/forms.py:462 kuma/wiki/forms.py:947 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:67 kuma/wiki/jinja2/wiki/includes/translate_description.html:11 kuma/wiki/jinja2/wiki/move.html:65
 msgid "Title:"
 msgstr "כותרת:"
 
-#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:960
+#: kuma/wiki/forms.py:379 kuma/wiki/forms.py:463 kuma/wiki/forms.py:948
 msgid "Title of article"
 msgstr "כותרת המאמר"
 
-#: kuma/wiki/forms.py:393 kuma/wiki/forms.py:478 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
+#: kuma/wiki/forms.py:391 kuma/wiki/forms.py:476 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:22
 msgid "Slug:"
 msgstr ""
 
-#: kuma/wiki/forms.py:394 kuma/wiki/forms.py:479
+#: kuma/wiki/forms.py:392 kuma/wiki/forms.py:477
 msgid "Article URL"
 msgstr "כתובת המאמר"
 
-#: kuma/wiki/forms.py:403 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
+#: kuma/wiki/forms.py:401 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
 msgid "Parent:"
 msgstr "הורה:"
 
-#: kuma/wiki/forms.py:490 kuma/wiki/jinja2/wiki/edit.html:91 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
+#: kuma/wiki/forms.py:488 kuma/wiki/jinja2/wiki/edit.html:91 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
 msgid "Tags:"
 msgstr "תגיות:"
 
-#: kuma/wiki/forms.py:496 kuma/wiki/jinja2/wiki/edit.html:97
+#: kuma/wiki/forms.py:494 kuma/wiki/jinja2/wiki/edit.html:97
 msgid "Keywords:"
 msgstr "מילות מפתח:"
 
-#: kuma/wiki/forms.py:497
+#: kuma/wiki/forms.py:495
 msgid "Affects search results"
 msgstr "משפיע על תוצאות החיפוש"
 
-#: kuma/wiki/forms.py:505
+#: kuma/wiki/forms.py:503
 msgid "Search result summary:"
 msgstr "תקציר תוצאות החיפוש:"
 
-#: kuma/wiki/forms.py:506
+#: kuma/wiki/forms.py:504
 msgid "Only displayed on search results page"
 msgstr "מוצג רק בעמוד תוצאות החיפוש"
 
-#: kuma/wiki/forms.py:517 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
+#: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
 msgstr "תוכן:"
 
-#: kuma/wiki/forms.py:526 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
+#: kuma/wiki/forms.py:524 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
 msgid "Comment:"
 msgstr "הערה:"
 
-#: kuma/wiki/forms.py:529
+#: kuma/wiki/forms.py:527
 msgid "Tag this revision for review?"
 msgstr "לסמן את המהדורה הזו לסקירה?"
 
-#: kuma/wiki/forms.py:536
+#: kuma/wiki/forms.py:534
 msgid "Tag this revision for localization?"
 msgstr "לסמן את המהדורה הזאת לתרגום?"
 
-#: kuma/wiki/forms.py:931
+#: kuma/wiki/forms.py:919
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr ""
 
-#: kuma/wiki/forms.py:971
+#: kuma/wiki/forms.py:959
 msgid "New slug:"
 msgstr ""
 
-#: kuma/wiki/forms.py:972
+#: kuma/wiki/forms.py:960
 msgid "New article URL"
 msgstr "כתובת חדשה למאמר"
 
@@ -3157,67 +2758,67 @@ msgstr ""
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "מהדורה חייבת להיות מבוססת על מהדורה של המסמך ב%(locale)s. מזהה המהדורה %(id)s לא תואם לקריטריון זה."
 
-#: kuma/wiki/models.py:1932
+#: kuma/wiki/models.py:1928
 msgid "IP address"
 msgstr "כתובת IP"
 
-#: kuma/wiki/models.py:1940
+#: kuma/wiki/models.py:1936
 msgid "User-Agent"
 msgstr "סוכן משתמש"
 
-#: kuma/wiki/models.py:1945
+#: kuma/wiki/models.py:1941
 msgid "HTTP Referrer"
 msgstr "מפנה HTTP"
 
-#: kuma/wiki/models.py:1953 kuma/wiki/models.py:2039
+#: kuma/wiki/models.py:1949 kuma/wiki/models.py:2035
 msgid "Data submitted to Akismet"
 msgstr "נתונים שנשלחו ל־Akismet"
 
-#: kuma/wiki/models.py:1979
+#: kuma/wiki/models.py:1975
 msgid "Akismet submission"
 msgstr "הגשה ל־Akismet"
 
-#: kuma/wiki/models.py:1980
+#: kuma/wiki/models.py:1976
 msgid "Akismet submissions"
 msgstr "הגשות ל־Akismet"
 
-#: kuma/wiki/models.py:2024
+#: kuma/wiki/models.py:2020
 msgid "Slug"
 msgstr ""
 
-#: kuma/wiki/models.py:2032 kuma/wiki/models.py:2085
+#: kuma/wiki/models.py:2028
 msgid "Document (optional)"
 msgstr "מסמך (רשות)"
 
-#: kuma/wiki/models.py:2042
+#: kuma/wiki/models.py:2038
 msgid "reviewed"
 msgstr ""
 
-#: kuma/wiki/models.py:2053
+#: kuma/wiki/models.py:2049
 msgid "Needs Review"
 msgstr "נדרשת סקירה"
 
-#: kuma/wiki/models.py:2054
+#: kuma/wiki/models.py:2050
 msgid "Ham / False Positive"
 msgstr ""
 
-#: kuma/wiki/models.py:2055
+#: kuma/wiki/models.py:2051
 msgid "Confirmed as Spam"
 msgstr ""
 
-#: kuma/wiki/models.py:2056
+#: kuma/wiki/models.py:2052
 msgid "Review Unavailable"
 msgstr "סקירה אינה זמינה"
 
-#: kuma/wiki/models.py:2057
+#: kuma/wiki/models.py:2053
 msgid "Akismet Error"
 msgstr "שגיאה ב־Akismet"
 
-#: kuma/wiki/models.py:2062
+#: kuma/wiki/models.py:2058
 msgid "Review of Akismet's classification as spam"
 msgstr ""
 
-#: kuma/wiki/models.py:2069
+#: kuma/wiki/models.py:2065
 msgid "Staff reviewer"
 msgstr "סוקר מטעם הצוות"
 
@@ -3325,6 +2926,10 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:18
 msgid "Document"
 msgstr "מסמך"
+
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:23
+msgid "Date"
+msgstr "תאריך"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:25
 msgid "Content"
@@ -3439,6 +3044,14 @@ msgstr "תורמים לעמוד זה:"
 #: kuma/wiki/jinja2/wiki/document.html:255
 msgid "Last updated by:"
 msgstr "עדכון אחרון מאת:"
+
+#: kuma/wiki/jinja2/wiki/document.html:294
+msgid "Edit page"
+msgstr "עריכת עמוד"
+
+#: kuma/wiki/jinja2/wiki/document.html:295
+msgid "View page history"
+msgstr "הצגת היסטוריית העמוד"
 
 #: kuma/wiki/jinja2/wiki/edit.html:5
 #, python-format
@@ -4069,6 +3682,22 @@ msgstr[1] "נמצאו %(num)s מסמכים"
 msgid "Articles tagged: %(tag)s"
 msgstr ""
 
+#: kuma/wiki/jinja2/wiki/list/documents.html:6
+msgid "Documents with errors"
+msgstr "מסמכים עם שגיאות"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:8
+msgid "Top level documents"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:10
+msgid "Documents with no parent"
+msgstr ""
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:12
+msgid "All documents"
+msgstr "כל המסמכים"
+
 #: kuma/wiki/jinja2/wiki/list/documents.html:27
 msgid "Translation updates needed"
 msgstr "נדרשים עדכונים לתרגום"
@@ -4085,6 +3714,15 @@ msgstr ""
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:7
 msgid "Documents for review"
 msgstr "מסמכים לסקירה"
+
+#: kuma/wiki/jinja2/wiki/list/needs_review.html:12
+#, python-format
+msgid "Articles in need of review: %(tag)s"
+msgstr "מאמרים שדורשים סקירה: %(tag)s"
+
+#: kuma/wiki/jinja2/wiki/list/needs_review.html:14
+msgid "All articles in need of review"
+msgstr "כל המאמרים שדורשים סקירה"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:25
 #, python-format
@@ -4134,9 +3772,18 @@ msgstr "יש להיכנס כדי לצפות בכל ההיסטוריה"
 msgid "View All"
 msgstr "הצגת הכל"
 
+#: kuma/wiki/jinja2/wiki/list/tags.html:2
+msgid "All Tags"
+msgstr "כל התגיות"
+
 #: kuma/wiki/jinja2/wiki/list/tags.html:18
 msgid "There are no tags."
 msgstr "אין תגיות."
+
+#: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
+#, python-format
+msgid "Localized articles tagged with: %(tag)s"
+msgstr "מאמרים מתורגמים עם התגים: %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
 msgid "Articles tagged with any localization tags"
@@ -4206,29 +3853,15 @@ msgstr "אירעה שגיאה בעת ייצור התוכן."
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "המסמך כבר קיים. לתשומת לבך: אי אפשר לשחזר מסמך שהועבר עד למחיקת ההפניה שלו."
 
-#: kuma/wiki/views/document.py:755 kuma/wiki/views/document.py:931
+#: kuma/wiki/views/document.py:746 kuma/wiki/views/document.py:922
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "העברה מהכתובת %(url)s"
 
-#: kuma/wiki/views/document.py:812
+#: kuma/wiki/views/document.py:803
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "למדתי על %(title)s ב־MDN."
-
-#: kuma/wiki/views/document.py:1135
-#, python-format
-msgid "Unsupported content-type: %s"
-msgstr "סוג התוכן לא נתמך: %s"
-
-#: kuma/wiki/views/document.py:1141
-#, python-format
-msgid "Request parsing error: %s"
-msgstr "שגיאה בניתוח הבקשה: %s"
-
-#: kuma/wiki/views/document.py:1164
-msgid "ETag precondition failed"
-msgstr ""
 
 #: kuma/wiki/views/edit.py:125
 msgid "Sections may only be edited inline."
@@ -4250,6 +3883,221 @@ msgstr "אין לך אפשרות לתרגם את המסמך הזה."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "שרת Elasticsearch:‏ %(backend)s"
+
+#~ msgid "The wiki is in read-only mode."
+#~ msgstr "הוויקי במצב קריאה בלבד."
+
+#~ msgid "Sign in with Github"
+#~ msgstr "כניסה באמצעות Github"
+
+#~ msgid "Join the MDN community"
+#~ msgstr "הצטרפות לקהילת MDN"
+
+#~ msgid "Review or localize docs"
+#~ msgstr "סקירה או תרגום של מסמכים"
+
+#~ msgid "Site Tools"
+#~ msgstr "כלי האתר"
+
+#~ msgid "Documentation status"
+#~ msgstr "מצב התיעוד"
+
+#~ msgid "Created"
+#~ msgstr "מועד היצירה"
+
+#~ msgid "This key has not been used yet."
+#~ msgstr "טרם נעשה שימוש במפתח זה."
+
+#~ msgid ""
+#~ "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
+#~ "don't trust with your account delete the key. It's easy to create a replacement key at any time."
+#~ msgstr ""
+#~ "אלו הם מפתחות ה־API שלך. אפשר להשתמש בהם לטובת בניית יישומים שמבצעים פעולות מול MDN מטעמך. אם הפסקת להשתמש בהם או שיש לך חשד שהם נחשפו לגורמים בלתי מהימנים כדאי למחוק את המפתח. קל מאוד ליצור "
+#~ "מפתח חלופי בכל עת."
+
+#~ msgid "Create a new key"
+#~ msgstr "יצירת מפתח חדש"
+
+#~ msgid "You have no API keys, yet."
+#~ msgstr "אין לך מפתחות API עדיין."
+
+#~ msgid "View key usage history"
+#~ msgstr "הצגת היסטוריית שימוש במפתח"
+
+#~ msgid "History (%(count)s)"
+#~ msgstr "היסטוריה (%(count)s)"
+
+#~ msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
+#~ msgstr "לצורך שימוש במפתחות API נדרשות הרשאות מיוחדות. ניתן לבקש הרשאות על־ידי <a href=\"%(bugzilla_url)s\">מילוי דיווח על תקלה</a>."
+
+#~ msgid ""
+#~ "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+#~ "clear as you can.</p>"
+#~ msgstr ""
+#~ "<p>נא לתאר את השימוש הייעודי למפתח, להלן. <p><strong>לתשומת לבך:</strong> התיאור הזה יהיה הדרך היחידה שלך לזהות את המפתח הזה בהמשך, למעט התאריך והשעה שבו הוא נוצר. לכן, מוטב לדייק עד כמה שניתן.</"
+#~ "p>"
+
+#~ msgid "Create"
+#~ msgstr "יצירה"
+
+#~ msgid ""
+#~ "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
+#~ "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
+#~ msgstr ""
+#~ "<p>המפתח החדש שלך נוצר. נא לרשום בצד את הפרטים שלהלן (למשל: באמצעות העתקתם להגדרות היישום שלך). מידע זה לא יוצג שוב, ולא ניתן לשחזר אותו במקרה של אובדן.</p> <p><strong>לתשומת לבך:</strong> לאחר "
+#~ "שסיימת, <a class=\"button\" href=\"%(list_url)s\">יש לחזור לרשימת המפתחות</a>. רענון הדף הזה יגרום ליצירת מפתח חדש.</p>"
+
+#~ msgid "Key ID"
+#~ msgstr "מזהה מפתח"
+
+#~ msgid "All Locales"
+#~ msgstr "כל השפות"
+
+#~ msgid "None"
+#~ msgstr "ללא"
+
+#~ msgid "Hour"
+#~ msgstr "שעה"
+
+#~ msgid "Day"
+#~ msgstr "יום"
+
+#~ msgid "Week"
+#~ msgstr "שבוע"
+
+#~ msgid "30 days"
+#~ msgstr "30 ימים"
+
+#~ msgid "All Authors"
+#~ msgstr "כל המחברים"
+
+#~ msgid "Known Authors"
+#~ msgstr "מחברים ידועים"
+
+#~ msgid "Unknown Authors"
+#~ msgstr "מחברים לא ידועים"
+
+#~ msgid "Locale:"
+#~ msgstr "שפה:"
+
+#~ msgid "User:"
+#~ msgstr "משתמש:"
+
+#~ msgid "Topic:"
+#~ msgstr "נושא:"
+
+#~ msgid "Start Date:"
+#~ msgstr "מועד התחלה:"
+
+#~ msgid "End Date:"
+#~ msgstr "מועד סיום:"
+
+#~ msgid "Authors"
+#~ msgstr "מחברים"
+
+#~ msgid "Active macros"
+#~ msgstr "פקודות מאקרו פעילות"
+
+#~ msgid "Doc status by topic"
+#~ msgstr "מצב המסמך לפי נושא"
+
+#~ msgid "Found %(num)s active macro."
+#~ msgid_plural "Found %(num)s active macros."
+#~ msgstr[0] "נמצאה פקודת מאקרו פעילה אחת."
+#~ msgstr[1] "נמצאו %(num)s פקודות מאקרו פעילות."
+
+#~ msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
+#~ msgstr "ניתן לעיין <a href=\"%(url)s\">מאגר ה־GitHub</a> לרשימת פקודות המאקרו."
+
+#~ msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
+#~ msgstr "באפשרותך גם <a href=\"%(url)s\">לחפש פקודות מאקרו באופן ידני</a>."
+
+#~ msgid "Active macros and their usage counts"
+#~ msgstr "פקודות מאקרו פעילות וכמות השימוש בהן"
+
+#~ msgid "Macro Name"
+#~ msgstr "שם המאקרו"
+
+#~ msgid "English Page Count"
+#~ msgstr "ספירת עמודים באנגלית"
+
+#~ msgid "All Page Count"
+#~ msgstr "ספירת כל העמודים"
+
+#~ msgid "Search for macro usage:"
+#~ msgstr "חיפוש אחר שימוש בפקודת מאקרו:"
+
+#~ msgid "Search All Pages"
+#~ msgstr "חיפוש בכל העמודים"
+
+#~ msgid "Search English Pages"
+#~ msgstr "חיפוש בעמודים באנגלית"
+
+#~ msgid "Authors:"
+#~ msgstr "מחברים:"
+
+#~ msgid "Trends Over Time, Ending %(date)s"
+#~ msgstr "מגמה לאורך הזמן, מסתיימת ב־%(date)s"
+
+#~ msgid "Author"
+#~ msgstr "מחבר"
+
+#~ msgid "IP:"
+#~ msgstr "IP:"
+
+#~ msgid "Ban IP from Editing"
+#~ msgstr "חסימת IP מפני עריכה"
+
+#~ msgid "User agent:"
+#~ msgstr "סוכן משתמש:"
+
+#~ msgid "Referrer:"
+#~ msgstr "מפנה:"
+
+#~ msgid "Submitted as %(submission_type)s"
+#~ msgstr "נשלח בתור %(submission_type)s"
+
+#~ msgid "Submit as:"
+#~ msgstr "שליחה בתור:"
+
+#~ msgid "spam"
+#~ msgstr "זבל"
+
+#~ msgid "Stop getting emailed when English revisions are approved"
+#~ msgstr "להפסיק לקבל דוא״ל עם אישור מהדורות בעברית"
+
+#~ msgid "Get emailed when English revisions are approved"
+#~ msgstr "לקבל דוא״ל עם אישור מהדורות בעברית"
+
+#~ msgid "Stop getting emailed when English reviews are waiting"
+#~ msgstr "להפסיק לקבל דוא״ל על מהדורות בעברית שממתינות"
+
+#~ msgid "Get emailed when English reviews are waiting"
+#~ msgstr "לקבל דוא״ל על מהדורות בעברית שממתינות"
+
+#~ msgid "In order to contribute, you need to sign in to an existing MDN profile."
+#~ msgstr "כדי לתרום עליך להיכנס לפרופיל MDN קיים."
+
+#~ msgid "View all activity"
+#~ msgstr "הצגת כל הפעילויות"
+
+#~ msgid "Page"
+#~ msgstr "עמוד"
+
+#~ msgid "View complete diff"
+#~ msgstr "הצגת ההבדל המלא"
+
+#~ msgid "This user has no activity."
+#~ msgstr "למשתמש זה אין פעילות."
+
+#~ msgid "API keys"
+#~ msgstr "מפתחות API"
+
+#~ msgid "Unsupported content-type: %s"
+#~ msgstr "סוג התוכן לא נתמך: %s"
+
+#~ msgid "Request parsing error: %s"
+#~ msgstr "שגיאה בניתוח הבקשה: %s"
 
 #~ msgid "Mozillians"
 #~ msgstr "Mozillians"

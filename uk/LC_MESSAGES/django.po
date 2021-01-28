@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-11-30 15:35-0800\n"
+"POT-Creation-Date: 2021-01-28 08:46-0800\n"
 "PO-Revision-Date: 2020-11-13 20:15+0000\n"
 "Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian https://pontoon.mozilla.org/uk/\n"
@@ -20,37 +20,33 @@ msgid "Permission Denied"
 msgstr "Відмовлено у доступі"
 
 #: jinja2/403.html:23
-msgid "The wiki is in read-only mode."
-msgstr "Вікі відкрито у режимі лише для читання."
-
-#: jinja2/403.html:25
 msgid "You must sign in to view all history"
 msgstr "Ви мусите увійти, щоб переглянути всю історію"
 
-#: jinja2/403.html:27
+#: jinja2/403.html:25
 msgid "Your IP address has been banned."
 msgstr "Вашу IP-адресу було заблоковано."
 
-#: jinja2/403.html:37 jinja2/handlers/400.html:21
+#: jinja2/403.html:35 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>На жаль %(name)s, ми боїмося, що не зможемо це зробити.</p>"
 
-#: jinja2/403.html:41 jinja2/handlers/400.html:25
+#: jinja2/403.html:39 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>На жаль, ми боїмося, що не зможемо це зробити.</p>"
 
-#: jinja2/403.html:47
+#: jinja2/403.html:45
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li><a href=\"%(logout_url)s\">Вийдіть</a> та спробуйте знову.</li>"
 
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:49 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li><a href=\"%(login_url)s\">Увійдіть</a> щоб повторити спробу.</li>"
 
-#: jinja2/403.html:59 jinja2/429.html:42
+#: jinja2/403.html:57 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -151,7 +147,7 @@ msgstr "<p>&copy; 2005-%(thisyear)s Mozilla та окремі учасники.<
 msgid "Web Technologies"
 msgstr "Веб-технології"
 
-#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:96 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
+#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:96 kuma/landing/jinja2/landing/homepage.html:90 kuma/landing/jinja2/landing/react_homepage.html:75
 msgid "Learn Web Development"
 msgstr "Вивчайте веб розробку"
 
@@ -176,12 +172,12 @@ msgid "MDN"
 msgstr "MDN"
 
 #: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:47
-#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:179
+#: kuma/users/jinja2/users/includes/user_title_info.html:55 kuma/users/models.py:179
 msgid "Twitter"
 msgstr "Twitter"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:64
-#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:170
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:63
+#: kuma/users/jinja2/users/includes/user_title_info.html:70 kuma/users/models.py:170
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -218,8 +214,8 @@ msgstr "Перейти до пошуку"
 msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an account, you will be prompted to do so after signing in."
 msgstr "Увійдіть, щоб скористатися перевагами облікового запису MDN. Якщо ви ще не створили обліковий запис, то вам буде запропоновано зробити це після входу."
 
-#: jinja2/includes/auth-modal-content.html:6
-msgid "Sign in with Github"
+#: jinja2/includes/auth-modal-content.html:6 kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
+msgid "Sign in with GitHub"
 msgstr "Увійти з GitHub"
 
 #: jinja2/includes/auth-modal-content.html:9
@@ -235,7 +231,7 @@ msgid "Search Firefox Help"
 msgstr "Пошук в Firefox Help"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:42 kuma/landing/jinja2/landing/homepage.html:47 kuma/search/apps.py:11 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/landing/jinja2/landing/homepage.html:42 kuma/landing/jinja2/landing/homepage.html:47 kuma/search/apps.py:9 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
 #: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50
 #: kuma/search/jinja2/search/results.html:55
 msgid "Search"
@@ -318,8 +314,8 @@ msgid "Get web development help"
 msgstr "Довідка веб-розробки"
 
 #: jinja2/includes/header-main-nav.html:60
-msgid "Join the MDN community"
-msgstr "Приєднатися до спільноти MDN"
+msgid "Contribute to MDN"
+msgstr "Допомогти MDN"
 
 #: jinja2/includes/header-main-nav.html:63
 msgid "Report a content problem"
@@ -328,34 +324,6 @@ msgstr "Повідомити про проблему вмісту"
 #: jinja2/includes/header-main-nav.html:68
 msgid "Report an issue"
 msgstr "Повідомити про проблему"
-
-#: jinja2/includes/header-toolbox.html:6 kuma/search/names.py:11
-msgid "Tools"
-msgstr "Інструменти"
-
-#: jinja2/includes/header-toolbox.html:10
-msgid "Contribute to MDN"
-msgstr "Допомогти MDN"
-
-#: jinja2/includes/header-toolbox.html:12
-msgid "Get started"
-msgstr "Початок роботи"
-
-#: jinja2/includes/header-toolbox.html:13
-msgid "Review or localize docs"
-msgstr "Перевіряйте або перекладайте документацію"
-
-#: jinja2/includes/header-toolbox.html:17
-msgid "Site Tools"
-msgstr "Інструменти сайту"
-
-#: jinja2/includes/header-toolbox.html:19
-msgid "Revision dashboard"
-msgstr "Дошка редагувань"
-
-#: jinja2/includes/header-toolbox.html:20
-msgid "Documentation status"
-msgstr "Стан документації"
 
 #: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:96
 msgid "Other languages:"
@@ -431,7 +399,7 @@ msgstr ""
 msgid "Hide Newsletter Sign-up"
 msgstr "Приховати підписку на розсилку"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1401
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1324
 msgid "Previous"
 msgstr "Назад"
 
@@ -475,7 +443,7 @@ msgstr "Китайська (традиційне письмо)"
 msgid "Dutch"
 msgstr "Голландська"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1411
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1334
 msgid "English (US)"
 msgstr "Англійська (США)"
 
@@ -587,8 +555,8 @@ msgstr "Відписатися"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "Ви дійсно бажаєте відписатись?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -717,13 +685,11 @@ msgstr "Зображення можуть бути вкладені, а поті
 msgid "File"
 msgstr "Файл"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2020
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2016
 msgid "Title"
 msgstr "Заголовок"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/authkeys/jinja2/authkeys/delete.html:9 kuma/authkeys/jinja2/authkeys/history.html:10
-#: kuma/authkeys/jinja2/authkeys/new.html:36
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56
 msgid "Description"
 msgstr "Опис"
 
@@ -767,91 +733,6 @@ msgstr "%(bytes)s байтів"
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:109 kuma/attachments/jinja2/attachments/includes/attachment_list.html:126
 msgid "n/a"
 msgstr "не застосовується"
-
-#: kuma/authkeys/models.py:39
-msgid "Lookup key"
-msgstr "Пошук ключа"
-
-#: kuma/authkeys/models.py:42
-msgid "Hashed secret"
-msgstr "Хешований секрет"
-
-#: kuma/authkeys/models.py:44
-msgid "Description of intended use"
-msgstr "Опис передбачуваного використання"
-
-#: kuma/authkeys/jinja2/authkeys/delete.html:7 kuma/authkeys/jinja2/authkeys/history.html:8 kuma/authkeys/jinja2/authkeys/new.html:34
-msgid "Created"
-msgstr "Створено"
-
-#: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
-msgid "Delete"
-msgstr "Видалити"
-
-#: kuma/authkeys/jinja2/authkeys/history.html:14
-msgid "This key has not been used yet."
-msgstr "Цей ключ ще не використовувався."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:8
-msgid ""
-"These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
-"don't trust with your account delete the key. It's easy to create a replacement key at any time."
-msgstr ""
-"Це ваші ключі API. Вони корисні для побудови застосунків, що виконують завдання на MDN від вашого імені. Якщо ви припинили використовувати будь-який з них або підозрюєте, що один з них потрапив у "
-"руки особам, яким ви не довіряєте свій обліковий запис, натисніть кнопку видалити ключ. Ви в будь-який момент легко зможете створити йому заміну."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:14
-msgid "Create a new key"
-msgstr "Створити новий ключ"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:16
-msgid "You have no API keys, yet."
-msgstr "У Вас поки немає API-ключів."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:25
-msgid "View key usage history"
-msgstr "Подивитися історію використання ключів"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:26
-#, python-format
-msgid "History (%(count)s)"
-msgstr "Історія (%(count)s)"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:35
-#, python-format
-msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
-msgstr "Вам потрібен спеціальний дозвіл на використання ключів API. Ви можете запросити дозвіл на <a href=\"%(bugzilla_url)s\">подачу помилки</a>."
-
-#: kuma/authkeys/jinja2/authkeys/new.html:7
-msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
-"clear as you can.</p>"
-msgstr ""
-"<p>Опишіть нижче передбачуване використання цього ключа. <p><strong>ЗВЕРНІТЬ УВАГУ:</strong> Воно буде єдиним способом ідентифікації цього ключа надалі, за виключенням дати і часу його створення. "
-"Тому будьте чіткими у описі.</p>"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:16
-msgid "Create"
-msgstr "Створити"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:20
-#, python-format
-msgid ""
-"<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
-"recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
-msgstr ""
-"<p>Ваш новий ключ щойно був створений. Будь ласка, занотуйте його атрибути, зазначені нижче (наприклад, скопіювавши їх у налаштування вашого застосунку). Ця інформація більше ніколи не буде знову "
-"відображена, і її неможливо буде відновити у випадку втрати.</p> <p><strong>ЗВЕРНІТЬ УВАГУ:</strong> Коли ви закінчите, <a class=\"button\" href=\"%(list_url)s\">поверніться до списку ключів</a>. "
-"Перезавантаження цієї сторінки створить новий ключ.</p>"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:30
-msgid "Key ID"
-msgstr "Ідентифікатор ключа"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:32
-msgid "Secret"
-msgstr "Секрет"
 
 #: kuma/banners/jinja2/banners/cta-banners.html:8
 msgid ""
@@ -902,279 +783,6 @@ msgstr "Так"
 msgid "No"
 msgstr "Ні"
 
-#: kuma/dashboards/forms.py:7
-msgid "All Locales"
-msgstr "Всі мови"
-
-#: kuma/dashboards/forms.py:9
-msgid "None"
-msgstr "Немає"
-
-#: kuma/dashboards/forms.py:10
-msgid "Hour"
-msgstr "Година"
-
-#: kuma/dashboards/forms.py:11
-msgid "Day"
-msgstr "День"
-
-#: kuma/dashboards/forms.py:12
-msgid "Week"
-msgstr "Тиждень"
-
-#: kuma/dashboards/forms.py:13
-msgid "30 days"
-msgstr "30 днів"
-
-#: kuma/dashboards/forms.py:22
-msgid "All Authors"
-msgstr "Усі автори"
-
-#: kuma/dashboards/forms.py:23
-msgid "Known Authors"
-msgstr "Відомі автори"
-
-#: kuma/dashboards/forms.py:24
-msgid "Unknown Authors"
-msgstr "Невідомі автори"
-
-#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:24
-msgid "Locale:"
-msgstr "Мова:"
-
-#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:29
-msgid "User:"
-msgstr "Користувач:"
-
-#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:34
-msgid "Topic:"
-msgstr "Тема:"
-
-#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:40
-msgid "Start Date:"
-msgstr "Дата початку:"
-
-#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:45
-msgid "End Date:"
-msgstr "Дата завершення:"
-
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:50
-msgid "Preceding Period:"
-msgstr "Попередній період:"
-
-#: kuma/dashboards/forms.py:52
-msgid "Authors"
-msgstr "Автори"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:2
-msgid "Dashboards"
-msgstr "Панелі"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:25
-msgid "Active macros"
-msgstr "Активні макроси"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
-msgid "All articles in need of review"
-msgstr "Всі статті, що потребують перевірки"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
-#, python-format
-msgid "Articles in need of review: %(tag)s"
-msgstr "Статті, що потребують перевірки: %(tag)s"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
-msgid "All documents"
-msgstr "Усі документи"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
-msgid "All Tags"
-msgstr "Всі мітки"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:16
-msgid "Doc status by topic"
-msgstr "Статус документа за темами"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
-msgid "Documents with errors"
-msgstr "Документи з помилками"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
-msgid "Documents with no parent"
-msgstr "Документи без батька"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
-msgid "Revision Dashboard"
-msgstr "Дошка редагувань"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:21 kuma/wiki/jinja2/wiki/list/documents.html:8
-msgid "Top level documents"
-msgstr "Документи верхнього рівня"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:22
-msgid "Server charts"
-msgstr "Графіки сервера"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
-msgid "Spam Dashboard"
-msgstr "Панель спаму"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
-#, python-format
-msgid "Localized articles tagged with: %(tag)s"
-msgstr "Локалізовані статті, помічені: %(tag)s"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:13
-#, python-format
-msgid "Found %(num)s active macro."
-msgid_plural "Found %(num)s active macros."
-msgstr[0] "Знайдено %(num)s активний макрос."
-msgstr[1] "Знайдено %(num)s активних макроси."
-msgstr[2] "Знайдено %(num)s активних макросів."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:15
-#, python-format
-msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
-msgstr "Для перегляду списку макросів перегляньте <a href=\"%(url)s\">GitHub репозиторій</a>."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:17
-#, python-format
-msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr "Ви також можете <a href=\"%(url)s\">шукати макроси вручну</a>."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:23
-msgid "Active macros and their usage counts"
-msgstr "Активні макроси і кількість їх використань"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:30 kuma/dashboards/jinja2/dashboards/macros.html:65
-msgid "Macro Name"
-msgstr "Ім'я макроса"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:32
-msgid "English Page Count"
-msgstr "Кількість англійських сторінок"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:33
-msgid "All Page Count"
-msgstr "Загальна кількість сторінок"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:64
-msgid "Search for macro usage:"
-msgstr "Пошук використань макросу:"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:67
-msgid "Search All Pages"
-msgstr "Шукати на всіх сторінках"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:68
-msgid "Search English Pages"
-msgstr "Шукати на англійських сторінках"
-
-#: kuma/dashboards/jinja2/dashboards/revisions.html:55
-msgid "Authors:"
-msgstr "Автори:"
-
-#: kuma/dashboards/jinja2/dashboards/revisions.html:59 kuma/search/jinja2/search/results.html:237
-msgid "Filter"
-msgstr "Фільтр"
-
-#: kuma/dashboards/jinja2/dashboards/spam.html:30
-#, python-format
-msgid "Trends Over Time, Ending %(date)s"
-msgstr "Тренди за часом, закінчуючи %(date)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1973
-msgid "Revision"
-msgstr "Редакція"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:9 kuma/users/jinja2/users/includes/user_revision_history_form.html:10 kuma/users/jinja2/users/user_detail.html:43
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:32 kuma/wiki/jinja2/wiki/revision.html:43
-msgid "Comment"
-msgstr "Коментар"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
-msgid "Author"
-msgstr "Автор"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
-msgid "Toggle IPs"
-msgstr "Перемкнути IPs"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:37 kuma/users/jinja2/users/includes/user_revision_history_form.html:24
-msgid "new"
-msgstr "новий"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:38 kuma/users/jinja2/users/includes/user_revision_history_form.html:25
-msgid "deleted"
-msgstr "вилучено"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:54
-msgid "IP:"
-msgstr "IP:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:55
-msgid "Ban IP from Editing"
-msgstr "Заблокувати IP від редагування"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:57
-msgid "User agent:"
-msgstr "Браузер:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:61
-msgid "Referrer:"
-msgstr "Реферер:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:116
-#, python-format
-msgid "banned %(ban_date)s by %(user)s"
-msgstr "заблокував %(user)s %(ban_date)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:82
-#, python-format
-msgid "Submitted as %(submission_type)s"
-msgstr "Представлено як %(submission_type)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:85
-#, python-format
-msgid "%(sent_date)s by %(user)s"
-msgstr "%(sent_date)s %(user)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:92
-msgid "Submit as:"
-msgstr "Надіслати як:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:93
-msgid "spam"
-msgstr "спам"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:104
-msgid "There are no revisions matching this filter set."
-msgstr "Немає редакцій, що відповідають цьому фільтру."
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:8 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:11
-msgid "Stop getting emailed when English revisions are approved"
-msgstr "Припинити отримувати повідомлення, коли правлять англійську версію"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:20 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:23
-msgid "Get emailed when English revisions are approved"
-msgstr "Отримувати повідомлення, коли правлять англійську версію"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:7 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:10
-msgid "Stop getting emailed when English reviews are waiting"
-msgstr "Припинити отримувати повідомлення, коли англійська версія чекає на перегляд"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:18 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:21
-msgid "Get emailed when English reviews are waiting"
-msgstr "Отримувати повідомлення, коли англійська версія чекає на перегляд"
-
 #: kuma/feeder/apps.py:14
 msgid "Feeder"
 msgstr "Feeder"
@@ -1207,43 +815,43 @@ msgstr "Інструменти розробника"
 msgid "Featured"
 msgstr "Відібрані"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
+#: kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Get The Browser For Developers Like You"
 msgstr "Отримайте браузер для розробників, як ви"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
+#: kuma/landing/jinja2/landing/homepage.html:107 kuma/landing/jinja2/landing/react_homepage.html:92
 msgid "read more at hacks.mozilla.org"
 msgstr "докладніше на hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
+#: kuma/landing/jinja2/landing/homepage.html:116 kuma/landing/jinja2/landing/react_homepage.html:101
 msgid "Help improve MDN"
 msgstr "Допоможіть нам поліпшити MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
+#: kuma/landing/jinja2/landing/homepage.html:117 kuma/landing/jinja2/landing/react_homepage.html:102
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Всі частини MDN (документація і сам сайт) створені відкритим співтовариством розробників. Будь ласка, приєднуйтесь до нас! Виберіть один з цих способів допомоги:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Getting started"
 msgstr "Починаємо"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:120
 msgid "Editorial review"
 msgstr "Редакційний огляд"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:121
 msgid "Technical review"
 msgstr "Технічний огляд"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
+#: kuma/landing/jinja2/landing/homepage.html:122
 msgid "Translating"
 msgstr "Переклад"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:106
 msgid "Contributing to the MDN codebase"
 msgstr "Вклад в кодову базу MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Updating browser compatibility data"
 msgstr "Оновлення даних сумісності браузера"
 
@@ -1409,6 +1017,11 @@ msgstr "Веб документація від розробників для р�
 msgid "MDN is your Web Developer Toolbox for docs and more on HTML, CSS, JavaScript and other Web standards and open technologies."
 msgstr "MDN - ваш набір інструментів розробника, що складається з документації, а також HTML, CSS, JavaScript, та інших веб-стандартів і відкритих технологій."
 
+#: kuma/landing/jinja2/landing/react_homepage.html:105
+#, fuzzy
+msgid "Contributing to MDN content"
+msgstr "Вклад в кодову базу MDN"
+
 #: kuma/landing/jinja2/landing/includes/newsfeed.html:11
 #, python-format
 msgid "Posted %(entrydate)s by %(authorlink)s"
@@ -1508,6 +1121,10 @@ msgstr "Зразки коду"
 #: kuma/search/names.py:11
 msgid "How-To & Tutorial"
 msgstr "Інструкція & посібник"
+
+#: kuma/search/names.py:11
+msgid "Tools"
+msgstr "Інструменти"
 
 #: kuma/search/names.py:12
 msgid "Skill level"
@@ -1734,11 +1351,15 @@ msgstr "Усі теми"
 msgid "Filter by"
 msgstr "Фільтрувати по"
 
-#: kuma/spam/forms.py:9
+#: kuma/search/jinja2/search/results.html:237
+msgid "Filter"
+msgstr "Фільтр"
+
+#: kuma/spam/forms.py:8
 msgid "The submitted data contains invalid content."
 msgstr "Відправлені дані містять невідповідний контент."
 
-#: kuma/spam/forms.py:102
+#: kuma/spam/forms.py:93
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "Відправлені дані містять невідповідний контент. Будь ласка, спробуйте ще раз."
 
@@ -1762,7 +1383,7 @@ msgstr "надіслано"
 msgid "type"
 msgstr "тип"
 
-#: kuma/users/adapters.py:42
+#: kuma/users/adapters.py:41
 #, python-format
 msgid ""
 "Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
@@ -1771,11 +1392,11 @@ msgstr ""
 "На жаль, ви повинні мати принаймні один підключений обліковий запис, щоб ви могли увійти. Щоб розірвати зв'язок з цим обліковим записом підключіть спочатку інший. Щоб видалити ваш обліковий запис "
 "MDN, будь ласка, <a href=\"%(bug_form_url)s\" rel=\"nofollow\">повідомте про помилку</a>."
 
-#: kuma/users/adapters.py:48
+#: kuma/users/adapters.py:47
 msgid "An email address cannot be used as a username."
 msgstr "Електронну адресу не можна використовувати як ім'я користувача."
 
-#: kuma/users/adapters.py:86
+#: kuma/users/adapters.py:85
 msgid "The username you entered already exists."
 msgstr "Таке ім'я користувача вже зайнято."
 
@@ -1803,23 +1424,23 @@ msgstr "Ім'я користувача"
 msgid "Display a link to GitHub on my profile"
 msgstr "Показувати посилання на GitHub в моєму профілі"
 
-#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:194
+#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:78 kuma/users/models.py:194
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:184
+#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:85 kuma/users/models.py:184
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:165
+#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:92 kuma/users/models.py:165
 msgid "Mozilla People Directory"
 msgstr "Mozilla People Directory"
 
-#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:189
+#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:99 kuma/users/models.py:189
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:199
+#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:106 kuma/users/models.py:199
 msgid "Discourse"
 msgstr "Discourse"
 
@@ -1956,7 +1577,7 @@ msgstr "Я хочу оприлюднити URL мого GitHub-профілю"
 msgid "Getting started with your new MDN account"
 msgstr "Початок роботи з вашим обліковим записом MDN"
 
-#: kuma/users/views.py:616
+#: kuma/users/views.py:622
 msgid "Email address"
 msgstr "Адреса ел. пошти"
 
@@ -1968,7 +1589,7 @@ msgstr "Профіль неактивний"
 msgid "This profile is inactive."
 msgstr "Цей профіль неактивний."
 
-#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:36
+#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:35
 msgid "Email addresses"
 msgstr "Адреси ел. пошти"
 
@@ -2040,19 +1661,11 @@ msgstr "Будь ласка, увійдіть"
 msgid "All content on MDN is free and available without signing in."
 msgstr "Всі матеріали на MDN є безкоштовними і доступні без входу в систему."
 
-#: kuma/users/jinja2/account/login.html:24
-msgid "In order to contribute, you need to sign in to an existing MDN profile."
-msgstr "Щоб зробити внесок, вам потрібно увійти в існуючий обліковий запис MDN."
-
-#: kuma/users/jinja2/account/login.html:28 kuma/users/jinja2/account/signup_closed.html:4
-msgid "We are sorry, but profile creation is currently disabled."
-msgstr "Вибачте, але створення профілю зараз неможливе."
-
-#: kuma/users/jinja2/account/login.html:31
+#: kuma/users/jinja2/account/login.html:23
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
 msgstr "Щоб зробити внесок, вам потрібно увійти в MDN. Ви можете увійти за допомогою GitHub, вам буде створено профіль MDN, якщо у вас його немає."
 
-#: kuma/users/jinja2/account/login.html:39
+#: kuma/users/jinja2/account/login.html:30
 #, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
 msgstr "<p><a href=\"%(login_url)s\">Увійти</a></p>"
@@ -2129,6 +1742,10 @@ msgstr "Вже маєте профіль? Тоді, будь ласка, <a href
 #: kuma/users/jinja2/account/signup_closed.html:3
 msgid "Profile Creation Disabled"
 msgstr "Створення профілю вимкнене"
+
+#: kuma/users/jinja2/account/signup_closed.html:4
+msgid "We are sorry, but profile creation is currently disabled."
+msgstr "Вибачте, але створення профілю зараз неможливе."
 
 #: kuma/users/jinja2/account/verification_sent.html:3 kuma/users/jinja2/account/verification_sent.html:7 kuma/users/jinja2/account/verified_email_required.html:3
 #: kuma/users/jinja2/account/verified_email_required.html:7
@@ -2256,10 +1873,6 @@ msgstr "Увійшли з GitHub"
 msgid "Connect with GitHub"
 msgstr "З'єднатися з GitHub"
 
-#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
-msgid "Sign in with GitHub"
-msgstr "Увійти з GitHub"
-
 #: kuma/users/jinja2/users/ban_user.html:7 kuma/users/jinja2/users/ban_user_and_cleanup.html:7 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:7
 #, python-format
 msgid "Ban %(user)s"
@@ -2376,6 +1989,11 @@ msgstr "Переглянути сторінку"
 msgid "History"
 msgstr "Історія"
 
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245 kuma/wiki/jinja2/wiki/confirm_document_delete.html:24
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
+msgid "Delete"
+msgstr "Видалити"
+
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:114 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:135 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:156
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:175 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:194 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:222
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:253 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:277
@@ -2457,43 +2075,6 @@ msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Нати
 #: kuma/users/jinja2/users/user_delete.html:11
 msgid "Delete your account"
 msgstr "Видалити обліковий запис"
-
-#: kuma/users/jinja2/users/user_detail.html:36
-msgid "Recent Docs Activity"
-msgstr "Недавня активність в документації"
-
-#: kuma/users/jinja2/users/user_detail.html:36
-msgid "View all activity"
-msgstr "Переглянути всю активність"
-
-#: kuma/users/jinja2/users/user_detail.html:41
-msgid "Page"
-msgstr "Сторінка"
-
-#: kuma/users/jinja2/users/user_detail.html:42 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:23
-msgid "Date"
-msgstr "Дата"
-
-#: kuma/users/jinja2/users/user_detail.html:51 kuma/wiki/jinja2/wiki/document.html:294
-msgid "Edit page"
-msgstr "Редагувати сторінку"
-
-#: kuma/users/jinja2/users/user_detail.html:52
-msgid "View complete diff"
-msgstr "Переглянути повну різницю"
-
-#: kuma/users/jinja2/users/user_detail.html:53 kuma/wiki/jinja2/wiki/document.html:295
-msgid "View page history"
-msgstr "Переглянути історію сторінки"
-
-#: kuma/users/jinja2/users/user_detail.html:65
-#, python-format
-msgid "<p class=\"none\">You haven't contributed to any MDN docs. <a href=\"%(docs_url)s\">Pitch in!</a></p>"
-msgstr "<p class=\"none\">Ви не зробили внеску в жоден документ на MDN. <a href=\"%(docs_url)s\">Вперед!</a></p>"
-
-#: kuma/users/jinja2/users/user_detail.html:69
-msgid "This user has no activity."
-msgstr "Цей користувач не має ніякої активності."
 
 #: kuma/users/jinja2/users/user_edit.html:11
 msgid "Edit Your Profile"
@@ -2814,9 +2395,25 @@ msgstr ""
 "<ul> <li>Щоб побачити ваші знижки, відвідайте <a href=\"%(thank_you_url)s\">сторінку подяки</a>.</li> <li>Для скасування передплати <a href=\"%(manage_url)s\">натисніть тут</a>.</li> <li>Якщо у вас "
 "є питання, ознайомтеся з <a href=\"%(faq_url)s\">частими питаннями</a> або <a href=\"%(support_email)s\">зв'яжіться зі службою підтримки</a>.</li> </ul>"
 
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1969
+msgid "Revision"
+msgstr "Редакція"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:10 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:32 kuma/wiki/jinja2/wiki/revision.html:43
+msgid "Comment"
+msgstr "Коментар"
+
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
 msgid "Tags"
 msgstr "Мітки"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:24
+msgid "new"
+msgstr "новий"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:25
+msgid "deleted"
+msgstr "вилучено"
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
@@ -2838,14 +2435,15 @@ msgstr "Додатково"
 msgid "Manage"
 msgstr "Керування"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:35
-msgid "API keys"
-msgstr "API ключі"
-
-#: kuma/users/jinja2/users/includes/user_title_info.html:113
+#: kuma/users/jinja2/users/includes/user_title_info.html:112
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "Учасник з %(date_joined)s"
+
+#: kuma/users/jinja2/users/includes/user_title_info.html:115
+#, python-format
+msgid "banned %(ban_date)s by %(user)s"
+msgstr "заблокував %(user)s %(ban_date)s"
 
 #: kuma/users/newsletter/apps.py:14
 msgid "UserNewsletter"
@@ -2876,7 +2474,7 @@ msgstr "Заблокувати користувача та очистити ре
 msgid "Admin"
 msgstr "Адмін"
 
-#: kuma/wiki/apps.py:15 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23 kuma/wiki/templates/admin/wiki/purge_documents.html:23
+#: kuma/wiki/apps.py:12 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23 kuma/wiki/templates/admin/wiki/purge_documents.html:23
 msgid "Wiki"
 msgstr "Вікі"
 
@@ -2969,89 +2567,89 @@ msgstr "Редагувати сторінку"
 msgid "Show comparison"
 msgstr "Показати порівняння"
 
-#: kuma/wiki/forms.py:49
+#: kuma/wiki/forms.py:47
 msgid "Please provide a title."
 msgstr "Будь ласка, вкажіть назву."
 
-#: kuma/wiki/forms.py:50
+#: kuma/wiki/forms.py:48
 #, python-format
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Назва закоротка (%(show_value)s символів). Довжина повинна бути як мінімум %(limit_value)s символів."
 
-#: kuma/wiki/forms.py:54
+#: kuma/wiki/forms.py:52
 #, python-format
 msgid "Please keep the length of the title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Будь-ласка, утримуйте довжину назви в межах %(limit_value)s символів. Зараз довжина складає %(show_value)s символів."
 
-#: kuma/wiki/forms.py:59
+#: kuma/wiki/forms.py:57
 msgid "Name Your Article"
 msgstr "Назвіть вашу статтю"
 
-#: kuma/wiki/forms.py:60
+#: kuma/wiki/forms.py:58
 #, python-format
 msgid "The tags field is too long (%(show_value)s characters). Keep the total length to %(limit_value)s characters."
 msgstr "Поле тегу надто довге (%(show_value)s символів). Загальна довжина повинна бути не більше %(limit_value)s символів."
 
-#: kuma/wiki/forms.py:64
+#: kuma/wiki/forms.py:62
 msgid "Please provide a slug."
 msgstr "Будь ласка, вкажіть посилання."
 
-#: kuma/wiki/forms.py:65
+#: kuma/wiki/forms.py:63
 msgid "The slug provided is not valid."
 msgstr "Вказане посилання некоректне."
 
-#: kuma/wiki/forms.py:66
+#: kuma/wiki/forms.py:64
 #, python-format
 msgid "The slug is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Посилання закоротке (%(show_value)s символів). Воно має містити не менше %(limit_value)s символів."
 
-#: kuma/wiki/forms.py:70
+#: kuma/wiki/forms.py:68
 #, python-format
 msgid "Please keep the length of the slug to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Будь ласка, зменшіть довжину URL до %(limit_value)s символів або менше. Зараз вона становить %(show_value)s символів."
 
-#: kuma/wiki/forms.py:75
+#: kuma/wiki/forms.py:73
 msgid "Please provide a summary."
 msgstr "Будь ласка, вкажіть зведення."
 
-#: kuma/wiki/forms.py:76
+#: kuma/wiki/forms.py:74
 #, python-format
 msgid "The summary is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Зведення закоротке (%(show_value)s символів). Воно має містити не менше %(limit_value)s символів."
 
-#: kuma/wiki/forms.py:80
+#: kuma/wiki/forms.py:78
 #, python-format
 msgid "Please keep the length of the summary to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Будь-ласка, утримуйте довжину зведення в межах %(limit_value)s символів чи менше. Зараз довжина складає %(show_value)s символів."
 
-#: kuma/wiki/forms.py:85
+#: kuma/wiki/forms.py:83
 msgid "Please provide content."
 msgstr "Будь ласка, заповніть вміст."
 
-#: kuma/wiki/forms.py:86
+#: kuma/wiki/forms.py:84
 #, python-format
 msgid "The content is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Вміст закороткий (%(show_value)s символів). Він повинен бути не менше %(limit_value)s символів."
 
-#: kuma/wiki/forms.py:90
+#: kuma/wiki/forms.py:88
 #, python-format
 msgid "Please keep the length of the content to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Будь ласка, утримуйте довжину тексту в межах %(limit_value)s символів чи менше. Зараз довжина складає %(show_value)s символів."
 
-#: kuma/wiki/forms.py:95
+#: kuma/wiki/forms.py:93
 #, python-format
 msgid "Please keep the length of the comment to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Будь ласка, утримуйте довжину коментаря в межах %(limit_value)s символів чи менше. Зараз довжина складає %(show_value)s символів."
 
-#: kuma/wiki/forms.py:100
+#: kuma/wiki/forms.py:98
 msgid "Another document with this slug already exists."
 msgstr "Інший документ з таким URL вже існує."
 
-#: kuma/wiki/forms.py:101
+#: kuma/wiki/forms.py:99
 msgid "Another document with this metadata already exists."
 msgstr "Інший документ з такими метаданими вже існує."
 
-#: kuma/wiki/forms.py:103
+#: kuma/wiki/forms.py:101
 #, python-format
 msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
@@ -3060,77 +2658,77 @@ msgstr ""
 "Не вдалося оприлюднити. Виявлено конфліктні спроби редагування. Будь ласка, скопіюйте ваші правки в безпечне місце і відвідайте <a href=\"%(url)s\">історію ревізій</a>, щоб подивитися, що було "
 "відредаговано, перш ніж робити подальші зміни."
 
-#: kuma/wiki/forms.py:109
+#: kuma/wiki/forms.py:107
 msgid "Changing this document's slug requires moving it and its children."
 msgstr "Зміна URL документа вимагає переміщення його та його підсторінок."
 
-#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:959 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
+#: kuma/wiki/forms.py:378 kuma/wiki/forms.py:462 kuma/wiki/forms.py:947 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:67 kuma/wiki/jinja2/wiki/includes/translate_description.html:11 kuma/wiki/jinja2/wiki/move.html:65
 msgid "Title:"
 msgstr "Назва:"
 
-#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:960
+#: kuma/wiki/forms.py:379 kuma/wiki/forms.py:463 kuma/wiki/forms.py:948
 msgid "Title of article"
 msgstr "Назва статті"
 
-#: kuma/wiki/forms.py:393 kuma/wiki/forms.py:478 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
+#: kuma/wiki/forms.py:391 kuma/wiki/forms.py:476 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:22
 msgid "Slug:"
 msgstr "URL:"
 
-#: kuma/wiki/forms.py:394 kuma/wiki/forms.py:479
+#: kuma/wiki/forms.py:392 kuma/wiki/forms.py:477
 msgid "Article URL"
 msgstr "Адреса статті"
 
-#: kuma/wiki/forms.py:403 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
+#: kuma/wiki/forms.py:401 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
 msgid "Parent:"
 msgstr "Батько:"
 
-#: kuma/wiki/forms.py:490 kuma/wiki/jinja2/wiki/edit.html:91 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
+#: kuma/wiki/forms.py:488 kuma/wiki/jinja2/wiki/edit.html:91 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
 msgid "Tags:"
 msgstr "Мітки:"
 
-#: kuma/wiki/forms.py:496 kuma/wiki/jinja2/wiki/edit.html:97
+#: kuma/wiki/forms.py:494 kuma/wiki/jinja2/wiki/edit.html:97
 msgid "Keywords:"
 msgstr "Ключові слова:"
 
-#: kuma/wiki/forms.py:497
+#: kuma/wiki/forms.py:495
 msgid "Affects search results"
 msgstr "Впливає на результати пошуку"
 
-#: kuma/wiki/forms.py:505
+#: kuma/wiki/forms.py:503
 msgid "Search result summary:"
 msgstr "Результати пошуку:"
 
-#: kuma/wiki/forms.py:506
+#: kuma/wiki/forms.py:504
 msgid "Only displayed on search results page"
 msgstr "Показано тільки на сторінці пошукових результатів"
 
-#: kuma/wiki/forms.py:517 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
+#: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
 msgstr "Зміст:"
 
-#: kuma/wiki/forms.py:526 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
+#: kuma/wiki/forms.py:524 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
 msgid "Comment:"
 msgstr "Коментар:"
 
-#: kuma/wiki/forms.py:529
+#: kuma/wiki/forms.py:527
 msgid "Tag this revision for review?"
 msgstr "Помітити дану редакцію для перевірки?"
 
-#: kuma/wiki/forms.py:536
+#: kuma/wiki/forms.py:534
 msgid "Tag this revision for localization?"
 msgstr "Помітити дану редакцію для локалізації?"
 
-#: kuma/wiki/forms.py:931
+#: kuma/wiki/forms.py:919
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr "Неможливо подати до Akismet (недійсна редакція)."
 
-#: kuma/wiki/forms.py:971
+#: kuma/wiki/forms.py:959
 msgid "New slug:"
 msgstr "Новий url:"
 
-#: kuma/wiki/forms.py:972
+#: kuma/wiki/forms.py:960
 msgid "New article URL"
 msgstr "Новий URL статті"
 
@@ -3201,67 +2799,67 @@ msgstr "H4 й вище"
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Редакція повинна ґрунтуватися на редакції документа з локаллю %(locale)s. ID редакції %(id)s не підходить за цим критерієм."
 
-#: kuma/wiki/models.py:1932
+#: kuma/wiki/models.py:1928
 msgid "IP address"
 msgstr "IP-адреса"
 
-#: kuma/wiki/models.py:1940
+#: kuma/wiki/models.py:1936
 msgid "User-Agent"
 msgstr "Браузер"
 
-#: kuma/wiki/models.py:1945
+#: kuma/wiki/models.py:1941
 msgid "HTTP Referrer"
 msgstr "HTTP реферер"
 
-#: kuma/wiki/models.py:1953 kuma/wiki/models.py:2039
+#: kuma/wiki/models.py:1949 kuma/wiki/models.py:2035
 msgid "Data submitted to Akismet"
 msgstr "Дані надіслані в Akismet"
 
-#: kuma/wiki/models.py:1979
+#: kuma/wiki/models.py:1975
 msgid "Akismet submission"
 msgstr "Подання Akismet"
 
-#: kuma/wiki/models.py:1980
+#: kuma/wiki/models.py:1976
 msgid "Akismet submissions"
 msgstr "Подання Akismet"
 
-#: kuma/wiki/models.py:2024
+#: kuma/wiki/models.py:2020
 msgid "Slug"
 msgstr "URL"
 
-#: kuma/wiki/models.py:2032 kuma/wiki/models.py:2085
+#: kuma/wiki/models.py:2028
 msgid "Document (optional)"
 msgstr "Документ (не обов'язково)"
 
-#: kuma/wiki/models.py:2042
+#: kuma/wiki/models.py:2038
 msgid "reviewed"
 msgstr "перевірено"
 
-#: kuma/wiki/models.py:2053
+#: kuma/wiki/models.py:2049
 msgid "Needs Review"
 msgstr "Потребує рецензування"
 
-#: kuma/wiki/models.py:2054
+#: kuma/wiki/models.py:2050
 msgid "Ham / False Positive"
 msgstr "Це не спам"
 
-#: kuma/wiki/models.py:2055
+#: kuma/wiki/models.py:2051
 msgid "Confirmed as Spam"
 msgstr "Підтверджено як спам"
 
-#: kuma/wiki/models.py:2056
+#: kuma/wiki/models.py:2052
 msgid "Review Unavailable"
 msgstr "Перевірка недоступна"
 
-#: kuma/wiki/models.py:2057
+#: kuma/wiki/models.py:2053
 msgid "Akismet Error"
 msgstr "Помилка Akismet"
 
-#: kuma/wiki/models.py:2062
+#: kuma/wiki/models.py:2058
 msgid "Review of Akismet's classification as spam"
 msgstr "Перевірка на спам за допомогою Akismet"
 
-#: kuma/wiki/models.py:2069
+#: kuma/wiki/models.py:2065
 msgid "Staff reviewer"
 msgstr "Рецензент-адміністратор"
 
@@ -3372,6 +2970,10 @@ msgstr "Ви впевнені, що хочете повернути цю ред�
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:18
 msgid "Document"
 msgstr "Документ"
+
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:23
+msgid "Date"
+msgstr "Дата"
 
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:25
 msgid "Content"
@@ -3490,6 +3092,14 @@ msgstr "Зробили внесок у цю сторінку:"
 #: kuma/wiki/jinja2/wiki/document.html:255
 msgid "Last updated by:"
 msgstr "Востаннє оновлена:"
+
+#: kuma/wiki/jinja2/wiki/document.html:294
+msgid "Edit page"
+msgstr "Редагувати сторінку"
+
+#: kuma/wiki/jinja2/wiki/document.html:295
+msgid "View page history"
+msgstr "Переглянути історію сторінки"
 
 #: kuma/wiki/jinja2/wiki/edit.html:5
 #, python-format
@@ -4129,6 +3739,22 @@ msgstr[2] "Знайдено %(num)s документів"
 msgid "Articles tagged: %(tag)s"
 msgstr "Статті з мітками: %(tag)s"
 
+#: kuma/wiki/jinja2/wiki/list/documents.html:6
+msgid "Documents with errors"
+msgstr "Документи з помилками"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:8
+msgid "Top level documents"
+msgstr "Документи верхнього рівня"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:10
+msgid "Documents with no parent"
+msgstr "Документи без батька"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:12
+msgid "All documents"
+msgstr "Усі документи"
+
 #: kuma/wiki/jinja2/wiki/list/documents.html:27
 msgid "Translation updates needed"
 msgstr "Необхідне оновлення перекладу"
@@ -4145,6 +3771,15 @@ msgstr "Документи для перевірки %(tag)s"
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:7
 msgid "Documents for review"
 msgstr "Документи для перевірки"
+
+#: kuma/wiki/jinja2/wiki/list/needs_review.html:12
+#, python-format
+msgid "Articles in need of review: %(tag)s"
+msgstr "Статті, що потребують перевірки: %(tag)s"
+
+#: kuma/wiki/jinja2/wiki/list/needs_review.html:14
+msgid "All articles in need of review"
+msgstr "Всі статті, що потребують перевірки"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:25
 #, python-format
@@ -4195,9 +3830,18 @@ msgstr "Лише для зареєстрованих користувачів"
 msgid "View All"
 msgstr "Переглянути все"
 
+#: kuma/wiki/jinja2/wiki/list/tags.html:2
+msgid "All Tags"
+msgstr "Всі мітки"
+
 #: kuma/wiki/jinja2/wiki/list/tags.html:18
 msgid "There are no tags."
 msgstr "Немає жодної мітки."
+
+#: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
+#, python-format
+msgid "Localized articles tagged with: %(tag)s"
+msgstr "Локалізовані статті, помічені: %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
 msgid "Articles tagged with any localization tags"
@@ -4271,29 +3915,15 @@ msgstr "Під час генерування вмісту сталася пом�
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Документ вже існує. Зауваження: Ви не можете скасувати зміни в документі, якій був переміщений, поки не видалите його перенаправлення."
 
-#: kuma/wiki/views/document.py:755 kuma/wiki/views/document.py:931
+#: kuma/wiki/views/document.py:746 kuma/wiki/views/document.py:922
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Перенаправлено з %(url)s"
 
-#: kuma/wiki/views/document.py:812
+#: kuma/wiki/views/document.py:803
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Я дізнався(лася) про %(title)s на MDN."
-
-#: kuma/wiki/views/document.py:1135
-#, python-format
-msgid "Unsupported content-type: %s"
-msgstr "Тип вмісту не підтримується: %s"
-
-#: kuma/wiki/views/document.py:1141
-#, python-format
-msgid "Request parsing error: %s"
-msgstr "Помилка обробки запиту: %s"
-
-#: kuma/wiki/views/document.py:1164
-msgid "ETag precondition failed"
-msgstr "Помилка обробки попередньої умови ETag"
 
 #: kuma/wiki/views/edit.py:125
 msgid "Sections may only be edited inline."
@@ -4315,6 +3945,274 @@ msgstr "Ви не можете перекладати цей документ."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сервер Elasticsearch: %(backend)s"
+
+#~ msgid "The wiki is in read-only mode."
+#~ msgstr "Вікі відкрито у режимі лише для читання."
+
+#~ msgid "Sign in with Github"
+#~ msgstr "Увійти з GitHub"
+
+#~ msgid "Join the MDN community"
+#~ msgstr "Приєднатися до спільноти MDN"
+
+#~ msgid "Get started"
+#~ msgstr "Початок роботи"
+
+#~ msgid "Review or localize docs"
+#~ msgstr "Перевіряйте або перекладайте документацію"
+
+#~ msgid "Site Tools"
+#~ msgstr "Інструменти сайту"
+
+#~ msgid "Revision dashboard"
+#~ msgstr "Дошка редагувань"
+
+#~ msgid "Documentation status"
+#~ msgstr "Стан документації"
+
+#~ msgid "Lookup key"
+#~ msgstr "Пошук ключа"
+
+#~ msgid "Hashed secret"
+#~ msgstr "Хешований секрет"
+
+#~ msgid "Description of intended use"
+#~ msgstr "Опис передбачуваного використання"
+
+#~ msgid "Created"
+#~ msgstr "Створено"
+
+#~ msgid "This key has not been used yet."
+#~ msgstr "Цей ключ ще не використовувався."
+
+#~ msgid ""
+#~ "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
+#~ "don't trust with your account delete the key. It's easy to create a replacement key at any time."
+#~ msgstr ""
+#~ "Це ваші ключі API. Вони корисні для побудови застосунків, що виконують завдання на MDN від вашого імені. Якщо ви припинили використовувати будь-який з них або підозрюєте, що один з них потрапив "
+#~ "у руки особам, яким ви не довіряєте свій обліковий запис, натисніть кнопку видалити ключ. Ви в будь-який момент легко зможете створити йому заміну."
+
+#~ msgid "Create a new key"
+#~ msgstr "Створити новий ключ"
+
+#~ msgid "You have no API keys, yet."
+#~ msgstr "У Вас поки немає API-ключів."
+
+#~ msgid "View key usage history"
+#~ msgstr "Подивитися історію використання ключів"
+
+#~ msgid "History (%(count)s)"
+#~ msgstr "Історія (%(count)s)"
+
+#~ msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
+#~ msgstr "Вам потрібен спеціальний дозвіл на використання ключів API. Ви можете запросити дозвіл на <a href=\"%(bugzilla_url)s\">подачу помилки</a>."
+
+#~ msgid ""
+#~ "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+#~ "clear as you can.</p>"
+#~ msgstr ""
+#~ "<p>Опишіть нижче передбачуване використання цього ключа. <p><strong>ЗВЕРНІТЬ УВАГУ:</strong> Воно буде єдиним способом ідентифікації цього ключа надалі, за виключенням дати і часу його "
+#~ "створення. Тому будьте чіткими у описі.</p>"
+
+#~ msgid "Create"
+#~ msgstr "Створити"
+
+#~ msgid ""
+#~ "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
+#~ "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
+#~ msgstr ""
+#~ "<p>Ваш новий ключ щойно був створений. Будь ласка, занотуйте його атрибути, зазначені нижче (наприклад, скопіювавши їх у налаштування вашого застосунку). Ця інформація більше ніколи не буде "
+#~ "знову відображена, і її неможливо буде відновити у випадку втрати.</p> <p><strong>ЗВЕРНІТЬ УВАГУ:</strong> Коли ви закінчите, <a class=\"button\" href=\"%(list_url)s\">поверніться до списку "
+#~ "ключів</a>. Перезавантаження цієї сторінки створить новий ключ.</p>"
+
+#~ msgid "Key ID"
+#~ msgstr "Ідентифікатор ключа"
+
+#~ msgid "Secret"
+#~ msgstr "Секрет"
+
+#~ msgid "All Locales"
+#~ msgstr "Всі мови"
+
+#~ msgid "None"
+#~ msgstr "Немає"
+
+#~ msgid "Hour"
+#~ msgstr "Година"
+
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgid "Week"
+#~ msgstr "Тиждень"
+
+#~ msgid "30 days"
+#~ msgstr "30 днів"
+
+#~ msgid "All Authors"
+#~ msgstr "Усі автори"
+
+#~ msgid "Known Authors"
+#~ msgstr "Відомі автори"
+
+#~ msgid "Unknown Authors"
+#~ msgstr "Невідомі автори"
+
+#~ msgid "Locale:"
+#~ msgstr "Мова:"
+
+#~ msgid "User:"
+#~ msgstr "Користувач:"
+
+#~ msgid "Topic:"
+#~ msgstr "Тема:"
+
+#~ msgid "Start Date:"
+#~ msgstr "Дата початку:"
+
+#~ msgid "End Date:"
+#~ msgstr "Дата завершення:"
+
+#~ msgid "Preceding Period:"
+#~ msgstr "Попередній період:"
+
+#~ msgid "Authors"
+#~ msgstr "Автори"
+
+#~ msgid "Dashboards"
+#~ msgstr "Панелі"
+
+#~ msgid "Active macros"
+#~ msgstr "Активні макроси"
+
+#~ msgid "Doc status by topic"
+#~ msgstr "Статус документа за темами"
+
+#~ msgid "Revision Dashboard"
+#~ msgstr "Дошка редагувань"
+
+#~ msgid "Server charts"
+#~ msgstr "Графіки сервера"
+
+#~ msgid "Spam Dashboard"
+#~ msgstr "Панель спаму"
+
+#~ msgid "Found %(num)s active macro."
+#~ msgid_plural "Found %(num)s active macros."
+#~ msgstr[0] "Знайдено %(num)s активний макрос."
+#~ msgstr[1] "Знайдено %(num)s активних макроси."
+#~ msgstr[2] "Знайдено %(num)s активних макросів."
+
+#~ msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
+#~ msgstr "Для перегляду списку макросів перегляньте <a href=\"%(url)s\">GitHub репозиторій</a>."
+
+#~ msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
+#~ msgstr "Ви також можете <a href=\"%(url)s\">шукати макроси вручну</a>."
+
+#~ msgid "Active macros and their usage counts"
+#~ msgstr "Активні макроси і кількість їх використань"
+
+#~ msgid "Macro Name"
+#~ msgstr "Ім'я макроса"
+
+#~ msgid "English Page Count"
+#~ msgstr "Кількість англійських сторінок"
+
+#~ msgid "All Page Count"
+#~ msgstr "Загальна кількість сторінок"
+
+#~ msgid "Search for macro usage:"
+#~ msgstr "Пошук використань макросу:"
+
+#~ msgid "Search All Pages"
+#~ msgstr "Шукати на всіх сторінках"
+
+#~ msgid "Search English Pages"
+#~ msgstr "Шукати на англійських сторінках"
+
+#~ msgid "Authors:"
+#~ msgstr "Автори:"
+
+#~ msgid "Trends Over Time, Ending %(date)s"
+#~ msgstr "Тренди за часом, закінчуючи %(date)s"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Toggle IPs"
+#~ msgstr "Перемкнути IPs"
+
+#~ msgid "IP:"
+#~ msgstr "IP:"
+
+#~ msgid "Ban IP from Editing"
+#~ msgstr "Заблокувати IP від редагування"
+
+#~ msgid "User agent:"
+#~ msgstr "Браузер:"
+
+#~ msgid "Referrer:"
+#~ msgstr "Реферер:"
+
+#~ msgid "Submitted as %(submission_type)s"
+#~ msgstr "Представлено як %(submission_type)s"
+
+#~ msgid "%(sent_date)s by %(user)s"
+#~ msgstr "%(sent_date)s %(user)s"
+
+#~ msgid "Submit as:"
+#~ msgstr "Надіслати як:"
+
+#~ msgid "spam"
+#~ msgstr "спам"
+
+#~ msgid "There are no revisions matching this filter set."
+#~ msgstr "Немає редакцій, що відповідають цьому фільтру."
+
+#~ msgid "Stop getting emailed when English revisions are approved"
+#~ msgstr "Припинити отримувати повідомлення, коли правлять англійську версію"
+
+#~ msgid "Get emailed when English revisions are approved"
+#~ msgstr "Отримувати повідомлення, коли правлять англійську версію"
+
+#~ msgid "Stop getting emailed when English reviews are waiting"
+#~ msgstr "Припинити отримувати повідомлення, коли англійська версія чекає на перегляд"
+
+#~ msgid "Get emailed when English reviews are waiting"
+#~ msgstr "Отримувати повідомлення, коли англійська версія чекає на перегляд"
+
+#~ msgid "In order to contribute, you need to sign in to an existing MDN profile."
+#~ msgstr "Щоб зробити внесок, вам потрібно увійти в існуючий обліковий запис MDN."
+
+#~ msgid "Recent Docs Activity"
+#~ msgstr "Недавня активність в документації"
+
+#~ msgid "View all activity"
+#~ msgstr "Переглянути всю активність"
+
+#~ msgid "Page"
+#~ msgstr "Сторінка"
+
+#~ msgid "View complete diff"
+#~ msgstr "Переглянути повну різницю"
+
+#~ msgid "<p class=\"none\">You haven't contributed to any MDN docs. <a href=\"%(docs_url)s\">Pitch in!</a></p>"
+#~ msgstr "<p class=\"none\">Ви не зробили внеску в жоден документ на MDN. <a href=\"%(docs_url)s\">Вперед!</a></p>"
+
+#~ msgid "This user has no activity."
+#~ msgstr "Цей користувач не має ніякої активності."
+
+#~ msgid "API keys"
+#~ msgstr "API ключі"
+
+#~ msgid "Unsupported content-type: %s"
+#~ msgstr "Тип вмісту не підтримується: %s"
+
+#~ msgid "Request parsing error: %s"
+#~ msgstr "Помилка обробки запиту: %s"
+
+#~ msgid "ETag precondition failed"
+#~ msgstr "Помилка обробки попередньої умови ETag"
 
 #~ msgid "Promoting MDN"
 #~ msgstr "Просування MDN"

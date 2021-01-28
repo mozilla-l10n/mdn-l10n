@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2020-11-30 15:35-0800\n"
+"POT-Creation-Date: 2021-01-28 08:46-0800\n"
 "PO-Revision-Date: 2020-12-26 20:36+0000\n"
 "Last-Translator: Victor Bychek <a@bychek.ru>\n"
 "Language-Team: Russian https://pontoon.mozilla.org/ru/\n"
@@ -20,37 +20,33 @@ msgid "Permission Denied"
 msgstr "Доступ запрещён"
 
 #: jinja2/403.html:23
-msgid "The wiki is in read-only mode."
-msgstr "Вики в режиме только для чтения."
-
-#: jinja2/403.html:25
 msgid "You must sign in to view all history"
 msgstr "Вы должны войти для просмотра всей истории"
 
-#: jinja2/403.html:27
+#: jinja2/403.html:25
 msgid "Your IP address has been banned."
 msgstr "Ваш IP-адрес был заблокирован."
 
-#: jinja2/403.html:37 jinja2/handlers/400.html:21
+#: jinja2/403.html:35 jinja2/handlers/400.html:21
 #, python-format
 msgid "<p>We're sorry %(name)s, we're afraid we can't do that.</p>"
 msgstr "<p>Извините, %(name)s, но боимся, что мы не можем это сделать.</p>"
 
-#: jinja2/403.html:41 jinja2/handlers/400.html:25
+#: jinja2/403.html:39 jinja2/handlers/400.html:25
 msgid "<p>We're sorry, we're afraid we can't do that.</p>"
 msgstr "<p>Извините, но боимся, что мы не можем это сделать.</p>"
 
-#: jinja2/403.html:47
+#: jinja2/403.html:45
 #, python-format
 msgid "<li><a href=\"%(logout_url)s\">Sign out</a> to try again.</li>"
 msgstr "<li><a href=\"%(logout_url)s\">Выйдите</a> и попробуйте снова.</li>"
 
-#: jinja2/403.html:51 jinja2/handlers/400.html:36
+#: jinja2/403.html:49 jinja2/handlers/400.html:36
 #, python-format
 msgid "<li><a href=\"%(login_url)s\">Sign in</a> to try again.</li>"
 msgstr "<li><a href=\"%(login_url)s\">Войдите</a> и попробуйте снова.</li>"
 
-#: jinja2/403.html:59 jinja2/429.html:42
+#: jinja2/403.html:57 jinja2/429.html:42
 msgid ""
 "<p class=\"attrib\"><small><a href=\"http://theoatmeal.com/comics/state_web_summer#tumblr\" rel=\"nofollow\">Tumbeasts</a> by Matthew Inman of <a href=\"http://theoatmeal.com\" rel=\"nofollow\">The "
 "Oatmeal</a></small></p>"
@@ -74,7 +70,8 @@ msgstr "Вы можете попытаться поискать или нача�
 #: jinja2/404.html:27
 #, python-format
 msgid "If you were following a documentation link, you can sign in and create the page. Otherwise, please <a href=\"%(bug_form_url)s\" rel=\"nofollow\">file a bug</a>. Thanks!"
-msgstr "Если вы следуете ссылке в документации, вы можете войти и создать страницу. В противном случае пожалуйста, <a href=\"%(bug_form_url)s\" rel=\"nofollow\">создайте сообщение об ошибке</a>. Спасибо!"
+msgstr ""
+"Если вы следуете ссылке в документации, вы можете войти и создать страницу. В противном случае пожалуйста, <a href=\"%(bug_form_url)s\" rel=\"nofollow\">создайте сообщение об ошибке</a>. Спасибо!"
 
 #: jinja2/404.html:34
 msgid "This user's profile has been banned."
@@ -151,7 +148,7 @@ msgstr "<p>&copy; 2005-%(thisyear)s Mozilla и отдельные соучаст
 msgid "Web Technologies"
 msgstr "Веб-технологии"
 
-#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:96 kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
+#: jinja2/includes/footer/mdn-footer.html:6 jinja2/react_base.html:96 kuma/landing/jinja2/landing/homepage.html:90 kuma/landing/jinja2/landing/react_homepage.html:75
 msgid "Learn Web Development"
 msgstr "Изучите веб-разработку"
 
@@ -176,12 +173,12 @@ msgid "MDN"
 msgstr "MDN"
 
 #: jinja2/includes/footer/mdn-footer.html:11 jinja2/includes/footer/moz-footer.html:11 jinja2/react_base.html:115 jinja2/react_base.html:131 kuma/users/forms.py:47
-#: kuma/users/jinja2/users/includes/user_title_info.html:56 kuma/users/models.py:179
+#: kuma/users/jinja2/users/includes/user_title_info.html:55 kuma/users/models.py:179
 msgid "Twitter"
 msgstr "Твиттер"
 
-#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:64
-#: kuma/users/jinja2/users/includes/user_title_info.html:71 kuma/users/models.py:170
+#: jinja2/includes/footer/mdn-footer.html:16 jinja2/react_base.html:120 kuma/users/forms.py:58 kuma/users/jinja2/users/includes/user_title_info.html:63
+#: kuma/users/jinja2/users/includes/user_title_info.html:70 kuma/users/models.py:170
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -218,8 +215,8 @@ msgstr "Перейти к поиску"
 msgid "Sign in to enjoy the benefits of an MDN account. If you haven’t already created an account, you will be prompted to do so after signing in."
 msgstr "Войдите, чтобы насладиться преимуществами аккаунта MDN. Если вы ещё не создали аккаунт, вам будет предложено сделать это после входа в систему."
 
-#: jinja2/includes/auth-modal-content.html:6
-msgid "Sign in with Github"
+#: jinja2/includes/auth-modal-content.html:6 kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
+msgid "Sign in with GitHub"
 msgstr "Войти через GitHub"
 
 #: jinja2/includes/auth-modal-content.html:9
@@ -235,7 +232,7 @@ msgid "Search Firefox Help"
 msgstr "Поиск в помощи по Firefox"
 
 #: jinja2/includes/common_macros.html:26 jinja2/includes/common_macros.html:27 jinja2/includes/nav-main-search.html:3 jinja2/includes/nav-main-search.html:4 jinja2/includes/nav-main-search.html:8
-#: kuma/landing/jinja2/landing/homepage.html:42 kuma/landing/jinja2/landing/homepage.html:47 kuma/search/apps.py:11 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
+#: kuma/landing/jinja2/landing/homepage.html:42 kuma/landing/jinja2/landing/homepage.html:47 kuma/search/apps.py:9 kuma/search/jinja2/search/base.html:2 kuma/search/jinja2/search/react.html:2
 #: kuma/search/jinja2/search/react.html:8 kuma/search/jinja2/search/results.html:16 kuma/search/jinja2/search/results.html:47 kuma/search/jinja2/search/results.html:50
 #: kuma/search/jinja2/search/results.html:55
 msgid "Search"
@@ -318,8 +315,8 @@ msgid "Get web development help"
 msgstr "Получить помощь по веб-разработке"
 
 #: jinja2/includes/header-main-nav.html:60
-msgid "Join the MDN community"
-msgstr "Присоединиться к сообществу MDN"
+msgid "Contribute to MDN"
+msgstr "Помочь MDN"
 
 #: jinja2/includes/header-main-nav.html:63
 msgid "Report a content problem"
@@ -328,34 +325,6 @@ msgstr "Сообщить о проблеме содержания"
 #: jinja2/includes/header-main-nav.html:68
 msgid "Report an issue"
 msgstr "Сообщить о проблеме"
-
-#: jinja2/includes/header-toolbox.html:6 kuma/search/names.py:11
-msgid "Tools"
-msgstr "Инструменты"
-
-#: jinja2/includes/header-toolbox.html:10
-msgid "Contribute to MDN"
-msgstr "Помочь MDN"
-
-#: jinja2/includes/header-toolbox.html:12
-msgid "Get started"
-msgstr "Быстрый старт"
-
-#: jinja2/includes/header-toolbox.html:13
-msgid "Review or localize docs"
-msgstr "Проверяйте или переводите документацию"
-
-#: jinja2/includes/header-toolbox.html:17
-msgid "Site Tools"
-msgstr "Инструменты сайта"
-
-#: jinja2/includes/header-toolbox.html:19
-msgid "Revision dashboard"
-msgstr "Панель ревизий"
-
-#: jinja2/includes/header-toolbox.html:20
-msgid "Documentation status"
-msgstr "Статус документации"
 
 #: jinja2/includes/lang_switcher.html:4 kuma/wiki/jinja2/wiki/document.html:96
 msgid "Other languages:"
@@ -430,7 +399,7 @@ msgstr "Если вы ранее не подтверждали подписку 
 msgid "Hide Newsletter Sign-up"
 msgstr "Скрыть подписку на новостную рассылку"
 
-#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1401
+#: jinja2/includes/paginator.html:6 kuma/search/jinja2/search/results.html:167 kuma/wiki/jinja2/wiki/list/revisions.html:58 kuma/wiki/tests/test_templates.py:1324
 msgid "Previous"
 msgstr "Назад"
 
@@ -474,7 +443,7 @@ msgstr "Китайский (Традиционный)"
 msgid "Dutch"
 msgstr "Голландский"
 
-#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1411
+#: jinja2/includes/translate_locales.html:12 kuma/wiki/tests/test_templates.py:1334
 msgid "English (US)"
 msgstr "Английский (США)"
 
@@ -586,8 +555,8 @@ msgstr "Отписаться"
 msgid "Are you sure you want to unsubscribe?"
 msgstr "Вы уверены, что хотите отказаться от подписки?"
 
-#: jinja2/tidings/unsubscribe.html:13 kuma/authkeys/jinja2/authkeys/delete.html:16 kuma/authkeys/jinja2/authkeys/new.html:17 kuma/users/jinja2/users/includes/delete-user-content.html:25
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
+#: jinja2/tidings/unsubscribe.html:13 kuma/users/jinja2/users/includes/delete-user-content.html:25 kuma/wiki/jinja2/wiki/confirm_document_delete.html:48 kuma/wiki/jinja2/wiki/confirm_purge.html:26
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:40 kuma/wiki/jinja2/wiki/move.html:98
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -716,13 +685,11 @@ msgstr "Можно прикрепить изображения, а затем в
 msgid "File"
 msgstr "Файл"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:8
-#: kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2020
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:55 kuma/users/jinja2/users/includes/user_revision_history_form.html:9 kuma/users/models.py:84 kuma/wiki/models.py:2016
 msgid "Title"
 msgstr "Заголовок"
 
-#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56 kuma/authkeys/jinja2/authkeys/delete.html:9 kuma/authkeys/jinja2/authkeys/history.html:10
-#: kuma/authkeys/jinja2/authkeys/new.html:36
+#: kuma/attachments/jinja2/attachments/includes/attachment_list.html:56
 msgid "Description"
 msgstr "Описание"
 
@@ -766,91 +733,6 @@ msgstr "%(bytes)s байт"
 #: kuma/attachments/jinja2/attachments/includes/attachment_list.html:109 kuma/attachments/jinja2/attachments/includes/attachment_list.html:126
 msgid "n/a"
 msgstr "недоступно"
-
-#: kuma/authkeys/models.py:39
-msgid "Lookup key"
-msgstr "Поиск ключа"
-
-#: kuma/authkeys/models.py:42
-msgid "Hashed secret"
-msgstr "Хешированный секрет"
-
-#: kuma/authkeys/models.py:44
-msgid "Description of intended use"
-msgstr "Описание предполагаемого использования"
-
-#: kuma/authkeys/jinja2/authkeys/delete.html:7 kuma/authkeys/jinja2/authkeys/history.html:8 kuma/authkeys/jinja2/authkeys/new.html:34
-msgid "Created"
-msgstr "Создано"
-
-#: kuma/authkeys/jinja2/authkeys/delete.html:15 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245
-#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:24 kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
-msgid "Delete"
-msgstr "Удалить"
-
-#: kuma/authkeys/jinja2/authkeys/history.html:14
-msgid "This key has not been used yet."
-msgstr "Этот ключ ещё не использовался."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:8
-msgid ""
-"These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
-"don't trust with your account delete the key. It's easy to create a replacement key at any time."
-msgstr ""
-"Это ваши ключи API. Они полезны для построения приложений, выполняющих задачи на MDN от вашего имени. Если вы прекратили использовать какой-либо из них или подозреваете, что один из них попал в руки"
-" лицам, которым вы не доверяете свой аккаунт, нажмите кнопку удалить ключ. Вы в любой момент легко сможете создать ему замену."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:14
-msgid "Create a new key"
-msgstr "Создать новый ключ"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:16
-msgid "You have no API keys, yet."
-msgstr "У Вас пока нет API-ключей."
-
-#: kuma/authkeys/jinja2/authkeys/list.html:25
-msgid "View key usage history"
-msgstr "Просмотреть историю использования ключей"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:26
-#, python-format
-msgid "History (%(count)s)"
-msgstr "История (%(count)s)"
-
-#: kuma/authkeys/jinja2/authkeys/list.html:35
-#, python-format
-msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
-msgstr "Вам нужно специальное разрешение, чтобы использовать ключи API. Вы можете запросить разрешение, <a href=\"%(bugzilla_url)s\">создав сообщение об ошибке</a>."
-
-#: kuma/authkeys/jinja2/authkeys/new.html:7
-msgid ""
-"<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as clear"
-" as you can.</p>"
-msgstr ""
-"<p>Опишите ниже предполагаемое использование этого ключа. <p><strong>ОБРАТИТЕ ВНИМАНИЕ:</strong> Оно будет вашим единственным способом идентификации этого ключа в дальнейшем, за исключение даты и "
-"времени его создания. Так что, чем яснее вы опишите его предназначение, тем лучше.</p>"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:16
-msgid "Create"
-msgstr "Создать"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:20
-#, python-format
-msgid ""
-"<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
-"recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
-msgstr ""
-"<p>Ваш новый ключ только что был создан. Пожалуйста, обратите внимание на его атрибуты, указанные ниже (например, скопировав их в настройки вашего приложения). Эта информация больше никогда не будет"
-" снова отображена, и её невозможно будет восстановить в случае утраты.</p> <p><strong>ОБРАТИТЕ ВНИМАНИЕ:</strong> Когда вы закончите, <a class=\"button\" href=\"%(list_url)s\">вернитесь к списку "
-"ключей</a>. Перезагрузка данной страницы создаст новый ключ.</p>"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:30
-msgid "Key ID"
-msgstr "ID ключа"
-
-#: kuma/authkeys/jinja2/authkeys/new.html:32
-msgid "Secret"
-msgstr "Секрет"
 
 #: kuma/banners/jinja2/banners/cta-banners.html:8
 msgid ""
@@ -901,279 +783,6 @@ msgstr "Да"
 msgid "No"
 msgstr "Нет"
 
-#: kuma/dashboards/forms.py:7
-msgid "All Locales"
-msgstr "Все локализации"
-
-#: kuma/dashboards/forms.py:9
-msgid "None"
-msgstr "Отсутствует"
-
-#: kuma/dashboards/forms.py:10
-msgid "Hour"
-msgstr "Час"
-
-#: kuma/dashboards/forms.py:11
-msgid "Day"
-msgstr "День"
-
-#: kuma/dashboards/forms.py:12
-msgid "Week"
-msgstr "Неделя"
-
-#: kuma/dashboards/forms.py:13
-msgid "30 days"
-msgstr "30 дней"
-
-#: kuma/dashboards/forms.py:22
-msgid "All Authors"
-msgstr "Все авторы"
-
-#: kuma/dashboards/forms.py:23
-msgid "Known Authors"
-msgstr "Известные авторы"
-
-#: kuma/dashboards/forms.py:24
-msgid "Unknown Authors"
-msgstr "Неизвестные авторы"
-
-#: kuma/dashboards/forms.py:32 kuma/dashboards/jinja2/dashboards/revisions.html:24
-msgid "Locale:"
-msgstr "Локаль:"
-
-#: kuma/dashboards/forms.py:34 kuma/dashboards/jinja2/dashboards/revisions.html:29
-msgid "User:"
-msgstr "Пользователь:"
-
-#: kuma/dashboards/forms.py:35 kuma/dashboards/jinja2/dashboards/revisions.html:34
-msgid "Topic:"
-msgstr "Заголовок:"
-
-#: kuma/dashboards/forms.py:38 kuma/dashboards/jinja2/dashboards/revisions.html:40
-msgid "Start Date:"
-msgstr "Дата начала:"
-
-#: kuma/dashboards/forms.py:44 kuma/dashboards/jinja2/dashboards/revisions.html:45
-msgid "End Date:"
-msgstr "Дата окончания:"
-
-#: kuma/dashboards/forms.py:49 kuma/dashboards/jinja2/dashboards/revisions.html:50
-msgid "Preceding Period:"
-msgstr "Предшествующий период:"
-
-#: kuma/dashboards/forms.py:52
-msgid "Authors"
-msgstr "Авторы"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:2
-msgid "Dashboards"
-msgstr "Панели"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:8 kuma/dashboards/jinja2/dashboards/macros.html:3 kuma/dashboards/jinja2/dashboards/macros.html:25
-msgid "Active macros"
-msgstr "Активные макросы"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:9 kuma/wiki/jinja2/wiki/list/needs_review.html:14
-msgid "All articles in need of review"
-msgstr "Все статьи требующие проверки"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:10 kuma/dashboards/jinja2/dashboards/index.html:12 kuma/wiki/jinja2/wiki/list/needs_review.html:12
-#, python-format
-msgid "Articles in need of review: %(tag)s"
-msgstr "Статьи требующие проверки: %(tag)s"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:14 kuma/wiki/jinja2/wiki/list/documents.html:12
-msgid "All documents"
-msgstr "Все документы"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:15 kuma/wiki/jinja2/wiki/list/tags.html:2
-msgid "All Tags"
-msgstr "Все тэги"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:16
-msgid "Doc status by topic"
-msgstr "Статус документации по темам"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:18 kuma/wiki/jinja2/wiki/list/documents.html:6
-msgid "Documents with errors"
-msgstr "Документы с ошибками"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:19 kuma/wiki/jinja2/wiki/list/documents.html:10
-msgid "Documents with no parent"
-msgstr "Документы без родителя"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:20 kuma/dashboards/jinja2/dashboards/revisions.html:2
-msgid "Revision Dashboard"
-msgstr "Панель ревизий"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:21 kuma/wiki/jinja2/wiki/list/documents.html:8
-msgid "Top level documents"
-msgstr "Документы верхнего уровня"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:22
-msgid "Server charts"
-msgstr "Графики сервера"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:24 kuma/dashboards/jinja2/dashboards/spam.html:3
-msgid "Spam Dashboard"
-msgstr "Панель спама"
-
-#: kuma/dashboards/jinja2/dashboards/index.html:28 kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
-#, python-format
-msgid "Localized articles tagged with: %(tag)s"
-msgstr "Переведённые статьи с метками: %(tag)s"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:13
-#, python-format
-msgid "Found %(num)s active macro."
-msgid_plural "Found %(num)s active macros."
-msgstr[0] "Найден %(num)s активный макрос."
-msgstr[1] "Найдено %(num)s активных макроса."
-msgstr[2] "Найдено %(num)s активных макросов."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:15
-#, python-format
-msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
-msgstr "Загляните в <a href=\"%(url)s\">репозиторий на GitHub</a>, чтобы увидеть список всех макросов."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:17
-#, python-format
-msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
-msgstr "Также вы можете <a href=\"%(url)s\">вручную поискать макросы</a>."
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:23
-msgid "Active macros and their usage counts"
-msgstr "Активные макросы и их статистика использования"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:30 kuma/dashboards/jinja2/dashboards/macros.html:65
-msgid "Macro Name"
-msgstr "Имя макроса"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:32
-msgid "English Page Count"
-msgstr "На страницах на английском"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:33
-msgid "All Page Count"
-msgstr "На всех страницах"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:64
-msgid "Search for macro usage:"
-msgstr "Поиск статистики использования макроса:"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:67
-msgid "Search All Pages"
-msgstr "Искать на всех страницах"
-
-#: kuma/dashboards/jinja2/dashboards/macros.html:68
-msgid "Search English Pages"
-msgstr "Искать на страницах на английском"
-
-#: kuma/dashboards/jinja2/dashboards/revisions.html:55
-msgid "Authors:"
-msgstr "Авторы:"
-
-#: kuma/dashboards/jinja2/dashboards/revisions.html:59 kuma/search/jinja2/search/results.html:237
-msgid "Filter"
-msgstr "Отфильтровать"
-
-#: kuma/dashboards/jinja2/dashboards/spam.html:30
-#, python-format
-msgid "Trends Over Time, Ending %(date)s"
-msgstr "Тренды во времени, заканчивая %(date)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:7 kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1973
-msgid "Revision"
-msgstr "Ревизия"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:9 kuma/users/jinja2/users/includes/user_revision_history_form.html:10 kuma/users/jinja2/users/user_detail.html:43
-#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:32 kuma/wiki/jinja2/wiki/revision.html:43
-msgid "Comment"
-msgstr "Комментарий"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
-msgid "Author"
-msgstr "Автор"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:10
-msgid "Toggle IPs"
-msgstr "Показать/скрыть IP"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:37 kuma/users/jinja2/users/includes/user_revision_history_form.html:24
-msgid "new"
-msgstr "новая"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:38 kuma/users/jinja2/users/includes/user_revision_history_form.html:25
-msgid "deleted"
-msgstr "удалено"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:54
-msgid "IP:"
-msgstr "IP:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:55
-msgid "Ban IP from Editing"
-msgstr "Заблокировать IP от правок"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:57
-msgid "User agent:"
-msgstr "Браузер:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:61
-msgid "Referrer:"
-msgstr "Реферер:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:69 kuma/users/jinja2/users/includes/user_title_info.html:116
-#, python-format
-msgid "banned %(ban_date)s by %(user)s"
-msgstr "заблокировал %(user)s %(ban_date)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:82
-#, python-format
-msgid "Submitted as %(submission_type)s"
-msgstr "Опубликовано как %(submission_type)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:85
-#, python-format
-msgid "%(sent_date)s by %(user)s"
-msgstr "%(sent_date)s пользователем %(user)s"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:92
-msgid "Submit as:"
-msgstr "Отправить как:"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:93
-msgid "spam"
-msgstr "спам"
-
-#: kuma/dashboards/jinja2/dashboards/includes/revision_dashboard_body.html:104
-msgid "There are no revisions matching this filter set."
-msgstr "Нет ревизий, подходящих этому фильтру."
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:8 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:11
-msgid "Stop getting emailed when English revisions are approved"
-msgstr "Перестать получать сообщения, когда правят английскую версию"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:20 kuma/dashboards/jinja2/dashboards/includes/watch_approved.html:23
-msgid "Get emailed when English revisions are approved"
-msgstr "Получать сообщения, когда правят английскую версию"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:7 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:10
-msgid "Stop getting emailed when English reviews are waiting"
-msgstr "Перестать получать почту, когда английская версия ждёт пересмотр"
-
-#. Please localize 'English' here.
-#. Please replace 'English' with your language.
-#: kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:18 kuma/dashboards/jinja2/dashboards/includes/watch_locale.html:21
-msgid "Get emailed when English reviews are waiting"
-msgstr "Получать почту, когда английская версия ждёт пересмотр"
-
 #: kuma/feeder/apps.py:14
 msgid "Feeder"
 msgstr "Feeder"
@@ -1206,43 +815,43 @@ msgstr "Инструменты Разработчика"
 msgid "Featured"
 msgstr "Избранное"
 
-#: kuma/landing/jinja2/landing/homepage.html:96 kuma/landing/jinja2/landing/react_homepage.html:81
+#: kuma/landing/jinja2/landing/homepage.html:93 kuma/landing/jinja2/landing/react_homepage.html:78
 msgid "Get The Browser For Developers Like You"
 msgstr "Загрузите браузер для разработчиков, таких как вы"
 
-#: kuma/landing/jinja2/landing/homepage.html:110 kuma/landing/jinja2/landing/react_homepage.html:95
+#: kuma/landing/jinja2/landing/homepage.html:107 kuma/landing/jinja2/landing/react_homepage.html:92
 msgid "read more at hacks.mozilla.org"
 msgstr "подробнее на hacks.mozilla.org"
 
-#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
+#: kuma/landing/jinja2/landing/homepage.html:116 kuma/landing/jinja2/landing/react_homepage.html:101
 msgid "Help improve MDN"
 msgstr "Помогите нам улучшить MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:120 kuma/landing/jinja2/landing/react_homepage.html:105
+#: kuma/landing/jinja2/landing/homepage.html:117 kuma/landing/jinja2/landing/react_homepage.html:102
 msgid "All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:"
 msgstr "Все части MDN (документация и сам сайт) созданы открытым сообществом разработчиков. Пожалуйста, присоединяйтесь к нам! Выберите один из этих способов помочь:"
 
-#: kuma/landing/jinja2/landing/homepage.html:122 kuma/landing/jinja2/landing/react_homepage.html:107
+#: kuma/landing/jinja2/landing/homepage.html:119 kuma/landing/jinja2/landing/react_homepage.html:104
 msgid "Getting started"
 msgstr "Начинаем"
 
-#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:108
+#: kuma/landing/jinja2/landing/homepage.html:120
 msgid "Editorial review"
 msgstr "Редакционный обзор"
 
-#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:109
+#: kuma/landing/jinja2/landing/homepage.html:121
 msgid "Technical review"
 msgstr "Технический обзор"
 
-#: kuma/landing/jinja2/landing/homepage.html:125 kuma/landing/jinja2/landing/react_homepage.html:110
+#: kuma/landing/jinja2/landing/homepage.html:122
 msgid "Translating"
 msgstr "Перевод"
 
-#: kuma/landing/jinja2/landing/homepage.html:126 kuma/landing/jinja2/landing/react_homepage.html:111
+#: kuma/landing/jinja2/landing/homepage.html:123 kuma/landing/jinja2/landing/react_homepage.html:106
 msgid "Contributing to the MDN codebase"
 msgstr "Вклад в кодовую базу MDN"
 
-#: kuma/landing/jinja2/landing/homepage.html:127 kuma/landing/jinja2/landing/react_homepage.html:112
+#: kuma/landing/jinja2/landing/homepage.html:124 kuma/landing/jinja2/landing/react_homepage.html:107
 msgid "Updating browser compatibility data"
 msgstr "Обновление данных совместимости браузера"
 
@@ -1289,12 +898,12 @@ msgstr "Распространите немного любви к разрабо
 #: kuma/landing/jinja2/landing/promote_buttons.html:20
 msgid ""
 "<ol> <li><strong>Get Buttons:</strong> Use our simple form below to create a custom button and source code to promote MDN on your website or blog.</li> <li><strong>Post Buttons:</strong> Copy the "
-"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a little"
-" bit better by sharing MDN with the world.</li> </ol>"
+"source code and paste it anywhere on your website or blog to help people click through to MDN.</li> <li><strong>Feel Good:</strong> Take pride in knowing you're making developers lives just a "
+"little bit better by sharing MDN with the world.</li> </ol>"
 msgstr ""
-"<ol><li><strong>Получить кнопки:</strong> Используйте нашу простую форму ниже для создания пользовательской кнопки и получения исходного кода для поддержания MDN на вашем сайте или "
-"блоге.</li><li><strong>Разместить кнопки:</strong> Скопируйте исходный код и вставьте его, где угодно на вашем сайте или блоге, чтобы помочь людям узнать о MDN.</li><li><strong>Чувствуйте себя "
-"хорошо:</strong> Гордитесь, зная, что вы делаете жизни разработчиков чуточку лучше, делясь MDN с миром.</li></ol>"
+"<ol><li><strong>Получить кнопки:</strong> Используйте нашу простую форму ниже для создания пользовательской кнопки и получения исходного кода для поддержания MDN на вашем сайте или блоге.</"
+"li><li><strong>Разместить кнопки:</strong> Скопируйте исходный код и вставьте его, где угодно на вашем сайте или блоге, чтобы помочь людям узнать о MDN.</li><li><strong>Чувствуйте себя хорошо:</"
+"strong> Гордитесь, зная, что вы делаете жизни разработчиков чуточку лучше, делясь MDN с миром.</li></ol>"
 
 #: kuma/landing/jinja2/landing/promote_buttons.html:35 kuma/wiki/jinja2/wiki/includes/page_buttons.html:39
 msgid "Preview"
@@ -1408,6 +1017,11 @@ msgstr "Веб документация от разработчиков для �
 msgid "MDN is your Web Developer Toolbox for docs and more on HTML, CSS, JavaScript and other Web standards and open technologies."
 msgstr "MDN - ваш набор инструментов разработчика состоящий из документации, а также HTML, CSS, JavaScript и других веб-стандартов и открытых технологий."
 
+#: kuma/landing/jinja2/landing/react_homepage.html:105
+#, fuzzy
+msgid "Contributing to MDN content"
+msgstr "Вклад в кодовую базу MDN"
+
 #: kuma/landing/jinja2/landing/includes/newsfeed.html:11
 #, python-format
 msgid "Posted %(entrydate)s by %(authorlink)s"
@@ -1507,6 +1121,10 @@ msgstr "Примеры кода"
 #: kuma/search/names.py:11
 msgid "How-To & Tutorial"
 msgstr "Уроки"
+
+#: kuma/search/names.py:11
+msgid "Tools"
+msgstr "Инструменты"
 
 #: kuma/search/names.py:12
 msgid "Skill level"
@@ -1733,11 +1351,15 @@ msgstr "Все темы"
 msgid "Filter by"
 msgstr "Фильтровать по"
 
-#: kuma/spam/forms.py:9
+#: kuma/search/jinja2/search/results.html:237
+msgid "Filter"
+msgstr "Отфильтровать"
+
+#: kuma/spam/forms.py:8
 msgid "The submitted data contains invalid content."
 msgstr "Отправленные данные содержат неподходящий контент."
 
-#: kuma/spam/forms.py:102
+#: kuma/spam/forms.py:93
 msgid "The submitted data contains invalid content. Please try again."
 msgstr "Отправленные данные содержат неподходящий контент. Пожалуйста, попробуйте снова."
 
@@ -1761,20 +1383,20 @@ msgstr "отправлено"
 msgid "type"
 msgstr "тип"
 
-#: kuma/users/adapters.py:42
+#: kuma/users/adapters.py:41
 #, python-format
 msgid ""
-"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" "
-"rel=\"nofollow\">file a bug</a>."
+"Sorry, you must have at least one connected account so you can sign in. To disconnect this account connect a different one first. To delete your MDN profile please <a href=\"%(bug_form_url)s\" rel="
+"\"nofollow\">file a bug</a>."
 msgstr ""
-"Извините, у вас должен быть как минимум один присоединённый аккаунт для входа. Чтобы отсоединить этот аккаунт, присоедините сначала другой. Для удаления вашего MDN профиля, пожалуйста, <a "
-"href=\"%(bug_form_url)s\" rel=\"nofollow\">создайте сообщение об ошибке</a>."
+"Извините, у вас должен быть как минимум один присоединённый аккаунт для входа. Чтобы отсоединить этот аккаунт, присоедините сначала другой. Для удаления вашего MDN профиля, пожалуйста, <a href="
+"\"%(bug_form_url)s\" rel=\"nofollow\">создайте сообщение об ошибке</a>."
 
-#: kuma/users/adapters.py:48
+#: kuma/users/adapters.py:47
 msgid "An email address cannot be used as a username."
 msgstr "Электронная почта не может использоваться как имя пользователя."
 
-#: kuma/users/adapters.py:86
+#: kuma/users/adapters.py:85
 msgid "The username you entered already exists."
 msgstr "Такое имя пользователя уже занято."
 
@@ -1802,23 +1424,23 @@ msgstr "Имя пользователя"
 msgid "Display a link to GitHub on my profile"
 msgstr "Отображать ссылку на GitHub в моём профиле"
 
-#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:79 kuma/users/models.py:194
+#: kuma/users/forms.py:69 kuma/users/jinja2/users/includes/user_title_info.html:78 kuma/users/models.py:194
 msgid "Stack Overflow"
 msgstr "Stack Overflow"
 
-#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:86 kuma/users/models.py:184
+#: kuma/users/forms.py:80 kuma/users/jinja2/users/includes/user_title_info.html:85 kuma/users/models.py:184
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:93 kuma/users/models.py:165
+#: kuma/users/forms.py:91 kuma/users/jinja2/users/includes/user_title_info.html:92 kuma/users/models.py:165
 msgid "Mozilla People Directory"
 msgstr "Каталог людей Mozilla"
 
-#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:100 kuma/users/models.py:189
+#: kuma/users/forms.py:102 kuma/users/jinja2/users/includes/user_title_info.html:99 kuma/users/models.py:189
 msgid "Facebook"
 msgstr "Фейсбук"
 
-#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:107 kuma/users/models.py:199
+#: kuma/users/forms.py:113 kuma/users/jinja2/users/includes/user_title_info.html:106 kuma/users/models.py:199
 msgid "Discourse"
 msgstr "Discourse"
 
@@ -1955,7 +1577,7 @@ msgstr "Я хочу сделать ссылку в профиле на мой Gi
 msgid "Getting started with your new MDN account"
 msgstr "Начало работы с вашим аккаунтом MDN"
 
-#: kuma/users/views.py:616
+#: kuma/users/views.py:622
 msgid "Email address"
 msgstr "Адрес электронной почты"
 
@@ -1967,7 +1589,7 @@ msgstr "Профиль неактивен"
 msgid "This profile is inactive."
 msgstr "Этот профиль неактивен."
 
-#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:36
+#: kuma/users/jinja2/account/email.html:3 kuma/users/jinja2/account/email.html:7 kuma/users/jinja2/users/includes/user_title_info.html:35
 msgid "Email addresses"
 msgstr "Адреса электронной почты"
 
@@ -2039,19 +1661,11 @@ msgstr "Пожалуйста, войдите"
 msgid "All content on MDN is free and available without signing in."
 msgstr "Все содержимое на MDN бесплатно и доступно без регистрации."
 
-#: kuma/users/jinja2/account/login.html:24
-msgid "In order to contribute, you need to sign in to an existing MDN profile."
-msgstr "Для внесения вклада, вам нужно войти в существующий профиль на MDN."
-
-#: kuma/users/jinja2/account/login.html:28 kuma/users/jinja2/account/signup_closed.html:4
-msgid "We are sorry, but profile creation is currently disabled."
-msgstr "Извините, но создание профиля сейчас невозможно."
-
-#: kuma/users/jinja2/account/login.html:31
+#: kuma/users/jinja2/account/login.html:23
 msgid "In order to contribute, you need to sign in to MDN. You can sign in using GitHub and a MDN profile will be created for you if you don't already have one."
 msgstr "Для внесения вклада, вам нужно войти на MDN. Вы можете войти, используя GitHub, и для вас будет создан MDN профиль, если у вас его ещё нет."
 
-#: kuma/users/jinja2/account/login.html:39
+#: kuma/users/jinja2/account/login.html:30
 #, python-format
 msgid "<p><a href=\"%(login_url)s\">Sign in</a></p>"
 msgstr "<p><a href=\"%(login_url)s\">Войти</a></p>"
@@ -2128,6 +1742,10 @@ msgstr "Уже есть профиль? Тогда, пожалуйста, <a hre
 #: kuma/users/jinja2/account/signup_closed.html:3
 msgid "Profile Creation Disabled"
 msgstr "Создание профиля отключено"
+
+#: kuma/users/jinja2/account/signup_closed.html:4
+msgid "We are sorry, but profile creation is currently disabled."
+msgstr "Извините, но создание профиля сейчас невозможно."
 
 #: kuma/users/jinja2/account/verification_sent.html:3 kuma/users/jinja2/account/verification_sent.html:7 kuma/users/jinja2/account/verified_email_required.html:3
 #: kuma/users/jinja2/account/verified_email_required.html:7
@@ -2221,8 +1839,8 @@ msgstr "Адрес электронной почты"
 #: kuma/users/jinja2/socialaccount/signup.html:90
 #, python-format
 msgid ""
-"This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a "
-"href=\"%(privacy_url)s\">privacy policy</a>."
+"This will be the email address MDN Web Docs messages and notifications will be sent to. This will <strong>not</strong> be displayed on MDN Web Docs and will be used in accordance with our <a href="
+"\"%(privacy_url)s\">privacy policy</a>."
 msgstr ""
 "Это будет адрес электронной почты, на который будут отправляться сообщения и уведомления с MDN Web Docs. Этот адрес <strong>не будет</strong> отображаться на MDN Web Docs и будет использоваться в "
 "соответствии с нашей <a href=\"%(privacy_url)s\">политикой приватности</a>."
@@ -2252,10 +1870,6 @@ msgstr "Вошли через GitHub"
 #: kuma/users/jinja2/socialaccount/snippets/provider_list.html:20
 msgid "Connect with GitHub"
 msgstr "Присоединить GitHub"
-
-#: kuma/users/jinja2/socialaccount/snippets/provider_list.html:22
-msgid "Sign in with GitHub"
-msgstr "Войти через GitHub"
 
 #: kuma/users/jinja2/users/ban_user.html:7 kuma/users/jinja2/users/ban_user_and_cleanup.html:7 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:7
 #, python-format
@@ -2373,6 +1987,11 @@ msgstr "Просмотреть страницу"
 msgid "History"
 msgstr "История"
 
+#: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:106 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:245 kuma/wiki/jinja2/wiki/confirm_document_delete.html:24
+#: kuma/wiki/jinja2/wiki/confirm_document_delete.html:47
+msgid "Delete"
+msgstr "Удалить"
+
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:114 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:135 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:156
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:175 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:194 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:222
 #: kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:253 kuma/users/jinja2/users/ban_user_and_cleanup_summary.html:277
@@ -2454,43 +2073,6 @@ msgstr "<p><a href=\"mailto:mdn-admins@mozilla.org?subject=Ban Appeal\">Щёлк
 #: kuma/users/jinja2/users/user_delete.html:11
 msgid "Delete your account"
 msgstr "Удалить мой аккаунт"
-
-#: kuma/users/jinja2/users/user_detail.html:36
-msgid "Recent Docs Activity"
-msgstr "Недавняя активность в документации"
-
-#: kuma/users/jinja2/users/user_detail.html:36
-msgid "View all activity"
-msgstr "Просмотреть всю активность"
-
-#: kuma/users/jinja2/users/user_detail.html:41
-msgid "Page"
-msgstr "Страница"
-
-#: kuma/users/jinja2/users/user_detail.html:42 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:23
-msgid "Date"
-msgstr "Дата"
-
-#: kuma/users/jinja2/users/user_detail.html:51 kuma/wiki/jinja2/wiki/document.html:294
-msgid "Edit page"
-msgstr "Редактировать страницу"
-
-#: kuma/users/jinja2/users/user_detail.html:52
-msgid "View complete diff"
-msgstr "Просмотреть полную разницу"
-
-#: kuma/users/jinja2/users/user_detail.html:53 kuma/wiki/jinja2/wiki/document.html:295
-msgid "View page history"
-msgstr "Просмотреть историю страницы"
-
-#: kuma/users/jinja2/users/user_detail.html:65
-#, python-format
-msgid "<p class=\"none\">You haven't contributed to any MDN docs. <a href=\"%(docs_url)s\">Pitch in!</a></p>"
-msgstr "<p class=\"none\">Вы не внесли вклад в какую либо документацию на MDN. <a href=\"%(docs_url)s\">Вперед!</a></p>"
-
-#: kuma/users/jinja2/users/user_detail.html:69
-msgid "This user has no activity."
-msgstr "Этот пользователь не имеет никакой активности."
 
 #: kuma/users/jinja2/users/user_edit.html:11
 msgid "Edit Your Profile"
@@ -2632,9 +2214,8 @@ msgid ""
 "code</a>, <a href=\"%(both_link)s\">like both words and code</a>, or want to <a href=\"%(translate_link)s\">translate MDN to your language</a>?"
 msgstr ""
 "В скором времени, мы поделимся с вами возможностями настройки MDN, чтобы получать максимальную отдачу. В то же время, MDN создаётся веб-разработчиками для веб-разработчиков, сайт полагается на "
-"внесение вклада от таких разработчиков как вы. У нас есть несколько вводных задач на выбор по вашим интересам, и мы будем очень рады, если вы к нам присоединитесь. Вам <a "
-"href=\"%(words_link)s\">нравятся слова</a>, <a href=\"%(code_link)s\">нравится код</a>, <a href=\"%(both_link)s\">нравятся и слова и код</a> или вы хотите <a href=\"%(translate_link)s\">перевести "
-"MDN на свой язык</a>?"
+"внесение вклада от таких разработчиков как вы. У нас есть несколько вводных задач на выбор по вашим интересам, и мы будем очень рады, если вы к нам присоединитесь. Вам <a href=\"%(words_link)s"
+"\">нравятся слова</a>, <a href=\"%(code_link)s\">нравится код</a>, <a href=\"%(both_link)s\">нравятся и слова и код</a> или вы хотите <a href=\"%(translate_link)s\">перевести MDN на свой язык</a>?"
 
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:29
 msgid "Talk to us!"
@@ -2812,9 +2393,25 @@ msgstr ""
 "<ul> <li>Чтобы увидеть свои привилегии, посетите <a href=\"%(thank_you_url)s\">страницу благодарностей</a>.</li> <li>Для отмены подписки <a href=\"%(manage_url)s\">щёлкните здесь</a>.</li> <li>Если "
 "у вас возникли вопросы, воспользуйтесь <a href=\"%(faq_url)s\">ЧЗВ</a> или <a href=\"%(support_email)s\">обратитесь в службу поддержки</a>.</li> </ul>"
 
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:8 kuma/wiki/models.py:1969
+msgid "Revision"
+msgstr "Ревизия"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:10 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:32 kuma/wiki/jinja2/wiki/revision.html:43
+msgid "Comment"
+msgstr "Комментарий"
+
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:11 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:27 kuma/wiki/jinja2/wiki/create.html:74 kuma/wiki/jinja2/wiki/edit.html:190
 msgid "Tags"
 msgstr "Метки"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:24
+msgid "new"
+msgstr "новая"
+
+#: kuma/users/jinja2/users/includes/user_revision_history_form.html:25
+msgid "deleted"
+msgstr "удалено"
 
 #: kuma/users/jinja2/users/includes/user_revision_history_form.html:77
 msgid "Already reported as spam."
@@ -2836,14 +2433,15 @@ msgstr "Дополнительно"
 msgid "Manage"
 msgstr "Управление"
 
-#: kuma/users/jinja2/users/includes/user_title_info.html:35
-msgid "API keys"
-msgstr "Ключи API"
-
-#: kuma/users/jinja2/users/includes/user_title_info.html:113
+#: kuma/users/jinja2/users/includes/user_title_info.html:112
 #, python-format
 msgid "Member since %(date_joined)s"
 msgstr "Участник с %(date_joined)s"
+
+#: kuma/users/jinja2/users/includes/user_title_info.html:115
+#, python-format
+msgid "banned %(ban_date)s by %(user)s"
+msgstr "заблокировал %(user)s %(ban_date)s"
 
 #: kuma/users/newsletter/apps.py:14
 msgid "UserNewsletter"
@@ -2874,7 +2472,7 @@ msgstr "Заблокировать пользователя и прибрать�
 msgid "Admin"
 msgstr "Админ"
 
-#: kuma/wiki/apps.py:15 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23 kuma/wiki/templates/admin/wiki/purge_documents.html:23
+#: kuma/wiki/apps.py:12 kuma/wiki/templates/admin/wiki/document/load_data_form.html:23 kuma/wiki/templates/admin/wiki/purge_documents.html:23
 msgid "Wiki"
 msgstr "Вики"
 
@@ -2967,89 +2565,89 @@ msgstr "Редактировать страницу"
 msgid "Show comparison"
 msgstr "Показать сравнение"
 
-#: kuma/wiki/forms.py:49
+#: kuma/wiki/forms.py:47
 msgid "Please provide a title."
 msgstr "Пожалуйста, укажите заголовок."
 
-#: kuma/wiki/forms.py:50
+#: kuma/wiki/forms.py:48
 #, python-format
 msgid "The title is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Заголовок слишком короткий (%(show_value)s символов). Он должен содержать как минимум %(limit_value)s символов."
 
-#: kuma/wiki/forms.py:54
+#: kuma/wiki/forms.py:52
 #, python-format
 msgid "Please keep the length of the title to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, урежьте длину названия до %(limit_value)s символов или менее. На текущий момент оно содержит %(show_value)s символов."
 
-#: kuma/wiki/forms.py:59
+#: kuma/wiki/forms.py:57
 msgid "Name Your Article"
 msgstr "Заголовок вашей статьи"
 
-#: kuma/wiki/forms.py:60
+#: kuma/wiki/forms.py:58
 #, python-format
 msgid "The tags field is too long (%(show_value)s characters). Keep the total length to %(limit_value)s characters."
 msgstr "Поле меток слишком длинное (%(show_value)s символов). Оно должно содержать не более %(limit_value)s символов."
 
-#: kuma/wiki/forms.py:64
+#: kuma/wiki/forms.py:62
 msgid "Please provide a slug."
 msgstr "Пожалуйста, укажите url."
 
-#: kuma/wiki/forms.py:65
+#: kuma/wiki/forms.py:63
 msgid "The slug provided is not valid."
 msgstr "Указанный url не корректен."
 
-#: kuma/wiki/forms.py:66
+#: kuma/wiki/forms.py:64
 #, python-format
 msgid "The slug is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Длина url слишком мала (%(show_value)s символов). Она должна быть не менее %(limit_value)s символов."
 
-#: kuma/wiki/forms.py:70
+#: kuma/wiki/forms.py:68
 #, python-format
 msgid "Please keep the length of the slug to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, уменьшите длину url до %(limit_value)s символов или менее. Сейчас она составляет %(show_value)s символов."
 
-#: kuma/wiki/forms.py:75
+#: kuma/wiki/forms.py:73
 msgid "Please provide a summary."
 msgstr "Пожалуйста, укажите сводку."
 
-#: kuma/wiki/forms.py:76
+#: kuma/wiki/forms.py:74
 #, python-format
 msgid "The summary is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Сводка слишком короткая (%(show_value)s символов). Она должна содержать как минимум %(limit_value)s символов."
 
-#: kuma/wiki/forms.py:80
+#: kuma/wiki/forms.py:78
 #, python-format
 msgid "Please keep the length of the summary to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, уменьшите длину сводки до %(limit_value)s символов или менее. Сейчас она составляет %(show_value)s символов."
 
-#: kuma/wiki/forms.py:85
+#: kuma/wiki/forms.py:83
 msgid "Please provide content."
 msgstr "Пожалуйста, укажите контент."
 
-#: kuma/wiki/forms.py:86
+#: kuma/wiki/forms.py:84
 #, python-format
 msgid "The content is too short (%(show_value)s characters). It must be at least %(limit_value)s characters."
 msgstr "Содержимое слишком короткое (%(show_value)s символов). Оно должно содержать как минимум %(limit_value)s символов."
 
-#: kuma/wiki/forms.py:90
+#: kuma/wiki/forms.py:88
 #, python-format
 msgid "Please keep the length of the content to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, урежьте длину содержимого до %(limit_value)s символов или менее. На текущий момент оно содержит %(show_value)s символов."
 
-#: kuma/wiki/forms.py:95
+#: kuma/wiki/forms.py:93
 #, python-format
 msgid "Please keep the length of the comment to %(limit_value)s characters or less. It is currently %(show_value)s characters."
 msgstr "Пожалуйста, урежьте длину комментария до %(limit_value)s символов или менее. На текущий момент он содержит %(show_value)s символов."
 
-#: kuma/wiki/forms.py:100
+#: kuma/wiki/forms.py:98
 msgid "Another document with this slug already exists."
 msgstr "С таким url уже существует другой документ."
 
-#: kuma/wiki/forms.py:101
+#: kuma/wiki/forms.py:99
 msgid "Another document with this metadata already exists."
 msgstr "С такими метаданными уже существует другой документ."
 
-#: kuma/wiki/forms.py:103
+#: kuma/wiki/forms.py:101
 #, python-format
 msgid ""
 "Publishing failed. Conflicting edit attempts detected. Please copy and paste your edits to a safe place and visit the <a href=\"%(url)s\">revision history</a> page to see what was changed before "
@@ -3058,77 +2656,77 @@ msgstr ""
 "Публикация не удалась. Обнаружены конфликтующие попытки редактирования. Пожалуйста, скопируйте и вставьте ваши правки в безопасное место и посетите <a href=\"%(url)s\">историю ревизий</a>, чтобы "
 "посмотреть, что было отредактировано, до того, как вы будете делать дальнейшие изменения."
 
-#: kuma/wiki/forms.py:109
+#: kuma/wiki/forms.py:107
 msgid "Changing this document's slug requires moving it and its children."
 msgstr "Изменение url документа требует перемещения его и его подстраниц."
 
-#: kuma/wiki/forms.py:380 kuma/wiki/forms.py:464 kuma/wiki/forms.py:959 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
+#: kuma/wiki/forms.py:378 kuma/wiki/forms.py:462 kuma/wiki/forms.py:947 kuma/wiki/jinja2/wiki/create.html:41 kuma/wiki/jinja2/wiki/edit.html:85 kuma/wiki/jinja2/wiki/edit.html:122
 #: kuma/wiki/jinja2/wiki/includes/document_macros.html:67 kuma/wiki/jinja2/wiki/includes/translate_description.html:11 kuma/wiki/jinja2/wiki/move.html:65
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: kuma/wiki/forms.py:381 kuma/wiki/forms.py:465 kuma/wiki/forms.py:960
+#: kuma/wiki/forms.py:379 kuma/wiki/forms.py:463 kuma/wiki/forms.py:948
 msgid "Title of article"
 msgstr "Заголовок статьи"
 
-#: kuma/wiki/forms.py:393 kuma/wiki/forms.py:478 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
+#: kuma/wiki/forms.py:391 kuma/wiki/forms.py:476 kuma/wiki/jinja2/wiki/create.html:45 kuma/wiki/jinja2/wiki/includes/document_macros.html:71
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:22
 msgid "Slug:"
 msgstr "Url:"
 
-#: kuma/wiki/forms.py:394 kuma/wiki/forms.py:479
+#: kuma/wiki/forms.py:392 kuma/wiki/forms.py:477
 msgid "Article URL"
 msgstr "URL статьи"
 
-#: kuma/wiki/forms.py:403 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
+#: kuma/wiki/forms.py:401 kuma/wiki/jinja2/wiki/create.html:49 kuma/wiki/jinja2/wiki/includes/translate_description.html:33
 msgid "Parent:"
 msgstr "Родитель:"
 
-#: kuma/wiki/forms.py:490 kuma/wiki/jinja2/wiki/edit.html:91 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
+#: kuma/wiki/forms.py:488 kuma/wiki/jinja2/wiki/edit.html:91 kuma/wiki/jinja2/wiki/includes/document_macros.html:76 kuma/wiki/jinja2/wiki/includes/document_tag.html:4
 msgid "Tags:"
 msgstr "Метки:"
 
-#: kuma/wiki/forms.py:496 kuma/wiki/jinja2/wiki/edit.html:97
+#: kuma/wiki/forms.py:494 kuma/wiki/jinja2/wiki/edit.html:97
 msgid "Keywords:"
 msgstr "Ключевые слова:"
 
-#: kuma/wiki/forms.py:497
+#: kuma/wiki/forms.py:495
 msgid "Affects search results"
 msgstr "Влияет на результаты поиска"
 
-#: kuma/wiki/forms.py:505
+#: kuma/wiki/forms.py:503
 msgid "Search result summary:"
 msgstr "Сводка результатов поиска:"
 
-#: kuma/wiki/forms.py:506
+#: kuma/wiki/forms.py:504
 msgid "Only displayed on search results page"
 msgstr "Показывать только на странице с результатами поиска"
 
-#: kuma/wiki/forms.py:517 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
+#: kuma/wiki/forms.py:515 kuma/wiki/jinja2/wiki/edit.html:109 kuma/wiki/jinja2/wiki/includes/document_macros.html:87
 msgid "Content:"
 msgstr "Содержимое:"
 
-#: kuma/wiki/forms.py:526 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
+#: kuma/wiki/forms.py:524 kuma/wiki/jinja2/wiki/includes/document_macros.html:82
 msgid "Comment:"
 msgstr "Комментарий:"
 
-#: kuma/wiki/forms.py:529
+#: kuma/wiki/forms.py:527
 msgid "Tag this revision for review?"
 msgstr "Пометить данную ревизию, как требующую рецензии?"
 
-#: kuma/wiki/forms.py:536
+#: kuma/wiki/forms.py:534
 msgid "Tag this revision for localization?"
 msgstr "Пометить данную ревизию, как требующую локализации?"
 
-#: kuma/wiki/forms.py:931
+#: kuma/wiki/forms.py:919
 msgid "Unable to make the Akismet submission (invalid revision)."
 msgstr "Не удалось отправить данные в Akismet (некорректная ревизия)."
 
-#: kuma/wiki/forms.py:971
+#: kuma/wiki/forms.py:959
 msgid "New slug:"
 msgstr "Новый url:"
 
-#: kuma/wiki/forms.py:972
+#: kuma/wiki/forms.py:960
 msgid "New article URL"
 msgstr "Новый URL статьи"
 
@@ -3199,67 +2797,67 @@ msgstr "H4 и выше"
 msgid "A revision must be based on a revision of the %(locale)s document. Revision ID %(id)s does not fit those criteria."
 msgstr "Ревизия должна основываться на ревизии документа с локалью %(locale)s. ID ревизии %(id)s не подходит по этому критерию."
 
-#: kuma/wiki/models.py:1932
+#: kuma/wiki/models.py:1928
 msgid "IP address"
 msgstr "IP адрес"
 
-#: kuma/wiki/models.py:1940
+#: kuma/wiki/models.py:1936
 msgid "User-Agent"
 msgstr "Браузер"
 
-#: kuma/wiki/models.py:1945
+#: kuma/wiki/models.py:1941
 msgid "HTTP Referrer"
 msgstr "HTTP реферер"
 
-#: kuma/wiki/models.py:1953 kuma/wiki/models.py:2039
+#: kuma/wiki/models.py:1949 kuma/wiki/models.py:2035
 msgid "Data submitted to Akismet"
 msgstr "Данные, отправленные в Akismet"
 
-#: kuma/wiki/models.py:1979
+#: kuma/wiki/models.py:1975
 msgid "Akismet submission"
 msgstr "Представление Akismet"
 
-#: kuma/wiki/models.py:1980
+#: kuma/wiki/models.py:1976
 msgid "Akismet submissions"
 msgstr "Представления Akismet"
 
-#: kuma/wiki/models.py:2024
+#: kuma/wiki/models.py:2020
 msgid "Slug"
 msgstr "Url"
 
-#: kuma/wiki/models.py:2032 kuma/wiki/models.py:2085
+#: kuma/wiki/models.py:2028
 msgid "Document (optional)"
 msgstr "Документ (необязательно)"
 
-#: kuma/wiki/models.py:2042
+#: kuma/wiki/models.py:2038
 msgid "reviewed"
 msgstr "проверено"
 
-#: kuma/wiki/models.py:2053
+#: kuma/wiki/models.py:2049
 msgid "Needs Review"
 msgstr "Требует проверки"
 
-#: kuma/wiki/models.py:2054
+#: kuma/wiki/models.py:2050
 msgid "Ham / False Positive"
 msgstr "Не спам / Ложное срабатывание"
 
-#: kuma/wiki/models.py:2055
+#: kuma/wiki/models.py:2051
 msgid "Confirmed as Spam"
 msgstr "Подтверждённый спам"
 
-#: kuma/wiki/models.py:2056
+#: kuma/wiki/models.py:2052
 msgid "Review Unavailable"
 msgstr "Проверка недоступна"
 
-#: kuma/wiki/models.py:2057
+#: kuma/wiki/models.py:2053
 msgid "Akismet Error"
 msgstr "Ошибка Akismet"
 
-#: kuma/wiki/models.py:2062
+#: kuma/wiki/models.py:2058
 msgid "Review of Akismet's classification as spam"
 msgstr "Проверка определения как спама с помощью Akismet"
 
-#: kuma/wiki/models.py:2069
+#: kuma/wiki/models.py:2065
 msgid "Staff reviewer"
 msgstr "Штатный редактор"
 
@@ -3270,8 +2868,8 @@ msgstr "Вы пытаетесь создать новую страницу."
 #: kuma/wiki/jinja2/403-create-page.html:7
 #, python-format
 msgid ""
-"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a "
-"href=\"%(email_link)s\">contact us</a>."
+"Creating a new page is a restricted action. To request a new page, please <a href=\"%(request_page_url)s\">file a bug</a>. If you need permission to create new pages, please <a href=\"%(email_link)s"
+"\">contact us</a>."
 msgstr ""
 "Не у каждого есть право на создание новой страницы. Чтобы запросить создание новой страницы, пожалуйста, <a href=\"%(request_page_url)s\">сообщите об ошибке</a>. Если вам нужно разрешение создавать "
 "новые страницы, пожалуйста, <a href=\"%(email_link)s\">свяжитесь с нами</a>."
@@ -3371,6 +2969,10 @@ msgstr "Вы уверены, что хотите вернуться к этой 
 msgid "Document"
 msgstr "Статья"
 
+#: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:23
+msgid "Date"
+msgstr "Дата"
+
 #: kuma/wiki/jinja2/wiki/confirm_revision_revert.html:25
 msgid "Content"
 msgstr "Содержимое"
@@ -3432,20 +3034,20 @@ msgstr "Данный документ был впервые отрисован �
 #: kuma/wiki/jinja2/wiki/document.html:170
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this "
-"page</a> in a few minutes."
+"An update to this document <abbr title=\"%(started_at)s\">is currently in progress</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</"
+"a> in a few minutes."
 msgstr ""
-"<abbr title=\"%(started_at)s\">В настоящее время идёт</abbr> обновление данного документа. Если содержимое ниже кажется устаревшим, или чего-то не хватает, пожалуйста, <a "
-"href=\"%(url)s\">перезагрузите эту страницу</a> через несколько минут."
+"<abbr title=\"%(started_at)s\">В настоящее время идёт</abbr> обновление данного документа. Если содержимое ниже кажется устаревшим, или чего-то не хватает, пожалуйста, <a href=\"%(url)s"
+"\">перезагрузите эту страницу</a> через несколько минут."
 
 #: kuma/wiki/jinja2/wiki/document.html:179
 #, python-format
 msgid ""
-"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> in"
-" a few minutes."
+"An update to this document <abbr title=\"%(scheduled_at)s\">has been scheduled</abbr>. If the content below seems stale or if something is missing, please <a href=\"%(url)s\">reload this page</a> "
+"in a few minutes."
 msgstr ""
-"<abbr title=\"%(scheduled_at)s\">Было запланировано</abbr> обновление данного документа. Если содержимое ниже кажется устаревшим, или чего-то не хватает, пожалуйста, <a "
-"href=\"%(url)s\">перезагрузите эту страницу</a> через несколько минут."
+"<abbr title=\"%(scheduled_at)s\">Было запланировано</abbr> обновление данного документа. Если содержимое ниже кажется устаревшим, или чего-то не хватает, пожалуйста, <a href=\"%(url)s"
+"\">перезагрузите эту страницу</a> через несколько минут."
 
 #: kuma/wiki/jinja2/wiki/document.html:190
 msgid "This is an experimental page."
@@ -3488,6 +3090,14 @@ msgstr "Внесли вклад в эту страницу:"
 #: kuma/wiki/jinja2/wiki/document.html:255
 msgid "Last updated by:"
 msgstr "Обновлялась последний раз:"
+
+#: kuma/wiki/jinja2/wiki/document.html:294
+msgid "Edit page"
+msgstr "Редактировать страницу"
+
+#: kuma/wiki/jinja2/wiki/document.html:295
+msgid "View page history"
+msgstr "Просмотреть историю страницы"
 
 #: kuma/wiki/jinja2/wiki/edit.html:5
 #, python-format
@@ -4125,6 +3735,22 @@ msgstr[2] "Найдено %(num)s документов."
 msgid "Articles tagged: %(tag)s"
 msgstr "Статьи с метками: %(tag)s"
 
+#: kuma/wiki/jinja2/wiki/list/documents.html:6
+msgid "Documents with errors"
+msgstr "Документы с ошибками"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:8
+msgid "Top level documents"
+msgstr "Документы верхнего уровня"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:10
+msgid "Documents with no parent"
+msgstr "Документы без родителя"
+
+#: kuma/wiki/jinja2/wiki/list/documents.html:12
+msgid "All documents"
+msgstr "Все документы"
+
 #: kuma/wiki/jinja2/wiki/list/documents.html:27
 msgid "Translation updates needed"
 msgstr "Необходимо обновление перевода"
@@ -4141,6 +3767,15 @@ msgstr "Статьи для проверки %(tag)s"
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:7
 msgid "Documents for review"
 msgstr "Статьи для проверки"
+
+#: kuma/wiki/jinja2/wiki/list/needs_review.html:12
+#, python-format
+msgid "Articles in need of review: %(tag)s"
+msgstr "Статьи требующие проверки: %(tag)s"
+
+#: kuma/wiki/jinja2/wiki/list/needs_review.html:14
+msgid "All articles in need of review"
+msgstr "Все статьи требующие проверки"
 
 #: kuma/wiki/jinja2/wiki/list/needs_review.html:25
 #, python-format
@@ -4192,9 +3827,18 @@ msgstr "Войти для просмотра всей истории"
 msgid "View All"
 msgstr "Просмотреть всё"
 
+#: kuma/wiki/jinja2/wiki/list/tags.html:2
+msgid "All Tags"
+msgstr "Все тэги"
+
 #: kuma/wiki/jinja2/wiki/list/tags.html:18
 msgid "There are no tags."
 msgstr "Нет ни одного тэга."
+
+#: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:3
+#, python-format
+msgid "Localized articles tagged with: %(tag)s"
+msgstr "Переведённые статьи с метками: %(tag)s"
 
 #: kuma/wiki/jinja2/wiki/list/with_localization_tags.html:5
 msgid "Articles tagged with any localization tags"
@@ -4268,29 +3912,15 @@ msgstr "При генерации контента произошла ошибк
 msgid "Document already exists. Note: You cannot revert a document that has been moved until you delete its redirect."
 msgstr "Документ уже существует. Замечание: Вы не можете отменить изменения в документе, которой был перемещен, пока не удалите его перенаправление."
 
-#: kuma/wiki/views/document.py:755 kuma/wiki/views/document.py:931
+#: kuma/wiki/views/document.py:746 kuma/wiki/views/document.py:922
 #, python-format
 msgid "Redirected from %(url)s"
 msgstr "Перенаправлено с %(url)s"
 
-#: kuma/wiki/views/document.py:812
+#: kuma/wiki/views/document.py:803
 #, python-format
 msgid "I learned about %(title)s on MDN."
 msgstr "Я узнал(а) о %(title)s на MDN."
-
-#: kuma/wiki/views/document.py:1135
-#, python-format
-msgid "Unsupported content-type: %s"
-msgstr "Неподдерживаемое расширение: %s"
-
-#: kuma/wiki/views/document.py:1141
-#, python-format
-msgid "Request parsing error: %s"
-msgstr "Ошибка парсинга запроса: %s"
-
-#: kuma/wiki/views/document.py:1164
-msgid "ETag precondition failed"
-msgstr "Условие ETag ложно"
 
 #: kuma/wiki/views/edit.py:125
 msgid "Sections may only be edited inline."
@@ -4312,6 +3942,274 @@ msgstr "Вы не можете переводить эту статью."
 #, python-format
 msgid "Elasticsearch server: %(backend)s"
 msgstr "Сервер Elasticsearch: %(backend)s"
+
+#~ msgid "The wiki is in read-only mode."
+#~ msgstr "Вики в режиме только для чтения."
+
+#~ msgid "Sign in with Github"
+#~ msgstr "Войти через GitHub"
+
+#~ msgid "Join the MDN community"
+#~ msgstr "Присоединиться к сообществу MDN"
+
+#~ msgid "Get started"
+#~ msgstr "Быстрый старт"
+
+#~ msgid "Review or localize docs"
+#~ msgstr "Проверяйте или переводите документацию"
+
+#~ msgid "Site Tools"
+#~ msgstr "Инструменты сайта"
+
+#~ msgid "Revision dashboard"
+#~ msgstr "Панель ревизий"
+
+#~ msgid "Documentation status"
+#~ msgstr "Статус документации"
+
+#~ msgid "Lookup key"
+#~ msgstr "Поиск ключа"
+
+#~ msgid "Hashed secret"
+#~ msgstr "Хешированный секрет"
+
+#~ msgid "Description of intended use"
+#~ msgstr "Описание предполагаемого использования"
+
+#~ msgid "Created"
+#~ msgstr "Создано"
+
+#~ msgid "This key has not been used yet."
+#~ msgstr "Этот ключ ещё не использовался."
+
+#~ msgid ""
+#~ "These are your API keys. They're useful for building applications that perform tasks on MDN on your behalf. If you have stopped using any of them, or suspect one has been exposed to parties you "
+#~ "don't trust with your account delete the key. It's easy to create a replacement key at any time."
+#~ msgstr ""
+#~ "Это ваши ключи API. Они полезны для построения приложений, выполняющих задачи на MDN от вашего имени. Если вы прекратили использовать какой-либо из них или подозреваете, что один из них попал в "
+#~ "руки лицам, которым вы не доверяете свой аккаунт, нажмите кнопку удалить ключ. Вы в любой момент легко сможете создать ему замену."
+
+#~ msgid "Create a new key"
+#~ msgstr "Создать новый ключ"
+
+#~ msgid "You have no API keys, yet."
+#~ msgstr "У Вас пока нет API-ключей."
+
+#~ msgid "View key usage history"
+#~ msgstr "Просмотреть историю использования ключей"
+
+#~ msgid "History (%(count)s)"
+#~ msgstr "История (%(count)s)"
+
+#~ msgid "You need a special permission to use API keys. You may request permission by <a href=\"%(bugzilla_url)s\">filing a bug</a>."
+#~ msgstr "Вам нужно специальное разрешение, чтобы использовать ключи API. Вы можете запросить разрешение, <a href=\"%(bugzilla_url)s\">создав сообщение об ошибке</a>."
+
+#~ msgid ""
+#~ "<p>Describe your intended use for this key, below. <p><strong>NOTE:</strong> This will be your only means of identifying this key later, other than the date and time of its creation. So, be as "
+#~ "clear as you can.</p>"
+#~ msgstr ""
+#~ "<p>Опишите ниже предполагаемое использование этого ключа. <p><strong>ОБРАТИТЕ ВНИМАНИЕ:</strong> Оно будет вашим единственным способом идентификации этого ключа в дальнейшем, за исключение даты "
+#~ "и времени его создания. Так что, чем яснее вы опишите его предназначение, тем лучше.</p>"
+
+#~ msgid "Create"
+#~ msgstr "Создать"
+
+#~ msgid ""
+#~ "<p>Your new key has been created. Please make a note of the details below (e.g. by copying them into your application's settings). This information will never be displayed again, and cannot be "
+#~ "recovered if lost.</p> <p><strong>NOTE:</strong> When you're done, <a class=\"button\" href=\"%(list_url)s\">return to the key list</a>. Reloading this page will create a new key.</p>"
+#~ msgstr ""
+#~ "<p>Ваш новый ключ только что был создан. Пожалуйста, обратите внимание на его атрибуты, указанные ниже (например, скопировав их в настройки вашего приложения). Эта информация больше никогда не "
+#~ "будет снова отображена, и её невозможно будет восстановить в случае утраты.</p> <p><strong>ОБРАТИТЕ ВНИМАНИЕ:</strong> Когда вы закончите, <a class=\"button\" href=\"%(list_url)s\">вернитесь к "
+#~ "списку ключей</a>. Перезагрузка данной страницы создаст новый ключ.</p>"
+
+#~ msgid "Key ID"
+#~ msgstr "ID ключа"
+
+#~ msgid "Secret"
+#~ msgstr "Секрет"
+
+#~ msgid "All Locales"
+#~ msgstr "Все локализации"
+
+#~ msgid "None"
+#~ msgstr "Отсутствует"
+
+#~ msgid "Hour"
+#~ msgstr "Час"
+
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgid "Week"
+#~ msgstr "Неделя"
+
+#~ msgid "30 days"
+#~ msgstr "30 дней"
+
+#~ msgid "All Authors"
+#~ msgstr "Все авторы"
+
+#~ msgid "Known Authors"
+#~ msgstr "Известные авторы"
+
+#~ msgid "Unknown Authors"
+#~ msgstr "Неизвестные авторы"
+
+#~ msgid "Locale:"
+#~ msgstr "Локаль:"
+
+#~ msgid "User:"
+#~ msgstr "Пользователь:"
+
+#~ msgid "Topic:"
+#~ msgstr "Заголовок:"
+
+#~ msgid "Start Date:"
+#~ msgstr "Дата начала:"
+
+#~ msgid "End Date:"
+#~ msgstr "Дата окончания:"
+
+#~ msgid "Preceding Period:"
+#~ msgstr "Предшествующий период:"
+
+#~ msgid "Authors"
+#~ msgstr "Авторы"
+
+#~ msgid "Dashboards"
+#~ msgstr "Панели"
+
+#~ msgid "Active macros"
+#~ msgstr "Активные макросы"
+
+#~ msgid "Doc status by topic"
+#~ msgstr "Статус документации по темам"
+
+#~ msgid "Revision Dashboard"
+#~ msgstr "Панель ревизий"
+
+#~ msgid "Server charts"
+#~ msgstr "Графики сервера"
+
+#~ msgid "Spam Dashboard"
+#~ msgstr "Панель спама"
+
+#~ msgid "Found %(num)s active macro."
+#~ msgid_plural "Found %(num)s active macros."
+#~ msgstr[0] "Найден %(num)s активный макрос."
+#~ msgstr[1] "Найдено %(num)s активных макроса."
+#~ msgstr[2] "Найдено %(num)s активных макросов."
+
+#~ msgid "See the <a href=\"%(url)s\">GitHub repo</a> for the list of macros."
+#~ msgstr "Загляните в <a href=\"%(url)s\">репозиторий на GitHub</a>, чтобы увидеть список всех макросов."
+
+#~ msgid "You can also <a href=\"%(url)s\">manually search for macros</a>."
+#~ msgstr "Также вы можете <a href=\"%(url)s\">вручную поискать макросы</a>."
+
+#~ msgid "Active macros and their usage counts"
+#~ msgstr "Активные макросы и их статистика использования"
+
+#~ msgid "Macro Name"
+#~ msgstr "Имя макроса"
+
+#~ msgid "English Page Count"
+#~ msgstr "На страницах на английском"
+
+#~ msgid "All Page Count"
+#~ msgstr "На всех страницах"
+
+#~ msgid "Search for macro usage:"
+#~ msgstr "Поиск статистики использования макроса:"
+
+#~ msgid "Search All Pages"
+#~ msgstr "Искать на всех страницах"
+
+#~ msgid "Search English Pages"
+#~ msgstr "Искать на страницах на английском"
+
+#~ msgid "Authors:"
+#~ msgstr "Авторы:"
+
+#~ msgid "Trends Over Time, Ending %(date)s"
+#~ msgstr "Тренды во времени, заканчивая %(date)s"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Toggle IPs"
+#~ msgstr "Показать/скрыть IP"
+
+#~ msgid "IP:"
+#~ msgstr "IP:"
+
+#~ msgid "Ban IP from Editing"
+#~ msgstr "Заблокировать IP от правок"
+
+#~ msgid "User agent:"
+#~ msgstr "Браузер:"
+
+#~ msgid "Referrer:"
+#~ msgstr "Реферер:"
+
+#~ msgid "Submitted as %(submission_type)s"
+#~ msgstr "Опубликовано как %(submission_type)s"
+
+#~ msgid "%(sent_date)s by %(user)s"
+#~ msgstr "%(sent_date)s пользователем %(user)s"
+
+#~ msgid "Submit as:"
+#~ msgstr "Отправить как:"
+
+#~ msgid "spam"
+#~ msgstr "спам"
+
+#~ msgid "There are no revisions matching this filter set."
+#~ msgstr "Нет ревизий, подходящих этому фильтру."
+
+#~ msgid "Stop getting emailed when English revisions are approved"
+#~ msgstr "Перестать получать сообщения, когда правят английскую версию"
+
+#~ msgid "Get emailed when English revisions are approved"
+#~ msgstr "Получать сообщения, когда правят английскую версию"
+
+#~ msgid "Stop getting emailed when English reviews are waiting"
+#~ msgstr "Перестать получать почту, когда английская версия ждёт пересмотр"
+
+#~ msgid "Get emailed when English reviews are waiting"
+#~ msgstr "Получать почту, когда английская версия ждёт пересмотр"
+
+#~ msgid "In order to contribute, you need to sign in to an existing MDN profile."
+#~ msgstr "Для внесения вклада, вам нужно войти в существующий профиль на MDN."
+
+#~ msgid "Recent Docs Activity"
+#~ msgstr "Недавняя активность в документации"
+
+#~ msgid "View all activity"
+#~ msgstr "Просмотреть всю активность"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "View complete diff"
+#~ msgstr "Просмотреть полную разницу"
+
+#~ msgid "<p class=\"none\">You haven't contributed to any MDN docs. <a href=\"%(docs_url)s\">Pitch in!</a></p>"
+#~ msgstr "<p class=\"none\">Вы не внесли вклад в какую либо документацию на MDN. <a href=\"%(docs_url)s\">Вперед!</a></p>"
+
+#~ msgid "This user has no activity."
+#~ msgstr "Этот пользователь не имеет никакой активности."
+
+#~ msgid "API keys"
+#~ msgstr "Ключи API"
+
+#~ msgid "Unsupported content-type: %s"
+#~ msgstr "Неподдерживаемое расширение: %s"
+
+#~ msgid "Request parsing error: %s"
+#~ msgstr "Ошибка парсинга запроса: %s"
+
+#~ msgid "ETag precondition failed"
+#~ msgstr "Условие ETag ложно"
 
 #~ msgid "Promoting MDN"
 #~ msgstr "Продвижение MDN"
@@ -4412,13 +4310,13 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "MDN экспериментирует с поиском прямой поддержки от своих пользователей, для ускорения роста и упрощения обслуживания наших статей и платформы, с помощью тех, кто ими пользуется."
 
 #~ msgid ""
-#~ "Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is currently "
-#~ "wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our supporters (also, "
-#~ "you, again) that lets us accelerate those improvements."
+#~ "Our user base has grown exponentially in the last few years (with corresponding costs of maintaining the platform) and we have a large list of improvements we’d like to make. While MDN is "
+#~ "currently wholly funded by Mozilla, and has been since its inception, we are looking to create a tighter, healthier loop between our audience (you), our content (written for you), and our "
+#~ "supporters (also, you, again) that lets us accelerate those improvements."
 #~ msgstr ""
 #~ "За последние несколько лет наша пользовательская база росла экспоненциально (с соответствующими расходами на поддержку платформы), и у нас есть большой список улучшений, которые мы хотели бы "
-#~ "сделать. В настоящее время MDN полностью финансируется Mozilla, и с момента его создания, мы стремимся установить плотное взаимодействие между нашей аудиторией (вами), нашими статьями (написанными "
-#~ "для вас) и нашими волонтёрами (тоже вами), что позволит ускорить эти улучшения."
+#~ "сделать. В настоящее время MDN полностью финансируется Mozilla, и с момента его создания, мы стремимся установить плотное взаимодействие между нашей аудиторией (вами), нашими статьями "
+#~ "(написанными для вас) и нашими волонтёрами (тоже вами), что позволит ускорить эти улучшения."
 
 #~ msgid "How is my payment handled? Is it secure?"
 #~ msgstr "Как обрабатывается мой платеж? Это безопасно?"
@@ -4427,16 +4325,16 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ "All payment information goes through payment processor <a href=\"%(url)s\">Stripe</a>, and a record of your payment will be stored by Mozilla. Mozilla does not receive or store your credit card "
 #~ "number."
 #~ msgstr ""
-#~ "Вся информация о пожертвованиях проходит через систему платежей <a href=\"%(url)s\">Stripe</a>, а запись о вашем пожертвовании будут храниться на стороне Mozilla. Mozilla не получает и не сохраняет "
-#~ "номер вашей банковской карты."
+#~ "Вся информация о пожертвованиях проходит через систему платежей <a href=\"%(url)s\">Stripe</a>, а запись о вашем пожертвовании будут храниться на стороне Mozilla. Mozilla не получает и не "
+#~ "сохраняет номер вашей банковской карты."
 
 #~ msgid "What data is Mozilla collecting about me?"
 #~ msgstr "Какие данные Mozilla обо мне собирает?"
 
 #~ msgid "Mozilla will collect and store your name and email, which will be used to send transactional emails (e.g. receipt). Mozilla will not have access to or store your credit card number."
 #~ msgstr ""
-#~ "Mozilla будет собирать и хранить ваше имя и адрес электронной почты, которые будут использоваться для отправки транзакционных писем (например, чеков). Mozilla не будет иметь доступ или хранить номер"
-#~ " вашей банковской карты."
+#~ "Mozilla будет собирать и хранить ваше имя и адрес электронной почты, которые будут использоваться для отправки транзакционных писем (например, чеков). Mozilla не будет иметь доступ или хранить "
+#~ "номер вашей банковской карты."
 
 #~ msgid "What does money go towards?"
 #~ msgstr "На что идут деньги?"
@@ -4450,9 +4348,9 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Если я просто пожертвую Mozilla Foundation, это поможет MDN?"
 
 #~ msgid ""
-#~ "The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in the "
-#~ "U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla Corporation</a> "
-#~ "and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
+#~ "The <a href=\"%(foundation_url)s\">Mozilla Foundation</a> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <a href=\"%(tax_faq_url)s\">tax-deductible in "
+#~ "the U.S.</a> to the fullest extent permitted by law, and go to support Mozilla public and charitable programs in one general fund. MDN is part of <a href=\"%(corporation_url)s\">Mozilla "
+#~ "Corporation</a> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 #~ msgstr ""
 #~ "<a href=\"%(foundation_url)s\">Mozilla Foundation</a> и MDN являются отдельными организациями и программами. Пожертвования в Mozilla Foundation <a href=\"%(tax_faq_url)s\">вычитаются из налога в "
 #~ "США</a> в полной мере, разрешенной законом, и идут на поддержку общественных и благотворительных программ Mozilla в одном общем фонде. MDN является частью <a href=\"%(corporation_url)s\">Mozilla "
@@ -4469,8 +4367,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 
 #~ msgid "Currently, Mozilla pays for site operations and overhead (including writers and web developers). MDN user payments will fund accelerating current projects or launching new ones, including:"
 #~ msgstr ""
-#~ "В настоящее время, Mozilla платит за функционирование сайтов и различные накладные расходы (включая написателей текстов и веб-разработчиков). Платежи пользователей MDN пойдут на ускорение работы над"
-#~ " текущими проектами и запуск новых, включая:"
+#~ "В настоящее время, Mozilla платит за функционирование сайтов и различные накладные расходы (включая написателей текстов и веб-разработчиков). Платежи пользователей MDN пойдут на ускорение работы "
+#~ "над текущими проектами и запуск новых, включая:"
 
 #~ msgid "Adding more content, and updating current content"
 #~ msgstr "Добавление нового контента и обновление текущего"
@@ -4503,8 +4401,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Как MDN финансируется на сегодняшний день?"
 
 #~ msgid ""
-#~ "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even as "
-#~ "we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
+#~ "MDN is funded out of the Mozilla Corporation general budget (and has been since it was founded in 2005). Mozilla Corporation intends to continue to financially support MDN into the future, even "
+#~ "as we broaden and diversify the sources of MDN funding. We just want to do more things with you and for you!"
 #~ msgstr ""
 #~ "MDN финансируется из общего бюджета Mozilla Corporation (с тех пор, как она была основана в 2005 году). Mozilla Corporation намерена продолжать финансовую поддержку MDN в будущем, даже когда мы "
 #~ "расширим и диверсифицируем источники финансирования MDN. Мы просто хотим делать больше с вами и для вас!"
@@ -4516,8 +4414,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Mozilla Corporation, которая финансирует MDN, зарабатывает деньги в основном за счет партнёрства с провайдерами поиска в Firefox (такими как Google, Amazon, DuckDuckGo и другими)."
 
 #~ msgid ""
-#~ "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports these "
-#~ "revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
+#~ "Separately, the Mozilla Foundation is a not-for-profit, making its money primarily from donations and royalties from Mozilla Corporation. As a not-for-profit, the Mozilla Foundation reports "
+#~ "these revenues publicly every trailing year, as in our most recent <a href=\"%(url)s\">2016 Mozilla Annual Report</a>."
 #~ msgstr ""
 #~ "Сама по себе, Mozilla Foundation является некоммерческой организацией, получающей деньги в основном из пожертвований и отчислений от Mozilla Corporation. Как и любая некоммерческая организация, "
 #~ "Mozilla Foundation публикует данные об этих доходах каждый год, как в нашем последнем <a href=\"%(url)s\">годовом отчёте Mozilla за 2016 год</a>."
@@ -4529,12 +4427,12 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Как я могу управлять своим ежемесячным платежом?"
 
 #~ msgid ""
-#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a "
-#~ "href=\"%(manage_subscription_url)s\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
+#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on the <a href=\"%(manage_subscription_url)s"
+#~ "\">manage monthly subscriptions page</a> and sign up again using the new card details. If you have any questions please contact <a href=\"%(url)s\">%(email)s.</a>"
 #~ msgstr ""
-#~ "Если вы хотите изменить ваш ежемесячный платёж, например, данные вашей карты или сумму пожертвования, пожалуйста, отмените свою подписку на странице <a "
-#~ "href=\"%(manage_subscription_url)s\">управления ежемесячными подписками</a> и зарегистрируйтесь снова, используя новые данные карты. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами "
-#~ "по адресу <a href=\"%(url)s\">%(email)s.</a>"
+#~ "Если вы хотите изменить ваш ежемесячный платёж, например, данные вашей карты или сумму пожертвования, пожалуйста, отмените свою подписку на странице <a href=\"%(manage_subscription_url)s"
+#~ "\">управления ежемесячными подписками</a> и зарегистрируйтесь снова, используя новые данные карты. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами по адресу <a href=\"%(url)s\">"
+#~ "%(email)s.</a>"
 
 #~ msgid "How do I apply for a refund or cancel my payment?"
 #~ msgstr "Как я могу подать заявку на возврат или отменить платеж?"
@@ -4543,8 +4441,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please cancel your subscription on the <a href=\"%(manage_subscription_url)s\">manage "
 #~ "monthly subscriptions page</a>. If you choose to cancel, we will not charge your payment card for subsequent months."
 #~ msgstr ""
-#~ "Если вы хотите отменить свой ежемесячный платёж или подать заявку на его возмещение, вы можете сделать это в любой момент. Пожалуйста, отмените свою подписку на странице <a "
-#~ "href=\"%(manage_subscription_url)s\">управления ежемесячными подписками</a>. Если вы решите её отменить, то мы не будем списывать деньги с вашей платежной карты за последующие месяцы."
+#~ "Если вы хотите отменить свой ежемесячный платёж или подать заявку на его возмещение, вы можете сделать это в любой момент. Пожалуйста, отмените свою подписку на странице <a href="
+#~ "\"%(manage_subscription_url)s\">управления ежемесячными подписками</a>. Если вы решите её отменить, то мы не будем списывать деньги с вашей платежной карты за последующие месяцы."
 
 #~ msgid "Please read our <a href=\"%(url)s\">payment terms</a> for more information."
 #~ msgstr "Пожалуйста, прочитайте наши <a href=\"%(url)s\">условия оплаты</a>, чтобы получить дополнительную информацию."
@@ -4652,8 +4550,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Привет, %(username)s"
 
 #~ msgid ""
-#~ "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on your "
-#~ "interests."
+#~ "You've completed the first step of Getting Started on MDN by creating a profile. Now, keep going by picking a task on MDN, and doing it! We have a bunch of intro tasks you can choose based on "
+#~ "your interests."
 #~ msgstr ""
 #~ "Вы завершили первый шаг \"Начала работы с MDN\" созданием профиля. Сейчас можно продолжить, выбрав задачу на MDN и выполнив её! У нас есть куча вступительных задач, которые вы можете выбрать на "
 #~ "основе ваших интересов."
@@ -4704,7 +4602,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Ваше имя пользователя GitHub %(username)s уже занято. Пожалуйста, выберите другое."
 
 #~ msgid "A profile already exists with the selected email address. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Connect your %(provider_name)s account to it.</a>"
-#~ msgstr "Профиль с выбранным адресом электронной почты уже существует. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Подключить к нему ваш аккаунт в %(provider_name)s.</a>"
+#~ msgstr ""
+#~ "Профиль с выбранным адресом электронной почты уже существует. <a href=\"%(login_url)s\" class=\"launch-login\" data-next=\"%(next_url)s\">Подключить к нему ваш аккаунт в %(provider_name)s.</a>"
 
 #~ msgid "Verified"
 #~ msgstr "Подтверждён"
@@ -4859,11 +4758,11 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Спасибо, что оставили свой отзыв."
 
 #~ msgid ""
-#~ "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and helps "
-#~ "us make sure MDN can be available to everyone, everywhere."
+#~ "We are committed to providing the best source of information about web standards. Your support enables MDN to move even faster as we build more of the content and tools you use every day, and "
+#~ "helps us make sure MDN can be available to everyone, everywhere."
 #~ msgstr ""
-#~ "Мы стремимся предоставлять лучший источник информации о веб-стандартах. Ваша поддержка позволяет MDN развиваться ещё быстрее, появляться большему числу статей и инструментов, которые вы используете "
-#~ "каждый день, и помогает нам обеспечивать доступ к MDN для всех и каждого в любое время."
+#~ "Мы стремимся предоставлять лучший источник информации о веб-стандартах. Ваша поддержка позволяет MDN развиваться ещё быстрее, появляться большему числу статей и инструментов, которые вы "
+#~ "используете каждый день, и помогает нам обеспечивать доступ к MDN для всех и каждого в любое время."
 
 #~ msgid "Thank you again,"
 #~ msgstr "Ещё раз спасибо,"
@@ -4899,12 +4798,12 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Возврат и отмена платежей"
 
 #~ msgid ""
-#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to cancel, "
-#~ "you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
+#~ "If you would like to cancel your monthly payment or apply for a refund, you are free to do so at any point. Please contact <a href=\"%(url)s\">%(email)s</a> for a refund. If you choose to "
+#~ "cancel, you can do so on the <a href=\"%(manage_subscription_url)s\">manage monthly subscriptions</a> page. We will not charge your payment card for subsequent months."
 #~ msgstr ""
-#~ "Если вы хотите отменить свой ежемесячный платеж или подать заявку на возмещение, вы можете сделать это в любой момент. Пожалуйста, свяжитесь по адресу <a href=\"%(url)s\">%(email)s</a> для получения"
-#~ " возмещения. Если вы решите отменить платеж, вы можете сделать это на странице <a href=\"%(manage_subscription_url)s\">управления ежемесячными подписками</a>. Мы не будем списывать деньги с вашей "
-#~ "платежной карты за последующие месяцы."
+#~ "Если вы хотите отменить свой ежемесячный платеж или подать заявку на возмещение, вы можете сделать это в любой момент. Пожалуйста, свяжитесь по адресу <a href=\"%(url)s\">%(email)s</a> для "
+#~ "получения возмещения. Если вы решите отменить платеж, вы можете сделать это на странице <a href=\"%(manage_subscription_url)s\">управления ежемесячными подписками</a>. Мы не будем списывать "
+#~ "деньги с вашей платежной карты за последующие месяцы."
 
 #~ msgid "Payment terms"
 #~ msgstr "Условия оплаты"
@@ -4928,8 +4827,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Спасибо, %(username)s [%(user_email)s], за вашу поддержку MDN."
 
 #~ msgid ""
-#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign up "
-#~ "again using the new card details. If you have any questions please contact %(support_mail)s."
+#~ "If you would like to manage your monthly payment, such as changing your card account details or the amount you pay, please cancel your subscription on %(recurring_payment_management)s and sign "
+#~ "up again using the new card details. If you have any questions please contact %(support_mail)s."
 #~ msgstr ""
 #~ "Если вы хотите изменить ваш ежемесячный платёж, например, данные вашей карты или сумму пожертвования, пожалуйста, отмените свою подписку на странице %(recurring_payment_management)s и "
 #~ "зарегистрируйтесь снова, используя новые данные карты. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами по адресу %(support_mail)s."
@@ -5044,8 +4943,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ "<p class=\"numbers\"> <span class=\"row1\">Join <span class=\"number\">%(contributors)s</span> contributors</span> <span class=\"row2\">in <span class=\"number\">%(locales)s</span> languages and "
 #~ "locales</span> <span class=\"row3\">around the world.</span> </p>"
 #~ msgstr ""
-#~ "<p class=\"numbers\"> <span class=\"row1\">Присоединяйтесь к <span class=\"number\">%(contributors)s</span> участникам</span> <span class=\"row2\">на <span class=\"number\">%(locales)s</span> языках"
-#~ " и регионах</span> <span class=\"row3\">по всему миру.</span> </p>"
+#~ "<p class=\"numbers\"> <span class=\"row1\">Присоединяйтесь к <span class=\"number\">%(contributors)s</span> участникам</span> <span class=\"row2\">на <span class=\"number\">%(locales)s</span> "
+#~ "языках и регионах</span> <span class=\"row3\">по всему миру.</span> </p>"
 
 #~ msgid "Manage content zone"
 #~ msgstr "Управление зоной контента"
@@ -5096,8 +4995,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Показать темы"
 
 #~ msgid ""
-#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> "
-#~ "&middot; <a href=\"//github.com/mdn/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
+#~ "&copy; 2005-%(this_year)s Mozilla Developer Network and individual contributors<br /> Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</"
+#~ "a> &middot; <a href=\"//github.com/mdn/kuma\">Contribute to the code</a> &middot; <a href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
 #~ "&copy; 2005-%(this_year)s Mozilla Developer Network и индивидуальные участники<br /> Содержимое доступно под указанной в данном проекте лицензией. &middot; <a href=\"%(about_url)s\">О MDN</a> "
 #~ "&middot; <a href=\"//github.com/mdn/kuma\">Внести вклад в код</a> &middot; <a href=\"//www.mozilla.org/ru/privacy\">Политика приватности</a>"
@@ -5109,11 +5008,11 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Почему MDN выглядит иначе?"
 
 #~ msgid ""
-#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find the "
-#~ "web technology docs you’re looking for."
+#~ "MDN is changing to focus just on documenting web technologies. All the same great content is still here; we’re just changing some visual elements and navigation, to help you more quickly find "
+#~ "the web technology docs you’re looking for."
 #~ msgstr ""
-#~ "MDN меняется, фокусируясь только на документировании веб-технологий. Всё тот же отличный контент останется здесь; мы меняем только визуальные элементы и навигацию, чтобы помочь вам быстрее находить "
-#~ "документацию по веб-технологиям."
+#~ "MDN меняется, фокусируясь только на документировании веб-технологий. Всё тот же отличный контент останется здесь; мы меняем только визуальные элементы и навигацию, чтобы помочь вам быстрее "
+#~ "находить документацию по веб-технологиям."
 
 #~ msgid "But don’t worry, MDN and Mozilla are still together! In fact, we're updating MDN’s look to reflect Mozilla's new logo and colors."
 #~ msgstr "Но не волнуйтесь, MDN и Mozilla по-прежнему вместе. По факту, мы обновляем только оформление MDN, чтобы соответствовать новому лого и цветам Mozilla."
@@ -5140,8 +5039,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Привет, Бета-тестер!"
 
 #~ msgid ""
-#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first to "
-#~ "see the new look, and we’d love to hear what you think."
+#~ "We’re updating the look and navigation of MDN to more closely reflect our dedication to providing the best (and most platform-agnostic) web docs in the world. As a beta tester, you’re the first "
+#~ "to see the new look, and we’d love to hear what you think."
 #~ msgstr ""
 #~ "Мы обновляем дизайн и навигацию MDN, чтобы наиболее точно отражать наше стремление предоставлять лучшую (и кроссплатформенную) веб-документацию в мире. Как бета-тестер, вы первым увидите новый "
 #~ "дизайн, и мы хотим узнать, что вы о нём думаете."
@@ -5150,8 +5049,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on <a href=\"%(profile_url)s\">your "
 #~ "profile page</a>."
 #~ msgstr ""
-#~ "Вы видите предварительную версию нового дизайна. Если что-то не так, пожалуйста, сообщите об ошибке  (ссылка внизу сайта), а также вы можете перестать быть бета-тестером на <a "
-#~ "href=\"%(profile_url)s\">странице вашего профиля</a>."
+#~ "Вы видите предварительную версию нового дизайна. Если что-то не так, пожалуйста, сообщите об ошибке  (ссылка внизу сайта), а также вы можете перестать быть бета-тестером на <a href="
+#~ "\"%(profile_url)s\">странице вашего профиля</a>."
 
 #~ msgid "You're seeing a preview of our new look. If you find anything wrong please file a bug (the link is in the footer) and you can opt out of being a beta tester on your profile page."
 #~ msgstr ""
@@ -5293,18 +5192,18 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Создавайте открытые веб-приложения"
 
 #~ msgid ""
-#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a "
-#~ "href=\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
+#~ "Your submission includes content that may not be suitable for MDN. Repeated attempts to submit unsuitable material may result in your account being deactivated. See our guide “<a href="
+#~ "\"%(does_this_belong_url)s\">Does this belong on MDN?</a>” for details on what constitutes appropriate material."
 #~ msgstr ""
-#~ "Ваше представление включает содержимое, которое может быть не“пригодно для MDN. Повторные попытки представить неподходящие материалы могут привести к отключению вашей учетной записи. Обратитесь к "
-#~ "нашему руководству “<a href=\"%(does_this_belong_url)s\">Можно ли это размещать на MDN?</a>“ для получения сведений о том, что является подходящим материалом."
+#~ "Ваше представление включает содержимое, которое может быть не“пригодно для MDN. Повторные попытки представить неподходящие материалы могут привести к отключению вашей учетной записи. Обратитесь "
+#~ "к нашему руководству “<a href=\"%(does_this_belong_url)s\">Можно ли это размещать на MDN?</a>“ для получения сведений о том, что является подходящим материалом."
 
 #~ msgid ""
-#~ "You signed in with Persona. On November 1st you will no longer be able to sign in to MDN this way.<br> Please <a href=\"%(persona_info)s\">link your GitHub account to your MDN profile now</a> so you"
-#~ " can continue to sign in to MDN."
+#~ "You signed in with Persona. On November 1st you will no longer be able to sign in to MDN this way.<br> Please <a href=\"%(persona_info)s\">link your GitHub account to your MDN profile now</a> so "
+#~ "you can continue to sign in to MDN."
 #~ msgstr ""
-#~ "Вы вошли через Persona. С 1 ноября вы больше не сможете входить на MDN через эту систему.<br> Пожалуйста, <a href=\"%(persona_info)s\">привяжите ваш GitHub аккаунт к вашему MDN профилю сейчас</a>, "
-#~ "чтобы вы смогли продолжить входить на MDN."
+#~ "Вы вошли через Persona. С 1 ноября вы больше не сможете входить на MDN через эту систему.<br> Пожалуйста, <a href=\"%(persona_info)s\">привяжите ваш GitHub аккаунт к вашему MDN профилю сейчас</"
+#~ "a>, чтобы вы смогли продолжить входить на MDN."
 
 #~ msgid "Sign in:"
 #~ msgstr "Войти:"
@@ -5328,14 +5227,15 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "У вас нет присоединённых аккаунтов."
 
 #~ msgid "A profile already exists with this email address. To connect Persona to your MDN profile, <a href=\"%(connections_url)s\">you need to sign in and visit your social account connections.</a>"
-#~ msgstr "Профиль с таким адресом электронной почты уже существует. Чтобы присоединить Persona к вашему MDN профилю, <a href=\"%(connections_url)s\">вам нужно войти и открыть присоединённые аккаунты.</a>"
+#~ msgstr ""
+#~ "Профиль с таким адресом электронной почты уже существует. Чтобы присоединить Persona к вашему MDN профилю, <a href=\"%(connections_url)s\">вам нужно войти и открыть присоединённые аккаунты.</a>"
 
 #~ msgid ""
 #~ "A profile already exists with an email address below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Yes, "
 #~ "connect with my MDN profile</a>"
 #~ msgid_plural ""
-#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-"
-#~ "next=\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
+#~ "A profile already exists with one of these email addresses below. Do you already have an MDN profile? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next="
+#~ "\"%(persona_next_url)s\">Yes, connect with my MDN profile</a>"
 #~ msgstr[0] ""
 #~ "Профиль с таким адресом электронной почты уже существует. У вас уже есть MDN профиль? <a href=\"%(persona_login_url)s\" class=\"launch-persona-login\" data-next=\"%(persona_next_url)s\">Да, "
 #~ "соединить с моим MDN профилем</a>"
@@ -5410,8 +5310,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ "Content is available under a license specific to this project. &middot; <a href=\"%(about_url)s\">About MDN</a> &middot; <a href=\"//github.com/mdn/kuma\">Contribute to the code</a> &middot; <a "
 #~ "href=\"//www.mozilla.org/en-US/privacy\">Privacy policy</a>"
 #~ msgstr ""
-#~ "Содержимое доступно под указанной в данном проекте лицензией. &middot; <a href=\"%(about_url)s\">О MDN</a> &middot; <a href=\"//github.com/mdn/kuma\">Внести вклад в код</a> &middot; <a "
-#~ "href=\"//www.mozilla.org/ru/privacy\">Политика приватности</a>"
+#~ "Содержимое доступно под указанной в данном проекте лицензией. &middot; <a href=\"%(about_url)s\">О MDN</a> &middot; <a href=\"//github.com/mdn/kuma\">Внести вклад в код</a> &middot; <a href=\"//"
+#~ "www.mozilla.org/ru/privacy\">Политика приватности</a>"
 
 #~ msgid "\"Load documents\""
 #~ msgstr "\"Загрузка документов\""
@@ -5644,13 +5544,13 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ "переходы."
 
 #~ msgid ""
-#~ "CSS3 Animations are a new feature of modern browsers like Firefox, which add even more flexibility and control to the style and experience of the Web. CSS3 Animations let you change property values "
-#~ "over time with no or minimal JavaScript, and with greater control than CSS Transitions. Go beyond static properties to animate the appearance and positions of HTML elements. You can achieve these "
-#~ "effects without Flash or Silverlight, to make creative dynamic interfaces and engaging animations with CSS3."
+#~ "CSS3 Animations are a new feature of modern browsers like Firefox, which add even more flexibility and control to the style and experience of the Web. CSS3 Animations let you change property "
+#~ "values over time with no or minimal JavaScript, and with greater control than CSS Transitions. Go beyond static properties to animate the appearance and positions of HTML elements. You can "
+#~ "achieve these effects without Flash or Silverlight, to make creative dynamic interfaces and engaging animations with CSS3."
 #~ msgstr ""
-#~ "CSS3 анимации - новая возможность современных браузеров типа Firefox, который добавляет большую гибкость и контроль над стилем и обытом Веба. Анимации позволяют вам изменять значения свойств через "
-#~ "некоторое время без или с минимальным количеством JavaScript, а также лучше контролируются, чем CSS переходы. Выйдите за пределы статических свойств, чтобы анимировать внешний вид и позиции HTML "
-#~ "элементов. Вы можете достичь этих эффектов без Flash или Silverlight, создать креативные динамические интерфейсы и привлекательный анимации с CSS3."
+#~ "CSS3 анимации - новая возможность современных браузеров типа Firefox, который добавляет большую гибкость и контроль над стилем и обытом Веба. Анимации позволяют вам изменять значения свойств "
+#~ "через некоторое время без или с минимальным количеством JavaScript, а также лучше контролируются, чем CSS переходы. Выйдите за пределы статических свойств, чтобы анимировать внешний вид и "
+#~ "позиции HTML элементов. Вы можете достичь этих эффектов без Flash или Silverlight, создать креативные динамические интерфейсы и привлекательный анимации с CSS3."
 
 #~ msgid "July 2011 Dev Derby Challenge - HTML5 <video>"
 #~ msgstr "Июль 2011 Dev Derby Challenge - HTML5 <video>"
@@ -5709,11 +5609,11 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Ноябрь 2011"
 
 #~ msgid ""
-#~ "Canvas lets you paint the Web using JavaScript to render 2D shapes, bitmapped images, and advanced graphical effects. Each <canvas> element provides a graphics context with its own state and methods"
-#~ " that make it easy to control and draw in."
+#~ "Canvas lets you paint the Web using JavaScript to render 2D shapes, bitmapped images, and advanced graphical effects. Each <canvas> element provides a graphics context with its own state and "
+#~ "methods that make it easy to control and draw in."
 #~ msgstr ""
-#~ "Canvas позволяет вам рисовать в веб, используя JavaScript для отрисовки 2D фигур, bmp изображений и расширенных графических эффектов. Каждый элемент <canvas> предоставляет графический контекст со "
-#~ "своим состоянием и методами, позволяющими легко его контролировать и рисовать в нём."
+#~ "Canvas позволяет вам рисовать в веб, используя JavaScript для отрисовки 2D фигур, bmp изображений и расширенных графических эффектов. Каждый элемент <canvas> предоставляет графический контекст "
+#~ "со своим состоянием и методами, позволяющими легко его контролировать и рисовать в нём."
 
 #~ msgid "December 2011 Dev Derby Challenge - IndexedDB"
 #~ msgstr "Декабрь 2011 Dev Derby Challenge - IndexedDB"
@@ -5806,8 +5706,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Июль 2012"
 
 #~ msgid ""
-#~ "Creating rich user experiences for the Web has never been easier. Today's open Web standards put some of the most powerful features right at your fingertips. Animate pages with CSS, validate user "
-#~ "input with HTML, and more. What else can you do without JavaScript?"
+#~ "Creating rich user experiences for the Web has never been easier. Today's open Web standards put some of the most powerful features right at your fingertips. Animate pages with CSS, validate "
+#~ "user input with HTML, and more. What else can you do without JavaScript?"
 #~ msgstr ""
 #~ "Создание многофункциональных пользовательских интерфейсов для веб никогда не было проще. Сегодняшние открытые веб-стандарты приносят некоторые из самых мощных функций на кончики ваших пальцев. "
 #~ "Анимируйте страницы с помощью CSS, проверяйте пользовательский ввод с HTML и многое другое. Что ещё вы сможете сделать без JavaScript?"
@@ -5882,8 +5782,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Февраль 2013"
 
 #~ msgid ""
-#~ "The Touch Events API lets you track multiple touches at the same time on devices that support them. Build complex games, support pinch-to-zoom and more. By using multi-touch, your app can respond to"
-#~ " all the interactions users have come to expect."
+#~ "The Touch Events API lets you track multiple touches at the same time on devices that support them. Build complex games, support pinch-to-zoom and more. By using multi-touch, your app can "
+#~ "respond to all the interactions users have come to expect."
 #~ msgstr ""
 #~ "Touch Events API позволяет вам одновременно отслеживать несколько касаний на устройствах, которые их поддерживают. Создавайте сложные игры, добавляйте поддержку pinch-to-zoom и многое другое. "
 #~ "Используя multi-touch, ваше приложение может реагировать на все привычные и ожидаемые пользователем взаимодействия."
@@ -5896,7 +5796,8 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 
 #~ msgid "The mobile Web is becoming more important every day. This time, the only limit is your creativity. What amazing experiences can you build for users on the go?"
 #~ msgstr ""
-#~ "С каждым днйм мобильный Веб становится всё более важным. На этот раз, единственное ограничение - это ваша креативность. Какой удивительный интерфейс вы сможете построить для мобильных пользователей?"
+#~ "С каждым днйм мобильный Веб становится всё более важным. На этот раз, единственное ограничение - это ваша креативность. Какой удивительный интерфейс вы сможете построить для мобильных "
+#~ "пользователей?"
 
 #~ msgid "April 2013 Dev Derby Challenge - Web Workers"
 #~ msgstr "Апрель 2013 Dev Derby Challenge - Web Workers"
@@ -6041,8 +5942,10 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgid "Forms"
 #~ msgstr "Формы"
 
-#~ msgid "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
-#~ msgstr "Элементы форм и атрибуты в HTML5 представляют степень семантической разметки выше HTML4, а также избавляют от необходимости написания утомительных сценариев и стилей, требовавшихся в HTML4."
+#~ msgid ""
+#~ "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4 and remove a great deal of the need for tedious scripting and styling that was required in HTML4."
+#~ msgstr ""
+#~ "Элементы форм и атрибуты в HTML5 представляют степень семантической разметки выше HTML4, а также избавляют от необходимости написания утомительных сценариев и стилей, требовавшихся в HTML4."
 
 #~ msgid "https://developer.mozilla.org/en-US/docs/Web/HTML/Forms_in_HTML"
 #~ msgstr "https://developer.mozilla.org/ru/docs/Web/HTML/Forms_in_HTML"
@@ -6428,12 +6331,12 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 
 #~ msgid ""
 #~ "<p>Welcome to the Mozilla Demo Studio, where developers like you can develop, share, demonstrate, and learn all about Web technologies. See what's possible by exploring Demo Studio:</p> <ul> "
-#~ "<li>View demos that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the source code for those demos so you can see how they work.</li> <li>Read documentation to learn about the open"
-#~ " standards and technologies that power the Web.</li> </ul>"
+#~ "<li>View demos that showcase what HTML, CSS, and JavaScript can do.</li> <li>Inspect the source code for those demos so you can see how they work.</li> <li>Read documentation to learn about the "
+#~ "open standards and technologies that power the Web.</li> </ul>"
 #~ msgstr ""
-#~ "<p>Добро пожаловать в Mozilla Demo Studio, где такие как вы разработчики могут разрабатывать, делиться, демонстрировать и узнавать всё о веб технологиях. Посмотрите, что можно сделать, исследуя Демо"
-#~ " студию:</p> <ul> <li>Посмотреть демо, показывающие, что можно сделать с HTML, CSS и JavaScript.</li> <li>Исследовать исходный код демо и увидеть, как они работают.</li> <li>Прочитать документацию, "
-#~ "чтобы узнать о открытых стандартах и технологиях, составляющих Web.</li> </ul>"
+#~ "<p>Добро пожаловать в Mozilla Demo Studio, где такие как вы разработчики могут разрабатывать, делиться, демонстрировать и узнавать всё о веб технологиях. Посмотрите, что можно сделать, исследуя "
+#~ "Демо студию:</p> <ul> <li>Посмотреть демо, показывающие, что можно сделать с HTML, CSS и JavaScript.</li> <li>Исследовать исходный код демо и увидеть, как они работают.</li> <li>Прочитать "
+#~ "документацию, чтобы узнать о открытых стандартах и технологиях, составляющих Web.</li> </ul>"
 
 #~ msgid "Go to the previous demo, %(demo_title)s"
 #~ msgstr "Перейти к предыдущему демо, %(demo_title)s"
@@ -6694,15 +6597,15 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Подготовка вашего демо"
 
 #~ msgid ""
-#~ "<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your demo "
-#~ "should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should use AJAX to"
-#~ " access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN profile</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed "
-#~ "under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
+#~ "<ul> <li>Your demo's source code should be packaged inside a ZIP file.</li> <li>The main page of your demo should be a file named <code>index.html</code> in the root of the ZIP.</li> <li>Your "
+#~ "demo should be built on client-side technology (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your demo requires external resources, it should "
+#~ "use AJAX to access them.</li> <li>To submit your demo, you need an <a href=\"%(signup_url)s\">MDN profile</a>.</li> <li>Please identify in the demo details box any 3rd party content that can't "
+#~ "be licensed under the CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 #~ msgstr ""
-#~ "<ul><li> Исходный код вашего демо должен быть запакован в ZIP архив.</li><li>Файл главной страницы вашего демо должен называться <code>index.html</code> и быть в корне ZIP.</li><li>Ваше демо должно "
-#~ "быть построено на клиентских технологиях (HTML, CSS, JavaScript). Серверные языки, такие как PHP и Ruby, не поддерживаются.</li><li>Если в вашем демо нужны внешние ресурсы, для доступа к ним вы "
-#~ "должны использовать AJAX.</li><li>Чтобы опубликовать демо, ваш нужен <a href=\"%(signup_url)s\">MDN профиль</a>.</li><li>Пожалуйста, укажите в поле подробности демо сведения о любом строннем "
-#~ "контенте, который не может быть лицензирован на условиях CC-BY-SA, и приведите ссылки на веб-сайты авторов.</li></ul>"
+#~ "<ul><li> Исходный код вашего демо должен быть запакован в ZIP архив.</li><li>Файл главной страницы вашего демо должен называться <code>index.html</code> и быть в корне ZIP.</li><li>Ваше демо "
+#~ "должно быть построено на клиентских технологиях (HTML, CSS, JavaScript). Серверные языки, такие как PHP и Ruby, не поддерживаются.</li><li>Если в вашем демо нужны внешние ресурсы, для доступа к "
+#~ "ним вы должны использовать AJAX.</li><li>Чтобы опубликовать демо, ваш нужен <a href=\"%(signup_url)s\">MDN профиль</a>.</li><li>Пожалуйста, укажите в поле подробности демо сведения о любом "
+#~ "строннем контенте, который не может быть лицензирован на условиях CC-BY-SA, и приведите ссылки на веб-сайты авторов.</li></ul>"
 
 #~ msgid "Provide the Source Code"
 #~ msgstr "Предоставьте исходный код"
@@ -6726,24 +6629,24 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "Перед тем, как вы начнёте"
 
 #~ msgid ""
-#~ "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your demo's source code must be available under an "
-#~ "<strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a wide "
-#~ "range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
+#~ "<ul> <li>You must be prepared to <strong>provide the source code</strong> for your demo. Demos are hosted on the Demo Studio's servers.</li> <li>Your demo's source code must be available under "
+#~ "an <strong>open license</strong>, such as MPL, GPL, or BSD.</li> <li>Your demo should showcase <strong>open web technologies</strong>, such as HTML5 and CSS3.</li> <li>Your demo should support a "
+#~ "wide range of <strong>modern web browsers</strong>, like Firefox, Chrome, Safari, and Opera.</li> </ul>"
 #~ msgstr ""
 #~ "<ul><li>Вы должны быть готовы <strong>предоставить исходный код</strong> вашего демо. Демо размещаются на серверах Демо Студии.</li><li>Исходный код вашего демо должен быть доступен под "
-#~ "<strong>открытой лицензией</strong>, такой как MPL, GPL или BSD.</li><li>Ваше демо должно демонстрировать <strong>открытые веб-технологии</strong>, такие как HTML5 и CSS3.</li><li>Ваше демо должно "
-#~ "поддерживать широкий спектр <strong>современных веб-браузеров</strong>, таких как Firefox, Chrome, Safari и Opera.</li></ul>"
+#~ "<strong>открытой лицензией</strong>, такой как MPL, GPL или BSD.</li><li>Ваше демо должно демонстрировать <strong>открытые веб-технологии</strong>, такие как HTML5 и CSS3.</li><li>Ваше демо "
+#~ "должно поддерживать широкий спектр <strong>современных веб-браузеров</strong>, таких как Firefox, Chrome, Safari и Opera.</li></ul>"
 
 #~ msgid ""
 #~ "<ul> <li>Your demo's source code should be packaged inside a <strong>ZIP file</strong>.</li> <li>The main page of your demo should be a file named <strong><code>index.html</code></strong> in the "
-#~ "root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If your "
-#~ "demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the CC-BY-SA"
-#~ " license and include links to the authors' websites.</li> </ul>"
+#~ "root of the ZIP.</li> <li>Your demo should be built on <strong>client-side technology</strong> (HTML, CSS, JavaScript). Server-side languages like PHP and Ruby are not supported.</li> <li>If "
+#~ "your demo requires external resources, it should use <strong>AJAX</strong> to access them.</li> <li>Please identify in the demo details box any 3rd party content that can't be licensed under the "
+#~ "CC-BY-SA license and include links to the authors' websites.</li> </ul>"
 #~ msgstr ""
-#~ "<ul><li> Исходный код вашего демо должен быть запакован в <strong>ZIP архив</strong>.</li><li>Главная страница вашего демо должна быть названа <strong><code>index.html</code></strong> и быть в корне"
-#~ " ZIP.</li><li>Ваше демо должно быть построено на <strong>клиентских технологиях</strong> (HTML, CSS, JavaScript). Серверные языки, такие как как PHP и Ruby, не поддерживаются.</li><li>Если в вашем "
-#~ "демо нужны внешние ресурсы, для доступа к ним вы должны использовать <strong>AJAX</strong>.</li><li>Пожалуйста, укажите в поле подробности демо сведения о любом строннем контенте, который не может "
-#~ "быть лицензирован на условиях CC-BY-SA, и приведите ссылки на веб-сайты авторов.</li></ul>"
+#~ "<ul><li> Исходный код вашего демо должен быть запакован в <strong>ZIP архив</strong>.</li><li>Главная страница вашего демо должна быть названа <strong><code>index.html</code></strong> и быть в "
+#~ "корне ZIP.</li><li>Ваше демо должно быть построено на <strong>клиентских технологиях</strong> (HTML, CSS, JavaScript). Серверные языки, такие как как PHP и Ruby, не поддерживаются.</li><li>Если "
+#~ "в вашем демо нужны внешние ресурсы, для доступа к ним вы должны использовать <strong>AJAX</strong>.</li><li>Пожалуйста, укажите в поле подробности демо сведения о любом строннем контенте, "
+#~ "который не может быть лицензирован на условиях CC-BY-SA, и приведите ссылки на веб-сайты авторов.</li></ul>"
 
 #~ msgid "<p>To submit your demo, you need an <strong><a href=\"%(signup_url)s\">MDN profile</a></strong>.</p>"
 #~ msgstr "<p>Чтобы отправить своё демо, вам нужен <strong><a href=\"%(signup_url)s\">MDN профиль</a></strong>.</p>"
@@ -6986,11 +6889,11 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "%s заблокирован пользователем %s"
 
 #~ msgid ""
-#~ "<p> <a href=\"%(parent_url)s\" title=\"%(parent_title)s\"> View '%(parent_locale)s' parent </a> (<a href=\"%(mod_url)s\">last modified at %(parent_modified)s</a>) </p> <p> <a "
-#~ "href=\"%(doc_edit_url)s\" title=\"%(doc_title)s\"> Edit '%(doc_locale)s' translation </a> (last modified at %(doc_modified)s) </p>"
+#~ "<p> <a href=\"%(parent_url)s\" title=\"%(parent_title)s\"> View '%(parent_locale)s' parent </a> (<a href=\"%(mod_url)s\">last modified at %(parent_modified)s</a>) </p> <p> <a href="
+#~ "\"%(doc_edit_url)s\" title=\"%(doc_title)s\"> Edit '%(doc_locale)s' translation </a> (last modified at %(doc_modified)s) </p>"
 #~ msgstr ""
-#~ "<p><a href=\"%(parent_url)s\" title=\"%(parent_title)s\">Просмотреть родителя «%(parent_locale)s»</a> (<a href=\"%(mod_url)s\">последний раз менялся %(parent_modified)s</a>) </p> <p> <a "
-#~ "href=\"%(doc_edit_url)s\" title=\"%(doc_title)s\"> Редактировать перевод «%(doc_locale)s»</a> (последний раз менялся %(doc_modified)s)</p>"
+#~ "<p><a href=\"%(parent_url)s\" title=\"%(parent_title)s\">Просмотреть родителя «%(parent_locale)s»</a> (<a href=\"%(mod_url)s\">последний раз менялся %(parent_modified)s</a>) </p> <p> <a href="
+#~ "\"%(doc_edit_url)s\" title=\"%(doc_title)s\"> Редактировать перевод «%(doc_locale)s»</a> (последний раз менялся %(doc_modified)s)</p>"
 
 #~ msgid "<div class=\"contributors-sub\"> <i aria-hidden=\"true\" class=\"icon-group\"></i><strong>Contributors to this page:</strong> %(contributors_list)s </div>"
 #~ msgstr "<div class=\"contributors-sub\"> <i aria-hidden=\"true\" class=\"icon-group\"></i><strong>На данную страницу внесли свой вклад:</strong> %(contributors_list)s </div>"
@@ -7017,11 +6920,11 @@ msgstr "Сервер Elasticsearch: %(backend)s"
 #~ msgstr "<cite class=\"author fn\">%(comment_profile_link)s</cite> сказал,"
 
 #~ msgid ""
-#~ "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" "
-#~ "datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+#~ "Posted <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
+#~ "\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 #~ msgstr ""
-#~ "Отправлено <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" "
-#~ "datetime=\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
+#~ "Отправлено <a href=\"#comment-%(comment_id)s\" rel=\"bookmark\" title=\"Permanent link to this comment by %(display_name)s\"><time class=\"published\" pubdate=\"pubdate\" datetime="
+#~ "\"%(comment_isotime)s\" title=\"%(comment_isotime)s\">%(comment_timesince)s</time></a>"
 
 #~ msgid "Reply to this comment by {full_name}"
 #~ msgstr "Ответить на этот комментарий от {full_name}"
