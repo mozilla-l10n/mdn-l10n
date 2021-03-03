@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2021-01-28 08:47-0800\n"
+"POT-Creation-Date: 2021-03-02 16:31-0800\n"
 "PO-Revision-Date: 2021-01-28 16:55+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian https://pontoon.mozilla.org/hu/\n"
@@ -142,34 +142,22 @@ msgstr "A megadott URL valószínűleg érvénytelen"
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: kuma/javascript/src/active-banner.jsx:179
+#: kuma/javascript/src/active-banner.jsx:177
 msgid "Close banner"
 msgstr "Banner bezárása"
 
-#: kuma/javascript/src/active-banner.jsx:200
-msgid "MDN Web DNA"
-msgstr "MDN Web DNA"
+#: kuma/javascript/src/active-banner.jsx:198
+#, fuzzy
+msgid "Learning web development survey"
+msgstr "Tanuljon a webfejlesztésről"
 
-#: kuma/javascript/src/active-banner.jsx:201
-msgid "Help us understand the top 10 needs of web developers."
-msgstr "Segítsen megérteni a webfejlesztők 10 legfontosabb igényét."
+#: kuma/javascript/src/active-banner.jsx:199
+msgid "Help us understand how to make MDN better for beginners (5 minute survey)"
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:204
+#: kuma/javascript/src/active-banner.jsx:202
 msgid "Take the survey"
 msgstr "Kérdőív kitöltése"
-
-#: kuma/javascript/src/active-banner.jsx:228 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
-msgid "Become a monthly supporter"
-msgstr "Legyen havi támogató"
-
-#: kuma/javascript/src/active-banner.jsx:230
-#, python-format
-msgid "Support MDN with a %(amount)s monthly subscription"
-msgstr "Támogassa az MDN-t egy %(amount)s összegű havi előfizetéssel"
-
-#: kuma/javascript/src/active-banner.jsx:235
-msgid "Learn more"
-msgstr "További tudnivalók"
 
 #: kuma/javascript/src/article.jsx:24
 msgid "This translation is in progress."
@@ -723,6 +711,10 @@ msgstr "5 $<perMontSub />"
 msgid "/mo"
 msgstr "/hó"
 
+#: kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+msgid "Become a monthly supporter"
+msgstr "Legyen havi támogató"
+
 #: kuma/javascript/src/payments/components/subheaders/signup.jsx:13
 #, python-format
 msgid "You will be MDN member number %(num)s"
@@ -793,8 +785,8 @@ msgid ""
 "The <mozillaLink /> and MDN are separate organizations and programs. Donations to the Mozilla Foundation are <taxLink /> to the fullest extent permitted by law, and go to support Mozilla public and "
 "charitable programs in one general fund. MDN is part of <mocoLink /> and payments to MDN are not used in Mozilla’s charitable programs but are reinvested into MDN’s content, tools, and platform."
 msgstr ""
-"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános és"
-" jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
+"A <mozillaLink /> és az MDN különálló szervezetek és programok. A Mozilla Alapítványnak küldött adomány <taxLink />, a törvény által megengedett legteljesebb mértékig, és ezek a Mozilla nyilvános "
+"és jótékonysági programjait támogatják, egy közös alapként. Az MDN a <mocoLink /> része, és a befizetések nem a Mozilla jótékonysági programjait támogatják, hanem az MDN tartalmába, eszközeibe és "
 "platformjába kerülnek befektetésre."
 
 #: kuma/javascript/src/payments/pages/index.jsx:140
@@ -894,8 +886,8 @@ msgstr "havi előfizetés kezelői oldal"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "Bármikor lemondhatja a havi előfizetését. Keresse fel a <subscriptionsLink /> lapot. Ha a lemondást választja, akkor a következő hónapokban nem fogjuk megterhelni a kártyáját. További kérdés esetén "
 "<emailLink />."
@@ -1115,6 +1107,18 @@ msgstr "Hivatkozás"
 msgid "Section"
 msgstr "Szakasz"
 
+#~ msgid "MDN Web DNA"
+#~ msgstr "MDN Web DNA"
+
+#~ msgid "Help us understand the top 10 needs of web developers."
+#~ msgstr "Segítsen megérteni a webfejlesztők 10 legfontosabb igényét."
+
+#~ msgid "Support MDN with a %(amount)s monthly subscription"
+#~ msgstr "Támogassa az MDN-t egy %(amount)s összegű havi előfizetéssel"
+
+#~ msgid "Learn more"
+#~ msgstr "További tudnivalók"
+
 #~ msgid "Step %(current)s of %(total)s"
 #~ msgstr "%(current)s. / %(total)s lépés"
 
@@ -1143,7 +1147,8 @@ msgstr "Szakasz"
 #~ msgstr "Rendelkezik ezt alátámasztó anyagokkal?"
 
 #~ msgid ""
-#~ "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
+#~ "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your "
+#~ "findings."
 #~ msgstr ""
 #~ "A böngésződokumentáció és a kiadási megjegyzések jó kiegészítő elemek az üzenete mellé. Egy bemutató egy a Codepenhez vagy JSBinhez hasonló szolgáltatásokon tökéletes arra, hogy valódi példákat "
 #~ "biztosítson az eredményei mellett."
@@ -1158,8 +1163,8 @@ msgstr "Szakasz"
 #~ msgstr "Mondja el nekünk, mi a baj ezzel a táblázattal"
 
 #~ msgid ""
-#~ "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
-#~ "values to the developer community."
+#~ "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% "
+#~ "real values to the developer community."
 #~ msgstr ""
 #~ "A célunk, hogy pontos, valós értékeket biztosítsunk a kompatibilitási adattáblázatainkhoz. Az MDN értesítése a pontatlan adatokról ahhoz vezet, hogy egyre közelebb jussunk ahhoz, hogy 100%-osan "
 #~ "valós értékeket adjunk a fejlesztői közösségnek."

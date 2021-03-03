@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
-"POT-Creation-Date: 2021-01-28 08:47-0800\n"
+"POT-Creation-Date: 2021-03-02 16:31-0800\n"
 "PO-Revision-Date: 2021-01-29 06:31+0000\n"
 "Last-Translator: Mark Heijl <markh@babelzilla.org>\n"
 "Language-Team: Dutch https://pontoon.mozilla.org/nl/\n"
@@ -144,34 +144,22 @@ msgstr "De URL die u hebt ingevoerd lijkt niet geldig te zijn"
 msgid "Default"
 msgstr "Standaard"
 
-#: kuma/javascript/src/active-banner.jsx:179
+#: kuma/javascript/src/active-banner.jsx:177
 msgid "Close banner"
 msgstr "Banner sluiten"
 
-#: kuma/javascript/src/active-banner.jsx:200
-msgid "MDN Web DNA"
-msgstr "MDN Web DNA"
+#: kuma/javascript/src/active-banner.jsx:198
+#, fuzzy
+msgid "Learning web development survey"
+msgstr "Webontwikkeling leren"
 
-#: kuma/javascript/src/active-banner.jsx:201
-msgid "Help us understand the top 10 needs of web developers."
-msgstr "Help ons de top 10 wensen van webontwikkelaars te begrijpen."
+#: kuma/javascript/src/active-banner.jsx:199
+msgid "Help us understand how to make MDN better for beginners (5 minute survey)"
+msgstr ""
 
-#: kuma/javascript/src/active-banner.jsx:204
+#: kuma/javascript/src/active-banner.jsx:202
 msgid "Take the survey"
 msgstr "De enquête invullen"
-
-#: kuma/javascript/src/active-banner.jsx:228 kuma/javascript/src/payments/components/subheaders/signup.jsx:12
-msgid "Become a monthly supporter"
-msgstr "Word een maandelijkse donateur"
-
-#: kuma/javascript/src/active-banner.jsx:230
-#, python-format
-msgid "Support MDN with a %(amount)s monthly subscription"
-msgstr "Ondersteun MDN met een maandabonnement van %(amount)s"
-
-#: kuma/javascript/src/active-banner.jsx:235
-msgid "Learn more"
-msgstr "Meer info"
 
 #: kuma/javascript/src/article.jsx:24
 msgid "This translation is in progress."
@@ -725,6 +713,10 @@ msgstr "$ 5 <perMontSub />"
 msgid "/mo"
 msgstr "/mnd"
 
+#: kuma/javascript/src/payments/components/subheaders/signup.jsx:12
+msgid "Become a monthly supporter"
+msgstr "Word een maandelijkse donateur"
+
 #: kuma/javascript/src/payments/components/subheaders/signup.jsx:13
 #, python-format
 msgid "You will be MDN member number %(num)s"
@@ -886,8 +878,8 @@ msgid ""
 "If you would like to manage your monthly subscription, such as changing your card account details, you will need to cancel your subscription and sign up again using the new card details. To cancel, "
 "go to the <subscriptionsLink />, or if you have any questions please contact <emailLink />."
 msgstr ""
-"Als u uw maandelijkse abonnement wilt beheren, zoals het wijzigen van uw creditcardgegevens, moet u uw abonnement opzeggen en u opnieuw abonneren met de nieuwe kaartgegevens. Ga om op te zeggen naar"
-" de <subscriptionsLink />, of neem voor vragen contact op met <emailLink />."
+"Als u uw maandelijkse abonnement wilt beheren, zoals het wijzigen van uw creditcardgegevens, moet u uw abonnement opzeggen en u opnieuw abonneren met de nieuwe kaartgegevens. Ga om op te zeggen "
+"naar de <subscriptionsLink />, of neem voor vragen contact op met <emailLink />."
 
 #: kuma/javascript/src/payments/pages/index.jsx:265 kuma/javascript/src/payments/pages/index.jsx:293 kuma/javascript/src/payments/pages/thank-you.jsx:48
 msgid "manage monthly subscription page"
@@ -895,8 +887,8 @@ msgstr "pagina voor beheren van uw maandelijkse abonnement"
 
 #: kuma/javascript/src/payments/pages/index.jsx:288
 msgid ""
-"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for subsequent"
-" months. For any other questions or inquiries please <emailLink />."
+"You can cancel your monthly subscription at any time. Please go to the <subscriptionsLink /> to cancel your subscription. If you choose to cancel, we will not charge your payment card for "
+"subsequent months. For any other questions or inquiries please <emailLink />."
 msgstr ""
 "U kunt uw maandabonnement op elk moment opzeggen. Ga naar de <subscriptionsLink /> om uw abonnement op te zeggen. Als u ervoor kiest om op te zeggen, zullen we de daaropvolgende maanden uw "
 "creditcard niet belasten. E-mail voor andere vragen of verzoeken naar <emailLink />."
@@ -1116,6 +1108,18 @@ msgstr "Koppeling"
 msgid "Section"
 msgstr "Sectie"
 
+#~ msgid "MDN Web DNA"
+#~ msgstr "MDN Web DNA"
+
+#~ msgid "Help us understand the top 10 needs of web developers."
+#~ msgstr "Help ons de top 10 wensen van webontwikkelaars te begrijpen."
+
+#~ msgid "Support MDN with a %(amount)s monthly subscription"
+#~ msgstr "Ondersteun MDN met een maandabonnement van %(amount)s"
+
+#~ msgid "Learn more"
+#~ msgstr "Meer info"
+
 #~ msgid "Step %(current)s of %(total)s"
 #~ msgstr "Stap %(current)s van %(total)s"
 
@@ -1144,10 +1148,11 @@ msgstr "Sectie"
 #~ msgstr "Hebt u ondersteunend materiaal?"
 
 #~ msgid ""
-#~ "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your findings."
+#~ "Browser documentation and release notes are good supporting items to accompany your message. A demo hosted on services like Codepen or JSBin are perfect for providing real examples of your "
+#~ "findings."
 #~ msgstr ""
-#~ "Browserdocumentatie en versieopmerkingen zijn goede ondersteunende zaken om bij uw bericht te voegen. Een demo op een service als Codepen of JSBin is perfect om echte voorbeelden van uw bevindingen "
-#~ "te geven."
+#~ "Browserdocumentatie en versieopmerkingen zijn goede ondersteunende zaken om bij uw bericht te voegen. Een demo op een service als Codepen of JSBin is perfect om echte voorbeelden van uw "
+#~ "bevindingen te geven."
 
 #~ msgid "Connection error:"
 #~ msgstr "Verbindingsfout:"
@@ -1159,11 +1164,11 @@ msgstr "Sectie"
 #~ msgstr "Vertel ons wat er fout is aan deze tabel"
 
 #~ msgid ""
-#~ "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% real "
-#~ "values to the developer community."
+#~ "Our goal is to provide accurate, real values for all our compatibility data tables. Notifying MDN of inaccurate data or supplying new data pushes us further towards our goal of providing 100% "
+#~ "real values to the developer community."
 #~ msgstr ""
-#~ "Ons doel is om accurate, echte waarden te geven voor alle gegevenstabellen over compatibiliteit. Door een bericht te sturen aan MDN over onjuiste gegevens of door nieuwe gegevens te sturen, helpt u "
-#~ "ons ons doel om 100% echte waarden aan de ontwikkelaarsgemeenschap te verstrekken, te bereiken."
+#~ "Ons doel is om accurate, echte waarden te geven voor alle gegevenstabellen over compatibiliteit. Door een bericht te sturen aan MDN over onjuiste gegevens of door nieuwe gegevens te sturen, "
+#~ "helpt u ons ons doel om 100% echte waarden aan de ontwikkelaarsgemeenschap te verstrekken, te bereiken."
 
 #~ msgid "Thank you for helping."
 #~ msgstr "Bedankt dat u ons helpt."
