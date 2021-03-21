@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2021-03-02 16:30-0800\n"
-"PO-Revision-Date: 2020-12-05 15:53+0000\n"
-"Last-Translator: MikuroXina <ryosukadnak@gmail.com>\n"
+"PO-Revision-Date: 2021-03-21 06:45+0000\n"
+"Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -1453,9 +1453,8 @@ msgid "Keep my attribution for my page changes (%(username)s)"
 msgstr "ページの変更の帰属を維持する (%(username)s)"
 
 #: kuma/users/forms.py:220
-#, fuzzy
 msgid "Switch my attribution for my page changes to \"Anonymous\""
-msgstr "私が行ったページの変更について帰属をすべて「匿名」に切り替え、アカウントを削除してください。"
+msgstr "ページの変更の帰属を「匿名」に切り替える"
 
 #: kuma/users/models.py:40
 #, python-format
@@ -1521,9 +1520,8 @@ msgid "Enter a valid LinkedIn URL."
 msgstr "LinkedIn の URL を正しく入力してください。"
 
 #: kuma/users/models.py:143
-#, fuzzy
 msgid "Enter a valid PMO URL."
-msgstr "GitHub の URL を正しく入力してください。"
+msgstr "正しい PMO の URL を入力してください。"
 
 #: kuma/users/models.py:148
 msgid "Enter a valid Facebook URL."
@@ -2123,51 +2121,51 @@ msgid "Manage your Mozilla Newsletter Subscriptions."
 msgstr "Mozilla 関連ニュースレターの購読を管理"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:3
-#, fuzzy, python-format
+#, python-format
 msgid "You supported MDN with a %(cost)s monthly subscription."
-msgstr "毎月の購読を編集"
+msgstr "MDN を月額 %(cost)s でサポートしました。"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:7
 #, python-format
 msgid "Amount paid: %(cost)s"
-msgstr ""
+msgstr "支払額: %(cost)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:10
 #, python-format
 msgid "Payment method: %(credit_card_brand)s"
-msgstr ""
+msgstr "支払方法: %(credit_card_brand)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:14
 #, python-format
 msgid "Invoice number: %(invoice_number)s"
-msgstr ""
+msgstr "請求書番号: %(invoice_number)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:17
 #, python-format
 msgid "Date of issue: %(payment_date)s"
-msgstr ""
+msgstr "発行日: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:20
-#, fuzzy, python-format
+#, python-format
 msgid "Date due: %(payment_date)s"
-msgstr "支払い条件は何ですか？"
+msgstr "期日: %(payment_date)s"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:24
 #, python-format
 msgid "Your next payment of %(cost)s (monthly) occurs on %(next_payment_date)s."
-msgstr ""
+msgstr "次の%(cost)sの (毎月の) 支払いは%(next_payment_date)sに発生します。"
 
 #: kuma/users/jinja2/users/email/payment_received/plain.ltxt:28
 #, python-format
 msgid ""
 "Cancel any time. To cancel your subscription, please go to the Manage monthly subscription page (%(manage_subscription_url)s). If you have questions, please read the FAQ (%(faq_url)s) or you can "
 "also contact support (%(contact_email)s)."
-msgstr ""
+msgstr "いつでもキャンセルできます。サブスクリプションをキャンセルするには、月次サブスクリプションの管理ページ (%(manage_subscription_url)s) にアクセスしてください。ご不明な点は、 FAQ (%(faq_url)s) をお読みいただくか、サポート (%(contact_email)s) にお問い合わせください。"
 
 #: kuma/users/jinja2/users/email/payment_received/subject.ltxt:1
 #, python-format
 msgid "Your MDN Monthly Subscription Receipt from %(payment_date)s"
-msgstr ""
+msgstr "%(payment_date)s からの MDN月次サブスクリプションの領収書"
 
 #: kuma/users/jinja2/users/email/recovery/plain.ltxt:2
 msgid "Hello from MDN!"
@@ -2227,7 +2225,7 @@ msgstr "ディスカッションフォーラム: <a href=\"%(list_link)s\">参�
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:38
 #, python-format
 msgid "Real-time chat: <a href=\"%(room_link)s\">#mdn room on chat.mozilla.org</a>.  (Get more info about <a href=\"%(matrix_link)s\">Matrix</a>.)"
-msgstr ""
+msgstr "リアルタイムチャット: <a href=\"%(room_link)s\">chat.mozilla.org の #mdn ルーム</a>  (<a href=\"%(matrix_link)s\">Matrix</a>についての詳細はこちら)"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/html.ltxt:48 kuma/users/jinja2/users/email/welcome/plain.ltxt:45
@@ -2236,9 +2234,8 @@ msgstr "遠慮はいりません。疑問や問題があればぜひご連絡く
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:7
-#, fuzzy
 msgid "Thanks for creating an account on MDN Web Docs -- a community making great resources for developers like you."
-msgstr "MDN Web Docs にプロファイルを作成していただき、ありがとうございます。ここはあなたのような開発者のための優れた資料を作成しているコミュニティです。"
+msgstr "MDN Web Docs のアカウントを作成していただき、ありがとうございます。ここはあなたのような開発者のために素晴らしいリソースを作るコミュニティです。"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:10
@@ -2280,9 +2277,8 @@ msgstr "参加して、MDN 上であなたが興味のあることを教えて�
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:39
-#, fuzzy
 msgid "Real-time chat: #mdn room on chat.mozilla.org"
-msgstr "リアルタイムチャット: irc.mozilla.org 上の #mdn チャンネル"
+msgstr "リアルタイムチャット: chat.mozilla.org 上の #mdn チャンネル"
 
 #. This is an email. Whitespace matters!
 #: kuma/users/jinja2/users/email/welcome/plain.ltxt:42
@@ -2292,15 +2288,15 @@ msgstr "Matrix の詳細は %(matrix_link)s を参照してください。"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:7
 msgid "Deleting your account loses any preferences you have set."
-msgstr ""
+msgstr "アカウントを削除すると、設定した項目はすべて失われます。"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:9 kuma/users/jinja2/users/includes/delete-user-content.html:18
 msgid "It will also cancel any MDN subscription you might have."
-msgstr ""
+msgstr "また、MDNサブスクリプションもすべてキャンセルされます。"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:11
 msgid "Although we can delete your account, any revisions you have made to pages on MDN will remain. Please select how would like us to handle the attribution for your changes."
-msgstr ""
+msgstr "アカウントを削除することはできますが、MDNのページに加えた変更はすべて残ります。変更内容の帰属をどうするか選択してください。"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:16
 msgid "Deleting your account loses any preferences you have set, as well as makes your username available for others to use."
@@ -2311,9 +2307,8 @@ msgid "Are you sure you want to continue?"
 msgstr "本当に続けますか？"
 
 #: kuma/users/jinja2/users/includes/delete-user-content.html:24
-#, fuzzy
 msgid "Yes, Delete my Account"
-msgstr "自分のアカウントを削除"
+msgstr "はい、アカウントを削除します"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
 #, fuzzy
