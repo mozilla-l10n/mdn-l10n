@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: MDN 2016.0\n"
 "Report-Msgid-Bugs-To: mdn-dev@mozilla.com\n"
 "POT-Creation-Date: 2021-03-02 16:30-0800\n"
-"PO-Revision-Date: 2021-03-21 06:45+0000\n"
+"PO-Revision-Date: 2021-03-21 06:53+0000\n"
 "Last-Translator: marsf <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: Japanese https://pontoon.mozilla.org/ja/\n"
 "Language: ja\n"
@@ -2311,13 +2311,12 @@ msgid "Yes, Delete my Account"
 msgstr "はい、アカウントを削除します"
 
 #: kuma/users/jinja2/users/includes/delete-user-modal.html:5
-#, fuzzy
 msgid "Delete your account?"
-msgstr "アカウントを削除"
+msgstr "アカウントを削除しますか？"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:19
 msgid "Stripe error"
-msgstr ""
+msgstr "Stripe エラー"
 
 #: kuma/users/jinja2/users/includes/stripe_subscription.html:21
 msgid "An error occurred trying to set up the subscription with Stripe's server. We've recorded the error and will investigate it."
@@ -2907,9 +2906,8 @@ msgid "Cannot delete pages with children until we fix this bug:"
 msgstr "このバグが修正されるまで子ページ付きのページを削除することはできません:"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:14
-#, fuzzy
 msgid "Here are the the children of this page"
-msgstr "ページ上にスクリプトの警告があります:"
+msgstr "これがこのページの子孫です"
 
 #: kuma/wiki/jinja2/wiki/confirm_document_delete.html:26 kuma/wiki/jinja2/wiki/confirm_revision_revert.html:21
 msgid "Creator"
@@ -3168,9 +3166,9 @@ msgid "Thank you for taking the time to improve MDN!"
 msgstr "MDN の改善に時間を取っていただきありがとうございます！"
 
 #: kuma/wiki/jinja2/wiki/edit.html:167
-#, fuzzy, python-format
+#, python-format
 msgid "It looks like this is your first contribution to MDN. You can find answers to common editing questions within our <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Editor Guide</a>."
-msgstr "MDN への貢献は初めてのようですね。編集に関する一般的な質問の答えは <a target=\"_blank\" href=\"%(url)s\">編集者ガイド</a> にあります。"
+msgstr "MDN への貢献は初めてのようですね。編集に関する一般的な質問の答えは <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">編集者ガイド</a> にあります。"
 
 #: kuma/wiki/jinja2/wiki/edit.html:171
 msgid "Don't be afraid to break something, you can always revert your changes."
@@ -3185,9 +3183,9 @@ msgid "Learn how to tag an article"
 msgstr "記事へのタグの付け方"
 
 #: kuma/wiki/jinja2/wiki/edit.html:196 kuma/wiki/jinja2/wiki/translate.html:131
-#, fuzzy, python-format
+#, python-format
 msgid "Categorize the article. It will make the article findable under the right filters in the search engine. <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">Read the Tagging Guide</a>."
-msgstr "記事のカテゴリーを設定してください。それにより、検索エンジンで絞り込みを行った場合にもこの記事を正しく見つけられるようになります。詳しくは <a target=\"_blank\" href=\"%(url)s\">タグ付けガイド</a> を参照してください。"
+msgstr "記事のカテゴリーを設定してください。それにより、検索エンジンで絞り込みを行った場合にもこの記事を正しく見つけられるようになります。詳しくは <a target=\"_blank\" rel=\"noopener\" href=\"%(url)s\">タグ付けガイド</a> を参照してください。"
 
 #: kuma/wiki/jinja2/wiki/feed_docs_updated.html:3
 #, python-format
@@ -3701,9 +3699,9 @@ msgid "We'll try to resolve the problem, and after that you will be able to resu
 msgstr "私達は問題の解決に取り組みますので、また後で編集内容を再送信してください。"
 
 #: kuma/wiki/jinja2/wiki/includes/spam_error.html:16
-#, fuzzy, python-format
+#, python-format
 msgid "If you are a spam moderator, you can <a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">mark this submission as ham</a> and try submitting it again."
-msgstr "あなたがスパム対応を担当している場合、<a href=\"%(akismet_submission_url)s\" target=\"_blank\">この投稿を非スパムとして処理し</a>、再度投稿してみることができます。"
+msgstr "あなたがスパム対応を担当している場合、<a href=\"%(akismet_submission_url)s\" target=\"_blank\" rel=\"noopener\">この投稿はスパムでないとし</a>、再度投稿してみることができます。"
 
 #: kuma/wiki/jinja2/wiki/includes/translate_description.html:6
 msgid "Translate Description"
